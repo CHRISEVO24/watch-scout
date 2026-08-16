@@ -1,0 +1,2074 @@
+[
+  {
+    "id": "match-fbgrp-wtb-nicktlc-54258",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-nicktlc",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB 126600 2023",
+      "brand": "Rolex",
+      "model": "Sea-Dweller",
+      "nickname": null,
+      "ref": "126600",
+      "buyerName": "Nick Tlc",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 54258,
+      "store": "WPB Watch Co",
+      "name": "Rolex Sea-Dweller “50th Anniversary” Stainless Steel Black Dial 126600",
+      "brand": "Rolex",
+      "model": "Sea-Dweller",
+      "ref": "126600",
+      "price": 14025,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-sea-dweller-50th-anniversary-stainless-steel-black-dial-126600-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.355Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-dannytiwaini-moda-54555",
+    "matchType": "ref_family",
+    "lead": {
+      "id": "fbgrp-wtb-dannytiwaini-moda",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB Used AP Royal Oak 26331OR Brown / Blue Dial Strap / Bracelet Complete",
+      "brand": "Audemars Piguet",
+      "model": "Royal Oak",
+      "nickname": null,
+      "ref": "26331OR",
+      "buyerName": "Danny Tiwaini",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 54555,
+      "store": "WPB Watch Co",
+      "name": "Audemars Piguet Royal Oak Chronograph Stainless Steel Black Dial 26331ST.OO.1220ST.02",
+      "brand": "Audemars Piguet",
+      "model": "Royal Oak",
+      "ref": "26331ST.OO.1220ST.02",
+      "price": 44500,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/audemars-piguet-royal-oak-chronograph-stainless-steel-black-dial-26331st-oo-1220st-02/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.356Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-dannytiwaini-moda-54900",
+    "matchType": "ref_family",
+    "lead": {
+      "id": "fbgrp-wtb-dannytiwaini-moda",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB Used AP Royal Oak 26331OR Brown / Blue Dial Strap / Bracelet Complete",
+      "brand": "Audemars Piguet",
+      "model": "Royal Oak",
+      "nickname": null,
+      "ref": "26331OR",
+      "buyerName": "Danny Tiwaini",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 54900,
+      "store": "WPB Watch Co",
+      "name": "Audemars Piguet Royal Oak Chronograph Frosted Limited Edition 70 White Gold Blue Dial 26331BC.GG.1224BC.02",
+      "brand": "Audemars Piguet",
+      "model": "Royal Oak",
+      "ref": "26331BC.GG.1224BC.02",
+      "price": 159500,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/audemars-piguet-royal-oak-chronograph-frosted-limited-edition-70-white-gold-blue-dial-26331bc-gg-1224bc-02/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.356Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-dannytiwaini-bay-54555",
+    "matchType": "ref_family",
+    "lead": {
+      "id": "fbgrp-wtb-dannytiwaini-bay",
+      "source": "FB Group",
+      "sourceDetail": "Bay Watch Club - WTB",
+      "title": "WTB Used AP Royal Oak 26331OR Brown / Blue Dial Strap / Bracelet Complete",
+      "brand": "Audemars Piguet",
+      "model": "Royal Oak",
+      "nickname": null,
+      "ref": "26331OR",
+      "buyerName": "Danny Tiwaini",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 54555,
+      "store": "WPB Watch Co",
+      "name": "Audemars Piguet Royal Oak Chronograph Stainless Steel Black Dial 26331ST.OO.1220ST.02",
+      "brand": "Audemars Piguet",
+      "model": "Royal Oak",
+      "ref": "26331ST.OO.1220ST.02",
+      "price": 44500,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/audemars-piguet-royal-oak-chronograph-stainless-steel-black-dial-26331st-oo-1220st-02/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.356Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-dannytiwaini-bay-54900",
+    "matchType": "ref_family",
+    "lead": {
+      "id": "fbgrp-wtb-dannytiwaini-bay",
+      "source": "FB Group",
+      "sourceDetail": "Bay Watch Club - WTB",
+      "title": "WTB Used AP Royal Oak 26331OR Brown / Blue Dial Strap / Bracelet Complete",
+      "brand": "Audemars Piguet",
+      "model": "Royal Oak",
+      "nickname": null,
+      "ref": "26331OR",
+      "buyerName": "Danny Tiwaini",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 54900,
+      "store": "WPB Watch Co",
+      "name": "Audemars Piguet Royal Oak Chronograph Frosted Limited Edition 70 White Gold Blue Dial 26331BC.GG.1224BC.02",
+      "brand": "Audemars Piguet",
+      "model": "Royal Oak",
+      "ref": "26331BC.GG.1224BC.02",
+      "price": 159500,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/audemars-piguet-royal-oak-chronograph-frosted-limited-edition-70-white-gold-blue-dial-26331bc-gg-1224bc-02/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.356Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-sammayfair-58733",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-sammayfair",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "#MDA WTB 278273 green 10 diamonds fresh",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "278273",
+      "buyerName": "Sam Mayfair",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 58733,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 31 Stainless Steel and Yellow Gold Silver Diamond Dial 278273",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "278273",
+      "price": 15155,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-31-stainless-steel-and-yellow-gold-silver-diamond-dial-278273/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.356Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-sammayfair-58758",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-sammayfair",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "#MDA WTB 278273 green 10 diamonds fresh",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "278273",
+      "buyerName": "Sam Mayfair",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 58758,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 31 Stainless Steel and Yellow Gold Champagne Diamond Dial 278273",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "278273",
+      "price": 17175,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-31-stainless-steel-and-yellow-gold-champagne-diamond-dial-278273/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.356Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-sammayfair-eci-10446886994210",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-sammayfair",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "#MDA WTB 278273 green 10 diamonds fresh",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "278273",
+      "buyerName": "Sam Mayfair",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": "eci-10446886994210",
+      "store": "ECI Jewelers",
+      "name": "Rolex 278273 Datejust 31 mm 18K Yellow Gold Fluted Bezel Champagne Diamond Dial Oyster Bracelet Box and Papers 2019",
+      "brand": "Rolex",
+      "model": "Datejust 278273",
+      "ref": "278273",
+      "price": 16500,
+      "dialColor": "Champagne Diamond",
+      "url": "https://ecijewelers.com/products/rolex-278273-datejust-31-mm-18k-yellow-gold-fluted-bezel-champagne-diamond-dial-oyster-bracelet-box-and-papers-2019"
+    },
+    "matchedAt": "2026-08-16T19:10:43.356Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-sammayfair-eci-10445895270690",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-sammayfair",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "#MDA WTB 278273 green 10 diamonds fresh",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "278273",
+      "buyerName": "Sam Mayfair",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": "eci-10445895270690",
+      "store": "ECI Jewelers",
+      "name": "Rolex 278273 Datejust 31 mm 18K Yellow Gold Fluted Bezel Silver Diamond Dial Oyster Bracelet Box 2017",
+      "brand": "Rolex",
+      "model": "Datejust 278273",
+      "ref": "278273",
+      "price": 14900,
+      "dialColor": "Silver Diamond",
+      "url": "https://ecijewelers.com/products/rolex-278273-datejust-31-mm-18k-yellow-gold-fluted-bezel-silver-diamond-dial-oyster-bracelet-box-2017"
+    },
+    "matchedAt": "2026-08-16T19:10:43.356Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-1-51549",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-1",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126518LN Paul Newman",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": "Paul Newman",
+      "ref": "126518LN",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 51549,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Yellow Gold “Meteorite” Dial 126518LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126518LN",
+      "price": 96500,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-yellow-gold-meteorite-dial-126518ln/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.357Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-1-55917",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-1",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126518LN Paul Newman",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": "Paul Newman",
+      "ref": "126518LN",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 55917,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Yellow Gold Black Ceramic Bezel Black Dial 126518LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126518LN",
+      "price": 54800,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-yellow-gold-black-ceramic-bezel-black-dial-126518ln/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.357Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-2-55935",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-2",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126508 Paul Newman",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": "Paul Newman",
+      "ref": "126508",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 55935,
+      "store": "WPB Watch Co",
+      "name": "Rolex Cosmograph Daytona Yellow Gold and White Dial 126508",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126508",
+      "price": 55000,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-cosmograph-daytona-yellow-gold-and-white-dial-126508/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.357Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-2-57413",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-2",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126508 Paul Newman",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": "Paul Newman",
+      "ref": "126508",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 57413,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Cosmograph Yellow Gold “Pickachu” Dial 126508",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126508",
+      "price": 72250,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-cosmograph-yellow-gold-pickachu-dial-126508-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.357Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-3-49586",
+    "matchType": "ref_family",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-3",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126518 Black Diamond",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "126518",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 49586,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Rose Gold “Chocolate” Dial 126515LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126515LN",
+      "price": 51550,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-rose-gold-chocolate-dial-126515ln/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.357Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-3-51549",
+    "matchType": "ref_family",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-3",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126518 Black Diamond",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "126518",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 51549,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Yellow Gold “Meteorite” Dial 126518LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126518LN",
+      "price": 96500,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-yellow-gold-meteorite-dial-126518ln/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.357Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-3-52300",
+    "matchType": "ref_family",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-3",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126518 Black Diamond",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "126518",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 52300,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona White Gold Stainless Steel Dial 126519LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126519LN",
+      "price": 56650,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-white-gold-stainless-steel-dial-126519ln/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.357Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-4-55935",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-4",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126508 Black Diamond",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "126508",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 55935,
+      "store": "WPB Watch Co",
+      "name": "Rolex Cosmograph Daytona Yellow Gold and White Dial 126508",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126508",
+      "price": 55000,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-cosmograph-daytona-yellow-gold-and-white-dial-126508/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.357Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-4-57413",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-4",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126508 Black Diamond",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "126508",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 57413,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Cosmograph Yellow Gold “Pickachu” Dial 126508",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126508",
+      "price": 72250,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-cosmograph-yellow-gold-pickachu-dial-126508-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.357Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-5-49586",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-5",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126515LN Sundust",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "126515LN",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 49586,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Rose Gold “Chocolate” Dial 126515LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126515LN",
+      "price": 51550,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-rose-gold-chocolate-dial-126515ln/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-5-53358",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-5",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126515LN Sundust",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "126515LN",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 53358,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Cosmograph Rose Gold Meteorite Dial 126515LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126515LN",
+      "price": 93000,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-cosmograph-rose-gold-meteorite-dial-126515ln/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-5-54479",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-5",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126515LN Sundust",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "126515LN",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 54479,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Rose Gold Chocolate Dial 126515LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126515LN",
+      "price": 49800,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-rose-gold-chocolate-dial-126515ln-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-5-56757",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-5",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126515LN Sundust",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "126515LN",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 56757,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Cosmograph Rose Gold Meteorite Dial 126515LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126515LN",
+      "price": 95500,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-cosmograph-rose-gold-meteorite-dial-126515ln-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-6-55907",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-6",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126505 Sundust",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "126505",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 55907,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Rose Gold and Sundust Dial 126505",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126505",
+      "price": 61850,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-rose-gold-and-sundust-dial-126505/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-6-55980",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-6",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126505 Sundust",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "126505",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 55980,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Rose Gold Sundust Dial 126505",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126505",
+      "price": 62750,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-rose-gold-sundust-dial-126505/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-6-58264",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-6",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126505 Sundust",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "126505",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 58264,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Rose Gold Black Dial 126505",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "126505",
+      "price": 58900,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-rose-gold-black-dial-126505-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-6-eci-10091852071202",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-6",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 126505 Sundust",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "126505",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": "eci-10091852071202",
+      "store": "ECI Jewelers",
+      "name": "Rolex 126505 Cosmograph Daytona 18K Rose Gold Chocolate Index Dial Oyster Bracelet Box and Papers 2026",
+      "brand": "Rolex",
+      "model": "Cosmograph Daytona 126505",
+      "ref": "126505",
+      "price": 69500,
+      "dialColor": "Chocolate Index Dial",
+      "url": "https://ecijewelers.com/products/rolex-126505-cosmograph-daytona-18k-rose-gold-chocolate-index-dial-oyster-bracelet-box-and-papers-2026"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-7-54446",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-7",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 116515LN Chocolate Arabic",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "116515LN",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 54446,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Rose Gold Black Dial 116515LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "116515LN",
+      "price": 43550,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-rose-gold-black-dial-116515ln-7/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-7-54880",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-7",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 116515LN Chocolate Arabic",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "116515LN",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 54880,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Rose Gold Black Ceramic Bezel Pink Diamond Dial 116515LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "116515LN",
+      "price": 47500,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-rose-gold-black-ceramic-bezel-pink-diamond-dial-116515ln/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-7-56385",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-7",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 116515LN Chocolate Arabic",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "116515LN",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 56385,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Rose Gold Brown Dial 116515LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "116515LN",
+      "price": 44700,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-rose-gold-brown-dial-116515ln/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-7-58085",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-7",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 116515LN Chocolate Arabic",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "116515LN",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 58085,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Rose Gold Black Diamond Dial 116515LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "116515LN",
+      "price": 45150,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-rose-gold-black-diamond-dial-116515ln/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-7-58283",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-7",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 116515LN Chocolate Arabic",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "116515LN",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 58283,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Rose Gold Pink Dial 116515LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "116515LN",
+      "price": 42550,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-rose-gold-pink-dial-116515ln-4/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-7-58440",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-7",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 116515LN Chocolate Arabic",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "116515LN",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 58440,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Rose Gold Brown Arabic Dial 116515LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "116515LN",
+      "price": 37750,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-rose-gold-brown-arabic-dial-116515ln/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-7-58743",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-7",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 116515LN Chocolate Arabic",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "116515LN",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 58743,
+      "store": "WPB Watch Co",
+      "name": "Rolex Daytona Rose Gold Brown Arabic Dial 116515LN",
+      "brand": "Rolex",
+      "model": "Daytona",
+      "ref": "116515LN",
+      "price": 36475,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-daytona-rose-gold-brown-arabic-dial-116515ln-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-7-eci-10442896245026",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-7",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 116515LN Chocolate Arabic",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "116515LN",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": "eci-10442896245026",
+      "store": "ECI Jewelers",
+      "name": "Rolex 116515LN Daytona 18K Rose Gold Chocolate Arabic Dial Black Ceramic Bezel Oysterflex Bracelet Box and Papers 2015",
+      "brand": "Rolex",
+      "model": "Daytona 116515LN",
+      "ref": "116515LN",
+      "price": 36500,
+      "dialColor": "Chocolate",
+      "url": "https://ecijewelers.com/products/rolex-116515ln-daytona-18k-rose-gold-chocolate-arabic-dial-black-ceramic-bezel-oysterflex-bracelet-box-and-papers-2015"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-wtb-mjwhuang-7-eci-10147467985186",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-wtb-mjwhuang-7",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "WTB New & Preowned 116515LN Chocolate Arabic",
+      "brand": "Rolex",
+      "model": null,
+      "nickname": null,
+      "ref": "116515LN",
+      "buyerName": "Mjw Huang",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": "eci-10147467985186",
+      "store": "ECI Jewelers",
+      "name": "Rolex 116515LN Daytona 18K Rose Gold Chocolate Arabic Dial Black Ceramic Bezel Oysterflex Bracelet Box and Papers 2018",
+      "brand": "Rolex",
+      "model": "Daytona 116515LN",
+      "ref": "116515LN",
+      "price": 42900,
+      "dialColor": "Chocolate",
+      "url": "https://ecijewelers.com/products/rolex-116515ln-daytona-18k-rose-gold-chocolate-arabic-dial-black-ceramic-bezel-oysterflex-bracelet-box-and-papers-2018"
+    },
+    "matchedAt": "2026-08-16T19:10:43.358Z"
+  },
+  {
+    "id": "match-fbgrp-moda-jorgeahe-126610ln-54786",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-jorgeahe-126610ln",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "Wtb 41mm 126610LN",
+      "brand": "Rolex",
+      "model": "Submariner Date",
+      "nickname": null,
+      "ref": "126610LN",
+      "buyerName": "Jorge Ahe",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 54786,
+      "store": "WPB Watch Co",
+      "name": "Rolex Submariner Date Stainless Steel Black Dial 126610LN",
+      "brand": "Rolex",
+      "model": "Submariner Date",
+      "ref": "126610LN",
+      "price": 16950,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-submariner-date-stainless-steel-black-dial-126610ln-7/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-jorgeahe-126610ln-55376",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-jorgeahe-126610ln",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "Wtb 41mm 126610LN",
+      "brand": "Rolex",
+      "model": "Submariner Date",
+      "nickname": null,
+      "ref": "126610LN",
+      "buyerName": "Jorge Ahe",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 55376,
+      "store": "WPB Watch Co",
+      "name": "Rolex Submariner Date Black Bezel Stainless Steel Black Dial 126610LN",
+      "brand": "Rolex",
+      "model": "Submariner Date",
+      "ref": "126610LN",
+      "price": 15475,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-submariner-date-black-bezel-stainless-steel-black-dial-126610ln-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-jorgeahe-126610ln-eci-10307630596386",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-jorgeahe-126610ln",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "Wtb 41mm 126610LN",
+      "brand": "Rolex",
+      "model": "Submariner Date",
+      "nickname": null,
+      "ref": "126610LN",
+      "buyerName": "Jorge Ahe",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": "eci-10307630596386",
+      "store": "ECI Jewelers",
+      "name": "Rolex 126610LN Submariner Date 41 mm Ceramic Bezel Black Dial Stainless Steel Box and Papers 2025",
+      "brand": "Rolex",
+      "model": "Submariner Date 126610LN | 126610LN-0001",
+      "ref": "126610LN",
+      "price": 15500,
+      "dialColor": "Black Dial",
+      "url": "https://ecijewelers.com/products/rolex-126610ln-submariner-date-41-mm-ceramic-bezel-black-dial-stainless-steel-box-and-papers-2027"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-jorgeahe-kermit-54215",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-jorgeahe-kermit",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "Wtb Kermit 126610LV full set",
+      "brand": "Rolex",
+      "model": "Submariner",
+      "nickname": "Kermit",
+      "ref": "126610LV",
+      "buyerName": "Jorge Ahe",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 54215,
+      "store": "WPB Watch Co",
+      "name": "Rolex Submariner Date Stainless Steel “Starbucks” Black Dial 126610LV",
+      "brand": "Rolex",
+      "model": "Submariner Date",
+      "ref": "126610LV",
+      "price": 17175,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-submariner-date-stainless-steel-starbucks-black-dial-126610lv/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-jorgeahe-kermit-54227",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-jorgeahe-kermit",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "Wtb Kermit 126610LV full set",
+      "brand": "Rolex",
+      "model": "Submariner",
+      "nickname": "Kermit",
+      "ref": "126610LV",
+      "buyerName": "Jorge Ahe",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 54227,
+      "store": "WPB Watch Co",
+      "name": "Rolex Submariner Date Stainless Steel “Starbucks” Black Dial 126610LV",
+      "brand": "Rolex",
+      "model": "Submariner Date",
+      "ref": "126610LV",
+      "price": 17075,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-submariner-date-stainless-steel-starbucks-black-dial-126610lv-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-jorgeahe-kermit-55134",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-jorgeahe-kermit",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "Wtb Kermit 126610LV full set",
+      "brand": "Rolex",
+      "model": "Submariner",
+      "nickname": "Kermit",
+      "ref": "126610LV",
+      "buyerName": "Jorge Ahe",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 55134,
+      "store": "WPB Watch Co",
+      "name": "Rolex Submariner Date Stainless Steel “Starbucks” Black Dial 126610LV",
+      "brand": "Rolex",
+      "model": "Submariner Date",
+      "ref": "126610LV",
+      "price": 17425,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-submariner-date-stainless-steel-starbucks-black-dial-126610lv-3/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-jorgeahe-kermit-eci-10142388650274",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-jorgeahe-kermit",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "Wtb Kermit 126610LV full set",
+      "brand": "Rolex",
+      "model": "Submariner",
+      "nickname": "Kermit",
+      "ref": "126610LV",
+      "buyerName": "Jorge Ahe",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": "eci-10142388650274",
+      "store": "ECI Jewelers",
+      "name": "Rolex 126610LV Submariner Date 41 mm \"Starbucks\" Green Bezel Black Dial Box and Papers 2026",
+      "brand": "Rolex",
+      "model": "Submariner Date 126610LV | 126610LV-0002",
+      "ref": "126610LV",
+      "price": 17500,
+      "dialColor": "Black Dial",
+      "url": "https://ecijewelers.com/products/rolex-126610lv-submariner-date-41-mm-starbucks-green-bezel-black-dial-box-and-papers-2026"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-jorgeahe-kermit-eci-9710379761954",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-jorgeahe-kermit",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "Wtb Kermit 126610LV full set",
+      "brand": "Rolex",
+      "model": "Submariner",
+      "nickname": "Kermit",
+      "ref": "126610LV",
+      "buyerName": "Jorge Ahe",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": "eci-9710379761954",
+      "store": "ECI Jewelers",
+      "name": "Rolex 126610LV Submariner Date 41 mm \"Starbucks\" Green Bezel Black Dial Box and Papers 2025",
+      "brand": "Rolex",
+      "model": "Submariner Date 126610LV | 126610LV-0002",
+      "ref": "126610LV",
+      "price": 16500,
+      "dialColor": "Black Dial",
+      "url": "https://ecijewelers.com/products/rolex-126610lv-submariner-date-41-mm-green-bezel-black-dial-starbucks-complete-set-2025"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-grahammoda-126234-52247",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-grahammoda-126234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "NTQ 126234 blue diamond 2026",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "126234",
+      "buyerName": "Graham Moda",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 52247,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel/White Gold Pink Jubilee Diamond Dial 126234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "126234",
+      "price": 10675,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-white-gold-pink-jubilee-diamond-dial-126234/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-grahammoda-126234-55978",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-grahammoda-126234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "NTQ 126234 blue diamond 2026",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "126234",
+      "buyerName": "Graham Moda",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 55978,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel and White Gold Silver Dial 126234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "126234",
+      "price": 14975,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-silver-dial-126234-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-grahammoda-126234-56990",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-grahammoda-126234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "NTQ 126234 blue diamond 2026",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "126234",
+      "buyerName": "Graham Moda",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 56990,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel and White Gold Silver Dial 126234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "126234",
+      "price": 12475,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-silver-dial-126234-4/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-grahammoda-126234-57560",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-grahammoda-126234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "NTQ 126234 blue diamond 2026",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "126234",
+      "buyerName": "Graham Moda",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 57560,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel and White Gold Blue Roman Dial 126234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "126234",
+      "price": 13900,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-blue-roman-dial-126234/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-grahammoda-126234-58130",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-grahammoda-126234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "NTQ 126234 blue diamond 2026",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "126234",
+      "buyerName": "Graham Moda",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 58130,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel and White Gold Mint Green Dial 126234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "126234",
+      "price": 17950,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-mint-green-dial-126234/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-grahammoda-126234-58134",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-grahammoda-126234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "NTQ 126234 blue diamond 2026",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "126234",
+      "buyerName": "Graham Moda",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 58134,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel and White Gold Mint Green Dial 126234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "126234",
+      "price": 14675,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-mint-green-dial-126234-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-grahammoda-126234-58407",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-grahammoda-126234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "NTQ 126234 blue diamond 2026",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "126234",
+      "buyerName": "Graham Moda",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 58407,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel and White Gold Black Dial 126234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "126234",
+      "price": 13475,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-black-dial-126234-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-grahammoda-126234-58485",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-grahammoda-126234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "NTQ 126234 blue diamond 2026",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "126234",
+      "buyerName": "Graham Moda",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 58485,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel and White Gold Wimbledon Roman Dial 126234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "126234",
+      "price": 15100,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-wimbledon-roman-dial-126234/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-grahammoda-126234-58489",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-grahammoda-126234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "NTQ 126234 blue diamond 2026",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "126234",
+      "buyerName": "Graham Moda",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 58489,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel and White Gold Silver Dial 126234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "126234",
+      "price": 9950,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-silver-dial-126234-5/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-grahammoda-126234-58671",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-grahammoda-126234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "NTQ 126234 blue diamond 2026",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "126234",
+      "buyerName": "Graham Moda",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 58671,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel and White Gold Brown Roman VIIX Diamond Dial 126234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "126234",
+      "price": 17650,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-brown-roman-viix-diamond-dial-126234/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-grahammoda-126234-eci-10130689655074",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-grahammoda-126234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "NTQ 126234 blue diamond 2026",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "126234",
+      "buyerName": "Graham Moda",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": "eci-10130689655074",
+      "store": "ECI Jewelers",
+      "name": "Rolex 126234 Datejust 36 mm Fluted Bezel Blue Index Dial Jubilee Bracelet Box and Papers 2026",
+      "brand": "Rolex",
+      "model": "Datejust 126234 | 126234",
+      "ref": "126234",
+      "price": 16500,
+      "dialColor": "Blue Index Dial",
+      "url": "https://ecijewelers.com/products/rolex-126234-datejust-36-mm-fluted-bezel-blue-index-dial-jubilee-bracelet-box-and-papers-2026"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-grahammoda-126234-eci-10043313750306",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-grahammoda-126234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "NTQ 126234 blue diamond 2026",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "126234",
+      "buyerName": "Graham Moda",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": "eci-10043313750306",
+      "store": "ECI Jewelers",
+      "name": "Rolex 126234 Datejust 36 mm 18K Whited Gold Fluted Bezel Silver Index Dial Jubilee Bracelet Box and Papers 2019",
+      "brand": "Rolex",
+      "model": "Datejust 126234 | 126234",
+      "ref": "126234",
+      "price": 12900,
+      "dialColor": "Silver Index",
+      "url": "https://ecijewelers.com/products/rolex-126234-datejust-36-mm-fluted-bezel-white-roman-dial-jubilee-bracelet-box-and-papers-2021-copy"
+    },
+    "matchedAt": "2026-08-16T19:10:43.359Z"
+  },
+  {
+    "id": "match-fbgrp-moda-bennyrich-228239-eci-10431616450850",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-bennyrich-228239",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "Looking for white gold flooded / iced out president (who offered me this 228239)",
+      "brand": null,
+      "model": null,
+      "nickname": null,
+      "ref": "228239",
+      "buyerName": "Benny Rich",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": "eci-10431616450850",
+      "store": "ECI Jewelers",
+      "name": "Rolex 228239 Day-Date 40 mm 18K White Gold Fluted Bezel Blue Bevelled Roman Dial President Bracelet Box and Papers 2021",
+      "brand": "Rolex",
+      "model": "Day-Date 228239",
+      "ref": "228239",
+      "price": 45500,
+      "dialColor": "Blue Bevelled Roman Dial",
+      "url": "https://ecijewelers.com/products/rolex-228239-day-date-40-mm-18k-white-gold-fluted-bezel-blue-bevelled-roman-dial-president-bracelet-box-and-papers-2021"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-fbgrp-moda-davidkim-16234-52708",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-davidkim-16234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "#rwb ISO 16234 dj with tapestry dial",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "16234",
+      "buyerName": "David Kim",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 52708,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel/White Gold White Roman Dial 16234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "16234",
+      "price": 7800,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-white-gold-white-roman-dial-16234/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-fbgrp-moda-davidkim-16234-54410",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-davidkim-16234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "#rwb ISO 16234 dj with tapestry dial",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "16234",
+      "buyerName": "David Kim",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 54410,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel/White Gold Silver Roman Dial 16234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "16234",
+      "price": 7700,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-white-gold-silver-roman-dial-16234-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-fbgrp-moda-davidkim-16234-54758",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-davidkim-16234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "#rwb ISO 16234 dj with tapestry dial",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "16234",
+      "buyerName": "David Kim",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 54758,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel and White Gold with Blue Dial 16234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "16234",
+      "price": 8550,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-with-blue-dial-16234/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-fbgrp-moda-davidkim-16234-55655",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-davidkim-16234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "#rwb ISO 16234 dj with tapestry dial",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "16234",
+      "buyerName": "David Kim",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 55655,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel/White Gold MOP Arabic Dial 16234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "16234",
+      "price": 10025,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-white-gold-mop-arabic-dial-16234/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-fbgrp-moda-davidkim-16234-55807",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-davidkim-16234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "#rwb ISO 16234 dj with tapestry dial",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "16234",
+      "buyerName": "David Kim",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 55807,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel and White Gold Silver Dial 16234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "16234",
+      "price": 8050,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-silver-dial-16234-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-fbgrp-moda-davidkim-16234-57636",
+    "matchType": "ref",
+    "lead": {
+      "id": "fbgrp-moda-davidkim-16234",
+      "source": "FB Group",
+      "sourceDetail": "Moda Watch Club - WTB/ISO",
+      "title": "#rwb ISO 16234 dj with tapestry dial",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "nickname": null,
+      "ref": "16234",
+      "buyerName": "David Kim",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 57636,
+      "store": "WPB Watch Co",
+      "name": "Rolex Datejust 36 Stainless Steel and White Gold Blue Roman Dial 16234",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "ref": "16234",
+      "price": 8475,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-blue-roman-dial-16234/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-wa-336935-wtb1-54634",
+    "matchType": "ref",
+    "lead": {
+      "id": "wa-336935-wtb1",
+      "source": "WhatsApp",
+      "sourceDetail": "US Verified Dealers Only",
+      "title": "WTB 336935 blue sky oyster mint full set",
+      "brand": "Rolex",
+      "model": "Sky-Dweller",
+      "nickname": null,
+      "ref": "336935",
+      "buyerName": null,
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 54634,
+      "store": "WPB Watch Co",
+      "name": "Rolex Sky-Dweller Rose Gold Chocolate Dial 336935",
+      "brand": "Rolex",
+      "model": "Sky-Dweller",
+      "ref": "336935",
+      "price": 62650,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-sky-dweller-rose-gold-chocolate-dial-336935/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-wa-336935-wtb1-57615",
+    "matchType": "ref",
+    "lead": {
+      "id": "wa-336935-wtb1",
+      "source": "WhatsApp",
+      "sourceDetail": "US Verified Dealers Only",
+      "title": "WTB 336935 blue sky oyster mint full set",
+      "brand": "Rolex",
+      "model": "Sky-Dweller",
+      "nickname": null,
+      "ref": "336935",
+      "buyerName": null,
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 57615,
+      "store": "WPB Watch Co",
+      "name": "Rolex Sky-Dweller Rose Gold Grey Stick Dial 336935",
+      "brand": "Rolex",
+      "model": "Sky-Dweller",
+      "ref": "336935",
+      "price": 66750,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-sky-dweller-rose-gold-grey-stick-dial-336935/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-wa-336935-wtb1-58633",
+    "matchType": "ref",
+    "lead": {
+      "id": "wa-336935-wtb1",
+      "source": "WhatsApp",
+      "sourceDetail": "US Verified Dealers Only",
+      "title": "WTB 336935 blue sky oyster mint full set",
+      "brand": "Rolex",
+      "model": "Sky-Dweller",
+      "nickname": null,
+      "ref": "336935",
+      "buyerName": null,
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 58633,
+      "store": "WPB Watch Co",
+      "name": "Rolex Sky-Dweller Rose Gold Blue Stick Dial 336935",
+      "brand": "Rolex",
+      "model": "Sky-Dweller",
+      "ref": "336935",
+      "price": 61500,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-sky-dweller-rose-gold-blue-stick-dial-336935-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-wa-336935-wtb1-eci-10433179681058",
+    "matchType": "ref",
+    "lead": {
+      "id": "wa-336935-wtb1",
+      "source": "WhatsApp",
+      "sourceDetail": "US Verified Dealers Only",
+      "title": "WTB 336935 blue sky oyster mint full set",
+      "brand": "Rolex",
+      "model": "Sky-Dweller",
+      "nickname": null,
+      "ref": "336935",
+      "buyerName": null,
+      "url": null
+    },
+    "inventoryItem": {
+      "id": "eci-10433179681058",
+      "store": "ECI Jewelers",
+      "name": "Rolex 336935 Sky-Dweller 42 mm 18K Rose Gold Fluted Bezel Blue Index Dial Jubilee Bracelet Box and Papers 2026",
+      "brand": "Rolex",
+      "model": "Sky-Dweller 336935 | 336935-0005",
+      "ref": "336935",
+      "price": 77500,
+      "dialColor": "Blue Dial",
+      "url": "https://ecijewelers.com/products/rolex-336935-sky-dweller-42-mm-18k-rose-gold-fluted-bezel-blue-index-dial-jubilee-bracelet-box-and-papers-2026"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-wa-336935-wtb2-54634",
+    "matchType": "ref",
+    "lead": {
+      "id": "wa-336935-wtb2",
+      "source": "WhatsApp",
+      "sourceDetail": "ONLY WTB & NTQ: NO SELLING",
+      "title": "336935 jubilee blue",
+      "brand": "Rolex",
+      "model": "Sky-Dweller",
+      "nickname": null,
+      "ref": "336935",
+      "buyerName": null,
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 54634,
+      "store": "WPB Watch Co",
+      "name": "Rolex Sky-Dweller Rose Gold Chocolate Dial 336935",
+      "brand": "Rolex",
+      "model": "Sky-Dweller",
+      "ref": "336935",
+      "price": 62650,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-sky-dweller-rose-gold-chocolate-dial-336935/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-wa-336935-wtb2-57615",
+    "matchType": "ref",
+    "lead": {
+      "id": "wa-336935-wtb2",
+      "source": "WhatsApp",
+      "sourceDetail": "ONLY WTB & NTQ: NO SELLING",
+      "title": "336935 jubilee blue",
+      "brand": "Rolex",
+      "model": "Sky-Dweller",
+      "nickname": null,
+      "ref": "336935",
+      "buyerName": null,
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 57615,
+      "store": "WPB Watch Co",
+      "name": "Rolex Sky-Dweller Rose Gold Grey Stick Dial 336935",
+      "brand": "Rolex",
+      "model": "Sky-Dweller",
+      "ref": "336935",
+      "price": 66750,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-sky-dweller-rose-gold-grey-stick-dial-336935/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-wa-336935-wtb2-58633",
+    "matchType": "ref",
+    "lead": {
+      "id": "wa-336935-wtb2",
+      "source": "WhatsApp",
+      "sourceDetail": "ONLY WTB & NTQ: NO SELLING",
+      "title": "336935 jubilee blue",
+      "brand": "Rolex",
+      "model": "Sky-Dweller",
+      "nickname": null,
+      "ref": "336935",
+      "buyerName": null,
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 58633,
+      "store": "WPB Watch Co",
+      "name": "Rolex Sky-Dweller Rose Gold Blue Stick Dial 336935",
+      "brand": "Rolex",
+      "model": "Sky-Dweller",
+      "ref": "336935",
+      "price": 61500,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-sky-dweller-rose-gold-blue-stick-dial-336935-2/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-wa-336935-wtb2-eci-10433179681058",
+    "matchType": "ref",
+    "lead": {
+      "id": "wa-336935-wtb2",
+      "source": "WhatsApp",
+      "sourceDetail": "ONLY WTB & NTQ: NO SELLING",
+      "title": "336935 jubilee blue",
+      "brand": "Rolex",
+      "model": "Sky-Dweller",
+      "nickname": null,
+      "ref": "336935",
+      "buyerName": null,
+      "url": null
+    },
+    "inventoryItem": {
+      "id": "eci-10433179681058",
+      "store": "ECI Jewelers",
+      "name": "Rolex 336935 Sky-Dweller 42 mm 18K Rose Gold Fluted Bezel Blue Index Dial Jubilee Bracelet Box and Papers 2026",
+      "brand": "Rolex",
+      "model": "Sky-Dweller 336935 | 336935-0005",
+      "ref": "336935",
+      "price": 77500,
+      "dialColor": "Blue Dial",
+      "url": "https://ecijewelers.com/products/rolex-336935-sky-dweller-42-mm-18k-rose-gold-fluted-bezel-blue-index-dial-jubilee-bracelet-box-and-papers-2026"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-ic-wtb-live-0-128235-56743",
+    "matchType": "ref",
+    "lead": {
+      "id": "ic-wtb-live-0-128235",
+      "source": "InventoryConnect Marketplace",
+      "sourceDetail": "Wanted (WTB)",
+      "title": "WANTED: Rolex Day-Dare - Ref. 128235 · green dial · president · full_set · 2022–2026 - Up to $70,000.00",
+      "brand": "Rolex",
+      "model": "Rolex Day-Dare",
+      "nickname": null,
+      "ref": "128235",
+      "buyerName": "Johnycarribean",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 56743,
+      "store": "WPB Watch Co",
+      "name": "Rolex Day-Date 36mm Rose Gold Chocolate Diamond Dial 128235",
+      "brand": "Rolex",
+      "model": "Day-Date",
+      "ref": "128235",
+      "price": 52500,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-day-date-36mm-rose-gold-chocolate-diamond-dial-128235/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-ic-wtb-live-0-128235-eci-10153026060578",
+    "matchType": "ref",
+    "lead": {
+      "id": "ic-wtb-live-0-128235",
+      "source": "InventoryConnect Marketplace",
+      "sourceDetail": "Wanted (WTB)",
+      "title": "WANTED: Rolex Day-Dare - Ref. 128235 · green dial · president · full_set · 2022–2026 - Up to $70,000.00",
+      "brand": "Rolex",
+      "model": "Rolex Day-Dare",
+      "nickname": null,
+      "ref": "128235",
+      "buyerName": "Johnycarribean",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": "eci-10153026060578",
+      "store": "ECI Jewelers",
+      "name": "Rolex 128235 Day-Date 36 mm 18K Rose Gold Fluted Bezel White Roman Dial President Bracelet Box and Papers 2024",
+      "brand": "Rolex",
+      "model": "Day-Date 128235",
+      "ref": "128235",
+      "price": 48500,
+      "dialColor": "White Roman Dial",
+      "url": "https://ecijewelers.com/products/rolex-128235-day-date-36-mm-18k-rose-gold-fluted-bezel-white-roman-dial-president-bracelet-box-and-papers-2024"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-ic-wtb-live-0-128235-eci-10048366379298",
+    "matchType": "ref",
+    "lead": {
+      "id": "ic-wtb-live-0-128235",
+      "source": "InventoryConnect Marketplace",
+      "sourceDetail": "Wanted (WTB)",
+      "title": "WANTED: Rolex Day-Dare - Ref. 128235 · green dial · president · full_set · 2022–2026 - Up to $70,000.00",
+      "brand": "Rolex",
+      "model": "Rolex Day-Dare",
+      "nickname": null,
+      "ref": "128235",
+      "buyerName": "Johnycarribean",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": "eci-10048366379298",
+      "store": "ECI Jewelers",
+      "name": "Rolex 128235 Day-Date 36 mm 18K Rose Gold Blue Dial President Bracelet Box and Papers 2026",
+      "brand": "Rolex",
+      "model": "Day-Date 128235",
+      "ref": "128235",
+      "price": 56500,
+      "dialColor": "Blue Index Dial",
+      "url": "https://ecijewelers.com/products/rolex-126281rbr-datejust-36-mm-18k-rose-gold-rose-roman-dial-jubilee-bracelet-box-and-papers-2025-copy"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  },
+  {
+    "id": "match-ic-wtb-live-1-116710BLNR-52154",
+    "matchType": "ref",
+    "lead": {
+      "id": "ic-wtb-live-1-116710BLNR",
+      "source": "InventoryConnect Marketplace",
+      "sourceDetail": "Wanted (WTB)",
+      "title": "WANTED: Rolex GMT - Ref. 116710BLNR · black dial · full_set · 2014–2018 - Up to $14,000.00",
+      "brand": "Rolex",
+      "model": "Rolex GMT",
+      "nickname": null,
+      "ref": "116710BLNR",
+      "buyerName": "Crown & Counsel, LLC",
+      "url": null
+    },
+    "inventoryItem": {
+      "id": 52154,
+      "store": "WPB Watch Co",
+      "name": "Rolex GMT-Master II “Batman” Stainless Steel Black Dial 116710BLNR",
+      "brand": "Rolex",
+      "model": "GMT-Master II",
+      "ref": "116710BLNR",
+      "price": 17375,
+      "dialColor": null,
+      "url": "https://wpbwatchco.com/product/rolex-gmt-master-ii-batman-stainless-steel-black-dial-116710blnr/"
+    },
+    "matchedAt": "2026-08-16T19:10:43.360Z"
+  }
+]

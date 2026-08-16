@@ -1,0 +1,16 @@
+node_modules/
+.env
+.DS_Store
+data/wa-groups.json
+data/wa-session/
+data/fb-cookies.json
+data/messenger-profile/
+data/messenger-groups.json
+data/messenger-current-job.json
+scrapers/whatsapp-broadcaster.js
+scrapers/messenger-poster.js
+fb-poster.html
+.wwebjs_cache/
+*.log
+*.py
+data/inventoryconnect-cookies.json
