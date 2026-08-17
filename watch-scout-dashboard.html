@@ -349230,7 +349230,7 @@ function buildMsg(item){
     const m=String(item.year).match(/\d{4}/);
     if(m)yr=m[0];
   }
-  return [item.name,'',p,yr?'Year: '+yr:null,'','Wire first / DM for Availability','Cross Posted','','For purchases made in Florida Sales Tax will need to be collected or a reseller\'s certificate must be provided.','','WPB Watch Co | West Palm Beach, FL'].filter(l=>l!==null).join('\n');
+  return [item.name,'',p+' + Label',yr?'Year: '+yr:null,'','Wire first / DM for Availability','Cross Posted','','For purchases made in Florida Sales Tax will need to be collected or a reseller\'s certificate must be provided.','','WPB Watch Co | West Palm Beach, FL'].filter(l=>l!==null).join('\n');
 }
 function invCard(item,pfx){
   const p=prc(item.price);const pd=p?('$'+p.toLocaleString()):'--';
@@ -349377,14 +349377,23 @@ function openFb(item,pfx){
   el.value=msg;document.body.appendChild(el);el.select();document.execCommand('copy');document.body.removeChild(el);
   alert('Post text copied to clipboard!\n\nNow paste it into Facebook Groups.');
 }
-function openMsg(item,pfx){
+async function openMsg(item,pfx){
   if(!item)return;
   const msg=buildMsg(item);
+  let imagePath=null;
+  // Pre-fetch image to local disk so Messenger poster can attach it
+  const imgUrl=(item.images&&item.images[0])||item.image||item.imageUrl||null;
+  if(imgUrl){
+    try{
+      const d=await fetch('/api/fetch-product-image?url='+encodeURIComponent(imgUrl)).then(r=>r.json());
+      if(d.ok)imagePath=d.imagePath;
+    }catch(e){console.warn('Messenger image fetch failed:',e.message);}
+  }
   fetch('/api/messenger/groups').then(r=>r.json()).then(d=>{
     const threads=d.groups||[];
     if(!threads.length){alert('No Messenger threads configured.');return;}
-    fetch('/api/messenger/start-posting',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({itemId:item.id,itemName:item.name,message:msg,imagePath:item.image||item.imageUrl||null,threads:threads.map(t=>({...t,status:'pending'}))})});
-    alert('Messenger posting started to '+threads.length+' thread(s).');
+    fetch('/api/messenger/start-posting',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({itemId:item.id,itemName:item.name,message:msg,imagePath,threads:threads.map(t=>({...t,status:'pending'}))})});
+    alert('\u2713 Messenger posting started to '+threads.length+' thread(s)'+(imagePath?' with image':'')+'.');
   }).catch(e=>alert('Messenger error: '+e.message));
 }
 function addBubble(role,text){const wrap=document.getElementById('chronMsgs');const d=document.createElement('div');d.className=role==='user'?'bu':'ba';d.textContent=text;wrap.appendChild(d);wrap.scrollTop=wrap.scrollHeight;return d;}
