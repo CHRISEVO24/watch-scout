@@ -349370,12 +349370,34 @@ async function sendWaMsg(){
   }catch(e){res.textContent='Error: '+e.message;}
 }
 function closeWa(){document.getElementById('waModal').classList.remove('open');}
-function openFb(item,pfx){
+async function openFb(item,pfx){
   if(!item)return;
   const msg=buildMsg(item);
-  const el=document.createElement('textarea');
-  el.value=msg;document.body.appendChild(el);el.select();document.execCommand('copy');document.body.removeChild(el);
-  alert('Post text copied to clipboard!\n\nNow paste it into Facebook Groups.');
+  // Fetch FB groups
+  let groups=[];
+  try{const d=await fetch('/api/fb/groups').then(r=>r.json());groups=d.groups||[];}catch(e){}
+  if(!groups.length){
+    // Fallback: copy to clipboard
+    const el=document.createElement('textarea');
+    el.value=msg;document.body.appendChild(el);el.select();document.execCommand('copy');document.body.removeChild(el);
+    alert('No Facebook groups configured.\nPost text copied to clipboard instead.');
+    return;
+  }
+  // Pre-fetch image
+  let imagePath=null;
+  const imgUrl=(item.images&&item.images[0])||item.image||item.imageUrl||null;
+  if(imgUrl){
+    try{const d=await fetch('/api/fetch-product-image?url='+encodeURIComponent(imgUrl)).then(r=>r.json());if(d.ok)imagePath=d.imagePath;}
+    catch(e){console.warn('FB image fetch failed:',e.message);}
+  }
+  // Start posting via Playwright broadcaster
+  const body={itemId:String(item.id),itemName:item.name,itemUrl:item.url||null,message:msg,imagePath,groups};
+  const d=await fetch('/api/fb/start-posting',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}).then(r=>r.json());
+  if(d.ok){
+    alert('\u2713 Facebook posting started to '+groups.length+' group(s).'+(imagePath?' Image attached.':'')+'\n\nCheck your terminal for progress.');
+  } else {
+    alert('Facebook posting error: '+(d.error||'unknown'));
+  }
 }
 async function openMsg(item,pfx){
   if(!item)return;
