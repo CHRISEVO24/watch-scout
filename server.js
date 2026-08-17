@@ -302,6 +302,22 @@ app.get("/api/fetch-product-image", async (req, res) => {
 
   try {
     const axios = require("axios");
+
+    // If URL is a direct image file, download it immediately — no scraping needed
+    const isDirectImage = /\.(jpg|jpeg|png|webp|gif)(\?|$)/i.test(url);
+    if (isDirectImage) {
+      const imgResp = await axios.get(url, {
+        responseType: "arraybuffer",
+        headers: { "User-Agent": "Mozilla/5.0" },
+        timeout: 15000
+      });
+      const ext = url.split("?")[0].split(".").pop() || "jpg";
+      const tmpPath = require("path").join(require("os").tmpdir(), `wa-img-${Date.now()}.${ext}`);
+      require("fs").writeFileSync(tmpPath, imgResp.data);
+      console.log(`[IMG] Direct image downloaded: ${tmpPath}`);
+      return res.json({ ok: true, imagePath: tmpPath, imagePaths: [tmpPath], imageUrl: url, imageUrls: [url], count: 1 });
+    }
+
     const response = await axios.get(url, {
       headers: {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
