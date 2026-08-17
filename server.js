@@ -561,3 +561,31 @@ app.get("/api/fetch-eci-image", async (req, res) => {
     res.json({ ok: false, error: err.message });
   }
 });
+
+app.get("/api/inventory", async (req, res) => {
+  try {
+    const axios = require("axios");
+    const { data: history } = await axios.get("https://chrisevo24.github.io/wpb-tracker/history.json", { timeout: 20000 });
+    const timestamps = Object.keys(history).sort();
+    if (!timestamps.length) return res.json([]);
+    const snapshot = history[timestamps[timestamps.length - 1]];
+    res.json(Object.values(snapshot));
+  } catch (err) {
+    console.error("WPB inventory fetch failed:", err.message);
+    res.status(500).json([]);
+  }
+});
+
+app.get("/api/eci-inventory", async (req, res) => {
+  try {
+    const axios = require("axios");
+    const { data: history } = await axios.get("https://chrisevo24.github.io/ECI-Jewelers/history.json", { timeout: 20000 });
+    const timestamps = Object.keys(history).sort();
+    if (!timestamps.length) return res.json([]);
+    const snapshot = history[timestamps[timestamps.length - 1]];
+    res.json(Object.values(snapshot));
+  } catch (err) {
+    console.error("ECI inventory fetch failed:", err.message);
+    res.status(500).json([]);
+  }
+});
