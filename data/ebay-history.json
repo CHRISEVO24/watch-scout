@@ -1,10 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-16T19:09:27.088Z",
-    "query": "Anonimo watch",
-    "count": 42
-  },
-  {
     "scrapedAt": "2026-08-16T19:09:28.311Z",
     "query": "Audemars Piguet watch",
     "count": 126
@@ -98,5 +93,10 @@
     "scrapedAt": "2026-08-16T19:09:51.283Z",
     "query": "Vacheron Constantin watch",
     "count": 129
+  },
+  {
+    "scrapedAt": "2026-08-17T00:54:34.490Z",
+    "query": "126300",
+    "count": 141
   }
 ]

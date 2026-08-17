@@ -5,24 +5,325 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Watch Scout — WPB Watch Co</title>
 <style>
-  body{background:#0f1117;color:#e8e6e1;font-family:-apple-system,sans-serif;margin:0;padding:20px;}
-  h1{color:#c9a05b;font-size:20px;margin:0 0 4px;}
-  .sub{color:#9a9691;font-size:13px;margin:0 0 20px;}
-  .card{background:#1c1f24;border:1px solid #2c2f36;border-radius:10px;padding:14px;margin-bottom:10px;display:grid;grid-template-columns:60px 1fr auto;gap:12px;align-items:start;}
-  .card img{width:60px;height:60px;object-fit:cover;border-radius:6px;background:#232628;}
-  .src{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;background:#1c3a5e;color:#7eb8f7;padding:2px 8px;border-radius:4px;display:inline-block;margin-bottom:4px;}
-  .title{font-size:13px;font-weight:600;margin-bottom:3px;}
-  .meta{font-size:11.5px;color:#9a9691;}
-  .price{font-size:16px;font-weight:700;color:#c9a05b;text-align:right;}
-  a.view{display:block;font-size:11px;color:#7eb8f7;text-decoration:none;margin-top:4px;text-align:right;}
-  #info{color:#9a9691;font-size:13px;margin-bottom:16px;}
+:root{--bg:#0f1117;--panel:#1c1f24;--panel-2:#232628;--hairline:#2c2f36;--hairline-soft:#3a3f4a;--text:#e8e6e1;--text-muted:#6b6864;--text-secondary:#9a9691;--brass:#c9a05b;--brass-soft:rgba(201,160,91,.15);--brass-text:#c9a05b;--blue:#4a9eff;--green:#4ade80;--red:#f87171;--mono:'SF Mono',ui-monospace,monospace;--sans:-apple-system,sans-serif;--radius:10px;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:14px;line-height:1.5;}
+a{color:inherit;text-decoration:none;}
+input,select,button{font-family:var(--sans);}
+/* Header */
+.hdr{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;border-bottom:1px solid var(--hairline);gap:16px;flex-wrap:wrap;}
+.hdr-left{display:flex;align-items:center;gap:12px;}
+.logo{width:40px;height:40px;background:var(--panel);border:1px solid var(--hairline);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;}
+.site-title{font-size:19px;font-weight:700;letter-spacing:-.3px;}
+.site-sub{font-size:11.5px;color:var(--text-secondary);}
+.src-grid{display:grid;grid-template-columns:repeat(6,auto);gap:5px 16px;flex:1;justify-content:center;}
+.src-row{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text-secondary);white-space:nowrap;}
+.src-dot{width:6px;height:6px;border-radius:50%;}
+.src-row b{color:var(--text);font-weight:600;min-width:28px;text-align:right;}
+.total-ring{width:78px;height:78px;border-radius:50%;border:2px solid var(--hairline);display:flex;flex-direction:column;align-items:center;justify-content:center;flex-shrink:0;}
+.total-ring .n{font-size:18px;font-weight:700;color:var(--brass);line-height:1;}
+.total-ring .l{font-size:8px;text-transform:uppercase;letter-spacing:.5px;color:var(--text-muted);margin-top:2px;text-align:center;}
+/* Run bar */
+.run-bar{display:flex;align-items:center;gap:12px;padding:11px 24px;border-bottom:1px solid var(--hairline);flex-wrap:wrap;}
+#runBtn{position:relative;overflow:hidden;background:var(--brass);color:#2e2005;border:none;padding:9px 20px;border-radius:8px;font-size:13px;font-weight:700;}
+#runBtn:disabled{opacity:.6;cursor:default;}
+#runProg{position:absolute;left:0;top:0;height:100%;background:rgba(0,0,0,.18);width:0%;transition:width .3s;}
+#runStatus{font-size:12px;color:var(--text-secondary);flex:1;}
+#syncLabel{font-size:11px;color:var(--text-muted);}
+/* Tabs */
+.tabs{display:flex;padding:0 24px;border-bottom:1px solid var(--hairline);overflow-x:auto;}
+.tab{background:none;border:none;color:var(--text-secondary);font-size:13px;font-weight:500;padding:12px 15px;border-bottom:2px solid transparent;white-space:nowrap;cursor:pointer;}
+.tab:hover{color:var(--text);}
+.tab.on{color:var(--brass-text);border-bottom-color:var(--brass);}
+.badge{display:inline-block;background:var(--brass-soft);color:var(--brass-text);font-size:11px;font-weight:700;padding:1px 7px;border-radius:10px;margin-left:5px;}
+.view{display:none;}
+.view.on{display:block;}
+/* Feed layout */
+.feed-wrap{display:grid;grid-template-columns:264px 1fr 288px;height:calc(100vh - 172px);}
+.col-l,.col-r{padding:16px;overflow-y:auto;border-right:1px solid var(--hairline);}
+.col-r{border-right:none;border-left:1px solid var(--hairline);}
+.col-m{padding:16px;overflow-y:auto;}
+/* Filters */
+.fl{font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--text-muted);margin:13px 0 5px;}
+.fl:first-child{margin-top:0;}
+.fi{width:100%;background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:7px 10px;border-radius:7px;font-size:13px;}
+.fi::placeholder{color:var(--text-muted);}
+.chips{display:flex;flex-wrap:wrap;gap:4px;}
+.chip{background:var(--panel-2);border:1px solid var(--hairline);color:var(--text-secondary);font-size:11px;padding:3px 8px;border-radius:4px;cursor:pointer;}
+.chip.on,.chip:hover{background:var(--brass-soft);border-color:var(--brass);color:var(--brass-text);}
+.price-row{display:flex;gap:5px;}
+.price-row .fi{flex:1;}
+.sort-row{display:flex;gap:4px;}
+.sb{flex:1;background:var(--panel-2);border:1px solid var(--hairline);color:var(--text-secondary);font-size:11px;padding:5px 6px;border-radius:4px;text-align:center;cursor:pointer;}
+.sb.on,.sb:hover{background:var(--brass-soft);border-color:var(--brass);color:var(--brass-text);}
+#liveBtn{width:100%;background:var(--blue);color:#fff;border:none;padding:8px;border-radius:7px;font-size:12px;font-weight:600;margin-top:8px;cursor:pointer;}
+#liveStatus{font-size:11px;color:var(--text-muted);margin-top:4px;min-height:14px;}
+/* Cards */
+.res-hdr{margin-bottom:10px;}
+.res-count{font-size:13px;color:var(--text-secondary);}
+.card{display:grid;grid-template-columns:68px 1fr auto;gap:11px;align-items:start;background:var(--panel);border:1px solid var(--hairline);border-radius:var(--radius);padding:12px 14px;margin-bottom:8px;transition:border-color .12s;}
+.card:hover{border-color:var(--hairline-soft);}
+.card.hot{border-color:rgba(201,160,91,.3);background:linear-gradient(180deg,rgba(201,160,91,.04),var(--panel) 40%);}
+.thumb{width:68px;height:68px;border-radius:7px;background:var(--panel-2);border:1px solid var(--hairline);overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:22px;color:var(--text-muted);flex-shrink:0;}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block;}
+.card-top{display:flex;align-items:center;gap:6px;margin-bottom:4px;flex-wrap:wrap;}
+.sp{font-size:9.5px;text-transform:uppercase;letter-spacing:.5px;padding:2px 6px;border-radius:3px;font-weight:700;}
+.new-tag{font-size:9.5px;font-weight:700;text-transform:uppercase;background:var(--green);color:#0a2e18;padding:2px 5px;border-radius:3px;}
+.nick-tag{font-size:9.5px;font-weight:600;background:var(--brass-soft);color:var(--brass-text);padding:2px 6px;border-radius:3px;border:1px solid rgba(201,160,91,.3);}
+.tago{font-size:11px;color:var(--text-muted);}
+.ct{font-size:13px;font-weight:600;margin-bottom:3px;line-height:1.3;}
+.cm{font-size:11.5px;color:var(--text-secondary);}
+.cp{text-align:right;flex-shrink:0;}
+.cp .amt{font-size:16px;font-weight:700;color:var(--brass);font-family:var(--mono);}
+.cp .sn{font-size:11px;color:var(--text-muted);}
+.cp a{display:inline-block;margin-top:5px;font-size:11.5px;color:var(--blue);border:1px solid var(--hairline);padding:3px 8px;border-radius:4px;}
+.empty{text-align:center;color:var(--text-muted);padding:36px 0;font-size:13px;}
+/* Source pill colors */
+.p-watchrecon{background:#4a9eff;color:#0c1d2e;}
+.p-watchpatrol{background:#c9a05b;color:#3a2e15;}
+.p-chrono24{background:#7c3aed;color:#ede9fe;}
+.p-bobswatches{background:#e11d48;color:#ffe4e6;}
+.p-europeanwatchco{background:#0891b2;color:#cffafe;}
+.p-fbgroups,.p-fbmarketplace{background:#1877F2;color:#fff;}
+.p-ebay{background:#e53e00;color:#fff;}
+.p-whatsapp{background:#25D366;color:#062910;}
+.p-bezel{background:#7c5cff;color:#1c1030;}
+.p-inventoryconnectmarketplace{background:#38bdf8;color:#0a2733;}
+.p-the1916company{background:#b45309;color:#fef3c7;}
+/* Hot leads */
+.hl-title{font-size:12.5px;font-weight:600;margin-bottom:10px;}
+.wl-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-bottom:14px;}
+.wl-tag{font-size:11px;color:var(--text-secondary);background:var(--panel-2);border:1px solid var(--hairline);padding:4px 7px;border-radius:4px;text-align:center;cursor:pointer;}
+.wl-tag:hover{border-color:var(--brass);color:var(--brass-text);}
+.hl-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 14px;}
+.hl-item{font-size:12px;margin-bottom:7px;line-height:1.4;}
+.hl-item .hn{font-weight:600;}
+.hl-item .hp{font-size:11px;color:var(--text-muted);}
+.hl-item a{color:var(--blue);}
+/* Sales Opps */
+.so-wrap{padding:20px 24px;}
+.so-title{font-size:15px;font-weight:600;margin-bottom:5px;}
+.so-sub{font-size:12.5px;color:var(--text-secondary);margin-bottom:16px;}
+.match{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;background:var(--panel-2);border:1px solid var(--hairline);border-radius:var(--radius);padding:13px 15px;margin-bottom:9px;}
+.match.exact{border-color:rgba(201,160,91,.3);}
+.mbadge{font-size:10px;text-transform:uppercase;letter-spacing:.5px;padding:2px 6px;border-radius:3px;font-weight:700;display:inline-block;margin-bottom:4px;}
+.mbadge.ref{background:var(--brass-soft);color:var(--brass-text);}
+.mbadge.ref_family{background:var(--panel);color:var(--text-muted);border:1px solid var(--hairline);}
+.mbuyer{font-size:13px;font-weight:500;margin-bottom:2px;}
+.mitem{font-size:13px;color:var(--brass-text);}
+.mmeta{font-size:11.5px;color:var(--text-muted);margin-top:3px;}
+.mpw{text-align:right;}
+.mpl{font-size:10px;text-transform:uppercase;letter-spacing:.4px;color:var(--text-muted);margin-bottom:2px;}
+.mpa{font-size:17px;font-weight:700;font-family:var(--mono);}
+.mlink{display:inline-block;font-size:11.5px;color:var(--blue);border:1px solid var(--hairline);padding:3px 8px;border-radius:4px;margin-top:5px;margin-left:4px;}
+/* Inventory tabs */
+.inv-bar{display:flex;gap:7px;flex-wrap:wrap;align-items:center;padding:16px 24px 0;}
+.inv-bar input,.inv-bar select{background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:7px 10px;border-radius:7px;font-size:13px;}
+.inv-bar input{width:200px;}
+.inv-cnt{font-size:12px;color:var(--text-muted);margin-left:auto;}
+.inv-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(248px,1fr));gap:12px;padding:14px 24px 24px;}
+.inv-card{background:var(--panel);border:1px solid var(--hairline);border-radius:var(--radius);overflow:hidden;}
+.inv-card img{width:100%;height:165px;object-fit:cover;display:block;background:var(--panel-2);}
+.inv-body{padding:11px;}
+.inv-brand{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--brass);margin-bottom:3px;}
+.inv-name{font-size:13px;font-weight:600;line-height:1.3;margin-bottom:4px;}
+.inv-ref{font-size:11.5px;color:var(--text-secondary);margin-bottom:7px;}
+.inv-price{font-size:15px;font-weight:700;color:var(--brass);font-family:var(--mono);margin-bottom:7px;}
+.inv-bp{display:flex;gap:4px;margin-bottom:8px;}
+.bp{font-size:10px;font-weight:700;padding:2px 6px;border-radius:3px;}
+.bp.y{background:rgba(74,222,128,.15);color:#4ade80;}
+.bp.n{background:var(--panel-2);color:var(--text-muted);}
+.inv-actions{display:flex;flex-wrap:wrap;gap:5px;}
+.inv-actions a,.inv-actions button{padding:5px 10px;border-radius:5px;font-size:11.5px;font-weight:600;text-decoration:none;border:none;cursor:pointer;}
+.btn-view{background:var(--panel-2);border:1px solid var(--hairline)!important;color:var(--text);}
+.btn-wa{background:#25D366;color:#fff;}
+.btn-fb{background:#1877F2;color:#fff;}
+.btn-msg{background:#0084FF;color:#fff;}
+/* WhatsApp modal */
+.modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:1000;align-items:center;justify-content:center;}
+.modal-bg.open{display:flex;}
+.modal{background:var(--panel);border:1px solid var(--hairline);border-radius:var(--radius);padding:20px;width:480px;max-width:95vw;max-height:90vh;overflow-y:auto;}
+.modal h3{font-size:14px;font-weight:600;margin-bottom:12px;}
+.modal textarea{width:100%;background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:10px;border-radius:7px;font-size:13px;min-height:110px;resize:vertical;margin-bottom:10px;}
+.grp-list{display:flex;flex-direction:column;gap:5px;margin-bottom:12px;max-height:160px;overflow-y:auto;}
+.grp-row{display:flex;align-items:center;gap:8px;font-size:13px;}
+.grp-dot{width:8px;height:8px;border-radius:50%;background:#555;}
+.grp-dot.on{background:var(--green);}
+.modal-btns{display:flex;gap:8px;}
+.modal-btns button{flex:1;padding:9px;border-radius:7px;font-size:13px;font-weight:600;border:none;cursor:pointer;}
+.btn-send-wa{background:#25D366;color:#fff;}
+.btn-cancel-modal{background:var(--panel-2);color:var(--text);border:1px solid var(--hairline)!important;}
+#waResult{margin-top:10px;font-size:12px;padding:8px 10px;border-radius:5px;background:var(--panel-2);display:none;}
+#waStatus{font-size:12px;color:var(--text-secondary);margin-bottom:10px;padding:8px 10px;background:var(--panel-2);border-radius:5px;}
+/* Chronos AI */
+.chron-wrap{max-width:800px;margin:22px auto;padding:0 24px;}
+.chron-title{font-size:14px;font-weight:600;margin-bottom:4px;}
+.chron-sub{font-size:12.5px;color:var(--text-secondary);margin-bottom:16px;}
+#chronMsgs{display:flex;flex-direction:column;gap:11px;margin-bottom:14px;max-height:480px;overflow-y:auto;}
+.bu{align-self:flex-end;max-width:80%;background:var(--brass-soft);color:var(--text);padding:10px 13px;border-radius:9px;font-size:14px;white-space:pre-wrap;line-height:1.5;}
+.ba{align-self:flex-start;max-width:80%;background:var(--panel-2);color:var(--text);padding:10px 13px;border-radius:9px;font-size:14px;white-space:pre-wrap;line-height:1.5;}
+.chron-row{display:flex;gap:7px;}
+#chronInput{flex:1;background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:11px 13px;border-radius:8px;font-size:14px;}
+#chronSend{background:var(--brass);border:none;color:#2e2005;padding:11px 20px;border-radius:8px;font-weight:600;cursor:pointer;}
 </style>
 </head>
 <body>
-<h1>⌚ Watch Scout</h1>
-<p class="sub">WPB Watch Co · market intelligence feed</p>
-<div id="info">Loading...</div>
-<div id="feed"></div>
+<div class="hdr">
+  <div class="hdr-left">
+    <div class="logo">&#x231a;</div>
+    <div><div class="site-title">Watch Scout</div><div class="site-sub">WPB Watch Co &middot; market intelligence</div></div>
+  </div>
+  <div class="src-grid">
+    <div class="src-row"><span class="src-dot" style="background:#4a9eff"></span>WatchRecon<b id="c-wr">0</b></div>
+    <div class="src-row"><span class="src-dot" style="background:#c9a05b"></span>WatchPatrol<b id="c-wp">0</b></div>
+    <div class="src-row"><span class="src-dot" style="background:#7c3aed"></span>Chrono24<b id="c-c24">0</b></div>
+    <div class="src-row"><span class="src-dot" style="background:#e11d48"></span>Bob's Watches<b id="c-bw">0</b></div>
+    <div class="src-row"><span class="src-dot" style="background:#0891b2"></span>European Watch<b id="c-ew">0</b></div>
+    <div class="src-row"><span class="src-dot" style="background:#1877F2"></span>FB Groups<b id="c-fbg">0</b></div>
+    <div class="src-row"><span class="src-dot" style="background:#1877F2"></span>FB Marketplace<b id="c-fbm">0</b></div>
+    <div class="src-row"><span class="src-dot" style="background:#e53e00"></span>eBay<b id="c-eb">0</b></div>
+    <div class="src-row"><span class="src-dot" style="background:#25D366"></span>WhatsApp<b id="c-wa">0</b></div>
+    <div class="src-row"><span class="src-dot" style="background:#7c5cff"></span>Bezel<b id="c-bz">0</b></div>
+    <div class="src-row"><span class="src-dot" style="background:#38bdf8"></span>InventoryConnect<b id="c-ic">0</b></div>
+    <div class="src-row"><span class="src-dot" style="background:#b45309"></span>The 1916 Co<b id="c-19">0</b></div>
+  </div>
+  <div class="total-ring"><div class="n" id="totalN">0</div><div class="l">Live<br>Leads</div></div>
+</div>
+<div class="run-bar">
+  <button id="runBtn" onclick="runScout()"><div id="runProg"></div>Run Scout - Refresh Everything</button>
+  <div><div id="runStatus">Ready</div><div id="syncLabel">FB Groups / WhatsApp last synced: check session</div></div>
+</div>
+<div class="tabs">
+  <button class="tab on" data-tab="feed">Live Feed</button>
+  <button class="tab" data-tab="sales">Sales Opportunities<span class="badge" id="salesBadge">0</span></button>
+  <button class="tab" data-tab="inv">&#128230; Post Inventory</button>
+  <button class="tab" data-tab="eci">&#128142; Post ECI</button>
+  <button class="tab" data-tab="ecj">&#128142; Post ECJ Luxe</button>
+  <button class="tab" data-tab="bump">&#128276; Bump Manager</button>
+  <button class="tab" data-tab="chron">&#129302; Chronos AI</button>
+</div>
+<div id="view-feed" class="view on">
+  <div class="feed-wrap">
+    <div class="col-l">
+      <div class="fl">Search</div>
+      <input class="fi" id="srch" placeholder="Brand, model, ref, nickname&hellip;" oninput="S.q=this.value;renderFeed()">
+      <div class="fl">Source</div>
+      <div class="chips" id="srcChips">
+        <div class="chip on" data-src="">All</div>
+        <div class="chip" data-src="WatchRecon">WatchRecon</div>
+        <div class="chip" data-src="WatchPatrol">WatchPatrol</div>
+        <div class="chip" data-src="Chrono24">Chrono24</div>
+        <div class="chip" data-src="Bob's Watches">Bob's</div>
+        <div class="chip" data-src="European Watch Co">European</div>
+        <div class="chip" data-src="FB Groups">FB Groups</div>
+        <div class="chip" data-src="FB Marketplace">FB Market</div>
+        <div class="chip" data-src="eBay">eBay</div>
+        <div class="chip" data-src="WhatsApp">WhatsApp</div>
+        <div class="chip" data-src="Bezel">Bezel</div>
+        <div class="chip" data-src="InventoryConnect Marketplace">IC Mkt</div>
+        <div class="chip" data-src="The 1916 Company">1916 Co</div>
+      </div>
+      <div class="fl">Brand</div>
+      <select class="fi" id="brandSel" onchange="S.brand=this.value;renderFeed()"><option value="">All brands</option></select>
+      <div class="fl">Dial Color</div>
+      <select class="fi" id="colorSel" onchange="S.color=this.value;renderFeed()"><option value="">Any color</option></select>
+      <div class="fl">Price Range</div>
+      <div class="price-row">
+        <input class="fi" id="pMin" type="number" placeholder="Min" oninput="S.pMin=+this.value||0;renderFeed()">
+        <input class="fi" id="pMax" type="number" placeholder="Max" oninput="S.pMax=+this.value||0;renderFeed()">
+      </div>
+      <div class="fl">Listing Age</div>
+      <div class="chips" id="ageChips">
+        <div class="chip on" data-age="">Any</div>
+        <div class="chip" data-age="60">1h</div>
+        <div class="chip" data-age="1440">24h</div>
+        <div class="chip" data-age="10080">7d</div>
+        <div class="chip" data-age="43200">30d</div>
+      </div>
+      <div class="fl">Sort</div>
+      <div class="sort-row">
+        <div class="sb on" data-sort="new">Newest</div>
+        <div class="sb" data-sort="asc">Price &uarr;</div>
+        <div class="sb" data-sort="desc">Price &darr;</div>
+      </div>
+      <button id="liveBtn" onclick="doLive()">Pull live data for this search</button>
+      <div id="liveStatus"></div>
+    </div>
+    <div class="col-m">
+      <div class="res-hdr"><span class="res-count"><span id="feedCount">0</span> listings matching filters</span></div>
+      <div id="feedList"></div>
+    </div>
+    <div class="col-r">
+      <div class="hl-title">HOT LEADS &mdash; YOUR WATCHLIST</div>
+      <div class="wl-grid" id="wlTags"></div>
+      <div class="hl-grid" id="hlGrid"></div>
+    </div>
+  </div>
+</div>
+<div id="view-sales" class="view">
+  <div class="so-wrap">
+    <div class="so-title">Sales Opportunities &mdash; buyers wanting watches you have in stock</div>
+    <div class="so-sub">From WTB/NTQ/ISO posts in Facebook Groups, WhatsApp, and InventoryConnect, matched against your WPB Watch Co + ECI Jewelers inventory. <span style="color:var(--brass-text)">Exact ref match</span> = precise hit.</div>
+    <div id="soList"></div>
+  </div>
+</div>
+<div id="view-inv" class="view">
+  <div class="inv-bar">
+    <input placeholder="&#128269; Name, Ref, SKU&hellip;" id="invQ" oninput="renderInv()">
+    <select id="invBrand" onchange="renderInv()"><option value="">All Brands</option></select>
+    <select id="invPrice" onchange="renderInv()"><option value="">All Prices</option><option value="0-10000">Under $10k</option><option value="10000-25000">$10k&ndash;$25k</option><option value="25000-50000">$25k&ndash;$50k</option><option value="50000-999999">$50k+</option></select>
+    <select id="invBox" onchange="renderInv()"><option value="">Box &amp; Papers: Any</option><option value="both">Box &amp; Papers</option><option value="box">Box Only</option><option value="none">Neither</option></select>
+    <label style="font-size:13px;color:var(--text-secondary);display:flex;align-items:center;gap:5px;"><input type="checkbox" id="invStock" checked onchange="renderInv()"> In stock only</label>
+    <span class="inv-cnt" id="invCnt"></span>
+  </div>
+  <div class="inv-grid" id="invGrid"></div>
+</div>
+<div id="view-eci" class="view">
+  <div class="inv-bar">
+    <input placeholder="&#128269; Name, Ref, SKU&hellip;" id="eciQ" oninput="renderEci()">
+    <select id="eciBrand" onchange="renderEci()"><option value="">All Brands</option></select>
+    <select id="eciPrice" onchange="renderEci()"><option value="">All Prices</option><option value="0-10000">Under $10k</option><option value="10000-25000">$10k&ndash;$25k</option><option value="25000-50000">$25k&ndash;$50k</option><option value="50000-999999">$50k+</option></select>
+    <select id="eciBox" onchange="renderEci()"><option value="">Box &amp; Papers: Any</option><option value="both">Box &amp; Papers</option><option value="box">Box Only</option></select>
+    <label style="font-size:13px;color:var(--text-secondary);display:flex;align-items:center;gap:5px;"><input type="checkbox" id="eciStock" checked onchange="renderEci()"> In stock only</label>
+    <span class="inv-cnt" id="eciCnt"></span>
+  </div>
+  <div class="inv-grid" id="eciGrid"></div>
+</div>
+<div id="view-ecj" class="view">
+  <div class="inv-bar">
+    <input placeholder="&#128269; Name, Ref, SKU&hellip;" id="ecjQ" oninput="renderEcj()">
+    <select id="ecjBrand" onchange="renderEcj()"><option value="">All Brands</option></select>
+    <select id="ecjPrice" onchange="renderEcj()"><option value="">All Prices</option><option value="0-10000">Under $10k</option><option value="10000-25000">$10k&ndash;$25k</option><option value="25000-50000">$25k&ndash;$50k</option><option value="50000-999999">$50k+</option></select>
+    <label style="font-size:13px;color:var(--text-secondary);display:flex;align-items:center;gap:5px;"><input type="checkbox" id="ecjStock" checked onchange="renderEcj()"> In stock only</label>
+    <span class="inv-cnt" id="ecjCnt"></span>
+  </div>
+  <div class="inv-grid" id="ecjGrid"></div>
+</div>
+<div id="view-bump" class="view" style="padding:28px;color:var(--text-secondary);font-size:13px;">Bump Manager &mdash; post to Facebook Groups and track bump schedules. Coming soon.</div>
+<div id="view-chron" class="view">
+  <div class="chron-wrap">
+    <div class="chron-title">&#129302; Chronos AI &mdash; your floor assistant</div>
+    <div class="chron-sub">Ask about pricing, what you have in stock, or what's moving on the market right now. Grounded in your real inventory and live Watch Scout data.</div>
+    <div id="chronMsgs"></div>
+    <div class="chron-row">
+      <input id="chronInput" placeholder="What's 116710 trading at? What Daytonas do I have?">
+      <button id="chronSend" onclick="sendChron()">Ask</button>
+    </div>
+  </div>
+</div>
+<div class="modal-bg" id="waModal">
+  <div class="modal">
+    <h3>&#128241; Send via WhatsApp</h3>
+    <div id="waStatus">Checking status...</div>
+    <textarea id="waMsgBox" placeholder="Message..."></textarea>
+    <div class="grp-list" id="waGroups"></div>
+    <div class="modal-btns">
+      <button class="btn-send-wa" onclick="sendWaMsg()">Send to Selected Groups</button>
+      <button class="btn-cancel-modal" onclick="closeWa()">Cancel</button>
+    </div>
+    <div id="waResult"></div>
+  </div>
+</div>
 <script>
 // LISTINGS_START
 const LISTINGS = [
@@ -343154,7 +343455,6 @@ const LISTINGS = [
   }
 ];
 // LISTINGS_END
-
 // BUYER_MATCHES_START
 const BUYER_MATCHES = [
   {
@@ -345231,19 +345531,261 @@ const BUYER_MATCHES = [
   }
 ];
 // BUYER_MATCHES_END
+const WL=['Hulk','Bruce Wayne','Batgirl','Pepsi GMT','Batman','Kermit','Smurf','Coke','Root Beer','Panda Daytona','Sprite'];
+const S={q:'',src:'',brand:'',color:'',pMin:0,pMax:0,age:0,sort:'new'};
+var _INV=[],_ECI=[],_ECJ=[],_waItem=null;
+function $p(p){return p?('$'+Math.round(p).toLocaleString('en-US')):'—';}
+function ago(m){if(m==null)return'date n/a';if(m<60)return m+'m ago';if(m<1440)return Math.round(m/60)+'h ago';return Math.round(m/1440)+'d ago';}
+function nrm(s){return(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');}
+function prc(s){const n=parseFloat(String(s||'0').replace(/[^0-9.]/g,''));return isNaN(n)?0:n;}
+function sc(s){const m={'WatchRecon':'p-watchrecon','WatchPatrol':'p-watchpatrol','Chrono24':'p-chrono24',"Bob's Watches":'p-bobswatches','European Watch Co':'p-europeanwatchco','FB Groups':'p-fbgroups','FB Marketplace':'p-fbmarketplace','eBay':'p-ebay','WhatsApp':'p-whatsapp','Bezel':'p-bezel','InventoryConnect Marketplace':'p-inventoryconnectmarketplace','The 1916 Company':'p-the1916company'};return m[s]||'p-watchrecon';}
+function initCounts(){
+  const c={};LISTINGS.forEach(l=>{c[l.source]=(c[l.source]||0)+1;});
+  ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company'].forEach(x=>{
+    const[id,src]=x.split(':');document.getElementById('c-'+id).textContent=c[src]||0;
+  });
+  document.getElementById('totalN').textContent=LISTINGS.length.toLocaleString();
+  document.getElementById('salesBadge').textContent=BUYER_MATCHES.length;
+  const brands=[...new Set(LISTINGS.map(l=>l.brand).filter(Boolean))].sort();
+  document.getElementById('brandSel').innerHTML="<option value=''>All brands</option>"+brands.map(b=>`<option value="${b}">${b}</option>`).join('');
+  const colors=[...new Set(LISTINGS.map(l=>l.dialColor).filter(Boolean))].sort();
+  document.getElementById('colorSel').innerHTML="<option value=''>Any color</option>"+colors.map(c=>`<option value="${c}">${c}</option>`).join('');
+}
+function renderFeed(){
+  const q=nrm(S.q);
+  let items=LISTINGS.filter(i=>{
+    if(S.src&&i.source!==S.src)return false;
+    if(S.brand&&i.brand!==S.brand)return false;
+    if(S.color&&i.dialColor!==S.color)return false;
+    if(S.pMin&&(i.price||0)<S.pMin)return false;
+    if(S.pMax&&(i.price||0)>S.pMax)return false;
+    if(S.age&&(i.postedMinutesAgo==null||i.postedMinutesAgo>S.age))return false;
+    if(q){const h=nrm([i.brand,i.model,i.ref,i.title,i.nickname].join(' '));if(!h.includes(q))return false;}
+    return true;
+  });
+  if(S.sort==='new')items.sort((a,b)=>(a.postedMinutesAgo??99999)-(b.postedMinutesAgo??99999));
+  else if(S.sort==='asc')items.sort((a,b)=>(a.price||0)-(b.price||0));
+  else items.sort((a,b)=>(b.price||0)-(a.price||0));
+  document.getElementById('feedCount').textContent=items.length;
+  const el=document.getElementById('feedList');
+  if(!items.length){el.innerHTML='<div class="empty">No listings match.</div>';return;}
+  el.innerHTML=items.slice(0,200).map(i=>{
+    const hot=WL.some(n=>new RegExp('\\b'+n+'\\b','i').test(i.title||''));
+    const img=i.imageUrl?`<div class="thumb"><img src="${i.imageUrl}" loading="lazy" onerror="this.parentElement.innerHTML='&#x231a;'"></div>`:'<div class="thumb">&#x231a;</div>';
+    return `<div class="card${hot?' hot':''}">
+      ${img}
+      <div>
+        <div class="card-top">
+          <span class="sp ${sc(i.source)}">${i.source}</span>
+          ${i.isNew?'<span class="new-tag">New</span>':''}
+          ${i.nickname?`<span class="nick-tag">${i.nickname}</span>`:''}
+          <span class="tago">${ago(i.postedMinutesAgo)}</span>
+        </div>
+        <div class="ct">${i.brand||''}${i.model?' '+i.model:''}${i.ref?' · Ref. '+i.ref:''}</div>
+        <div class="cm">${[i.dialColor?i.dialColor+' dial':null,i.condition,i.seller,i.sourceDetail].filter(Boolean).join(' · ')}</div>
+      </div>
+      <div class="cp">
+        <div class="amt">${$p(i.price)}</div>
+        <div class="sn">${i.source}</div>
+        ${i.url?`<a href="${i.url}" target="_blank" rel="noopener">View listing</a>`:''}
+      </div>
+    </div>`;
+  }).join('');
+}
+document.querySelectorAll('#srcChips .chip').forEach(c=>c.addEventListener('click',()=>{document.querySelectorAll('#srcChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');S.src=c.dataset.src;renderFeed();}));
+document.querySelectorAll('#ageChips .chip').forEach(c=>c.addEventListener('click',()=>{document.querySelectorAll('#ageChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');S.age=+c.dataset.age||0;renderFeed();}));
+document.querySelectorAll('.sb').forEach(c=>c.addEventListener('click',()=>{document.querySelectorAll('.sb').forEach(x=>x.classList.remove('on'));c.classList.add('on');S.sort=c.dataset.sort;renderFeed();}));
+function renderHotLeads(){
+  document.getElementById('wlTags').innerHTML=WL.map(n=>`<span class="wl-tag" onclick="qNick('${n.replace(/'/g,"\\'")}')">${n}</span>`).join('');
+  const hits=LISTINGS.filter(i=>i.brand==='Rolex'&&WL.some(n=>new RegExp('\\b'+n.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i').test(i.title||''))).slice(0,12);
+  document.getElementById('hlGrid').innerHTML=hits.map(i=>{
+    const label=WL.find(n=>new RegExp('\\b'+n+'\\b','i').test(i.title||''))||'';
+    return `<div class="hl-item"><div class="hn">${label}${i.ref?' · '+i.ref:''}</div><div class="hp">${i.source} · ${$p(i.price)}</div>${i.url?`<a href="${i.url}" target="_blank">View →</a>`:''}</div>`;
+  }).join('');
+}
+function qNick(n){document.getElementById('srch').value=n;S.q=n;document.querySelector('.tab[data-tab="feed"]').click();renderFeed();}
+function renderSales(){
+  document.getElementById('salesBadge').textContent=BUYER_MATCHES.length;
+  const el=document.getElementById('soList');
+  if(!BUYER_MATCHES.length){el.innerHTML='<div class="empty">No matches yet. Run a WTB search then node scrapers/match-buyer-leads.js</div>';return;}
+  el.innerHTML=BUYER_MATCHES.slice().sort((a,b)=>a.matchType==='ref'?-1:b.matchType==='ref'?1:0).map(m=>`
+    <div class="match${m.matchType==='ref'?' exact':''}">
+      <div>
+        <span class="mbadge ${m.matchType}">${m.matchType==='ref'?'Exact ref match':'Similar reference'}</span>
+        <div class="mbuyer">${m.lead.buyerName||'Unknown'} <span style="color:var(--text-muted)">wants</span> "${m.lead.title}"</div>
+        <div class="mitem">→ You have: ${m.inventoryItem.name}${m.inventoryItem.ref?' (Ref. '+m.inventoryItem.ref+')':''}</div>
+        <div class="mmeta">${m.lead.source} · ${m.lead.sourceDetail||''} · ${m.inventoryItem.store||''}</div>
+      </div>
+      <div class="mpw">
+        <div class="mpl">Your price</div>
+        <div class="mpa">${$p(m.inventoryItem.price)}</div>
+        ${m.inventoryItem.url?`<a class="mlink" href="${m.inventoryItem.url}" target="_blank">View item</a>`:''}
+        ${m.lead.buyerName?`<a class="mlink" href="https://www.facebook.com/search/top/?q=${encodeURIComponent(m.lead.buyerName)}" target="_blank">Find buyer</a>`:''}
+      </div>
+    </div>`).join('');
+}
+function buildMsg(item){
+  const rawPrice=item.price||'';
+  const p=rawPrice.startsWith('$')?rawPrice:rawPrice?('$'+prc(rawPrice).toLocaleString()):'Contact for price';
+  const ref=item.referenceNumber||item.ref||'';
+  const yr=(item.year&&item.year!=='Unknown'&&item.year!==null)?String(item.year).replace(/\//g,'-').split('-')[0]:null;
+  const label=item.description?item.description.split('\n')[0]:'';
+  return [item.name,'',p+(label?' + '+label:''),yr?'Year: '+yr:null,'','Wire first / DM for Availability','Cross Posted','','For purchases made in Florida Sales Tax will need to be collected or a reseller\'s certificate must be provided.','','WPB Watch Co | West Palm Beach, FL'].filter(l=>l!==null).join('\n');
+}
+function invCard(item,pfx){
+  const p=prc(item.price);const pd=p?('$'+p.toLocaleString()):'--';
+  const ref=item.referenceNumber||item.ref||null;
+  const img=(item.images&&item.images[0])||item.image||item.imageUrl||null;
+  const hB=item.box==='Yes';const hP=item.papers&&item.papers!=='No'&&item.papers!=='';
+  const msg=buildMsg(item);
+  const wa='https://api.whatsapp.com/send?text='+encodeURIComponent(msg);
 
-document.getElementById('info').textContent = LISTINGS.length + ' listings · ' + BUYER_MATCHES.length + ' sales opportunities';
-
-const feed = document.getElementById('feed');
-LISTINGS.slice(0,200).forEach(item => {
-  const d = document.createElement('div');
-  d.className = 'card';
-  const img = item.imageUrl ? `<img src="${item.imageUrl}" onerror="this.style.display='none'">` : '<div style="width:60px;height:60px;background:#232628;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#555;">⌚</div>';
-  const price = item.price ? '$' + item.price.toLocaleString() : '—';
-  const viewBtn = item.url ? `<a class="view" href="${item.url}" target="_blank">View listing →</a>` : '';
-  d.innerHTML = img + `<div><span class="src">${item.source||''}</span><div class="title">${item.brand||''} ${item.model||''} ${item.ref ? '· Ref. '+item.ref : ''}</div><div class="meta">${item.dialColor||''} ${item.condition||''} ${item.seller||''}</div></div><div><div class="price">${price}</div>${viewBtn}</div>`;
-  feed.appendChild(d);
-});
+  const sid=JSON.stringify(String(item.id));
+  return `<div class="inv-card">
+    ${img?`<img src="${img}" loading="lazy" onerror="this.style.display='none'">`:''}
+    <div class="inv-body">
+      <div class="inv-brand">${item.brand||''}</div>
+      <div class="inv-name">${item.name||''}</div>
+      <div class="inv-ref">${ref?'Ref: '+ref:''}</div>
+      <div class="inv-price">${pd}</div>
+      <div class="inv-bp"><span class="bp ${hB?'y':'n'}">BOX ${hB?'✓':'✗'}</span><span class="bp ${hP?'y':'n'}">PAPERS ${hP?'✓':'✗'}</span></div>
+      <div class="inv-actions">
+        ${item.url?`<a class="btn-view" href="${item.url}" target="_blank">🔗 View</a>`:''}
+        <button class="btn-wa" onclick="openWa(${sid},'${pfx}')">📱 WhatsApp</button>
+        <button class="btn-fb" onclick="openFb(${sid},'${pfx}')">📌 Facebook</button>
+        <button class="btn-msg" onclick="openMsg(${sid},'${pfx}')">💬 Messenger</button>
+      </div>
+    </div>
+  </div>`;
+}
+function filterInv(items,q,brand,price,box,inStock){
+  return items.filter(i=>{
+    if(inStock){const s=(i.stockStatus||'').toLowerCase();if(!(s==='in stock'||s.includes('instock')||i.inStock===true))return false;}
+    if(brand&&(i.brand||'').toLowerCase()!==brand.toLowerCase())return false;
+    if(price){const[mn,mx]=price.split('-').map(Number);const p=prc(i.price);if(p<mn||p>mx)return false;}
+    if(box==='both'&&!(i.box==='Yes'&&i.papers&&i.papers!=='No'))return false;
+    if(box==='box'&&i.box!=='Yes')return false;
+    if(box==='none'&&(i.box==='Yes'||(i.papers&&i.papers!=='No')))return false;
+    if(q){const h=[i.name,i.referenceNumber,i.ref,i.productCode,i.brand].filter(Boolean).join(' ').toLowerCase();if(!h.includes(q))return false;}
+    return true;
+  });
+}
+function renderInv(){
+  const q=(document.getElementById('invQ').value||'').toLowerCase();
+  const items=filterInv(_INV,q,document.getElementById('invBrand').value,document.getElementById('invPrice').value,document.getElementById('invBox').value,document.getElementById('invStock').checked);
+  document.getElementById('invCnt').textContent=items.length+' items';
+  const g=document.getElementById('invGrid');
+  g.innerHTML=items.length?items.map(i=>invCard(i,'inv')).join(''):'<div class="empty" style="grid-column:1/-1">No items match.</div>';
+}
+function renderEci(){
+  const q=(document.getElementById('eciQ').value||'').toLowerCase();
+  const items=filterInv(_ECI,q,document.getElementById('eciBrand').value,document.getElementById('eciPrice').value,document.getElementById('eciBox').value,document.getElementById('eciStock').checked);
+  document.getElementById('eciCnt').textContent=items.length+' items';
+  const g=document.getElementById('eciGrid');
+  g.innerHTML=items.length?items.map(i=>invCard(i,'eci')).join(''):'<div class="empty" style="grid-column:1/-1">No items match.</div>';
+}
+function renderEcj(){
+  const q=(document.getElementById('ecjQ').value||'').toLowerCase();
+  const items=filterInv(_ECJ,q,document.getElementById('ecjBrand').value,document.getElementById('ecjPrice').value,null,document.getElementById('ecjStock').checked);
+  document.getElementById('ecjCnt').textContent=items.length+' items';
+  const g=document.getElementById('ecjGrid');
+  g.innerHTML=items.length?items.map(i=>invCard(i,'ecj')).join(''):'<div class="empty" style="grid-column:1/-1">No items match.</div>';
+}
+async function loadInv(){try{const r=await fetch('/api/inventory');_INV=await r.json();}catch{_INV=[];}
+  const b=[...new Set(_INV.map(i=>i.brand).filter(Boolean))].sort();
+  document.getElementById('invBrand').innerHTML="<option value=''>All Brands</option>"+b.map(x=>`<option>${x}</option>`).join('');renderInv();}
+async function loadEci(){try{const r=await fetch('/api/eci-inventory');_ECI=await r.json();}catch{_ECI=[];}
+  const b=[...new Set(_ECI.map(i=>i.brand).filter(Boolean))].sort();
+  document.getElementById('eciBrand').innerHTML="<option value=''>All Brands</option>"+b.map(x=>`<option>${x}</option>`).join('');renderEci();}
+async function loadEcj(){try{const r=await fetch('/api/ecj-inventory');_ECJ=await r.json();}catch{_ECJ=[];}
+  const b=[...new Set(_ECJ.map(i=>i.brand).filter(Boolean))].sort();
+  document.getElementById('ecjBrand').innerHTML="<option value=''>All Brands</option>"+b.map(x=>`<option>${x}</option>`).join('');renderEcj();}
+function openWa(itemId,pfx){
+  const arr=pfx==='inv'?_INV:pfx==='eci'?_ECI:_ECJ;
+  _waItem=arr.find(i=>String(i.id)===String(itemId));
+  if(!_waItem)return;
+  document.getElementById('waModal').classList.add('open');
+  document.getElementById('waResult').style.display='none';
+  document.getElementById('waMsgBox').value=buildMsg(_waItem);
+  waStatus();
+}
+async function waStatus(){
+  const st=document.getElementById('waStatus');
+  try{const d=await fetch('/api/wa/status').then(r=>r.json());
+    st.textContent='Status: '+d.status;
+    const g=document.getElementById('waGroups');
+    g.innerHTML=(d.groups||[]).map(gr=>`<div class="grp-row"><span class="grp-dot ${gr.connected?'on':''}"></span><input type="checkbox" id="g${gr.id}" value="${gr.id}" checked><label for="g${gr.id}" style="flex:1">${gr.name}</label></div>`).join('');
+  }catch(e){st.textContent='WhatsApp: '+e.message;}
+}
+async function sendWaMsg(){
+  const msg=document.getElementById('waMsgBox').value;
+  const checked=[...document.querySelectorAll('#waGroups input:checked')].map(c=>({id:c.value}));
+  if(!checked.length){alert('Select at least one group.');return;}
+  const res=document.getElementById('waResult');
+  res.style.display='block';res.textContent='Sending...';
+  try{const d=await fetch('/api/wa/send',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:msg,imagePath:_waItem&&_waItem.imagePath||null,groups:checked})}).then(r=>r.json());
+    res.textContent=d.ok?'Sent to '+checked.length+' group(s)':'Error: '+(d.error||'unknown');
+  }catch(e){res.textContent='Error: '+e.message;}
+}
+function closeWa(){document.getElementById('waModal').classList.remove('open');}
+function openFb(itemId,pfx){
+  const arr=pfx==='inv'?_INV:pfx==='eci'?_ECI:_ECJ;
+  const item=arr.find(i=>String(i.id)===String(itemId));
+  if(!item)return;
+  const msg=buildMsg(item);
+  const el=document.createElement('textarea');
+  el.value=msg;document.body.appendChild(el);el.select();document.execCommand('copy');document.body.removeChild(el);
+  alert('Post text copied to clipboard!\n\nNow paste it into Facebook Groups.');
+}
+function openMsg(itemId,pfx){
+  const arr=pfx==='inv'?_INV:pfx==='eci'?_ECI:_ECJ;
+  const item=arr.find(i=>String(i.id)===String(itemId));
+  if(!item)return;
+  const msg=buildMsg(item);
+  fetch('/api/messenger/groups').then(r=>r.json()).then(d=>{
+    const threads=d.groups||[];
+    if(!threads.length){alert('No Messenger threads configured.');return;}
+    fetch('/api/messenger/start-posting',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({itemId:item.id,itemName:item.name,message:msg,imagePath:item.image||item.imageUrl||null,threads:threads.map(t=>({...t,status:'pending'}))})});
+    alert('Messenger posting started to '+threads.length+' thread(s).');
+  }).catch(e=>alert('Messenger error: '+e.message));
+}
+function addBubble(role,text){const wrap=document.getElementById('chronMsgs');const d=document.createElement('div');d.className=role==='user'?'bu':'ba';d.textContent=text;wrap.appendChild(d);wrap.scrollTop=wrap.scrollHeight;return d;}
+async function sendChron(){
+  const inp=document.getElementById('chronInput');const q=inp.value.trim();if(!q)return;
+  const btn=document.getElementById('chronSend');
+  addBubble('user',q);inp.value='';btn.disabled=true;
+  const t=addBubble('ai','Thinking...');
+  try{const r=await fetch('/api/ultron',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q})});
+    const d=await r.json();t.textContent=d.ok?d.answer:'Error: '+(d.error||'unknown');
+  }catch(e){t.textContent='Error: '+e.message;}finally{btn.disabled=false;}
+}
+document.getElementById('chronInput').addEventListener('keydown',e=>{if(e.key==='Enter')sendChron();});
+async function runScout(){
+  const btn=document.getElementById('runBtn');const st=document.getElementById('runStatus');const prog=document.getElementById('runProg');
+  btn.disabled=true;prog.style.width='0%';st.textContent='Starting...';
+  try{const es=new EventSource('/api/run-scout');
+    es.addEventListener('progress',e=>{const d=JSON.parse(e.data);prog.style.width=Math.round((d.step/d.total)*100)+'%';st.textContent='Step '+d.step+' of '+d.total+': '+d.name+'...';});
+    es.addEventListener('done',e=>{es.close();const d=JSON.parse(e.data);prog.style.width='100%';st.textContent='Done — '+d.count.toLocaleString()+' listings, '+d.buyerMatches.length+' matches.';setTimeout(()=>{prog.style.width='0%';},2000);btn.disabled=false;});
+    es.onerror=()=>{es.close();st.textContent='Run failed. Check terminal.';btn.disabled=false;};
+  }catch(e){st.textContent='Error: '+e.message;btn.disabled=false;}
+}
+async function doLive(){
+  const q=document.getElementById('srch').value.trim();if(!q)return;
+  const btn=document.getElementById('liveBtn');const st=document.getElementById('liveStatus');
+  btn.disabled=true;st.textContent='Searching...';
+  try{const d=await fetch('/api/search?q='+encodeURIComponent(q)).then(r=>r.json());st.textContent='Done — '+d.count.toLocaleString()+' listings loaded.';}
+  catch(e){st.textContent='Error: '+e.message;}finally{btn.disabled=false;}
+}
+const tabMap={feed:'view-feed',sales:'view-sales',inv:'view-inv',eci:'view-eci',ecj:'view-ecj',bump:'view-bump',chron:'view-chron'};
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
+  document.querySelectorAll('.view').forEach(x=>x.classList.remove('on'));
+  t.classList.add('on');document.getElementById(tabMap[t.dataset.tab]).classList.add('on');
+  if(t.dataset.tab==='inv'){if(!_INV.length)loadInv();else renderInv();}
+  if(t.dataset.tab==='eci'){if(!_ECI.length)loadEci();else renderEci();}
+  if(t.dataset.tab==='ecj'){if(!_ECJ.length)loadEcj();else renderEcj();}
+}));
+initCounts();renderFeed();renderHotLeads();renderSales();
 </script>
 </body>
 </html>

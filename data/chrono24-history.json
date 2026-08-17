@@ -1,10 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-12T16:44:27.997Z",
-    "query": "116500ln",
-    "count": 49
-  },
-  {
     "scrapedAt": "2026-08-12T16:47:51.665Z",
     "query": "IWC",
     "count": 58
@@ -98,5 +93,10 @@
     "scrapedAt": "2026-08-16T19:10:18.512Z",
     "query": "A. Lange &amp; Sohne",
     "count": 0
+  },
+  {
+    "scrapedAt": "2026-08-17T00:54:38.308Z",
+    "query": "126300",
+    "count": 60
   }
 ]
