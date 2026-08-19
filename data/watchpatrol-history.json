@@ -1,70 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-12T16:47:36.368Z",
-    "query": "IWC",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-12T16:47:45.720Z",
-    "query": "Jaeger-LeCoultre",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-12T17:59:50.135Z",
-    "query": "Longines",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-12T17:59:59.499Z",
-    "query": "Omega",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-12T18:02:36.409Z",
-    "query": "126300",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-12T21:27:58.363Z",
-    "query": "116500LN",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-12T21:30:57.203Z",
-    "query": "Panerai",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-12T21:31:06.201Z",
-    "query": "Patek Philippe",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-13T11:43:29.113Z",
-    "query": "Rolex",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-13T11:43:38.207Z",
-    "query": "TAG Heuer",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-13T17:25:39.819Z",
-    "query": "Richard Mille",
-    "count": 36
-  },
-  {
-    "scrapedAt": "2026-08-13T17:26:25.551Z",
-    "query": "Richard Mille",
-    "count": 36
-  },
-  {
-    "scrapedAt": "2026-08-13T20:51:06.292Z",
-    "query": "RM Diamond",
-    "count": 1
-  },
-  {
     "scrapedAt": "2026-08-13T20:53:07.606Z",
     "query": "RM Diamond",
     "count": 1
@@ -97,6 +32,71 @@
   {
     "scrapedAt": "2026-08-17T00:54:43.050Z",
     "query": "126300",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-17T01:35:51.621Z",
+    "query": "116500ln",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-17T01:38:51.207Z",
+    "query": "Anonimo",
+    "count": 10
+  },
+  {
+    "scrapedAt": "2026-08-17T01:39:00.425Z",
+    "query": "Audemars Piguet",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-17T11:58:08.756Z",
+    "query": "Breitling",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-17T11:58:17.692Z",
+    "query": "Bvlgari",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-18T14:15:05.866Z",
+    "query": "Rolex Seadweller 1665",
+    "count": 1
+  },
+  {
+    "scrapedAt": "2026-08-18T18:49:50.200Z",
+    "query": "Cartier",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-18T18:49:59.245Z",
+    "query": "Chopard",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-18T18:51:03.697Z",
+    "query": "5235",
+    "count": 0
+  },
+  {
+    "scrapedAt": "2026-08-18T18:55:52.202Z",
+    "query": "Franck Muller",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-18T18:56:01.459Z",
+    "query": "Girard Perregaux",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-18T19:02:15.288Z",
+    "query": "Hublot",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-18T19:02:24.506Z",
+    "query": "IWC",
     "count": 40
   }
 ]

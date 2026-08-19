@@ -37,9 +37,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": false,
+    "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116509-116509-daytona-18k-white-gold-silver-racing-dial-cir-66899",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-17T11:57:33.692Z"
   },
   {
     "id": "ew-69671",
@@ -144,7 +144,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126334-126334-datejust-41-jubilee-ss-blue-diamond-dial-2026-70190",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.164Z"
   },
   {
     "id": "ew-69230",
@@ -312,7 +312,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-218349-218349-day-date-ii-diamonds-18k-white-gold-silver-di-70139",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-69390",
@@ -480,7 +480,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-16628-16628-yacht-master-18k-yellow-gold-sunburst-blue-dial-69797",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70034",
@@ -501,7 +501,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-336933-336933-sky-dweller-ss-18k-yg-ss-black-dial-2025-70034",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-69099",
@@ -627,7 +627,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-1680-8-16808-submariner-date-18k-yellow-gold-blue-dial-69690",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70119",
@@ -641,14 +641,14 @@
     "dialColor": "White",
     "caseMaterial": null,
     "year": null,
-    "price": 48500,
+    "price": 46900,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116509-116509-daytona-18k-white-gold-blue-dial-70119",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
   },
   {
     "id": "ew-68907",
@@ -690,7 +690,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-5513-5513-submariner-ss-black-dial-circa-1987-70192",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70075",
@@ -753,7 +753,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116203-116203-datejust-36-18k-yg-ss-gray-roman-dial-68758",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-68587",
@@ -858,7 +858,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-14233-14233-oyster-perpetual-18k-yellow-gold-ss-champagne-d-66274",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-66836",
@@ -914,14 +914,14 @@
     "dialColor": "White",
     "caseMaterial": null,
     "year": null,
-    "price": 7350,
+    "price": 6990,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-114200-114200-air-king-ss-white-dial-69798",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.159Z"
   },
   {
     "id": "ew-66919",
@@ -984,7 +984,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-277200-277200-oyster-perpetual-31-ss-blue-dial-69762",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70163",
@@ -1026,7 +1026,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-277200-277200-oyster-perpetual-31-ss-blue-dial-2025-70078",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-68364",
@@ -1124,14 +1124,14 @@
     "dialColor": "Yellow",
     "caseMaterial": null,
     "year": null,
-    "price": 4800,
+    "price": 4600,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-a1028-a1028-18k-yellow-gold-hand-cufflinks-2025-69799",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.159Z"
   },
   {
     "id": "ew-69228",
@@ -1271,14 +1271,14 @@
     "dialColor": "Black",
     "caseMaterial": null,
     "year": null,
-    "price": 15300,
+    "price": 14500,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-16610lv-16610lv-kermit-submariner-date-ss-black-dial-68858",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
   },
   {
     "id": "ew-63989",
@@ -1425,7 +1425,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-5512-5512-submariner-ss-matte-black-dial-circa-1971-69267",
-    "scrapedAt": "2026-08-16T19:09:22.662Z"
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
   },
   {
     "id": "ew-69635",
@@ -1509,7 +1509,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126303-126303-datejust-41-18k-yg-ss-black-dial-68960",
-    "scrapedAt": "2026-08-16T19:09:22.664Z"
+    "scrapedAt": "2026-08-17T11:57:33.686Z"
   },
   {
     "id": "ew-68866",
@@ -1551,7 +1551,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116718ln-116718ln-gmt-master-ii-18k-yellow-gold-green-dial-69967",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70016",
@@ -1614,7 +1614,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-1625-1625-datejust-turn-o-graph-18k-yellow-gold-champagne-d-66767",
-    "scrapedAt": "2026-08-16T19:09:22.664Z"
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
   },
   {
     "id": "ew-69615",
@@ -1677,7 +1677,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126334-126334-datejust-41-jubilee-ss-black-diamond-dial-202-69297",
-    "scrapedAt": "2026-08-16T19:09:22.664Z"
+    "scrapedAt": "2026-08-17T11:57:33.687Z"
   },
   {
     "id": "ew-65776",
@@ -1761,7 +1761,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-124060-124060-submariner-no-date-pavel-zacha-iihf-world-cha-68497",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.164Z"
   },
   {
     "id": "ew-68854",
@@ -1845,7 +1845,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/rolex-278274-278274-ladies-datejust-31-ss-gray-dial-2026-unworn-69828",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-68780",
@@ -1866,7 +1866,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116718ln-116718ln-gmt-master-ii-yellow-gold-black-dial-68780",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.164Z"
   },
   {
     "id": "ew-69729",
@@ -1929,7 +1929,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126331-126331-datejust-41-18k-rg-ss-gray-wimbledon-dial-68800",
-    "scrapedAt": "2026-08-16T19:09:22.664Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-65804",
@@ -1992,7 +1992,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-52508-52508-perpetual-1908-18k-yellow-gold-black-dial-2026-69073",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.164Z"
   },
   {
     "id": "ew-52843",
@@ -2013,7 +2013,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-5513-5513-vintage-submariner-ss-black-serif-matte-dial-circ-52843",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-68828",
@@ -2055,7 +2055,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126331-126331-datejust-41-18k-rg-ss-gray-wimbledon-dial-68696",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-68754",
@@ -2069,14 +2069,14 @@
     "dialColor": "Beige",
     "caseMaterial": null,
     "year": null,
-    "price": 10700,
+    "price": 10450,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-124200-124200-oyster-perpetual-34-ss-beige-dial-2026-unworn-68754",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.159Z"
   },
   {
     "id": "ew-66760",
@@ -2118,7 +2118,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-128348rbr-128348rbr-day-date-36mm-diamonds-18k-yellow-gold-66415",
-    "scrapedAt": "2026-08-16T19:09:22.668Z"
+    "scrapedAt": "2026-08-18T19:01:39.164Z"
   },
   {
     "id": "ew-69276",
@@ -2139,7 +2139,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-128345rbr-128345rbr-day-date-36-rainbow-18k-everose-gold-di-69276",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-69295",
@@ -2202,7 +2202,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-6605-6605-datejust-18k-yellow-gold-white-dial-circa-1956-66790",
-    "scrapedAt": "2026-08-16T19:09:22.668Z"
+    "scrapedAt": "2026-08-18T19:01:39.164Z"
   },
   {
     "id": "ew-66761",
@@ -2223,7 +2223,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-18308-18308-day-date-bark-finish-18k-yg-ferrite-roman-dial-66761",
-    "scrapedAt": "2026-08-16T19:09:22.668Z"
+    "scrapedAt": "2026-08-18T19:01:39.165Z"
   },
   {
     "id": "ew-68613",
@@ -2244,7 +2244,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116618lb-116618lb-submariner-date-18k-yellow-gold-blue-dial-68613",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.164Z"
   },
   {
     "id": "ew-66293",
@@ -2265,7 +2265,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116505-116505-daytona-18k-rose-gold-brown-chocolate-dial-66293",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-69621",
@@ -2342,14 +2342,14 @@
     "dialColor": "Pink",
     "caseMaterial": null,
     "year": null,
-    "price": 39200,
+    "price": 38900,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": false,
+    "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-218235-218235-day-date-ii-18k-everose-pink-roman-dial-69053",
-    "scrapedAt": "2026-08-07T16:58:55.779Z"
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
   },
   {
     "id": "ew-69208",
@@ -2494,9 +2494,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/rolex-116660-116660-deepsea-sea-dweller-ss-black-dial-69673",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-69616",
@@ -2559,7 +2559,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-6827-6827-datejust-31-18k-yellow-gold-champagne-dial-circa-69021",
-    "scrapedAt": "2026-08-16T19:09:22.664Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-69587",
@@ -2706,7 +2706,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126300-126300-datejust-41-ss-silver-dial-2026-69921",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-17T11:57:33.693Z"
   },
   {
     "id": "ew-69371",
@@ -2748,7 +2748,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-1675-8-1675-8-gmt-master-18k-yellow-gold-black-dial-circa-1-66763",
-    "scrapedAt": "2026-08-16T19:09:22.668Z"
+    "scrapedAt": "2026-08-18T19:01:39.165Z"
   },
   {
     "id": "ew-69103",
@@ -2769,7 +2769,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126300-126300-datejust-41-ss-black-dial-69103",
-    "scrapedAt": "2026-08-16T19:09:22.664Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-69490",
@@ -3105,7 +3105,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116505-116505-daytona-18k-rose-gold-rose-dial-67810",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-66787",
@@ -3126,7 +3126,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-1803-1803-day-date-18k-yellow-gold-oxblood-stella-dial-rare-66787",
-    "scrapedAt": "2026-08-16T19:09:22.668Z"
+    "scrapedAt": "2026-08-18T19:01:39.165Z"
   },
   {
     "id": "ew-67338",
@@ -3147,7 +3147,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-118206-118206-day-date-36mm-platinum-glacier-baguette-diamo-67338",
-    "scrapedAt": "2026-08-16T19:09:22.668Z"
+    "scrapedAt": "2026-08-18T19:01:39.165Z"
   },
   {
     "id": "ew-66742",
@@ -3168,7 +3168,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-276200-276200-oyster-perpetual-28mm-ss-blue-dial-66742",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-64243",
@@ -3187,9 +3187,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": false,
+    "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116688-116688-yacht-master-ii-18k-yellow-gold-white-dial-64243",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-65727",
@@ -3210,7 +3210,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-16618-16618-submariner-date-18k-yellow-gold-black-dial-circ-65727",
-    "scrapedAt": "2026-08-16T19:09:22.668Z"
+    "scrapedAt": "2026-08-18T19:01:39.165Z"
   },
   {
     "id": "ew-65724",
@@ -3294,7 +3294,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/rolex-16713-16713-gmt-master-ii-ss-18k-yellow-gold-black-dial-cir-69858",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.164Z"
   },
   {
     "id": "ew-69924",
@@ -3392,14 +3392,14 @@
     "dialColor": "Black",
     "caseMaterial": null,
     "year": null,
-    "price": 10900,
+    "price": 11650,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-14060-14060-submariner-no-date-ss-black-dial-circa-1991-70055",
-    "scrapedAt": "2026-08-03T20:27:22.435Z"
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
   },
   {
     "id": "ew-69572",
@@ -3462,7 +3462,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-16710a-16710a-gmt-master-ii-pepsi-ss-black-dial-circa-2001-70042",
-    "scrapedAt": "2026-08-16T19:09:22.664Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-69996",
@@ -3693,7 +3693,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-26470stooa028cr01-26470st-royal-oak-offshore-chro-70102",
-    "scrapedAt": "2026-08-16T19:09:16.269Z"
+    "scrapedAt": "2026-08-18T19:01:30.798Z"
   },
   {
     "id": "ew-69717",
@@ -3714,7 +3714,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-77451stzz1361st04-77451st-royal-oak-34-diamond-be-69717",
-    "scrapedAt": "2026-08-16T19:09:16.274Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-69444",
@@ -3756,7 +3756,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-26420ioooa009ca01-26420io-royal-oak-offshore-chro-70219",
-    "scrapedAt": "2026-08-16T19:09:16.272Z"
+    "scrapedAt": "2026-08-18T19:01:30.799Z"
   },
   {
     "id": "ew-67323",
@@ -3777,7 +3777,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-25730baoo0789ba06-25730ba-royal-oak-dual-time-18k-67323",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-68951",
@@ -3840,7 +3840,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-15210stooa348kb01-15210st-code-1159-automatic-ss-70216",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-70276",
@@ -3880,9 +3880,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-25920st-oo-0789st-01-25920st-royal-oak-annual-cal-69370",
-    "scrapedAt": "2026-08-16T19:09:16.269Z"
+    "scrapedAt": "2026-08-18T19:01:30.797Z"
   },
   {
     "id": "ew-68040",
@@ -3901,9 +3901,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-25863tiooa001cu01-royal-oak-offshore-t3-terminato-68040",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-69288",
@@ -3917,14 +3917,14 @@
     "dialColor": "Silver",
     "caseMaterial": null,
     "year": null,
-    "price": 58700,
+    "price": 55800,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-15403ipoo1220ip01-15403ip-royal-oak-qe-ii-cup-201-69288",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.792Z"
   },
   {
     "id": "ew-67279",
@@ -3938,14 +3938,14 @@
     "dialColor": "Black",
     "caseMaterial": null,
     "year": null,
-    "price": 24800,
+    "price": 23600,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-15701stood002ca02-15701st-royal-oak-offshore-scub-67279",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.794Z"
   },
   {
     "id": "ew-69525",
@@ -4092,7 +4092,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-25718ba-25718ba-jules-audemars-tourbillon-18k-yel-63889",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-70067",
@@ -4113,7 +4113,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-15159orzzd002cr01-jules-audemars-diamonds-18k-ros-70067",
-    "scrapedAt": "2026-08-16T19:09:16.274Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-69912",
@@ -4153,9 +4153,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-15210orooa002kb03-15210or-code-1159-18k-rose-gold-69415",
-    "scrapedAt": "2026-08-16T19:09:16.266Z"
+    "scrapedAt": "2026-08-18T19:01:30.797Z"
   },
   {
     "id": "ew-69270",
@@ -4176,7 +4176,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-26022bcood002cr01-26022bc-royal-oak-chronograph-1-69270",
-    "scrapedAt": "2026-08-16T19:09:16.269Z"
+    "scrapedAt": "2026-08-18T19:01:30.797Z"
   },
   {
     "id": "ew-68362",
@@ -4197,7 +4197,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-15701stood002ca03-15701st-royal-oak-offshore-scub-68362",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-69705",
@@ -4260,7 +4260,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-25977orood002cr01-25977or-royal-oak-tourbillon-ch-65746",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-69235",
@@ -4344,7 +4344,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-15720stooa009ca01-15720st-royal-oak-offshore-dive-69841",
-    "scrapedAt": "2026-08-16T19:09:16.272Z"
+    "scrapedAt": "2026-08-18T19:01:30.799Z"
   },
   {
     "id": "ew-61718",
@@ -4363,9 +4363,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-25682ba-edward-piguet-perpetual-calendar-18k-yell-61718",
-    "scrapedAt": "2026-08-16T19:09:16.276Z"
+    "scrapedAt": "2026-08-18T18:49:05.952Z"
   },
   {
     "id": "ew-68652",
@@ -4386,7 +4386,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-wgsa0086-wgsa0086-santos-dumont-xl-platinum-silver-arabic-68652",
-    "scrapedAt": "2026-08-16T19:09:17.434Z"
+    "scrapedAt": "2026-08-18T19:01:32.055Z"
   },
   {
     "id": "ew-69260",
@@ -4470,7 +4470,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-wgta0108-wgta0108-tank-normale-18k-yellow-gold-silver-dia-68630",
-    "scrapedAt": "2026-08-16T19:09:17.436Z"
+    "scrapedAt": "2026-08-18T19:01:32.056Z"
   },
   {
     "id": "ew-69336",
@@ -4491,7 +4491,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-whpa0007-whpa0007-pasha-de-cartier-ss-skeleton-dial-69336",
-    "scrapedAt": "2026-08-16T19:09:17.435Z"
+    "scrapedAt": "2026-08-18T19:01:32.055Z"
   },
   {
     "id": "ew-68655",
@@ -4596,7 +4596,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-wgta0110-wgta0110-tank-normale-18k-yellow-gold-silver-dia-69928",
-    "scrapedAt": "2026-08-16T19:09:17.435Z"
+    "scrapedAt": "2026-08-18T19:01:32.055Z"
   },
   {
     "id": "ew-69199",
@@ -4631,14 +4631,14 @@
     "dialColor": "Silver",
     "caseMaterial": null,
     "year": null,
-    "price": 11900,
+    "price": 11300,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-2390-2390-tank-basculante-ss-silver-dial-69389",
-    "scrapedAt": "2026-08-16T19:09:17.436Z"
+    "scrapedAt": "2026-08-18T19:01:32.050Z"
   },
   {
     "id": "ew-67813",
@@ -4680,7 +4680,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-wgcl0003-wgcl0003-cle-de-cartier-18k-yellow-gold-silver-d-68733",
-    "scrapedAt": "2026-08-16T19:09:17.434Z"
+    "scrapedAt": "2026-08-18T19:01:32.054Z"
   },
   {
     "id": "ew-69677",
@@ -4701,7 +4701,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-w1532851-w1532851-tortue-cpcp-platinum-silver-dial-limite-69677",
-    "scrapedAt": "2026-08-16T19:09:17.430Z"
+    "scrapedAt": "2026-08-18T19:01:32.054Z"
   },
   {
     "id": "ew-69966",
@@ -4764,7 +4764,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-wgta0284-tank-cintree-milano-edition-platinum-silver-dial-69062",
-    "scrapedAt": "2026-08-16T19:09:17.434Z"
+    "scrapedAt": "2026-08-18T19:01:32.054Z"
   },
   {
     "id": "ew-68522",
@@ -4806,7 +4806,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-we9007z3-we9007z3-ballon-bleu-42-18k-yellow-gold-silver-d-67107",
-    "scrapedAt": "2026-08-16T19:09:17.436Z"
+    "scrapedAt": "2026-08-18T19:01:32.056Z"
   },
   {
     "id": "ew-66668",
@@ -4827,7 +4827,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-w1556224-w1556224-rotonde-de-cartier-mysterious-hour-18k-66668",
-    "scrapedAt": "2026-08-16T19:09:17.436Z"
+    "scrapedAt": "2026-08-18T19:01:32.056Z"
   },
   {
     "id": "ew-66081",
@@ -4841,14 +4841,14 @@
     "dialColor": "Silver",
     "caseMaterial": null,
     "year": null,
-    "price": 17100,
+    "price": 16890,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-w1555951-rotonde-de-cartier-central-chronograph-18k-rose-66081",
-    "scrapedAt": "2026-08-16T19:09:17.436Z"
+    "scrapedAt": "2026-08-18T19:01:32.053Z"
   },
   {
     "id": "ew-69999",
@@ -4890,7 +4890,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/chopard-168591-3001-168591-3001-luc-xps-ss-white-dial-70271",
-    "scrapedAt": "2026-08-16T19:09:17.874Z"
+    "scrapedAt": "2026-08-18T19:01:32.852Z"
   },
   {
     "id": "ew-69179",
@@ -4909,9 +4909,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/chopard-171910-1001-171910-luc-regulator-40-diamonds-18k-white-go-69179",
-    "scrapedAt": "2026-08-16T19:09:17.873Z"
+    "scrapedAt": "2026-08-18T19:01:32.851Z"
   },
   {
     "id": "ew-70251",
@@ -4932,7 +4932,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/chopard-161937-5001-luc-1937-classic-18k-rose-gold-silver-dial-70251",
-    "scrapedAt": "2026-08-16T19:09:17.873Z"
+    "scrapedAt": "2026-08-18T19:01:32.851Z"
   },
   {
     "id": "ew-68320",
@@ -4974,7 +4974,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/chopard-168592-3008-luc-skull-one-calavera-pop-art-limited-63792",
-    "scrapedAt": "2026-08-16T19:09:17.874Z"
+    "scrapedAt": "2026-08-18T19:01:32.852Z"
   },
   {
     "id": "ew-68137",
@@ -4995,7 +4995,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/chopard-298623-3001-298623-3001-alpine-eagle-41-xps-ss-salmon-dia-68137",
-    "scrapedAt": "2026-08-16T19:09:17.873Z"
+    "scrapedAt": "2026-08-18T19:01:32.851Z"
   },
   {
     "id": "ew-67283",
@@ -5016,7 +5016,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/chopard-161942-9001-161942-9001-luc-time-traveler-one-platinum-gr-67283",
-    "scrapedAt": "2026-08-16T19:09:17.874Z"
+    "scrapedAt": "2026-08-18T19:01:32.852Z"
   },
   {
     "id": "ew-68745",
@@ -5035,9 +5035,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/franck-muller-v-45-cc-dt-yachting-vanguard-yachting-ss-white-dial-68745",
-    "scrapedAt": "2026-08-16T19:09:18.404Z"
+    "scrapedAt": "2026-08-18T19:01:33.538Z"
   },
   {
     "id": "ew-70244",
@@ -5058,7 +5058,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/franck-muller-2851-s6-2851-s6-cintree-curvex-big-date-ss-silver-d-70244",
-    "scrapedAt": "2026-08-16T19:09:18.405Z"
+    "scrapedAt": "2026-08-18T19:01:33.538Z"
   },
   {
     "id": "ew-70424",
@@ -5079,7 +5079,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/franck-muller-v-45-sc-dt-tt-nr-br-5n-vanguard-classical-titanium-70424",
-    "scrapedAt": "2026-08-16T19:09:18.405Z"
+    "scrapedAt": "2026-08-18T19:01:33.539Z"
   },
   {
     "id": "ew-69839",
@@ -5121,7 +5121,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/franck-muller-1752qzd-1752qzd-cintree-curvex-18k-white-gold-silve-69361",
-    "scrapedAt": "2026-08-16T19:09:18.399Z"
+    "scrapedAt": "2026-08-18T19:01:33.538Z"
   },
   {
     "id": "ew-68037",
@@ -5142,7 +5142,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/franck-muller-3002-m-qz-v-bu-galet-quartz-18k-rose-gold-silver-di-68037",
-    "scrapedAt": "2026-08-16T19:09:18.406Z"
+    "scrapedAt": "2026-08-18T19:01:33.539Z"
   },
   {
     "id": "ew-69466",
@@ -5163,7 +5163,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/franck-muller-7002-t-imperial-tourbillon-18k-white-gold-silver-di-69466",
-    "scrapedAt": "2026-08-16T19:09:18.403Z"
+    "scrapedAt": "2026-08-18T19:01:33.538Z"
   },
   {
     "id": "ew-69894",
@@ -5226,7 +5226,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/girard-perregaux-49555-52-431-bb4a-1966-orion-18k-rose-gold-blue-69378",
-    "scrapedAt": "2026-08-16T19:09:18.801Z"
+    "scrapedAt": "2026-08-18T19:01:34.274Z"
   },
   {
     "id": "ew-70208",
@@ -5247,7 +5247,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/girard-perregaux-9925-9925-tourbillon-with-three-gold-bridges-pla-70208",
-    "scrapedAt": "2026-08-16T19:09:18.801Z"
+    "scrapedAt": "2026-08-18T19:01:34.274Z"
   },
   {
     "id": "ew-70008",
@@ -5282,14 +5282,14 @@
     "dialColor": "Black",
     "caseMaterial": null,
     "year": null,
-    "price": 12800,
+    "price": 12650,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/girard-perregaux-81010-11-191511a-81010-laureato-ss-black-dial-li-68670",
-    "scrapedAt": "2026-08-16T19:09:18.802Z"
+    "scrapedAt": "2026-08-18T19:01:34.270Z"
   },
   {
     "id": "ew-67966",
@@ -5303,14 +5303,14 @@
     "dialColor": "Black",
     "caseMaterial": null,
     "year": null,
-    "price": 6700,
+    "price": 6450,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/girard-perregaux-49970-11-1302sfk6b-49970-chrono-hawk-brazil-edit-67966",
-    "scrapedAt": "2026-08-16T19:09:18.802Z"
+    "scrapedAt": "2026-08-18T19:01:34.273Z"
   },
   {
     "id": "ew-67817",
@@ -5352,7 +5352,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw387806-pilots-watch-chronograph-antoine-de-saint-exupery-ed-69240",
-    "scrapedAt": "2026-08-16T19:09:19.536Z"
+    "scrapedAt": "2026-08-18T19:01:35.843Z"
   },
   {
     "id": "ew-68480",
@@ -5373,7 +5373,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw371513-iw371513-gst-rattrapante-chronograph-ss-salmon-dial-68480",
-    "scrapedAt": "2026-08-16T19:09:19.538Z"
+    "scrapedAt": "2026-08-18T19:01:35.846Z"
   },
   {
     "id": "ew-69932",
@@ -5394,7 +5394,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw544301-iw544301-portugieser-regulateur-wempe-edition-ss-sil-69932",
-    "scrapedAt": "2026-08-16T19:09:19.536Z"
+    "scrapedAt": "2026-08-18T19:01:35.843Z"
   },
   {
     "id": "ew-69773",
@@ -5415,7 +5415,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw501201-iw501201-big-pilots-watch-amg-g-63-18k-rose-gold-bla-69773",
-    "scrapedAt": "2026-08-16T19:09:19.536Z"
+    "scrapedAt": "2026-08-18T19:01:35.844Z"
   },
   {
     "id": "ew-69768",
@@ -5436,7 +5436,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/iwc-iw329304-iw329304-big-pilots-watch-43-ss-blue-dial-69768",
-    "scrapedAt": "2026-08-16T19:09:19.536Z"
+    "scrapedAt": "2026-08-18T19:01:35.844Z"
   },
   {
     "id": "ew-69373",
@@ -5478,7 +5478,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw390704-iw390704-portugieser-yacht-club-chronograph-orlebar-66796",
-    "scrapedAt": "2026-08-16T19:09:19.536Z"
+    "scrapedAt": "2026-08-18T19:01:35.844Z"
   },
   {
     "id": "ew-70258",
@@ -5541,7 +5541,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw322701-iw322701-ingenieur-ss-black-dial-69506",
-    "scrapedAt": "2026-08-16T19:09:19.531Z"
+    "scrapedAt": "2026-08-18T19:01:35.839Z"
   },
   {
     "id": "ew-68853",
@@ -5560,9 +5560,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/iwc-iw389401-iw389401-pilots-watch-chronograph-41-top-gun-black-c-68853",
-    "scrapedAt": "2026-08-16T19:09:19.538Z"
+    "scrapedAt": "2026-08-18T19:01:35.846Z"
   },
   {
     "id": "ew-69221",
@@ -5604,7 +5604,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw502618-iw502618-big-pilots-perpetual-calendar-ss-black-dial-70134",
-    "scrapedAt": "2026-08-16T19:09:19.535Z"
+    "scrapedAt": "2026-08-18T19:01:35.842Z"
   },
   {
     "id": "ew-69995",
@@ -5667,7 +5667,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw3713-13-iw3713-13-pilot-doppelchronograph-18k-yellow-gold-b-67692",
-    "scrapedAt": "2026-08-16T19:09:19.537Z"
+    "scrapedAt": "2026-08-18T19:01:35.845Z"
   },
   {
     "id": "ew-70499",
@@ -5688,7 +5688,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw344602-iw344602-portofino-perpetual-calendar-18k-rose-gold-70499",
-    "scrapedAt": "2026-08-16T19:09:19.536Z"
+    "scrapedAt": "2026-08-18T19:01:35.843Z"
   },
   {
     "id": "ew-70416",
@@ -5709,7 +5709,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw389411-pilots-watch-chronograph-41-george-russell-ceramic-b-70416",
-    "scrapedAt": "2026-08-16T19:09:19.536Z"
+    "scrapedAt": "2026-08-18T19:01:35.843Z"
   },
   {
     "id": "ew-69531",
@@ -5730,7 +5730,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw389411-pilots-watch-chronograph-41-george-russell-ceramic-b-69531",
-    "scrapedAt": "2026-08-16T19:09:19.537Z"
+    "scrapedAt": "2026-08-18T19:01:35.845Z"
   },
   {
     "id": "ew-70231",
@@ -5751,7 +5751,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-3751-3751-da-vinci-perpetual-calendar-rattrapante-platinum-gr-70231",
-    "scrapedAt": "2026-08-16T19:09:19.536Z"
+    "scrapedAt": "2026-08-18T19:01:35.844Z"
   },
   {
     "id": "ew-70321",
@@ -5793,7 +5793,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw328104-pilots-watch-automatic-41-top-gun-lake-tahoe-ceramic-70442",
-    "scrapedAt": "2026-08-16T19:09:19.538Z"
+    "scrapedAt": "2026-08-18T19:01:35.845Z"
   },
   {
     "id": "ew-69626",
@@ -5835,7 +5835,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw544805-iw544805-vintage-collection-portofino-platinum-silve-68774",
-    "scrapedAt": "2026-08-16T19:09:19.537Z"
+    "scrapedAt": "2026-08-18T19:01:35.845Z"
   },
   {
     "id": "ew-69899",
@@ -5898,7 +5898,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw515202-iw515202-pilots-watch-monopusher-le-petit-prince-ss-70299",
-    "scrapedAt": "2026-08-16T19:09:19.537Z"
+    "scrapedAt": "2026-08-18T19:01:35.845Z"
   },
   {
     "id": "ew-68383",
@@ -5919,7 +5919,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw395001-iw395001-pilots-watch-timezoner-chronograph-ss-black-68383",
-    "scrapedAt": "2026-08-16T19:09:19.538Z"
+    "scrapedAt": "2026-08-18T19:01:35.845Z"
   },
   {
     "id": "ew-69927",
@@ -5980,9 +5980,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/iwc-iw510103-iw510103-portofino-hand-wound-eight-days-ss-silver-d-70050",
-    "scrapedAt": "2026-08-16T19:09:19.537Z"
+    "scrapedAt": "2026-08-18T19:01:35.845Z"
   },
   {
     "id": "ew-70052",
@@ -6003,7 +6003,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw323401-iw323401-ingenieur-automatic-ss-black-dial-70052",
-    "scrapedAt": "2026-08-16T19:09:19.537Z"
+    "scrapedAt": "2026-08-18T19:01:35.845Z"
   },
   {
     "id": "ew-69092",
@@ -6024,7 +6024,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw545404-iw545404-portugieser-hand-wound-ss-black-dial-69092",
-    "scrapedAt": "2026-08-16T19:09:19.538Z"
+    "scrapedAt": "2026-08-18T19:01:35.845Z"
   },
   {
     "id": "ew-62985",
@@ -6087,7 +6087,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw502307-iw502307-portuguese-perpetual-calendar-18k-white-gol-67757",
-    "scrapedAt": "2026-08-16T19:09:19.537Z"
+    "scrapedAt": "2026-08-18T19:01:35.845Z"
   },
   {
     "id": "ew-68261",
@@ -6150,7 +6150,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw328601-pilots-venturer-vertical-drive-white-ceramic-black-d-69783",
-    "scrapedAt": "2026-08-16T19:09:19.535Z"
+    "scrapedAt": "2026-08-18T19:01:35.843Z"
   },
   {
     "id": "ew-67858",
@@ -6169,9 +6169,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/iwc-iw390406-iw390406-portugieser-chronograph-classic-laureus-ss-67858",
-    "scrapedAt": "2026-08-16T19:09:19.538Z"
+    "scrapedAt": "2026-08-18T19:01:35.846Z"
   },
   {
     "id": "ew-63164",
@@ -6213,7 +6213,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw3303-iw3303-ingenieur-jumbo-sl-extra-thin-quartz-ss-silver-64786",
-    "scrapedAt": "2026-08-16T19:09:19.535Z"
+    "scrapedAt": "2026-08-18T19:01:35.843Z"
   },
   {
     "id": "ew-62070",
@@ -6234,7 +6234,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-140887-140887-master-control-calendar-ss-silver-62070",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.586Z"
   },
   {
     "id": "ew-70218",
@@ -6253,9 +6253,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q397848j-q397848j-reverso-tribute-small-seconds-70218",
-    "scrapedAt": "2026-08-16T19:09:19.994Z"
+    "scrapedAt": "2026-08-18T19:01:36.584Z"
   },
   {
     "id": "ew-70285",
@@ -6276,7 +6276,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q8018420-q8018420-geophysic-true-second-ss-silve-70285",
-    "scrapedAt": "2026-08-16T19:09:20.001Z"
+    "scrapedAt": "2026-08-18T19:01:36.584Z"
   },
   {
     "id": "ew-70238",
@@ -6339,7 +6339,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q1652410-q1652410-master-date-tourbillon-18k-ros-69251",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.585Z"
   },
   {
     "id": "ew-69544",
@@ -6400,9 +6400,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q205l570-q205l570-master-compressor-chronograph-69737",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.586Z"
   },
   {
     "id": "ew-68575",
@@ -6507,7 +6507,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q141848j-q141848j-master-memovox-boutique-editio-69423",
-    "scrapedAt": "2026-08-16T19:09:20.001Z"
+    "scrapedAt": "2026-08-18T19:01:36.584Z"
   },
   {
     "id": "ew-67778",
@@ -6528,7 +6528,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q2326421-reverso-grande-complication-a-triptyque-67778",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.587Z"
   },
   {
     "id": "ew-69289",
@@ -6570,7 +6570,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q141848j-q141848j-master-memovox-boutique-editio-69735",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.585Z"
   },
   {
     "id": "ew-67716",
@@ -6591,7 +6591,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-141297-141297-master-control-reveil-18k-rose-gol-67716",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-17T11:57:31.099Z"
   },
   {
     "id": "ew-69258",
@@ -6736,9 +6736,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/omega-33210415103001-speedmaster-57-ss-blue-dial-70308",
-    "scrapedAt": "2026-08-16T19:09:21.229Z"
+    "scrapedAt": "2026-08-17T11:57:32.241Z"
   },
   {
     "id": "ew-69910",
@@ -6801,7 +6801,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-31163403002001-speedmaster-anniversary-18k-rose-gold-silver-70448",
-    "scrapedAt": "2026-08-04T12:54:24.750Z"
+    "scrapedAt": "2026-08-18T19:01:37.782Z"
   },
   {
     "id": "ew-68697",
@@ -6822,7 +6822,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-30493445203001-speedmaster-moonphase-blue-side-of-the-moon-68697",
-    "scrapedAt": "2026-08-16T19:09:21.234Z"
+    "scrapedAt": "2026-08-18T19:01:37.779Z"
   },
   {
     "id": "ew-69330",
@@ -6843,7 +6843,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-31030425001004-speedmaster-professional-moonwatch-ss-black-69330",
-    "scrapedAt": "2026-08-16T19:09:21.237Z"
+    "scrapedAt": "2026-08-18T19:01:37.782Z"
   },
   {
     "id": "ew-67679",
@@ -6864,7 +6864,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-42567342055008-de-ville-ladymatic-18k-sedna-gold-mother-of-67679",
-    "scrapedAt": "2026-08-16T19:09:21.236Z"
+    "scrapedAt": "2026-08-18T19:01:37.780Z"
   },
   {
     "id": "ew-69130",
@@ -6899,14 +6899,14 @@
     "dialColor": "Black",
     "caseMaterial": null,
     "year": null,
-    "price": 4700,
+    "price": 4350,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-145014-145014-speedmaster-mark-ii-ss-black-dial-68260",
-    "scrapedAt": "2026-08-16T19:09:21.237Z"
+    "scrapedAt": "2026-08-18T19:01:37.772Z"
   },
   {
     "id": "ew-69945",
@@ -6927,7 +6927,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-13155292055003-constellation-manhattan-18k-moonshine-gold-m-69945",
-    "scrapedAt": "2026-08-16T19:09:21.234Z"
+    "scrapedAt": "2026-08-18T19:01:37.779Z"
   },
   {
     "id": "ew-69994",
@@ -6946,9 +6946,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/omega-32433384004001-speedmaster-chronograph-38-ss-white-dial-69994",
-    "scrapedAt": "2026-08-16T19:09:21.235Z"
+    "scrapedAt": "2026-08-18T19:01:37.780Z"
   },
   {
     "id": "ew-70233",
@@ -7032,7 +7032,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-13133412103001-constellation-co-axial-master-chronometer-ss-68806",
-    "scrapedAt": "2026-08-16T19:09:21.236Z"
+    "scrapedAt": "2026-08-18T19:01:37.781Z"
   },
   {
     "id": "ew-69876",
@@ -7137,7 +7137,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-145014-145014-speedmaster-mark-ii-ss-black-dial-70060",
-    "scrapedAt": "2026-08-16T19:09:21.236Z"
+    "scrapedAt": "2026-08-18T19:01:37.780Z"
   },
   {
     "id": "ew-68135",
@@ -7200,7 +7200,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-43410412110001-de-ville-prestige-power-reserve-ss-salmon-di-69125",
-    "scrapedAt": "2026-08-16T19:09:21.233Z"
+    "scrapedAt": "2026-08-18T19:01:37.778Z"
   },
   {
     "id": "ew-69571",
@@ -7235,14 +7235,14 @@
     "dialColor": "Blue",
     "caseMaterial": null,
     "year": null,
-    "price": 12980,
+    "price": 12450,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-13125292053001-constellation-manhattan-ss-18k-yg-diamonds-b-66976",
-    "scrapedAt": "2026-08-16T19:09:21.237Z"
+    "scrapedAt": "2026-08-18T19:01:37.778Z"
   },
   {
     "id": "ew-68963",
@@ -7284,7 +7284,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-31193445199002-speedmaster-gray-side-of-the-moon-ceramic-gr-70095",
-    "scrapedAt": "2026-08-16T19:09:21.236Z"
+    "scrapedAt": "2026-08-18T19:01:37.781Z"
   },
   {
     "id": "ew-69346",
@@ -7305,7 +7305,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-31063425001001-speedmaster-moonwatch-professional-18k-sedna-69346",
-    "scrapedAt": "2026-08-16T19:09:21.234Z"
+    "scrapedAt": "2026-08-18T19:01:37.779Z"
   },
   {
     "id": "ew-66993",
@@ -7319,14 +7319,14 @@
     "dialColor": "Black",
     "caseMaterial": null,
     "year": null,
-    "price": 13600,
+    "price": 13350,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-31092445101003-speedmaster-dark-side-of-the-moon-black-blac-66993",
-    "scrapedAt": "2026-08-16T19:09:21.237Z"
+    "scrapedAt": "2026-08-18T19:01:37.778Z"
   },
   {
     "id": "ew-67727",
@@ -7361,14 +7361,14 @@
     "dialColor": "Blue",
     "caseMaterial": null,
     "year": null,
-    "price": 11900,
+    "price": 11450,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-43453412003001-de-ville-prestige-18k-sedna-gold-blue-dial-67841",
-    "scrapedAt": "2026-08-16T19:09:21.237Z"
+    "scrapedAt": "2026-08-18T19:01:37.778Z"
   },
   {
     "id": "ew-67241",
@@ -7389,7 +7389,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-31163445101001-speedmaster-moonwatch-co-axial-18k-rose-gold-67241",
-    "scrapedAt": "2026-08-16T19:09:21.233Z"
+    "scrapedAt": "2026-08-18T19:01:37.779Z"
   },
   {
     "id": "ew-62698",
@@ -7452,7 +7452,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5070p-001-5070p-001-chronograph-platinum-blue-dial-68251",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-64535",
@@ -7536,7 +7536,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-3796r-3796r-calatrava-18k-rose-gold-silver-dial-70154",
-    "scrapedAt": "2026-08-16T19:09:22.164Z"
+    "scrapedAt": "2026-08-18T19:01:38.639Z"
   },
   {
     "id": "ew-70103",
@@ -7557,7 +7557,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5119r-001-5119r-calatrava-18k-rose-gold-white-dial-70103",
-    "scrapedAt": "2026-08-16T19:09:22.164Z"
+    "scrapedAt": "2026-08-18T19:01:38.639Z"
   },
   {
     "id": "ew-67785",
@@ -7578,7 +7578,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-3940-3940-perpetual-calendar-18k-yellow-gold-silve-67785",
-    "scrapedAt": "2026-08-16T19:09:22.167Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-67771",
@@ -7704,7 +7704,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-3549-1-3549-1-geneve-square-18k-yellow-gold-silver-67973",
-    "scrapedAt": "2026-08-16T19:09:22.166Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-69063",
@@ -7746,7 +7746,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5738r-001-5738r-001-golden-ellipse-18k-rose-gold-b-68420",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-69787",
@@ -7872,7 +7872,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-3796g-018-3796g-calatrava-japan-edition-18k-white-69478",
-    "scrapedAt": "2026-08-16T19:09:22.166Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-69300",
@@ -7977,7 +7977,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5330g-010-world-time-date-tokyo-edition-18k-white-69323",
-    "scrapedAt": "2026-08-16T19:09:22.167Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-70107",
@@ -8017,9 +8017,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-3940g-3940g-perpetual-calendar-18k-white-gold-whit-59659",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-70010",
@@ -8040,7 +8040,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5227g-010-tiffany-5227g-calatrava-tiffany-and-co-1-70010",
-    "scrapedAt": "2026-08-16T19:09:22.167Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-69431",
@@ -8082,7 +8082,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5101j-001-5101j-001-gondolo-10-day-tourbillon-18k-68943",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-69279",
@@ -8138,14 +8138,14 @@
     "dialColor": "Silver",
     "caseMaterial": null,
     "year": null,
-    "price": 20400,
+    "price": 19400,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-2448-2448-calatrava-18k-yellow-gold-silver-dial-69046",
-    "scrapedAt": "2026-08-16T19:09:22.167Z"
+    "scrapedAt": "2026-08-18T19:01:38.639Z"
   },
   {
     "id": "ew-69304",
@@ -8159,14 +8159,14 @@
     "dialColor": "Gray",
     "caseMaterial": null,
     "year": null,
-    "price": 65600,
+    "price": 62300,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5350r-001-5350r-annual-calendar-advanced-research-69304",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.639Z"
   },
   {
     "id": "ew-68434",
@@ -8208,7 +8208,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5270g-013-5270g-perpetual-calendar-chronograph-18k-69847",
-    "scrapedAt": "2026-08-16T19:09:22.163Z"
+    "scrapedAt": "2026-08-17T11:57:33.174Z"
   },
   {
     "id": "ew-69743",
@@ -8250,7 +8250,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5108g-010-5108g-calatrava-18k-white-gold-diamond-b-69900",
-    "scrapedAt": "2026-08-16T19:09:22.159Z"
+    "scrapedAt": "2026-08-18T19:01:38.639Z"
   },
   {
     "id": "ew-69496",
@@ -8271,7 +8271,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5496r-001-5496r-perpetual-calendar-retrograde-18k-69496",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-69817",
@@ -8292,7 +8292,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-972-1j-010-972-1j-010-lepine-open-faced-pocket-wat-69817",
-    "scrapedAt": "2026-08-16T19:09:22.165Z"
+    "scrapedAt": "2026-08-18T19:01:38.639Z"
   },
   {
     "id": "ew-69056",
@@ -8334,7 +8334,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5070g-001-5070g-chronograph-tiffany-and-co-18k-whi-68922",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-66765",
@@ -8355,7 +8355,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-3700-013-3700-013-nautilus-18k-yellow-gold-diamond-66765",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-66994",
@@ -8397,7 +8397,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5020p-5020p-perpetual-calendar-chronograph-platinu-68713",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-67375",
@@ -8418,7 +8418,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-3945-001-3945-001-perpetual-calendar-18k-yellow-go-67375",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-69907",
@@ -8439,7 +8439,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5196g-001-5196g-001-calatrava-white-gold-silver-di-69907",
-    "scrapedAt": "2026-08-16T19:09:22.165Z"
+    "scrapedAt": "2026-08-18T19:01:38.639Z"
   },
   {
     "id": "ew-67980",
@@ -8460,7 +8460,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-3548-3548-ellipse-18k-yellow-gold-champagne-dial-67980",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-66014",
@@ -8502,7 +8502,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5013r-001-5013r-minute-repeater-perpetual-calendar-67974",
-    "scrapedAt": "2026-08-16T19:09:22.169Z"
+    "scrapedAt": "2026-08-18T19:01:38.642Z"
   },
   {
     "id": "ew-69061",
@@ -8523,7 +8523,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-3940g-013-3940g-013-perpetual-calendar-18k-white-g-69061",
-    "scrapedAt": "2026-08-16T19:09:22.169Z"
+    "scrapedAt": "2026-08-18T19:01:38.642Z"
   },
   {
     "id": "ew-68400",
@@ -8565,7 +8565,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5004p-033-5004p-perpetual-calendar-split-seconds-p-67925",
-    "scrapedAt": "2026-08-16T19:09:22.169Z"
+    "scrapedAt": "2026-08-18T19:01:38.642Z"
   },
   {
     "id": "ew-67034",
@@ -8586,7 +8586,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-7300-1200a-010-7300-1200a-010-twenty4-tiffany-and-67034",
-    "scrapedAt": "2026-08-16T19:09:22.170Z"
+    "scrapedAt": "2026-08-18T19:01:38.642Z"
   },
   {
     "id": "ew-68401",
@@ -8607,7 +8607,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-3970e-3970-perpetual-chronograph-18k-yg-big-hallma-68401",
-    "scrapedAt": "2026-08-16T19:09:22.170Z"
+    "scrapedAt": "2026-08-18T19:01:38.642Z"
   },
   {
     "id": "ew-66519",
@@ -8628,7 +8628,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-3579-3579-calatrava-ss-silver-dial-66519",
-    "scrapedAt": "2026-08-16T19:09:22.170Z"
+    "scrapedAt": "2026-08-18T19:01:38.642Z"
   },
   {
     "id": "ew-70405",
@@ -8649,7 +8649,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/ulysse-nardin-1183-170le-1a-tor-diver-x-the-ocean-race-carbonium-70405",
-    "scrapedAt": "2026-08-16T19:09:24.150Z"
+    "scrapedAt": "2026-08-18T19:01:41.162Z"
   },
   {
     "id": "ew-69054",
@@ -8668,9 +8668,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": false,
+    "inStock": true,
     "url": "https://www.europeanwatch.com/watch/ulysse-nardin-1725-400-02-1725-400-02-blast-tourbillon-18k-rose-g-69054",
-    "scrapedAt": "2026-08-16T19:09:24.155Z"
+    "scrapedAt": "2026-08-18T19:01:41.165Z"
   },
   {
     "id": "ew-62644",
@@ -8691,7 +8691,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/ulysse-nardin-446-22-446-22-split-seconds-chronograph-18k-yellow-62644",
-    "scrapedAt": "2026-08-16T19:09:24.154Z"
+    "scrapedAt": "2026-08-18T19:01:41.164Z"
   },
   {
     "id": "ew-66828",
@@ -8733,7 +8733,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/ulysse-nardin-660-88-212-660-88-212-sonata-dual-time-18k-white-go-68433",
-    "scrapedAt": "2026-08-16T19:09:24.155Z"
+    "scrapedAt": "2026-08-18T19:01:41.165Z"
   },
   {
     "id": "ew-68109",
@@ -8775,7 +8775,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-82573-000r-9815-82573-traditionnelle-18k-pink-67485",
-    "scrapedAt": "2026-08-16T19:09:24.675Z"
+    "scrapedAt": "2026-08-18T19:01:41.511Z"
   },
   {
     "id": "ew-69914",
@@ -8838,7 +8838,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-5500v-110a-b481-5500v-overseas-chronograph-ss-70145",
-    "scrapedAt": "2026-08-16T19:09:24.679Z"
+    "scrapedAt": "2026-08-18T19:01:41.511Z"
   },
   {
     "id": "ew-67893",
@@ -8901,7 +8901,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-88172-000p-a505-traditionnelle-tourbillon-per-69654",
-    "scrapedAt": "2026-08-16T19:09:24.681Z"
+    "scrapedAt": "2026-08-18T19:01:41.512Z"
   },
   {
     "id": "ew-69495",
@@ -8985,7 +8985,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-4500s-000a-b196-4500s-quai-de-lile-ss-black-d-67094",
-    "scrapedAt": "2026-08-16T19:09:24.680Z"
+    "scrapedAt": "2026-08-18T19:01:41.511Z"
   },
   {
     "id": "ew-69471",
@@ -9048,7 +9048,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-4010u-000g-h070-traditionnelle-retrograde-dat-69605",
-    "scrapedAt": "2026-08-16T19:09:24.681Z"
+    "scrapedAt": "2026-08-18T19:01:41.512Z"
   },
   {
     "id": "ew-70082",
@@ -9090,7 +9090,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-82028-000p-9490-82028-patrimony-contemporaine-65826",
-    "scrapedAt": "2026-08-16T19:09:24.681Z"
+    "scrapedAt": "2026-08-18T19:01:41.513Z"
   },
   {
     "id": "ew-69600",
@@ -9195,7 +9195,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-4010u-000p-b545-patrimony-moon-phase-retrogra-70109",
-    "scrapedAt": "2026-08-16T19:09:24.681Z"
+    "scrapedAt": "2026-08-18T19:01:41.512Z"
   },
   {
     "id": "ew-69812",
@@ -9272,14 +9272,14 @@
     "dialColor": "Silver",
     "caseMaterial": null,
     "year": null,
-    "price": 30300,
+    "price": 28800,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-81180-cb1r-9159-patrimony-contemporaine-40mm-69889",
-    "scrapedAt": "2026-08-16T19:09:24.681Z"
+    "scrapedAt": "2026-08-18T19:01:41.511Z"
   },
   {
     "id": "ew-67547",
@@ -9363,7 +9363,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/breitling-ab0146101c1a1-ab0146-avenger-b01-chronograph-42-ss-blue-70155",
-    "scrapedAt": "2026-08-16T19:09:16.688Z"
+    "scrapedAt": "2026-08-17T11:57:27.624Z"
   },
   {
     "id": "ew-70436",
@@ -9384,7 +9384,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/breitling-ab01764a1c1x1-ab01764a1c1x1-top-time-b01-triumph-stainl-70436",
-    "scrapedAt": "2026-08-16T19:09:16.688Z"
+    "scrapedAt": "2026-08-18T19:01:31.252Z"
   },
   {
     "id": "ew-70046",
@@ -9405,7 +9405,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/breitling-ab01763a1c1a1-ab0176-top-time-b01-shelby-cobra-ss-blue-70046",
-    "scrapedAt": "2026-08-16T19:09:16.689Z"
+    "scrapedAt": "2026-08-18T19:01:31.253Z"
   },
   {
     "id": "ew-68519",
@@ -9426,7 +9426,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/breitling-pb0134101c1s2-chronomat-b01-42-ss-blue-dial-68519",
-    "scrapedAt": "2026-08-16T19:09:16.689Z"
+    "scrapedAt": "2026-08-18T19:01:31.253Z"
   },
   {
     "id": "ew-70152",
@@ -9488,8 +9488,8 @@
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
-    "url": "https://www.europeanwatch.com/watch/breitling-rb0311-rb0311-navitimer-rattrapante-18k-rose-gold-black-66455",
-    "scrapedAt": "2026-08-16T19:09:16.684Z"
+    "url": "https://www.europeanwatch.com/watch/breitling-rb0311e61f1p1-rb0311-navitimer-rattrapante-18k-rose-gol-66455",
+    "scrapedAt": "2026-08-18T19:01:31.252Z"
   },
   {
     "id": "ew-69727",
@@ -9510,7 +9510,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00507-pam00507-luminor-submersible-1950-bronze-green-d-69727",
-    "scrapedAt": "2026-08-16T19:09:21.741Z"
+    "scrapedAt": "2026-08-18T19:01:38.182Z"
   },
   {
     "id": "ew-69439",
@@ -9552,7 +9552,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam01305-pam01305-luminor-submersible-1950-3-days-titaniu-70146",
-    "scrapedAt": "2026-08-16T19:09:21.739Z"
+    "scrapedAt": "2026-08-18T19:01:38.180Z"
   },
   {
     "id": "ew-69991",
@@ -9594,7 +9594,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam02020-pam02020-radiomir-venti-ss-brown-dial-limited-70494",
-    "scrapedAt": "2026-08-16T19:09:21.740Z"
+    "scrapedAt": "2026-08-18T19:01:38.181Z"
   },
   {
     "id": "ew-69908",
@@ -9615,7 +9615,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00510-pam00510-luminor-marina-8-days-acciaio-black-dia-69908",
-    "scrapedAt": "2026-08-16T19:09:21.740Z"
+    "scrapedAt": "2026-08-18T19:01:38.181Z"
   },
   {
     "id": "ew-70309",
@@ -9636,7 +9636,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam01109-pam01109-luminor-chrono-ss-black-dial-70309",
-    "scrapedAt": "2026-08-16T19:09:21.740Z"
+    "scrapedAt": "2026-08-18T19:01:38.181Z"
   },
   {
     "id": "ew-66705",
@@ -9678,7 +9678,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam01272-pam01272-luminor-marina-quaranta-ss-black-dial-69143",
-    "scrapedAt": "2026-08-16T19:09:21.743Z"
+    "scrapedAt": "2026-08-18T19:01:38.182Z"
   },
   {
     "id": "ew-69474",
@@ -9699,7 +9699,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00140-pam00140-luminor-marina-automatic-18k-yg-carbon-69474",
-    "scrapedAt": "2026-08-16T19:09:21.743Z"
+    "scrapedAt": "2026-08-18T19:01:38.183Z"
   },
   {
     "id": "ew-68461",
@@ -9720,7 +9720,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam01372-pam01372-luminor-quaranta-ss-black-dial-68461",
-    "scrapedAt": "2026-08-16T19:09:21.745Z"
+    "scrapedAt": "2026-08-17T11:57:32.774Z"
   },
   {
     "id": "ew-68923",
@@ -9741,7 +9741,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00368-pam00368-luminor-1950-left-handed-8-days-titanio-68923",
-    "scrapedAt": "2026-08-16T19:09:21.742Z"
+    "scrapedAt": "2026-08-18T19:01:38.182Z"
   },
   {
     "id": "ew-70081",
@@ -9783,7 +9783,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam01038-pam01038-luminor-luna-rossa-regatta-titanium-gra-68538",
-    "scrapedAt": "2026-08-16T19:09:21.742Z"
+    "scrapedAt": "2026-08-18T19:01:38.182Z"
   },
   {
     "id": "ew-68228",
@@ -9797,14 +9797,14 @@
     "dialColor": "Green",
     "caseMaterial": null,
     "year": null,
-    "price": 13300,
+    "price": 12890,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00911-pam00911-luminor-marina-8-days-ss-green-dial-lim-68228",
-    "scrapedAt": "2026-08-16T19:09:21.745Z"
+    "scrapedAt": "2026-08-18T19:01:38.180Z"
   },
   {
     "id": "ew-69896",
@@ -9930,7 +9930,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam01347-pam01347-radiomir-otto-giorni-brunito-esteel-bro-67737",
-    "scrapedAt": "2026-08-16T19:09:21.744Z"
+    "scrapedAt": "2026-08-18T19:01:38.183Z"
   },
   {
     "id": "ew-67657",
@@ -9949,9 +9949,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00375-pam00375-luminor-composite-1950-3-days-brown-dia-67657",
-    "scrapedAt": "2026-08-16T19:09:21.743Z"
+    "scrapedAt": "2026-08-18T19:01:38.183Z"
   },
   {
     "id": "ew-69873",
@@ -9965,14 +9965,14 @@
     "dialColor": "Black",
     "caseMaterial": null,
     "year": null,
-    "price": 7300,
+    "price": 6900,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00721-pam00721-radiomir-3-days-acciaio-ss-black-dial-l-69873",
-    "scrapedAt": "2026-08-16T19:09:21.744Z"
+    "scrapedAt": "2026-08-18T19:01:38.177Z"
   },
   {
     "id": "ew-70151",
@@ -10014,7 +10014,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam01294-pam01294-radiomir-quaranta-stainless-steel-black-70118",
-    "scrapedAt": "2026-08-16T19:09:21.743Z"
+    "scrapedAt": "2026-08-18T19:01:38.183Z"
   },
   {
     "id": "ew-70124",
@@ -10054,9 +10054,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00423-pam00423-luminor-1950-3-days-power-reserve-ss-bl-69339",
-    "scrapedAt": "2026-08-16T19:09:21.740Z"
+    "scrapedAt": "2026-08-18T19:01:38.181Z"
   },
   {
     "id": "ew-68388",
@@ -10077,7 +10077,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam01026-pam01026-radiomir-quaranta-goldtech-silver-dial-68388",
-    "scrapedAt": "2026-08-16T19:09:21.745Z"
+    "scrapedAt": "2026-08-18T19:01:38.183Z"
   },
   {
     "id": "ew-69977",
@@ -10091,14 +10091,14 @@
     "dialColor": "Blue",
     "caseMaterial": null,
     "year": null,
-    "price": 10400,
+    "price": 9900,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam02025-luminor-venticinque-brunito-ss-blue-dial-limited-69977",
-    "scrapedAt": "2026-08-16T19:09:21.744Z"
+    "scrapedAt": "2026-08-18T19:01:38.180Z"
   },
   {
     "id": "ew-68354",
@@ -10140,7 +10140,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam05218-pam05218-luminor-marina-militare-dlc-black-dial-70157",
-    "scrapedAt": "2026-08-16T19:09:21.733Z"
+    "scrapedAt": "2026-08-18T19:01:38.180Z"
   },
   {
     "id": "ew-69473",
@@ -10182,7 +10182,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam01088-pam01088-luminor-gmt-automatic-acciaio-ss-black-69650",
-    "scrapedAt": "2026-08-16T19:09:21.740Z"
+    "scrapedAt": "2026-08-18T19:01:38.181Z"
   },
   {
     "id": "ew-63136",
@@ -10224,7 +10224,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam02121-luminor-base-8-giorni-geneva-boutique-titanium-d-67816",
-    "scrapedAt": "2026-08-16T19:09:21.745Z"
+    "scrapedAt": "2026-08-18T19:01:38.184Z"
   },
   {
     "id": "ew-67667",
@@ -10238,14 +10238,14 @@
     "dialColor": "Black",
     "caseMaterial": null,
     "year": null,
-    "price": 5500,
+    "price": 4990,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00577-pam00577-radiomir-1940-3-days-ceramica-black-dia-67667",
-    "scrapedAt": "2026-08-16T19:09:21.745Z"
+    "scrapedAt": "2026-08-18T19:01:38.180Z"
   },
   {
     "id": "ew-64023",
@@ -10350,7 +10350,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-w1556216-rotonde-de-cartier-flying-tourbillon-18k-white-g-59156",
-    "scrapedAt": "2026-08-16T19:09:17.436Z"
+    "scrapedAt": "2026-08-18T19:01:32.056Z"
   },
   {
     "id": "ew-67004",
@@ -10392,7 +10392,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/hublot-401nj0123vr-big-bang-unico-ferrari-titanium-carbon-skeleto-66939",
-    "scrapedAt": "2026-08-16T19:09:19.129Z"
+    "scrapedAt": "2026-08-18T19:01:35.020Z"
   },
   {
     "id": "ew-69814",
@@ -10413,7 +10413,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/hublot-301se230rw-big-bang-st-moritz-ss-white-dial-69814",
-    "scrapedAt": "2026-08-16T19:09:19.130Z"
+    "scrapedAt": "2026-08-18T19:01:35.020Z"
   },
   {
     "id": "ew-69192",
@@ -10434,7 +10434,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/hublot-525nx0170rx-classic-fusion-aerofusion-chronograph-titanium-69192",
-    "scrapedAt": "2026-08-16T19:09:19.130Z"
+    "scrapedAt": "2026-08-18T19:01:35.020Z"
   },
   {
     "id": "ew-69636",
@@ -10455,7 +10455,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/hublot-647ci1110lr1200-spirit-of-big-bang-moonphase-black-ceramic-69636",
-    "scrapedAt": "2026-08-16T19:09:19.130Z"
+    "scrapedAt": "2026-08-18T19:01:35.020Z"
   },
   {
     "id": "ew-69638",
@@ -10476,7 +10476,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/hublot-441nm1170rx-big-bang-unico-titanium-ceramic-skeleton-dial-69638",
-    "scrapedAt": "2026-08-16T19:09:19.130Z"
+    "scrapedAt": "2026-08-18T19:01:35.021Z"
   },
   {
     "id": "ew-70439",
@@ -10518,7 +10518,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/hublot-731nx1190rx-king-power-oceanographic-4000-titanium-black-d-67876",
-    "scrapedAt": "2026-08-16T19:09:19.130Z"
+    "scrapedAt": "2026-08-18T19:01:35.021Z"
   },
   {
     "id": "ew-67845",
@@ -10539,7 +10539,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/hublot-565nx7170rx-classic-fusion-38mm-titanium-blue-dial-67845",
-    "scrapedAt": "2026-08-16T19:09:19.130Z"
+    "scrapedAt": "2026-08-18T19:01:35.021Z"
   },
   {
     "id": "ew-66937",
@@ -10560,7 +10560,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/hublot-402qd0123nr-big-bang-scuderia-ferrari-90th-anniversary-car-66937",
-    "scrapedAt": "2026-08-16T19:09:19.124Z"
+    "scrapedAt": "2026-08-18T19:01:35.014Z"
   },
   {
     "id": "ew-69765",
@@ -10574,14 +10574,14 @@
     "dialColor": "Silver",
     "caseMaterial": null,
     "year": null,
-    "price": 12390,
+    "price": 11800,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-3468j-3468j-vintage-calatrava-18k-yellow-gold-silv-69765",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.634Z"
   },
   {
     "id": "ew-70317",
@@ -10595,14 +10595,14 @@
     "dialColor": "White",
     "caseMaterial": null,
     "year": null,
-    "price": 29500,
+    "price": 28000,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-4897-300g-001-4897-300g-calatrava-18k-white-gold-b-70317",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.636Z"
   },
   {
     "id": "ew-70031",
@@ -10623,7 +10623,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/tag-heuer-cbl2184ft6236-monaco-chronograph-black-dlc-titanium-ske-70031",
-    "scrapedAt": "2026-08-16T19:09:23.645Z"
+    "scrapedAt": "2026-08-18T19:01:40.327Z"
   },
   {
     "id": "ew-69905",
@@ -10665,7 +10665,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/tag-heuer-car5a90fc6415-carrera-heuer-02t-tourbillon-ceramic-blac-69556",
-    "scrapedAt": "2026-08-16T19:09:23.645Z"
+    "scrapedAt": "2026-08-18T19:01:40.327Z"
   },
   {
     "id": "ew-69189",
@@ -10686,7 +10686,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/tag-heuer-cbs2210fc6534-carrera-chronograph-glassbox-ss-black-dia-69189",
-    "scrapedAt": "2026-08-16T19:09:23.647Z"
+    "scrapedAt": "2026-08-18T19:01:40.328Z"
   },
   {
     "id": "ew-69093",
@@ -10707,7 +10707,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/tag-heuer-cr5090fn6001-cr5090fn6001-monza-flyback-chronometer-car-69093",
-    "scrapedAt": "2026-08-16T19:09:23.645Z"
+    "scrapedAt": "2026-08-18T19:01:40.327Z"
   },
   {
     "id": "ew-67750",
@@ -10770,7 +10770,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/tag-heuer-cbs2218ba0048-carrera-chronograph-meia-middle-east-ss-g-70056",
-    "scrapedAt": "2026-08-16T19:09:23.646Z"
+    "scrapedAt": "2026-08-18T19:01:40.327Z"
   },
   {
     "id": "ew-69649",
@@ -10784,14 +10784,14 @@
     "dialColor": "Silver",
     "caseMaterial": null,
     "year": null,
-    "price": 7000,
+    "price": 6700,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/tag-heuer-cbs2011fc6529-carrera-chronosprint-x-porsche-special-ed-69649",
-    "scrapedAt": "2026-08-16T19:09:23.647Z"
+    "scrapedAt": "2026-08-18T19:01:40.323Z"
   },
   {
     "id": "ew-65500",
@@ -10812,7 +10812,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/tag-heuer-cs3111-cs3111-carrera-1964-re-edition-ss-black-dial-65500",
-    "scrapedAt": "2026-08-16T19:09:23.641Z"
+    "scrapedAt": "2026-08-18T19:01:40.327Z"
   },
   {
     "id": "ew-67888",
@@ -10833,7 +10833,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/tag-heuer-cbs221bba0045-carrera-chronograph-fragment-ss-black-opa-67888",
-    "scrapedAt": "2026-08-16T19:09:23.647Z"
+    "scrapedAt": "2026-08-18T19:01:40.328Z"
   },
   {
     "id": "ew-65528",
@@ -10854,7 +10854,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/tag-heuer-caw218ffc6356-monaco-chronograph-stopwatch-dlc-titanium-65528",
-    "scrapedAt": "2026-08-16T19:09:23.646Z"
+    "scrapedAt": "2026-08-18T19:01:40.327Z"
   },
   {
     "id": "ew-70277",
@@ -10875,7 +10875,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-15720stooa052ca01-15720st-royal-oak-offshore-dive-70277",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-63224",
@@ -10896,7 +10896,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-26400ioooa004ca02a-26400io-royal-oak-offshore-chr-63224",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-70262",
@@ -10917,7 +10917,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-15510stoo1320st03-15510st-royal-oak-50th-annivers-70262",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-70174",
@@ -11001,7 +11001,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-w1509551-w1509551-tonneau-platinum-silver-dial-64353",
-    "scrapedAt": "2026-08-16T19:09:17.436Z"
+    "scrapedAt": "2026-08-18T19:01:32.056Z"
   },
   {
     "id": "ew-70375",
@@ -11022,7 +11022,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/cartier-w1553851-w1553851-rotonde-de-cartier-jump-hour-18k-white-70375",
-    "scrapedAt": "2026-08-16T19:09:17.436Z"
+    "scrapedAt": "2026-08-17T11:57:28.416Z"
   },
   {
     "id": "ew-70421",
@@ -11106,7 +11106,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/chopard-161909-1002-161909-luc-classic-twin-jose-carreras-18k-wg-70315",
-    "scrapedAt": "2026-08-16T19:09:17.874Z"
+    "scrapedAt": "2026-08-18T19:01:32.851Z"
   },
   {
     "id": "ew-70423",
@@ -11190,7 +11190,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/hublot-585nx1170nx-classic-fusion-33-titanium-black-dial-70443",
-    "scrapedAt": "2026-08-16T19:09:19.130Z"
+    "scrapedAt": "2026-08-18T19:01:35.021Z"
   },
   {
     "id": "ew-69329",
@@ -11232,7 +11232,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw500201-iw500201-big-pilots-watch-ss-black-dial-70666",
-    "scrapedAt": "2026-08-16T19:09:19.538Z"
+    "scrapedAt": "2026-08-18T19:01:35.846Z"
   },
   {
     "id": "ew-70444",
@@ -11316,7 +11316,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q8018420-q8018420-geophysic-true-second-ss-silve-68128",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.586Z"
   },
   {
     "id": "ew-70561",
@@ -11337,7 +11337,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q1368470-q1368470-master-ultra-thin-moonphase-ss-70561",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.586Z"
   },
   {
     "id": "ew-70492",
@@ -11358,7 +11358,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-145831s-master-control-mechaquartz-chronograph-s-70492",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-17T01:38:13.236Z"
   },
   {
     "id": "ew-70301",
@@ -11400,7 +11400,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-13023412211001-globemaster-annual-calendar-ss-18k-rg-burgun-70450",
-    "scrapedAt": "2026-08-16T19:09:21.237Z"
+    "scrapedAt": "2026-08-18T19:01:37.781Z"
   },
   {
     "id": "ew-70298",
@@ -11421,7 +11421,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-33210415103001-speedmaster-57-ss-blue-dial-70298",
-    "scrapedAt": "2026-08-16T19:09:21.237Z"
+    "scrapedAt": "2026-08-17T11:57:32.249Z"
   },
   {
     "id": "ew-70641",
@@ -11519,14 +11519,14 @@
     "dialColor": "Black",
     "caseMaterial": null,
     "year": null,
-    "price": 9450,
+    "price": 8990,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00317-luminor-1950-chrono-monopulsante-8-days-gmt-cera-68065",
-    "scrapedAt": "2026-08-16T19:09:21.744Z"
+    "scrapedAt": "2026-08-18T19:01:38.180Z"
   },
   {
     "id": "ew-70707",
@@ -11568,7 +11568,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00026-pam00026-luminor-marina-left-handed-pvd-black-di-70676",
-    "scrapedAt": "2026-08-16T19:09:21.744Z"
+    "scrapedAt": "2026-08-18T19:01:38.183Z"
   },
   {
     "id": "ew-70708",
@@ -11589,7 +11589,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam01179-pam01179-luminor-due-luna-ss-blue-dial-70708",
-    "scrapedAt": "2026-08-16T19:09:21.745Z"
+    "scrapedAt": "2026-08-18T19:01:38.183Z"
   },
   {
     "id": "ew-70608",
@@ -11673,7 +11673,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5930p-001-5930p-world-time-chronograph-platinum-gr-70281",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-70479",
@@ -11694,7 +11694,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5070g-001-5070g-chronograph-18k-white-gold-silver-70479",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-70386",
@@ -11778,7 +11778,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5120j-001-5120j-001-calatrava-18k-yellow-gold-whit-70415",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-17T11:57:33.175Z"
   },
   {
     "id": "ew-70505",
@@ -11925,7 +11925,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126334-126334-datejust-41-ss-white-stick-dial-69728",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.163Z"
   },
   {
     "id": "ew-70330",
@@ -11946,7 +11946,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126200-126200-datejust-36-ss-silver-dial-70330",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.164Z"
   },
   {
     "id": "ew-70574",
@@ -12009,7 +12009,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-16013-16013-datejust-18k-yg-ss-blue-dial-circa-1987-69661",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.164Z"
   },
   {
     "id": "ew-70097",
@@ -12051,7 +12051,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126334-126334-datejust-41mm-ss-green-motif-dial-69314",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.164Z"
   },
   {
     "id": "ew-70130",
@@ -12198,7 +12198,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-336238-336238-sky-dweller-18k-yellow-gold-green-dial-2025-70302",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.164Z"
   },
   {
     "id": "ew-69955",
@@ -12527,14 +12527,14 @@
     "dialColor": "Blue",
     "caseMaterial": null,
     "year": null,
-    "price": 9450,
+    "price": 8990,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-16220-16220-datejust-ss-blue-dial-70527",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.159Z"
   },
   {
     "id": "ew-70290",
@@ -12555,7 +12555,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-114200-114200-air-king-ss-white-dial-circa-2007-70290",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.164Z"
   },
   {
     "id": "ew-69826",
@@ -12590,14 +12590,14 @@
     "dialColor": "White",
     "caseMaterial": null,
     "year": null,
-    "price": 7390,
+    "price": 6990,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-16203-datejust-18k-yg-ss-white-roman-dial-circa-2000-70495",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.159Z"
   },
   {
     "id": "ew-70496",
@@ -12681,7 +12681,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-4000u-000r-b111-4000u-patrimony-retrograde-da-70399",
-    "scrapedAt": "2026-08-16T19:09:24.681Z"
+    "scrapedAt": "2026-08-18T19:01:41.512Z"
   },
   {
     "id": "ew-70380",
@@ -12702,7 +12702,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-1110u-000g-b086-1110u-patrimony-manual-18k-wh-70380",
-    "scrapedAt": "2026-08-16T19:09:24.681Z"
+    "scrapedAt": "2026-08-18T19:01:41.512Z"
   },
   {
     "id": "ew-70469",
@@ -12742,9 +12742,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-4200h-222a-b934-4200h-historiques-222-ss-blue-70395",
-    "scrapedAt": "2026-08-16T19:09:24.681Z"
+    "scrapedAt": "2026-08-18T19:01:41.513Z"
   },
   {
     "id": "ew-70356",
@@ -12912,7 +12912,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-w1537651-w1537651-tank-a-vis-dual-time-18k-rose-gold-silv-70352",
-    "scrapedAt": "2026-08-16T19:09:17.436Z"
+    "scrapedAt": "2026-08-18T19:01:32.056Z"
   },
   {
     "id": "ew-70642",
@@ -12933,7 +12933,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/girard-perregaux-99295-21-000-ba6a-99295-neo-tourbillon-with-thre-70642",
-    "scrapedAt": "2026-08-16T19:09:18.802Z"
+    "scrapedAt": "2026-08-18T19:01:34.275Z"
   },
   {
     "id": "ew-70478",
@@ -12954,7 +12954,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw500901-iw500901-big-pilots-watch-ss-black-dial-70478",
-    "scrapedAt": "2026-08-16T19:09:19.538Z"
+    "scrapedAt": "2026-08-18T19:01:35.845Z"
   },
   {
     "id": "ew-70445",
@@ -12975,7 +12975,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw376803-iw376803-aquatimer-chronograph-ss-black-dial-70445",
-    "scrapedAt": "2026-08-16T19:09:19.538Z"
+    "scrapedAt": "2026-08-18T19:01:35.845Z"
   },
   {
     "id": "ew-70481",
@@ -13015,9 +13015,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/iwc-iw390303-iw390303-portugieser-chronograph-classic-ss-blue-dia-70786",
-    "scrapedAt": "2026-08-16T19:09:19.538Z"
+    "scrapedAt": "2026-08-18T19:01:35.845Z"
   },
   {
     "id": "ew-70737",
@@ -13038,7 +13038,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw3770-iw3770-grande-complication-platinum-white-dial-limited-70737",
-    "scrapedAt": "2026-08-16T19:09:19.538Z"
+    "scrapedAt": "2026-08-18T19:01:35.845Z"
   },
   {
     "id": "ew-70582",
@@ -13143,7 +13143,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q9038670-jaeger-lecoultre-q9038670-polaris-memov-70184",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.586Z"
   },
   {
     "id": "ew-70148",
@@ -13164,7 +13164,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-31030425001004-speedmaster-professional-moonwatch-ss-black-70148",
-    "scrapedAt": "2026-08-16T19:09:21.236Z"
+    "scrapedAt": "2026-08-18T19:01:37.781Z"
   },
   {
     "id": "ew-70381",
@@ -13269,7 +13269,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-23430412103002-seamaster-300-summer-blue-ss-blue-dial-70516",
-    "scrapedAt": "2026-08-16T19:09:21.236Z"
+    "scrapedAt": "2026-08-18T19:01:37.781Z"
   },
   {
     "id": "ew-70425",
@@ -13288,9 +13288,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/omega-22010382003005-seamaster-aqua-terra-ss-blue-dial-70425",
-    "scrapedAt": "2026-08-16T19:09:21.236Z"
+    "scrapedAt": "2026-08-18T19:01:37.781Z"
   },
   {
     "id": "ew-70541",
@@ -13353,7 +13353,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00392-pam00392-luminor-marina-1950-3-days-acciaio-ss-b-70570",
-    "scrapedAt": "2026-08-16T19:09:21.744Z"
+    "scrapedAt": "2026-08-18T19:01:38.183Z"
   },
   {
     "id": "ew-70629",
@@ -13374,7 +13374,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam01283-pam01283-submersible-s-brabus-carbotech-skeleton-70629",
-    "scrapedAt": "2026-08-16T19:09:21.744Z"
+    "scrapedAt": "2026-08-18T19:01:38.183Z"
   },
   {
     "id": "ew-70490",
@@ -13395,7 +13395,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam01181-pam01181-luminor-due-luna-18k-rose-gold-mother-o-70490",
-    "scrapedAt": "2026-08-16T19:09:21.744Z"
+    "scrapedAt": "2026-08-18T19:01:38.183Z"
   },
   {
     "id": "ew-70323",
@@ -13577,14 +13577,14 @@
     "dialColor": "Silver",
     "caseMaterial": null,
     "year": null,
-    "price": 12900,
+    "price": 12300,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-770-770-pocket-watch-gubelin-18k-yellow-gold-silve-69655",
-    "scrapedAt": "2026-08-16T19:09:22.168Z"
+    "scrapedAt": "2026-08-18T19:01:38.639Z"
   },
   {
     "id": "ew-67115",
@@ -13689,7 +13689,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126234-126234-datejust-36-jubilee-ss-black-stick-dial-2026-70767",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70408",
@@ -13710,7 +13710,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126234-126234-datejust-36-ss-palm-dial-70408",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.163Z"
   },
   {
     "id": "ew-70361",
@@ -13850,14 +13850,14 @@
     "dialColor": "Silver",
     "caseMaterial": null,
     "year": null,
-    "price": 18900,
+    "price": 18500,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-326934-326934-sky-dweller-ss-silver-dial-70255",
-    "scrapedAt": "2026-08-02T18:59:34.449Z"
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
   },
   {
     "id": "ew-70341",
@@ -13878,7 +13878,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126619lb-126619lb-submariner-date-18k-white-gold-black-dial-70341",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.163Z"
   },
   {
     "id": "ew-70359",
@@ -13920,7 +13920,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126715chnr-126715chnr-gmt-master-ii-root-beer-18k-everose-g-70025",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.163Z"
   },
   {
     "id": "ew-70364",
@@ -13941,7 +13941,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-128238-128238-day-date-36-18k-yellow-gold-mother-of-pearl-d-70364",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.163Z"
   },
   {
     "id": "ew-70162",
@@ -13962,7 +13962,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126618lb-126618lb-submariner-date-18k-yellow-gold-blue-dial-70162",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.163Z"
   },
   {
     "id": "ew-70519",
@@ -14046,7 +14046,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/rolex-126710blro-126710blro-gmt-master-ii-pepsi-bezel-ss-black-di-70161",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-17T11:57:33.693Z"
   },
   {
     "id": "ew-69832",
@@ -14067,7 +14067,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126660-126660-sea-dweller-deepsea-james-cameron-ss-blue-dia-69832",
-    "scrapedAt": "2026-08-16T19:09:22.664Z"
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
   },
   {
     "id": "ew-69463",
@@ -14109,7 +14109,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-16618-16618-submariner-18k-yellow-gold-blue-dial-circa-1993-66770",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.163Z"
   },
   {
     "id": "ew-65925",
@@ -14151,7 +14151,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/ulysse-nardin-139-10-san-marco-achille-platinum-cloisonne-enamel-70249",
-    "scrapedAt": "2026-08-16T19:09:24.155Z"
+    "scrapedAt": "2026-08-18T19:01:41.165Z"
   },
   {
     "id": "ew-70640",
@@ -14277,7 +14277,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-26420tiooa027ca01-26420ti-royal-oak-offshore-tita-68629",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-70693",
@@ -14340,7 +14340,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/rolex-226659-226659-yacht-master-18k-white-gold-black-dial-70704",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70637",
@@ -14403,7 +14403,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-15720stooa027ca01-15720st-royal-oak-offshore-dive-70048",
-    "scrapedAt": "2026-08-16T19:09:16.274Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-70880",
@@ -14424,7 +14424,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/breitling-m173152a1l1x1-aviator-8-automatic-41-black-dlc-ss-curti-70880",
-    "scrapedAt": "2026-08-16T19:09:16.689Z"
+    "scrapedAt": "2026-08-18T19:01:31.253Z"
   },
   {
     "id": "ew-70692",
@@ -14445,7 +14445,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/breitling-a10380-a10380-chronomat-36-automatic-ss-blue-dial-70692",
-    "scrapedAt": "2026-08-16T19:09:16.689Z"
+    "scrapedAt": "2026-08-18T19:01:31.253Z"
   },
   {
     "id": "ew-69247",
@@ -14487,7 +14487,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-wgta0295-wgta0295-tank-americaine-18k-yellow-gold-gray-di-70563",
-    "scrapedAt": "2026-08-16T19:09:17.436Z"
+    "scrapedAt": "2026-08-18T19:01:32.056Z"
   },
   {
     "id": "ew-70849",
@@ -14634,7 +14634,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00344-pam00344-luminor-1950-chrono-monopulsante-8-days-66153",
-    "scrapedAt": "2026-08-16T19:09:21.743Z"
+    "scrapedAt": "2026-08-18T19:01:38.183Z"
   },
   {
     "id": "ew-70669",
@@ -14697,7 +14697,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00382-pam00382-luminor-submersible-1950-3-days-bronzo-70484",
-    "scrapedAt": "2026-08-16T19:09:21.743Z"
+    "scrapedAt": "2026-08-18T19:01:38.183Z"
   },
   {
     "id": "ew-70274",
@@ -14739,7 +14739,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5500j-001-5500j-pagoda-18k-yellow-gold-champagne-d-70480",
-    "scrapedAt": "2026-08-16T19:09:22.167Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-70602",
@@ -14760,7 +14760,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5227g-001-5227g-001-calatrava-18k-white-gold-cream-70602",
-    "scrapedAt": "2026-08-16T19:09:22.167Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-70793",
@@ -14886,7 +14886,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-26315stoo1256st02-26315st-royal-oak-chronograph-s-70644",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-70848",
@@ -14928,7 +14928,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-26420roooa002ca01-26420ro-royal-oak-offshore-chro-70441",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-70383",
@@ -14949,7 +14949,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-wgta0109-wgta0109-tank-normale-platinum-silver-dial-70383",
-    "scrapedAt": "2026-08-16T19:09:17.436Z"
+    "scrapedAt": "2026-08-18T19:01:32.055Z"
   },
   {
     "id": "ew-70580",
@@ -14970,7 +14970,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-31060425099001-speedmaster-apollo-11-50th-anniversary-18k-m-70580",
-    "scrapedAt": "2026-08-16T19:09:21.236Z"
+    "scrapedAt": "2026-08-18T19:01:37.780Z"
   },
   {
     "id": "ew-70540",
@@ -14989,9 +14989,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": false,
+    "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam01367-pam01367-luminor-quaranta-bitempo-gmt-ss-white-d-70540",
-    "scrapedAt": "2026-08-16T19:09:21.743Z"
+    "scrapedAt": "2026-08-18T19:01:38.183Z"
   },
   {
     "id": "ew-70604",
@@ -15054,7 +15054,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5738p-001-5738p-golden-ellipse-platinum-blue-dial-70670",
-    "scrapedAt": "2026-08-16T19:09:22.167Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-70827",
@@ -15138,7 +15138,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126300-126300-datejust-41-ss-black-dial-69640",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70779",
@@ -15159,7 +15159,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116200-116200-datejust-ss-silver-tuxedo-dial-70779",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70609",
@@ -15180,7 +15180,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-16570-16570-explorer-ii-ss-white-dial-circa-2002-70609",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70720",
@@ -15222,7 +15222,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116200-116200-datejust-36-ss-black-tuxedo-dial-circa-2006-70717",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70371",
@@ -15243,7 +15243,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126231-126231-datejust-36-jubilee-18k-rg-ss-gray-dial-70371",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70360",
@@ -15264,7 +15264,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116509-116509-daytona-18k-white-gold-blue-dial-70360",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70663",
@@ -15306,7 +15306,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-336235-336235-sky-dweller-18k-rose-gold-gray-slate-dial-202-70828",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70532",
@@ -15327,7 +15327,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-326235-326235-sky-dweller-18k-everose-gold-brown-dial-70532",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70800",
@@ -15348,7 +15348,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-228239-228239-day-date-40-18k-white-gold-blue-hombre-dial-70800",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70504",
@@ -15411,7 +15411,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-4010u-000r-h117-4010u-patrimony-moon-phase-re-70803",
-    "scrapedAt": "2026-08-16T19:09:24.681Z"
+    "scrapedAt": "2026-08-18T19:01:41.512Z"
   },
   {
     "id": "ew-70702",
@@ -15432,7 +15432,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-wgsa0028-wgsa0028-santos-de-cartier-18k-rose-gold-silver-70702",
-    "scrapedAt": "2026-08-16T19:09:17.436Z"
+    "scrapedAt": "2026-08-18T19:01:32.055Z"
   },
   {
     "id": "ew-70648",
@@ -15495,7 +15495,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q3918420-q3918420-reverso-tribute-duoface-calend-70451",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.586Z"
   },
   {
     "id": "ew-70073",
@@ -15537,7 +15537,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-16800-16800-submariner-ss-black-dial-70711",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-69686",
@@ -15558,7 +15558,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-16600-16600-sea-dweller-ss-black-dial-circa-2000-69686",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70363",
@@ -15600,7 +15600,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-124060-124060-submariner-no-date-41mm-ss-black-dial-70654",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-17T11:57:33.692Z"
   },
   {
     "id": "ew-70613",
@@ -15642,7 +15642,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126334-126334-datejust-41mm-ss-white-roman-dial-70656",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70365",
@@ -15703,9 +15703,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-67651stzzd002cr01-67651st-lady-royal-oak-quartz-d-70176",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-67688",
@@ -15768,7 +15768,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-25820spoo0944sp03-25820sp-royal-oak-perpetual-cal-70092",
-    "scrapedAt": "2026-08-16T19:09:16.275Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-67093",
@@ -15852,7 +15852,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q1658420-q1658420-master-tourbillon-ss-silver-di-71099",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.586Z"
   },
   {
     "id": "ew-70772",
@@ -15873,7 +15873,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q1652410-q1652410-master-date-tourbillon-18k-ros-70772",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.586Z"
   },
   {
     "id": "ew-70688",
@@ -15894,7 +15894,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q1852740-master-compressor-diving-pro-navy-seals-70688",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.586Z"
   },
   {
     "id": "ew-70137",
@@ -15915,7 +15915,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5712-1a-001-5712-1a-nautilus-ss-blue-dial-70137",
-    "scrapedAt": "2026-08-16T19:09:22.167Z"
+    "scrapedAt": "2026-08-17T11:57:33.175Z"
   },
   {
     "id": "ew-70275",
@@ -15957,7 +15957,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-2526j-2526j-vintage-calatrava-18k-yellow-gold-enam-70266",
-    "scrapedAt": "2026-08-16T19:09:22.167Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-70477",
@@ -16020,7 +16020,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5139g-001-5139g-001-perpetual-calendar-18k-white-g-70852",
-    "scrapedAt": "2026-08-16T19:09:22.167Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-68412",
@@ -16041,7 +16041,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5170j-001-5170j-chronograph-18k-yellow-gold-silver-68412",
-    "scrapedAt": "2026-08-16T19:09:22.167Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-68017",
@@ -16062,7 +16062,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5396r-001-5396r-001-annual-calendar-moonphase-18k-68017",
-    "scrapedAt": "2026-08-16T19:09:22.167Z"
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
   },
   {
     "id": "ew-70946",
@@ -16146,7 +16146,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-52508-52508-perpetual-1908-18k-yellow-gold-black-dial-2026-70871",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70498",
@@ -16167,7 +16167,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-118206-118206-day-date-36-platinum-blue-wave-dial-circa-200-70498",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-68985",
@@ -16188,7 +16188,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126619lb-126619lb-submariner-date-18k-white-gold-black-dial-68985",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70354",
@@ -16209,7 +16209,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116508-116508-daytona-john-mayer-18k-yellow-gold-green-dial-70354",
-    "scrapedAt": "2026-08-16T19:09:22.664Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70664",
@@ -16230,7 +16230,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-128235-128235-day-date-36-18k-everose-gold-eisenkiesel-diam-70664",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-69048",
@@ -16314,7 +16314,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-wgsa0053-wgsa0053-santos-dumont-platinum-silver-dial-limi-70830",
-    "scrapedAt": "2026-08-16T19:09:17.435Z"
+    "scrapedAt": "2026-08-18T19:01:32.055Z"
   },
   {
     "id": "ew-70283",
@@ -16335,7 +16335,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q389848j-q389848j-reverso-tribute-chronograph-ss-70283",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.586Z"
   },
   {
     "id": "ew-70821",
@@ -16356,7 +16356,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-31060425001001-speedmaster-moonwatch-18k-sedna-gold-black-d-70821",
-    "scrapedAt": "2026-08-16T19:09:21.236Z"
+    "scrapedAt": "2026-08-18T19:01:37.780Z"
   },
   {
     "id": "ew-70168",
@@ -16377,7 +16377,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116518-116518-daytona-18k-yellow-gold-white-arabic-dial-70168",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-69403",
@@ -16440,7 +16440,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-26326stood027ca01-26326st-royal-oak-chronograph-p-70900",
-    "scrapedAt": "2026-08-16T19:09:16.274Z"
+    "scrapedAt": "2026-08-18T19:01:30.799Z"
   },
   {
     "id": "ew-70777",
@@ -16482,7 +16482,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-77410orooa623cr01-77410or-code-1159-18k-rose-gold-70884",
-    "scrapedAt": "2026-08-16T19:09:16.274Z"
+    "scrapedAt": "2026-08-18T19:01:30.800Z"
   },
   {
     "id": "ew-69947",
@@ -16503,7 +16503,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/breitling-ab0134101k1a1-ab0134-chronomat-b01-42-ss-copper-dial-69947",
-    "scrapedAt": "2026-08-16T19:09:16.689Z"
+    "scrapedAt": "2026-08-18T19:01:31.253Z"
   },
   {
     "id": "ew-68045",
@@ -16545,7 +16545,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-w7100045-w7100045-calibre-de-cartier-chronograph-ss-white-70837",
-    "scrapedAt": "2026-08-16T19:09:17.435Z"
+    "scrapedAt": "2026-08-18T19:01:32.055Z"
   },
   {
     "id": "ew-70000",
@@ -16566,7 +16566,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/girard-perregaux-81010-11-634-11a-81010-laureato-42mm-ss-black-di-70000",
-    "scrapedAt": "2026-08-16T19:09:18.801Z"
+    "scrapedAt": "2026-08-18T19:01:34.274Z"
   },
   {
     "id": "ew-70942",
@@ -16587,7 +16587,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/hublot-415cx1112vrmxm18-big-bang-unico-sang-bleu-ii-ceramic-black-70942",
-    "scrapedAt": "2026-08-16T19:09:19.129Z"
+    "scrapedAt": "2026-08-18T19:01:35.020Z"
   },
   {
     "id": "ew-70566",
@@ -16608,7 +16608,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/hublot-301sb131rx-big-bang-original-chronograph-ceramic-black-dia-70566",
-    "scrapedAt": "2026-08-16T19:09:19.130Z"
+    "scrapedAt": "2026-08-18T19:01:35.020Z"
   },
   {
     "id": "ew-68047",
@@ -16629,7 +16629,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/iwc-iw545408-iw545408-portugieser-hand-wound-ss-silver-dial-68047",
-    "scrapedAt": "2026-08-16T19:09:19.537Z"
+    "scrapedAt": "2026-08-17T11:57:30.705Z"
   },
   {
     "id": "ew-70819",
@@ -16650,7 +16650,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw390501-iw390501-portugieser-yacht-club-chronograph-18k-rose-70819",
-    "scrapedAt": "2026-08-16T19:09:19.537Z"
+    "scrapedAt": "2026-08-18T19:01:35.844Z"
   },
   {
     "id": "ew-70925",
@@ -16713,7 +16713,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw500201-iw500201-big-pilots-watch-ss-black-dial-70117",
-    "scrapedAt": "2026-08-16T19:09:19.537Z"
+    "scrapedAt": "2026-08-18T19:01:35.844Z"
   },
   {
     "id": "ew-70965",
@@ -16753,9 +16753,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/iwc-iw388113-iw388113-pilot-chronograph-41-ss-black-dial-70698",
-    "scrapedAt": "2026-08-16T19:09:19.537Z"
+    "scrapedAt": "2026-08-18T19:01:35.844Z"
   },
   {
     "id": "ew-70979",
@@ -16797,7 +16797,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q501t450-master-grande-tradition-minute-repeater-70950",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.586Z"
   },
   {
     "id": "ew-70488",
@@ -16818,7 +16818,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q3848423-q3848423-reverso-classic-large-duoface-70488",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.586Z"
   },
   {
     "id": "ew-71031",
@@ -16860,7 +16860,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q3858520-q3858520-reverso-classic-large-small-se-69840",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.586Z"
   },
   {
     "id": "ew-70825",
@@ -16881,7 +16881,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-31192443001001-speedmaster-dark-side-of-the-moon-black-cera-70825",
-    "scrapedAt": "2026-08-16T19:09:21.235Z"
+    "scrapedAt": "2026-08-17T11:57:32.247Z"
   },
   {
     "id": "ew-70892",
@@ -16902,7 +16902,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-31193445199002-speedmaster-gray-side-of-the-moon-ceramic-gr-70892",
-    "scrapedAt": "2026-08-16T19:09:21.235Z"
+    "scrapedAt": "2026-08-18T19:01:37.780Z"
   },
   {
     "id": "ew-70467",
@@ -16965,7 +16965,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-23113392154001-seamaster-aqua-terra-150m-co-axial-385-ss-wh-70764",
-    "scrapedAt": "2026-08-16T19:09:21.235Z"
+    "scrapedAt": "2026-08-18T19:01:37.780Z"
   },
   {
     "id": "ew-70909",
@@ -16986,7 +16986,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam01232-pam01232-submersible-quarantaquattro-blu-abisso-70909",
-    "scrapedAt": "2026-08-16T19:09:21.743Z"
+    "scrapedAt": "2026-08-18T19:01:38.182Z"
   },
   {
     "id": "ew-67725",
@@ -17028,7 +17028,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5101p-010-5101p-10-day-tourbillon-platinum-salmon-70712",
-    "scrapedAt": "2026-08-16T19:09:22.166Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-70911",
@@ -17049,7 +17049,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5496p-014-5496p-grand-complications-perpetual-cale-70911",
-    "scrapedAt": "2026-08-16T19:09:22.167Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-67272",
@@ -17070,7 +17070,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5960-1a-010-5960-annual-calendar-chronograph-ss-bl-67272",
-    "scrapedAt": "2026-08-16T19:09:22.167Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-70770",
@@ -17091,7 +17091,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-3998j-001-3998j-001-calatrava-18k-yellow-gold-silv-70770",
-    "scrapedAt": "2026-08-16T19:09:22.167Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-70782",
@@ -17173,9 +17173,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/rolex-126333-126333-datejust-41mm-jubilee-18k-yg-ss-gray-roman-di-70625",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70662",
@@ -17217,7 +17217,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-277200-277200-oyster-perpetual-31-ss-pink-dial-2026-70680",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70681",
@@ -17280,7 +17280,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116508-116508-daytona-john-mayer-18k-yellow-gold-green-dial-70955",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-17T11:57:33.691Z"
   },
   {
     "id": "ew-70763",
@@ -17310,19 +17310,19 @@
     "imageUrl": "https://images.europeanwatch.com/images/70/70773-1.jpg",
     "brand": "Rolex",
     "model": "Daytona",
-    "ref": "16519",
-    "title": "Rolex 16519 Daytona 18K White Gold White Dial",
+    "ref": "116519",
+    "title": "Rolex 116519 Daytona 18K White Gold White Dial Circa. 2000",
     "dialColor": "White",
     "caseMaterial": null,
     "year": null,
-    "price": 31500,
+    "price": 29900,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
-    "url": "https://www.europeanwatch.com/watch/rolex-16519-16519-daytona-18k-white-gold-white-dial-70773",
-    "scrapedAt": "2026-08-13T20:54:09.932Z"
+    "url": "https://www.europeanwatch.com/watch/rolex-116519-116519-daytona-18k-white-gold-white-dial-circa-2000-70773",
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
   },
   {
     "id": "ew-70710",
@@ -17341,9 +17341,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/rolex-14270-14270-explorer-36mm-ss-swiss-only-black-dial-circa-19-70710",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70907",
@@ -17385,7 +17385,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/rolex-126000-126000-oyster-perpetual-ss-silver-dial-70797",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70682",
@@ -17406,7 +17406,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126000-126000-oyster-perpetual-ss-blue-dial-70682",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70714",
@@ -17448,7 +17448,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-16600-16600-sea-dweller-ss-black-dial-circa-2006-69462",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-70750",
@@ -17469,7 +17469,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116578saco-116578saco-daytona-18k-yellow-gold-mop-orange-sa-70750",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-68327",
@@ -17511,7 +17511,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-1410u-000g-h017-1410u-patrimony-manual-18k-wh-70633",
-    "scrapedAt": "2026-08-16T19:09:24.680Z"
+    "scrapedAt": "2026-08-18T19:01:41.512Z"
   },
   {
     "id": "ew-70947",
@@ -17530,9 +17530,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-4000u-000p-h003-4000u-patrimony-retrograde-da-70947",
-    "scrapedAt": "2026-08-16T19:09:24.681Z"
+    "scrapedAt": "2026-08-18T19:01:41.512Z"
   },
   {
     "id": "ew-70805",
@@ -17616,7 +17616,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/breitling-a13317101c1a1-a13317-avenger-chronograph-45-ss-blue-dia-70967",
-    "scrapedAt": "2026-08-16T19:09:16.687Z"
+    "scrapedAt": "2026-08-18T19:01:31.252Z"
   },
   {
     "id": "ew-66975",
@@ -17637,7 +17637,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-2802k-2802k-tonneau-xl-cpcp-18k-rose-gold-silver-dial-lim-66975",
-    "scrapedAt": "2026-08-07T16:58:47.933Z"
+    "scrapedAt": "2026-08-18T19:01:32.055Z"
   },
   {
     "id": "ew-69647",
@@ -17656,9 +17656,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": false,
+    "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-2390-2390-tank-basculante-ss-silver-dial-69647",
-    "scrapedAt": "2026-08-16T19:09:17.434Z"
+    "scrapedAt": "2026-08-18T19:01:32.055Z"
   },
   {
     "id": "ew-70062",
@@ -17698,9 +17698,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/chopard-168619-3003-168619-mille-miglia-classic-chronograph-lucen-70881",
-    "scrapedAt": "2026-08-16T19:09:17.873Z"
+    "scrapedAt": "2026-08-18T19:01:32.851Z"
   },
   {
     "id": "ew-70526",
@@ -17721,7 +17721,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw371204-iw371204-portugieser-chrono-rattrapante-18k-rose-gol-70526",
-    "scrapedAt": "2026-08-16T19:09:19.537Z"
+    "scrapedAt": "2026-08-18T19:01:35.844Z"
   },
   {
     "id": "ew-70739",
@@ -17763,7 +17763,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw371620-iw371620-portugieser-chronograph-ss-white-and-blue-d-70843",
-    "scrapedAt": "2026-08-16T19:09:19.537Z"
+    "scrapedAt": "2026-08-18T19:01:35.844Z"
   },
   {
     "id": "ew-70657",
@@ -17784,7 +17784,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw502702-iw502702-big-pilot-annual-calendar-spitfire-stainles-70657",
-    "scrapedAt": "2026-08-16T19:09:19.537Z"
+    "scrapedAt": "2026-08-18T19:01:35.844Z"
   },
   {
     "id": "ew-70655",
@@ -17847,7 +17847,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q4138180-q4138180-master-control-chronograph-cal-71084",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.585Z"
   },
   {
     "id": "ew-70385",
@@ -17910,7 +17910,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-52292392199001-specialities-paris-2024-edition-bronze-gold-70835",
-    "scrapedAt": "2026-08-16T19:09:21.235Z"
+    "scrapedAt": "2026-08-18T19:01:37.779Z"
   },
   {
     "id": "ew-70741",
@@ -17973,7 +17973,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-31133403002001-speedmaster-ck2998-ss-silver-dial-limited-70742",
-    "scrapedAt": "2026-08-16T19:09:21.235Z"
+    "scrapedAt": "2026-08-18T19:01:37.780Z"
   },
   {
     "id": "ew-70833",
@@ -17994,7 +17994,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/omega-52230412001001-seamaster-diver-300m-rio-2016-ss-black-dial-70833",
-    "scrapedAt": "2026-08-16T19:09:21.235Z"
+    "scrapedAt": "2026-08-18T19:01:37.780Z"
   },
   {
     "id": "ew-71173",
@@ -18036,7 +18036,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00438-pam00438-luminor-1950-3-days-gmt-tuttonero-ceram-71060",
-    "scrapedAt": "2026-08-16T19:09:21.741Z"
+    "scrapedAt": "2026-08-17T11:57:32.772Z"
   },
   {
     "id": "ew-71120",
@@ -18057,7 +18057,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam01090-pam01090-luminor-power-reserve-automatic-ss-blac-71120",
-    "scrapedAt": "2026-08-16T19:09:21.741Z"
+    "scrapedAt": "2026-08-18T19:01:38.182Z"
   },
   {
     "id": "ew-70790",
@@ -18078,7 +18078,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5235g-001-5235g-annual-calendar-regulator-18k-whit-70790",
-    "scrapedAt": "2026-08-16T19:09:22.166Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-70927",
@@ -18183,7 +18183,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/rolex-116500ln-116500ln-daytona-ceramic-ss-black-dial-70678",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70897",
@@ -18204,7 +18204,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-326939-326939-sky-dweller-18k-white-gold-silver-roman-dial-70897",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-17T11:57:33.691Z"
   },
   {
     "id": "ew-71050",
@@ -18267,7 +18267,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-16233-16233-datejust-18k-yg-ss-gray-dial-circa-2000-70857",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70723",
@@ -18309,7 +18309,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/ulysse-nardin-266-66-3-62-266-66-3-62-maxi-marine-chronometer-18k-70647",
-    "scrapedAt": "2026-08-16T19:09:24.154Z"
+    "scrapedAt": "2026-08-18T19:01:41.164Z"
   },
   {
     "id": "ew-71159",
@@ -18330,7 +18330,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/ulysse-nardin-1183-170le-2a-omw-3a-diver-chronometer-one-more-wav-71159",
-    "scrapedAt": "2026-08-16T19:09:24.154Z"
+    "scrapedAt": "2026-08-18T19:01:41.165Z"
   },
   {
     "id": "ew-70156",
@@ -18372,7 +18372,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-270854-270854-reverso-duoface-ss-silver-dial-70544",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.585Z"
   },
   {
     "id": "ew-70593",
@@ -18393,7 +18393,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5119r-001-5119r-001-calatrava-18k-rose-gold-white-70593",
-    "scrapedAt": "2026-08-16T19:09:22.166Z"
+    "scrapedAt": "2026-08-17T11:57:33.175Z"
   },
   {
     "id": "ew-67995",
@@ -18435,7 +18435,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-16710-16710-gmt-master-ii-coke-bezel-ss-black-dial-circa-19-70719",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70560",
@@ -18456,7 +18456,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116523-116523-daytona-two-tone-18k-yg-ss-white-diamond-dial-70560",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70501",
@@ -18540,7 +18540,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-49150-b01a-9097-49150-overseas-chronograph-ss-69985",
-    "scrapedAt": "2026-08-16T19:09:24.680Z"
+    "scrapedAt": "2026-08-18T19:01:41.512Z"
   },
   {
     "id": "ew-70598",
@@ -18561,7 +18561,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-25859ba-25859ba-jules-audemars-chronograph-18k-ye-70598",
-    "scrapedAt": "2026-08-16T19:09:16.274Z"
+    "scrapedAt": "2026-08-18T19:01:30.799Z"
   },
   {
     "id": "ew-69500",
@@ -18582,7 +18582,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw500402-iw500402-big-pilot-18k-white-gold-gray-dial-69500",
-    "scrapedAt": "2026-08-16T19:09:19.536Z"
+    "scrapedAt": "2026-08-18T19:01:35.844Z"
   },
   {
     "id": "ew-70452",
@@ -18603,7 +18603,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q714845j-q714845j-reverso-tribute-geographic-ss-70452",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.585Z"
   },
   {
     "id": "ew-70588",
@@ -18666,7 +18666,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-114060-114060-submariner-no-date-ss-black-dial-70460",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-71013",
@@ -18729,7 +18729,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126301-0003-126301-0003-datejust-41-ss-18k-rg-diamond-tobac-70378",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-69850",
@@ -18769,9 +18769,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-81180-000g-9117-81180-patrimony-manual-wind-1-71128",
-    "scrapedAt": "2026-08-16T19:09:24.680Z"
+    "scrapedAt": "2026-08-18T19:01:41.512Z"
   },
   {
     "id": "ew-71042",
@@ -18834,7 +18834,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-26330stoo1220st01-26330st-royal-oak-day-date-ss-b-66381",
-    "scrapedAt": "2026-08-16T19:09:16.272Z"
+    "scrapedAt": "2026-08-17T11:57:27.272Z"
   },
   {
     "id": "ew-71019",
@@ -18855,7 +18855,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-77451orzz1361or03-77451or-royal-oak-18k-rose-gold-71019",
-    "scrapedAt": "2026-08-16T19:09:16.272Z"
+    "scrapedAt": "2026-08-18T19:01:30.799Z"
   },
   {
     "id": "ew-70938",
@@ -18895,9 +18895,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-26715stoo1356st02-26715st-royal-oak-chronograph-s-71103",
-    "scrapedAt": "2026-08-16T19:09:16.272Z"
+    "scrapedAt": "2026-08-18T19:01:30.799Z"
   },
   {
     "id": "ew-71024",
@@ -18960,7 +18960,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/cartier-wgta0234-wgta0234-tank-a-guichets-18k-yellow-gold-2026-71003",
-    "scrapedAt": "2026-08-16T19:09:17.434Z"
+    "scrapedAt": "2026-08-18T19:01:32.055Z"
   },
   {
     "id": "ew-71009",
@@ -18981,7 +18981,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/hublot-416yl5120vr-big-bang-unico-golf-blue-carbon-skeleton-dial-71009",
-    "scrapedAt": "2026-08-16T19:09:19.129Z"
+    "scrapedAt": "2026-08-18T19:01:35.019Z"
   },
   {
     "id": "ew-71004",
@@ -19002,7 +19002,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q713216j-reverso-tribute-monoface-small-seconds-71004",
-    "scrapedAt": "2026-08-16T19:09:20.002Z"
+    "scrapedAt": "2026-08-18T19:01:36.585Z"
   },
   {
     "id": "ew-71002",
@@ -19065,7 +19065,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5226g-001-5226g-calatrava-18k-white-gold-charcoal-70991",
-    "scrapedAt": "2026-08-16T19:09:22.166Z"
+    "scrapedAt": "2026-08-17T11:57:33.174Z"
   },
   {
     "id": "ew-70599",
@@ -19086,7 +19086,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5168g-010-5168g-010-aquanaut-jumbo-white-gold-khak-70599",
-    "scrapedAt": "2026-08-16T19:09:22.166Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-70437",
@@ -19107,7 +19107,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5980-1a-001-5980-nautilus-chronograph-ss-blue-dial-70437",
-    "scrapedAt": "2026-08-16T19:09:22.166Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-70971",
@@ -19149,7 +19149,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5205r-001-5205r-001-annual-calendar-18k-rose-gold-70887",
-    "scrapedAt": "2026-08-16T19:09:22.166Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-71064",
@@ -19170,7 +19170,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-4946r-001-4946r-001-annual-calendar-18k-rose-gold-71064",
-    "scrapedAt": "2026-08-16T19:09:22.166Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-67804",
@@ -19191,7 +19191,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5140g-001-5140g-perpetual-calendar-ultra-thin-18k-67804",
-    "scrapedAt": "2026-08-16T19:09:22.166Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-68622",
@@ -19254,7 +19254,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/rolex-116688-116688-yacht-master-ii-18k-yellow-gold-white-dial-70775",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70889",
@@ -19296,7 +19296,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-52506-52506-1908-platinum-ice-blue-guilloche-dial-2026-71051",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-17T11:57:33.690Z"
   },
   {
     "id": "ew-70798",
@@ -19317,7 +19317,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126500ln-126500ln-daytona-ss-black-dial-2026-unworn-70798",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-17T11:57:33.690Z"
   },
   {
     "id": "ew-71037",
@@ -19338,7 +19338,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116518ln-116518ln-daytona-18k-yellow-gold-white-dial-71037",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70868",
@@ -19357,9 +19357,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/rolex-228239-228239-day-date-40mm-18k-white-gold-black-dial-70868",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70890",
@@ -19380,7 +19380,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-326935-326935-sky-dweller-18k-rose-gold-silver-dial-70890",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-71076",
@@ -19394,14 +19394,14 @@
     "dialColor": "Meteorite",
     "caseMaterial": null,
     "year": null,
-    "price": 63500,
+    "price": 59900,
     "seller": null,
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126719blro-126719blro-gmt-master-ii-pepsi-18k-white-gold-me-71076",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
   },
   {
     "id": "ew-70601",
@@ -19422,7 +19422,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-228239-228239-day-date-40mm-18k-white-gold-gray-dial-70601",
-    "scrapedAt": "2026-08-16T19:09:22.666Z"
+    "scrapedAt": "2026-08-18T19:01:39.162Z"
   },
   {
     "id": "ew-69180",
@@ -19443,7 +19443,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-116509-116509-daytona-18k-white-gold-silver-racing-dial-69180",
-    "scrapedAt": "2026-08-16T19:09:22.668Z"
+    "scrapedAt": "2026-08-18T19:01:39.165Z"
   },
   {
     "id": "ew-69936",
@@ -19485,7 +19485,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-4200h-222a-b934-4200h-historiques-222-ss-blue-70783",
-    "scrapedAt": "2026-08-16T19:09:24.680Z"
+    "scrapedAt": "2026-08-18T19:01:41.512Z"
   },
   {
     "id": "ew-69084",
@@ -19506,7 +19506,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-26120stoo1220st03-26120st-royal-oak-dual-time-ss-69084",
-    "scrapedAt": "2026-08-16T19:09:16.272Z"
+    "scrapedAt": "2026-08-18T19:01:30.799Z"
   },
   {
     "id": "ew-71241",
@@ -19548,7 +19548,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5270g-019-5270g-perpetual-calendar-chronograph-18k-69973",
-    "scrapedAt": "2026-08-16T19:09:22.165Z"
+    "scrapedAt": "2026-08-17T11:57:33.174Z"
   },
   {
     "id": "ew-70391",
@@ -19569,7 +19569,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5711-1a-001-5711-1a-nautilus-ss-blue-dial-70391",
-    "scrapedAt": "2026-08-16T19:09:22.165Z"
+    "scrapedAt": "2026-08-18T19:01:38.639Z"
   },
   {
     "id": "ew-71211",
@@ -19590,7 +19590,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5980-1a-019-nautilus-5980-chronograph-ss-white-dia-71211",
-    "scrapedAt": "2026-08-16T19:09:22.165Z"
+    "scrapedAt": "2026-08-18T19:01:38.639Z"
   },
   {
     "id": "ew-71092",
@@ -19611,7 +19611,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5146j-010-5146j-010-annual-calendar-moonphase-18k-71092",
-    "scrapedAt": "2026-08-16T19:09:22.165Z"
+    "scrapedAt": "2026-08-18T19:01:38.639Z"
   },
   {
     "id": "ew-71122",
@@ -19674,7 +19674,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-3700-1a-vintage-nautilus-3700-c-1977-tropical-dial-71095",
-    "scrapedAt": "2026-08-16T19:09:22.165Z"
+    "scrapedAt": "2026-08-18T19:01:38.639Z"
   },
   {
     "id": "ew-71127",
@@ -19737,7 +19737,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5970j-001-5970j-perpetual-calendar-chronograph-18k-71016",
-    "scrapedAt": "2026-08-16T19:09:22.166Z"
+    "scrapedAt": "2026-08-18T19:01:38.639Z"
   },
   {
     "id": "ew-70888",
@@ -19756,9 +19756,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5065-1a-001-5065-1a-001-aquanaut-jumbo-ss-black-di-70888",
-    "scrapedAt": "2026-08-16T19:09:22.166Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-71153",
@@ -19779,7 +19779,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5320g-001-5320g-perpetual-calendar-18k-white-gold-71153",
-    "scrapedAt": "2026-08-16T19:09:22.166Z"
+    "scrapedAt": "2026-08-18T19:01:38.640Z"
   },
   {
     "id": "ew-71043",
@@ -19800,7 +19800,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5270p-014-5270p-014-perpetual-calendar-chronograph-71043",
-    "scrapedAt": "2026-08-16T19:09:22.166Z"
+    "scrapedAt": "2026-08-17T11:57:33.175Z"
   },
   {
     "id": "ew-67224",
@@ -19821,7 +19821,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-3940j-perpetual-calendar-3940j-18k-yellow-gold-sil-67224",
-    "scrapedAt": "2026-08-16T19:09:22.169Z"
+    "scrapedAt": "2026-08-18T19:01:38.642Z"
   },
   {
     "id": "ew-71091",
@@ -19863,7 +19863,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126515ln-126515ln-daytona-ceramic-18k-everose-gold-pink-sun-71162",
-    "scrapedAt": "2026-08-16T19:09:22.665Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-69145",
@@ -19905,7 +19905,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/chopard-161948-5001-luc-xps-1860-18k-rose-gold-silver-dial-sealed-71083",
-    "scrapedAt": "2026-08-16T19:09:17.873Z"
+    "scrapedAt": "2026-08-18T19:01:32.850Z"
   },
   {
     "id": "ew-71035",
@@ -19926,7 +19926,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/girard-perregaux-81005-32-3080-1cx-81005-laureato-aston-martin-gr-71035",
-    "scrapedAt": "2026-08-16T19:09:18.797Z"
+    "scrapedAt": "2026-08-18T19:01:34.274Z"
   },
   {
     "id": "ew-71171",
@@ -19947,7 +19947,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q1322410-q1322410-master-ultra-thin-tourbillon-1-71171",
-    "scrapedAt": "2026-08-16T19:09:20.001Z"
+    "scrapedAt": "2026-08-18T19:01:36.584Z"
   },
   {
     "id": "ew-71034",
@@ -19968,7 +19968,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/panerai-pam00309-pam00309-radiomir-47-titanium-black-dial-limited-71034",
-    "scrapedAt": "2026-08-16T19:09:21.740Z"
+    "scrapedAt": "2026-08-18T19:01:38.181Z"
   },
   {
     "id": "ew-71069",
@@ -20031,7 +20031,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-4010t-000g-b740-traditionnelle-complete-calen-71144",
-    "scrapedAt": "2026-08-16T19:09:24.679Z"
+    "scrapedAt": "2026-08-17T11:57:35.279Z"
   },
   {
     "id": "ew-71168",
@@ -20052,7 +20052,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-85290-000r-b405-85290-traditionnelle-day-date-71168",
-    "scrapedAt": "2026-08-16T19:09:24.680Z"
+    "scrapedAt": "2026-08-18T19:01:41.512Z"
   },
   {
     "id": "ew-71223",
@@ -20071,9 +20071,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/vacheron-constantin-47192-000g-9504-47192-patrimony-traditionnell-71223",
-    "scrapedAt": "2026-08-16T19:09:24.680Z"
+    "scrapedAt": "2026-08-18T19:01:41.512Z"
   },
   {
     "id": "ew-70865",
@@ -20115,7 +20115,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw389106-iw389106-pilot-chronograph-top-gun-woodland-ceramic-71190",
-    "scrapedAt": "2026-08-16T19:09:19.535Z"
+    "scrapedAt": "2026-08-17T11:57:30.705Z"
   },
   {
     "id": "ew-66249",
@@ -20136,7 +20136,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/iwc-iw544805-iw544805-vintage-collection-portofino-platinum-silve-66249",
-    "scrapedAt": "2026-08-16T19:09:19.538Z"
+    "scrapedAt": "2026-08-18T19:01:35.846Z"
   },
   {
     "id": "ew-70758",
@@ -20155,9 +20155,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q130842j-q130842j-master-ultra-thin-perpetual-ca-70758",
-    "scrapedAt": "2026-08-16T19:09:20.001Z"
+    "scrapedAt": "2026-08-18T19:01:36.584Z"
   },
   {
     "id": "ew-69887",
@@ -20178,7 +20178,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5297g-001-5297g-001-calatrava-18k-white-gold-black-69887",
-    "scrapedAt": "2026-08-16T19:09:22.165Z"
+    "scrapedAt": "2026-08-18T19:01:38.639Z"
   },
   {
     "id": "ew-68496",
@@ -20218,9 +20218,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": false,
+    "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126234-126234-datejust-36-jubilee-ss-gradient-green-dial-20-71118",
-    "scrapedAt": "2026-08-16T19:09:22.664Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70690",
@@ -20241,7 +20241,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/rolex-136660-136660-deepsea-d-blue-james-cameron-ss-blue-dial-202-70690",
-    "scrapedAt": "2026-08-16T19:09:22.664Z"
+    "scrapedAt": "2026-08-17T11:57:33.689Z"
   },
   {
     "id": "ew-70247",
@@ -20262,7 +20262,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-126333-126333-datejust-41-18k-yg-ss-black-diamond-dial-70247",
-    "scrapedAt": "2026-08-16T19:09:22.664Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70917",
@@ -20281,9 +20281,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/rolex-126234-126234-datejust-36mm-jubilee-ss-blue-dial-70917",
-    "scrapedAt": "2026-08-16T19:09:22.664Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
   },
   {
     "id": "ew-70858",
@@ -20325,7 +20325,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-26393stooa056kb01-26393st-code-1159-chronograph-s-70845",
-    "scrapedAt": "2026-08-16T19:09:16.269Z"
+    "scrapedAt": "2026-08-18T19:01:30.798Z"
   },
   {
     "id": "ew-70945",
@@ -20346,7 +20346,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-25934or00367cr01-25934or-jules-audemars-equation-70945",
-    "scrapedAt": "2026-08-16T19:09:16.271Z"
+    "scrapedAt": "2026-08-18T19:01:30.799Z"
   },
   {
     "id": "ew-70929",
@@ -20367,7 +20367,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/audemars-piguet-15210stooa056kb01-15210st-code-1159-ss-green-dial-70929",
-    "scrapedAt": "2026-08-16T19:09:16.272Z"
+    "scrapedAt": "2026-08-18T19:01:30.799Z"
   },
   {
     "id": "ew-70791",
@@ -20388,7 +20388,7 @@
     "isNew": null,
     "inStock": false,
     "url": "https://www.europeanwatch.com/watch/omega-21090422001001-seamaster-diver-300m-007-edition-titanium-bl-70791",
-    "scrapedAt": "2026-08-16T19:09:21.235Z"
+    "scrapedAt": "2026-08-17T11:57:32.247Z"
   },
   {
     "id": "ew-70850",
@@ -20407,9 +20407,9 @@
     "condition": "Used",
     "postedMinutesAgo": null,
     "isNew": null,
-    "inStock": true,
+    "inStock": false,
     "url": "https://www.europeanwatch.com/watch/patek-philippe-5085-1a-001-5085-1a-001-neptune-ss-black-dial-70850",
-    "scrapedAt": "2026-08-16T19:09:22.165Z"
+    "scrapedAt": "2026-08-18T19:01:38.639Z"
   },
   {
     "id": "ew-69970",
@@ -20430,7 +20430,7 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/chopard-16-1874-16-1874-luc-regulator-gmt-18k-white-gold-silver-d-69970",
-    "scrapedAt": "2026-08-16T19:09:17.869Z"
+    "scrapedAt": "2026-08-18T19:01:32.846Z"
   },
   {
     "id": "ew-71008",
@@ -20451,6 +20451,909 @@
     "isNew": null,
     "inStock": true,
     "url": "https://www.europeanwatch.com/watch/rolex-226659-226659-yacht-master-18k-white-gold-black-dial-71008",
-    "scrapedAt": "2026-08-16T19:09:22.664Z"
+    "scrapedAt": "2026-08-18T19:01:39.161Z"
+  },
+  {
+    "id": "ew-70630",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70630-1.jpg",
+    "brand": "Audemars Piguet",
+    "model": null,
+    "ref": "25822ST",
+    "title": "Audemars Piguet 25822ST Millenary Chronograph SS White Dial",
+    "dialColor": "White",
+    "caseMaterial": null,
+    "year": null,
+    "price": 17500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/audemars-piguet-25822sto0001cr01-25822st-millenary-chronograph-ss-70630",
+    "scrapedAt": "2026-08-18T19:01:30.797Z"
+  },
+  {
+    "id": "ew-68767",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/68/68767-1.jpg",
+    "brand": "Audemars Piguet",
+    "model": "Royal Oak Offshore",
+    "ref": "26186SN",
+    "title": "Audemars Piguet 26186SN Royal Oak Offshore Las Vegas Strip PVD SS Black Dial LIMITED",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "year": null,
+    "price": 32500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/audemars-piguet-26186snood101cr01-26186sn-royal-oak-offshore-las-68767",
+    "scrapedAt": "2026-08-18T19:01:30.797Z"
+  },
+  {
+    "id": "ew-65418",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/65/65418-1.jpg",
+    "brand": "Audemars Piguet",
+    "model": "Royal Oak Offshore",
+    "ref": "26238TI",
+    "title": "Audemars Piguet 26238TI Royal Oak Offshore Chronograph Titanium Green Dial",
+    "dialColor": "Green",
+    "caseMaterial": null,
+    "year": null,
+    "price": 38500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/audemars-piguet-26238tiooa056ca01-26238ti-royal-oak-offshore-chro-65418",
+    "scrapedAt": "2026-08-18T19:01:30.797Z"
+  },
+  {
+    "id": "ew-71068",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/71/71068-1.jpg",
+    "brand": "Breitling",
+    "model": null,
+    "ref": null,
+    "title": "Breitling venger B01 Chronograph 42 Night Mission Ceramic Green Dial",
+    "dialColor": "Green",
+    "caseMaterial": null,
+    "year": null,
+    "price": 8650,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/breitling-sb01462a1l1x1-venger-b01-chronograph-42-night-mission-c-71068",
+    "scrapedAt": "2026-08-18T19:01:31.248Z"
+  },
+  {
+    "id": "ew-70007",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70007-1.jpg",
+    "brand": "Breitling",
+    "model": null,
+    "ref": null,
+    "title": "Breitling Chronomat Automatic GMT 40 SS / Platinum Blue Dial",
+    "dialColor": "Blue",
+    "caseMaterial": null,
+    "year": null,
+    "price": 5650,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/breitling-p32398101c1s2-chronomat-automatic-gmt-40-ss-platinum-bl-70007",
+    "scrapedAt": "2026-08-18T19:01:31.252Z"
+  },
+  {
+    "id": "ew-71279",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/71/71279-1.jpg",
+    "brand": "Breitling",
+    "model": null,
+    "ref": null,
+    "title": "Breitling Classic AVI Super AVI B04 Chronograph GMT 46 Mosquito Black Dial",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "year": null,
+    "price": 5950,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/breitling-yb04451a1b1x1-classic-avi-super-avi-b04-chronograph-gmt-71279",
+    "scrapedAt": "2026-08-18T19:01:31.252Z"
+  },
+  {
+    "id": "ew-71225",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/71/71225-1.jpg",
+    "brand": "Breitling",
+    "model": "Navitimer",
+    "ref": null,
+    "title": "Breitling AB0138211B1P1 Navitimer B01 Chronograph 43 SS Black Dial",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "year": null,
+    "price": 6490,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/breitling-ab0138211b1p1-ab0138211b1p1-navitimer-b01-chronograph-4-71225",
+    "scrapedAt": "2026-08-18T19:01:31.252Z"
+  },
+  {
+    "id": "ew-70829",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70829-1.jpg",
+    "brand": "Cartier",
+    "model": "Santos",
+    "ref": null,
+    "title": "Cartier Santos-Dumont XL SS / 18K RG Pink Dial LIMITED",
+    "dialColor": "Pink",
+    "caseMaterial": null,
+    "year": null,
+    "price": 14900,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/cartier-w2sa0025-santos-dumont-xl-ss-18k-rg-pink-dial-limited-70829",
+    "scrapedAt": "2026-08-18T19:01:32.053Z"
+  },
+  {
+    "id": "ew-68761",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/68/68761-1.jpg",
+    "brand": "Cartier",
+    "model": "Tank",
+    "ref": "2025",
+    "title": "Cartier WSTA0053 Tank Must Extra-Large SS Silver Flinque Dial 2025",
+    "dialColor": "Silver",
+    "caseMaterial": null,
+    "year": null,
+    "price": 4400,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": false,
+    "url": "https://www.europeanwatch.com/watch/cartier-wsta0053-wsta0053-tank-must-extra-large-ss-silver-flinque-68761",
+    "scrapedAt": "2026-08-18T19:01:32.054Z"
+  },
+  {
+    "id": "ew-71126",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/71/71126-1.jpg",
+    "brand": "Cartier",
+    "model": null,
+    "ref": null,
+    "title": "Cartier WHRO0014 Rotonde de Cartier Mysterious Hour Palladium Skeleton Dial",
+    "dialColor": null,
+    "caseMaterial": null,
+    "year": null,
+    "price": 57500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/cartier-whro0014-whro0014-rotonde-de-cartier-mysterious-hour-pall-71126",
+    "scrapedAt": "2026-08-18T19:01:32.054Z"
+  },
+  {
+    "id": "ew-71278",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/71/71278-1.jpg",
+    "brand": "Rolex",
+    "model": null,
+    "ref": null,
+    "title": "Franck Muller Vanguard Beach Glass Fiber Blue Dial",
+    "dialColor": "Blue",
+    "caseMaterial": null,
+    "year": null,
+    "price": 8290,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/franck-muller-v-41-sc-dt-beach-gfbubl-vanguard-beach-glass-fiber-71278",
+    "scrapedAt": "2026-08-18T19:01:33.535Z"
+  },
+  {
+    "id": "ew-70904",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70904-1.jpg",
+    "brand": "Rolex",
+    "model": null,
+    "ref": "81010",
+    "title": "Girard-Perregaux 81010 Laureato Eternity Edition SS Green Dial LIMITED",
+    "dialColor": "Green",
+    "caseMaterial": null,
+    "year": null,
+    "price": 14990,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/girard-perregaux-81010-11-433-11a-81010-laureato-eternity-edition-70904",
+    "scrapedAt": "2026-08-18T19:01:34.273Z"
+  },
+  {
+    "id": "ew-70794",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70794-1.jpg",
+    "brand": "Rolex",
+    "model": null,
+    "ref": "2025",
+    "title": "Girard-Perregaux Laureato Chronograph SS Ice Blue Dial LIMITED 2025",
+    "dialColor": "Blue",
+    "caseMaterial": null,
+    "year": null,
+    "price": 18900,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/girard-perregaux-81020-11-3370-1gm-laureato-chronograph-ss-ice-bl-70794",
+    "scrapedAt": "2026-08-18T19:01:34.274Z"
+  },
+  {
+    "id": "ew-70990",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70990-1.jpg",
+    "brand": "Jaeger-Lecoultre",
+    "model": null,
+    "ref": "2025",
+    "title": "Jaeger-LeCoultre Q2458422 Reverso Classic Medium Duoface SS Silver Dial 2025",
+    "dialColor": "Silver",
+    "caseMaterial": null,
+    "year": null,
+    "price": 14990,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q2458422-q2458422-reverso-classic-medium-duoface-70990",
+    "scrapedAt": "2026-08-18T19:01:36.579Z"
+  },
+  {
+    "id": "ew-68542",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/68/68542-1.jpg",
+    "brand": "Jaeger-Lecoultre",
+    "model": null,
+    "ref": null,
+    "title": "Jaeger-LeCoultre Q2068570 Deep Sea Chronograph SS Black Dial",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "year": null,
+    "price": 8890,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": false,
+    "url": "https://www.europeanwatch.com/watch/jaeger-lecoultre-q2068570-q2068570-deep-sea-chronograph-ss-black-68542",
+    "scrapedAt": "2026-08-18T19:01:36.583Z"
+  },
+  {
+    "id": "ew-70781",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70781-1.jpg",
+    "brand": "Omega",
+    "model": "Speedmaster Professional",
+    "ref": null,
+    "title": "Omega Speedmaster Professional Moonwatch 40th Anniversary SS Black Dial LE",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "year": null,
+    "price": 7600,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/omega-31130423001002-speedmaster-professional-moonwatch-40th-anni-70781",
+    "scrapedAt": "2026-08-18T19:01:37.778Z"
+  },
+  {
+    "id": "ew-70780",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70780-1.jpg",
+    "brand": "Omega",
+    "model": "Speedmaster",
+    "ref": null,
+    "title": "Omega Speedmaster Reduced Schumacher SS Black Racing Dial LIMITED",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "year": null,
+    "price": 7350,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/omega-35185000-speedmaster-reduced-schumacher-ss-black-racing-dia-70780",
+    "scrapedAt": "2026-08-18T19:01:37.778Z"
+  },
+  {
+    "id": "ew-70875",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70875-1.jpg",
+    "brand": "Omega",
+    "model": "Seamaster Diver",
+    "ref": null,
+    "title": "Omega Seamaster Diver 300M Chronograph Titanium / 18K Sedna Gold Blue Dial",
+    "dialColor": "Blue",
+    "caseMaterial": null,
+    "year": null,
+    "price": 16900,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/omega-21060445103001-seamaster-diver-300m-chronograph-titanium-18-70875",
+    "scrapedAt": "2026-08-18T19:01:37.778Z"
+  },
+  {
+    "id": "ew-70939",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70939-1.jpg",
+    "brand": "Panerai",
+    "model": "Luminor",
+    "ref": null,
+    "title": "Panerai PAM01272 Luminor Marina Quaranta SS Black Dial",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "year": null,
+    "price": 6350,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/panerai-pam01272-pam01272-luminor-marina-quaranta-ss-black-dial-70939",
+    "scrapedAt": "2026-08-18T19:01:38.180Z"
+  },
+  {
+    "id": "ew-70362",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70362-1.jpg",
+    "brand": "Patek Philippe",
+    "model": "Calatrava",
+    "ref": null,
+    "title": "Patek Philippe 570G Calatrava 18K White Gold Silver Dial",
+    "dialColor": "White",
+    "caseMaterial": null,
+    "year": null,
+    "price": 47500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/patek-philippe-570g-570g-calatrava-18k-white-gold-silver-dial-70362",
+    "scrapedAt": "2026-08-18T19:01:38.636Z"
+  },
+  {
+    "id": "ew-71283",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/71/71283-1.jpg",
+    "brand": "Patek Philippe",
+    "model": null,
+    "ref": "5326G",
+    "title": "Patek Philippe 5326G Annual Calendar Travel Time 18K White Gold Gray Dial",
+    "dialColor": "White",
+    "caseMaterial": null,
+    "year": null,
+    "price": 73500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/patek-philippe-5326g-001-5326g-annual-calendar-travel-time-18k-wh-71283",
+    "scrapedAt": "2026-08-18T19:01:38.637Z"
+  },
+  {
+    "id": "ew-71111",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/71/71111-1.jpg",
+    "brand": "Patek Philippe",
+    "model": null,
+    "ref": "5905",
+    "title": "Patek Philippe 5905 Annual Calendar Chronograph SS Olive Green Dial",
+    "dialColor": "Olive",
+    "caseMaterial": null,
+    "year": null,
+    "price": 52500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/patek-philippe-5905-1a-001-5905-annual-calendar-chronograph-ss-ol-71111",
+    "scrapedAt": "2026-08-18T19:01:38.638Z"
+  },
+  {
+    "id": "ew-71202",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/71/71202-1.jpg",
+    "brand": "Patek Philippe",
+    "model": null,
+    "ref": "5059R",
+    "title": "Patek Philippe 5059R Perpetual Calendar Retrograde 18K Rose Gold White Dial",
+    "dialColor": "White",
+    "caseMaterial": null,
+    "year": null,
+    "price": 49500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/patek-philippe-5059r-015-5059r-perpetual-calendar-retrograde-18k-71202",
+    "scrapedAt": "2026-08-18T19:01:38.638Z"
+  },
+  {
+    "id": "ew-71030",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/71/71030-1.jpg",
+    "brand": "Patek Philippe",
+    "model": null,
+    "ref": "5235G",
+    "title": "Patek Philippe 5235G Annual Calendar Regulator 18K White Gold Silver Dial",
+    "dialColor": "White",
+    "caseMaterial": null,
+    "year": null,
+    "price": 42500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/patek-philippe-5235g-001-5235g-annual-calendar-regulator-18k-whit-71030",
+    "scrapedAt": "2026-08-18T19:01:38.638Z"
+  },
+  {
+    "id": "ew-70691",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70691-1.jpg",
+    "brand": "Patek Philippe",
+    "model": "Calatrava",
+    "ref": "5226G",
+    "title": "Patek Philippe 5226G Calatrava 18K White Gold Charcoal Gray Textured Dial",
+    "dialColor": "Charcoal",
+    "caseMaterial": null,
+    "year": null,
+    "price": 42500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/patek-philippe-5226g-001-5226g-calatrava-18k-white-gold-charcoal-70691",
+    "scrapedAt": "2026-08-18T19:01:38.641Z"
+  },
+  {
+    "id": "ew-70726",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70726-1.jpg",
+    "brand": "Rolex",
+    "model": "Submariner",
+    "ref": "114060",
+    "title": "Rolex 114060 Submariner No Date SS Black Dial",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "year": null,
+    "price": 12790,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/rolex-114060-114060-submariner-no-date-ss-black-dial-70726",
+    "scrapedAt": "2026-08-18T19:01:39.154Z"
+  },
+  {
+    "id": "ew-70993",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70993-1.jpg",
+    "brand": "Rolex",
+    "model": "Sea-Dweller",
+    "ref": "126660",
+    "title": "Rolex 126660 Sea-Dweller Deepsea \"James Cameron\" SS Blue Dial",
+    "dialColor": "Blue",
+    "caseMaterial": null,
+    "year": null,
+    "price": 13800,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/rolex-126660-126660-sea-dweller-deepsea-james-cameron-ss-blue-dia-70993",
+    "scrapedAt": "2026-08-18T19:01:39.156Z"
+  },
+  {
+    "id": "ew-70558",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70558-1.jpg",
+    "brand": "Rolex",
+    "model": null,
+    "ref": "116622",
+    "title": "Rolex 116622 Yacht Master SS / Platinum Bezel Blue Dial",
+    "dialColor": "Blue",
+    "caseMaterial": null,
+    "year": null,
+    "price": 12890,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/rolex-116622-116622-yacht-master-ss-platinum-bezel-blue-dial-70558",
+    "scrapedAt": "2026-08-18T19:01:39.158Z"
+  },
+  {
+    "id": "ew-71242",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/71/71242-1.jpg",
+    "brand": "Rolex",
+    "model": "Explorer",
+    "ref": "224270",
+    "title": "Rolex 224270 Explorer 40MM SS Black Dial 2026",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "year": null,
+    "price": 10450,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/rolex-224270-224270-explorer-40mm-ss-black-dial-2026-71242",
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
+  },
+  {
+    "id": "ew-70898",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70898-1.jpg",
+    "brand": "Rolex",
+    "model": null,
+    "ref": "126000",
+    "title": "Rolex 126000 Oyster Perpetual 36 SS Green Dial 2026",
+    "dialColor": "Green",
+    "caseMaterial": null,
+    "year": null,
+    "price": 10900,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/rolex-126000-126000-oyster-perpetual-36-ss-green-dial-2026-70898",
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
+  },
+  {
+    "id": "ew-71137",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/71/71137-1.jpg",
+    "brand": "Rolex",
+    "model": "Datejust",
+    "ref": "1603",
+    "title": "Rolex 1603 Vintage Datejust SS Gray Dial Circa. 1974",
+    "dialColor": "Gray",
+    "caseMaterial": null,
+    "year": null,
+    "price": 6350,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/rolex-1603-1603-vintage-datejust-ss-gray-dial-circa-1974-71137",
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
+  },
+  {
+    "id": "ew-70703",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70703-1.jpg",
+    "brand": "Rolex",
+    "model": "Datejust 41",
+    "ref": "126331",
+    "title": "Rolex 126331 Datejust 41 18K RG / SS \"Wimbledon\" Dial",
+    "dialColor": null,
+    "caseMaterial": null,
+    "year": null,
+    "price": 17900,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/rolex-126331-126331-datejust-41-18k-rg-ss-wimbledon-dial-70703",
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
+  },
+  {
+    "id": "ew-71109",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/71/71109-1.jpg",
+    "brand": "Rolex",
+    "model": null,
+    "ref": null,
+    "title": "Rolex 126715CHNR GMT Master II \"Root Beer\" 18K Everose Gold Black Dial",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "year": null,
+    "price": 42500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/rolex-126715chnr-126715chnr-gmt-master-ii-root-beer-18k-everose-g-71109",
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
+  },
+  {
+    "id": "ew-70170",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70170-1.jpg",
+    "brand": "Rolex",
+    "model": "Sky-Dweller",
+    "ref": "326933",
+    "title": "Rolex 326933 Sky-Dweller 18K YG / SS Black Dial",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "year": null,
+    "price": 19900,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/rolex-326933-326933-sky-dweller-18k-yg-ss-black-dial-70170",
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
+  },
+  {
+    "id": "ew-70169",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70169-1.jpg",
+    "brand": "Rolex",
+    "model": "Day-Date",
+    "ref": "18349",
+    "title": "Rolex 18349 Day-Date President Diamonds 18K WG Champagne Dial Circa. 1989",
+    "dialColor": "Champagne",
+    "caseMaterial": null,
+    "year": null,
+    "price": 32500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/rolex-18349-18349-day-date-president-diamonds-18k-wg-champagne-di-70169",
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
+  },
+  {
+    "id": "ew-66777",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/66/66777-1.jpg",
+    "brand": "Rolex",
+    "model": null,
+    "ref": "1675",
+    "title": "Rolex 1675/8 GMT Master 18K Yellow Gold Black Dial Circa. 1978",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "year": null,
+    "price": 33500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/rolex-1675-8-1675-8-gmt-master-18k-yellow-gold-black-dial-circa-1-66777",
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
+  },
+  {
+    "id": "ew-71288",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/71/71288-1.jpg",
+    "brand": "Rolex",
+    "model": "Yacht-Master",
+    "ref": "226627",
+    "title": "Rolex 226627 Yacht-Master 42 RLX Titanium Intense Black Dial 2025",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "year": null,
+    "price": 25900,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": false,
+    "url": "https://www.europeanwatch.com/watch/rolex-226627-226627-yacht-master-42-rlx-titanium-intense-black-di-71288",
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
+  },
+  {
+    "id": "ew-70745",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70745-1.jpg",
+    "brand": "Rolex",
+    "model": "Daytona",
+    "ref": "116520",
+    "title": "Rolex 116520 Daytona SS Black Dial Circa. 2004",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "year": null,
+    "price": 25900,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/rolex-116520-116520-daytona-ss-black-dial-circa-2004-70745",
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
+  },
+  {
+    "id": "ew-71176",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/71/71176-1.jpg",
+    "brand": "Rolex",
+    "model": null,
+    "ref": "326938",
+    "title": "Rolex 326938 Sky Dweller 18K Yellow Gold Silver Dial",
+    "dialColor": "Silver",
+    "caseMaterial": null,
+    "year": null,
+    "price": 43500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/rolex-326938-326938-sky-dweller-18k-yellow-gold-silver-dial-71176",
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
+  },
+  {
+    "id": "ew-69298",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/69/69298-1.jpg",
+    "brand": "Rolex",
+    "model": null,
+    "ref": "326939",
+    "title": "Rolex 326939 Sky Dweller 18K White Gold Silver Roman Dial",
+    "dialColor": "White",
+    "caseMaterial": null,
+    "year": null,
+    "price": 36500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/rolex-326939-326939-sky-dweller-18k-white-gold-silver-roman-dial-69298",
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
+  },
+  {
+    "id": "ew-70969",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70969-1.jpg",
+    "brand": "Rolex",
+    "model": "Daytona",
+    "ref": "126500LN",
+    "title": "Rolex 126500LN Daytona SS Black Dial 2025",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "year": null,
+    "price": 34500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/rolex-126500ln-126500ln-daytona-ss-black-dial-2025-70969",
+    "scrapedAt": "2026-08-18T19:01:39.160Z"
+  },
+  {
+    "id": "ew-70502",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70502-1.jpg",
+    "brand": "Vacheron Constantin",
+    "model": null,
+    "ref": "49150",
+    "title": "Vacheron Constantin 49150 Overseas Chronograph SS Blue Dial",
+    "dialColor": "Blue",
+    "caseMaterial": null,
+    "year": null,
+    "price": 29500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/vacheron-constantin-49150-000a-9745-49150-overseas-chronograph-ss-70502",
+    "scrapedAt": "2026-08-18T19:01:41.506Z"
+  },
+  {
+    "id": "ew-70686",
+    "source": "European Watch Co",
+    "sourceDetail": "Dealer",
+    "imageUrl": "https://images.europeanwatch.com/images/70/70686-1.jpg",
+    "brand": "Vacheron Constantin",
+    "model": null,
+    "ref": "47292",
+    "title": "Vacheron Constantin 47292 Traditionnelle Perpetual Calendar Chronograph Platinum Silver Dial",
+    "dialColor": "Silver",
+    "caseMaterial": null,
+    "year": null,
+    "price": 64500,
+    "seller": null,
+    "condition": "Used",
+    "postedMinutesAgo": null,
+    "isNew": null,
+    "inStock": true,
+    "url": "https://www.europeanwatch.com/watch/vacheron-constantin-47292-000p-9590-47292-traditionnelle-perpetua-70686",
+    "scrapedAt": "2026-08-18T19:01:41.511Z"
   }
 ]

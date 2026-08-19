@@ -1,55 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-11T15:03:43.881Z",
-    "brand": "anonimo",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-11T15:07:40.722Z",
-    "brand": "audemars-piguet",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-11T15:07:47.539Z",
-    "brand": "breitling",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-11T15:11:29.723Z",
-    "brand": "bvlgari",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-11T15:11:36.313Z",
-    "brand": "cartier",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-11T19:21:51.970Z",
-    "brand": "chopard",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-11T19:21:58.490Z",
-    "brand": "franck-muller",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-11T22:21:47.443Z",
-    "brand": "girard-perregaux",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-11T22:21:53.854Z",
-    "brand": "hublot",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-12T16:48:08.369Z",
-    "brand": "iwc",
-    "count": 12
-  },
-  {
     "scrapedAt": "2026-08-12T16:48:15.255Z",
     "brand": "jaeger-lecoultre",
     "count": 12
@@ -97,6 +47,56 @@
   {
     "scrapedAt": "2026-08-16T19:10:43.301Z",
     "brand": "a-lange-amp-sohne",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-17T01:39:15.406Z",
+    "brand": "anonimo",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-17T01:39:22.756Z",
+    "brand": "audemars-piguet",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-17T11:58:34.047Z",
+    "brand": "breitling",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-17T11:58:40.419Z",
+    "brand": "bvlgari",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-18T18:50:16.202Z",
+    "brand": "cartier",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-18T18:50:22.436Z",
+    "brand": "chopard",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-18T18:56:17.462Z",
+    "brand": "franck-muller",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-18T18:56:24.032Z",
+    "brand": "girard-perregaux",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-18T19:02:46.448Z",
+    "brand": "hublot",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-18T19:02:52.378Z",
+    "brand": "iwc",
     "count": 12
   }
 ]
