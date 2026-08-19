@@ -163,6 +163,11 @@ app.get("/api/run-scout", async (req, res) => {
 
   const { combined, fbgroups, whatsapp } = loadAllSources();
   fs.writeFileSync(path.join(DATA_DIR, "combined.json"), JSON.stringify(combined, null, 2), "utf8");
+
+  console.log("Run Scout: rebuilding dashboard...");
+  const buildResult = await runScraper("build-dashboard.js", []);
+  stepResults["BuildDashboard"] = buildResult.ok;
+
   const buyerMatches = loadSafe("buyer-matches.json");
 
   const liveAssistedTimestamps = [...fbgroups, ...whatsapp]
