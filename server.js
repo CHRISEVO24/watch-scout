@@ -487,56 +487,46 @@ app.get("/api/wtb/pdf", (req, res) => {
   res.json({ ok: true, base64 });
 });
 
-// Create Gmail draft via Anthropic API (using Gmail MCP)
+// Save draft HTML to temp file for manual sending
 app.post("/api/wtb/draft", express.json(), async (req, res) => {
   const { to, subject, htmlBody, pdfBase64, totalMatches } = req.body;
   if (!to || !subject) return res.status(400).json({ ok: false, error: "to and subject required" });
 
   try {
-    const axios = require("axios");
-    const apiKey = process.env.ANTHROPIC_API_KEY;
-    if (!apiKey) return res.status(500).json({ ok: false, error: "ANTHROPIC_API_KEY not set" });
+    const os = require("os");
+    const draftId = Date.now().toString();
 
-    const messages = [{
-      role: "user",
-      content: `Create a Gmail draft with these exact details:
-- To: ${to}
-- Subject: ${subject}
-- HTML body: Use the Gmail:create_draft tool with the htmlBody parameter set to the full HTML email provided
-- ${pdfBase64 ? "Attach the PDF (base64 provided)" : "No PDF attachment"}
+    // Save HTML email to temp file
+    const htmlPath = path.join(os.tmpdir(), `wpb-draft-${draftId}.html`);
+    fs.writeFileSync(htmlPath, htmlBody, "utf8");
 
-The htmlBody to use is the full HTML email for this watch request response. Use Gmail:create_draft tool now.
+    // Save PDF base64 to file if present
+    let pdfSavedPath = null;
+    if (pdfBase64) {
+      pdfSavedPath = path.join(os.tmpdir(), `wpb-draft-${draftId}.pdf`);
+      fs.writeFileSync(pdfSavedPath, Buffer.from(pdfBase64, "base64"));
+    }
 
-HTML body starts with: <!DOCTYPE html>...
+    // Use nodemailer to create a draft via Gmail SMTP
+    // For now, store draft info and return compose URL
+    const drafts = fs.existsSync(path.join(DATA_DIR, "wtb-drafts.json"))
+      ? JSON.parse(fs.readFileSync(path.join(DATA_DIR, "wtb-drafts.json"), "utf8"))
+      : [];
 
-Full HTML: ${htmlBody.slice(0, 50000)}
+    const draft = { id: draftId, to, subject, htmlPath, pdfPath: pdfSavedPath, createdAt: new Date().toISOString(), totalMatches };
+    drafts.unshift(draft);
+    fs.writeFileSync(path.join(DATA_DIR, "wtb-drafts.json"), JSON.stringify(drafts.slice(0, 50), null, 2));
 
-${pdfBase64 ? `PDF attachment base64 (filename: watch-request-results.pdf, mimeType: application/pdf): ${pdfBase64.slice(0, 100)}... [truncated]` : ""}
+    // Build Gmail compose URL (opens pre-filled compose window)
+    const gmailComposeUrl = "https://mail.google.com/mail/?view=cm&fs=1" +
+      "&to=" + encodeURIComponent(to) +
+      "&su=" + encodeURIComponent(subject) +
+      "&body=" + encodeURIComponent("Please see the attached watch request results. HTML version saved at: " + htmlPath + (pdfSavedPath ? "\nPDF: " + pdfSavedPath : ""));
 
-Please create this draft now using Gmail:create_draft.`
-    }];
-
-    const mcp_servers = [{ type: "url", url: "https://gmailmcp.googleapis.com/mcp/v1", name: "gmail-mcp" }];
-
-    const response = await axios.post("https://api.anthropic.com/v1/messages", {
-      model: "claude-sonnet-5",
-      max_tokens: 1000,
-      messages,
-      mcp_servers
-    }, {
-      headers: { "x-api-key": apiKey, "anthropic-version": "2023-06-01", "content-type": "application/json", "anthropic-beta": "mcp-client-2025-04-04" },
-      timeout: 60000
-    });
-
-    const hasToolUse = (response.data.content || []).some(b => b.type === "tool_use" || b.type === "mcp_tool_use");
-    const textBlock = (response.data.content || []).find(b => b.type === "text");
-    const responseText = textBlock ? textBlock.text : "";
-    const draftCreated = hasToolUse || responseText.toLowerCase().includes("draft") || responseText.toLowerCase().includes("created");
-
-    console.log("[WTB Draft] Response:", responseText.slice(0, 200));
-    res.json({ ok: draftCreated, message: responseText.slice(0, 200) });
+    console.log("[WTB Draft] Saved draft", draftId, "for", to, "| HTML:", htmlPath);
+    res.json({ ok: true, draftId, htmlPath, pdfPath: pdfSavedPath, gmailComposeUrl, totalMatches });
   } catch(err) {
-    console.error("[WTB Draft] Error:", err.response ? JSON.stringify(err.response.data) : err.message);
+    console.error("[WTB Draft] Error:", err.message);
     res.status(500).json({ ok: false, error: err.message });
   }
 });
@@ -862,56 +852,46 @@ app.get("/api/wtb/pdf", (req, res) => {
   res.json({ ok: true, base64 });
 });
 
-// Create Gmail draft via Anthropic API (using Gmail MCP)
+// Save draft HTML to temp file for manual sending
 app.post("/api/wtb/draft", express.json(), async (req, res) => {
   const { to, subject, htmlBody, pdfBase64, totalMatches } = req.body;
   if (!to || !subject) return res.status(400).json({ ok: false, error: "to and subject required" });
 
   try {
-    const axios = require("axios");
-    const apiKey = process.env.ANTHROPIC_API_KEY;
-    if (!apiKey) return res.status(500).json({ ok: false, error: "ANTHROPIC_API_KEY not set" });
+    const os = require("os");
+    const draftId = Date.now().toString();
 
-    const messages = [{
-      role: "user",
-      content: `Create a Gmail draft with these exact details:
-- To: ${to}
-- Subject: ${subject}
-- HTML body: Use the Gmail:create_draft tool with the htmlBody parameter set to the full HTML email provided
-- ${pdfBase64 ? "Attach the PDF (base64 provided)" : "No PDF attachment"}
+    // Save HTML email to temp file
+    const htmlPath = path.join(os.tmpdir(), `wpb-draft-${draftId}.html`);
+    fs.writeFileSync(htmlPath, htmlBody, "utf8");
 
-The htmlBody to use is the full HTML email for this watch request response. Use Gmail:create_draft tool now.
+    // Save PDF base64 to file if present
+    let pdfSavedPath = null;
+    if (pdfBase64) {
+      pdfSavedPath = path.join(os.tmpdir(), `wpb-draft-${draftId}.pdf`);
+      fs.writeFileSync(pdfSavedPath, Buffer.from(pdfBase64, "base64"));
+    }
 
-HTML body starts with: <!DOCTYPE html>...
+    // Use nodemailer to create a draft via Gmail SMTP
+    // For now, store draft info and return compose URL
+    const drafts = fs.existsSync(path.join(DATA_DIR, "wtb-drafts.json"))
+      ? JSON.parse(fs.readFileSync(path.join(DATA_DIR, "wtb-drafts.json"), "utf8"))
+      : [];
 
-Full HTML: ${htmlBody.slice(0, 50000)}
+    const draft = { id: draftId, to, subject, htmlPath, pdfPath: pdfSavedPath, createdAt: new Date().toISOString(), totalMatches };
+    drafts.unshift(draft);
+    fs.writeFileSync(path.join(DATA_DIR, "wtb-drafts.json"), JSON.stringify(drafts.slice(0, 50), null, 2));
 
-${pdfBase64 ? `PDF attachment base64 (filename: watch-request-results.pdf, mimeType: application/pdf): ${pdfBase64.slice(0, 100)}... [truncated]` : ""}
+    // Build Gmail compose URL (opens pre-filled compose window)
+    const gmailComposeUrl = "https://mail.google.com/mail/?view=cm&fs=1" +
+      "&to=" + encodeURIComponent(to) +
+      "&su=" + encodeURIComponent(subject) +
+      "&body=" + encodeURIComponent("Please see the attached watch request results. HTML version saved at: " + htmlPath + (pdfSavedPath ? "\nPDF: " + pdfSavedPath : ""));
 
-Please create this draft now using Gmail:create_draft.`
-    }];
-
-    const mcp_servers = [{ type: "url", url: "https://gmailmcp.googleapis.com/mcp/v1", name: "gmail-mcp" }];
-
-    const response = await axios.post("https://api.anthropic.com/v1/messages", {
-      model: "claude-sonnet-5",
-      max_tokens: 1000,
-      messages,
-      mcp_servers
-    }, {
-      headers: { "x-api-key": apiKey, "anthropic-version": "2023-06-01", "content-type": "application/json", "anthropic-beta": "mcp-client-2025-04-04" },
-      timeout: 60000
-    });
-
-    const hasToolUse = (response.data.content || []).some(b => b.type === "tool_use" || b.type === "mcp_tool_use");
-    const textBlock = (response.data.content || []).find(b => b.type === "text");
-    const responseText = textBlock ? textBlock.text : "";
-    const draftCreated = hasToolUse || responseText.toLowerCase().includes("draft") || responseText.toLowerCase().includes("created");
-
-    console.log("[WTB Draft] Response:", responseText.slice(0, 200));
-    res.json({ ok: draftCreated, message: responseText.slice(0, 200) });
+    console.log("[WTB Draft] Saved draft", draftId, "for", to, "| HTML:", htmlPath);
+    res.json({ ok: true, draftId, htmlPath, pdfPath: pdfSavedPath, gmailComposeUrl, totalMatches });
   } catch(err) {
-    console.error("[WTB Draft] Error:", err.response ? JSON.stringify(err.response.data) : err.message);
+    console.error("[WTB Draft] Error:", err.message);
     res.status(500).json({ ok: false, error: err.message });
   }
 });
@@ -1350,4 +1330,14 @@ app.get("/api/eci-inventory", async (req, res) => {
     console.error("ECI inventory fetch failed:", err.message);
     res.status(500).json([]);
   }
+});
+
+app.get("/api/wtb/get-draft-html", (req, res) => {
+  const drafts = fs.existsSync(path.join(DATA_DIR, "wtb-drafts.json"))
+    ? JSON.parse(fs.readFileSync(path.join(DATA_DIR, "wtb-drafts.json"), "utf8"))
+    : [];
+  if (!drafts.length) return res.json({ ok: false, error: "no drafts" });
+  const d = drafts[0];
+  const html = fs.existsSync(d.htmlPath) ? fs.readFileSync(d.htmlPath, "utf8") : null;
+  res.json({ ok: !!html, to: d.to, subject: d.subject, html, totalMatches: d.totalMatches });
 });

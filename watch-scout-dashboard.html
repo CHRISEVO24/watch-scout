@@ -432449,12 +432449,18 @@ async function sendToClient(id){
     // 3. Post to /api/wtb/draft which uses Gmail MCP via Claude
     const dr=await fetch('/api/wtb/draft',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({to:d.clientEmail,subject:d.subject,htmlBody:d.htmlBody,pdfBase64:pdfAttachment,totalMatches:d.totalMatches})}).then(r=>r.json());
     if(dr.ok){
-      btn.style.background='var(--brass)';btn.textContent='\u2713 Draft created in Gmail';
+      btn.style.background='var(--brass)';btn.textContent='\u2713 Ready to send';
       btn.disabled=false;
-      alert('\u2713 Gmail draft created for '+d.clientEmail+'!\n\nOpen Gmail to review and send.\n\nMatches: '+d.totalMatches+(pdfAttachment?' (PDF attached)':''));
+      // Open Gmail compose with pre-filled fields
+      if(dr.gmailComposeUrl) window.open(dr.gmailComposeUrl, '_blank');
+      alert('\u2713 '+d.totalMatches+' matches compiled for '+d.clientEmail+'!\n\n' +
+        (pdfAttachment?'PDF generated and saved.\n\n':'') +
+        'Gmail compose window opened — paste or attach the HTML file:\n'+
+        (dr.htmlPath||'') +
+        (dr.pdfPath?'\n\nPDF: '+dr.pdfPath:''));
     } else {
       btn.disabled=false;btn.textContent='\u2709\ufe0f Send to Client';
-      alert('Draft creation failed: '+(dr.error||'unknown'));
+      alert('Error: '+(dr.error||'unknown'));
     }
   }catch(e){
     btn.disabled=false;btn.textContent='\u2709\ufe0f Send to Client';
