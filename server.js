@@ -189,6 +189,747 @@ app.get("/api/run-scout", async (req, res) => {
 });
 
 const { askUltron } = require("./scrapers/ultron-chat");
+const { matchWtb } = require("./scrapers/wtb-matcher");
+
+const WTB_FILE = path.join(DATA_DIR, "wtb-requests.json");
+function loadWtbRequests() {
+  if (!fs.existsSync(WTB_FILE)) return [];
+  try { return JSON.parse(fs.readFileSync(WTB_FILE, "utf8")); } catch { return []; }
+}
+function saveWtbRequests(requests) {
+  fs.writeFileSync(WTB_FILE, JSON.stringify(requests, null, 2), "utf8");
+}
+
+app.post("/api/wtb/submit", express.json(), async (req, res) => {
+  const { firstName, lastName, email, phone, brand, model, ref, budgetMax, condition, boxPapers, notes, source } = req.body;
+  if (!brand || !email) return res.status(400).json({ ok: false, error: "brand and email required" });
+  const requests = loadWtbRequests();
+  const wtb = {
+    id: Date.now().toString(),
+    submittedAt: new Date().toISOString(),
+    source: source || "manual",
+    status: "new",
+    client: { firstName, lastName, email, phone },
+    watch: { brand, model, ref, budgetMax: budgetMax ? Number(budgetMax) : null, condition, boxPapers, notes },
+    matches: null,
+    sentAt: null,
+  };
+  try {
+    wtb.matches = await matchWtb({ id: wtb.id, brand, model, ref, budgetMax: wtb.watch.budgetMax, keywords: notes });
+    wtb.status = "matched";
+  } catch(err) {
+    console.error("WTB matching failed:", err.message);
+    wtb.status = "match-failed";
+  }
+  requests.unshift(wtb);
+  saveWtbRequests(requests);
+  console.log(`[WTB] New request from ${firstName} ${lastName} (${email}) — ${brand} ${model || ""} ${ref || ""}`);
+  res.json({ ok: true, id: wtb.id, matchCount: wtb.matches ? (wtb.matches.inventoryMatches.length + wtb.matches.marketMatches.length) : 0 });
+});
+
+app.get("/api/wtb/requests", (req, res) => {
+  res.json({ requests: loadWtbRequests() });
+});
+
+app.post("/api/wtb/update", express.json(), (req, res) => {
+  const { id, status, notes } = req.body;
+  const requests = loadWtbRequests();
+  const r = requests.find(r => r.id === id);
+  if (!r) return res.status(404).json({ ok: false, error: "not found" });
+  if (status) r.status = status;
+  if (notes) r.internalNotes = notes;
+  saveWtbRequests(requests);
+  res.json({ ok: true });
+});
+
+app.post("/api/wtb/send", express.json(), async (req, res) => {
+  const { id } = req.body;
+  const requests = loadWtbRequests();
+  const wtb = requests.find(r => r.id === id);
+  if (!wtb) return res.status(404).json({ ok: false, error: "WTB request not found" });
+
+  const c = wtb.client || {};
+  const w = wtb.watch || {};
+  const m = wtb.matches || { inventoryMatches: [], marketMatches: [], icMatches: [] };
+
+  function fmtP(p) {
+    if (!p) return "—";
+    const n = parseFloat(String(p).replace(/[^0-9.]/g, ""));
+    return isNaN(n) ? String(p) : "$" + Math.round(n).toLocaleString();
+  }
+
+  // Build HTML email body
+  const invRows = m.inventoryMatches.map(m => `
+    <tr>
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
+        <strong style="color:#111;">${m.name || ""}</strong><br>
+        <span style="color:#6b7280;font-size:13px;">${m.store}${m.ref ? " · Ref. " + m.ref : ""}</span>
+      </td>
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
+        <strong style="color:#92400e;font-size:16px;">${fmtP(m.price)}</strong><br>
+        <a href="mailto:chris@wpbwatchco.com?subject=Interested in ${encodeURIComponent(m.name)}" style="font-size:12px;color:#2563eb;">Contact WPB Watch Co</a>
+      </td>
+    </tr>`).join("");
+
+  const icRows = m.icMatches.map(m => `
+    <tr>
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
+        <strong style="color:#111;">${m.name || ""}</strong><br>
+        <span style="color:#6b7280;font-size:13px;">${m.seller || "Dealer"}${m.ref ? " · Ref. " + m.ref : ""}</span>
+      </td>
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
+        <strong style="color:#92400e;font-size:16px;">${fmtP(m.price)}</strong><br>
+        ${m.url ? `<a href="${m.url}" style="font-size:12px;color:#2563eb;">Message Seller on InventoryConnect</a>` : ""}
+      </td>
+    </tr>`).join("");
+
+  const mktRows = m.marketMatches.slice(0, 8).map(m => `
+    <tr>
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
+        <strong style="color:#111;">${m.title || ""}</strong><br>
+        <span style="color:#6b7280;font-size:13px;">${m.source}${m.ref ? " · Ref. " + m.ref : ""}${m.seller ? " · " + m.seller : ""}</span>
+      </td>
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
+        <strong style="color:#92400e;font-size:16px;">${fmtP(m.price)}</strong><br>
+        ${m.url ? `<a href="${m.url}" style="font-size:12px;color:#2563eb;">View Listing</a>` : ""}
+      </td>
+    </tr>`).join("");
+
+  const htmlBody = `
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"></head>
+<body style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f9fafb;margin:0;padding:24px;">
+  <div style="max-width:640px;margin:0 auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.1);">
+    <!-- Header -->
+    <div style="background:#0f1117;padding:24px 28px;">
+      <div style="font-size:20px;font-weight:700;color:#c9a05b;">WPB Watch Co</div>
+      <div style="font-size:13px;color:#9a9691;margin-top:2px;">West Palm Beach, FL · 844-972-9282 · chris@wpbwatchco.com</div>
+    </div>
+    <!-- Intro -->
+    <div style="padding:24px 28px;border-bottom:1px solid #e5e7eb;">
+      <p style="font-size:15px;color:#111;margin:0 0 8px;">Hi ${c.firstName || "there"},</p>
+      <p style="font-size:14px;color:#374151;line-height:1.6;margin:0;">
+        Thank you for your watch request. We've searched our inventory and the full pre-owned market for your 
+        <strong>${w.brand || ""} ${w.model || ""} ${w.ref ? "· Ref. " + w.ref : ""}</strong>${w.budgetMax ? " (budget up to $" + Number(w.budgetMax).toLocaleString() + ")" : ""}. 
+        Here's what we found:
+      </p>
+    </div>
+
+    ${invRows ? `
+    <!-- Our Inventory -->
+    <div style="padding:20px 28px 0;">
+      <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#059669;margin-bottom:10px;">● Available in Our Inventory</div>
+      <table style="width:100%;border-collapse:collapse;">${invRows}</table>
+      <p style="font-size:12px;color:#6b7280;margin:8px 0 20px;">Contact us directly at <a href="mailto:chris@wpbwatchco.com" style="color:#2563eb;">chris@wpbwatchco.com</a> or call <a href="tel:8449729282" style="color:#2563eb;">844-972-9282</a> to arrange purchase.</p>
+    </div>` : ""}
+
+    ${icRows ? `
+    <!-- IC Dealers -->
+    <div style="padding:20px 28px 0;">
+      <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#0284c7;margin-bottom:10px;">● Available from Verified Dealers</div>
+      <table style="width:100%;border-collapse:collapse;">${icRows}</table>
+    </div>` : ""}
+
+    ${mktRows ? `
+    <!-- Market -->
+    <div style="padding:20px 28px 0;">
+      <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#6b7280;margin-bottom:10px;">● Market Listings</div>
+      <table style="width:100%;border-collapse:collapse;">${mktRows}</table>
+    </div>` : ""}
+
+    <!-- Footer -->
+    <div style="padding:24px 28px;background:#f9fafb;margin-top:24px;">
+      <p style="font-size:13px;color:#6b7280;margin:0 0 6px;">Questions? We're here to help find exactly what you're looking for.</p>
+      <p style="font-size:13px;color:#374151;margin:0;">
+        <strong>WPB Watch Co</strong> · 1601 Forum Pl, West Palm Beach, FL 33401<br>
+        <a href="tel:8449729282" style="color:#2563eb;">844-972-9282</a> · 
+        <a href="mailto:chris@wpbwatchco.com" style="color:#2563eb;">chris@wpbwatchco.com</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>`;
+
+  // Generate PDF using Python/reportlab
+  const totalMatches = m.inventoryMatches.length + m.icMatches.length + m.marketMatches.length;
+  const pdfPath = require("path").join(require("os").tmpdir(), `wpb-wtb-${id}.pdf`);
+
+  // Write PDF generation script to temp file and execute it
+  const pdfScriptPath = require("path").join(require("os").tmpdir(), `wtb-pdf-${id}.py`);
+  const invLines = m.inventoryMatches.map(m2 => {
+    const nm = (m2.name||"").replace(/'/g, "").slice(0, 50);
+    const st = (m2.store||"").replace(/'/g, "");
+    const rf = m2.ref ? " Ref " + m2.ref.replace(/'/g,"") : "";
+    const pr = fmtP(m2.price).replace(/'/g,"");
+    return `inv_data.append(['${nm} ${st}${rf}', '${pr}', 'chris@wpbwatchco.com'])`;
+  }).join("\n");
+  const icLines = m.icMatches.map(m2 => {
+    const nm = ((m2.name||m2.model||"")).replace(/'/g,"").slice(0,50);
+    const sl = (m2.seller||"Dealer").replace(/'/g,"");
+    const rf = m2.ref ? " Ref " + m2.ref.replace(/'/g,"") : "";
+    const pr = fmtP(m2.price).replace(/'/g,"");
+    return `ic_data.append(['${nm}${rf}', '${pr}', '${sl}'])`;
+  }).join("\n");
+  const mktLines = m.marketMatches.slice(0,8).map(m2 => {
+    const nm = ((m2.title||m2.name||"")).replace(/'/g,"").slice(0,50);
+    const src = (m2.source||"").replace(/'/g,"");
+    const rf = m2.ref ? " Ref " + m2.ref.replace(/'/g,"") : "";
+    const pr = fmtP(m2.price).replace(/'/g,"");
+    return `mkt_data.append(['${nm}${rf}', '${pr}', '${src}'])`;
+  }).join("\n");
+
+  const pdfScript = [
+    "from reportlab.lib.pagesizes import letter",
+    "from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle",
+    "from reportlab.lib.colors import HexColor, white",
+    "from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, HRFlowable",
+    "from reportlab.lib.units import inch",
+    `doc = SimpleDocTemplate('${pdfPath}', pagesize=letter, leftMargin=0.75*inch, rightMargin=0.75*inch, topMargin=0.75*inch, bottomMargin=0.75*inch)`,
+    "styles = getSampleStyleSheet()",
+    "brass = HexColor('#c9a05b')",
+    "gray = HexColor('#6b7280')",
+    "green = HexColor('#059669')",
+    "blue = HexColor('#0284c7')",
+    "title_s = ParagraphStyle('t', fontSize=20, fontName='Helvetica-Bold', textColor=brass, spaceAfter=4)",
+    "sub_s = ParagraphStyle('s', fontSize=11, fontName='Helvetica', textColor=gray, spaceAfter=16)",
+    "h2_s = ParagraphStyle('h2', fontSize=11, fontName='Helvetica-Bold', spaceBefore=14, spaceAfter=8)",
+    "body_s = ParagraphStyle('b', fontSize=10, fontName='Helvetica', leading=14, spaceAfter=8)",
+    "small_s = ParagraphStyle('sm', fontSize=9, fontName='Helvetica', textColor=gray, leading=12)",
+    "story = []",
+    "story.append(Paragraph('WPB Watch Co', title_s))",
+    "story.append(Paragraph('1601 Forum Pl, West Palm Beach, FL 33401 | 844-972-9282 | chris@wpbwatchco.com', sub_s))",
+    "story.append(HRFlowable(width='100%', thickness=1, color=brass, spaceAfter=12))",
+    "story.append(Paragraph('Watch Request Results', h2_s))",
+    `story.append(Paragraph('Prepared for: ${c.firstName||""} ${c.lastName||""} (${c.email})', body_s))`,
+    `story.append(Paragraph('Looking for: ${w.brand||""} ${w.model||""} ${w.ref?"Ref. "+w.ref:""}', body_s))`,
+    `story.append(Paragraph('Total matches found: ${totalMatches}', body_s))`,
+    "story.append(Spacer(1, 12))",
+  ];
+
+  if (m.inventoryMatches.length) {
+    pdfScript.push(
+      "story.append(HRFlowable(width='100%', thickness=0.5, color=HexColor('#e5e7eb'), spaceAfter=8))",
+      "story.append(Paragraph('AVAILABLE IN OUR INVENTORY', ParagraphStyle('l1', fontSize=9, fontName='Helvetica-Bold', textColor=green, spaceAfter=8)))",
+      "inv_data = [['Watch', 'Price', 'Contact']]",
+      invLines,
+      "inv_t = Table(inv_data, colWidths=[3.5*inch, 1.2*inch, 2.1*inch])",
+      "inv_t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),HexColor('#f0fdf4')),('FONTNAME',(0,0),(-1,0),'Helvetica-Bold'),('FONTSIZE',(0,0),(-1,-1),9),('GRID',(0,0),(-1,-1),0.5,HexColor('#e5e7eb')),('PADDING',(0,0),(-1,-1),6)]))",
+      "story.append(inv_t)",
+      "story.append(Spacer(1,12))"
+    );
+  }
+  if (m.icMatches.length) {
+    pdfScript.push(
+      "story.append(Paragraph('AVAILABLE FROM VERIFIED DEALERS', ParagraphStyle('l2', fontSize=9, fontName='Helvetica-Bold', textColor=blue, spaceAfter=8)))",
+      "ic_data = [['Watch', 'Price', 'Seller']]",
+      icLines,
+      "ic_t = Table(ic_data, colWidths=[3.5*inch, 1.2*inch, 2.1*inch])",
+      "ic_t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),HexColor('#eff6ff')),('FONTNAME',(0,0),(-1,0),'Helvetica-Bold'),('FONTSIZE',(0,0),(-1,-1),9),('GRID',(0,0),(-1,-1),0.5,HexColor('#e5e7eb')),('PADDING',(0,0),(-1,-1),6)]))",
+      "story.append(ic_t)",
+      "story.append(Spacer(1,12))"
+    );
+  }
+  if (m.marketMatches.length) {
+    pdfScript.push(
+      "story.append(Paragraph('MARKET LISTINGS', ParagraphStyle('l3', fontSize=9, fontName='Helvetica-Bold', textColor=gray, spaceAfter=8)))",
+      "mkt_data = [['Watch', 'Price', 'Source']]",
+      mktLines,
+      "mkt_t = Table(mkt_data, colWidths=[3.5*inch, 1.2*inch, 2.1*inch])",
+      "mkt_t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),HexColor('#f9fafb')),('FONTNAME',(0,0),(-1,0),'Helvetica-Bold'),('FONTSIZE',(0,0),(-1,-1),9),('GRID',(0,0),(-1,-1),0.5,HexColor('#e5e7eb')),('PADDING',(0,0),(-1,-1),6)]))",
+      "story.append(mkt_t)"
+    );
+  }
+  pdfScript.push(
+    "story.append(Spacer(1,20))",
+    "story.append(HRFlowable(width='100%', thickness=0.5, color=brass, spaceAfter=8))",
+    "story.append(Paragraph('WPB Watch Co | West Palm Beach, FL | 844-972-9282 | chris@wpbwatchco.com', small_s))",
+    "doc.build(story)",
+    `print('PDF_OK:${pdfPath}')`
+  );
+
+  require("fs").writeFileSync(pdfScriptPath, pdfScript.join("\n"), "utf8");
+
+
+  let pdfOk = false;
+  try {
+    const { execSync } = require("child_process");
+    const result = execSync(`python3 ${pdfScriptPath}`, { timeout: 30000 }).toString();
+    pdfOk = result.includes("PDF_OK:");
+    console.log("[WTB] PDF result:", result.trim());
+  } catch(e) {
+    console.error("[WTB] PDF generation failed:", e.message);
+  }
+
+  // Return HTML + PDF path for Gmail draft creation via Claude
+  wtb.sentAt = new Date().toISOString();
+  wtb.status = "sent";
+  requests.find(r => r.id === id) && Object.assign(requests.find(r => r.id === id), { sentAt: wtb.sentAt, status: "sent" });
+  saveWtbRequests(requests);
+
+  res.json({
+    ok: true,
+    clientEmail: c.email,
+    clientName: `${c.firstName || ""} ${c.lastName || ""}`.trim(),
+    subject: `Watch Request Results — ${w.brand || ""} ${w.model || ""} ${w.ref ? "Ref. " + w.ref : ""}`.trim(),
+    htmlBody,
+    pdfPath: pdfOk ? pdfPath : null,
+    totalMatches,
+  });
+});
+
+// Serve generated PDF as base64 for email attachment
+app.get("/api/wtb/pdf", (req, res) => {
+  const { path: pdfPath } = req.query;
+  if (!pdfPath || !pdfPath.includes("wpb-wtb-")) return res.status(400).json({ ok: false, error: "invalid path" });
+  if (!fs.existsSync(pdfPath)) return res.status(404).json({ ok: false, error: "PDF not found" });
+  const base64 = fs.readFileSync(pdfPath).toString("base64");
+  res.json({ ok: true, base64 });
+});
+
+// Create Gmail draft via Anthropic API (using Gmail MCP)
+app.post("/api/wtb/draft", express.json(), async (req, res) => {
+  const { to, subject, htmlBody, pdfBase64, totalMatches } = req.body;
+  if (!to || !subject) return res.status(400).json({ ok: false, error: "to and subject required" });
+
+  try {
+    const axios = require("axios");
+    const apiKey = process.env.ANTHROPIC_API_KEY;
+    if (!apiKey) return res.status(500).json({ ok: false, error: "ANTHROPIC_API_KEY not set" });
+
+    const messages = [{
+      role: "user",
+      content: `Create a Gmail draft with these exact details:
+- To: ${to}
+- Subject: ${subject}
+- HTML body: Use the Gmail:create_draft tool with the htmlBody parameter set to the full HTML email provided
+- ${pdfBase64 ? "Attach the PDF (base64 provided)" : "No PDF attachment"}
+
+The htmlBody to use is the full HTML email for this watch request response. Use Gmail:create_draft tool now.
+
+HTML body starts with: <!DOCTYPE html>...
+
+Full HTML: ${htmlBody.slice(0, 50000)}
+
+${pdfBase64 ? `PDF attachment base64 (filename: watch-request-results.pdf, mimeType: application/pdf): ${pdfBase64.slice(0, 100)}... [truncated]` : ""}
+
+Please create this draft now using Gmail:create_draft.`
+    }];
+
+    const mcp_servers = [{ type: "url", url: "https://gmailmcp.googleapis.com/mcp/v1", name: "gmail-mcp" }];
+
+    const response = await axios.post("https://api.anthropic.com/v1/messages", {
+      model: "claude-sonnet-5",
+      max_tokens: 1000,
+      messages,
+      mcp_servers
+    }, {
+      headers: { "x-api-key": apiKey, "anthropic-version": "2023-06-01", "content-type": "application/json", "anthropic-beta": "mcp-client-2025-04-04" },
+      timeout: 60000
+    });
+
+    const hasToolUse = (response.data.content || []).some(b => b.type === "tool_use" || b.type === "mcp_tool_use");
+    const textBlock = (response.data.content || []).find(b => b.type === "text");
+    const responseText = textBlock ? textBlock.text : "";
+    const draftCreated = hasToolUse || responseText.toLowerCase().includes("draft") || responseText.toLowerCase().includes("created");
+
+    console.log("[WTB Draft] Response:", responseText.slice(0, 200));
+    res.json({ ok: draftCreated, message: responseText.slice(0, 200) });
+  } catch(err) {
+    console.error("[WTB Draft] Error:", err.response ? JSON.stringify(err.response.data) : err.message);
+    res.status(500).json({ ok: false, error: err.message });
+  }
+});
+
+app.post("/api/wtb/rematch", express.json(), async (req, res) => {
+  const { id } = req.body;
+  const requests = loadWtbRequests();
+  const wtb = requests.find(r => r.id === id);
+  if (!wtb) return res.status(404).json({ ok: false, error: "not found" });
+  try {
+    wtb.matches = await matchWtb({ id: wtb.id, ...wtb.watch });
+    wtb.status = "matched";
+    saveWtbRequests(requests);
+    res.json({ ok: true, matches: wtb.matches });
+  } catch(err) {
+    res.status(500).json({ ok: false, error: err.message });
+  }
+});
+function saveWtbRequests(requests) {
+  fs.writeFileSync(WTB_FILE, JSON.stringify(requests, null, 2), "utf8");
+}
+
+// Submit WTB (from public form or Watch Scout manual entry)
+app.post("/api/wtb/submit", express.json(), async (req, res) => {
+  const { firstName, lastName, email, phone, brand, model, ref, budgetMax, condition, boxPapers, notes, source } = req.body;
+  if (!brand || !email) return res.status(400).json({ ok: false, error: "brand and email required" });
+
+  const requests = loadWtbRequests();
+  const wtb = {
+    id: Date.now().toString(),
+    submittedAt: new Date().toISOString(),
+    source: source || "manual",
+    status: "new",
+    client: { firstName, lastName, email, phone },
+    watch: { brand, model, ref, budgetMax: budgetMax ? Number(budgetMax) : null, condition, boxPapers, notes },
+    matches: null,
+    sentAt: null,
+  };
+
+  // Auto-run matching
+  try {
+    wtb.matches = await matchWtb({ id: wtb.id, brand, model, ref, budgetMax: wtb.watch.budgetMax, keywords: notes });
+    wtb.status = "matched";
+  } catch(err) {
+    console.error("WTB matching failed:", err.message);
+    wtb.status = "match-failed";
+  }
+
+  requests.unshift(wtb);
+  saveWtbRequests(requests);
+  console.log(`[WTB] New request from ${firstName} ${lastName} (${email}) — ${brand} ${model || ''} ${ref || ''}}`);
+  res.json({ ok: true, id: wtb.id, matchCount: wtb.matches ? (wtb.matches.inventoryMatches.length + wtb.matches.marketMatches.length) : 0 });
+});
+
+// Get all WTB requests
+app.get("/api/wtb/requests", (req, res) => {
+  res.json({ requests: loadWtbRequests() });
+});
+
+// Update WTB status
+app.post("/api/wtb/update", express.json(), (req, res) => {
+  const { id, status, notes } = req.body;
+  const requests = loadWtbRequests();
+  const req2 = requests.find(r => r.id === id);
+  if (!req2) return res.status(404).json({ ok: false, error: "not found" });
+  if (status) req2.status = status;
+  if (notes) req2.internalNotes = notes;
+  saveWtbRequests(requests);
+  res.json({ ok: true });
+});
+
+// Re-run matching for a WTB
+app.post("/api/wtb/send", express.json(), async (req, res) => {
+  const { id } = req.body;
+  const requests = loadWtbRequests();
+  const wtb = requests.find(r => r.id === id);
+  if (!wtb) return res.status(404).json({ ok: false, error: "WTB request not found" });
+
+  const c = wtb.client || {};
+  const w = wtb.watch || {};
+  const m = wtb.matches || { inventoryMatches: [], marketMatches: [], icMatches: [] };
+
+  function fmtP(p) {
+    if (!p) return "—";
+    const n = parseFloat(String(p).replace(/[^0-9.]/g, ""));
+    return isNaN(n) ? String(p) : "$" + Math.round(n).toLocaleString();
+  }
+
+  // Build HTML email body
+  const invRows = m.inventoryMatches.map(m => `
+    <tr>
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
+        <strong style="color:#111;">${m.name || ""}</strong><br>
+        <span style="color:#6b7280;font-size:13px;">${m.store}${m.ref ? " · Ref. " + m.ref : ""}</span>
+      </td>
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
+        <strong style="color:#92400e;font-size:16px;">${fmtP(m.price)}</strong><br>
+        <a href="mailto:chris@wpbwatchco.com?subject=Interested in ${encodeURIComponent(m.name)}" style="font-size:12px;color:#2563eb;">Contact WPB Watch Co</a>
+      </td>
+    </tr>`).join("");
+
+  const icRows = m.icMatches.map(m => `
+    <tr>
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
+        <strong style="color:#111;">${m.name || ""}</strong><br>
+        <span style="color:#6b7280;font-size:13px;">${m.seller || "Dealer"}${m.ref ? " · Ref. " + m.ref : ""}</span>
+      </td>
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
+        <strong style="color:#92400e;font-size:16px;">${fmtP(m.price)}</strong><br>
+        ${m.url ? `<a href="${m.url}" style="font-size:12px;color:#2563eb;">Message Seller on InventoryConnect</a>` : ""}
+      </td>
+    </tr>`).join("");
+
+  const mktRows = m.marketMatches.slice(0, 8).map(m => `
+    <tr>
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
+        <strong style="color:#111;">${m.title || ""}</strong><br>
+        <span style="color:#6b7280;font-size:13px;">${m.source}${m.ref ? " · Ref. " + m.ref : ""}${m.seller ? " · " + m.seller : ""}</span>
+      </td>
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
+        <strong style="color:#92400e;font-size:16px;">${fmtP(m.price)}</strong><br>
+        ${m.url ? `<a href="${m.url}" style="font-size:12px;color:#2563eb;">View Listing</a>` : ""}
+      </td>
+    </tr>`).join("");
+
+  const htmlBody = `
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"></head>
+<body style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f9fafb;margin:0;padding:24px;">
+  <div style="max-width:640px;margin:0 auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.1);">
+    <!-- Header -->
+    <div style="background:#0f1117;padding:24px 28px;">
+      <div style="font-size:20px;font-weight:700;color:#c9a05b;">WPB Watch Co</div>
+      <div style="font-size:13px;color:#9a9691;margin-top:2px;">West Palm Beach, FL · 844-972-9282 · chris@wpbwatchco.com</div>
+    </div>
+    <!-- Intro -->
+    <div style="padding:24px 28px;border-bottom:1px solid #e5e7eb;">
+      <p style="font-size:15px;color:#111;margin:0 0 8px;">Hi ${c.firstName || "there"},</p>
+      <p style="font-size:14px;color:#374151;line-height:1.6;margin:0;">
+        Thank you for your watch request. We've searched our inventory and the full pre-owned market for your 
+        <strong>${w.brand || ""} ${w.model || ""} ${w.ref ? "· Ref. " + w.ref : ""}</strong>${w.budgetMax ? " (budget up to $" + Number(w.budgetMax).toLocaleString() + ")" : ""}. 
+        Here's what we found:
+      </p>
+    </div>
+
+    ${invRows ? `
+    <!-- Our Inventory -->
+    <div style="padding:20px 28px 0;">
+      <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#059669;margin-bottom:10px;">● Available in Our Inventory</div>
+      <table style="width:100%;border-collapse:collapse;">${invRows}</table>
+      <p style="font-size:12px;color:#6b7280;margin:8px 0 20px;">Contact us directly at <a href="mailto:chris@wpbwatchco.com" style="color:#2563eb;">chris@wpbwatchco.com</a> or call <a href="tel:8449729282" style="color:#2563eb;">844-972-9282</a> to arrange purchase.</p>
+    </div>` : ""}
+
+    ${icRows ? `
+    <!-- IC Dealers -->
+    <div style="padding:20px 28px 0;">
+      <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#0284c7;margin-bottom:10px;">● Available from Verified Dealers</div>
+      <table style="width:100%;border-collapse:collapse;">${icRows}</table>
+    </div>` : ""}
+
+    ${mktRows ? `
+    <!-- Market -->
+    <div style="padding:20px 28px 0;">
+      <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#6b7280;margin-bottom:10px;">● Market Listings</div>
+      <table style="width:100%;border-collapse:collapse;">${mktRows}</table>
+    </div>` : ""}
+
+    <!-- Footer -->
+    <div style="padding:24px 28px;background:#f9fafb;margin-top:24px;">
+      <p style="font-size:13px;color:#6b7280;margin:0 0 6px;">Questions? We're here to help find exactly what you're looking for.</p>
+      <p style="font-size:13px;color:#374151;margin:0;">
+        <strong>WPB Watch Co</strong> · 1601 Forum Pl, West Palm Beach, FL 33401<br>
+        <a href="tel:8449729282" style="color:#2563eb;">844-972-9282</a> · 
+        <a href="mailto:chris@wpbwatchco.com" style="color:#2563eb;">chris@wpbwatchco.com</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>`;
+
+  // Generate PDF using Python/reportlab
+  const totalMatches = m.inventoryMatches.length + m.icMatches.length + m.marketMatches.length;
+  const pdfPath = require("path").join(require("os").tmpdir(), `wpb-wtb-${id}.pdf`);
+
+  const pythonScript = `
+import sys
+from reportlab.lib.pagesizes import letter
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.lib.colors import HexColor, black, white
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, HRFlowable
+from reportlab.lib.units import inch
+from reportlab.lib import colors
+
+doc = SimpleDocTemplate("${pdfPath}", pagesize=letter, leftMargin=0.75*inch, rightMargin=0.75*inch, topMargin=0.75*inch, bottomMargin=0.75*inch)
+styles = getSampleStyleSheet()
+
+brass = HexColor("#c9a05b")
+dark = HexColor("#0f1117")
+gray = HexColor("#6b7280")
+green = HexColor("#059669")
+blue = HexColor("#0284c7")
+
+title_style = ParagraphStyle("title", fontSize=20, fontName="Helvetica-Bold", textColor=brass, spaceAfter=4)
+sub_style = ParagraphStyle("sub", fontSize=11, fontName="Helvetica", textColor=gray, spaceAfter=16)
+h2_style = ParagraphStyle("h2", fontSize=11, fontName="Helvetica-Bold", textColor=dark, spaceBefore=14, spaceAfter=8)
+body_style = ParagraphStyle("body", fontSize=10, fontName="Helvetica", textColor=dark, leading=14, spaceAfter=8)
+small_style = ParagraphStyle("small", fontSize=9, fontName="Helvetica", textColor=gray, leading=12)
+label_style = ParagraphStyle("label", fontSize=9, fontName="Helvetica-Bold", textColor=green)
+
+story = []
+
+# Header
+story.append(Paragraph("WPB Watch Co", title_style))
+story.append(Paragraph("1601 Forum Pl, West Palm Beach, FL 33401 | 844-972-9282 | chris@wpbwatchco.com", sub_style))
+story.append(HRFlowable(width="100%", thickness=1, color=brass, spaceAfter=12))
+
+# Request summary
+story.append(Paragraph("Watch Request Results", h2_style))
+story.append(Paragraph(f"Prepared for: ${c.firstName || ""} ${c.lastName || ""} (${c.email})", body_style))
+story.append(Paragraph(f"Looking for: ${w.brand || ""} ${w.model || ""} ${w.ref ? "Ref. " + w.ref : ""}", body_style))
+${w.budgetMax ? `story.append(Paragraph(f"Budget: up to $${Number(w.budgetMax).toLocaleString()}", body_style))` : ""}
+story.append(Paragraph(f"Total matches found: ${totalMatches}", body_style))
+story.append(Spacer(1, 12))
+
+${m.inventoryMatches.length ? `
+story.append(HRFlowable(width="100%", thickness=0.5, color=HexColor("#e5e7eb"), spaceAfter=8))
+story.append(Paragraph("AVAILABLE IN OUR INVENTORY", ParagraphStyle("lbl", fontSize=9, fontName="Helvetica-Bold", textColor=green, spaceAfter=8)))
+inv_data = [["Watch", "Price", "Contact"]]
+${m.inventoryMatches.map(m => `inv_data.append(["${(m.name||"").replace(/"/g,"'").slice(0,50)} ${m.store}${m.ref?" · Ref. "+m.ref:""}", "${fmtP(m.price)}", "chris@wpbwatchco.com"])`).join("\n")}
+inv_table = Table(inv_data, colWidths=[3.5*inch, 1.2*inch, 2.1*inch])
+inv_table.setStyle(TableStyle([
+    ("BACKGROUND", (0,0), (-1,0), HexColor("#f0fdf4")),
+    ("FONTNAME", (0,0), (-1,0), "Helvetica-Bold"),
+    ("FONTSIZE", (0,0), (-1,-1), 9),
+    ("ROWBACKGROUNDS", (0,1), (-1,-1), [white, HexColor("#f9fafb")]),
+    ("GRID", (0,0), (-1,-1), 0.5, HexColor("#e5e7eb")),
+    ("PADDING", (0,0), (-1,-1), 6),
+    ("VALIGN", (0,0), (-1,-1), "TOP"),
+]))
+story.append(inv_table)
+story.append(Spacer(1, 12))
+` : ""}
+
+${m.icMatches.length ? `
+story.append(HRFlowable(width="100%", thickness=0.5, color=HexColor("#e5e7eb"), spaceAfter=8))
+story.append(Paragraph("AVAILABLE FROM VERIFIED DEALERS", ParagraphStyle("lbl2", fontSize=9, fontName="Helvetica-Bold", textColor=blue, spaceAfter=8)))
+ic_data = [["Watch", "Price", "Seller"]]
+${m.icMatches.map(m => `ic_data.append(["${((m.name||"").replace(/"/g,"'")).slice(0,50)}${m.ref?" · Ref. "+m.ref:""}", "${fmtP(m.price)}", "${(m.seller||"Dealer").replace(/"/g,"'")}"])`).join("\n")}
+ic_table = Table(ic_data, colWidths=[3.5*inch, 1.2*inch, 2.1*inch])
+ic_table.setStyle(TableStyle([
+    ("BACKGROUND", (0,0), (-1,0), HexColor("#eff6ff")),
+    ("FONTNAME", (0,0), (-1,0), "Helvetica-Bold"),
+    ("FONTSIZE", (0,0), (-1,-1), 9),
+    ("ROWBACKGROUNDS", (0,1), (-1,-1), [white, HexColor("#f9fafb")]),
+    ("GRID", (0,0), (-1,-1), 0.5, HexColor("#e5e7eb")),
+    ("PADDING", (0,0), (-1,-1), 6),
+    ("VALIGN", (0,0), (-1,-1), "TOP"),
+]))
+story.append(ic_table)
+story.append(Spacer(1, 12))
+` : ""}
+
+${m.marketMatches.slice(0,8).length ? `
+story.append(HRFlowable(width="100%", thickness=0.5, color=HexColor("#e5e7eb"), spaceAfter=8))
+story.append(Paragraph("MARKET LISTINGS", ParagraphStyle("lbl3", fontSize=9, fontName="Helvetica-Bold", textColor=gray, spaceAfter=8)))
+mkt_data = [["Watch", "Price", "Source"]]
+${m.marketMatches.slice(0,8).map(m => `mkt_data.append(["${((m.title||"").replace(/"/g,"'")).slice(0,50)}${m.ref?" · Ref. "+m.ref:""}", "${fmtP(m.price)}", "${(m.source||"").replace(/"/g,"'")}"])`).join("\n")}
+mkt_table = Table(mkt_data, colWidths=[3.5*inch, 1.2*inch, 2.1*inch])
+mkt_table.setStyle(TableStyle([
+    ("BACKGROUND", (0,0), (-1,0), HexColor("#f9fafb")),
+    ("FONTNAME", (0,0), (-1,0), "Helvetica-Bold"),
+    ("FONTSIZE", (0,0), (-1,-1), 9),
+    ("ROWBACKGROUNDS", (0,1), (-1,-1), [white, HexColor("#f9fafb")]),
+    ("GRID", (0,0), (-1,-1), 0.5, HexColor("#e5e7eb")),
+    ("PADDING", (0,0), (-1,-1), 6),
+    ("VALIGN", (0,0), (-1,-1), "TOP"),
+]))
+story.append(mkt_table)
+` : ""}
+
+story.append(Spacer(1, 20))
+story.append(HRFlowable(width="100%", thickness=0.5, color=brass, spaceAfter=8))
+story.append(Paragraph("WPB Watch Co | West Palm Beach, FL | 844-972-9282 | chris@wpbwatchco.com", small_style))
+
+doc.build(story)
+print("PDF_OK:" + "${pdfPath}")
+`;
+
+  let pdfOk = false;
+  try {
+    const { execSync } = require("child_process");
+    const result = execSync(`python3 ${pdfScriptPath}`, { timeout: 30000 }).toString();
+    pdfOk = result.includes("PDF_OK:");
+    console.log("[WTB] PDF result:", result.trim());
+  } catch(e) {
+    console.error("[WTB] PDF generation failed:", e.message);
+  }
+
+  // Return HTML + PDF path for Gmail draft creation via Claude
+  wtb.sentAt = new Date().toISOString();
+  wtb.status = "sent";
+  requests.find(r => r.id === id) && Object.assign(requests.find(r => r.id === id), { sentAt: wtb.sentAt, status: "sent" });
+  saveWtbRequests(requests);
+
+  res.json({
+    ok: true,
+    clientEmail: c.email,
+    clientName: `${c.firstName || ""} ${c.lastName || ""}`.trim(),
+    subject: `Watch Request Results — ${w.brand || ""} ${w.model || ""} ${w.ref ? "Ref. " + w.ref : ""}`.trim(),
+    htmlBody,
+    pdfPath: pdfOk ? pdfPath : null,
+    totalMatches,
+  });
+});
+
+// Serve generated PDF as base64 for email attachment
+app.get("/api/wtb/pdf", (req, res) => {
+  const { path: pdfPath } = req.query;
+  if (!pdfPath || !pdfPath.includes("wpb-wtb-")) return res.status(400).json({ ok: false, error: "invalid path" });
+  if (!fs.existsSync(pdfPath)) return res.status(404).json({ ok: false, error: "PDF not found" });
+  const base64 = fs.readFileSync(pdfPath).toString("base64");
+  res.json({ ok: true, base64 });
+});
+
+// Create Gmail draft via Anthropic API (using Gmail MCP)
+app.post("/api/wtb/draft", express.json(), async (req, res) => {
+  const { to, subject, htmlBody, pdfBase64, totalMatches } = req.body;
+  if (!to || !subject) return res.status(400).json({ ok: false, error: "to and subject required" });
+
+  try {
+    const axios = require("axios");
+    const apiKey = process.env.ANTHROPIC_API_KEY;
+    if (!apiKey) return res.status(500).json({ ok: false, error: "ANTHROPIC_API_KEY not set" });
+
+    const messages = [{
+      role: "user",
+      content: `Create a Gmail draft with these exact details:
+- To: ${to}
+- Subject: ${subject}
+- HTML body: Use the Gmail:create_draft tool with the htmlBody parameter set to the full HTML email provided
+- ${pdfBase64 ? "Attach the PDF (base64 provided)" : "No PDF attachment"}
+
+The htmlBody to use is the full HTML email for this watch request response. Use Gmail:create_draft tool now.
+
+HTML body starts with: <!DOCTYPE html>...
+
+Full HTML: ${htmlBody.slice(0, 50000)}
+
+${pdfBase64 ? `PDF attachment base64 (filename: watch-request-results.pdf, mimeType: application/pdf): ${pdfBase64.slice(0, 100)}... [truncated]` : ""}
+
+Please create this draft now using Gmail:create_draft.`
+    }];
+
+    const mcp_servers = [{ type: "url", url: "https://gmailmcp.googleapis.com/mcp/v1", name: "gmail-mcp" }];
+
+    const response = await axios.post("https://api.anthropic.com/v1/messages", {
+      model: "claude-sonnet-5",
+      max_tokens: 1000,
+      messages,
+      mcp_servers
+    }, {
+      headers: { "x-api-key": apiKey, "anthropic-version": "2023-06-01", "content-type": "application/json", "anthropic-beta": "mcp-client-2025-04-04" },
+      timeout: 60000
+    });
+
+    const hasToolUse = (response.data.content || []).some(b => b.type === "tool_use" || b.type === "mcp_tool_use");
+    const textBlock = (response.data.content || []).find(b => b.type === "text");
+    const responseText = textBlock ? textBlock.text : "";
+    const draftCreated = hasToolUse || responseText.toLowerCase().includes("draft") || responseText.toLowerCase().includes("created");
+
+    console.log("[WTB Draft] Response:", responseText.slice(0, 200));
+    res.json({ ok: draftCreated, message: responseText.slice(0, 200) });
+  } catch(err) {
+    console.error("[WTB Draft] Error:", err.response ? JSON.stringify(err.response.data) : err.message);
+    res.status(500).json({ ok: false, error: err.message });
+  }
+});
+
+app.post("/api/wtb/rematch", express.json(), async (req, res) => {
+  const { id } = req.body;
+  const requests = loadWtbRequests();
+  const wtb = requests.find(r => r.id === id);
+  if (!wtb) return res.status(404).json({ ok: false, error: "not found" });
+  try {
+    wtb.matches = await matchWtb({ id: wtb.id, ...wtb.watch });
+    wtb.status = "matched";
+    saveWtbRequests(requests);
+    res.json({ ok: true, matches: wtb.matches });
+  } catch(err) {
+    res.status(500).json({ ok: false, error: err.message });
+  }
+});
 
 app.get("/api/ecj-inventory", async (req, res) => {
   try {

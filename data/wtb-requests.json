@@ -1,0 +1,336 @@
+[
+  {
+    "id": "1787314087432",
+    "submittedAt": "2026-08-21T12:08:07.432Z",
+    "source": "manual",
+    "status": "sent",
+    "client": {
+      "firstName": "Chris",
+      "lastName": "Mancuso",
+      "email": "chris@wpbwatchco.com",
+      "phone": "5614415831"
+    },
+    "watch": {
+      "brand": "Rolex",
+      "model": "Submariner",
+      "ref": "16570",
+      "budgetMax": null,
+      "notes": "White"
+    },
+    "matches": {
+      "wtbId": "1787314087432",
+      "matchedAt": "2026-08-21T12:08:07.609Z",
+      "inventoryMatches": [
+        {
+          "score": 135,
+          "store": "WPB Watch Co",
+          "name": "Rolex Explorer II Stainless Steel White Dial 16570",
+          "ref": "16570",
+          "price": 8550,
+          "url": "https://wpbwatchco.com/product/rolex-explorer-ii-stainless-steel-white-dial-16570-4/",
+          "image": null
+        },
+        {
+          "score": 135,
+          "store": "ECJ Luxe Collection",
+          "name": "Rolex 16570 Explorer II White Dial 40mm on Black Rubber Strap Watch",
+          "ref": "16570",
+          "price": 9095,
+          "url": "https://ecjluxe.com/product/rolex-16570-explorer-ii-white-dial-40mm-on-black-rubber-strap-watch/",
+          "image": "https://ecjluxe.com/wp-content/uploads/2025/09/Rolex-Explorer-Blk-Rubber-1-1.jpg"
+        },
+        {
+          "score": 130,
+          "store": "WPB Watch Co",
+          "name": "Rolex Explorer II Stainless Steel Black Dial 16570",
+          "ref": "16570",
+          "price": 8550,
+          "url": "https://wpbwatchco.com/product/rolex-explorer-ii-stainless-steel-black-dial-16570-2/",
+          "image": null
+        },
+        {
+          "score": 130,
+          "store": "WPB Watch Co",
+          "name": "Rolex Explorer II Stainless Steel Black Dial 16570",
+          "ref": "16570",
+          "price": 8450,
+          "url": "https://wpbwatchco.com/product/rolex-explorer-ii-stainless-steel-black-dial-16570-3/",
+          "image": null
+        },
+        {
+          "score": 45,
+          "store": "WPB Watch Co",
+          "name": "Rolex Submariner Date White Gold Black Dial 126619LB",
+          "ref": "126619LB",
+          "price": 38900,
+          "url": "https://wpbwatchco.com/product/rolex-submariner-date-white-gold-black-dial-126619lb-2/",
+          "image": null
+        },
+        {
+          "score": 45,
+          "store": "WPB Watch Co",
+          "name": "Rolex Submariner Date “Cookie Monster” White Gold Black Dial 126619LB",
+          "ref": "126619LB",
+          "price": 38500,
+          "url": "https://wpbwatchco.com/product/rolex-submariner-date-cookie-monster-white-gold-black-dial-126619lb/",
+          "image": null
+        },
+        {
+          "score": 40,
+          "store": "WPB Watch Co",
+          "name": "Rolex Submariner Date Yellow Gold and Steel Blue Ceramic Bezel Blue Dial 126613LB",
+          "ref": "126613LB",
+          "price": 18325,
+          "url": "https://wpbwatchco.com/product/rolex-submariner-date-yellow-gold-and-steel-blue-ceramic-bezel-blue-dial-126613lb/",
+          "image": null
+        },
+        {
+          "score": 40,
+          "store": "WPB Watch Co",
+          "name": "Rolex Submariner Date Stainless Steel and Yellow Gold Blue Dial 116613LB",
+          "ref": "116613LB",
+          "price": 14275,
+          "url": "https://wpbwatchco.com/product/rolex-submariner-date-stainless-steel-and-yellow-gold-blue-dial-116613lb/",
+          "image": null
+        },
+        {
+          "score": 40,
+          "store": "WPB Watch Co",
+          "name": "Rolex Submariner Date Stainless Steel “Starbucks” Black Dial 126610LV",
+          "ref": "126610LV",
+          "price": 17175,
+          "url": "https://wpbwatchco.com/product/rolex-submariner-date-stainless-steel-starbucks-black-dial-126610lv/",
+          "image": null
+        },
+        {
+          "score": 40,
+          "store": "WPB Watch Co",
+          "name": "Rolex Submariner Date Stainless Steel “Starbucks” Black Dial 126610LV",
+          "ref": "126610LV",
+          "price": 17075,
+          "url": "https://wpbwatchco.com/product/rolex-submariner-date-stainless-steel-starbucks-black-dial-126610lv-2/",
+          "image": null
+        }
+      ],
+      "marketMatches": [
+        {
+          "score": 135,
+          "source": "WatchPatrol",
+          "title": "Rolex Explorer II 16570 Polar White Dial M Serial 3186 B&P",
+          "ref": "16570",
+          "price": 12475,
+          "url": "https://www.watchpatrol.net/listing/3661175/",
+          "imageUrl": "https://img.watchpatrol.net/LzFWac0DqA1UlFdFpCPLQ6oAIjr9eJDx26iAgw_Y3tg/rs:fill:600:600/plain/img/full/c284da10a5ccd44c38556393ad6dcf68cd14ec92.jpg",
+          "seller": "SohAIS"
+        },
+        {
+          "score": 135,
+          "source": "WatchPatrol",
+          "title": "Rolex Explorer II 16570 Polar White Dial 40MM Y Serial Box & Papers",
+          "ref": "16570",
+          "price": 10975,
+          "url": "https://www.watchpatrol.net/listing/2871385/",
+          "imageUrl": "https://img.watchpatrol.net/uDySTKIvh1I0CYbytNG9T9OC4Uz8OJXqsxi3-PfmAHI/rs:fill:600:600/plain/img/full/66f751c2223d028c831545e2d31f38cd37b91353.jpg",
+          "seller": "SohAIS"
+        },
+        {
+          "score": 135,
+          "source": "WatchPatrol",
+          "title": "Rolex 16570 Explorer II Watch White Dial Polar 40MM",
+          "ref": "16570",
+          "price": 10895,
+          "url": "https://www.watchpatrol.net/listing/3617190/",
+          "imageUrl": "https://img.watchpatrol.net/QP3rG6S_ax7GTLkXQXsrcIJZmm1TSqasMJFon9dsvgI/rs:fill:600:600/plain/img/full/c847de612e8fa27d4cfce4d78b1d8e703e23ceec.jpg",
+          "seller": "Watchexplorer"
+        },
+        {
+          "score": 135,
+          "source": "WatchPatrol",
+          "title": "Rolex Explorer II 16570 White Dial - 2003",
+          "ref": "16570",
+          "price": 8500,
+          "url": "https://www.watchpatrol.net/listing/3451923/",
+          "imageUrl": "https://img.watchpatrol.net/ZhlGBhCFb03OObM5_DYa5uWiK4Ci20kN_W9ra0W0UVQ/rs:fill:600:600/plain/img/full/c2e9f2470cdf012e9c4a95844d0be50a3b6426fb.jpg",
+          "seller": "imarx"
+        },
+        {
+          "score": 135,
+          "source": "WatchPatrol",
+          "title": "2005 Rolex Explorer II 40mm 16570 Stainless Steel Polar White Dial",
+          "ref": "16570",
+          "price": 9950,
+          "url": "https://www.watchpatrol.net/listing/3573125/",
+          "imageUrl": "https://img.watchpatrol.net/yC_Ud0rkkCGEe_c4VzJ2eDolXUGvBVn0VXDmj52ARlk/rs:fill:600:600/plain/img/full/24dfb058146c27bda5712c59cbd7858c3b6ac110.jpg",
+          "seller": "mywatchllc"
+        },
+        {
+          "score": 135,
+          "source": "Chrono24",
+          "title": "Rolex Explorer II MINT COMPLETE SET Explorer II \"Polar\" Swiss Made White Dial Oyster Bracelet Steel 16570",
+          "ref": "16570",
+          "price": 10945,
+          "url": "https://www.chrono24.com/rolex/rolex-mint-complete-set-explorer-ii-polar-swiss-made-white-dial-oyster-bracelet-steel-16570--id44028864.htm",
+          "imageUrl": null,
+          "seller": null
+        },
+        {
+          "score": 135,
+          "source": "Chrono24",
+          "title": "Rolex Explorer II 16570 POLAR Oyster Automatic White Dial Men's Watch 40MM Sale",
+          "ref": "16570",
+          "price": 8295,
+          "url": "https://www.chrono24.com/rolex/explorer-ii-16570-polar-oyster-automatic-white-dial-mens-watch-40mm-sale--id47498062.htm",
+          "imageUrl": null,
+          "seller": null
+        },
+        {
+          "score": 135,
+          "source": "Chrono24",
+          "title": "Rolex Explorer II Polar White Dial Stainless Steel 40mm 16570",
+          "ref": "16570",
+          "price": 8290,
+          "url": "https://www.chrono24.com/rolex/explorer-ii--id48048234.htm",
+          "imageUrl": null,
+          "seller": null
+        },
+        {
+          "score": 135,
+          "source": "Chrono24",
+          "title": "Rolex Explorer II 40mm Explorer II White Dial Automatic Stainless Steel Men's Watch 16570",
+          "ref": "16570",
+          "price": 10749,
+          "url": "https://www.chrono24.com/rolex/rolex-40mm-explorer-ii-white-dial-automatic-stainless-steel-mens-watch-16570--id48067321.htm",
+          "imageUrl": null,
+          "seller": null
+        },
+        {
+          "score": 135,
+          "source": "Bob's Watches",
+          "title": "Used White Polar Dial Rolex Explorer II Ref 16570",
+          "ref": "16570",
+          "price": 9995,
+          "url": "https://www.bobswatches.com/used-white-polar-dial-rolex-explorer-ii-ref-16570.html",
+          "imageUrl": "https://www.bobswatches.com/images/zUsed-Rolex-Explorer-II-16570-SKU190586.jpg",
+          "seller": null
+        },
+        {
+          "score": 135,
+          "source": "Bob's Watches",
+          "title": "Used Stainless Steel Rolex Explorer II Ref 16570 White Polar Dial",
+          "ref": "16570",
+          "price": 10995,
+          "url": "https://www.bobswatches.com/used-stainless-steel-rolex-explorer-ii-ref-16570-white-polar-dial.html",
+          "imageUrl": "https://www.bobswatches.com/images/zUsed-Rolex-Explorer-II-16570-SKU190596.jpg",
+          "seller": null
+        },
+        {
+          "score": 135,
+          "source": "Bob's Watches",
+          "title": "Used Stainless Steel Rolex Explorer II White Polar Dial Ref 16570",
+          "ref": "16570",
+          "price": 10595,
+          "url": "https://www.bobswatches.com/used-stainless-steel-rolex-explorer-ii-white-polar-dial-ref-16570.html",
+          "imageUrl": "https://www.bobswatches.com/images/zUsed-Rolex-Explorer-II-16570-SKU189513.jpg",
+          "seller": null
+        },
+        {
+          "score": 135,
+          "source": "Bob's Watches",
+          "title": "Used Rolex Explorer II Stainless Steel Ref 16570 White Polar Dial",
+          "ref": "16570",
+          "price": 10695,
+          "url": "https://www.bobswatches.com/used-rolex-explorer-ii-stainless-steel-ref-16570-white-polar-dial.html",
+          "imageUrl": "https://www.bobswatches.com/images/zUsed-Rolex-Explorer-II-16570-SKU191695.jpg",
+          "seller": null
+        },
+        {
+          "score": 135,
+          "source": "European Watch Co",
+          "title": "Rolex 16570 Explorer II SS White Dial",
+          "ref": "16570",
+          "price": 10300,
+          "url": "https://www.europeanwatch.com/watch/rolex-16570-16570-explorer-ii-ss-white-dial-70525",
+          "imageUrl": "https://images.europeanwatch.com/images/70/70525-1.jpg",
+          "seller": null
+        },
+        {
+          "score": 135,
+          "source": "European Watch Co",
+          "title": "Rolex 16570 Explorer II SS White Dial Circa. 2002",
+          "ref": "16570",
+          "price": 10290,
+          "url": "https://www.europeanwatch.com/watch/rolex-16570-16570-explorer-ii-ss-white-dial-circa-2002-70609",
+          "imageUrl": "https://images.europeanwatch.com/images/70/70609-1.jpg",
+          "seller": null
+        }
+      ],
+      "icMatches": [
+        {
+          "score": 40,
+          "seller": "The Watch Connect",
+          "name": "Rolex Submariner Date Rolesor / Blue / Cerachrom",
+          "ref": "116613LB",
+          "price": 15300,
+          "url": "https://www.inventoryconnect.io/marketplace/cmrpk85w60005lc04injk6cnr?page=6&type=watch"
+        },
+        {
+          "score": 40,
+          "seller": "The Watch Connect",
+          "name": "Rolex Submariner Date 41 Stainless Steel / Black / Green Cerachrom",
+          "ref": "126610LV-0002",
+          "price": 15150,
+          "url": "https://www.inventoryconnect.io/marketplace/cmrm95gto0006j60as328tuts?page=6&type=watch"
+        },
+        {
+          "score": 40,
+          "seller": "Hammatime Collection",
+          "name": "Rolex Submariner Date Stainless Steel / Green / Cerachom",
+          "ref": "116610lv-0002",
+          "price": 19500,
+          "url": "https://www.inventoryconnect.io/marketplace/cmsdfkm26000pj50azupb1ejh?page=2&type=watch"
+        },
+        {
+          "score": 40,
+          "seller": "Time.Sublime LLC",
+          "name": "Rolex Submariner Date - tropical violet",
+          "ref": "16618",
+          "price": 55000,
+          "url": "https://www.inventoryconnect.io/marketplace/cmrpgdntb002qjj04fru3oksq?page=6&type=watch"
+        },
+        {
+          "score": 40,
+          "seller": "Elevate Concept LLC",
+          "name": "Rolex Submariner Date",
+          "ref": "126610lv",
+          "price": 13999,
+          "url": "https://www.inventoryconnect.io/marketplace/cmrtp6maq000ql9040vc5sfu1?page=6&type=watch"
+        },
+        {
+          "score": 40,
+          "seller": "Elevate Concept LLC",
+          "name": "Rolex Submariner Date",
+          "ref": "126613lb",
+          "price": 16600,
+          "url": "https://www.inventoryconnect.io/marketplace/cmrtp6maq000il90402dnrx0v?page=6&type=watch"
+        },
+        {
+          "score": 40,
+          "seller": "Hammatime Collection",
+          "name": "Rolex Submariner Date",
+          "ref": "126610lv",
+          "price": 14000,
+          "url": "https://www.inventoryconnect.io/marketplace/cmr9laytj036vl404h8cntyom?page=6&type=watch"
+        },
+        {
+          "score": 40,
+          "seller": "Engines & Escapements",
+          "name": "Rolex Submariner Date",
+          "ref": "116610LN",
+          "price": 12500,
+          "url": "https://www.inventoryconnect.io/marketplace/cmr366uba00vbl404k28bn8ko?page=7&type=watch"
+        }
+      ]
+    },
+    "sentAt": "2026-08-21T17:17:42.827Z"
+  }
+]
