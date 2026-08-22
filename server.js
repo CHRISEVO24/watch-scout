@@ -274,7 +274,7 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
   const icRows = m.icMatches.map(m => `
     <tr>
       <td style="padding:10px;border-bottom:1px solid #e5e7eb;vertical-align:top;">
-        ${m.imageUrl ? `<img src="${m.imageUrl}" style="width:80px;height:80px;object-fit:cover;border-radius:6px;float:left;margin-right:10px;" onerror="this.style.display='none'">` : ""}
+        ${(m.image||m.imageUrl) ? `<img src="${m.image||m.imageUrl}" style="width:80px;height:80px;object-fit:cover;border-radius:6px;float:left;margin-right:10px;" onerror="this.style.display='none'">` : ""}
         <div style="overflow:hidden;">
           <strong style="color:#111;font-size:13px;">${m.name || ""}</strong><br>
           <span style="color:#6b7280;font-size:12px;">${m.seller || "Dealer"}${m.ref ? " · Ref. " + m.ref : ""}</span><br>
@@ -674,7 +674,7 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
   const icRows = m.icMatches.map(m => `
     <tr>
       <td style="padding:10px;border-bottom:1px solid #e5e7eb;vertical-align:top;">
-        ${m.imageUrl ? `<img src="${m.imageUrl}" style="width:80px;height:80px;object-fit:cover;border-radius:6px;float:left;margin-right:10px;" onerror="this.style.display='none'">` : ""}
+        ${(m.image||m.imageUrl) ? `<img src="${m.image||m.imageUrl}" style="width:80px;height:80px;object-fit:cover;border-radius:6px;float:left;margin-right:10px;" onerror="this.style.display='none'">` : ""}
         <div style="overflow:hidden;">
           <strong style="color:#111;font-size:13px;">${m.name || ""}</strong><br>
           <span style="color:#6b7280;font-size:12px;">${m.seller || "Dealer"}${m.ref ? " · Ref. " + m.ref : ""}</span><br>
