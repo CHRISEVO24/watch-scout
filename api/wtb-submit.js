@@ -6,22 +6,34 @@ function normalizeRef(ref) {
 }
 
 function scoreMatch(item, wtb) {
-  let score = 0;
+  const itemRef = normalizeRef(item.ref);
+  const wtbRef = normalizeRef(wtb.ref);
   const itemText = [item.brand, item.model, item.ref, item.title, item.name].filter(Boolean).join(" ").toLowerCase();
-  if (wtb.ref && item.ref) {
-    const ni = normalizeRef(item.ref), nw = normalizeRef(wtb.ref);
-    if (ni === nw) score += 100;
-    else if (ni && nw && (ni.startsWith(nw) || nw.startsWith(ni))) score += 60;
+
+  // If ref is specified, ONLY match on ref — brand/model alone is not enough
+  if (wtbRef) {
+    if (!itemRef) return 0; // item has no ref, skip
+    if (itemRef === wtbRef) return 100; // exact ref match
+    if (itemRef.startsWith(wtbRef) || wtbRef.startsWith(itemRef)) return 60; // partial ref match
+    return 0; // ref doesn't match at all — reject
   }
+
+  // No ref specified — match on brand + model keywords
+  let score = 0;
   if (wtb.brand && itemText.includes(wtb.brand.toLowerCase())) score += 30;
   if (wtb.model) {
-    const words = wtb.model.toLowerCase().split(/\s+/);
-    words.filter(w => w.length > 3 && itemText.includes(w)).forEach(() => score += 10);
+    const words = wtb.model.toLowerCase().split(/\s+/).filter(w => w.length > 3);
+    const matched = words.filter(w => itemText.includes(w));
+    if (matched.length >= Math.ceil(words.length * 0.7)) score += matched.length * 10;
+    else return 0; // not enough model words match
   }
+
+  // Budget check
   if (wtb.budgetMax && item.price) {
     const p = typeof item.price === "string" ? parseFloat(item.price.replace(/[^0-9.]/g, "")) : item.price;
-    if (!isNaN(p) && p > wtb.budgetMax * 1.2) score = Math.max(0, score - 40);
+    if (!isNaN(p) && p > wtb.budgetMax * 1.2) return 0;
   }
+
   return score;
 }
 
@@ -78,7 +90,7 @@ export default async function handler(req, res) {
     const icMatches = (ic || []).filter(i => i.intent === "sell")
       .map(item => ({ item, score: scoreMatch(item, wtb) }))
       .filter(m => m.score >= 30).sort((a, b) => b.score - a.score).slice(0, 8)
-      .map(m => ({ score: m.score, seller: m.item.seller, name: m.item.title || m.item.model, ref: m.item.ref, price: m.item.price, url: m.item.url }));
+      .map(m => ({ score: m.score, seller: m.item.seller, name: m.item.title || m.item.model || m.item.condition, ref: m.item.ref, price: m.item.price, imageUrl: m.item.imageUrl || null, condition: m.item.condition || null, icUrl: m.item.url || null }));
 
     const totalMatches = invMatches.length + mktMatches.length + icMatches.length;
 
@@ -86,8 +98,7 @@ export default async function handler(req, res) {
     const invRows = invMatches.map(m => `
       <tr>
         <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
-          <strong style="color:#111;">${m.name || ""}</strong><br>
-          <span style="color:#6b7280;font-size:13px;">${m.store}${m.ref ? " · Ref. " + m.ref : ""}</span>
+          ${m.image ? `<img src="${m.image}" style="width:70px;height:70px;object-fit:cover;border-radius:5px;float:left;margin-right:10px;" onerror="this.style.display='none'">` : ""}<div style="overflow:hidden;"><strong style="color:#111;">${m.name || ""}</strong><br><span style="color:#6b7280;font-size:13px;">${m.store}${m.ref ? " · Ref. " + m.ref : ""}</span></div>
         </td>
         <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
           <strong style="color:#92400e;font-size:16px;">${fmtPrice(m.price)}</strong><br>
@@ -97,13 +108,18 @@ export default async function handler(req, res) {
 
     const icRows = icMatches.map(m => `
       <tr>
-        <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
-          <strong style="color:#111;">${m.name || ""}</strong><br>
-          <span style="color:#6b7280;font-size:13px;">${m.seller || "Dealer"}${m.ref ? " · Ref. " + m.ref : ""}</span>
+        <td style="padding:10px;border-bottom:1px solid #e5e7eb;vertical-align:top;">
+          ${m.imageUrl ? `<img src="${m.imageUrl}" style="width:80px;height:80px;object-fit:cover;border-radius:6px;float:left;margin-right:10px;" onerror="this.style.display='none'">` : ""}
+          <div style="overflow:hidden;">
+            <strong style="color:#111;font-size:13px;">${m.name || ""}</strong><br>
+            <span style="color:#6b7280;font-size:12px;">${m.seller || "Dealer"}${m.ref ? " · Ref. " + m.ref : ""}</span><br>
+            ${m.condition ? `<span style="color:#9a9691;font-size:11px;">${m.condition.slice(0,60)}</span><br>` : ""}
+            <span style="color:#059669;font-size:12px;font-weight:600;">Available via WPB Watch Co</span>
+          </div>
         </td>
-        <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
+        <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;vertical-align:top;white-space:nowrap;">
           <strong style="color:#92400e;font-size:16px;">${fmtPrice(m.price)}</strong><br>
-          ${m.url ? `<a href="${m.url}" style="font-size:12px;color:#2563eb;">Message Seller on InventoryConnect</a>` : ""}
+          <a href="mailto:chris@wpbwatchco.com?subject=IC Dealer Watch Inquiry: ${encodeURIComponent(m.name || '')}" style="font-size:12px;color:#2563eb;">Contact WPB Watch Co</a>
         </td>
       </tr>`).join("");
 
@@ -165,15 +181,41 @@ export default async function handler(req, res) {
           from: "WPB Watch Scout <onboarding@resend.dev>",
           to: ["chris@wpbwatchco.com"],
           subject: `New WTB Request — ${brand} ${model || ""} ${ref ? "Ref. " + ref : ""} (${totalMatches} matches)`,
-          html: `<h2>New WTB Request</h2>
-<p><strong>Client:</strong> ${firstName} ${lastName} (${email}${phone ? " · " + phone : ""})</p>
-<p><strong>Looking for:</strong> ${brand} ${model || ""} ${ref ? "Ref. " + ref : ""}</p>
-<p><strong>Budget:</strong> ${budgetMax ? "$" + Number(budgetMax).toLocaleString() : "Not specified"}</p>
-<p><strong>Matches found:</strong> ${totalMatches} (${invMatches.length} inventory, ${icMatches.length} IC dealers, ${mktMatches.length} market)</p>
-<p><strong>Notes:</strong> ${notes || "None"}</p>
-<hr>
-<p>Review in Watch Scout and click "Send to Client" when ready.</p>
-<p>Client email HTML is ready to send to: ${email}</p>`,
+          html: `<div style="font-family:-apple-system,sans-serif;max-width:700px;margin:0 auto;">
+<div style="background:#0f1117;padding:16px 20px;border-radius:8px 8px 0 0;">
+  <div style="color:#c9a05b;font-size:18px;font-weight:700;">WPB Watch Scout — New WTB Request</div>
+</div>
+<div style="background:#f9fafb;padding:16px 20px;border:1px solid #e5e7eb;border-top:none;">
+  <p style="margin:0 0 6px;font-size:14px;"><strong>Client:</strong> ${firstName} ${lastName}</p>
+  <p style="margin:0 0 6px;font-size:14px;"><strong>Email:</strong> <a href="mailto:${email}">${email}</a>${phone ? " · " + phone : ""}</p>
+  <p style="margin:0 0 6px;font-size:14px;"><strong>Looking for:</strong> ${brand} ${model || ""} ${ref ? "· Ref. " + ref : ""}</p>
+  <p style="margin:0 0 6px;font-size:14px;"><strong>Budget:</strong> ${budgetMax ? "$" + Number(budgetMax).toLocaleString() : "Not specified"}</p>
+  <p style="margin:0 0 16px;font-size:14px;"><strong>Notes:</strong> ${notes || "None"}</p>
+  <p style="margin:0 0 16px;font-size:14px;color:#059669;font-weight:600;">✓ ${totalMatches} matches found (${invMatches.length} your inventory · ${icMatches.length} IC dealers · ${mktMatches.length} market)</p>
+</div>
+<div style="padding:16px 0;">
+<p style="font-size:13px;color:#6b7280;margin:0 0 12px;">Below is the compiled client email — review and forward to <strong>${email}</strong> when ready:</p>
+<hr style="border:none;border-top:2px solid #c9a05b;margin-bottom:16px;">
+${clientHtml}
+</div>
+${icMatches.length ? `
+<div style="padding:16px;background:#eff6ff;border-top:2px solid #1e87f0;margin-top:16px;">
+  <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#1565c0;margin-bottom:10px;">🔵 IC DEALER SOURCING — FOR YOUR EYES ONLY</div>
+  <table style="width:100%;border-collapse:collapse;font-size:13px;">
+    ${icMatches.map(m => `<tr>
+      <td style="padding:8px;border-bottom:1px solid #bfdbfe;">
+        <strong>${m.name || ""}</strong><br>
+        <span style="color:#1e40af;">Dealer: ${m.seller || "Unknown"}</span>${m.ref ? "<br>Ref: " + m.ref : ""}${m.condition ? "<br><span style='color:#6b7280;font-size:12px;'>" + m.condition + "</span>" : ""}
+      </td>
+      <td style="padding:8px;border-bottom:1px solid #bfdbfe;text-align:right;white-space:nowrap;">
+        <strong>$${m.price ? Math.round(m.price).toLocaleString() : "—"}</strong><br>
+        ${m.icUrl ? `<a href="${m.icUrl}" style="color:#1e87f0;font-size:12px;">Message on IC →</a>` : ""}
+      </td>
+    </tr>`).join("")}
+  </table>
+</div>` : ""}
+</div>
+</div>`,
         }),
       });
     }
@@ -192,4 +234,15 @@ export default async function handler(req, res) {
     console.error("WTB submit error:", err);
     return res.status(500).json({ ok: false, error: err.message });
   }
+}
+
+// Also save to pending queue for Watch Scout sync
+async function saveToPending(submission) {
+  try {
+    await fetch("https://watch-scout-seven.vercel.app/api/wtb-pending", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(submission)
+    });
+  } catch(e) { console.error("Failed to save to pending:", e.message); }
 }

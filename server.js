@@ -273,13 +273,17 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
 
   const icRows = m.icMatches.map(m => `
     <tr>
-      <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
-        <strong style="color:#111;">${m.name || ""}</strong><br>
-        <span style="color:#6b7280;font-size:13px;">${m.seller || "Dealer"}${m.ref ? " · Ref. " + m.ref : ""}</span>
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;vertical-align:top;">
+        ${m.imageUrl ? `<img src="${m.imageUrl}" style="width:80px;height:80px;object-fit:cover;border-radius:6px;float:left;margin-right:10px;" onerror="this.style.display='none'">` : ""}
+        <div style="overflow:hidden;">
+          <strong style="color:#111;font-size:13px;">${m.name || ""}</strong><br>
+          <span style="color:#6b7280;font-size:12px;">${m.seller || "Dealer"}${m.ref ? " · Ref. " + m.ref : ""}</span><br>
+          <span style="color:#059669;font-size:12px;font-weight:600;">Available via WPB Watch Co</span>
+        </div>
       </td>
-      <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;vertical-align:top;white-space:nowrap;">
         <strong style="color:#92400e;font-size:16px;">${fmtP(m.price)}</strong><br>
-        ${m.url ? `<a href="${m.url}" style="font-size:12px;color:#2563eb;">Message Seller on InventoryConnect</a>` : ""}
+        <a href="mailto:chris@wpbwatchco.com?subject=Interested in ${encodeURIComponent(m.name || '')}" style="font-size:12px;color:#2563eb;">Contact WPB Watch Co</a>
       </td>
     </tr>`).join("");
 
@@ -531,6 +535,45 @@ app.post("/api/wtb/draft", express.json(), async (req, res) => {
   }
 });
 
+app.post("/api/wtb/sync-vercel", async (req, res) => {
+  try {
+    const axios = require("axios");
+    const r = await axios.get("https://watch-scout-seven.vercel.app/api/wtb-pending", { timeout: 10000 });
+    const pending = r.data.submissions || [];
+    if (!pending.length) return res.json({ ok: true, added: 0 });
+
+    const requests = loadWtbRequests();
+    const existingIds = new Set(requests.map(r => r.vercelId || r.id));
+    let added = 0;
+
+    for (const sub of pending) {
+      if (existingIds.has(sub.id)) continue;
+      const wtb = {
+        id: Date.now().toString() + added,
+        vercelId: sub.id,
+        submittedAt: sub.submittedAt || new Date().toISOString(),
+        source: "public-form",
+        status: "new",
+        client: { firstName: sub.firstName, lastName: sub.lastName, email: sub.email, phone: sub.phone },
+        watch: { brand: sub.brand, model: sub.model, ref: sub.ref, budgetMax: sub.budgetMax, condition: sub.condition, boxPapers: sub.boxPapers, notes: sub.notes },
+        matches: null,
+      };
+      try {
+        const { matchWtb } = require("./scrapers/wtb-matcher");
+        wtb.matches = await matchWtb({ id: wtb.id, ...wtb.watch });
+        wtb.status = "matched";
+      } catch(e) { wtb.status = "match-failed"; }
+      requests.unshift(wtb);
+      added++;
+    }
+
+    if (added > 0) saveWtbRequests(requests);
+    res.json({ ok: true, added });
+  } catch(err) {
+    res.status(500).json({ ok: false, error: err.message });
+  }
+});
+
 app.post("/api/wtb/rematch", express.json(), async (req, res) => {
   const { id } = req.body;
   const requests = loadWtbRequests();
@@ -630,13 +673,17 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
 
   const icRows = m.icMatches.map(m => `
     <tr>
-      <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
-        <strong style="color:#111;">${m.name || ""}</strong><br>
-        <span style="color:#6b7280;font-size:13px;">${m.seller || "Dealer"}${m.ref ? " · Ref. " + m.ref : ""}</span>
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;vertical-align:top;">
+        ${m.imageUrl ? `<img src="${m.imageUrl}" style="width:80px;height:80px;object-fit:cover;border-radius:6px;float:left;margin-right:10px;" onerror="this.style.display='none'">` : ""}
+        <div style="overflow:hidden;">
+          <strong style="color:#111;font-size:13px;">${m.name || ""}</strong><br>
+          <span style="color:#6b7280;font-size:12px;">${m.seller || "Dealer"}${m.ref ? " · Ref. " + m.ref : ""}</span><br>
+          <span style="color:#059669;font-size:12px;font-weight:600;">Available via WPB Watch Co</span>
+        </div>
       </td>
-      <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;vertical-align:top;white-space:nowrap;">
         <strong style="color:#92400e;font-size:16px;">${fmtP(m.price)}</strong><br>
-        ${m.url ? `<a href="${m.url}" style="font-size:12px;color:#2563eb;">Message Seller on InventoryConnect</a>` : ""}
+        <a href="mailto:chris@wpbwatchco.com?subject=Interested in ${encodeURIComponent(m.name || '')}" style="font-size:12px;color:#2563eb;">Contact WPB Watch Co</a>
       </td>
     </tr>`).join("");
 
@@ -892,6 +939,45 @@ app.post("/api/wtb/draft", express.json(), async (req, res) => {
     res.json({ ok: true, draftId, htmlPath, pdfPath: pdfSavedPath, gmailComposeUrl, totalMatches });
   } catch(err) {
     console.error("[WTB Draft] Error:", err.message);
+    res.status(500).json({ ok: false, error: err.message });
+  }
+});
+
+app.post("/api/wtb/sync-vercel", async (req, res) => {
+  try {
+    const axios = require("axios");
+    const r = await axios.get("https://watch-scout-seven.vercel.app/api/wtb-pending", { timeout: 10000 });
+    const pending = r.data.submissions || [];
+    if (!pending.length) return res.json({ ok: true, added: 0 });
+
+    const requests = loadWtbRequests();
+    const existingIds = new Set(requests.map(r => r.vercelId || r.id));
+    let added = 0;
+
+    for (const sub of pending) {
+      if (existingIds.has(sub.id)) continue;
+      const wtb = {
+        id: Date.now().toString() + added,
+        vercelId: sub.id,
+        submittedAt: sub.submittedAt || new Date().toISOString(),
+        source: "public-form",
+        status: "new",
+        client: { firstName: sub.firstName, lastName: sub.lastName, email: sub.email, phone: sub.phone },
+        watch: { brand: sub.brand, model: sub.model, ref: sub.ref, budgetMax: sub.budgetMax, condition: sub.condition, boxPapers: sub.boxPapers, notes: sub.notes },
+        matches: null,
+      };
+      try {
+        const { matchWtb } = require("./scrapers/wtb-matcher");
+        wtb.matches = await matchWtb({ id: wtb.id, ...wtb.watch });
+        wtb.status = "matched";
+      } catch(e) { wtb.status = "match-failed"; }
+      requests.unshift(wtb);
+      added++;
+    }
+
+    if (added > 0) saveWtbRequests(requests);
+    res.json({ ok: true, added });
+  } catch(err) {
     res.status(500).json({ ok: false, error: err.message });
   }
 });
