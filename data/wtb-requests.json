@@ -4,7 +4,7 @@
     "vercelId": "1787401849689",
     "submittedAt": "2026-08-22T12:30:49.689Z",
     "source": "public-form",
-    "status": "matched",
+    "status": "sent",
     "client": {
       "firstName": "Christopher",
       "lastName": "Mancuso",
@@ -22,9 +22,75 @@
     },
     "matches": {
       "wtbId": "17874019030680",
-      "matchedAt": "2026-08-22T12:36:16.334Z",
+      "matchedAt": "2026-08-22T12:39:33.276Z",
       "inventoryMatches": [],
       "marketMatches": [
+        {
+          "score": 95,
+          "seller": "WatchDrop Dealer \u2014 contact WPB Watch Co to facilitate",
+          "name": "Patek Philippe 5524R",
+          "ref": "5524R-001",
+          "price": 34800,
+          "condition": "2020 \u00b7 Full set \u00b7 PRE OWNED",
+          "source": "WatchDrop",
+          "imageUrl": null,
+          "url": null
+        },
+        {
+          "score": 90,
+          "seller": "WatchDrop Dealer \u2014 contact WPB Watch Co to facilitate",
+          "name": "Patek Philippe Calatrava Pilot Travel Time",
+          "ref": "5524R",
+          "price": 38499,
+          "condition": "2022 \u00b7 Full set",
+          "source": "WatchDrop",
+          "imageUrl": null,
+          "url": null
+        },
+        {
+          "score": 85,
+          "seller": "WatchDrop Dealer \u2014 contact WPB Watch Co to facilitate",
+          "name": "Patek Philippe 5524R",
+          "ref": "5524R-001",
+          "price": 39500,
+          "condition": "2023 \u00b7 Complete",
+          "source": "WatchDrop",
+          "imageUrl": null,
+          "url": null
+        },
+        {
+          "score": 85,
+          "seller": "WatchDrop Dealer \u2014 contact WPB Watch Co to facilitate",
+          "name": "Patek Philippe",
+          "ref": "5524R",
+          "price": 35000,
+          "condition": "2019 \u00b7 Mint \u00b7 Papers only",
+          "source": "WatchDrop",
+          "imageUrl": null,
+          "url": null
+        },
+        {
+          "score": 80,
+          "seller": "WatchDrop Dealer \u2014 contact WPB Watch Co to facilitate",
+          "name": "Patek Philippe",
+          "ref": "5524R",
+          "price": 35600,
+          "condition": "2022 \u00b7 Good condition \u00b7 No box",
+          "source": "WatchDrop",
+          "imageUrl": null,
+          "url": null
+        },
+        {
+          "score": 75,
+          "seller": "WatchDrop Dealer \u2014 contact WPB Watch Co to facilitate",
+          "name": "Patek Philippe 5524R",
+          "ref": "5524R",
+          "price": 42800,
+          "condition": "2026 \u00b7 Full set \u00b7 NEW",
+          "source": "WatchDrop",
+          "imageUrl": null,
+          "url": null
+        },
         {
           "score": 100,
           "source": "European Watch Co",
@@ -56,8 +122,21 @@
           "seller": null
         }
       ],
-      "icMatches": []
-    }
+      "icMatches": [
+        {
+          "score": 70,
+          "seller": "Hammatime Collection",
+          "name": "Patek Philippe Calatrava Pilot Travel Time 5524G Tiffany White Gold",
+          "ref": "5524G-001 T",
+          "price": 35700,
+          "condition": "2020 \u00b7 Box & Papers \u00b7 NOTE: White Gold variant (5524G), not Rose Gold (5524R)",
+          "source": "InventoryConnect Marketplace",
+          "imageUrl": null,
+          "icUrl": "https://www.inventoryconnect.io/marketplace?type=watch&q=Calatrava+Pilot"
+        }
+      ]
+    },
+    "sentAt": "2026-08-22T12:46:30.521Z"
   },
   {
     "id": "17873752366560",
@@ -403,7 +482,7 @@
         {
           "score": 100,
           "source": "WatchPatrol",
-          "title": "1999 Rolex Explorer 2 40mm Ref 16570 Black “Swiss Only” Dial Just Serviced! $7,775",
+          "title": "1999 Rolex Explorer 2 40mm Ref 16570 Black \u201cSwiss Only\u201d Dial Just Serviced! $7,775",
           "ref": "16570",
           "price": 7775,
           "url": "https://www.watchpatrol.net/listing/3653288/",
@@ -423,7 +502,7 @@
         {
           "score": 100,
           "source": "WatchPatrol",
-          "title": "Rolex Explorer II 16570 Polar — D Serial | 12 Links | Excellent Condition",
+          "title": "Rolex Explorer II 16570 Polar \u2014 D Serial | 12 Links | Excellent Condition",
           "ref": "16570",
           "price": 7999,
           "url": "https://www.watchpatrol.net/listing/3652913/",
