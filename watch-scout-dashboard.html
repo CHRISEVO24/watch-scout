@@ -443389,6 +443389,30 @@ async function markWtbClosed(id){
 }
 
 
+async function sendToClient(id){
+  const btn=event.target;
+  const origText=btn.textContent;
+  btn.disabled=true;btn.textContent='Generating...';
+  try{
+    const d=await fetch('/api/wtb/send',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id})}).then(r=>r.json());
+    if(!d.ok){alert('Error: '+(d.error||'unknown'));btn.disabled=false;btn.textContent=origText;return;}
+    btn.textContent='Creating draft...';
+    let pdfAttachment=null;
+    if(d.pdfPath){
+      try{const pr=await fetch('/api/wtb/pdf?path='+encodeURIComponent(d.pdfPath)).then(r=>r.json());if(pr.ok)pdfAttachment=pr.base64;}
+      catch(e){console.warn('PDF attach failed:',e.message);}
+    }
+    const dr=await fetch('/api/wtb/draft',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({to:d.clientEmail,subject:d.subject,htmlBody:d.htmlBody,pdfBase64:pdfAttachment,totalMatches:d.totalMatches})}).then(r=>r.json());
+    if(dr.ok){
+      btn.style.background='var(--brass)';btn.textContent='\u2713 Ready';btn.disabled=false;
+      if(dr.gmailComposeUrl)window.open(dr.gmailComposeUrl,'_blank');
+      alert('\u2713 '+d.totalMatches+' matches compiled for '+d.clientEmail+'\n\nGmail compose opened. You can also ask Claude to create the draft directly.');
+    } else {
+      btn.disabled=false;btn.textContent=origText;
+      alert('Error: '+(dr.error||'unknown'));
+    }
+  }catch(e){btn.disabled=false;btn.textContent=origText;alert('Error: '+e.message);}
+}
 async function rematchWtb(id){
   const d=await fetch('/api/wtb/rematch',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id})}).then(r=>r.json());
   if(d.ok)loadWtbRequests();
