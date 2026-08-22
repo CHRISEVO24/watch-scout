@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "1787375204089",
+    "firstName": "Christopher",
+    "lastName": "Mancuso",
+    "email": "mangook@yahoo.com",
+    "phone": "5614415831",
+    "brand": "AP",
+    "model": "",
+    "ref": "15400",
+    "budgetMax": "35000",
+    "condition": "",
+    "boxPapers": "",
+    "notes": "",
+    "submittedAt": "2026-08-22T05:06:44.089Z"
+  }
+]
