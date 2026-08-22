@@ -243,7 +243,7 @@ app.post("/api/wtb/update", express.json(), (req, res) => {
 });
 
 app.post("/api/wtb/send", express.json(), async (req, res) => {
-  const { id } = req.body;
+  const { id, excludeInv = [], excludeIc = [], excludeMkt = [] } = req.body;
   const requests = loadWtbRequests();
   const wtb = requests.find(r => r.id === id);
   if (!wtb) return res.status(404).json({ ok: false, error: "WTB request not found" });
@@ -259,7 +259,12 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
   }
 
   // Build HTML email body
-  const invRows = m.inventoryMatches.map(m => `
+  // Apply exclusions
+  const filteredInv = m.inventoryMatches.filter((_,i) => !excludeInv.includes(i));
+  const filteredIc = m.icMatches.filter((_,i) => !excludeIc.includes(i));
+  const filteredMkt = m.marketMatches.filter((_,i) => !excludeMkt.includes(i));
+
+  const invRows = filteredInv.map(m => `
     <tr>
       <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
         <strong style="color:#111;">${m.name || ""}</strong><br>
@@ -271,7 +276,7 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
       </td>
     </tr>`).join("");
 
-  const icRows = m.icMatches.map(m => `
+  const icRows = filteredIc.map(m => `
     <tr>
       <td style="padding:10px;border-bottom:1px solid #e5e7eb;vertical-align:top;">
         ${(m.image||m.imageUrl) ? `<img src="${m.image||m.imageUrl}" style="width:80px;height:80px;object-fit:cover;border-radius:6px;float:left;margin-right:10px;" onerror="this.style.display='none'">` : ""}
@@ -501,40 +506,75 @@ app.post("/api/wtb/draft", express.json(), async (req, res) => {
 
   try {
     const os = require("os");
+    const axios = require("axios");
     const draftId = Date.now().toString();
 
-    // Save HTML email to temp file
+    // Save files for reference
     const htmlPath = path.join(os.tmpdir(), `wpb-draft-${draftId}.html`);
     fs.writeFileSync(htmlPath, htmlBody, "utf8");
-
-    // Save PDF base64 to file if present
     let pdfSavedPath = null;
     if (pdfBase64) {
       pdfSavedPath = path.join(os.tmpdir(), `wpb-draft-${draftId}.pdf`);
       fs.writeFileSync(pdfSavedPath, Buffer.from(pdfBase64, "base64"));
     }
 
-    // Use nodemailer to create a draft via Gmail SMTP
-    // For now, store draft info and return compose URL
     const drafts = fs.existsSync(path.join(DATA_DIR, "wtb-drafts.json"))
-      ? JSON.parse(fs.readFileSync(path.join(DATA_DIR, "wtb-drafts.json"), "utf8"))
-      : [];
-
+      ? JSON.parse(fs.readFileSync(path.join(DATA_DIR, "wtb-drafts.json"), "utf8")) : [];
     const draft = { id: draftId, to, subject, htmlPath, pdfPath: pdfSavedPath, createdAt: new Date().toISOString(), totalMatches };
     drafts.unshift(draft);
     fs.writeFileSync(path.join(DATA_DIR, "wtb-drafts.json"), JSON.stringify(drafts.slice(0, 50), null, 2));
 
-    // Build Gmail compose URL (opens pre-filled compose window)
-    const gmailComposeUrl = "https://mail.google.com/mail/?view=cm&fs=1" +
-      "&to=" + encodeURIComponent(to) +
-      "&su=" + encodeURIComponent(subject) +
-      "&body=" + encodeURIComponent("Please see the attached watch request results. HTML version saved at: " + htmlPath + (pdfSavedPath ? "\nPDF: " + pdfSavedPath : ""));
+    // Create Gmail draft via Anthropic API + Gmail MCP
+    const apiKey = process.env.ANTHROPIC_API_KEY;
+    if (!apiKey) return res.status(500).json({ ok: false, error: "ANTHROPIC_API_KEY not set" });
 
-    console.log("[WTB Draft] Saved draft", draftId, "for", to, "| HTML:", htmlPath);
-    res.json({ ok: true, draftId, htmlPath, pdfPath: pdfSavedPath, gmailComposeUrl, totalMatches });
+    console.log("[WTB Draft] Creating Gmail draft for", to);
+    const anthropicRes = await axios.post("https://api.anthropic.com/v1/messages", {
+      model: "claude-sonnet-4-6",
+      max_tokens: 1000,
+      messages: [{
+        role: "user",
+        content: `Use the Gmail create_draft tool to create a draft email with exactly these details:
+- to: ["${to}"]
+- subject: "${subject.replace(/"/g, '\"')}"
+- htmlBody: the full HTML below
+
+HTML EMAIL BODY:
+${htmlBody.slice(0, 48000)}
+
+Create the draft now using Gmail:create_draft.`
+      }],
+      mcp_servers: [{ type: "url", url: "https://gmailmcp.googleapis.com/mcp/v1", name: "gmail-mcp" }]
+    }, {
+      headers: {
+        "x-api-key": apiKey,
+        "anthropic-version": "2023-06-01",
+        "anthropic-beta": "mcp-client-2025-04-04",
+        "content-type": "application/json"
+      },
+      timeout: 60000
+    });
+
+    const content_blocks = anthropicRes.data.content || [];
+    const hasToolUse = content_blocks.some(b => b.type === "tool_use" || b.type === "mcp_tool_use" || b.type === "mcp_tool_result");
+    const textBlock = content_blocks.find(b => b.type === "text");
+    const responseText = textBlock ? textBlock.text : "";
+    const draftCreated = hasToolUse || responseText.toLowerCase().includes("draft") || responseText.toLowerCase().includes("created");
+
+    console.log("[WTB Draft] Anthropic response:", responseText.slice(0, 200), "toolUse:", hasToolUse);
+
+    if (draftCreated) {
+      res.json({ ok: true, draftId, htmlPath, pdfPath: pdfSavedPath, totalMatches, message: "Gmail draft created" });
+    } else {
+      // Fallback to compose URL
+      const gmailComposeUrl = "https://mail.google.com/mail/?view=cm&fs=1&to=" + encodeURIComponent(to) + "&su=" + encodeURIComponent(subject);
+      res.json({ ok: true, draftId, htmlPath, pdfPath: pdfSavedPath, gmailComposeUrl, totalMatches, message: "Compose URL fallback" });
+    }
   } catch(err) {
-    console.error("[WTB Draft] Error:", err.message);
-    res.status(500).json({ ok: false, error: err.message });
+    console.error("[WTB Draft] Error:", err.response ? JSON.stringify(err.response.data).slice(0,200) : err.message);
+    // Fallback to compose URL on error
+    const gmailComposeUrl = "https://mail.google.com/mail/?view=cm&fs=1&to=" + encodeURIComponent(req.body.to) + "&su=" + encodeURIComponent(req.body.subject);
+    res.json({ ok: true, gmailComposeUrl, totalMatches: req.body.totalMatches, message: "Compose URL fallback" });
   }
 });
 
@@ -646,7 +686,7 @@ app.post("/api/wtb/update", express.json(), (req, res) => {
 
 // Re-run matching for a WTB
 app.post("/api/wtb/send", express.json(), async (req, res) => {
-  const { id } = req.body;
+  const { id, excludeInv = [], excludeIc = [], excludeMkt = [] } = req.body;
   const requests = loadWtbRequests();
   const wtb = requests.find(r => r.id === id);
   if (!wtb) return res.status(404).json({ ok: false, error: "WTB request not found" });
@@ -662,7 +702,12 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
   }
 
   // Build HTML email body
-  const invRows = m.inventoryMatches.map(m => `
+  // Apply exclusions
+  const filteredInv = m.inventoryMatches.filter((_,i) => !excludeInv.includes(i));
+  const filteredIc = m.icMatches.filter((_,i) => !excludeIc.includes(i));
+  const filteredMkt = m.marketMatches.filter((_,i) => !excludeMkt.includes(i));
+
+  const invRows = filteredInv.map(m => `
     <tr>
       <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
         <strong style="color:#111;">${m.name || ""}</strong><br>
@@ -674,7 +719,7 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
       </td>
     </tr>`).join("");
 
-  const icRows = m.icMatches.map(m => `
+  const icRows = filteredIc.map(m => `
     <tr>
       <td style="padding:10px;border-bottom:1px solid #e5e7eb;vertical-align:top;">
         ${(m.image||m.imageUrl) ? `<img src="${m.image||m.imageUrl}" style="width:80px;height:80px;object-fit:cover;border-radius:6px;float:left;margin-right:10px;" onerror="this.style.display='none'">` : ""}
