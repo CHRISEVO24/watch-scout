@@ -220,6 +220,9 @@ ${icMatches.length ? `
       });
     }
 
+    // Save to pending queue for Watch Scout sync
+    await saveToPending({ id: Date.now().toString(), firstName, lastName, email, phone, brand, model, ref, budgetMax, condition, boxPapers, notes, submittedAt: new Date().toISOString() });
+
     return res.status(200).json({
       ok: true,
       totalMatches,
