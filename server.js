@@ -906,48 +906,6 @@ app.get("/api/wtb/pdf", (req, res) => {
 });
 
 // Save draft HTML to temp file for manual sending
-app.post("/api/wtb/draft", express.json(), async (req, res) => {
-  const { to, subject, htmlBody, pdfBase64, totalMatches } = req.body;
-  if (!to || !subject) return res.status(400).json({ ok: false, error: "to and subject required" });
-
-  try {
-    const os = require("os");
-    const draftId = Date.now().toString();
-
-    // Save HTML email to temp file
-    const htmlPath = path.join(os.tmpdir(), `wpb-draft-${draftId}.html`);
-    fs.writeFileSync(htmlPath, htmlBody, "utf8");
-
-    // Save PDF base64 to file if present
-    let pdfSavedPath = null;
-    if (pdfBase64) {
-      pdfSavedPath = path.join(os.tmpdir(), `wpb-draft-${draftId}.pdf`);
-      fs.writeFileSync(pdfSavedPath, Buffer.from(pdfBase64, "base64"));
-    }
-
-    // Use nodemailer to create a draft via Gmail SMTP
-    // For now, store draft info and return compose URL
-    const drafts = fs.existsSync(path.join(DATA_DIR, "wtb-drafts.json"))
-      ? JSON.parse(fs.readFileSync(path.join(DATA_DIR, "wtb-drafts.json"), "utf8"))
-      : [];
-
-    const draft = { id: draftId, to, subject, htmlPath, pdfPath: pdfSavedPath, createdAt: new Date().toISOString(), totalMatches };
-    drafts.unshift(draft);
-    fs.writeFileSync(path.join(DATA_DIR, "wtb-drafts.json"), JSON.stringify(drafts.slice(0, 50), null, 2));
-
-    // Build Gmail compose URL (opens pre-filled compose window)
-    const gmailComposeUrl = "https://mail.google.com/mail/?view=cm&fs=1" +
-      "&to=" + encodeURIComponent(to) +
-      "&su=" + encodeURIComponent(subject) +
-      "&body=" + encodeURIComponent("Please see the attached watch request results. HTML version saved at: " + htmlPath + (pdfSavedPath ? "\nPDF: " + pdfSavedPath : ""));
-
-    console.log("[WTB Draft] Saved draft", draftId, "for", to, "| HTML:", htmlPath);
-    res.json({ ok: true, draftId, htmlPath, pdfPath: pdfSavedPath, gmailComposeUrl, totalMatches });
-  } catch(err) {
-    console.error("[WTB Draft] Error:", err.message);
-    res.status(500).json({ ok: false, error: err.message });
-  }
-});
 
 app.post("/api/wtb/sync-vercel", async (req, res) => {
   try {
