@@ -505,8 +505,8 @@ app.post("/api/wtb/draft", express.json(), async (req, res) => {
   if (!to || !subject) return res.status(400).json({ ok: false, error: "to and subject required" });
 
   try {
+    const { google } = require("googleapis");
     const os = require("os");
-    const axios = require("axios");
     const draftId = Date.now().toString();
 
     // Save files for reference
@@ -518,63 +518,48 @@ app.post("/api/wtb/draft", express.json(), async (req, res) => {
       fs.writeFileSync(pdfSavedPath, Buffer.from(pdfBase64, "base64"));
     }
 
+    // Save draft record
     const drafts = fs.existsSync(path.join(DATA_DIR, "wtb-drafts.json"))
       ? JSON.parse(fs.readFileSync(path.join(DATA_DIR, "wtb-drafts.json"), "utf8")) : [];
     const draft = { id: draftId, to, subject, htmlPath, pdfPath: pdfSavedPath, createdAt: new Date().toISOString(), totalMatches };
     drafts.unshift(draft);
     fs.writeFileSync(path.join(DATA_DIR, "wtb-drafts.json"), JSON.stringify(drafts.slice(0, 50), null, 2));
 
-    // Create Gmail draft via Anthropic API + Gmail MCP
-    const apiKey = process.env.ANTHROPIC_API_KEY;
-    if (!apiKey) return res.status(500).json({ ok: false, error: "ANTHROPIC_API_KEY not set" });
+    // Create Gmail draft using Gmail API with OAuth2
+    const oauth2Client = new google.auth.OAuth2(
+      process.env.GMAIL_CLIENT_ID,
+      process.env.GMAIL_CLIENT_SECRET,
+      "http://localhost:3000/callback"
+    );
+    oauth2Client.setCredentials({ refresh_token: process.env.GMAIL_REFRESH_TOKEN });
 
-    console.log("[WTB Draft] Creating Gmail draft for", to);
-    const anthropicRes = await axios.post("https://api.anthropic.com/v1/messages", {
-      model: "claude-sonnet-4-6",
-      max_tokens: 1000,
-      messages: [{
-        role: "user",
-        content: `Use the Gmail create_draft tool to create a draft email with exactly these details:
-- to: ["${to}"]
-- subject: "${subject.replace(/"/g, '\"')}"
-- htmlBody: the full HTML below
+    const gmail = google.gmail({ version: "v1", auth: oauth2Client });
 
-HTML EMAIL BODY:
-${htmlBody.slice(0, 48000)}
+    // Build RFC 2822 email message
+    const fromEmail = process.env.GMAIL_FROM || "chris@wpbwatchco.com";
+    const emailLines = [
+      `From: WPB Watch Co <${fromEmail}>`,
+      `To: ${to}`,
+      `Subject: ${subject}`,
+      `MIME-Version: 1.0`,
+      `Content-Type: text/html; charset=UTF-8`,
+      ``,
+      htmlBody
+    ];
+    const emailRaw = emailLines.join("\r\n");
+    const encodedEmail = Buffer.from(emailRaw).toString("base64").replace(/\+/g, "-").replace(/\//g, "_").replace(/=/g, "");
 
-Create the draft now using Gmail:create_draft.`
-      }],
-      mcp_servers: [{ type: "url", url: "https://gmailmcp.googleapis.com/mcp/v1", name: "gmail-mcp" }]
-    }, {
-      headers: {
-        "x-api-key": apiKey,
-        "anthropic-version": "2023-06-01",
-        "anthropic-beta": "mcp-client-2025-04-04",
-        "content-type": "application/json"
-      },
-      timeout: 60000
+    const draftResult = await gmail.users.drafts.create({
+      userId: "me",
+      requestBody: { message: { raw: encodedEmail } }
     });
 
-    const content_blocks = anthropicRes.data.content || [];
-    const hasToolUse = content_blocks.some(b => b.type === "tool_use" || b.type === "mcp_tool_use" || b.type === "mcp_tool_result");
-    const textBlock = content_blocks.find(b => b.type === "text");
-    const responseText = textBlock ? textBlock.text : "";
-    const draftCreated = hasToolUse || responseText.toLowerCase().includes("draft") || responseText.toLowerCase().includes("created");
+    console.log("[WTB Draft] Gmail draft created:", draftResult.data.id, "for", to);
+    res.json({ ok: true, draftId: draftResult.data.id, gmailDraftId: draftResult.data.id, totalMatches, message: "Gmail draft created successfully" });
 
-    console.log("[WTB Draft] Anthropic response:", responseText.slice(0, 200), "toolUse:", hasToolUse);
-
-    if (draftCreated) {
-      res.json({ ok: true, draftId, htmlPath, pdfPath: pdfSavedPath, totalMatches, message: "Gmail draft created" });
-    } else {
-      // Fallback to compose URL
-      const gmailComposeUrl = "https://mail.google.com/mail/?view=cm&fs=1&to=" + encodeURIComponent(to) + "&su=" + encodeURIComponent(subject);
-      res.json({ ok: true, draftId, htmlPath, pdfPath: pdfSavedPath, gmailComposeUrl, totalMatches, message: "Compose URL fallback" });
-    }
   } catch(err) {
-    console.error("[WTB Draft] Error:", err.response ? JSON.stringify(err.response.data).slice(0,200) : err.message);
-    // Fallback to compose URL on error
-    const gmailComposeUrl = "https://mail.google.com/mail/?view=cm&fs=1&to=" + encodeURIComponent(req.body.to) + "&su=" + encodeURIComponent(req.body.subject);
-    res.json({ ok: true, gmailComposeUrl, totalMatches: req.body.totalMatches, message: "Compose URL fallback" });
+    console.error("[WTB Draft] Error:", err.message);
+    res.status(500).json({ ok: false, error: err.message });
   }
 });
 
