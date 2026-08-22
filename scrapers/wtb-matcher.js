@@ -15,29 +15,34 @@ function normalizeRef(ref) {
 }
 
 function scoreMatch(item, wtb) {
-  let score = 0;
+  const itemRef = normalizeRef(item.ref);
+  const wtbRef = normalizeRef(wtb.ref);
   const itemText = [item.brand, item.model, item.ref, item.title, item.name].filter(Boolean).join(" ").toLowerCase();
 
-  if (wtb.ref && item.ref) {
-    const normItem = normalizeRef(item.ref);
-    const normWtb = normalizeRef(wtb.ref);
-    if (normItem === normWtb) score += 100;
-    else if (normItem && normWtb && (normItem.startsWith(normWtb) || normWtb.startsWith(normItem))) score += 60;
+  // If ref is specified, ONLY match on ref — brand/model alone is not enough
+  if (wtbRef) {
+    if (!itemRef) return 0; // item has no ref, skip
+    if (itemRef === wtbRef) return 100; // exact ref match
+    if (itemRef.startsWith(wtbRef) || wtbRef.startsWith(itemRef)) return 60; // partial ref match
+    return 0; // ref doesn't match at all — reject
   }
+
+  // No ref specified — match on brand + model keywords
+  let score = 0;
   if (wtb.brand && itemText.includes(wtb.brand.toLowerCase())) score += 30;
   if (wtb.model) {
-    const modelWords = wtb.model.toLowerCase().split(/\s+/);
-    const matched = modelWords.filter(w => w.length > 3 && itemText.includes(w));
-    score += matched.length * 10;
+    const words = wtb.model.toLowerCase().split(/\s+/).filter(w => w.length > 3);
+    const matched = words.filter(w => itemText.includes(w));
+    if (matched.length >= Math.ceil(words.length * 0.7)) score += matched.length * 10;
+    else return 0; // not enough model words match
   }
-  if (wtb.keywords) {
-    const kwords = wtb.keywords.toLowerCase().split(/[\s,]+/);
-    kwords.filter(w => w.length > 3 && itemText.includes(w)).forEach(() => score += 5);
-  }
+
+  // Budget check
   if (wtb.budgetMax && item.price) {
     const p = typeof item.price === "string" ? parseFloat(item.price.replace(/[^0-9.]/g, "")) : item.price;
-    if (!isNaN(p) && p > wtb.budgetMax * 1.2) score = Math.max(0, score - 40);
+    if (!isNaN(p) && p > wtb.budgetMax * 1.2) return 0;
   }
+
   return score;
 }
 

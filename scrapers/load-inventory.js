@@ -93,6 +93,8 @@ async function run() {
       box: item.box || null,
       papers: item.papers || null,
       url: item.url || null,
+      images: item.images || [],
+      image: (item.images && item.images[0]) || null,
     };
   });
 
