@@ -297,7 +297,7 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
     <tr>
       <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
         <strong style="color:#111;">${m.title || m.name || ""}</strong><br>
-        <span style="color:#6b7280;font-size:13px;">${m.source || ""}${m.ref ? " · Ref. " + m.ref : ""}${m.condition ? " · " + m.condition : ""}</span>
+        <span style="color:#6b7280;font-size:13px;">${m.source === "WatchDrop" ? "" : m.source || ""}${m.ref ? " · Ref. " + m.ref : ""}${m.condition ? " · " + m.condition : ""}</span>
         ${m.source === "WatchDrop" ? '<br><span style="color:#059669;font-size:12px;font-weight:600;">Available via WPB Watch Co — contact us to facilitate</span>' : ""}
       </td>
       <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
@@ -729,7 +729,7 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
     <tr>
       <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
         <strong style="color:#111;">${m.title || m.name || ""}</strong><br>
-        <span style="color:#6b7280;font-size:13px;">${m.source || ""}${m.ref ? " · Ref. " + m.ref : ""}${m.condition ? " · " + m.condition : ""}</span>
+        <span style="color:#6b7280;font-size:13px;">${m.source === "WatchDrop" ? "" : m.source || ""}${m.ref ? " · Ref. " + m.ref : ""}${m.condition ? " · " + m.condition : ""}</span>
         ${m.source === "WatchDrop" ? '<br><span style="color:#059669;font-size:12px;font-weight:600;">Available via WPB Watch Co — contact us to facilitate</span>' : ""}
       </td>
       <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
