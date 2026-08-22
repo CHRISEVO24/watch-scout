@@ -443365,6 +443365,7 @@ function renderWtbList(requests){
             <div style="text-align:right;flex-shrink:0;">
               <div style="font-size:14px;font-weight:700;color:var(--brass);">${fmtPrice(m.price)}</div>
               ${m.url?`<a href="${m.url}" target="_blank" style="font-size:11px;color:var(--blue);">View →</a>`:''}
+              ${m.source==='WatchDrop'?`<a href="https://www.inventoryconnect.io/watchdrop" target="_blank" style="font-size:11px;color:#38bdf8;display:block;margin-top:2px;">View on IC/WatchDrop →</a>`:''}
             </div>
           </div>`).join('')}
         </div>`:''}
