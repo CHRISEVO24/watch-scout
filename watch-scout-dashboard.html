@@ -443393,8 +443393,21 @@ async function sendToClient(id){
   const btn=event.target;
   const origText=btn.textContent;
   btn.disabled=true;btn.textContent='Generating...';
+  // Collect which items to exclude (unchecked checkboxes in this card)
+  const cardEl=btn.closest('.wtb-expanded')||btn.parentElement.parentElement;
+  const excludeInv=[], excludeIc=[], excludeMkt=[];
+  if(cardEl){
+    cardEl.querySelectorAll('input[type="checkbox"][data-match-type]').forEach(cb=>{
+      if(!cb.checked){
+        const idx=parseInt(cb.dataset.matchIdx);
+        if(cb.dataset.matchType==='inv')excludeInv.push(idx);
+        else if(cb.dataset.matchType==='ic')excludeIc.push(idx);
+        else if(cb.dataset.matchType==='mkt')excludeMkt.push(idx);
+      }
+    });
+  }
   try{
-    const d=await fetch('/api/wtb/send',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id})}).then(r=>r.json());
+    const d=await fetch('/api/wtb/send',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id,excludeInv,excludeIc,excludeMkt})}).then(r=>r.json());
     if(!d.ok){alert('Error: '+(d.error||'unknown'));btn.disabled=false;btn.textContent=origText;return;}
     btn.textContent='Creating draft...';
     let pdfAttachment=null;
