@@ -270,9 +270,10 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
         <strong style="color:#111;">${m.name || ""}</strong><br>
         <span style="color:#6b7280;font-size:13px;">${m.store}${m.ref ? " · Ref. " + m.ref : ""}</span>
       </td>
-      <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;vertical-align:top;">
         <strong style="color:#92400e;font-size:16px;">${fmtP(m.price)}</strong><br>
-        <a href="mailto:chris@wpbwatchco.com?subject=Interested in ${encodeURIComponent(m.name)}" style="font-size:12px;color:#2563eb;">Contact WPB Watch Co</a>
+        ${m.url ? `<a href="${m.url}" style="font-size:12px;color:#2563eb;display:block;margin-bottom:4px;">&#128279; View Item</a>` : ""}
+        <a href="mailto:chris@wpbwatchco.com?subject=Interested in ${encodeURIComponent(m.name)}&body=Hi Chris, I am interested in the ${encodeURIComponent(m.name)}${m.ref ? ' (Ref. ' + encodeURIComponent(m.ref) + ')' : ''} listed at ${encodeURIComponent(fmtP(m.price))}. Please contact me." style="font-size:12px;color:#059669;font-weight:600;">&#9993; Contact WPB Watch Co</a>
       </td>
     </tr>`).join("");
 
@@ -537,17 +538,19 @@ app.post("/api/wtb/draft", express.json(), async (req, res) => {
 
     // Build RFC 2822 email message
     const fromEmail = process.env.GMAIL_FROM || "chris@wpbwatchco.com";
+    // Encode subject for RFC 2822 to handle UTF-8 characters like em dashes
+    const encodedSubject = "=?UTF-8?B?" + Buffer.from(subject, "utf8").toString("base64") + "?=";
     const emailLines = [
       `From: WPB Watch Co <${fromEmail}>`,
       `To: ${to}`,
-      `Subject: ${subject}`,
+      `Subject: ${encodedSubject}`,
       `MIME-Version: 1.0`,
       `Content-Type: text/html; charset=UTF-8`,
       ``,
       htmlBody
     ];
     const emailRaw = emailLines.join("\r\n");
-    const encodedEmail = Buffer.from(emailRaw).toString("base64").replace(/\+/g, "-").replace(/\//g, "_").replace(/=/g, "");
+    const encodedEmail = Buffer.from(emailRaw, "utf8").toString("base64").replace(/\+/g, "-").replace(/\//g, "_").replace(/=/g, "");
 
     const draftResult = await gmail.users.drafts.create({
       userId: "me",
@@ -698,9 +701,10 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
         <strong style="color:#111;">${m.name || ""}</strong><br>
         <span style="color:#6b7280;font-size:13px;">${m.store}${m.ref ? " · Ref. " + m.ref : ""}</span>
       </td>
-      <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
+      <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;vertical-align:top;">
         <strong style="color:#92400e;font-size:16px;">${fmtP(m.price)}</strong><br>
-        <a href="mailto:chris@wpbwatchco.com?subject=Interested in ${encodeURIComponent(m.name)}" style="font-size:12px;color:#2563eb;">Contact WPB Watch Co</a>
+        ${m.url ? `<a href="${m.url}" style="font-size:12px;color:#2563eb;display:block;margin-bottom:4px;">&#128279; View Item</a>` : ""}
+        <a href="mailto:chris@wpbwatchco.com?subject=Interested in ${encodeURIComponent(m.name)}&body=Hi Chris, I am interested in the ${encodeURIComponent(m.name)}${m.ref ? ' (Ref. ' + encodeURIComponent(m.ref) + ')' : ''} listed at ${encodeURIComponent(fmtP(m.price))}. Please contact me." style="font-size:12px;color:#059669;font-weight:600;">&#9993; Contact WPB Watch Co</a>
       </td>
     </tr>`).join("");
 
