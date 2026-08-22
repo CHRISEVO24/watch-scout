@@ -443323,7 +443323,7 @@ function renderWtbList(requests){
         <!-- YOUR INVENTORY -->
         ${invMatches.length?`<div style="margin-bottom:14px;">
           <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--green);margin-bottom:8px;">&#9679; YOUR INVENTORY (${invMatches.length})</div>
-          ${invMatches.map(m=>`<div style="display:flex;align-items:center;gap:10px;background:rgba(74,222,128,.05);border:1px solid rgba(74,222,128,.2);border-radius:6px;padding:8px 10px;margin-bottom:5px;">
+          ${invMatches.map((m,mi)=>`<div style="display:flex;align-items:center;gap:10px;background:rgba(74,222,128,.05);border:1px solid rgba(74,222,128,.2);border-radius:6px;padding:8px 10px;margin-bottom:5px;"><input type="checkbox" checked data-match-type="inv" data-match-idx="${mi}" style="flex-shrink:0;width:16px;height:16px;cursor:pointer;" title="Uncheck to exclude from email">
             ${(m.image||m.imageUrl)?`<img src="${m.image||m.imageUrl}" style="width:56px;height:56px;object-fit:cover;border-radius:5px;flex-shrink:0;" onerror="this.style.display='none'">`:''}
             <div style="flex:1;min-width:0;">
               <div style="font-size:12.5px;font-weight:600;">${m.name||''}</div>
@@ -443339,7 +443339,7 @@ function renderWtbList(requests){
         <!-- IC DEALERS -->
         ${icMatches.length?`<div style="margin-bottom:14px;">
           <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#38bdf8;margin-bottom:8px;">&#9679; IC DEALERS (${icMatches.length})</div>
-          ${icMatches.map(m=>`<div style="display:flex;align-items:center;gap:10px;background:rgba(56,189,248,.05);border:1px solid rgba(56,189,248,.2);border-radius:6px;padding:8px 10px;margin-bottom:5px;">
+          ${icMatches.map((m,mi)=>`<div style="display:flex;align-items:center;gap:10px;background:rgba(56,189,248,.05);border:1px solid rgba(56,189,248,.2);border-radius:6px;padding:8px 10px;margin-bottom:5px;"><input type="checkbox" checked data-match-type="ic" data-match-idx="${mi}" style="flex-shrink:0;width:16px;height:16px;cursor:pointer;" title="Uncheck to exclude from email">
             ${(m.imageUrl||m.image)?`<img src="${m.imageUrl||m.image}" style="width:56px;height:56px;object-fit:cover;border-radius:5px;flex-shrink:0;" onerror="this.style.display='none'">`:''}
             <div style="flex:1;min-width:0;">
               <div style="font-size:12.5px;font-weight:600;">${m.name||''}</div>
@@ -443356,7 +443356,7 @@ function renderWtbList(requests){
         <!-- MARKET -->
         ${mktMatches.length?`<div>
           <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--text-muted);margin-bottom:8px;">&#9679; MARKET (${mktMatches.length})</div>
-          ${mktMatches.slice(0,8).map(m=>`<div style="display:flex;align-items:center;gap:10px;background:var(--panel-2);border:1px solid var(--hairline);border-radius:6px;padding:8px 10px;margin-bottom:5px;">
+          ${mktMatches.slice(0,8).map((m,mi)=>`<div style="display:flex;align-items:center;gap:10px;background:var(--panel-2);border:1px solid var(--hairline);border-radius:6px;padding:8px 10px;margin-bottom:5px;"><input type="checkbox" checked data-match-type="mkt" data-match-idx="${mi}" style="flex-shrink:0;width:16px;height:16px;cursor:pointer;" title="Uncheck to exclude from email">
             ${m.imageUrl?`<img src="${m.imageUrl}" style="width:56px;height:56px;object-fit:cover;border-radius:5px;flex-shrink:0;" onerror="this.style.display='none'">`:'<div style="width:56px;height:56px;background:var(--panel);border-radius:5px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--text-muted);">&#x231a;</div>'}
             <div style="flex:1;min-width:0;">
               <div style="font-size:12.5px;font-weight:600;">${m.title||m.name||''}</div>
