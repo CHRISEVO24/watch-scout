@@ -311,6 +311,9 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
       <div style="font-size:13px;color:#9a9691;margin-top:2px;">West Palm Beach, FL · 844-972-9282 · chris@wpbwatchco.com</div>
     </div>
     <!-- Intro -->
+    <div style="background:#fff8e1;padding:10px 20px;border-bottom:1px solid #ffe082;font-size:12px;color:#856404;text-align:center;">
+      &#128247; If watch photos are not displaying, click <strong>"Display images"</strong> or <strong>"Show images"</strong> at the top of this email.
+    </div>
     <div style="padding:24px 28px;border-bottom:1px solid #e5e7eb;">
       <p style="font-size:15px;color:#111;margin:0 0 8px;">Hi ${c.firstName || "there"},</p>
       <p style="font-size:14px;color:#374151;line-height:1.6;margin:0;">
@@ -711,6 +714,9 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
       <div style="font-size:13px;color:#9a9691;margin-top:2px;">West Palm Beach, FL · 844-972-9282 · chris@wpbwatchco.com</div>
     </div>
     <!-- Intro -->
+    <div style="background:#fff8e1;padding:10px 20px;border-bottom:1px solid #ffe082;font-size:12px;color:#856404;text-align:center;">
+      &#128247; If watch photos are not displaying, click <strong>"Display images"</strong> or <strong>"Show images"</strong> at the top of this email.
+    </div>
     <div style="padding:24px 28px;border-bottom:1px solid #e5e7eb;">
       <p style="font-size:15px;color:#111;margin:0 0 8px;">Hi ${c.firstName || "there"},</p>
       <p style="font-size:14px;color:#374151;line-height:1.6;margin:0;">
