@@ -15,3 +15,4 @@ fb-poster.html
 *.py
 data/inventoryconnect-cookies.json
 .vercel
+gmail_auth.js
