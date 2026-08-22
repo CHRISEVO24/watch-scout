@@ -14,3 +14,4 @@ fb-poster.html
 *.log
 *.py
 data/inventoryconnect-cookies.json
+.vercel
