@@ -27,99 +27,84 @@
       "marketMatches": [
         {
           "score": 95,
-          "seller": "WatchDrop Dealer \u2014 contact WPB Watch Co to facilitate",
-          "name": "Patek Philippe 5524R",
+          "source": "WatchDrop",
+          "title": "Patek Philippe 5524R \u2014 Full Set",
           "ref": "5524R-001",
           "price": 34800,
           "condition": "2020 \u00b7 Full set \u00b7 PRE OWNED",
-          "source": "WatchDrop",
-          "imageUrl": null,
-          "url": null
+          "url": "https://www.inventoryconnect.io/watchdrop/150803"
         },
         {
           "score": 90,
-          "seller": "WatchDrop Dealer \u2014 contact WPB Watch Co to facilitate",
-          "name": "Patek Philippe Calatrava Pilot Travel Time",
+          "source": "WatchDrop",
+          "title": "Patek Philippe Calatrava Pilot Travel Time 5524R \u2014 Full Set",
           "ref": "5524R",
           "price": 38499,
           "condition": "2022 \u00b7 Full set",
-          "source": "WatchDrop",
-          "imageUrl": null,
-          "url": null
+          "url": "https://www.inventoryconnect.io/watchdrop/134703"
         },
         {
           "score": 85,
-          "seller": "WatchDrop Dealer \u2014 contact WPB Watch Co to facilitate",
-          "name": "Patek Philippe 5524R",
-          "ref": "5524R-001",
-          "price": 39500,
-          "condition": "2023 \u00b7 Complete",
           "source": "WatchDrop",
-          "imageUrl": null,
-          "url": null
-        },
-        {
-          "score": 85,
-          "seller": "WatchDrop Dealer \u2014 contact WPB Watch Co to facilitate",
-          "name": "Patek Philippe",
-          "ref": "5524R",
-          "price": 35000,
-          "condition": "2019 \u00b7 Mint \u00b7 Papers only",
-          "source": "WatchDrop",
-          "imageUrl": null,
-          "url": null
-        },
-        {
-          "score": 80,
-          "seller": "WatchDrop Dealer \u2014 contact WPB Watch Co to facilitate",
-          "name": "Patek Philippe",
-          "ref": "5524R",
-          "price": 35600,
-          "condition": "2022 \u00b7 Good condition \u00b7 No box",
-          "source": "WatchDrop",
-          "imageUrl": null,
-          "url": null
-        },
-        {
-          "score": 75,
-          "seller": "WatchDrop Dealer \u2014 contact WPB Watch Co to facilitate",
-          "name": "Patek Philippe 5524R",
+          "title": "Patek Philippe 5524R \u2014 Full Set",
           "ref": "5524R",
           "price": 42800,
           "condition": "2026 \u00b7 Full set \u00b7 NEW",
-          "source": "WatchDrop",
-          "imageUrl": null,
-          "url": null
+          "url": "https://www.inventoryconnect.io/watchdrop/145641"
         },
         {
-          "score": 100,
+          "score": 82,
+          "source": "WatchDrop",
+          "title": "Patek Philippe 5524R \u2014 No box",
+          "ref": "5524R",
+          "price": 35600,
+          "condition": "2022 \u00b7 Good condition \u00b7 No box",
+          "url": "https://www.inventoryconnect.io/watchdrop/134703"
+        },
+        {
+          "score": 80,
+          "source": "WatchDrop",
+          "title": "Patek Philippe 5524R \u2014 Papers only",
+          "ref": "5524R",
+          "price": 35000,
+          "condition": "2019 \u00b7 Mint \u00b7 Papers only",
+          "url": "https://www.inventoryconnect.io/watchdrop/244641"
+        },
+        {
+          "score": 75,
+          "source": "WatchDrop",
+          "title": "Patek Philippe 5524R \u2014 New",
+          "ref": "5524R",
+          "price": null,
+          "condition": "2026 \u00b7 Brand new \u00b7 NTQ",
+          "url": "https://www.inventoryconnect.io/watchdrop/244641"
+        },
+        {
+          "score": 70,
           "source": "European Watch Co",
-          "title": "Patek Philippe 5524R Calatrava Pilot Travel Time 18K Rose Gold Brown Dial",
+          "title": "Patek Philippe 5524R Rose Gold",
           "ref": "5524R",
           "price": 39900,
-          "url": "https://www.europeanwatch.com/watch/patek-philippe-5524r-001-5524r-calatrava-pilot-travel-time-18k-ro-70620",
-          "imageUrl": "https://images.europeanwatch.com/images/70/70620-1.jpg",
-          "seller": null
+          "condition": "PRE OWNED",
+          "url": "https://www.europeanwatch.com/watch/patek-philippe-5524r-001-5524r-calatrava-pilot-travel-time-18k-ro-70620"
         },
         {
-          "score": 100,
+          "score": 65,
           "source": "eBay",
-          "title": "PAPERS Patek Philippe Calatrava Pilot Travel Time 18K GOLD 42mm 5524R Watch BOX",
+          "title": "Patek Philippe Calatrava Pilot Travel Time 5524R BOX PAPERS",
           "ref": "5524R",
           "price": 38753,
-          "url": "https://www.ebay.com/itm/278028673130?_skw=Patek+Philippe+watch&hash=item40bbcce06a:g:MoMAAeSwg3NpxXk4",
-          "imageUrl": "https://i.ebayimg.com/images/g/MoMAAeSwg3NpxXk4/s-l225.jpg",
-          "seller": null
+          "condition": "PRE OWNED",
+          "url": "https://www.ebay.com/itm/278028673130"
         },
         {
-          "score": 100,
+          "score": 65,
           "source": "eBay",
-          "title": "Patek Philippe Complications Calatrava Pilot Travel Time Rose Gold 42mm 5524R",
+          "title": "Patek Philippe Complications Calatrava Pilot 5524R",
           "ref": "5524R",
           "price": 40000,
-          "url": "https://www.ebay.com/itm/307137913965?_skw=Patek+Philippe+watch&hash=item4782d8a46d:g:LJ8AAeSw2HNqh2VC",
-          "imageUrl": "https://i.ebayimg.com/images/g/LJ8AAeSw2HNqh2VC/s-l225.jpg",
-          "seller": null
+          "condition": "PRE OWNED",
+          "url": "https://www.ebay.com/itm/307137913965"
         }
       ],
       "icMatches": [
