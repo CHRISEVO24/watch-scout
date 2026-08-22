@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Watch Request — WPB Watch Co</title>
+<style>
+:root{--bg:#0f1117;--panel:#1c1f24;--hairline:#2c2f36;--text:#e8e6e1;--text-secondary:#9a9691;--brass:#c9a05b;--brass-soft:rgba(201,160,91,.15);--blue:#4a9eff;--green:#4ade80;--radius:10px;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;}
+.card{background:var(--panel);border:1px solid var(--hairline);border-radius:var(--radius);padding:32px;width:100%;max-width:560px;}
+.logo{display:flex;align-items:center;gap:12px;margin-bottom:24px;}
+.logo-icon{width:44px;height:44px;background:var(--brass-soft);border:1px solid var(--brass);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px;}
+.logo-title{font-size:18px;font-weight:700;}
+.logo-sub{font-size:12px;color:var(--text-secondary);}
+h2{font-size:16px;font-weight:600;margin-bottom:6px;}
+.sub{font-size:13px;color:var(--text-secondary);margin-bottom:24px;line-height:1.5;}
+.field{margin-bottom:16px;}
+label{display:block;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:var(--text-secondary);margin-bottom:6px;}
+input,select,textarea{width:100%;background:#232628;border:1px solid var(--hairline);color:var(--text);padding:10px 13px;border-radius:8px;font-size:14px;font-family:inherit;}
+input::placeholder,textarea::placeholder{color:#6b6864;}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--brass);}
+textarea{resize:vertical;min-height:80px;}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.required{color:var(--brass);}
+button[type=submit]{width:100%;background:var(--brass);color:#2e2005;border:none;padding:13px;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer;margin-top:8px;}
+button[type=submit]:disabled{opacity:.6;cursor:default;}
+.success{display:none;text-align:center;padding:24px 0;}
+.success .icon{font-size:40px;margin-bottom:12px;}
+.success h3{font-size:16px;font-weight:600;margin-bottom:8px;}
+.success p{font-size:13px;color:var(--text-secondary);line-height:1.6;}
+.footer{text-align:center;margin-top:24px;font-size:12px;color:var(--text-secondary);}
+.footer a{color:var(--brass);}
+#formError{display:none;color:#f87171;font-size:13px;margin-bottom:12px;padding:10px;background:rgba(248,113,113,.1);border-radius:6px;}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo">
+    <div class="logo-icon">&#x231a;</div>
+    <div>
+      <div class="logo-title">WPB Watch Co</div>
+      <div class="logo-sub">West Palm Beach, FL</div>
+    </div>
+  </div>
+  <div id="formWrap">
+    <h2>Watch Request Form</h2>
+    <p class="sub">Tell us what you're looking for and we'll search our inventory and the full pre-owned market to find you the best options.</p>
+    <form id="wtbForm">
+      <div class="row">
+        <div class="field"><label>First Name <span class="required">*</span></label><input type="text" name="firstName" required placeholder="Chris"></div>
+        <div class="field"><label>Last Name <span class="required">*</span></label><input type="text" name="lastName" required placeholder="Smith"></div>
+      </div>
+      <div class="field"><label>Email <span class="required">*</span></label><input type="email" name="email" required placeholder="chris@email.com"></div>
+      <div class="field"><label>Phone</label><input type="tel" name="phone" placeholder="(561) 555-0100"></div>
+      <div class="field"><label>Brand <span class="required">*</span></label><input type="text" name="brand" required placeholder="Rolex, Patek Philippe, Audemars Piguet..."></div>
+      <div class="field"><label>Model</label><input type="text" name="model" placeholder="Submariner, Nautilus, Royal Oak..."></div>
+      <div class="field"><label>Reference Number</label><input type="text" name="ref" placeholder="116610LN, 5711/1A, 15400ST..."></div>
+      <div class="row">
+        <div class="field"><label>Budget (Max)</label><input type="number" name="budgetMax" placeholder="25000" min="0"></div>
+        <div class="field"><label>Condition</label>
+          <select name="condition">
+            <option value="">Any condition</option>
+            <option value="unworn">Unworn / New</option>
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="any">Any</option>
+          </select>
+        </div>
+      </div>
+      <div class="field"><label>Box &amp; Papers</label>
+        <select name="boxPapers">
+          <option value="">No preference</option>
+          <option value="both">Box &amp; Papers required</option>
+          <option value="papers">Papers required</option>
+          <option value="none">Not required</option>
+        </select>
+      </div>
+      <div class="field"><label>Additional Details</label><textarea name="notes" placeholder="Dial color, year range, any other preferences..."></textarea></div>
+      <div id="formError"></div>
+      <button type="submit" id="submitBtn">Submit Watch Request</button>
+    </form>
+  </div>
+  <div class="success" id="successMsg">
+    <div class="icon">&#x2713;</div>
+    <h3>Request received!</h3>
+    <p>Thank you — we're searching our inventory and the full pre-owned market for your watch right now. We'll be in touch shortly with options.</p>
+    <p style="margin-top:12px;">Questions? Call us at <a href="tel:8449729282" style="color:var(--brass)">844-972-9282</a></p>
+  </div>
+  <div class="footer">
+    WPB Watch Co &middot; 1601 Forum Pl, West Palm Beach, FL 33401<br>
+    <a href="tel:8449729282">844-972-9282</a> &middot; <a href="mailto:chris@wpbwatchco.com">chris@wpbwatchco.com</a>
+  </div>
+</div>
+<script>
+document.getElementById('wtbForm').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const btn = document.getElementById('submitBtn');
+  const errEl = document.getElementById('formError');
+  btn.disabled = true;
+  btn.textContent = 'Submitting...';
+  errEl.style.display = 'none';
+  const data = Object.fromEntries(new FormData(this));
+  data.submittedAt = new Date().toISOString();
+  data.source = 'public-form';
+  try {
+    const res = await fetch('https://watch-scout-seven.vercel.app/api/wtb-submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    });
+    const d = await res.json();
+    if (d.ok) {
+      document.getElementById('formWrap').style.display = 'none';
+      document.getElementById('successMsg').style.display = 'block';
+    } else {
+      throw new Error(d.error || 'Server error');
+    }
+  } catch(err) {
+    errEl.textContent = 'Something went wrong. Please call us at 844-972-9282 or email chris@wpbwatchco.com.';
+    errEl.style.display = 'block';
+    btn.disabled = false;
+    btn.textContent = 'Submit Watch Request';
+  }
+});
+</script>
+</body>
+</html>
