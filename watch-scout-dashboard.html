@@ -325,7 +325,15 @@ input,select,button{font-family:var(--sans);}
         <div><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Reference Number</label><input id="wtbRef" class="fi" placeholder="116610LN"></div>
         <div><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Max Budget</label><input id="wtbBudget" class="fi" type="number" placeholder="25000"></div>
       </div>
-      <div style="margin-bottom:10px;"><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Additional Details</label><textarea id="wtbNotes" class="fi" style="min-height:60px;resize:vertical;" placeholder="Dial color, year range, condition preferences..."></textarea></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px;">
+        <div><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Dial Color</label>
+          <select id="wtbDial" class="fi"><option value="">Any color</option><option value="black">Black</option><option value="white">White</option><option value="blue">Blue</option><option value="green">Green</option><option value="silver">Silver</option><option value="grey">Grey</option><option value="champagne">Champagne</option><option value="brown">Brown</option><option value="meteorite">Meteorite</option><option value="mop">Mother of Pearl</option><option value="chocolate">Chocolate</option><option value="sundust">Sundust</option></select>
+        </div>
+        <div><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Box &amp; Papers</label>
+          <select id="wtbBoxPapers" class="fi"><option value="">No preference</option><option value="both">Box &amp; Papers</option><option value="papers">Papers only</option><option value="none">Not required</option></select>
+        </div>
+      </div>
+      <div style="margin-bottom:10px;"><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Additional Details</label><textarea id="wtbNotes" class="fi" style="min-height:60px;resize:vertical;" placeholder="Year range, condition preferences..."></textarea></div>
       <div style="display:flex;gap:8px;">
         <button onclick="submitWtb()" style="background:var(--brass);color:#2e2005;border:none;padding:9px 20px;border-radius:7px;font-size:13px;font-weight:700;cursor:pointer;">Submit &amp; Match</button>
         <button onclick="document.getElementById('wtbFormPanel').style.display='none'" style="background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:9px 16px;border-radius:7px;font-size:13px;cursor:pointer;">Cancel</button>
@@ -443232,6 +443240,8 @@ async function submitWtb(){
     ref:document.getElementById('wtbRef').value,
     budgetMax:document.getElementById('wtbBudget').value||null,
     notes:document.getElementById('wtbNotes').value,
+    dialColor:document.getElementById('wtbDial').value||null,
+    boxPapers:document.getElementById('wtbBoxPapers').value||null,
     source:'manual'
   };
   try{
