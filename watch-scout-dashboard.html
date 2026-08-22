@@ -443281,9 +443281,9 @@ function fmtPrice(p){if(!p)return '—';const n=parseFloat(String(p).replace(/[^
 
 function renderWtbList(requests){
   const el=document.getElementById('wtbList');
-  if(!requests.length){el.innerHTML='<div class="empty">No WTB requests yet. Click "+ New Request" to add one, or share the public form link with clients.</div>';return;}
+  if(!requests.length){el.innerHTML='<div class="empty">No WTB requests yet. Click "+ New Request" or share the public form with clients.</div>';return;}
   const statusColor={new:'var(--blue)',matched:'var(--green)','match-failed':'var(--red)',sent:'var(--text-muted)',closed:'var(--text-muted)'};
-  el.innerHTML=requests.map(r=>{
+  el.innerHTML=requests.map((r,idx)=>{
     const m=r.matches||{};
     const invMatches=m.inventoryMatches||[];
     const mktMatches=m.marketMatches||[];
@@ -443291,115 +443291,104 @@ function renderWtbList(requests){
     const totalMatches=invMatches.length+mktMatches.length+icMatches.length;
     const w=r.watch||{};
     const c=r.client||{};
-    return `<div style="background:var(--panel);border:1px solid var(--hairline);border-radius:var(--radius);padding:16px;margin-bottom:12px;">
-      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap;">
-        <div>
-          <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
-            <span style="font-size:14px;font-weight:600;">${c.firstName||''} ${c.lastName||''}</span>
+    const cardId='wtb-card-'+idx;
+    return `<div style="background:var(--panel);border:1px solid var(--hairline);border-radius:var(--radius);margin-bottom:10px;overflow:hidden;">
+      <!-- Collapsed header - always visible -->
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 16px;cursor:pointer;gap:12px;" onclick="toggleWtb('${cardId}')">
+        <div style="flex:1;min-width:0;">
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:13px;font-weight:600;">${c.firstName||''} ${c.lastName||''}</span>
             <span style="font-size:10px;font-weight:700;text-transform:uppercase;padding:2px 7px;border-radius:3px;background:${statusColor[r.status]||'var(--panel-2)'};color:#fff;">${r.status}</span>
             <span style="font-size:11px;color:var(--text-muted);">${new Date(r.submittedAt).toLocaleDateString()}</span>
           </div>
-          <div style="font-size:13px;font-weight:600;color:var(--brass);">${w.brand||''} ${w.model||''} ${w.ref?'· Ref. '+w.ref:''}</div>
-          <div style="font-size:12px;color:var(--text-secondary);margin-top:2px;">${c.email}${c.phone?' · '+c.phone:''} ${w.budgetMax?'· Budget: $'+Number(w.budgetMax).toLocaleString():''}</div>
-          ${w.notes?`<div style="font-size:12px;color:var(--text-muted);margin-top:3px;">"${w.notes}"</div>`:''}
+          <div style="font-size:12.5px;color:var(--brass);margin-top:2px;">${w.brand||''} ${w.model||''} ${w.ref?'· Ref. '+w.ref:''} ${w.dialColor?'· '+w.dialColor+' dial':''}</div>
+          <div style="font-size:11.5px;color:var(--text-secondary);">${c.email}${c.phone?' · '+c.phone:''} ${w.budgetMax?'· Budget: $'+Number(w.budgetMax).toLocaleString():''}</div>
         </div>
-        <div style="display:flex;gap:6px;flex-shrink:0;">
-          <button onclick="rematchWtb('${r.id}')" style="background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:6px 12px;border-radius:6px;font-size:12px;cursor:pointer;">Re-match</button>
-          <button onclick="sendToClient('${r.id}')" style="background:var(--green);color:#0a2e18;border:none;padding:6px 12px;border-radius:6px;font-size:12px;cursor:pointer;font-weight:600;">&#128231; Send to Client</button>
-          <button onclick="markWtbSent('${r.id}')" style="background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:6px 12px;border-radius:6px;font-size:12px;cursor:pointer;">Mark Sent</button>
+        <div style="display:flex;align-items:center;gap:8px;flex-shrink:0;">
+          <span style="font-size:12px;color:${totalMatches>0?'var(--green)':'var(--text-muted)'};">${totalMatches} match${totalMatches!==1?'es':''}</span>
+          <span style="font-size:16px;color:var(--text-muted);" id="${cardId}-arrow">▸</span>
         </div>
       </div>
+      <!-- Expandable body -->
+      <div id="${cardId}" style="display:none;border-top:1px solid var(--hairline);padding:14px 16px;">
+        <!-- Action buttons -->
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px;">
+          <button onclick="rematchWtb('${r.id}')" style="background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:6px 12px;border-radius:6px;font-size:12px;cursor:pointer;">&#x21bb; Re-match</button>
+          <button onclick="sendToClient('${r.id}')" style="background:var(--green);color:#0a2e18;border:none;padding:6px 12px;border-radius:6px;font-size:12px;cursor:pointer;font-weight:600;">&#x2709; Send to Client</button>
+          <button onclick="markWtbSent('${r.id}')" style="background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:6px 12px;border-radius:6px;font-size:12px;cursor:pointer;">Mark Sent</button>
+          <button onclick="markWtbClosed('${r.id}')" style="background:var(--panel-2);border:1px solid var(--hairline);color:var(--text-muted);padding:6px 12px;border-radius:6px;font-size:12px;cursor:pointer;">Close</button>
+        </div>
 
-      ${totalMatches>0?`
-      <div style="margin-top:14px;border-top:1px solid var(--hairline);padding-top:14px;">
-        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--text-muted);margin-bottom:10px;">${totalMatches} match(es) found</div>
+        ${totalMatches>0?`
+        <!-- YOUR INVENTORY -->
+        ${invMatches.length?`<div style="margin-bottom:14px;">
+          <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--green);margin-bottom:8px;">&#9679; YOUR INVENTORY (${invMatches.length})</div>
+          ${invMatches.map(m=>`<div style="display:flex;align-items:center;gap:10px;background:rgba(74,222,128,.05);border:1px solid rgba(74,222,128,.2);border-radius:6px;padding:8px 10px;margin-bottom:5px;">
+            ${(m.image||m.imageUrl)?`<img src="${m.image||m.imageUrl}" style="width:56px;height:56px;object-fit:cover;border-radius:5px;flex-shrink:0;" onerror="this.style.display='none'">`:''}
+            <div style="flex:1;min-width:0;">
+              <div style="font-size:12.5px;font-weight:600;">${m.name||''}</div>
+              <div style="font-size:11px;color:var(--text-secondary);">${m.store||''}${m.ref?' · Ref. '+m.ref:''}</div>
+            </div>
+            <div style="text-align:right;flex-shrink:0;">
+              <div style="font-size:14px;font-weight:700;color:var(--brass);">${fmtPrice(m.price)}</div>
+              ${m.url?`<a href="${m.url}" target="_blank" style="font-size:11px;color:var(--blue);">View →</a>`:''}
+            </div>
+          </div>`).join('')}
+        </div>`:''}
 
-        ${invMatches.length?`
-        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:var(--green);margin-bottom:6px;">&#9679; YOUR INVENTORY (${invMatches.length})</div>
-        ${invMatches.map(m=>`<div style="display:flex;align-items:center;justify-content:space-between;background:rgba(74,222,128,.05);border:1px solid rgba(74,222,128,.2);border-radius:6px;padding:8px 12px;margin-bottom:5px;flex-wrap:wrap;gap:8px;">
-          <div>
-            <div style="font-size:12.5px;font-weight:600;">${m.name}</div>
-            <div style="font-size:11px;color:var(--text-secondary);">${m.store}${m.ref?' · Ref. '+m.ref:''}</div>
-          </div>
-          <div style="text-align:right;">
-            <div style="font-size:14px;font-weight:700;color:var(--brass);">${fmtPrice(m.price)}</div>
-            ${m.url?`<a href="${m.url}" target="_blank" style="font-size:11px;color:var(--blue);">View listing</a>`:''}
-          </div>
-        </div>`).join('')}
-        `:''}
+        <!-- IC DEALERS -->
+        ${icMatches.length?`<div style="margin-bottom:14px;">
+          <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#38bdf8;margin-bottom:8px;">&#9679; IC DEALERS (${icMatches.length})</div>
+          ${icMatches.map(m=>`<div style="display:flex;align-items:center;gap:10px;background:rgba(56,189,248,.05);border:1px solid rgba(56,189,248,.2);border-radius:6px;padding:8px 10px;margin-bottom:5px;">
+            ${(m.imageUrl||m.image)?`<img src="${m.imageUrl||m.image}" style="width:56px;height:56px;object-fit:cover;border-radius:5px;flex-shrink:0;" onerror="this.style.display='none'">`:''}
+            <div style="flex:1;min-width:0;">
+              <div style="font-size:12.5px;font-weight:600;">${m.name||''}</div>
+              <div style="font-size:11px;color:var(--text-secondary);">${m.seller||'Dealer'}${m.ref?' · Ref. '+m.ref:''}</div>
+              ${m.condition?`<div style="font-size:11px;color:var(--text-muted);">${m.condition.slice(0,60)}</div>`:''}
+            </div>
+            <div style="text-align:right;flex-shrink:0;">
+              <div style="font-size:14px;font-weight:700;color:var(--brass);">${fmtPrice(m.price)}</div>
+              ${m.icUrl||m.url?`<a href="${m.icUrl||m.url}" target="_blank" style="font-size:11px;color:var(--blue);">View on IC →</a>`:''}
+            </div>
+          </div>`).join('')}
+        </div>`:''}
 
-        ${icMatches.length?`
-        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:#38bdf8;margin-bottom:6px;margin-top:10px;">&#9679; INVENTORYCONNECT DEALERS (${icMatches.length})</div>
-        ${icMatches.map(m=>`<div style="display:flex;align-items:center;justify-content:space-between;background:rgba(56,189,248,.05);border:1px solid rgba(56,189,248,.2);border-radius:6px;padding:8px 12px;margin-bottom:5px;flex-wrap:wrap;gap:8px;">
-          <div>
-            <div style="font-size:12.5px;font-weight:600;">${m.name||''}</div>
-            <div style="font-size:11px;color:var(--text-secondary);">${m.seller||'Dealer'}${m.ref?' · Ref. '+m.ref:''}</div>
-          </div>
-          <div style="text-align:right;">
-            <div style="font-size:14px;font-weight:700;color:var(--brass);">${fmtPrice(m.price)}</div>
-            ${m.url?`<a href="${m.url}" target="_blank" style="font-size:11px;color:var(--blue);">View on IC</a>`:''}
-          </div>
-        </div>`).join('')}
-        `:''}
-
-        ${mktMatches.length?`
-        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:var(--text-muted);margin-bottom:6px;margin-top:10px;">&#9679; MARKET LISTINGS (${mktMatches.length})</div>
-        ${mktMatches.slice(0,8).map(m=>`<div style="display:flex;align-items:center;justify-content:space-between;background:var(--panel-2);border:1px solid var(--hairline);border-radius:6px;padding:8px 12px;margin-bottom:5px;flex-wrap:wrap;gap:8px;">
-          <div>
-            <div style="font-size:12.5px;font-weight:600;">${m.title||''}</div>
-            <div style="font-size:11px;color:var(--text-secondary);">${m.source}${m.ref?' · Ref. '+m.ref:''}${m.seller?' · '+m.seller:''}</div>
-          </div>
-          <div style="text-align:right;">
-            <div style="font-size:14px;font-weight:700;color:var(--brass);">${fmtPrice(m.price)}</div>
-            ${m.url?`<a href="${m.url}" target="_blank" style="font-size:11px;color:var(--blue);">View listing</a>`:''}
-          </div>
-        </div>`).join('')}
-        `:''}
-      </div>`:'<div style="margin-top:10px;font-size:12px;color:var(--text-muted);">No matches found yet. Click Re-match to search with latest data, or run a live WatchDrop/WhatSearch session.</div>'}
+        <!-- MARKET -->
+        ${mktMatches.length?`<div>
+          <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--text-muted);margin-bottom:8px;">&#9679; MARKET (${mktMatches.length})</div>
+          ${mktMatches.slice(0,8).map(m=>`<div style="display:flex;align-items:center;gap:10px;background:var(--panel-2);border:1px solid var(--hairline);border-radius:6px;padding:8px 10px;margin-bottom:5px;">
+            ${m.imageUrl?`<img src="${m.imageUrl}" style="width:56px;height:56px;object-fit:cover;border-radius:5px;flex-shrink:0;" onerror="this.style.display='none'">`:'<div style="width:56px;height:56px;background:var(--panel);border-radius:5px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--text-muted);">&#x231a;</div>'}
+            <div style="flex:1;min-width:0;">
+              <div style="font-size:12.5px;font-weight:600;">${m.title||m.name||''}</div>
+              <div style="font-size:11px;color:var(--text-secondary);">${m.source||''}${m.ref?' · Ref. '+m.ref:''}${m.seller?' · '+m.seller:''}</div>
+            </div>
+            <div style="text-align:right;flex-shrink:0;">
+              <div style="font-size:14px;font-weight:700;color:var(--brass);">${fmtPrice(m.price)}</div>
+              ${m.url?`<a href="${m.url}" target="_blank" style="font-size:11px;color:var(--blue);">View →</a>`:''}
+            </div>
+          </div>`).join('')}
+        </div>`:''}
+        `:`<div style="font-size:12px;color:var(--text-muted);padding:8px 0;">No matches yet — click Re-match to search with latest data.</div>`}
+      </div>
     </div>`;
   }).join('');
 }
 
-async function sendToClient(id){
-  const btn=event.target;
-  btn.disabled=true;btn.textContent='Generating...';
-  try{
-    // 1. Generate HTML email + PDF via server
-    const d=await fetch('/api/wtb/send',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id})}).then(r=>r.json());
-    if(!d.ok){alert('Error: '+(d.error||'unknown'));btn.disabled=false;btn.textContent='\u2709\ufe0f Send to Client';return;}
-
-    btn.textContent='Creating draft...';
-
-    // 2. Read PDF if generated and convert to base64
-    let pdfAttachment=null;
-    if(d.pdfPath){
-      try{
-        const pr=await fetch('/api/wtb/pdf?path='+encodeURIComponent(d.pdfPath)).then(r=>r.json());
-        if(pr.ok)pdfAttachment=pr.base64;
-      }catch(e){console.warn('PDF attach failed:',e.message);}
-    }
-
-    // 3. Post to /api/wtb/draft which uses Gmail MCP via Claude
-    const dr=await fetch('/api/wtb/draft',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({to:d.clientEmail,subject:d.subject,htmlBody:d.htmlBody,pdfBase64:pdfAttachment,totalMatches:d.totalMatches})}).then(r=>r.json());
-    if(dr.ok){
-      btn.style.background='var(--brass)';btn.textContent='\u2713 Ready to send';
-      btn.disabled=false;
-      // Open Gmail compose with pre-filled fields
-      if(dr.gmailComposeUrl) window.open(dr.gmailComposeUrl, '_blank');
-      alert('\u2713 '+d.totalMatches+' matches compiled for '+d.clientEmail+'!\n\n' +
-        (pdfAttachment?'PDF generated and saved.\n\n':'') +
-        'Gmail compose window opened — paste or attach the HTML file:\n'+
-        (dr.htmlPath||'') +
-        (dr.pdfPath?'\n\nPDF: '+dr.pdfPath:''));
-    } else {
-      btn.disabled=false;btn.textContent='\u2709\ufe0f Send to Client';
-      alert('Error: '+(dr.error||'unknown'));
-    }
-  }catch(e){
-    btn.disabled=false;btn.textContent='\u2709\ufe0f Send to Client';
-    alert('Error: '+e.message);
-  }
+function toggleWtb(id){
+  const el=document.getElementById(id);
+  const arrow=document.getElementById(id+'-arrow');
+  if(!el)return;
+  const open=el.style.display==='none';
+  el.style.display=open?'block':'none';
+  if(arrow)arrow.textContent=open?'▾':'▸';
 }
+
+async function markWtbClosed(id){
+  await fetch('/api/wtb/update',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id,status:'closed'})});
+  loadWtbRequests();
+}
+
+
 async function rematchWtb(id){
   const d=await fetch('/api/wtb/rematch',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id})}).then(r=>r.json());
   if(d.ok)loadWtbRequests();
