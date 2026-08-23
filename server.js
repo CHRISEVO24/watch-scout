@@ -325,7 +325,8 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
       <p style="font-size:15px;color:#111;margin:0 0 8px;">Hi ${c.firstName || "there"},</p>
       <p style="font-size:14px;color:#374151;line-height:1.6;margin:0;">
         Thank you for your watch request. We've searched our inventory and the full pre-owned market for your 
-        <strong>${w.brand || ""} ${w.model || ""} ${w.ref ? "· Ref. " + w.ref : ""}</strong>${w.budgetMax ? " (budget up to $" + Number(w.budgetMax).toLocaleString() + ")" : ""}. 
+        <strong>${w.brand || ""} ${w.model || ""} ${w.ref ? "· Ref. " + w.ref : ""}</strong>.
+        ${w.budgetMax ? "<br>Your target budget is <strong>$" + Number(w.budgetMax).toLocaleString() + "</strong>. We've included some options above this range so you have full visibility into what's available on the market." : ""}
         Here's what we found:
       </p>
     </div>
