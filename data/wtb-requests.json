@@ -1,5 +1,154 @@
 [
   {
+    "id": "17874551018970",
+    "vercelId": "1787444176110",
+    "submittedAt": "2026-08-23T00:16:16.110Z",
+    "source": "public-form",
+    "status": "matched",
+    "client": {
+      "firstName": "Anthony",
+      "lastName": "Rinaldi",
+      "email": "arinaldi@wpbwatchco.com",
+      "phone": "5617792553"
+    },
+    "watch": {
+      "brand": "Rolex ",
+      "model": "Submariner ",
+      "ref": "126619LB",
+      "budgetMax": "37000",
+      "condition": "good",
+      "boxPapers": "both",
+      "notes": ""
+    },
+    "matches": {
+      "wtbId": "17874551018970",
+      "matchedAt": "2026-08-23T03:18:22.112Z",
+      "inventoryMatches": [
+        {
+          "score": 100,
+          "store": "WPB Watch Co",
+          "name": "Rolex Submariner Date White Gold Black Dial 126619LB",
+          "ref": "126619LB",
+          "price": 38900,
+          "url": "https://wpbwatchco.com/product/rolex-submariner-date-white-gold-black-dial-126619lb-2/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/03/11161633/Untitled-design-2026-03-11T161024.229.png"
+        },
+        {
+          "score": 100,
+          "store": "WPB Watch Co",
+          "name": "Rolex Submariner Date “Cookie Monster” White Gold Black Dial 126619LB",
+          "ref": "126619LB",
+          "price": 38500,
+          "url": "https://wpbwatchco.com/product/rolex-submariner-date-cookie-monster-white-gold-black-dial-126619lb/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/08/07124131/10475.png"
+        }
+      ],
+      "marketMatches": [
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Rolex Submariner Date Oyster Perpetual 41mm 18k White Gold Black Dial Ceramic Blue Bezel 126619LB",
+          "ref": "126619LB",
+          "price": null,
+          "url": "https://www.chrono24.com/rolex/rolex-submariner-oyster-perpetual-41mm-18k-white-gold-black-dial-ceramic-blue-bezel-126619lb--id17219491.htm",
+          "imageUrl": null,
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "Bob's Watches",
+          "title": "Pre-Owned Rolex Submariner Ref 126619LB 18k White Gold Cookie Monster",
+          "ref": "126619LB",
+          "price": 39795,
+          "url": "https://www.bobswatches.com/pre-owned-rolex-submariner-ref-126619lb-18k-white-gold-cookie-monster.html",
+          "imageUrl": "https://www.bobswatches.com/images/zUsed-Rolex-Submariner-126619-SKU189900.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "Bob's Watches",
+          "title": "Used 18k White Gold Rolex Submariner 126619 Cookie Monster",
+          "ref": "126619LB",
+          "price": 37995,
+          "url": "https://www.bobswatches.com/used-18k-white-gold-rolex-submariner-126619-cookie-monster.html",
+          "imageUrl": "https://www.bobswatches.com/images/zUsed-Rolex-Submariner-126619-SKU188956.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "Bob's Watches",
+          "title": "Pre-Owned 18k White Gold Rolex Submariner Ref 126619LB Cookie Monster",
+          "ref": "126619LB",
+          "price": 37595,
+          "url": "https://www.bobswatches.com/pre-owned-18k-white-gold-rolex-submariner-ref-126619lb-cookie-monster.html",
+          "imageUrl": "https://www.bobswatches.com/images/zUsed-Rolex-Submariner-126619-SKU191434.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "Bob's Watches",
+          "title": "Used 18k White Gold Rolex Submariner 126619LB Cookie Monster",
+          "ref": "126619LB",
+          "price": 34595,
+          "url": "https://www.bobswatches.com/used-18k-white-gold-rolex-submariner-126619lb-cookie-monster.html",
+          "imageUrl": "https://www.bobswatches.com/images/zUsed-Rolex-Submariner-126619-SKU186599.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "European Watch Co",
+          "title": "Rolex 126619LB Submariner Date 18K White Gold Black Dial",
+          "ref": "126619LB",
+          "price": 39500,
+          "url": "https://www.europeanwatch.com/watch/rolex-126619lb-126619lb-submariner-date-18k-white-gold-black-dial-69355",
+          "imageUrl": "https://images.europeanwatch.com/images/69/69355-1.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "European Watch Co",
+          "title": "Rolex 126619LB Submariner Date 18K White Gold Black Dial",
+          "ref": "126619LB",
+          "price": 39500,
+          "url": "https://www.europeanwatch.com/watch/rolex-126619lb-126619lb-submariner-date-18k-white-gold-black-dial-70341",
+          "imageUrl": "https://images.europeanwatch.com/images/70/70341-1.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "European Watch Co",
+          "title": "Rolex 126619LB Submariner Date 18K White Gold Black Dial",
+          "ref": "126619LB",
+          "price": 39500,
+          "url": "https://www.europeanwatch.com/watch/rolex-126619lb-126619lb-submariner-date-18k-white-gold-black-dial-68985",
+          "imageUrl": "https://images.europeanwatch.com/images/68/68985-1.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "WhatsApp",
+          "title": "White gold Rolex Submariner Cookie Monster 126619LB 2024 Retail ready",
+          "ref": "126619LB",
+          "price": 37000,
+          "url": null,
+          "imageUrl": null,
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "InventoryConnect Marketplace",
+          "title": "WANTED: ROLEX SUBMARINER - Ref. 126619LB · full_set · 2021–2026 - Up to $36,000.00",
+          "ref": "126619LB",
+          "price": 36000,
+          "url": null,
+          "imageUrl": null,
+          "seller": "Grailtown Luxury Timepieces"
+        }
+      ],
+      "icMatches": []
+    }
+  },
+  {
     "id": "17874019030680",
     "vercelId": "1787401849689",
     "submittedAt": "2026-08-22T12:30:49.689Z",
@@ -120,7 +269,7 @@
         }
       ]
     },
-    "sentAt": "2026-08-22T13:08:06.791Z"
+    "sentAt": "2026-08-22T13:11:38.753Z"
   },
   {
     "id": "17873752366560",
