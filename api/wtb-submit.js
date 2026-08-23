@@ -100,9 +100,10 @@ export default async function handler(req, res) {
         <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
           ${m.image ? `<img src="${m.image}" style="width:70px;height:70px;object-fit:cover;border-radius:5px;float:left;margin-right:10px;" onerror="this.style.display='none'">` : ""}<div style="overflow:hidden;"><strong style="color:#111;">${m.name || ""}</strong><br><span style="color:#6b7280;font-size:13px;">${m.store}${m.ref ? " · Ref. " + m.ref : ""}</span></div>
         </td>
-        <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
+        <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;vertical-align:top;">
           <strong style="color:#92400e;font-size:16px;">${fmtPrice(m.price)}</strong><br>
-          <a href="mailto:chris@wpbwatchco.com?subject=Interested in ${encodeURIComponent(m.name || "")}" style="font-size:12px;color:#2563eb;">Contact WPB Watch Co</a>
+          ${m.url ? `<a href="${m.url}" style="font-size:12px;color:#2563eb;display:block;margin-bottom:4px;">&#128279; View Item</a>` : ""}
+          <a href="mailto:chris@wpbwatchco.com?subject=Interested in ${encodeURIComponent(m.name || '')}" style="font-size:12px;color:#059669;font-weight:600;">&#9993; Contact WPB Watch Co</a>
         </td>
       </tr>`).join("");
 
