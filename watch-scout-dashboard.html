@@ -186,6 +186,9 @@ input,select,button{font-family:var(--sans);}
     <div class="src-row"><span class="src-dot" style="background:#7c5cff"></span>Bezel<b id="c-bz">0</b></div>
     <div class="src-row"><span class="src-dot" style="background:#38bdf8"></span>InventoryConnect<b id="c-ic">0</b></div>
     <div class="src-row"><span class="src-dot" style="background:#b45309"></span>The 1916 Co<b id="c-19">0</b></div>
+    <div class="src-row"><span class="src-dot" style="background:#16a34a"></span>Artimeus<b id="c-art">0</b></div>
+    <div class="src-row"><span class="src-dot" style="background:#0f766e"></span>SwissWatchExpo<b id="c-swe">0</b></div>
+    <div class="src-row"><span class="src-dot" style="background:#92400e"></span>WatchLimit<b id="c-wl">0</b></div>
   </div>
   <div class="total-ring"><div class="n" id="totalN">0</div><div class="l">Live<br>Leads</div></div>
 </div>
@@ -553684,10 +553687,10 @@ function $p(p){return p?('$'+Math.round(p).toLocaleString('en-US')):'—';}
 function ago(m){if(m==null)return'date n/a';if(m<60)return m+'m ago';if(m<1440)return Math.round(m/60)+'h ago';return Math.round(m/1440)+'d ago';}
 function nrm(s){return(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');}
 function prc(s){const n=parseFloat(String(s||'0').replace(/[^0-9.]/g,''));return isNaN(n)?0:n;}
-function sc(s){const m={'WatchRecon':'p-watchrecon','WatchPatrol':'p-watchpatrol','Chrono24':'p-chrono24',"Bob's Watches":'p-bobswatches','European Watch Co':'p-europeanwatchco','FB Groups':'p-fbgroups','FB Marketplace':'p-fbmarketplace','eBay':'p-ebay','WhatsApp':'p-whatsapp','Bezel':'p-bezel','InventoryConnect Marketplace':'p-inventoryconnectmarketplace','The 1916 Company':'p-the1916company'};return m[s]||'p-watchrecon';}
+function sc(s){const m={'WatchRecon':'p-watchrecon','WatchPatrol':'p-watchpatrol','Chrono24':'p-chrono24',"Bob's Watches":'p-bobswatches','European Watch Co':'p-europeanwatchco','FB Groups':'p-fbgroups','FB Marketplace':'p-fbmarketplace','eBay':'p-ebay','WhatsApp':'p-whatsapp','Bezel':'p-bezel','InventoryConnect Marketplace':'p-inventoryconnectmarketplace','The 1916 Company':'p-the1916company','Artimeus':'p-artimeus','SwissWatchExpo':'p-swisswatchexpo','Watch Limit':'p-watchlimit'};return m[s]||'p-watchrecon';}
 function initCounts(){
   const c={};LISTINGS.forEach(l=>{c[l.source]=(c[l.source]||0)+1;});
-  ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company'].forEach(x=>{
+  ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company','art:Artimeus','swe:SwissWatchExpo','wl:Watch Limit'].forEach(x=>{
     const[id,src]=x.split(':');document.getElementById('c-'+id).textContent=c[src]||0;
   });
   document.getElementById('totalN').textContent=LISTINGS.length.toLocaleString();
