@@ -1,15 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-18T18:49:59.245Z",
-    "query": "Chopard",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-18T18:51:03.697Z",
-    "query": "5235",
-    "count": 0
-  },
-  {
     "scrapedAt": "2026-08-18T18:55:52.202Z",
     "query": "Franck Muller",
     "count": 40
@@ -98,5 +88,15 @@
     "scrapedAt": "2026-08-23T19:26:29.757Z",
     "query": "Vacheron Constantin",
     "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-23T21:05:50.065Z",
+    "query": "A. Lange &amp; Sohne",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-23T21:05:59.144Z",
+    "query": "Anonimo",
+    "count": 11
   }
 ]

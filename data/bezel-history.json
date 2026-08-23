@@ -1,15 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-17T01:39:15.406Z",
-    "brand": "anonimo",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-17T01:39:22.756Z",
-    "brand": "audemars-piguet",
-    "count": 12
-  },
-  {
     "scrapedAt": "2026-08-17T11:58:34.047Z",
     "brand": "breitling",
     "count": 12
@@ -97,6 +87,16 @@
   {
     "scrapedAt": "2026-08-23T19:26:52.709Z",
     "brand": "vacheron-constantin",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-23T21:07:44.504Z",
+    "brand": "a-lange-amp-sohne",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-23T21:07:51.039Z",
+    "brand": "anonimo",
     "count": 12
   }
 ]
