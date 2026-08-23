@@ -63,9 +63,10 @@ export default async function handler(req, res) {
 
   try {
     // Fetch all data sources in parallel
-    const [wpb, eci, combined, ic] = await Promise.all([
+    const [wpb, eci, ecj, combined, ic] = await Promise.all([
       fetchJson("inventory-latest.json"),
       fetchJson("eci-inventory-latest.json"),
+      fetchJson("ecj-inventory-latest.json"),
       fetchJson("combined.json"),
       fetchJson("inventoryconnect-latest.json"),
     ]);
@@ -73,6 +74,7 @@ export default async function handler(req, res) {
     const allInventory = [
       ...wpb.map(i => ({ ...i, _store: "WPB Watch Co" })),
       ...eci.map(i => ({ ...i, _store: "ECI Jewelers" })),
+      ...ecj.map(i => ({ ...i, _store: "ECJ Luxe Collection" })),
     ].filter(i => (i.stockStatus || "").toLowerCase() !== "out of stock");
 
     const wtb = { brand, model, ref, budgetMax: budgetMax ? Number(budgetMax) : null, keywords: notes };
