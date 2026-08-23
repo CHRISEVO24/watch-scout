@@ -4,7 +4,7 @@
     "vercelId": "1787518061286",
     "submittedAt": "2026-08-23T20:47:41.286Z",
     "source": "public-form",
-    "status": "matched",
+    "status": "sent",
     "client": {
       "firstName": "Christopher",
       "lastName": "Mancuso",
@@ -33,60 +33,6 @@
           "price": 99000,
           "url": "https://www.watchesoff5th.com/products/vacheron-constantin-overseas-self-winding-35mm-18k-5n-pink-gold-diamond-bezel-blue-dial-ref-4605v-200r-b978",
           "imageUrl": "https://cdn.shopify.com/s/files/1/0257/0017/1839/files/vacheron-constantin-overseas-self-winding-35mm-18k-5n-pink-gold-diamond-bezel-blue-dial-ref-4605v200r-b978-5443406.webp?v=1785599474"
-        },
-        {
-          "score": 60,
-          "source": "Watches OFF 5TH",
-          "title": "Vacheron Constantin Overseas Self-Winding 35mm 18K 5N Pink Gold Diamond Bezel Gold Dial (Ref# 4605V/200R-B968)",
-          "ref": null,
-          "price": 99000,
-          "url": "https://www.watchesoff5th.com/products/vacheron-constantin-overseas-self-winding-35mm-18k-5n-pink-gold-diamond-bezel-gold-dial-ref-4605v-200r-b968",
-          "imageUrl": "https://cdn.shopify.com/s/files/1/0257/0017/1839/files/vacheron-constantin-overseas-self-winding-35mm-18k-5n-pink-gold-diamond-bezel-gold-dial-ref-4605v200r-b968-7865172.webp?v=1785599474"
-        },
-        {
-          "score": 60,
-          "source": "Watches OFF 5TH",
-          "title": "Vacheron Constantin Overseas Self-Winding 35mm Stainless Steel Diamond Bezel Pink Dial (Ref# 4605V/200A-B971)",
-          "ref": null,
-          "price": 51000,
-          "url": "https://www.watchesoff5th.com/products/vacheron-constantin-overseas-self-winding-35mm-stainless-steel-diamond-bezel-pink-dial-ref-4605v-200a-b971",
-          "imageUrl": "https://cdn.shopify.com/s/files/1/0257/0017/1839/files/vacheron-constantin-overseas-self-winding-35mm-stainless-steel-diamond-bezel-pink-dial-ref-4605v200a-b971-1111758.webp?v=1785599474"
-        },
-        {
-          "score": 60,
-          "source": "Chrono24",
-          "title": "Vacheron Constantin 4605v200a B971",
-          "ref": null,
-          "price": 38972,
-          "url": "https://www.chrono24.com/vacheronconstantin/vacheron-constantin-4605v200a-b971--id31060865.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 60,
-          "source": "Chrono24",
-          "title": "Vacheron Constantin 4605v200a B971",
-          "ref": null,
-          "price": 38972,
-          "url": "https://www.chrono24.com/vacheronconstantin/vacheron-constantin-4605v200a-b971--id31060756.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 60,
-          "source": "Chrono24",
-          "title": "Vacheron Constantin 4605v200r B969",
-          "ref": null,
-          "price": 70661,
-          "url": "https://www.chrono24.com/vacheronconstantin/vacheron-constantin-4605v200r-b969--id46351267.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 60,
-          "source": "Chrono24",
-          "title": "4605v200r B969",
-          "ref": null,
-          "price": 65000,
-          "url": "https://www.chrono24.com/vacheronconstantin/4605v200r-b969--id47676194.htm",
-          "imageUrl": null
         },
         {
           "score": 60,
@@ -127,15 +73,6 @@
         {
           "score": 60,
           "source": "Chrono24",
-          "title": "Vacheron Constantin 4605v200r B978",
-          "ref": null,
-          "price": 64564,
-          "url": "https://www.chrono24.com/vacheronconstantin/vacheron-constantin-4605v200r-b978--id47551263.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 60,
-          "source": "Chrono24",
           "title": "4605v200r B978",
           "ref": null,
           "price": 62532,
@@ -145,7 +82,7 @@
       ],
       "icMatches": []
     },
-    "sentAt": "2026-08-23T23:14:01.273Z"
+    "sentAt": "2026-08-23T23:26:16.361Z"
   },
   {
     "id": "17875187684630",
@@ -184,7 +121,7 @@
         {
           "score": 100,
           "store": "WPB Watch Co",
-          "name": "Rolex Submariner Date “Cookie Monster” White Gold Black Dial 126619LB",
+          "name": "Rolex Submariner Date \u201cCookie Monster\u201d White Gold Black Dial 126619LB",
           "ref": "126619LB",
           "price": 38500,
           "url": "https://wpbwatchco.com/product/rolex-submariner-date-cookie-monster-white-gold-black-dial-126619lb/",
@@ -195,7 +132,7 @@
         {
           "score": 100,
           "source": "Artimeus",
-          "title": "Rolex Submariner Date 41mm White Gold Blue Bezel 126619LB – Black Dial",
+          "title": "Rolex Submariner Date 41mm White Gold Blue Bezel 126619LB \u2013 Black Dial",
           "ref": "126619LB",
           "price": 42838,
           "url": "https://artimeus.com/products/rolex-submariner-date-41mm-white-gold-blue-bezel-126619lb-black-57347",
@@ -204,7 +141,7 @@
         {
           "score": 100,
           "source": "Artimeus",
-          "title": "Rolex Submariner Date 41mm White Gold Blue Bezel 126619LB – Black Dial",
+          "title": "Rolex Submariner Date 41mm White Gold Blue Bezel 126619LB \u2013 Black Dial",
           "ref": "126619LB",
           "price": 41860,
           "url": "https://artimeus.com/products/rolex-submariner-date-41mm-white-gold-blue-bezel-126619lb-black-33829",
@@ -303,7 +240,7 @@
         {
           "score": 100,
           "source": "InventoryConnect Marketplace",
-          "title": "WANTED: ROLEX SUBMARINER - Ref. 126619LB · full_set · 2021–2026 - Up to $36,000.00",
+          "title": "WANTED: ROLEX SUBMARINER - Ref. 126619LB \u00b7 full_set \u00b7 2021\u20132026 - Up to $36,000.00",
           "ref": "126619LB",
           "price": 36000,
           "url": null,
@@ -378,7 +315,7 @@
         {
           "score": 100,
           "store": "WPB Watch Co",
-          "name": "Rolex Submariner Date “Cookie Monster” White Gold Black Dial 126619LB",
+          "name": "Rolex Submariner Date \u201cCookie Monster\u201d White Gold Black Dial 126619LB",
           "ref": "126619LB",
           "price": 38500,
           "url": "https://wpbwatchco.com/product/rolex-submariner-date-cookie-monster-white-gold-black-dial-126619lb/",
@@ -669,7 +606,7 @@
         {
           "score": 60,
           "source": "Artimeus",
-          "title": "Audemars Piguet Royal Oak 41mm 15400ST.OO.1220ST.04 – Grey Dial",
+          "title": "Audemars Piguet Royal Oak 41mm 15400ST.OO.1220ST.04 \u2013 Grey Dial",
           "ref": "15400ST.OO.1220ST.04",
           "price": 49335,
           "url": "https://artimeus.com/products/audemars-piguet-royal-oak-41mm-15400st-oo-1220st-04-grey-83749",
@@ -953,7 +890,7 @@
         {
           "score": 100,
           "source": "WatchPatrol",
-          "title": "1999 Rolex Explorer 2 40mm Ref 16570 Black “Swiss Only” Dial Just Serviced! $7,775",
+          "title": "1999 Rolex Explorer 2 40mm Ref 16570 Black \u201cSwiss Only\u201d Dial Just Serviced! $7,775",
           "ref": "16570",
           "price": 7775,
           "url": "https://www.watchpatrol.net/listing/3653288/",
@@ -973,7 +910,7 @@
         {
           "score": 100,
           "source": "WatchPatrol",
-          "title": "Rolex Explorer II 16570 Polar — D Serial | 12 Links | Excellent Condition",
+          "title": "Rolex Explorer II 16570 Polar \u2014 D Serial | 12 Links | Excellent Condition",
           "ref": "16570",
           "price": 7999,
           "url": "https://www.watchpatrol.net/listing/3652913/",
