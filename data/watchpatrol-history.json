@@ -1,25 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-17T11:58:08.756Z",
-    "query": "Breitling",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-17T11:58:17.692Z",
-    "query": "Bvlgari",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-18T14:15:05.866Z",
-    "query": "Rolex Seadweller 1665",
-    "count": 1
-  },
-  {
-    "scrapedAt": "2026-08-18T18:49:50.200Z",
-    "query": "Cartier",
-    "count": 40
-  },
-  {
     "scrapedAt": "2026-08-18T18:49:59.245Z",
     "query": "Chopard",
     "count": 40
@@ -97,6 +77,26 @@
   {
     "scrapedAt": "2026-08-20T21:59:38.942Z",
     "query": "omega",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-23T04:32:50.235Z",
+    "query": "TAG Heuer",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-23T04:32:59.346Z",
+    "query": "Tag Heuer",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-23T19:26:20.698Z",
+    "query": "Ulysse Nardin",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-23T19:26:29.757Z",
+    "query": "Vacheron Constantin",
     "count": 40
   }
 ]
