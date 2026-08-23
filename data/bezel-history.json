@@ -1,25 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-13T20:55:10.128Z",
-    "brand": "tag-heuer",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-13T20:55:16.309Z",
-    "brand": "ulysse-nardin",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-16T19:10:29.971Z",
-    "brand": "vacheron-constantin",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-16T19:10:43.301Z",
-    "brand": "a-lange-amp-sohne",
-    "count": 12
-  },
-  {
     "scrapedAt": "2026-08-17T01:39:15.406Z",
     "brand": "anonimo",
     "count": 12
@@ -97,6 +77,26 @@
   {
     "scrapedAt": "2026-08-20T20:54:09.667Z",
     "brand": "rolex",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-23T04:33:14.913Z",
+    "brand": "tag-heuer",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-23T04:33:21.062Z",
+    "brand": "tag-heuer",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-23T19:26:45.588Z",
+    "brand": "ulysse-nardin",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-23T19:26:52.709Z",
+    "brand": "vacheron-constantin",
     "count": 12
   }
 ]
