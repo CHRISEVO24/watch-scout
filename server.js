@@ -293,7 +293,7 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
       </td>
     </tr>`).join("");
 
-  const mktRows = m.marketMatches.slice(0, 8).map(m => `
+  const mktRows = m.marketMatches.slice(0, 15).map(m => `
     <tr>
       <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
         <strong style="color:#111;">${m.title || m.name || ""}</strong><br>
@@ -386,7 +386,7 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
     const pr = fmtP(m2.price).replace(/'/g,"");
     return `ic_data.append(['${nm}${rf}', '${pr}', '${sl}'])`;
   }).join("\n");
-  const mktLines = m.marketMatches.slice(0,8).map(m2 => {
+  const mktLines = m.marketMatches.slice(0,15).map(m2 => {
     const nm = ((m2.title||m2.name||"")).replace(/'/g,"").slice(0,50);
     const src = (m2.source||"").replace(/'/g,"");
     const rf = m2.ref ? " Ref " + m2.ref.replace(/'/g,"") : "";
@@ -726,7 +726,7 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
       </td>
     </tr>`).join("");
 
-  const mktRows = m.marketMatches.slice(0, 8).map(m => `
+  const mktRows = m.marketMatches.slice(0, 15).map(m => `
     <tr>
       <td style="padding:10px;border-bottom:1px solid #e5e7eb;">
         <strong style="color:#111;">${m.title || m.name || ""}</strong><br>
@@ -880,11 +880,11 @@ story.append(ic_table)
 story.append(Spacer(1, 12))
 ` : ""}
 
-${m.marketMatches.slice(0,8).length ? `
+${m.marketMatches.slice(0,15).length ? `
 story.append(HRFlowable(width="100%", thickness=0.5, color=HexColor("#e5e7eb"), spaceAfter=8))
 story.append(Paragraph("MARKET LISTINGS", ParagraphStyle("lbl3", fontSize=9, fontName="Helvetica-Bold", textColor=gray, spaceAfter=8)))
 mkt_data = [["Watch", "Price", "Source"]]
-${m.marketMatches.slice(0,8).map(m => `mkt_data.append(["${((m.title||"").replace(/"/g,"'")).slice(0,50)}${m.ref?" · Ref. "+m.ref:""}", "${fmtP(m.price)}", "${(m.source||"").replace(/"/g,"'")}"])`).join("\n")}
+${m.marketMatches.slice(0,15).map(m => `mkt_data.append(["${((m.title||"").replace(/"/g,"'")).slice(0,50)}${m.ref?" · Ref. "+m.ref:""}", "${fmtP(m.price)}", "${(m.source||"").replace(/"/g,"'")}"])`).join("\n")}
 mkt_table = Table(mkt_data, colWidths=[3.5*inch, 1.2*inch, 2.1*inch])
 mkt_table.setStyle(TableStyle([
     ("BACKGROUND", (0,0), (-1,0), HexColor("#f9fafb")),
