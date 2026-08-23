@@ -70,7 +70,16 @@ async function matchWtb(wtb) {
     .filter(m => m.score >= 30).sort((a, b) => b.score - a.score).slice(0, 8)
     .map(m => ({ score: m.score, seller: m.item.seller, name: m.item.title || m.item.model, ref: m.item.ref, price: m.item.price, url: m.item.url }));
 
-  return { wtbId: wtb.id, matchedAt: new Date().toISOString(), inventoryMatches, marketMatches, icMatches };
+  // Deduplicate market matches by url then price+source
+  const mktSeen = new Set();
+  const dedupedMkt = marketMatches.filter(m => {
+    const key = m.url || (String(m.price||'') + (m.source||'') + (m.title||'').slice(0,20));
+    if (mktSeen.has(key)) return false;
+    mktSeen.add(key);
+    return true;
+  });
+
+  return { wtbId: wtb.id, matchedAt: new Date().toISOString(), inventoryMatches, marketMatches: dedupedMkt, icMatches };
 }
 
 module.exports = { matchWtb };
