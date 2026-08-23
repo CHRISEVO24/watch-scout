@@ -60,26 +60,25 @@ async function matchWtb(wtb) {
     .filter(m => m.score >= 30).sort((a, b) => b.score - a.score).slice(0, 10)
     .map(m => ({ score: m.score, store: m.item._store, name: m.item.name, ref: m.item.referenceNumber || m.item.ref, price: m.item.price, url: m.item.url, image: (m.item.images && m.item.images[0]) || m.item.image || m.item.imageUrl || null }));
 
-  const marketMatches = combined
+  const _mktRaw = combined
     .map(item => ({ item, score: scoreMatch(item, wtb) }))
-    .filter(m => m.score >= 30).sort((a, b) => b.score - a.score).slice(0, 15)
+    .filter(m => m.score >= 30).sort((a, b) => b.score - a.score)
     .map(m => ({ score: m.score, source: m.item.source, title: m.item.title || m.item.name, ref: m.item.ref, price: m.item.price, url: m.item.url, imageUrl: m.item.imageUrl || null, seller: m.item.seller }));
+  // Deduplicate before slicing
+  const _mktSeen = new Set();
+  const marketMatches = _mktRaw.filter(m => {
+    const key = String(m.price||'') + '|' + (m.source||'') + '|' + (m.title||'').slice(0,25);
+    if (_mktSeen.has(key)) return false;
+    _mktSeen.add(key);
+    return true;
+  }).slice(0, 15);
 
   const icMatches = ic
     .map(item => ({ item, score: scoreMatch(item, wtb) }))
     .filter(m => m.score >= 30).sort((a, b) => b.score - a.score).slice(0, 8)
     .map(m => ({ score: m.score, seller: m.item.seller, name: m.item.title || m.item.model, ref: m.item.ref, price: m.item.price, url: m.item.url }));
 
-  // Deduplicate market matches by url then price+source
-  const mktSeen = new Set();
-  const dedupedMkt = marketMatches.filter(m => {
-    const key = m.url || (String(m.price||'') + (m.source||'') + (m.title||'').slice(0,20));
-    if (mktSeen.has(key)) return false;
-    mktSeen.add(key);
-    return true;
-  });
-
-  return { wtbId: wtb.id, matchedAt: new Date().toISOString(), inventoryMatches, marketMatches: dedupedMkt, icMatches };
+  return { wtbId: wtb.id, matchedAt: new Date().toISOString(), inventoryMatches, marketMatches, icMatches };
 }
 
 module.exports = { matchWtb };
