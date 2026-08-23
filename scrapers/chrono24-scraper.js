@@ -33,6 +33,12 @@ const PRICE_BANDS = [
 // 1=price asc, 2=price desc, 3=newest, 5=popularity, 6=oldest
 const SORT_ORDERS = [1, 2, 3, 5];
 
+function extractRefFromTitle(title) {
+  if (!title) return null;
+  const m = title.match(/\b([0-9]{3,6}[A-Z]{0,4}(?:[/.-][0-9A-Z]{2,6}){0,3})\b/i);
+  return m ? m[1].toUpperCase() : null;
+}
+
 function titleFromUrl(url) {
   const m = url.match(/\/([^/]+)--id\d/);
   if (!m) return null;
@@ -102,7 +108,7 @@ async function scrape() {
               sourceDetail: "chrono24.com",
               brand: brand.name,
               model: null,
-              ref: null,
+              ref: extractRefFromTitle(title),
               title: title || brand.name,
               price: item.price,
               url: item.href,
