@@ -204,7 +204,7 @@
     "vercelId": "1787401849689",
     "submittedAt": "2026-08-22T12:30:49.689Z",
     "source": "public-form",
-    "status": "sent",
+    "status": "matched",
     "client": {
       "firstName": "Christopher",
       "lastName": "Mancuso",
@@ -222,103 +222,50 @@
     },
     "matches": {
       "wtbId": "17874019030680",
-      "matchedAt": "2026-08-22T12:39:33.276Z",
+      "matchedAt": "2026-08-23T20:28:12.409Z",
       "inventoryMatches": [],
       "marketMatches": [
         {
-          "score": 95,
-          "source": "WatchDrop",
-          "title": "Patek Philippe 5524R — Full Set",
-          "ref": "5524R-001",
-          "price": 34800,
-          "condition": "2020 · Full set · PRE OWNED",
-          "url": "https://www.inventoryconnect.io/watchdrop/150803"
-        },
-        {
-          "score": 90,
-          "source": "WatchDrop",
-          "title": "Patek Philippe Calatrava Pilot Travel Time 5524R — Full Set",
-          "ref": "5524R",
-          "price": 38499,
-          "condition": "2022 · Full set",
-          "url": "https://www.inventoryconnect.io/watchdrop/134703"
-        },
-        {
-          "score": 85,
-          "source": "WatchDrop",
-          "title": "Patek Philippe 5524R — Full Set",
-          "ref": "5524R",
-          "price": 42800,
-          "condition": "2026 · Full set · NEW",
-          "url": "https://www.inventoryconnect.io/watchdrop/145641"
-        },
-        {
-          "score": 82,
-          "source": "WatchDrop",
-          "title": "Patek Philippe 5524R — No box",
-          "ref": "5524R",
-          "price": 35600,
-          "condition": "2022 · Good condition · No box",
-          "url": "https://www.inventoryconnect.io/watchdrop/134703"
-        },
-        {
-          "score": 80,
-          "source": "WatchDrop",
-          "title": "Patek Philippe 5524R — Papers only",
-          "ref": "5524R",
-          "price": 35000,
-          "condition": "2019 · Mint · Papers only",
-          "url": "https://www.inventoryconnect.io/watchdrop/244641"
-        },
-        {
-          "score": 75,
-          "source": "WatchDrop",
-          "title": "Patek Philippe 5524R — New",
-          "ref": "5524R",
-          "price": null,
-          "condition": "2026 · Brand new · NTQ",
-          "url": "https://www.inventoryconnect.io/watchdrop/244641"
-        },
-        {
-          "score": 70,
+          "score": 100,
           "source": "European Watch Co",
-          "title": "Patek Philippe 5524R Rose Gold",
+          "title": "Patek Philippe 5524R Calatrava Pilot Travel Time 18K Rose Gold Brown Dial",
           "ref": "5524R",
           "price": 39900,
-          "condition": "PRE OWNED",
-          "url": "https://www.europeanwatch.com/watch/patek-philippe-5524r-001-5524r-calatrava-pilot-travel-time-18k-ro-70620"
+          "url": "https://www.europeanwatch.com/watch/patek-philippe-5524r-001-5524r-calatrava-pilot-travel-time-18k-ro-70620",
+          "imageUrl": "https://images.europeanwatch.com/images/70/70620-1.jpg",
+          "seller": null
         },
         {
-          "score": 65,
+          "score": 100,
           "source": "eBay",
-          "title": "Patek Philippe Calatrava Pilot Travel Time 5524R BOX PAPERS",
+          "title": "PAPERS Patek Philippe Calatrava Pilot Travel Time 18K GOLD 42mm 5524R Watch BOX",
           "ref": "5524R",
-          "price": 38753,
-          "condition": "PRE OWNED",
-          "url": "https://www.ebay.com/itm/278028673130"
+          "price": 39513,
+          "url": "https://www.ebay.com/itm/278028673130?_skw=Patek+Philippe+watch&hash=item40bbcce06a:g:MoMAAeSwg3NpxXk4",
+          "imageUrl": "https://i.ebayimg.com/images/g/MoMAAeSwg3NpxXk4/s-l225.jpg",
+          "seller": null
         },
         {
-          "score": 65,
+          "score": 100,
           "source": "eBay",
-          "title": "Patek Philippe Complications Calatrava Pilot 5524R",
+          "title": "Patek Philippe Complications Calatrava Pilot Travel Time Rose Gold 42mm 5524R",
           "ref": "5524R",
           "price": 40000,
-          "condition": "PRE OWNED",
-          "url": "https://www.ebay.com/itm/307137913965"
+          "url": "https://www.ebay.com/itm/307137913965?_skw=Patek+Philippe+watch&hash=item4782d8a46d:g:LJ8AAeSw2HNqh2VC",
+          "imageUrl": "https://i.ebayimg.com/images/g/LJ8AAeSw2HNqh2VC/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 60,
+          "source": "The 1916 Company",
+          "title": "PATEK PHILIPPE Complications Calatrava Pilot Travel Time \"Tiffany & Co 5524R-001",
+          "ref": "5524R-001",
+          "price": 54950,
+          "url": "https://www.the1916company.com/pre-owned/patek-philippe/complications/5007950/",
+          "imageUrl": "https://watchbox-cdn.imgix.net/posted-product-images/638741672230930608_pate911841_5007950_42-21.jpg?auto=format%2Ccompress&bg-remove=true&w=416&h=416&fit=fill&fill=solid&q=100&dpr=1"
         }
       ],
-      "icMatches": [
-        {
-          "score": 70,
-          "seller": "Hammatime Collection",
-          "name": "Patek Philippe Calatrava Pilot Travel Time 5524G Tiffany White Gold",
-          "ref": "5524G-001 T",
-          "price": 35700,
-          "condition": "2020 · Box & Papers · NOTE: White Gold variant (5524G), not Rose Gold (5524R)",
-          "source": "InventoryConnect Marketplace",
-          "imageUrl": null
-        }
-      ]
+      "icMatches": []
     },
     "sentAt": "2026-08-22T13:11:38.753Z"
   },
@@ -327,7 +274,7 @@
     "vercelId": "1787375204089",
     "submittedAt": "2026-08-22T05:06:44.089Z",
     "source": "public-form",
-    "status": "sent",
+    "status": "matched",
     "client": {
       "firstName": "Christopher",
       "lastName": "Mancuso",
@@ -345,7 +292,7 @@
     },
     "matches": {
       "wtbId": "17873752366560",
-      "matchedAt": "2026-08-22T12:20:29.371Z",
+      "matchedAt": "2026-08-23T20:28:32.003Z",
       "inventoryMatches": [
         {
           "score": 60,
@@ -376,6 +323,24 @@
           "url": "https://www.watchpatrol.net/listing/3427645/",
           "imageUrl": "https://img.watchpatrol.net/blafmIA1yMlirCSR1Vf4P00f6EkFxms1-0QS7SiPgJM/rs:fill:600:600/plain/img/full/1271f3681baf6baefa89df1a48ec2899b0761780.jpg",
           "seller": "xyz44"
+        },
+        {
+          "score": 60,
+          "source": "Artimeus",
+          "title": "Audemars Piguet Royal Oak 41mm 15400ST.OO.1220ST.04 – Grey Dial",
+          "ref": "15400ST.OO.1220ST.04",
+          "price": 49335,
+          "url": "https://artimeus.com/products/audemars-piguet-royal-oak-41mm-15400st-oo-1220st-04-grey-83749",
+          "imageUrl": "https://cdn.shopify.com/s/files/1/0934/9313/3675/files/83749.jpg?v=1786383913"
+        },
+        {
+          "score": 60,
+          "source": "Artimeus",
+          "title": "Audemars Piguet RG Black 15400or",
+          "ref": "15400or",
+          "price": 57500,
+          "url": "https://artimeus.com/products/audemars-piguet-15400or-4625aeb",
+          "imageUrl": "https://cdn.shopify.com/s/files/1/0934/9313/3675/files/audemars-piguet-15400or-4625aeb.jpg?v=1785529669"
         },
         {
           "score": 60,
@@ -469,6 +434,16 @@
         },
         {
           "score": 60,
+          "source": "European Watch Co",
+          "title": "Audemars Piguet 15400ST Royal Oak SS Silver Dial UNWORN",
+          "ref": "15400ST",
+          "price": 38900,
+          "url": "https://www.europeanwatch.com/watch/audemars-piguet-15400stoo1220st02-15400st-royal-oak-ss-silver-dia-71646",
+          "imageUrl": null,
+          "seller": null
+        },
+        {
+          "score": 60,
           "source": "eBay",
           "title": "AUDEMARS PIGUET Royal Oak 41 | Rhodium Dial | Ref. 15400ST.OO.1220ST.04 | FS",
           "ref": "15400ST",
@@ -486,36 +461,6 @@
           "url": "https://www.ebay.com/itm/158144007654?_skw=Audemars+Piguet+watch&hash=item24d21e0de6:g:pKQAAeSw529qbk32",
           "imageUrl": "https://i.ebayimg.com/images/g/pKQAAeSw529qbk32/s-l225.jpg",
           "seller": null
-        },
-        {
-          "score": 60,
-          "source": "eBay",
-          "title": "Audemars Piguet Royal Oak BLACK 41mm Stainless Watch 15400ST.OO.1220ST.01 BOX",
-          "ref": "15400ST",
-          "price": 35353,
-          "url": "https://www.ebay.com/itm/158030079411?_skw=Audemars+Piguet+watch&hash=item24cb53a5b3:g:b8AAAeSwF4FqPtYh",
-          "imageUrl": "https://i.ebayimg.com/images/g/b8AAAeSwF4FqPtYh/s-l225.jpg",
-          "seller": null
-        },
-        {
-          "score": 60,
-          "source": "eBay",
-          "title": "Audemars Piguet Royal Oak 41mm 15400OR Pink Gold Black Strap 2014 ",
-          "ref": "15400OR",
-          "price": 43999,
-          "url": "https://www.ebay.com/itm/147497440357?_skw=Audemars+Piguet+watch&hash=item2257885465:g:IO0AAeSwLxRqewcA",
-          "imageUrl": "https://i.ebayimg.com/images/g/IO0AAeSwLxRqewcA/s-l225.jpg",
-          "seller": null
-        },
-        {
-          "score": 60,
-          "source": "eBay",
-          "title": "Audemars Piguet Royal Oak Selfwinding 41mm Slate Grey Dial 15400ST.OO.1220ST.04",
-          "ref": "15400ST",
-          "price": 42500,
-          "url": "https://www.ebay.com/itm/128018359282?_skw=Audemars+Piguet+watch&hash=item1dce7d23f2:g:k6EAAeSwrKZqeREp",
-          "imageUrl": "https://i.ebayimg.com/images/g/k6EAAeSwrKZqeREp/s-l225.jpg",
-          "seller": null
         }
       ],
       "icMatches": []
@@ -526,7 +471,7 @@
     "id": "1787314087432",
     "submittedAt": "2026-08-21T12:08:07.432Z",
     "source": "manual",
-    "status": "sent",
+    "status": "matched",
     "client": {
       "firstName": "Chris",
       "lastName": "Mancuso",
@@ -542,7 +487,7 @@
     },
     "matches": {
       "wtbId": "1787314087432",
-      "matchedAt": "2026-08-22T04:58:42.372Z",
+      "matchedAt": "2026-08-23T20:29:17.365Z",
       "inventoryMatches": [
         {
           "score": 100,
