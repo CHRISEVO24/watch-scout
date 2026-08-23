@@ -45,6 +45,66 @@
       ],
       "marketMatches": [
         {
+          "score": 98,
+          "source": "WatchDrop",
+          "title": "Rolex Submariner 126619LB",
+          "ref": "126619LB",
+          "price": 34500,
+          "condition": "2021 - Used - Full links",
+          "url": "https://www.inventoryconnect.io/watchdrop/278422",
+          "imageUrl": null
+        },
+        {
+          "score": 96,
+          "source": "WatchDrop",
+          "title": "Rolex Submariner Date 126619LB Full Set",
+          "ref": "126619LB",
+          "price": 37500,
+          "condition": "2023 - Complete - Light polish",
+          "url": "https://www.inventoryconnect.io/watchdrop/276274",
+          "imageUrl": null
+        },
+        {
+          "score": 94,
+          "source": "WatchDrop",
+          "title": "Rolex Submariner 126619LB Watch Only",
+          "ref": "126619LB",
+          "price": 33500,
+          "condition": "Naked watch only",
+          "url": "https://www.inventoryconnect.io/watchdrop/262300",
+          "imageUrl": null
+        },
+        {
+          "score": 92,
+          "source": "WatchDrop",
+          "title": "Rolex Submariner 126619LB Full Set",
+          "ref": "126619LB",
+          "price": 35200,
+          "condition": "2021 - Full set",
+          "url": "https://www.inventoryconnect.io/watchdrop/261232",
+          "imageUrl": null
+        },
+        {
+          "score": 90,
+          "source": "WatchDrop",
+          "title": "Rolex Submariner 126619LB Papers Only",
+          "ref": "126619LB",
+          "price": 36000,
+          "condition": "Papers only",
+          "url": "https://www.inventoryconnect.io/watchdrop/261080",
+          "imageUrl": null
+        },
+        {
+          "score": 88,
+          "source": "WatchDrop",
+          "title": "Rolex Submariner Date 126619LB",
+          "ref": "126619LB",
+          "price": 37000,
+          "condition": "2024 - Pre-owned good unpolished",
+          "url": "https://www.inventoryconnect.io/watchdrop/230403",
+          "imageUrl": null
+        },
+        {
           "score": 100,
           "source": "Chrono24",
           "title": "Rolex Submariner Date Oyster Perpetual 41mm 18k White Gold Black Dial Ceramic Blue Bezel 126619LB",
@@ -133,21 +193,11 @@
           "url": null,
           "imageUrl": null,
           "seller": null
-        },
-        {
-          "score": 100,
-          "source": "InventoryConnect Marketplace",
-          "title": "WANTED: ROLEX SUBMARINER - Ref. 126619LB · full_set · 2021–2026 - Up to $36,000.00",
-          "ref": "126619LB",
-          "price": 36000,
-          "url": null,
-          "imageUrl": null,
-          "seller": "Grailtown Luxury Timepieces"
         }
       ],
       "icMatches": []
     },
-    "sentAt": "2026-08-23T03:50:53.028Z"
+    "sentAt": "2026-08-23T03:53:16.483Z"
   },
   {
     "id": "17874019030680",

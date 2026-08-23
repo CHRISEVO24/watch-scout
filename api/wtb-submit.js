@@ -51,6 +51,88 @@ function fmtPrice(p) {
   return isNaN(n) ? String(p) : "$" + Math.round(n).toLocaleString();
 }
 
+
+// Zoho CRM - create/update contact and add WTB note
+async function syncToZoho(submission) {
+  try {
+    const { firstName, lastName, email, phone, brand, model, ref, budgetMax, condition, boxPapers, notes } = submission;
+    
+    const tokenRes = await fetch("https://accounts.zoho.com/oauth/v2/token", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams({
+        grant_type: "refresh_token",
+        client_id: process.env.ZOHO_CLIENT_ID,
+        client_secret: process.env.ZOHO_CLIENT_SECRET,
+        refresh_token: process.env.ZOHO_REFRESH_TOKEN,
+      }),
+    });
+    const tokenData = await tokenRes.json();
+    const accessToken = tokenData.access_token;
+    if (!accessToken) throw new Error("Failed to get Zoho access token");
+
+    const headers = {
+      "Authorization": `Zoho-oauthtoken ${accessToken}`,
+      "Content-Type": "application/json",
+    };
+
+    // Upsert contact by email - assigned to Chris Mancuso
+    const contactData = {
+      data: [{
+        First_Name: firstName || "",
+        Last_Name: lastName || "Unknown",
+        Email: email,
+        Phone: phone || "",
+        Lead_Source: "WTB Form - Watch Scout",
+        Owner: { id: "5902281000017529013" },
+      }],
+      duplicate_check_fields: ["Email"],
+    };
+
+    const contactRes = await fetch("https://www.zohoapis.com/crm/v2/Contacts/upsert", {
+      method: "POST",
+      headers,
+      body: JSON.stringify(contactData),
+    });
+    const contactJson = await contactRes.json();
+    const contactId = contactJson?.data?.[0]?.details?.id;
+    if (!contactId) throw new Error("Failed to create/find Zoho contact: " + JSON.stringify(contactJson));
+
+    // Add WTB note
+    const noteContent = [
+      "WTB Request — Watch Scout",
+      `Brand: ${brand || ""}`,
+      model ? `Model: ${model}` : null,
+      ref ? `Reference: ${ref}` : null,
+      budgetMax ? `Budget: $${Number(budgetMax).toLocaleString()}` : null,
+      condition ? `Condition: ${condition}` : null,
+      boxPapers ? `Box & Papers: ${boxPapers}` : null,
+      notes ? `Notes: ${notes}` : null,
+      `Submitted: ${new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}`,
+    ].filter(Boolean).join("\n");
+
+    await fetch("https://www.zohoapis.com/crm/v2/Notes", {
+      method: "POST",
+      headers,
+      body: JSON.stringify({
+        data: [{
+          Note_Title: `WTB: ${brand || ""} ${ref || model || ""}`.trim(),
+          Note_Content: noteContent,
+          Parent_Id: contactId,
+          se_module: "Contacts",
+          Owner: { id: "5902281000017529013" },
+        }],
+      }),
+    });
+
+    console.log(`[Zoho] Contact upserted: ${email} (ID: ${contactId})`);
+    return { ok: true, contactId };
+  } catch (err) {
+    console.error("[Zoho] Error:", err.message);
+    return { ok: false, error: err.message };
+  }
+}
+
 export default async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
@@ -223,6 +305,9 @@ ${icMatches.length ? `
         }),
       });
     }
+
+    // Sync to Zoho CRM
+    syncToZoho({ firstName, lastName, email, phone, brand, model, ref, budgetMax, condition, boxPapers, notes }).catch(e => console.error("[Zoho] sync failed:", e.message));
 
     // Save to pending queue for Watch Scout sync
     await saveToPending({ id: Date.now().toString(), firstName, lastName, email, phone, brand, model, ref, budgetMax, condition, boxPapers, notes, submittedAt: new Date().toISOString() });
