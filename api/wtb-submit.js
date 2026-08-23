@@ -147,7 +147,8 @@ export default async function handler(req, res) {
     <p style="font-size:15px;color:#111;margin:0 0 8px;">Hi ${firstName || "there"},</p>
     <p style="font-size:14px;color:#374151;line-height:1.6;margin:0;">
       Thank you for your watch request. We searched our inventory and the full pre-owned market for your
-      <strong>${brand} ${model || ""} ${ref ? "· Ref. " + ref : ""}</strong>${budgetMax ? " (budget up to $" + Number(budgetMax).toLocaleString() + ")" : ""}.
+      <strong>${brand} ${model || ""} ${ref ? "· Ref. " + ref : ""}</strong>.
+      ${budgetMax ? "<br>Your target budget is <strong>$" + Number(budgetMax).toLocaleString() + "</strong>. We've included some options above this range so you have full visibility into what's available." : ""}
       Here's what we found (${totalMatches} total matches):
     </p>
   </div>
