@@ -26,14 +26,16 @@ function run() {
   const swisswatchexpo = loadSafe("swisswatchexpo-latest.json");
   const watchlimit = loadSafe("watchlimit-latest.json");
   const the1916company = loadSafe("the1916company-latest.json");
+  const watchesoff5th = loadSafe("watchesoff5th-latest.json");
+  const affordableswiss = loadSafe("affordableswiss-latest.json");
 
-  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel, ...inventoryconnect, ...artimeus, ...swisswatchexpo, ...watchlimit, ...the1916company].sort(
+  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel, ...inventoryconnect, ...artimeus, ...swisswatchexpo, ...watchlimit, ...the1916company, ...watchesoff5th, ...affordableswiss].sort(
     (a, b) => (a.postedMinutesAgo ?? 99999) - (b.postedMinutesAgo ?? 99999)
   );
 
   fs.writeFileSync(OUT_FILE, JSON.stringify(combined, null, 2), "utf8");
   console.log(
-    `Merged ${watchrecon.length} WatchRecon + ${watchpatrol.length} WatchPatrol + ${chrono24.length} Chrono24 + ${bobswatches.length} Bob's Watches + ${europeanwatch.length} European Watch + ${fbgroups.length} FB Group + ${fbmarketplace.length} FB Marketplace + ${ebay.length} eBay + ${whatsapp.length} WhatsApp + ${bezel.length} Bezel + ${inventoryconnect.length} InventoryConnect + ${artimeus.length} Artimeus + ${swisswatchexpo.length} SwissWatchExpo + ${watchlimit.length} WatchLimit + ${the1916company.length} The1916Company listings → data/combined.json (${combined.length} total)`
+    `Merged ${watchrecon.length} WatchRecon + ${watchpatrol.length} WatchPatrol + ${chrono24.length} Chrono24 + ${bobswatches.length} Bob's Watches + ${europeanwatch.length} European Watch + ${fbgroups.length} FB Group + ${fbmarketplace.length} FB Marketplace + ${ebay.length} eBay + ${whatsapp.length} WhatsApp + ${bezel.length} Bezel + ${inventoryconnect.length} InventoryConnect + ${artimeus.length} Artimeus + ${swisswatchexpo.length} SwissWatchExpo + ${watchlimit.length} WatchLimit + ${the1916company.length} The1916Company + ${watchesoff5th.length} WatchesOFF5TH + ${affordableswiss.length} AffordableSwiss listings → data/combined.json (${combined.length} total)`
   );
 }
 
