@@ -7,7 +7,8 @@ const OUT_FILE = path.join(DATA_DIR, "watchesoff5th-latest.json");
 
 function normalizeItem(p) {
   const variant = p.variants?.[0] || {};
-  const price = parseFloat(variant.price || "0");
+  const available = variant.available === true;
+  const price = available ? parseFloat(variant.price || "0") : null;
   const ref = p.tags?.find(t => /^[0-9]{4,6}[a-z]*/i.test(t) && !["pre-owned","papers","box","brand"].some(x=>t.toLowerCase().startsWith(x))) || null;
   return {
     id: `wo5-${p.id}`,
@@ -35,7 +36,7 @@ async function scrape() {
       headers: { "User-Agent": "Mozilla/5.0" }, timeout: 30000
     });
     if (!data.products?.length) break;
-    data.products.filter(p => p.product_type === "Watch" && p.variants?.[0]?.available).forEach(p => items.push(normalizeItem(p)));
+    data.products.filter(p => p.product_type === "Watch" && p.variants?.[0]?.price).forEach(p => items.push(normalizeItem(p)));
     if (data.products.length < 250) break;
     page++;
     await new Promise(r => setTimeout(r, 500));

@@ -15,7 +15,8 @@ function normalizeRef(ref) {
 }
 
 function scoreMatch(item, wtb) {
-  const itemRef = normalizeRef(item.ref);
+  // Extract ref from title if not stored directly
+  const itemRef = normalizeRef(item.ref || (item.title ? (item.title.match(/([0-9]{3,6}[A-Z]{0,4})/i)||[])[1] : null));
   const wtbRef = normalizeRef(wtb.ref);
   const itemText = [item.brand, item.model, item.ref, item.title, item.name].filter(Boolean).join(" ").toLowerCase();
 

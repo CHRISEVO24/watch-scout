@@ -7,7 +7,8 @@ const OUT_FILE = path.join(DATA_DIR, "exquisitetimepieces-latest.json");
 
 function normalizeItem(p) {
   const variant = p.variants?.[0] || {};
-  const price = parseFloat(variant.price || "0");
+  const available = variant.available === true;
+  const price = available ? parseFloat(variant.price || "0") : null;
   const sku = variant.sku || null;
   const tags = p.tags || [];
   const isPreOwned = tags.some(t => t.toLowerCase().includes("pre-owned") || t.toLowerCase().includes("preowned") || t.toLowerCase().includes("used"));

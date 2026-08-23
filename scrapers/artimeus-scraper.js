@@ -7,7 +7,8 @@ const OUT_FILE = path.join(DATA_DIR, "artimeus-latest.json");
 
 function normalizeItem(p) {
   const variant = p.variants?.[0] || {};
-  const price = parseFloat(variant.price || "0");
+  const available = variant.available === true;
+  const price = available ? parseFloat(variant.price || "0") : null;
   const tags = (p.tags || []).map(t => t.toLowerCase());
   const ref = p.tags?.find(t => /^[0-9]{4,6}[a-z]*/i.test(t) && !["pre-owned","papers","box"].includes(t.toLowerCase())) || null;
   return {
@@ -35,7 +36,7 @@ async function scrape() {
     const url = `https://artimeus.com/products.json?limit=250&page=${page}`;
     const { data } = await axios.get(url, { headers: { "User-Agent": "Mozilla/5.0" }, timeout: 30000 });
     if (!data.products?.length) break;
-    data.products.filter(p => p.product_type === "Watch" && p.variants?.[0]?.available).forEach(p => items.push(normalizeItem(p)));
+    data.products.filter(p => p.product_type === "Watch" && p.variants?.[0]?.price).forEach(p => items.push(normalizeItem(p)));
     if (data.products.length < 250) break;
     page++;
     await new Promise(r => setTimeout(r, 500));
