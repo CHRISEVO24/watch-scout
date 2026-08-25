@@ -22,9 +22,27 @@
     },
     "matches": {
       "wtbId": "17876189980770",
-      "matchedAt": "2026-08-25T11:19:29.997Z",
+      "matchedAt": "2026-08-25T13:13:22.044Z",
       "inventoryMatches": [],
       "marketMatches": [
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "57121r 001",
+          "ref": "57121R",
+          "price": 268205,
+          "url": "https://www.chrono24.com/patekphilippe/57121r-001--id47771008.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Patek Philippe 57121r Nautilus Rose Gold 2025",
+          "ref": "57121R",
+          "price": 320000,
+          "url": "https://www.chrono24.com/patekphilippe/patek-philippe-57121r-nautilus-rose-gold-2025--id27305094.htm",
+          "imageUrl": null
+        },
         {
           "score": 100,
           "source": "Chrono24",
@@ -32,6 +50,15 @@
           "ref": "57121R",
           "price": 276500,
           "url": "https://www.chrono24.com/patekphilippe/nautilus-57121r-001-moon-phases-rose-gold--id47493162.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Patek Philippe Nautilus 57121r   2024  Deutschland   Neu  Ungetragen   Fullset",
+          "ref": "57121R",
+          "price": 305107,
+          "url": "https://www.chrono24.com/patekphilippe/patek-philippe-nautilus-57121r---2024--deutschland---neu--ungetragen---fullset--id48075107.htm",
           "imageUrl": null
         },
         {
@@ -51,6 +78,15 @@
           "price": 310000,
           "url": "https://www.watchesoff5th.com/products/patek-philippe-nautilus-moon-phase-rose-gold-40mm-brown-black-dial-5712-1r-001",
           "imageUrl": "https://cdn.shopify.com/s/files/1/0257/0017/1839/products/patek-philippe-nautilus-moon-phase-rose-gold-40mm-brown-black-dial-57121r-915364.jpg?v=1692307449"
+        },
+        {
+          "score": 60,
+          "source": "Chrono24",
+          "title": "Patek Philippe Nautilus 5712   Full Set   2018   Excellent Condition",
+          "ref": "5712",
+          "price": 142152,
+          "url": "https://www.chrono24.com/patekphilippe/patek-philippe-nautilus-5712---full-set---2018---excellent-condition--id48083776.htm",
+          "imageUrl": null
         },
         {
           "score": 60,
