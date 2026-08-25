@@ -1,5 +1,159 @@
 [
   {
+    "id": "17876189980770",
+    "vercelId": "1787607363868",
+    "submittedAt": "2026-08-24T21:36:03.868Z",
+    "source": "public-form",
+    "status": "matched",
+    "client": {
+      "firstName": "Chris",
+      "lastName": "Mancuso",
+      "email": "mangook@Yahoo.com",
+      "phone": "5614415831"
+    },
+    "watch": {
+      "brand": "Patel Phillipe",
+      "model": "",
+      "ref": "5712/1r",
+      "budgetMax": "",
+      "condition": "",
+      "boxPapers": "both",
+      "notes": ""
+    },
+    "matches": {
+      "wtbId": "17876189980770",
+      "matchedAt": "2026-08-25T11:19:29.997Z",
+      "inventoryMatches": [],
+      "marketMatches": [
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Nautilus 57121r 001 Moon Phases Rose Gold",
+          "ref": "57121R",
+          "price": 276500,
+          "url": "https://www.chrono24.com/patekphilippe/nautilus-57121r-001-moon-phases-rose-gold--id47493162.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Nautilus 40mm Brown Stick Dial Watch Ref  57121r 001",
+          "ref": "57121R",
+          "price": 323000,
+          "url": "https://www.chrono24.com/patekphilippe/nautilus-40mm-brown-stick-dial-watch-ref--57121r-001--id47672549.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 60,
+          "source": "Watches OFF 5TH",
+          "title": "Patek Philippe Nautilus Moon Phase Rose Gold 40mm Brown Black Dial 5712/1R-001",
+          "ref": null,
+          "price": 310000,
+          "url": "https://www.watchesoff5th.com/products/patek-philippe-nautilus-moon-phase-rose-gold-40mm-brown-black-dial-5712-1r-001",
+          "imageUrl": "https://cdn.shopify.com/s/files/1/0257/0017/1839/products/patek-philippe-nautilus-moon-phase-rose-gold-40mm-brown-black-dial-57121r-915364.jpg?v=1692307449"
+        },
+        {
+          "score": 60,
+          "source": "European Watch Co",
+          "title": "Patek Philippe 5712/1A Nautilus SS Blue Dial",
+          "ref": "5712",
+          "price": 135000,
+          "url": "https://www.europeanwatch.com/watch/patek-philippe-5712-1a-001-5712-1a-nautilus-ss-blue-dial-70137",
+          "imageUrl": "https://images.europeanwatch.com/images/70/70137-1.jpg",
+          "seller": null
+        },
+        {
+          "score": 60,
+          "source": "Bezel",
+          "title": "Patek Philippe Nautilus Moon Phases Rose Gold",
+          "ref": "5712/1R-001",
+          "price": 251000,
+          "url": "https://shop.getbezel.com/watches/patek-philippe/nautilus-moon-phases-rose-gold",
+          "imageUrl": null,
+          "seller": null
+        },
+        {
+          "score": 60,
+          "source": "Watches OFF 5TH",
+          "title": "Patek Philippe Nautilus Moon Phase Stainless Steel/ Blue Date Dial (Ref#5712/1A-001) NEW STYLE BUCKLE",
+          "ref": null,
+          "price": 185000,
+          "url": "https://www.watchesoff5th.com/products/patek-philippe-nautilus-moon-phase-stainless-steel-blue-date-dial-ref-5712-1a-001-new-style-buckle",
+          "imageUrl": "https://cdn.shopify.com/s/files/1/0257/0017/1839/products/patek-philippe-nautilus-moon-phase-stainless-steel-blue-date-dial-ref57121a-001-560538.jpg?v=1679412590"
+        },
+        {
+          "score": 60,
+          "source": "Watches OFF 5TH",
+          "title": "Patek Philippe Nautilus Moon Phase Stainless Steel/ Blue Date Dial (Ref#5712/1A-001)",
+          "ref": null,
+          "price": 175000,
+          "url": "https://www.watchesoff5th.com/products/patek-philippe-nautilus-moon-phase-stainless-steel-blue-date-dial-ref-5712-1a-001-new-buckle",
+          "imageUrl": "https://cdn.shopify.com/s/files/1/0257/0017/1839/products/patek-philippe-nautilus-moon-phase-stainless-steel-blue-date-dial-ref57121a-001-560538.jpg?v=1679412590"
+        },
+        {
+          "score": 60,
+          "source": "Watches OFF 5TH",
+          "title": "Patek Philippe Nautilus Moon Phase Rose Gold 40mm Brown Black Dial 5712/1R-001",
+          "ref": null,
+          "price": 280000,
+          "url": "https://www.watchesoff5th.com/products/patek-philippe-nautilus-moon-phase-rose-gold-40mm-brown-black-dial-5712-1r",
+          "imageUrl": "https://cdn.shopify.com/s/files/1/0257/0017/1839/products/patek-philippe-nautilus-moon-phase-rose-gold-40mm-brown-black-dial-57121r-915364.jpg?v=1692307449"
+        }
+      ],
+      "icMatches": []
+    },
+    "sentAt": "2026-08-25T00:54:14.374Z"
+  },
+  {
+    "id": "17875986674870",
+    "vercelId": "1787587144522",
+    "submittedAt": "2026-08-24T15:59:04.522Z",
+    "source": "public-form",
+    "status": "matched",
+    "client": {
+      "firstName": "Christopher",
+      "lastName": "Mancuso",
+      "email": "mangook@yahoo.com",
+      "phone": ""
+    },
+    "watch": {
+      "brand": "Brequet",
+      "model": "",
+      "ref": "5847BR",
+      "budgetMax": "",
+      "condition": "",
+      "boxPapers": "",
+      "notes": ""
+    },
+    "matches": {
+      "wtbId": "17875986674870",
+      "matchedAt": "2026-08-25T11:19:34.868Z",
+      "inventoryMatches": [],
+      "marketMatches": [
+        {
+          "score": 60,
+          "source": "Chrono24",
+          "title": "Marine Royal Alarm Rose Gold Rubber Gold Dial 45mm 5847",
+          "ref": "5847",
+          "price": 34750,
+          "url": "https://www.chrono24.com/breguet/marine-royal-alarm-rose-gold-rubber-gold-dial-45mm-5847--id47532188.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 60,
+          "source": "Chrono24",
+          "title": "Marine Royale 5847 18k White Gold Mens Watch",
+          "ref": "5847",
+          "price": 36750,
+          "url": "https://www.chrono24.com/breguet/marine-royale-5847-18k-white-gold-mens-watch--id46155600.htm",
+          "imageUrl": null
+        }
+      ],
+      "icMatches": []
+    },
+    "sentAt": "2026-08-24T19:15:29.881Z"
+  },
+  {
     "id": "17875187687151",
     "vercelId": "1787518061286",
     "submittedAt": "2026-08-23T20:47:41.286Z",
@@ -112,7 +266,7 @@
         {
           "score": 100,
           "store": "WPB Watch Co",
-          "name": "Rolex Submariner Date \u201cCookie Monster\u201d White Gold Black Dial 126619LB",
+          "name": "Rolex Submariner Date “Cookie Monster” White Gold Black Dial 126619LB",
           "ref": "126619LB",
           "price": 38500,
           "url": "https://wpbwatchco.com/product/rolex-submariner-date-cookie-monster-white-gold-black-dial-126619lb/",
@@ -123,7 +277,7 @@
         {
           "score": 100,
           "source": "Artimeus",
-          "title": "Rolex Submariner Date 41mm White Gold Blue Bezel 126619LB \u2013 Black Dial",
+          "title": "Rolex Submariner Date 41mm White Gold Blue Bezel 126619LB – Black Dial",
           "ref": "126619LB",
           "price": 42838,
           "url": "https://artimeus.com/products/rolex-submariner-date-41mm-white-gold-blue-bezel-126619lb-black-57347",
@@ -132,7 +286,7 @@
         {
           "score": 100,
           "source": "Artimeus",
-          "title": "Rolex Submariner Date 41mm White Gold Blue Bezel 126619LB \u2013 Black Dial",
+          "title": "Rolex Submariner Date 41mm White Gold Blue Bezel 126619LB – Black Dial",
           "ref": "126619LB",
           "price": 41860,
           "url": "https://artimeus.com/products/rolex-submariner-date-41mm-white-gold-blue-bezel-126619lb-black-33829",
@@ -231,7 +385,7 @@
         {
           "score": 100,
           "source": "InventoryConnect Marketplace",
-          "title": "WANTED: ROLEX SUBMARINER - Ref. 126619LB \u00b7 full_set \u00b7 2021\u20132026 - Up to $36,000.00",
+          "title": "WANTED: ROLEX SUBMARINER - Ref. 126619LB · full_set · 2021–2026 - Up to $36,000.00",
           "ref": "126619LB",
           "price": 36000,
           "url": null,
@@ -306,7 +460,7 @@
         {
           "score": 100,
           "store": "WPB Watch Co",
-          "name": "Rolex Submariner Date \u201cCookie Monster\u201d White Gold Black Dial 126619LB",
+          "name": "Rolex Submariner Date “Cookie Monster” White Gold Black Dial 126619LB",
           "ref": "126619LB",
           "price": 38500,
           "url": "https://wpbwatchco.com/product/rolex-submariner-date-cookie-monster-white-gold-black-dial-126619lb/",
@@ -597,7 +751,7 @@
         {
           "score": 60,
           "source": "Artimeus",
-          "title": "Audemars Piguet Royal Oak 41mm 15400ST.OO.1220ST.04 \u2013 Grey Dial",
+          "title": "Audemars Piguet Royal Oak 41mm 15400ST.OO.1220ST.04 – Grey Dial",
           "ref": "15400ST.OO.1220ST.04",
           "price": 49335,
           "url": "https://artimeus.com/products/audemars-piguet-royal-oak-41mm-15400st-oo-1220st-04-grey-83749",
@@ -881,7 +1035,7 @@
         {
           "score": 100,
           "source": "WatchPatrol",
-          "title": "1999 Rolex Explorer 2 40mm Ref 16570 Black \u201cSwiss Only\u201d Dial Just Serviced! $7,775",
+          "title": "1999 Rolex Explorer 2 40mm Ref 16570 Black “Swiss Only” Dial Just Serviced! $7,775",
           "ref": "16570",
           "price": 7775,
           "url": "https://www.watchpatrol.net/listing/3653288/",
@@ -901,7 +1055,7 @@
         {
           "score": 100,
           "source": "WatchPatrol",
-          "title": "Rolex Explorer II 16570 Polar \u2014 D Serial | 12 Links | Excellent Condition",
+          "title": "Rolex Explorer II 16570 Polar — D Serial | 12 Links | Excellent Condition",
           "ref": "16570",
           "price": 7999,
           "url": "https://www.watchpatrol.net/listing/3652913/",
