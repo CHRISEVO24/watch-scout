@@ -1,15 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-25T11:21:48.456Z",
-    "query": "Anonimo watch",
-    "count": 46
-  },
-  {
-    "scrapedAt": "2026-08-25T11:21:49.571Z",
-    "query": "Audemars Piguet watch",
-    "count": 131
-  },
-  {
     "scrapedAt": "2026-08-25T11:21:51.036Z",
     "query": "Breitling watch",
     "count": 125
@@ -98,5 +88,15 @@
     "scrapedAt": "2026-08-25T11:22:13.290Z",
     "query": "Vacheron Constantin watch",
     "count": 129
+  },
+  {
+    "scrapedAt": "2026-08-25T13:16:42.537Z",
+    "query": "Breguet",
+    "count": 104
+  },
+  {
+    "scrapedAt": "2026-08-25T13:17:32.581Z",
+    "query": "Breguet",
+    "count": 104
   }
 ]

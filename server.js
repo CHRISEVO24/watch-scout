@@ -58,6 +58,36 @@ function loadAllSources() {
   return { combined, watchrecon, watchpatrol, chrono24, bobswatches, europeanwatch, fbgroups, fbmarketplace, ebay, whatsapp, bezel };
 }
 
+app.get("/api/filter", (req, res) => {
+  const { q, src, brand, color, pMin, pMax, age, sort, limit } = req.query;
+  const combined = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "combined.json"), "utf8"));
+  
+  function nrm(s) { return (s||"").toLowerCase().replace(/[^a-z0-9]/g,""); }
+  const qn = nrm(q);
+  
+  let items = combined.filter(i => {
+    if(src && i.source !== src) return false;
+    if(brand && (i.brand||"").toLowerCase() !== brand.toLowerCase()) return false;
+    if(color && i.dialColor !== color) return false;
+    if(pMin && (i.price||0) < parseFloat(pMin)) return false;
+    if(pMax && (i.price||0) > parseFloat(pMax)) return false;
+    if(age && (i.postedMinutesAgo==null || i.postedMinutesAgo > parseInt(age))) return false;
+    if(qn) {
+      const h = nrm([i.brand,i.model,i.ref,i.title].join(" "));
+      if(!h.includes(qn)) return false;
+    }
+    return true;
+  });
+
+  if(sort==="new") items.sort((a,b)=>(a.postedMinutesAgo??99999)-(b.postedMinutesAgo??99999));
+  else if(sort==="asc") items.sort((a,b)=>(a.price||0)-(b.price||0));
+  else items.sort((a,b)=>(b.price||0)-(a.price||0));
+
+  const total = items.length;
+  items = items.slice(0, parseInt(limit)||200);
+  res.json({ count: total, listings: items });
+});
+
 app.get("/api/search", async (req, res) => {
   const term = (req.query.q || "").toString().trim();
 
