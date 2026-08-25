@@ -7,18 +7,26 @@ const LATEST_FILE = path.join(DATA_DIR, "chrono24-latest.json");
 const HISTORY_FILE = path.join(DATA_DIR, "chrono24-history.json");
 
 const BRANDS = [
+  { name: "Rolex", slug: "rolex" },
   { name: "Patek Philippe", slug: "patekphilippe" },
   { name: "Audemars Piguet", slug: "audemarspiguet" },
   { name: "Vacheron Constantin", slug: "vacheronconstantin" },
   { name: "A. Lange & Söhne", slug: "alangesoehne" },
+  { name: "Breguet", slug: "breguet" },
   { name: "Richard Mille", slug: "richardmille" },
   { name: "F.P. Journe", slug: "fpjourne" },
   { name: "MB&F", slug: "mbf" },
   { name: "H. Moser & Cie", slug: "hmoser" },
+  { name: "Omega", slug: "omega" },
+  { name: "Cartier", slug: "cartier" },
   { name: "Jaeger-LeCoultre", slug: "jaegerlecoultre" },
   { name: "IWC", slug: "iwc" },
+  { name: "Panerai", slug: "panerai" },
   { name: "Grand Seiko", slug: "grandseiko" },
+  { name: "Blancpain", slug: "blancpain" },
   { name: "Girard-Perregaux", slug: "girardperregaux" },
+  { name: "Hublot", slug: "hublot" },
+  { name: "Zenith", slug: "zenith" },
 ];
 
 const PRICE_BANDS = [
@@ -63,6 +71,10 @@ async function scrapeTarget(page, slug, from, to, sortorder) {
           i.src && i.src.includes('chrono24') && !i.src.includes('svg')
         )?.src || null;
         const idMatch = link.href.match(/--id(\d+)/);
+        // Filter non-US sellers by checking card text
+        const cardText = card.textContent || '';
+        const nonUS = /(Hong Kong|Japan|Germany|China|Switzerland|Netherlands|France|Italy|Spain|Austria|Belgium|Australia|Singapore|Korea|Taiwan)/i.test(cardText);
+        if (nonUS) return;
         results.push({ href: link.href, price: isNaN(price) ? null : price, img, id: idMatch?.[1] });
       });
       return results;
