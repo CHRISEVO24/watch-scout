@@ -20,12 +20,37 @@ function scoreMatch(item, wtb) {
   const wtbRef = normalizeRef(wtb.ref);
   const itemText = [item.brand, item.model, item.ref, item.title, item.name].filter(Boolean).join(" ").toLowerCase();
 
+  // HARD FILTER: Dial color — if specified, must match
+  if (wtb.dialColor && wtb.dialColor !== "Any color" && wtb.dialColor !== "") {
+    const itemColor = (item.dialColor || item.color || "").toLowerCase();
+    const titleColor = itemText;
+    const wtbColor = wtb.dialColor.toLowerCase();
+    if (itemColor && itemColor !== wtbColor) return 0; // item has color and it doesn't match
+    if (!itemColor && !titleColor.includes(wtbColor)) return 0; // no color field, not in title
+  }
+
+  // HARD FILTER: Condition — if specified, must be close match
+  if (wtb.condition && wtb.condition !== "Any condition" && wtb.condition !== "") {
+    const itemCond = (item.condition || "").toLowerCase();
+    const wtbCond = wtb.condition.toLowerCase();
+    if (wtbCond === "unworn / new" || wtbCond === "unworn") {
+      if (itemCond && !["unworn","new","brand new"].some(c => itemCond.includes(c))) return 0;
+    }
+    // For other conditions we're more lenient — just score, don't hard filter
+  }
+
+  // HARD FILTER: Budget — reject anything over 1.3x budget
+  if (wtb.budgetMax && item.price) {
+    const p = typeof item.price === "string" ? parseFloat(item.price.replace(/[^0-9.]/g, "")) : item.price;
+    if (!isNaN(p) && p > wtb.budgetMax * 1.3) return 0;
+  }
+
   // If ref is specified, ONLY match on ref — brand/model alone is not enough
   if (wtbRef) {
-    if (!itemRef) return 0; // item has no ref, skip
-    if (itemRef === wtbRef) return 100; // exact ref match
-    if (itemRef.startsWith(wtbRef) || wtbRef.startsWith(itemRef)) return 60; // partial ref match
-    return 0; // ref doesn't match at all — reject
+    if (!itemRef) return 0;
+    if (itemRef === wtbRef) return 100;
+    if (itemRef.startsWith(wtbRef) || wtbRef.startsWith(itemRef)) return 60;
+    return 0;
   }
 
   // No ref specified — match on brand + model keywords
@@ -35,13 +60,14 @@ function scoreMatch(item, wtb) {
     const words = wtb.model.toLowerCase().split(/\s+/).filter(w => w.length > 3);
     const matched = words.filter(w => itemText.includes(w));
     if (matched.length >= Math.ceil(words.length * 0.7)) score += matched.length * 10;
-    else return 0; // not enough model words match
+    else return 0;
   }
 
-  // Budget check
-  if (wtb.budgetMax && item.price) {
-    const p = typeof item.price === "string" ? parseFloat(item.price.replace(/[^0-9.]/g, "")) : item.price;
-    if (!isNaN(p) && p > wtb.budgetMax * 1.2) return 0;
+  // BONUS: Box & Papers match
+  if (wtb.boxPapers && wtb.boxPapers !== "No preference") {
+    const itemBP = (item.boxPapers || item.title || "").toLowerCase();
+    if (wtb.boxPapers === "Box & Papers required" && !itemBP.includes("paper")) score -= 20;
+    if (wtb.boxPapers === "Papers required" && !itemBP.includes("paper")) score -= 20;
   }
 
   return score;
