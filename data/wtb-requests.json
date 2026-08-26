@@ -1,5 +1,29 @@
 [
   {
+    "id": "17877730454520",
+    "vercelId": "1787772958400",
+    "submittedAt": "2026-08-26T19:35:58.400Z",
+    "source": "public-form",
+    "status": "matched",
+    "client": {
+      "firstName": "Christopher",
+      "lastName": "Mancuso",
+      "email": "mangook@yahoo.com",
+      "phone": "5614415831"
+    },
+    "watch": {
+      "brand": "Rolex",
+      "model": "",
+      "ref": "126334",
+      "budgetMax": "",
+      "condition": "",
+      "boxPapers": "",
+      "notes": "",
+      "dialColor": "Blue"
+    },
+    "matches": null
+  },
+  {
     "id": "17877726990742",
     "vercelId": "1787770108296",
     "submittedAt": "2026-08-26T18:48:28.296Z",
@@ -511,306 +535,10 @@
       "budgetMax": "",
       "condition": "",
       "boxPapers": "",
-      "notes": ""
+      "notes": "",
+      "dialColor": "Blue"
     },
-    "matches": {
-      "wtbId": "17877688378970",
-      "matchedAt": "2026-08-26T18:27:18.317Z",
-      "inventoryMatches": [
-        {
-          "score": 100,
-          "store": "WPB Watch Co",
-          "name": "Rolex Datejust 41 Stainless Steel/White Gold Black Diamond Dial 126334",
-          "ref": "126334",
-          "price": 17275,
-          "url": "https://wpbwatchco.com/product/rolex-datejust-41-stainless-steel-white-gold-black-diamond-dial-126334/",
-          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/04/15125551/73465.png"
-        },
-        {
-          "score": 100,
-          "store": "WPB Watch Co",
-          "name": "Rolex Datejust 41 Stainless Steel/ White Gold Black Dial 126334",
-          "ref": "126334",
-          "price": 14275,
-          "url": "https://wpbwatchco.com/product/rolex-datejust-41-stainless-steel-white-gold-black-dial-126334/",
-          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/04/04130316/Untitled-design-2026-04-03T133655.337.png"
-        },
-        {
-          "score": 100,
-          "store": "WPB Watch Co",
-          "name": "Rolex Datejust 41 Stainless Steel/White Gold Mint Green Fluted Dial 126334",
-          "ref": "126334",
-          "price": 19425,
-          "url": "https://wpbwatchco.com/product/rolex-datejust-41-stainless-steel-white-gold-mint-green-fluted-dial-126334/",
-          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/04/23124742/Untitled-design-2026-04-21T140734.352.png"
-        },
-        {
-          "score": 100,
-          "store": "WPB Watch Co",
-          "name": "Rolex Datejust 41 Stainless Steel and White Gold Black Stick Dial 126334",
-          "ref": "126334",
-          "price": 11475,
-          "url": "https://wpbwatchco.com/product/rolex-datejust-41-stainless-steel-and-white-gold-black-stick-dial-126334-4/",
-          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/05/14160552/82397.png"
-        },
-        {
-          "score": 100,
-          "store": "WPB Watch Co",
-          "name": "Rolex Datejust 41mm Stainless Steel and White Gold Silver Stick Dial 126334",
-          "ref": "126334",
-          "price": 17300,
-          "url": "https://wpbwatchco.com/product/rolex-datejust-41mm-stainless-steel-and-white-gold-silver-stick-dial-126334/",
-          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/05/28143730/60957.png"
-        },
-        {
-          "score": 100,
-          "store": "WPB Watch Co",
-          "name": "Rolex Datejust 41Mm Steel And White Gold 126334",
-          "ref": "126334",
-          "price": 13325,
-          "url": "https://wpbwatchco.com/product/rolex-datejust-41mm-stainless-steel-and-white-gold-silver-stick-dial-126334-2/",
-          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/06/15142024/82932.png"
-        },
-        {
-          "score": 100,
-          "store": "WPB Watch Co",
-          "name": "Rolex Datejust Stainless Steel and White Gold Blue Roman Dial 126334",
-          "ref": "126334",
-          "price": 18675,
-          "url": "https://wpbwatchco.com/product/rolex-datejust-stainless-steel-and-white-gold-blue-roman-dial-126334/",
-          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/06/30103429/34635.png"
-        },
-        {
-          "score": 100,
-          "store": "WPB Watch Co",
-          "name": "Rolex Datejust 41 Stainless Steel and White Gold Green Stick Dial 126334",
-          "ref": "126334",
-          "price": 20000,
-          "url": "https://wpbwatchco.com/product/rolex-datejust-41-stainless-steel-and-white-gold-green-stick-dial-126334/",
-          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/07/09154323/80801.png"
-        },
-        {
-          "score": 100,
-          "store": "WPB Watch Co",
-          "name": "Rolex Datejust Stainless Steel and White Gold Slate Dial 126334",
-          "ref": "126334",
-          "price": 18650,
-          "url": "https://wpbwatchco.com/product/rolex-datejust-stainless-steel-and-white-gold-slate-dial-126334/",
-          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/07/22161200/44992.png"
-        },
-        {
-          "score": 100,
-          "store": "WPB Watch Co",
-          "name": "Rolex Datejust 41 White Gold and Stainless Steel White Roman Dial 126334",
-          "ref": "126334",
-          "price": 18125,
-          "url": "https://wpbwatchco.com/product/rolex-datejust-41-white-gold-and-stainless-steel-white-roman-dial-126334-2/",
-          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/08/19105738/7-3.png"
-        }
-      ],
-      "marketMatches": [
-        {
-          "score": 100,
-          "source": "WatchRecon",
-          "title": "Rolex Datejust 41 126334 Rhodium Diamond Dial COMPLETE SET Jubilee",
-          "ref": null,
-          "price": 14150,
-          "url": "https://www.watchrecon.com/detail.php?cid=7821050",
-          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27994181&size=med-2x&ratio=1.33",
-          "seller": "IllustriousJelly3454"
-        },
-        {
-          "score": 100,
-          "source": "WatchPatrol",
-          "title": "Rolex DateJust 41mm. Wimbledon Dial! Jubilee. 126334",
-          "ref": "126334",
-          "price": 15499,
-          "url": "https://www.watchpatrol.net/listing/3627137/",
-          "imageUrl": "https://img.watchpatrol.net/_Tf7a1ZrZrwXrY74gYpFES66TfwIHI0U71AcQJWgd2o/rs:fill:600:600/plain/img/full/3c81bcd6567004bfa6a3f526aa11ba4786de16c0.jpg",
-          "seller": "Faizan"
-        },
-        {
-          "score": 100,
-          "source": "WatchRecon",
-          "title": "Rolex Datejust 41MM 126334 White Roman Dial Jubilee 2022 Box & Papers",
-          "ref": null,
-          "price": 14975,
-          "url": "https://www.watchrecon.com/detail.php?cid=7746722",
-          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27485030&size=med-2x&ratio=1.33",
-          "seller": "SohAIS"
-        },
-        {
-          "score": 100,
-          "source": "WatchPatrol",
-          "title": "2026 Rolex Datejust 41, Blue Index Dial 126334 — Brand New Condition, Box & Papers",
-          "ref": "126334",
-          "price": 15000,
-          "url": "https://www.watchpatrol.net/listing/3662827/",
-          "imageUrl": "https://img.watchpatrol.net/L37qCn1UrpV3diKUgYz6MQtnEPclQr6tGuM4oTndII4/rs:fill:600:600/plain/img/full/940decb8714b8486998a42b22b001ef34cb932d2.jpg",
-          "seller": "Zissou1"
-        },
-        {
-          "score": 100,
-          "source": "WatchPatrol",
-          "title": "Rolex Datejust 41MM Blue Dial Fluted Bezel Jubilee Bracelet- 126334 - $16,000",
-          "ref": "126334",
-          "price": 16000,
-          "url": "https://www.watchpatrol.net/listing/3626427/",
-          "imageUrl": "https://img.watchpatrol.net/h4su_vURARUE5-r1o_GYqt3e3PuyPIU5bk3amhMAbU8/rs:fill:600:600/plain/img/full/782dd78b795ee6355b4f1c26133d006b33db5909.jpg",
-          "seller": "Carrutts"
-        },
-        {
-          "score": 100,
-          "source": "WatchRecon",
-          "title": "Rolex Datejust 41 126334 Green Dial Jubilee Bracelet Full Set 2026",
-          "ref": null,
-          "price": null,
-          "url": "https://www.watchrecon.com/detail.php?cid=7856880",
-          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28068786&size=med-2x&ratio=1.33",
-          "seller": "plip_c"
-        },
-        {
-          "score": 100,
-          "source": "WatchRecon",
-          "title": "Rolex 126334 DATEJUST 41 FLUTED BEZEL SILVER DIAL JUBILEE BAND 2026 FULL SET",
-          "ref": null,
-          "price": 15325,
-          "url": "https://www.watchrecon.com/detail.php?cid=7848658",
-          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28067357&size=med-2x&ratio=1.33",
-          "seller": "TAKUYA"
-        },
-        {
-          "score": 100,
-          "source": "WatchRecon",
-          "title": "Rolex 126334 Datejust 41MM Watch White Dial",
-          "ref": null,
-          "price": 15295,
-          "url": "https://www.watchrecon.com/detail.php?cid=7838702",
-          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27972804&size=med-2x&ratio=1.33",
-          "seller": "Watchexplorer"
-        },
-        {
-          "score": 100,
-          "source": "WatchRecon",
-          "title": "Brand New Rolex Datejust 41 w/ Blue Dial Ref. 126334, Fluted Bezel, Oyster Bracelet",
-          "ref": null,
-          "price": 13900,
-          "url": "https://www.watchrecon.com/detail.php?cid=7842406",
-          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27991630&size=med-2x&ratio=1.33",
-          "seller": "SolanaWatches"
-        },
-        {
-          "score": 100,
-          "source": "WatchRecon",
-          "title": "Rolex Datejust 41MM 126334 Mint Green Dial Oyster 2023 Box & Papers - $15,775",
-          "ref": null,
-          "price": 15775,
-          "url": "https://www.watchrecon.com/detail.php?cid=7846694",
-          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28014532&size=med-2x&ratio=1.33",
-          "seller": "SohAIS"
-        },
-        {
-          "score": 100,
-          "source": "WatchRecon",
-          "title": "Rolex 126334 Datejust 41mm Wach Rhodium Slate Diamond Dial",
-          "ref": null,
-          "price": 18595,
-          "url": "https://www.watchrecon.com/detail.php?cid=7826904",
-          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27910087&size=med-2x&ratio=1.33",
-          "seller": "watchexplorer"
-        },
-        {
-          "score": 100,
-          "source": "WatchRecon",
-          "title": "Rolex DateJust 41mm. Wimbledon Dial! Jubilee. 126334",
-          "ref": null,
-          "price": 15499,
-          "url": "https://www.watchrecon.com/detail.php?cid=7845124",
-          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28006102&size=med-2x&ratio=1.33",
-          "seller": "faizan1990"
-        },
-        {
-          "score": 100,
-          "source": "WatchRecon",
-          "title": "Rolex 126334 Datejust 41 Watch Mother Of Pearl Diamond Dial",
-          "ref": null,
-          "price": 18895,
-          "url": "https://www.watchrecon.com/detail.php?cid=7826902",
-          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27910077&size=med-2x&ratio=1.33",
-          "seller": "watchexplorer"
-        },
-        {
-          "score": 100,
-          "source": "WatchRecon",
-          "title": "Rolex Datejust 41 w/ White Roman Dial Ref. 126334, Fluted Bezel, Jubilee Bracelet",
-          "ref": null,
-          "price": 14300,
-          "url": "https://www.watchrecon.com/detail.php?cid=7852721",
-          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28045667&size=med-2x&ratio=1.33",
-          "seller": "SolanaWatches"
-        },
-        {
-          "score": 100,
-          "source": "WatchRecon",
-          "title": "Rolex Datejust 41MM Blue Dial Fluted Bezel Jubilee Bracelet- 126334 - $16,000",
-          "ref": null,
-          "price": 16000,
-          "url": "https://www.watchrecon.com/detail.php?cid=7845561",
-          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28008521&size=med-2x&ratio=1.33",
-          "seller": "Carrutts"
-        }
-      ],
-      "icMatches": [
-        {
-          "score": 100,
-          "seller": "TimeFindr",
-          "name": "Rolex Datejust 41 Stainless Steel Fluted / Jubilee / Wimbledon",
-          "ref": "126334",
-          "price": null,
-          "url": "https://www.inventoryconnect.io/marketplace/cmsnl8ucq0002ji04d0569vxl?page=3&type=watch"
-        },
-        {
-          "score": 100,
-          "seller": "Time Reserved",
-          "name": "Rolex Datejust 41",
-          "ref": "126334",
-          "price": 15000,
-          "url": "https://www.inventoryconnect.io/marketplace/cmr4qmhdg000kl704e2jmj3lr?page=7&type=watch"
-        },
-        {
-          "score": 100,
-          "seller": "Engines & Escapements",
-          "name": "Rolex Datejust 41 Steel / White Gold Fluted Bezel",
-          "ref": "126334",
-          "price": 12000,
-          "url": "https://www.inventoryconnect.io/marketplace/cmr366u3j00szl4040l9jhaox?page=7&type=watch"
-        },
-        {
-          "score": 60,
-          "seller": "Timepiece Exclusives",
-          "name": "Rolex Datejust 41 Stainless Steel - Fluted / Green / Jubilee",
-          "ref": "126334-0028",
-          "price": 17800,
-          "url": "https://www.inventoryconnect.io/marketplace/cmrmmdrmm0002l804roaj7ndt?page=7&type=watch"
-        },
-        {
-          "score": 60,
-          "seller": "TimeFindr",
-          "name": "Rolex Datejust 41 Stainless Steel Fluted / Jubilee / Blue",
-          "ref": "126334-0002",
-          "price": null,
-          "url": "https://www.inventoryconnect.io/marketplace/cmqr8z1v30002i70bdi2ve88k?page=7&type=watch"
-        },
-        {
-          "score": 60,
-          "seller": "Luxury Time Vault",
-          "name": "Rolex Datejust 41 Stainless Steel Fluted / Oyster / Black",
-          "ref": "126334-0017",
-          "price": 14500,
-          "url": "https://www.inventoryconnect.io/marketplace/cmqdr5xrr0002l704ncpi8wd8?page=8&type=watch"
-        }
-      ]
-    }
+    "matches": null
   },
   {
     "id": "17876794604070",
