@@ -334,7 +334,7 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
       </td>
       <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
         <strong style="color:#92400e;font-size:16px;">${fmtP(m.price)}</strong><br>
-        ${m.source === "WatchDrop" ? `<a href="mailto:chris@wpbwatchco.com?subject=Interested in ${encodeURIComponent(m.title||m.name||'')}" style="font-size:12px;color:#2563eb;">Contact WPB Watch Co</a>` : m.url ? `<a href="${m.url}" style="font-size:12px;color:#2563eb;">View Listing</a>` : ""}
+        ${m.source === "WatchDrop" ? `<a href="mailto:chris@wpbwatchco.com?subject=Interested in ${encodeURIComponent(m.title||m.name||'')}" style="font-size:12px;color:#2563eb;">Contact WPB Watch Co</a>` : `<a href="mailto:chris@wpbwatchco.com?subject=Interested via ${encodeURIComponent(m.source||'')} - ${encodeURIComponent(m.title||m.name||'')}" style="font-size:12px;color:#059669;font-weight:600;">&#9993; Contact WPB Watch Co</a>`}
       </td>
     </tr>`).join("");
 
@@ -769,7 +769,7 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
       </td>
       <td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:right;">
         <strong style="color:#92400e;font-size:16px;">${fmtP(m.price)}</strong><br>
-        ${m.source === "WatchDrop" ? `<a href="mailto:chris@wpbwatchco.com?subject=Interested in ${encodeURIComponent(m.title||m.name||'')}" style="font-size:12px;color:#2563eb;">Contact WPB Watch Co</a>` : m.url ? `<a href="${m.url}" style="font-size:12px;color:#2563eb;">View Listing</a>` : ""}
+        ${m.source === "WatchDrop" ? `<a href="mailto:chris@wpbwatchco.com?subject=Interested in ${encodeURIComponent(m.title||m.name||'')}" style="font-size:12px;color:#2563eb;">Contact WPB Watch Co</a>` : `<a href="mailto:chris@wpbwatchco.com?subject=Interested via ${encodeURIComponent(m.source||'')} - ${encodeURIComponent(m.title||m.name||'')}" style="font-size:12px;color:#059669;font-weight:600;">&#9993; Contact WPB Watch Co</a>`}
       </td>
     </tr>`).join("");
 
