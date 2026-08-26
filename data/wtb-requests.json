@@ -4,7 +4,7 @@
     "vercelId": "1787769266307",
     "submittedAt": "2026-08-26T18:34:26.307Z",
     "source": "public-form",
-    "status": "matched",
+    "status": "closed",
     "client": {
       "firstName": "Christopher",
       "lastName": "Mancuso",
@@ -18,41 +18,14 @@
       "budgetMax": "",
       "condition": "",
       "boxPapers": "",
-      "notes": ""
+      "notes": "",
+      "dialColor": "Blue"
     },
     "matches": {
       "wtbId": "17877693499890",
-      "matchedAt": "2026-08-26T18:37:57.677Z",
+      "matchedAt": "2026-08-26T18:58:31.050Z",
       "inventoryMatches": [],
       "marketMatches": [
-        {
-          "score": 100,
-          "source": "WatchRecon",
-          "title": "118239 36mm Daydate white gold cherry dial with warranty card",
-          "ref": null,
-          "price": 33999,
-          "url": "https://www.watchrecon.com/detail.php?cid=7856536",
-          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28066977&size=med-2x&ratio=1.33",
-          "seller": "aaluxinc"
-        },
-        {
-          "score": 100,
-          "source": "Chrono24",
-          "title": "Day Date President 118239 36mm Silver Diamond Dial 18k White Gold Box",
-          "ref": "118239",
-          "price": 25995,
-          "url": "https://www.chrono24.com/rolex/day-date-president-118239-36mm-silver-diamond-dial-18k-white-gold-box--id47257047.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 100,
-          "source": "Chrono24",
-          "title": "President Day Date 118239 Rhodium Diamond Dial 18k White Gold Box Papers",
-          "ref": "118239",
-          "price": 28495,
-          "url": "https://www.chrono24.com/rolex/president-day-date-118239-rhodium-diamond-dial-18k-white-gold-box-papers--id47950273.htm",
-          "imageUrl": null
-        },
         {
           "score": 100,
           "source": "Chrono24",
@@ -61,111 +34,6 @@
           "price": 29995,
           "url": "https://www.chrono24.com/rolex/white-gold-president-36mm-factory-blue-index-118239--id41664213.htm",
           "imageUrl": null
-        },
-        {
-          "score": 100,
-          "source": "Chrono24",
-          "title": "  Pre Owned White Gold Day Date 36 Silver Diamond Dial 118239",
-          "ref": "118239",
-          "price": 27500,
-          "url": "https://www.chrono24.com/rolex/--pre-owned-white-gold-day-date-36-silver-diamond-dial-118239--id44989251.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 100,
-          "source": "Chrono24",
-          "title": "Very Good Condition Day Date 36 President White Gold Meteorite Teardrop Dial 118239",
-          "ref": "118239",
-          "price": 44995,
-          "url": "https://www.chrono24.com/rolex/very-good-condition-day-date-36-president-white-gold-meteorite-teardrop-dial-118239--id46650664.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 100,
-          "source": "Bob's Watches",
-          "title": "Pre-Owned Diamond Dial Rolex Day-Date 36 Ref 118239 18k White Gold",
-          "ref": "118239",
-          "price": 28495,
-          "url": "https://www.bobswatches.com/pre-owned-diamond-dial-rolex-day-date-36-ref-118239-18k-white-gold.html",
-          "imageUrl": "https://www.bobswatches.com/images/zUsed-Rolex-Day-Date-36-118239-SKU191742.jpg",
-          "seller": null
-        },
-        {
-          "score": 100,
-          "source": "Bob's Watches",
-          "title": "Pre-Owned Rolex Day-Date 36 Ref 118239 Bronze Jubilee Diamond Dial",
-          "ref": "118239",
-          "price": 27995,
-          "url": "https://www.bobswatches.com/pre-owned-rolex-day-date-36-ref-118239-bronze-jubilee-diamond-dial.html",
-          "imageUrl": "https://www.bobswatches.com/images/zUsed-Rolex-Day-Date-36-Ref-118239-SKU192712.jpg",
-          "seller": null
-        },
-        {
-          "score": 100,
-          "source": "European Watch Co",
-          "title": "Rolex 118239 Day Date President 18K White Gold Black Dial",
-          "ref": "118239",
-          "price": 29900,
-          "url": "https://www.europeanwatch.com/watch/rolex-118239-118239-day-date-president-18k-white-gold-black-dial-70073",
-          "imageUrl": "https://images.europeanwatch.com/images/70/70073-1.jpg",
-          "seller": null
-        },
-        {
-          "score": 60,
-          "source": "Artimeus",
-          "title": "A. Lange & Söhne 118.032 – Pre-Owned",
-          "ref": null,
-          "price": 34154,
-          "url": "https://artimeus.com/products/a-lange-sohne-118-032-49088",
-          "imageUrl": "https://cdn.shopify.com/s/files/1/0934/9313/3675/files/A.Lange_26S_C3_B6hne118.032-1-93002687-e8bb-4fca-882c-7ce79a7b30d4.jpg?v=1785517323"
-        },
-        {
-          "score": 60,
-          "source": "Chrono24",
-          "title": "Rolex Day Date 118239a",
-          "ref": "118239A",
-          "price": 28871,
-          "url": "https://www.chrono24.com/rolex/rolex-day-date-118239a--id48151099.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 60,
-          "source": "Chrono24",
-          "title": "Rolex  118239a  10p   K18wg K18wg  ",
-          "ref": "118239A",
-          "price": 31099,
-          "url": "https://www.chrono24.com/rolex/rolex--118239a--10p---k18wg-k18wg----id47565665.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 60,
-          "source": "eBay",
-          "title": "Tag Heuer Formula 1 WAZ118 41mm Stainless Steel Blue Dial Quartz Watch",
-          "ref": null,
-          "price": 800,
-          "url": "https://www.ebay.com/itm/377356699550?_skw=Tag+Heuer+watch&hash=item57dc36479e:g:2XMAAeSwMDlqXi-t",
-          "imageUrl": "https://i.ebayimg.com/images/g/2XMAAeSwMDlqXi-t/s-l225.jpg",
-          "seller": null
-        },
-        {
-          "score": 60,
-          "source": "eBay",
-          "title": "Ulysse Nardin 18K & diaomond Lady Marine Chronometer with box , 1182-160",
-          "ref": "1182",
-          "price": 14800,
-          "url": "https://www.ebay.com/itm/158135822982?_skw=Ulysse+Nardin+watch&hash=item24d1a12a86:g:kAQAAeSwpx9qa5Df&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGavjHB4zUzadJeq1w7e77Gxyz8F%2BHmJtv7G48AzR7Musf%2Fx4%2BIrWTP6bV%2FhW%2FwVXSKWy%2BJSgGbiYz2oYbCe%2BSY0DwyH5jC2uCF57pqAsLph%2FeEZMi1UcUI4sNwL%2Fz2BNTlWV8UEnHwq9LRo29t2T5UU%2FyaRRq%2FdU5pHKjB785MOcfDtc9UtmAozdDNFQEEuFD6kQJW6a0AAGVQA2WQ4a7PjayDQ9v3Z9DYgjEbqQ0E2uyqZzJDeVnHPmi40PEqMgdzj%2B9gziFCwxxaud1GPoTwv7zEi97KyIbX9s6hofDfmng%3D%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/kAQAAeSwpx9qa5Df/s-l225.jpg",
-          "seller": null
-        },
-        {
-          "score": 60,
-          "source": "Bezel",
-          "title": "Rolex Day-Date 36 White Gold / Fluted / Gray / Roman",
-          "ref": "118239-0082",
-          "price": 28280,
-          "url": "https://shop.getbezel.com/watches/rolex/day-date-36-white-gold-fluted-gray-roman",
-          "imageUrl": null,
-          "seller": null
         }
       ],
       "icMatches": []
@@ -176,7 +44,7 @@
     "vercelId": "1787755705647",
     "submittedAt": "2026-08-26T14:48:25.647Z",
     "source": "public-form",
-    "status": "matched",
+    "status": "closed",
     "client": {
       "firstName": "Chris",
       "lastName": "Mancuso",
@@ -190,165 +58,17 @@
       "budgetMax": "",
       "condition": "",
       "boxPapers": "both",
-      "notes": ""
+      "notes": "",
+      "dialColor": "Blue"
     },
-    "matches": {
-      "wtbId": "17877688383171",
-      "matchedAt": "2026-08-26T18:33:51.522Z",
-      "inventoryMatches": [],
-      "marketMatches": [
-        {
-          "score": 100,
-          "source": "WatchRecon",
-          "title": "118239 36mm Daydate white gold cherry dial with warranty card",
-          "ref": null,
-          "price": 33999,
-          "url": "https://www.watchrecon.com/detail.php?cid=7856536",
-          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28066977&size=med-2x&ratio=1.33",
-          "seller": "aaluxinc"
-        },
-        {
-          "score": 100,
-          "source": "Chrono24",
-          "title": "Day Date President 118239 36mm Silver Diamond Dial 18k White Gold Box",
-          "ref": "118239",
-          "price": 25995,
-          "url": "https://www.chrono24.com/rolex/day-date-president-118239-36mm-silver-diamond-dial-18k-white-gold-box--id47257047.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 100,
-          "source": "Chrono24",
-          "title": "President Day Date 118239 Rhodium Diamond Dial 18k White Gold Box Papers",
-          "ref": "118239",
-          "price": 28495,
-          "url": "https://www.chrono24.com/rolex/president-day-date-118239-rhodium-diamond-dial-18k-white-gold-box-papers--id47950273.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 100,
-          "source": "Chrono24",
-          "title": "White Gold President 36mm Factory Blue Index 118239",
-          "ref": "118239",
-          "price": 29995,
-          "url": "https://www.chrono24.com/rolex/white-gold-president-36mm-factory-blue-index-118239--id41664213.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 100,
-          "source": "Chrono24",
-          "title": "  Pre Owned White Gold Day Date 36 Silver Diamond Dial 118239",
-          "ref": "118239",
-          "price": 27500,
-          "url": "https://www.chrono24.com/rolex/--pre-owned-white-gold-day-date-36-silver-diamond-dial-118239--id44989251.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 100,
-          "source": "Chrono24",
-          "title": "Very Good Condition Day Date 36 President White Gold Meteorite Teardrop Dial 118239",
-          "ref": "118239",
-          "price": 44995,
-          "url": "https://www.chrono24.com/rolex/very-good-condition-day-date-36-president-white-gold-meteorite-teardrop-dial-118239--id46650664.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 100,
-          "source": "Bob's Watches",
-          "title": "Pre-Owned Diamond Dial Rolex Day-Date 36 Ref 118239 18k White Gold",
-          "ref": "118239",
-          "price": 28495,
-          "url": "https://www.bobswatches.com/pre-owned-diamond-dial-rolex-day-date-36-ref-118239-18k-white-gold.html",
-          "imageUrl": "https://www.bobswatches.com/images/zUsed-Rolex-Day-Date-36-118239-SKU191742.jpg",
-          "seller": null
-        },
-        {
-          "score": 100,
-          "source": "Bob's Watches",
-          "title": "Pre-Owned Rolex Day-Date 36 Ref 118239 Bronze Jubilee Diamond Dial",
-          "ref": "118239",
-          "price": 27995,
-          "url": "https://www.bobswatches.com/pre-owned-rolex-day-date-36-ref-118239-bronze-jubilee-diamond-dial.html",
-          "imageUrl": "https://www.bobswatches.com/images/zUsed-Rolex-Day-Date-36-Ref-118239-SKU192712.jpg",
-          "seller": null
-        },
-        {
-          "score": 100,
-          "source": "European Watch Co",
-          "title": "Rolex 118239 Day Date President 18K White Gold Black Dial",
-          "ref": "118239",
-          "price": 29900,
-          "url": "https://www.europeanwatch.com/watch/rolex-118239-118239-day-date-president-18k-white-gold-black-dial-70073",
-          "imageUrl": "https://images.europeanwatch.com/images/70/70073-1.jpg",
-          "seller": null
-        },
-        {
-          "score": 60,
-          "source": "Artimeus",
-          "title": "A. Lange & Söhne 118.032 – Pre-Owned",
-          "ref": null,
-          "price": 34154,
-          "url": "https://artimeus.com/products/a-lange-sohne-118-032-49088",
-          "imageUrl": "https://cdn.shopify.com/s/files/1/0934/9313/3675/files/A.Lange_26S_C3_B6hne118.032-1-93002687-e8bb-4fca-882c-7ce79a7b30d4.jpg?v=1785517323"
-        },
-        {
-          "score": 60,
-          "source": "Chrono24",
-          "title": "Rolex Day Date 118239a",
-          "ref": "118239A",
-          "price": 28871,
-          "url": "https://www.chrono24.com/rolex/rolex-day-date-118239a--id48151099.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 60,
-          "source": "Chrono24",
-          "title": "Rolex  118239a  10p   K18wg K18wg  ",
-          "ref": "118239A",
-          "price": 31099,
-          "url": "https://www.chrono24.com/rolex/rolex--118239a--10p---k18wg-k18wg----id47565665.htm",
-          "imageUrl": null
-        },
-        {
-          "score": 60,
-          "source": "eBay",
-          "title": "Tag Heuer Formula 1 WAZ118 41mm Stainless Steel Blue Dial Quartz Watch",
-          "ref": null,
-          "price": 800,
-          "url": "https://www.ebay.com/itm/377356699550?_skw=Tag+Heuer+watch&hash=item57dc36479e:g:2XMAAeSwMDlqXi-t",
-          "imageUrl": "https://i.ebayimg.com/images/g/2XMAAeSwMDlqXi-t/s-l225.jpg",
-          "seller": null
-        },
-        {
-          "score": 60,
-          "source": "eBay",
-          "title": "Ulysse Nardin 18K & diaomond Lady Marine Chronometer with box , 1182-160",
-          "ref": "1182",
-          "price": 14800,
-          "url": "https://www.ebay.com/itm/158135822982?_skw=Ulysse+Nardin+watch&hash=item24d1a12a86:g:kAQAAeSwpx9qa5Df&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGavjHB4zUzadJeq1w7e77Gxyz8F%2BHmJtv7G48AzR7Musf%2Fx4%2BIrWTP6bV%2FhW%2FwVXSKWy%2BJSgGbiYz2oYbCe%2BSY0DwyH5jC2uCF57pqAsLph%2FeEZMi1UcUI4sNwL%2Fz2BNTlWV8UEnHwq9LRo29t2T5UU%2FyaRRq%2FdU5pHKjB785MOcfDtc9UtmAozdDNFQEEuFD6kQJW6a0AAGVQA2WQ4a7PjayDQ9v3Z9DYgjEbqQ0E2uyqZzJDeVnHPmi40PEqMgdzj%2B9gziFCwxxaud1GPoTwv7zEi97KyIbX9s6hofDfmng%3D%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/kAQAAeSwpx9qa5Df/s-l225.jpg",
-          "seller": null
-        },
-        {
-          "score": 60,
-          "source": "Bezel",
-          "title": "Rolex Day-Date 36 White Gold / Fluted / Gray / Roman",
-          "ref": "118239-0082",
-          "price": 28280,
-          "url": "https://shop.getbezel.com/watches/rolex/day-date-36-white-gold-fluted-gray-roman",
-          "imageUrl": null,
-          "seller": null
-        }
-      ],
-      "icMatches": []
-    }
+    "matches": null
   },
   {
     "id": "17877688378970",
     "vercelId": "1787748322888",
     "submittedAt": "2026-08-26T12:45:22.888Z",
     "source": "public-form",
-    "status": "matched",
+    "status": "closed",
     "client": {
       "firstName": "Chris",
       "lastName": "Mancuso",

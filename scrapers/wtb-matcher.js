@@ -20,30 +20,29 @@ function scoreMatch(item, wtb) {
   const wtbRef = normalizeRef(wtb.ref);
   const itemText = [item.brand, item.model, item.ref, item.title, item.name].filter(Boolean).join(" ").toLowerCase();
 
-  // HARD FILTER: Dial color — if specified, must match
+  // HARD FILTERS run first — before any ref/brand matching
+
+  // 1. Dial color — if specified, must match
   if (wtb.dialColor && wtb.dialColor !== "Any color" && wtb.dialColor !== "") {
     const wtbColor = wtb.dialColor.toLowerCase();
     const itemColor = (item.dialColor || item.color || "").toLowerCase();
     if (itemColor) {
-      // Item has a color field — must match exactly
       if (!itemColor.includes(wtbColor)) return 0;
     } else {
-      // No color field — title must explicitly mention the color
       if (!itemText.includes(wtbColor)) return 0;
     }
   }
 
-  // HARD FILTER: Condition — if specified, must be close match
+  // 2. Condition — unworn is strict
   if (wtb.condition && wtb.condition !== "Any condition" && wtb.condition !== "") {
     const itemCond = (item.condition || "").toLowerCase();
     const wtbCond = wtb.condition.toLowerCase();
-    if (wtbCond === "unworn / new" || wtbCond === "unworn") {
-      if (itemCond && !["unworn","new","brand new"].some(c => itemCond.includes(c))) return 0;
+    if ((wtbCond === "unworn / new" || wtbCond === "unworn") && itemCond) {
+      if (!["unworn","new","brand new"].some(c => itemCond.includes(c))) return 0;
     }
-    // For other conditions we're more lenient — just score, don't hard filter
   }
 
-  // HARD FILTER: Budget — reject anything over 1.3x budget
+  // 3. Budget — reject anything over 1.3x budget
   if (wtb.budgetMax && item.price) {
     const p = typeof item.price === "string" ? parseFloat(item.price.replace(/[^0-9.]/g, "")) : item.price;
     if (!isNaN(p) && p > wtb.budgetMax * 1.3) return 0;
@@ -53,7 +52,10 @@ function scoreMatch(item, wtb) {
   if (wtbRef) {
     if (!itemRef) return 0;
     if (itemRef === wtbRef) return 100;
-    if (itemRef.startsWith(wtbRef) || wtbRef.startsWith(itemRef)) return 60;
+    // Partial match only if refs are long enough and share significant overlap
+    if (wtbRef.length >= 5 && itemRef.length >= 5) {
+      if (itemRef.startsWith(wtbRef) || wtbRef.startsWith(itemRef)) return 60;
+    }
     return 0;
   }
 

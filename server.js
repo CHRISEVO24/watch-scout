@@ -231,7 +231,7 @@ function saveWtbRequests(requests) {
 }
 
 app.post("/api/wtb/submit", express.json(), async (req, res) => {
-  const { firstName, lastName, email, phone, brand, model, ref, budgetMax, condition, boxPapers, notes, source } = req.body;
+  const { firstName, lastName, email, phone, brand, model, ref, budgetMax, condition, dialColor, boxPapers, notes, source } = req.body;
   if (!brand || !email) return res.status(400).json({ ok: false, error: "brand and email required" });
   const requests = loadWtbRequests();
   const wtb = {
@@ -240,12 +240,12 @@ app.post("/api/wtb/submit", express.json(), async (req, res) => {
     source: source || "manual",
     status: "new",
     client: { firstName, lastName, email, phone },
-    watch: { brand, model, ref, budgetMax: budgetMax ? Number(budgetMax) : null, condition, boxPapers, notes },
+    watch: { brand, model, ref, budgetMax: budgetMax ? Number(budgetMax) : null, condition, dialColor, boxPapers, notes },
     matches: null,
     sentAt: null,
   };
   try {
-    wtb.matches = await matchWtb({ id: wtb.id, brand, model, ref, budgetMax: wtb.watch.budgetMax, keywords: notes });
+    wtb.matches = await matchWtb({ id: wtb.id, brand, model, ref, budgetMax: wtb.watch.budgetMax, dialColor: wtb.watch.dialColor, condition: wtb.watch.condition, keywords: notes });
     wtb.status = "matched";
   } catch(err) {
     console.error("WTB matching failed:", err.message);
@@ -659,7 +659,7 @@ function saveWtbRequests(requests) {
 
 // Submit WTB (from public form or Watch Scout manual entry)
 app.post("/api/wtb/submit", express.json(), async (req, res) => {
-  const { firstName, lastName, email, phone, brand, model, ref, budgetMax, condition, boxPapers, notes, source } = req.body;
+  const { firstName, lastName, email, phone, brand, model, ref, budgetMax, condition, dialColor, boxPapers, notes, source } = req.body;
   if (!brand || !email) return res.status(400).json({ ok: false, error: "brand and email required" });
 
   const requests = loadWtbRequests();
@@ -669,14 +669,14 @@ app.post("/api/wtb/submit", express.json(), async (req, res) => {
     source: source || "manual",
     status: "new",
     client: { firstName, lastName, email, phone },
-    watch: { brand, model, ref, budgetMax: budgetMax ? Number(budgetMax) : null, condition, boxPapers, notes },
+    watch: { brand, model, ref, budgetMax: budgetMax ? Number(budgetMax) : null, condition, dialColor, boxPapers, notes },
     matches: null,
     sentAt: null,
   };
 
   // Auto-run matching
   try {
-    wtb.matches = await matchWtb({ id: wtb.id, brand, model, ref, budgetMax: wtb.watch.budgetMax, keywords: notes });
+    wtb.matches = await matchWtb({ id: wtb.id, brand, model, ref, budgetMax: wtb.watch.budgetMax, dialColor: wtb.watch.dialColor, condition: wtb.watch.condition, keywords: notes });
     wtb.status = "matched";
   } catch(err) {
     console.error("WTB matching failed:", err.message);
