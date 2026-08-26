@@ -22,11 +22,15 @@ function scoreMatch(item, wtb) {
 
   // HARD FILTER: Dial color — if specified, must match
   if (wtb.dialColor && wtb.dialColor !== "Any color" && wtb.dialColor !== "") {
-    const itemColor = (item.dialColor || item.color || "").toLowerCase();
-    const titleColor = itemText;
     const wtbColor = wtb.dialColor.toLowerCase();
-    if (itemColor && itemColor !== wtbColor) return 0; // item has color and it doesn't match
-    if (!itemColor && !titleColor.includes(wtbColor)) return 0; // no color field, not in title
+    const itemColor = (item.dialColor || item.color || "").toLowerCase();
+    if (itemColor) {
+      // Item has a color field — must match exactly
+      if (!itemColor.includes(wtbColor)) return 0;
+    } else {
+      // No color field — title must explicitly mention the color
+      if (!itemText.includes(wtbColor)) return 0;
+    }
   }
 
   // HARD FILTER: Condition — if specified, must be close match
