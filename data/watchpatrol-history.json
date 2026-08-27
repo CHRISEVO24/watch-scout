@@ -1,15 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-20T12:39:30.737Z",
-    "query": "Panerai",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-20T17:40:10.704Z",
-    "query": "16570",
-    "count": 40
-  },
-  {
     "scrapedAt": "2026-08-20T17:40:24.579Z",
     "query": "16570",
     "count": 40
@@ -97,6 +87,16 @@
   {
     "scrapedAt": "2026-08-27T15:58:57.968Z",
     "query": "breitling",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-27T20:57:59.479Z",
+    "query": "Bvlgari",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-27T20:58:08.716Z",
+    "query": "Cartier",
     "count": 40
   }
 ]

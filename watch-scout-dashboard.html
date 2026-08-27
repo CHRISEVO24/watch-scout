@@ -730,7 +730,7 @@ async function runScout(){
   btn.disabled=true;prog.style.width='0%';st.textContent='Starting...';
   try{const es=new EventSource('/api/run-scout');
     es.addEventListener('progress',e=>{const d=JSON.parse(e.data);prog.style.width=Math.round((d.step/d.total)*100)+'%';st.textContent='Step '+d.step+' of '+d.total+': '+d.name+'...';});
-    es.addEventListener('done',e=>{es.close();const d=JSON.parse(e.data);prog.style.width='100%';st.textContent='Done — '+d.count.toLocaleString()+' listings, '+d.buyerMatches.length+' matches.';setTimeout(()=>{prog.style.width='0%';},2000);btn.disabled=false;});
+    es.addEventListener('done',e=>{es.close();const d=JSON.parse(e.data);prog.style.width='100%';st.textContent='Done — '+d.count.toLocaleString()+' listings, '+d.buyerMatches.length+' matches.';setTimeout(()=>{prog.style.width='0%';btn.disabled=false;initCounts();renderFeed();},2000);});
     es.onerror=()=>{es.close();st.textContent='Run failed. Check terminal.';btn.disabled=false;};
   }catch(e){st.textContent='Error: '+e.message;btn.disabled=false;}
 }

@@ -1,15 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-18T18:50:16.202Z",
-    "brand": "cartier",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-18T18:50:22.436Z",
-    "brand": "chopard",
-    "count": 12
-  },
-  {
     "scrapedAt": "2026-08-18T18:56:17.462Z",
     "brand": "franck-muller",
     "count": 12
@@ -97,6 +87,16 @@
   {
     "scrapedAt": "2026-08-26T22:25:04.458Z",
     "brand": "bulgari",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-27T21:01:15.360Z",
+    "brand": "bvlgari",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-27T21:01:22.105Z",
+    "brand": "cartier",
     "count": 12
   }
 ]
