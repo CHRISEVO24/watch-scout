@@ -58,6 +58,13 @@ function loadAllSources() {
   return { combined, watchrecon, watchpatrol, chrono24, bobswatches, europeanwatch, fbgroups, fbmarketplace, ebay, whatsapp, bezel };
 }
 
+app.get("/api/counts", (req, res) => {
+  const combined = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "combined.json"), "utf8"));
+  const counts = {};
+  combined.forEach(i => { counts[i.source] = (counts[i.source]||0)+1; });
+  res.json({ total: combined.length, counts });
+});
+
 app.get("/api/filter", (req, res) => {
   const { q, src, brand, color, pMin, pMax, age, sort, limit } = req.query;
   const combined = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "combined.json"), "utf8"));
