@@ -1,15 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-19T20:46:30.162Z",
-    "query": "Jaeger-LeCoultre",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-19T20:46:39.187Z",
-    "query": "Longines",
-    "count": 40
-  },
-  {
     "scrapedAt": "2026-08-20T12:39:21.567Z",
     "query": "Omega",
     "count": 40
@@ -97,6 +87,16 @@
   {
     "scrapedAt": "2026-08-25T13:17:40.965Z",
     "query": "Breguet",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-26T22:21:40.980Z",
+    "query": "Breitling",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-26T22:21:50.214Z",
+    "query": "Bulgari",
     "count": 40
   }
 ]

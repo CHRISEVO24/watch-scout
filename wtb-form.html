@@ -184,49 +184,7 @@ button[type=submit]:disabled{opacity:.6;cursor:default;}
     <div class="logo-title">WPB Watch Co.</div>
     <div class="logo-est">Est. 2015 &middot; West Palm Beach, FL</div>
   </div>
-  <div id="formWrap">
-    <h2>Watch Request Form</h2>
-    <p class="sub">Tell us what you're looking for and we'll search our inventory and the full pre-owned market to find you the best options.</p>
-    <form id="wtbForm">
-      <div class="row">
-        <div class="field"><label>First Name <span class="required">*</span></label><input type="text" name="firstName" required placeholder="Chris"></div>
-        <div class="field"><label>Last Name <span class="required">*</span></label><input type="text" name="lastName" required placeholder="Smith"></div>
-      </div>
-      <div class="field"><label>Email <span class="required">*</span></label><input type="email" name="email" required placeholder="chris@email.com"></div>
-      <div class="field"><label>Phone</label><input type="tel" name="phone" placeholder="(561) 555-0100"></div>
-      <div class="field"><label>Brand <span class="required">*</span></label><select name="brand" id="brand" required onchange="document.getElementById('brandOther').style.display=this.value==='Other'?'block':'none'"><option value="">Select Brand *</option><option value="A. Lange & Söhne">A. Lange & Söhne</option><option value="Audemars Piguet">Audemars Piguet</option><option value="Bell & Ross">Bell & Ross</option><option value="Blancpain">Blancpain</option><option value="Breguet">Breguet</option><option value="Breitling">Breitling</option><option value="Bvlgari">Bvlgari</option><option value="Cartier">Cartier</option><option value="Chopard">Chopard</option><option value="Citizen">Citizen</option><option value="De Bethune">De Bethune</option><option value="Doxa">Doxa</option><option value="F.P. Journe">F.P. Journe</option><option value="Girard-Perregaux">Girard-Perregaux</option><option value="Glashutte Original">Glashutte Original</option><option value="Grand Seiko">Grand Seiko</option><option value="Greubel Forsey">Greubel Forsey</option><option value="H. Moser & Cie">H. Moser & Cie</option><option value="Hamilton">Hamilton</option><option value="Hublot">Hublot</option><option value="IWC Schaffhausen">IWC Schaffhausen</option><option value="Jaeger-LeCoultre">Jaeger-LeCoultre</option><option value="Longines">Longines</option><option value="MB&F">MB&F</option><option value="Mido">Mido</option><option value="Nomos">Nomos</option><option value="Omega">Omega</option><option value="Oris">Oris</option><option value="Panerai">Panerai</option><option value="Patek Philippe">Patek Philippe</option><option value="Rado">Rado</option><option value="Richard Mille">Richard Mille</option><option value="Roger Dubuis">Roger Dubuis</option><option value="Rolex">Rolex</option><option value="Seiko">Seiko</option><option value="Sinn">Sinn</option><option value="TAG Heuer">TAG Heuer</option><option value="Tudor">Tudor</option><option value="Ulysse Nardin">Ulysse Nardin</option><option value="Urwerk">Urwerk</option><option value="Vacheron Constantin">Vacheron Constantin</option><option value="Zenith">Zenith</option><option value="Other">Other</option></select><input type="text" id="brandOther" name="brandOther" placeholder="Enter brand name" style="display:none;margin-top:8px;width:100%;padding:12px;border:1px solid #d1d5db;border-radius:8px;font-size:16px;"></div>
-      <div class="field"><label>Model</label><input type="text" name="model" placeholder="Submariner, Nautilus, Royal Oak..."></div>
-      <div class="field"><label>Reference Number</label><input type="text" name="ref" placeholder="116610LN, 5711/1A, 15400ST..."></div>
-      <div class="row">
-        <div class="field"><label>Budget (Max)</label><input type="number" name="budgetMax" placeholder="25000" min="0"></div>
-        <div class="field"><label>Condition</label>
-          <select name="condition">
-            <option value="">Any condition</option>
-            <option value="unworn">Unworn / New</option>
-            <option value="excellent">Excellent</option>
-            <option value="good">Good</option>
-            <option value="any">Any</option>
-          </select>
-        </div>
-      </div>
-      <div class="row">
-        <div class="field"><label>Dial Color</label>
-          <select id="dialColor" name="dialColor"><option value="">Any color</option><option value="Black">Black</option><option value="White">White</option><option value="Blue">Blue</option><option value="Green">Green</option><option value="Silver">Silver</option><option value="Grey">Grey</option><option value="Champagne">Champagne</option><option value="Brown">Brown</option><option value="Meteorite">Meteorite</option><option value="Mother of Pearl">Mother of Pearl</option><option value="Chocolate">Chocolate</option><option value="Sundust">Sundust</option><option value="Salmon">Salmon</option><option value="Pink">Pink</option><option value="Burgundy">Burgundy</option><option value="Wine">Wine</option><option value="Navy">Navy</option><option value="Teal">Teal</option><option value="Purple">Purple</option><option value="Gold">Gold</option><option value="Yellow Gold">Yellow Gold</option><option value="Rose Gold">Rose Gold</option><option value="Olive">Olive</option><option value="Slate">Slate</option><option value="Cream">Cream</option><option value="Ivory">Ivory</option><option value="Orange">Orange</option><option value="Red">Red</option><option value="Turquoise">Turquoise</option><option value="Panda">Panda</option></select>
-        </div>
-        <div class="field"><label>Box &amp; Papers</label>
-          <select name="boxPapers">
-            <option value="">No preference</option>
-            <option value="both">Box &amp; Papers required</option>
-            <option value="papers">Papers required</option>
-            <option value="none">Not required</option>
-          </select>
-        </div>
-      </div>
-      <div class="field"><label>Additional Details</label><textarea name="notes" placeholder="Dial color, year range, any other preferences..."></textarea></div>
-      <div id="formError"></div>
-      <button type="submit" id="submitBtn">Submit Watch Request</button>
-    </form>
-  </div>
+  
   <div class="success" id="successMsg">
     <div class="icon">&#x2713;</div>
     <h3>Request received!</h3>
