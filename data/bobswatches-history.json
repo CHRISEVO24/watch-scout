@@ -1,102 +1,102 @@
 [
   {
-    "scrapedAt": "2026-08-25T11:20:30.916Z",
-    "category": "anonimo/watches-mens",
-    "count": 0
-  },
-  {
-    "scrapedAt": "2026-08-25T11:20:35.186Z",
-    "category": "audemars-piguet/watches-mens",
-    "count": 33
-  },
-  {
-    "scrapedAt": "2026-08-25T11:20:39.431Z",
-    "category": "breitling/watches-mens",
-    "count": 45
-  },
-  {
-    "scrapedAt": "2026-08-25T11:20:39.900Z",
-    "category": "bvlgari/watches-mens",
-    "count": 0
-  },
-  {
-    "scrapedAt": "2026-08-25T11:20:44.160Z",
-    "category": "cartier/watches-mens",
-    "count": 45
-  },
-  {
-    "scrapedAt": "2026-08-25T11:20:44.587Z",
-    "category": "chopard/watches-mens",
-    "count": 0
-  },
-  {
-    "scrapedAt": "2026-08-25T11:20:45.100Z",
-    "category": "franck-muller/watches-mens",
-    "count": 0
-  },
-  {
-    "scrapedAt": "2026-08-25T11:20:45.623Z",
-    "category": "girard-perregaux/watches-mens",
-    "count": 0
-  },
-  {
-    "scrapedAt": "2026-08-25T11:20:46.132Z",
+    "scrapedAt": "2026-08-26T22:19:28.018Z",
     "category": "hublot/watches-mens",
     "count": 0
   },
   {
-    "scrapedAt": "2026-08-25T11:20:51.149Z",
+    "scrapedAt": "2026-08-26T22:19:33.070Z",
     "category": "iwc/watches-mens",
-    "count": 40
+    "count": 42
   },
   {
-    "scrapedAt": "2026-08-25T11:20:55.681Z",
+    "scrapedAt": "2026-08-26T22:19:37.643Z",
     "category": "jaeger-lecoultre/watches-mens",
     "count": 6
   },
   {
-    "scrapedAt": "2026-08-25T11:21:00.062Z",
-    "category": "longines/watches-mens",
-    "count": 3
+    "scrapedAt": "2026-08-26T22:19:38.345Z",
+    "category": "jaquet-droz/watches-mens",
+    "count": 0
   },
   {
-    "scrapedAt": "2026-08-25T11:21:04.544Z",
+    "scrapedAt": "2026-08-26T22:19:42.463Z",
+    "category": "longines/watches-mens",
+    "count": 1
+  },
+  {
+    "scrapedAt": "2026-08-26T22:19:46.545Z",
     "category": "omega/watches-mens",
     "count": 45
   },
   {
-    "scrapedAt": "2026-08-25T11:21:08.794Z",
+    "scrapedAt": "2026-08-26T22:19:50.541Z",
     "category": "panerai/watches-mens",
     "count": 45
   },
   {
-    "scrapedAt": "2026-08-25T11:21:12.984Z",
+    "scrapedAt": "2026-08-26T22:19:55.158Z",
+    "category": "parmigiani/watches-mens",
+    "count": 4
+  },
+  {
+    "scrapedAt": "2026-08-26T22:19:59.335Z",
     "category": "patek-philippe/watches-mens",
     "count": 45
   },
   {
-    "scrapedAt": "2026-08-25T11:21:19.757Z",
+    "scrapedAt": "2026-08-26T22:19:59.763Z",
+    "category": "richard-millie/watches-mens",
+    "count": 0
+  },
+  {
+    "scrapedAt": "2026-08-26T22:20:00.199Z",
+    "category": "roger-dubuis/watches-mens",
+    "count": 0
+  },
+  {
+    "scrapedAt": "2026-08-26T22:20:07.005Z",
     "category": "rolex/watches-mens",
     "count": 135
   },
   {
-    "scrapedAt": "2026-08-25T11:21:24.409Z",
+    "scrapedAt": "2026-08-26T22:20:07.467Z",
+    "category": "seiko/watches-mens",
+    "count": 0
+  },
+  {
+    "scrapedAt": "2026-08-26T22:20:12.011Z",
     "category": "tag-heuer/watches-mens",
     "count": 4
   },
   {
-    "scrapedAt": "2026-08-25T11:21:29.128Z",
+    "scrapedAt": "2026-08-26T22:20:16.644Z",
     "category": "tag-heuer/watches-mens",
     "count": 4
   },
   {
-    "scrapedAt": "2026-08-25T11:21:33.849Z",
+    "scrapedAt": "2026-08-26T22:20:20.744Z",
+    "category": "tudor/watches-mens",
+    "count": 45
+  },
+  {
+    "scrapedAt": "2026-08-26T22:20:21.469Z",
+    "category": "u-boat/watches-mens",
+    "count": 0
+  },
+  {
+    "scrapedAt": "2026-08-26T22:20:26.121Z",
     "category": "ulysse-nardin/watches-mens",
     "count": 1
   },
   {
-    "scrapedAt": "2026-08-25T11:21:34.376Z",
+    "scrapedAt": "2026-08-26T22:20:26.541Z",
     "category": "vacheron-constantin/watches-mens",
     "count": 0
+  },
+  {
+    "scrapedAt": "2026-08-26T22:20:31.044Z",
+    "category": "zenith/watches-mens",
+    "count": 1
   }
 ]
