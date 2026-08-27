@@ -1,15 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-20T17:40:24.579Z",
-    "query": "16570",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-20T20:53:39.381Z",
-    "query": "Patek Philippe",
-    "count": 40
-  },
-  {
     "scrapedAt": "2026-08-20T20:53:48.574Z",
     "query": "Rolex",
     "count": 40
@@ -97,6 +87,16 @@
   {
     "scrapedAt": "2026-08-27T20:58:08.716Z",
     "query": "Cartier",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-27T21:24:42.035Z",
+    "query": "Chopard",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-27T21:24:51.394Z",
+    "query": "Corum",
     "count": 40
   }
 ]
