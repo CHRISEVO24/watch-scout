@@ -1,10 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-20T12:39:21.567Z",
-    "query": "Omega",
-    "count": 40
-  },
-  {
     "scrapedAt": "2026-08-20T12:39:30.737Z",
     "query": "Panerai",
     "count": 40
@@ -97,6 +92,11 @@
   {
     "scrapedAt": "2026-08-26T22:21:50.214Z",
     "query": "Bulgari",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-08-27T15:58:57.968Z",
+    "query": "breitling",
     "count": 40
   }
 ]
