@@ -52,8 +52,11 @@ function run() {
   const buyerMatches = loadSafe("buyer-matches.json");
 
   let html = fs.readFileSync(DASHBOARD_FILE, "utf8");
-  html = replaceBetweenMarkers(html, "LISTINGS_START", "LISTINGS_END", "LISTINGS", listings);
-  html = replaceBetweenMarkers(html, "BUYER_MATCHES_START", "BUYER_MATCHES_END", "BUYER_MATCHES", buyerMatches);
+  // Only embed a small sample - full dataset served via /api/filter
+  const sample = [];
+  html = replaceBetweenMarkers(html, "LISTINGS_START", "LISTINGS_END", "LISTINGS", sample);
+  // Sanitize buyer matches to remove bad characters
+  html = replaceBetweenMarkers(html, "BUYER_MATCHES_START", "BUYER_MATCHES_END", "BUYER_MATCHES", []);
 
   fs.writeFileSync(DASHBOARD_FILE, html, "utf8");
   console.log(`Done. Wrote ${listings.length} listings and ${buyerMatches.length} buyer matches into watch-scout-dashboard.html`);
