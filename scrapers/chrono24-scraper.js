@@ -27,6 +27,10 @@ const BRANDS = [
   { name: "Girard-Perregaux", slug: "girardperregaux" },
   { name: "Hublot", slug: "hublot" },
   { name: "Zenith", slug: "zenith" },
+  { name: "Breitling", slug: "breitling" },
+  { name: "Tudor", slug: "tudor" },
+  { name: "TAG Heuer", slug: "tagheuer" },
+  { name: "Panerai", slug: "panerai" },
 ];
 
 const PRICE_BANDS = [
