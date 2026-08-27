@@ -50,12 +50,21 @@ function loadAllSources() {
   const ebay = loadSafe("ebay-latest.json");
   const whatsapp = loadSafe("whatsapp-latest.json");
   const bezel = loadSafe("bezel-latest.json");
+  const inventoryconnect = loadSafe("inventoryconnect-latest.json");
+  const artimeus = loadSafe("artimeus-latest.json");
+  const swisswatchexpo = loadSafe("swisswatchexpo-latest.json");
+  const watchlimit = loadSafe("watchlimit-latest.json");
+  const the1916company = loadSafe("the1916company-latest.json");
+  const watchesoff5th = loadSafe("watchesoff5th-latest.json");
+  const affordableswiss = loadSafe("affordableswiss-latest.json");
+  const exquisitetimepieces = loadSafe("exquisitetimepieces-latest.json");
+  const ashford = loadSafe("ashford-latest.json");
 
-  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel].sort(
+  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel, ...inventoryconnect, ...artimeus, ...swisswatchexpo, ...watchlimit, ...the1916company, ...watchesoff5th, ...affordableswiss, ...exquisitetimepieces, ...ashford].sort(
     (a, b) => (a.postedMinutesAgo ?? 99999) - (b.postedMinutesAgo ?? 99999)
   );
 
-  return { combined, watchrecon, watchpatrol, chrono24, bobswatches, europeanwatch, fbgroups, fbmarketplace, ebay, whatsapp, bezel };
+  return { combined, watchrecon, watchpatrol, chrono24, bobswatches, europeanwatch, fbgroups, fbmarketplace, ebay, whatsapp, bezel, inventoryconnect, artimeus, swisswatchexpo, watchlimit, the1916company, watchesoff5th, affordableswiss, exquisitetimepieces, ashford };
 }
 
 app.get("/api/counts", (req, res) => {
