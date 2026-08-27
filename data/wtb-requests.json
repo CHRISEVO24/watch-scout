@@ -22,9 +22,39 @@
     },
     "matches": {
       "wtbId": "17878462709410",
-      "matchedAt": "2026-08-27T19:37:13.238Z",
+      "matchedAt": "2026-08-27T19:38:42.526Z",
       "inventoryMatches": [],
-      "marketMatches": [],
+      "marketMatches": [
+        {
+          "score": 100,
+          "source": "eBay",
+          "title": "Breitling SuperOcean Heritage 46 Blue Dial A17320 Automatic Men's Watch Full Set",
+          "ref": null,
+          "price": 2575,
+          "url": "https://www.ebay.com/itm/298507601048?_skw=Breitling+watch&hash=item4580708498:g:Lr8AAeSwIoZqV9gP",
+          "imageUrl": "https://i.ebayimg.com/images/g/Lr8AAeSwIoZqV9gP/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "eBay",
+          "title": "Breitling Superocean Heritage 46mm A17320 - Black Dial - Box Rubber Strap",
+          "ref": null,
+          "price": 2895,
+          "url": "https://www.ebay.com/itm/188828560709?_skw=breitling&hash=item2bf70f2d45:g:n5gAAeSw5RdqiNMI",
+          "imageUrl": "https://i.ebayimg.com/images/g/n5gAAeSw5RdqiNMI/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 60,
+          "source": "Chrono24",
+          "title": "Breitling Superocean Heritage 46 A1732024b868",
+          "ref": null,
+          "price": 2972,
+          "url": "https://www.chrono24.com/breitling/breitling-superocean-heritage-46-a1732024b868--id48016177.htm",
+          "imageUrl": null
+        }
+      ],
       "icMatches": []
     }
   },
