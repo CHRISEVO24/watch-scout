@@ -631,7 +631,7 @@ function invAction(btn,action){
   const card=btn.closest('[data-iid]');
   const safeId=card.dataset.iid;
   const pfx=card.dataset.pfx;
-  const arr=pfx==='inv'?_INV:pfx==='eci'?_ECI:_ECJ;
+  const arr=pfx==='inv'?_INV:pfx==='eci'?_ECI:pfx==='lb'?_LB:_ECJ;
   // Match by sanitized ID
   const item=arr.find(i=>String(i.id).replace(/[^a-zA-Z0-9_-]/g,'_')===safeId);
   if(!item){console.error('Item not found',safeId);return;}
