@@ -59,19 +59,22 @@ function loadAllSources() {
   const affordableswiss = loadSafe("affordableswiss-latest.json");
   const exquisitetimepieces = loadSafe("exquisitetimepieces-latest.json");
   const ashford = loadSafe("ashford-latest.json");
+  const luxurybazaar = loadSafe("luxurybazaar-latest.json");
 
-  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel, ...inventoryconnect, ...artimeus, ...swisswatchexpo, ...watchlimit, ...the1916company, ...watchesoff5th, ...affordableswiss, ...exquisitetimepieces, ...ashford].sort(
+  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel, ...inventoryconnect, ...artimeus, ...swisswatchexpo, ...watchlimit, ...the1916company, ...watchesoff5th, ...affordableswiss, ...exquisitetimepieces, ...ashford, ...luxurybazaar].sort(
     (a, b) => (a.postedMinutesAgo ?? 99999) - (b.postedMinutesAgo ?? 99999)
   );
 
-  return { combined, watchrecon, watchpatrol, chrono24, bobswatches, europeanwatch, fbgroups, fbmarketplace, ebay, whatsapp, bezel, inventoryconnect, artimeus, swisswatchexpo, watchlimit, the1916company, watchesoff5th, affordableswiss, exquisitetimepieces, ashford };
+  return { combined, watchrecon, watchpatrol, chrono24, bobswatches, europeanwatch, fbgroups, fbmarketplace, ebay, whatsapp, bezel, inventoryconnect, artimeus, swisswatchexpo, watchlimit, the1916company, watchesoff5th, affordableswiss, exquisitetimepieces, ashford, luxurybazaar };
 }
 
 app.get("/api/counts", (req, res) => {
   const combined = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "combined.json"), "utf8"));
   const counts = {};
   combined.forEach(i => { counts[i.source] = (counts[i.source]||0)+1; });
-  res.json({ total: combined.length, counts });
+  const brands = [...new Set(combined.map(i=>i.brand).filter(Boolean))].sort();
+  const colors = [...new Set(combined.map(i=>i.dialColor).filter(Boolean))].sort();
+  res.json({ total: combined.length, counts, brands, colors });
 });
 
 app.get("/api/filter", (req, res) => {
