@@ -60,12 +60,13 @@ function loadAllSources() {
   const exquisitetimepieces = loadSafe("exquisitetimepieces-latest.json");
   const ashford = loadSafe("ashford-latest.json");
   const luxurybazaar = loadSafe("luxurybazaar-latest.json");
+  const watchaffinity = loadSafe("watchaffinity-latest.json");
 
-  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel, ...inventoryconnect, ...artimeus, ...swisswatchexpo, ...watchlimit, ...the1916company, ...watchesoff5th, ...affordableswiss, ...exquisitetimepieces, ...ashford, ...luxurybazaar].sort(
+  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel, ...inventoryconnect, ...artimeus, ...swisswatchexpo, ...watchlimit, ...the1916company, ...watchesoff5th, ...affordableswiss, ...exquisitetimepieces, ...ashford, ...luxurybazaar, ...watchaffinity].sort(
     (a, b) => (a.postedMinutesAgo ?? 99999) - (b.postedMinutesAgo ?? 99999)
   );
 
-  return { combined, watchrecon, watchpatrol, chrono24, bobswatches, europeanwatch, fbgroups, fbmarketplace, ebay, whatsapp, bezel, inventoryconnect, artimeus, swisswatchexpo, watchlimit, the1916company, watchesoff5th, affordableswiss, exquisitetimepieces, ashford, luxurybazaar };
+  return { combined, watchrecon, watchpatrol, chrono24, bobswatches, europeanwatch, fbgroups, fbmarketplace, ebay, whatsapp, bezel, inventoryconnect, artimeus, swisswatchexpo, watchlimit, the1916company, watchesoff5th, affordableswiss, exquisitetimepieces, ashford, luxurybazaar, watchaffinity };
 }
 
 app.get("/api/counts", (req, res) => {
@@ -1049,6 +1050,10 @@ app.post("/api/wtb/rematch", express.json(), async (req, res) => {
   } catch(err) {
     res.status(500).json({ ok: false, error: err.message });
   }
+});
+
+app.get("/api/watchaffinity-inventory", (req, res) => {
+  res.json(loadSafe("watchaffinity-latest.json"));
 });
 
 app.get("/api/luxurybazaar-inventory", (req, res) => {
