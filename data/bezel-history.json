@@ -1,45 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-18T19:02:46.448Z",
-    "brand": "hublot",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-18T19:02:52.378Z",
-    "brand": "iwc",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-19T20:46:55.381Z",
-    "brand": "jaeger-lecoultre",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-19T20:47:01.566Z",
-    "brand": "longines",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-20T12:39:46.888Z",
-    "brand": "omega",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-20T12:39:55.591Z",
-    "brand": "panerai",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-20T20:54:04.158Z",
-    "brand": "patek-philippe",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-20T20:54:09.667Z",
-    "brand": "rolex",
-    "count": 12
-  },
-  {
     "scrapedAt": "2026-08-23T04:33:14.913Z",
     "brand": "tag-heuer",
     "count": 12
@@ -97,6 +57,46 @@
   {
     "scrapedAt": "2026-08-27T21:28:05.362Z",
     "brand": "corum",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-27T21:54:34.414Z",
+    "brand": "cvstos",
+    "count": 3
+  },
+  {
+    "scrapedAt": "2026-08-27T21:54:40.843Z",
+    "brand": "dewitt",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-29T12:21:13.899Z",
+    "brand": "franck-muller",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-29T12:21:23.409Z",
+    "brand": "girard-perregaux",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-08-31T12:34:21.020Z",
+    "brand": "hamilton",
+    "count": 3
+  },
+  {
+    "scrapedAt": "2026-08-31T12:34:29.674Z",
+    "brand": "hublot",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-01T12:43:14.898Z",
+    "brand": "iwc",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-01T12:43:21.597Z",
+    "brand": "jaeger-lecoultre",
     "count": 12
   }
 ]

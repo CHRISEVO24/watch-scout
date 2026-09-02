@@ -1,5 +1,189 @@
 [
   {
+    "id": "17882269559860",
+    "vercelId": "1787971542975",
+    "submittedAt": "2026-08-29T02:45:42.975Z",
+    "source": "public-form",
+    "status": "matched",
+    "client": {
+      "firstName": "marc",
+      "lastName": "Telico ",
+      "email": "sealcoat1987@gmail.com",
+      "phone": "8568231718"
+    },
+    "watch": {
+      "brand": "Rolex",
+      "model": "Airking",
+      "ref": "126900",
+      "budgetMax": "",
+      "condition": "",
+      "boxPapers": "",
+      "notes": ""
+    },
+    "matches": {
+      "wtbId": "17882269559860",
+      "matchedAt": "2026-09-01T01:48:09.137Z",
+      "inventoryMatches": [
+        {
+          "score": 100,
+          "store": "WPB Watch Co",
+          "name": "Rolex Air-King 40mm Stainless Steel Black Arabic Dial 126900",
+          "ref": "126900",
+          "price": 9125,
+          "url": "https://wpbwatchco.com/product/rolex-air-king-40mm-steel-black-dial-126900/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2025/08/23112238/Untitled-design-169.png"
+        }
+      ],
+      "marketMatches": [
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Brand New Unworn Rolex Airking 126900",
+          "ref": null,
+          "price": 9600,
+          "url": "https://www.watchrecon.com/detail.php?cid=7843081",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27995549&size=med-2x&ratio=1.33",
+          "seller": "Lerari41"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Air-King 126900, New Model, MINT, Boxes/Papers dated 6/24/2022, Full year left on factory warranty.",
+          "ref": null,
+          "price": 8150,
+          "url": "https://www.watchrecon.com/detail.php?cid=7817364",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27856743&size=med-2x&ratio=1.33",
+          "seller": "Valle de Joux"
+        },
+        {
+          "score": 100,
+          "source": "WatchPatrol",
+          "title": "Rolex Air-King \"2026\" - 126900 - Black - Stainless Steel - 40mm - Mint - Never polished",
+          "ref": "126900",
+          "price": 9895,
+          "url": "https://www.watchpatrol.net/listing/3626998/",
+          "imageUrl": "https://img.watchpatrol.net/7LJeZk8bahGpA-qZIKVdmGywH9H_-O-2aLEEeWHJVxo/rs:fill:600:600/plain/img/full/840c0cc073f9cf60e12a6161a0183b13d3003e90.jpg",
+          "seller": "ocwatchguy"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "🟢Rolex Air King Ref 126900 Mint Like New 2026 Full Set⚫️",
+          "ref": null,
+          "price": 9495,
+          "url": "https://www.watchrecon.com/detail.php?cid=7856884",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28068824&size=med-2x&ratio=1.33",
+          "seller": "GeneralStruggle5533"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Air-King 40mm 126900 with Box and Papers",
+          "ref": null,
+          "price": 8750,
+          "url": "https://www.watchrecon.com/detail.php?cid=7856773",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28068175&size=med-2x&ratio=1.33",
+          "seller": "srincon123"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Air King 126900 Mint 2023",
+          "ref": null,
+          "price": 8650,
+          "url": "https://www.watchrecon.com/detail.php?cid=7856726",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28067897&size=med-2x&ratio=1.33",
+          "seller": "Vinceb"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Air King Ref. 126900",
+          "ref": null,
+          "price": 9250,
+          "url": "https://www.watchrecon.com/detail.php?cid=7712942",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28085989&size=med-2x&ratio=1.33",
+          "seller": "SolanaWatches"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Air-King 126900 Box Papers 2024 Air King",
+          "ref": null,
+          "price": 9275,
+          "url": "https://www.watchrecon.com/detail.php?cid=7860849",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28091136&size=med-2x&ratio=1.33",
+          "seller": "ILeicaWatches"
+        },
+        {
+          "score": 100,
+          "source": "Artimeus",
+          "title": "Rolex Air-King 40mm 126900 – Black Dial",
+          "ref": "126900",
+          "price": 9430,
+          "url": "https://artimeus.com/products/rolex-air-king-40mm-126900-black-81294",
+          "imageUrl": "https://cdn.shopify.com/s/files/1/0934/9313/3675/files/81294.jpg?v=1786384529"
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "126900 Air King Ss Black Dial",
+          "ref": "126900",
+          "price": 8890,
+          "url": "https://www.chrono24.com/rolex/126900-air-king-ss-black-dial--id48171964.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "  126900 Ss Ss At ",
+          "ref": "126900",
+          "price": 8935,
+          "url": "https://www.chrono24.com/rolex/--126900-ss-ss-at---id47571480.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "  126900 Ss Ss At ",
+          "ref": "126900",
+          "price": 8591,
+          "url": "https://www.chrono24.com/rolex/--126900-ss-ss-at---id47571410.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "   126900  2022   Air King   ",
+          "ref": "126900",
+          "price": 9018,
+          "url": "https://www.chrono24.com/rolex/---126900--2022---air-king-----id47006358.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Rolex 126900",
+          "ref": "126900",
+          "price": 9300,
+          "url": "https://www.chrono24.com/rolex/rolex-126900--id37444291.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": " 126900 431",
+          "ref": "126900",
+          "price": 9571,
+          "url": "https://www.chrono24.com/rolex/-126900-431--id47196029.htm",
+          "imageUrl": null
+        }
+      ],
+      "icMatches": []
+    },
+    "sentAt": "2026-09-01T01:44:37.734Z"
+  },
+  {
     "id": "17878462709410",
     "vercelId": "1787846152448",
     "submittedAt": "2026-08-27T15:55:52.448Z",
@@ -22,7 +206,7 @@
     },
     "matches": {
       "wtbId": "17878462709410",
-      "matchedAt": "2026-08-27T19:38:42.526Z",
+      "matchedAt": "2026-08-30T03:13:50.969Z",
       "inventoryMatches": [],
       "marketMatches": [
         {
@@ -40,8 +224,8 @@
           "source": "eBay",
           "title": "Breitling Superocean Heritage 46mm A17320 - Black Dial - Box Rubber Strap",
           "ref": null,
-          "price": 2895,
-          "url": "https://www.ebay.com/itm/188828560709?_skw=breitling&hash=item2bf70f2d45:g:n5gAAeSw5RdqiNMI",
+          "price": 3595,
+          "url": "https://www.ebay.com/itm/188828560709?_skw=Breitling+watch&hash=item2bf70f2d45:g:n5gAAeSw5RdqiNMI",
           "imageUrl": "https://i.ebayimg.com/images/g/n5gAAeSw5RdqiNMI/s-l225.jpg",
           "seller": null
         },
