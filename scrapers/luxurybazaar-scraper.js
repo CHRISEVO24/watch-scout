@@ -37,7 +37,7 @@ async function scrape() {
       title: i.name || null,
       price: i.price ? parseFloat(i.price.replace(/[^0-9.]/g, "")) : null,
       url: i.url || null,
-      imageUrl: null,
+      imageUrl: i.image || null,
       condition: i.condition || null,
       dialColor: i.dialColor || null,
       caseMaterial: i.caseMaterial || null,
