@@ -194,6 +194,7 @@ input,select,button{font-family:var(--sans);}
     <div class="src-row"><span class="src-dot" style="background:#7e22ce"></span>Exquisite<b id="c-etp">0</b></div>
     <div class="src-row"><span class="src-dot" style="background:#0369a1"></span>Ashford<b id="c-ash">0</b></div>
     <div class="src-row"><span class="src-dot" style="background:#b8860b"></span>Luxury Bazaar<b id="c-lb">0</b></div>
+    <div class="src-row"><span class="src-dot" style="background:#6366f1"></span>Watch Affinity<b id="c-wa2">0</b></div>
   </div>
   <div class="total-ring"><div class="n" id="totalN">0</div><div class="l">Live<br>Leads</div></div>
 </div>
@@ -208,6 +209,7 @@ input,select,button{font-family:var(--sans);}
   <button class="tab" data-tab="eci">&#128142; Post ECI</button>
   <button class="tab" data-tab="ecj">&#128142; Post ECJ Luxe</button>
   <button class="tab" data-tab="lb">&#128142; Post LB</button>
+  <button class="tab" data-tab="wa2">&#128142; Post WA</button>
   <button class="tab" data-tab="bump">&#128276; Bump Manager</button>
   <button class="tab" data-tab="chron">&#129302; Chronos AI</button>
   <button class="tab" data-tab="wtb">&#128203; Client WTB<span class="badge" id="wtbBadge">0</span></button>
@@ -240,6 +242,7 @@ input,select,button{font-family:var(--sans);}
         <div class="chip" data-src="Exquisite Timepieces">Exquisite</div>
         <div class="chip" data-src="Ashford">Ashford</div>
         <div class="chip" data-src="Luxury Bazaar">Luxury Bazaar</div>
+        <div class="chip" data-src="Watch Affinity">Watch Affinity</div>
       </div>
       <div class="fl">Brand</div>
       <select class="fi" id="brandSel" onchange="S.brand=this.value;renderFeed()"><option value="">All brands</option></select>
@@ -316,6 +319,14 @@ input,select,button{font-family:var(--sans);}
     <span class="inv-cnt" id="ecjCnt"></span>
   </div>
   <div class="inv-grid" id="ecjGrid"></div>
+</div>
+<div id="view-wa2" class="view">
+  <div class="inv-bar">
+    <input placeholder="&#128269; Name, Ref, Brand&hellip;" id="wa2Search" oninput="renderWa2()">
+    <select id="wa2Brand" onchange="renderWa2()"><option value="">All Brands</option></select>
+    <span class="inv-cnt" id="wa2Cnt"></span>
+  </div>
+  <div class="inv-grid" id="wa2List"></div>
 </div>
 <div id="view-lb" class="view">
   <div class="inv-bar">
@@ -405,7 +416,7 @@ const BUYER_MATCHES = [];
 // BUYER_MATCHES_END
 const WL=['Hulk','Bruce Wayne','Batgirl','Pepsi GMT','Batman','Kermit','Smurf','Coke','Root Beer','Panda Daytona','Sprite'];
 const S={q:'',src:'',brand:'',color:'',pMin:0,pMax:0,age:0,sort:'new'};
-var _INV=[],_ECI=[],_ECJ=[],_LB=[],_waItem=null;
+var _INV=[],_ECI=[],_ECJ=[],_LB=[],_WA2=[],_waItem=null;
 function $p(p){return p?('$'+Math.round(p).toLocaleString('en-US')):'—';}
 function ago(m){if(m==null)return'date n/a';if(m<60)return m+'m ago';if(m<1440)return Math.round(m/60)+'h ago';return Math.round(m/1440)+'d ago';}
 function nrm(s){return(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');}
@@ -415,14 +426,14 @@ function initCounts(){
   fetch('/api/counts').then(r=>r.json()).then(data=>{
     const c=data.counts||{};
     document.getElementById('totalN').textContent=(data.total||0).toLocaleString();
-    ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company','art:Artimeus','swe:SwissWatchExpo','wl:Watch Limit','wo5:Watches OFF 5TH','asw:Affordable Swiss Watches','etp:Exquisite Timepieces','ash:Ashford','br:Breitling','tud:Tudor','tag:TAG Heuer','lb:Luxury Bazaar'].forEach(x=>{
+    ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company','art:Artimeus','swe:SwissWatchExpo','wl:Watch Limit','wo5:Watches OFF 5TH','asw:Affordable Swiss Watches','etp:Exquisite Timepieces','ash:Ashford','br:Breitling','tud:Tudor','tag:TAG Heuer','lb:Luxury Bazaar','wa2:Watch Affinity'].forEach(x=>{
       const[id,src]=x.split(':');const el=document.getElementById('c-'+id);if(el)el.textContent=c[src]||0;
     });
     if(data.brands){document.getElementById('brandSel').innerHTML="<option value=''>All brands</option>"+data.brands.map(b=>"<option value='"+b+"'>"+b+"</option>").join('');}
     if(data.colors){document.getElementById('colorSel').innerHTML="<option value=''>Any color</option>"+data.colors.map(c=>"<option value='"+c+"'>"+c+"</option>").join('');}
   }).catch(()=>{});
   const c={};LISTINGS.forEach(l=>{c[l.source]=(c[l.source]||0)+1;});
-  ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company','art:Artimeus','swe:SwissWatchExpo','wl:Watch Limit','wo5:Watches OFF 5TH','asw:Affordable Swiss Watches','etp:Exquisite Timepieces','ash:Ashford','br:Breitling','tud:Tudor','tag:TAG Heuer','lb:Luxury Bazaar'].forEach(x=>{
+  ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company','art:Artimeus','swe:SwissWatchExpo','wl:Watch Limit','wo5:Watches OFF 5TH','asw:Affordable Swiss Watches','etp:Exquisite Timepieces','ash:Ashford','br:Breitling','tud:Tudor','tag:TAG Heuer','lb:Luxury Bazaar','wa2:Watch Affinity'].forEach(x=>{
     const[id,src]=x.split(':');document.getElementById('c-'+id).textContent=c[src]||0;
   });
   document.getElementById('totalN').textContent=LISTINGS.length.toLocaleString();
@@ -615,6 +626,23 @@ function renderEcj(){
   const g=document.getElementById('ecjGrid');
   g.innerHTML=items.length?items.map(i=>invCard(i,'ecj')).join(''):'<div class="empty" style="grid-column:1/-1">No items match.</div>';
 }
+async function loadWa2(){try{const r=await fetch('/api/watchaffinity-inventory');_WA2=await r.json();}catch{_WA2=[];}
+  const b=[...new Set(_WA2.map(i=>i.brand).filter(Boolean))].sort();
+  const sel=document.getElementById('wa2Brand');if(sel){sel.innerHTML='<option value="">All brands</option>'+b.map(b=>`<option>${b}</option>`).join('');}
+  renderWa2();}
+function renderWa2(){
+  const q=document.getElementById('wa2Search')?.value||'';
+  const brand=document.getElementById('wa2Brand')?.value||'';
+  const items=_WA2.filter(i=>{
+    if(brand&&i.brand!==brand)return false;
+    if(q){const h=((i.brand||'')+' '+(i.title||i.name||'')+' '+(i.ref||'')).toLowerCase();if(!h.includes(q.toLowerCase()))return false;}
+    return true;
+  });
+  const el=document.getElementById('wa2List');
+  if(!el)return;
+  const cnt=document.getElementById('wa2Cnt');if(cnt)cnt.textContent=items.length+' watches';
+  if(!items.length){el.innerHTML='<div class="empty">No listings match.</div>';return;}
+  el.innerHTML=items.map(i=>invCard({...i, name:i.title||i.name, price:i.price?String(i.price):null, images:i.imageUrl?[i.imageUrl]:[], box:i.boxPapers&&i.boxPapers.includes('Box')?'Yes':'No', papers:i.boxPapers&&i.boxPapers.includes('Paper')?'Yes':'No'},'wa2')).join('');}
 async function loadLb(){try{const r=await fetch('/api/luxurybazaar-inventory');_LB=await r.json();}catch{_LB=[];}
   const b=[...new Set(_LB.map(i=>i.brand).filter(Boolean))].sort();
   const sel=document.getElementById('lbBrand');if(sel){sel.innerHTML='<option value="">All brands</option>'+b.map(b=>`<option>${b}</option>`).join('');}
@@ -632,7 +660,7 @@ function invAction(btn,action){
   const card=btn.closest('[data-iid]');
   const safeId=card.dataset.iid;
   const pfx=card.dataset.pfx;
-  const arr=pfx==='inv'?_INV:pfx==='eci'?_ECI:pfx==='lb'?_LB:_ECJ;
+  const arr=pfx==='inv'?_INV:pfx==='eci'?_ECI:pfx==='lb'?_LB:pfx==='wa2'?_WA2:_ECJ;
   // Match by sanitized ID
   const item=arr.find(i=>String(i.id).replace(/[^a-zA-Z0-9_-]/g,'_')===safeId);
   if(!item){console.error('Item not found',safeId);return;}
@@ -773,7 +801,7 @@ async function doLive(){
   try{const d=await fetch('/api/search?q='+encodeURIComponent(q)).then(r=>r.json());st.textContent='Done — '+d.count.toLocaleString()+' listings loaded.';}
   catch(e){st.textContent='Error: '+e.message;}finally{btn.disabled=false;}
 }
-const tabMap={feed:'view-feed',sales:'view-sales',inv:'view-inv',eci:'view-eci',ecj:'view-ecj',lb:'view-lb',bump:'view-bump',chron:'view-chron',wtb:'view-wtb'};
+const tabMap={feed:'view-feed',sales:'view-sales',inv:'view-inv',eci:'view-eci',ecj:'view-ecj',lb:'view-lb',wa2:'view-wa2',bump:'view-bump',chron:'view-chron',wtb:'view-wtb'};
 document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
   document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
   document.querySelectorAll('.view').forEach(x=>x.classList.remove('on'));
@@ -782,6 +810,7 @@ document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
   if(t.dataset.tab==='eci'){if(!_ECI.length)loadEci();else renderEci();}
   if(t.dataset.tab==='ecj'){if(!_ECJ.length)loadEcj();else renderEcj();}
   if(t.dataset.tab==='lb'){if(!_LB.length)loadLb();else renderLb();}
+  if(t.dataset.tab==='wa2'){if(!_WA2.length)loadWa2();else renderWa2();}
   if(t.dataset.tab==='wtb')loadWtbRequests();
 }));
 // WTB Functions
