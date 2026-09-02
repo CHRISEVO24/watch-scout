@@ -579,7 +579,7 @@ function renderLb(){
   if(!el)return;
   const cnt=document.getElementById('lbCnt');if(cnt)cnt.textContent=items.length+' watches';
   if(!items.length){el.innerHTML='<div class="empty">No listings match.</div>';return;}
-  el.innerHTML=items.map(i=>invCard({...i, name:i.title||i.name, images:i.imageUrl?[i.imageUrl]:[], box:i.boxPapers&&i.boxPapers.includes('Box')?'Yes':'No', papers:i.boxPapers&&i.boxPapers.includes('Paper')?'Yes':'No'},'lb')).join('');
+  el.innerHTML=items.map(i=>invCard({...i, name:i.title||i.name, price:i.price?String(i.price):null, images:i.imageUrl?[i.imageUrl]:[], box:i.boxPapers&&i.boxPapers.includes('Box')?'Yes':'No', papers:i.boxPapers&&i.boxPapers.includes('Paper')?'Yes':'No'},'lb')).join('');
 }
 function filterInv(items,q,brand,price,box,inStock){
   return items.filter(i=>{
