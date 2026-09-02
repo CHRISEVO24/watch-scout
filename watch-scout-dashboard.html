@@ -531,15 +531,16 @@ function renderSales(){
 }
 function buildMsg(item){
   const rawPrice=item.price||'';
-  const p=rawPrice.startsWith('$')?rawPrice:rawPrice?('$'+prc(rawPrice).toLocaleString()):'Contact for price';
+  const rawPriceStr=String(rawPrice);
+  const p=rawPriceStr.startsWith('$')?rawPriceStr:rawPriceStr?('$'+prc(rawPriceStr).toLocaleString()):'Contact for price';
+  const name=item.name||item.title||'';
   const ref=item.referenceNumber||item.ref||'';
-  // Year may be "12/2021" or "2021" - extract 4-digit year
   let yr=null;
   if(item.year&&item.year!=='Unknown'){
     const m=String(item.year).match(/\d{4}/);
     if(m)yr=m[0];
   }
-  return [item.name,'',p+' + Label',yr?'Year: '+yr:null,'','Wire first / DM for Availability','Cross Posted','','For purchases made in Florida Sales Tax will need to be collected or a reseller\'s certificate must be provided.','','WPB Watch Co | West Palm Beach, FL'].filter(l=>l!==null).join('\n');
+  return [name,'',p+' + Label',ref?'Ref: '+ref:null,yr?'Year: '+yr:null,'','Wire first / DM for Availability','Cross Posted','','For purchases made in Florida Sales Tax will need to be collected or a reseller\'s certificate must be provided.','','WPB Watch Co | West Palm Beach, FL'].filter(l=>l!==null).join('\n');
 }
 function invCard(item,pfx){
   const p=prc(item.price);const pd=p?('$'+p.toLocaleString()):'--';
