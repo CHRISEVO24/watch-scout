@@ -572,23 +572,14 @@ function renderLb(){
   const brand=document.getElementById('lbBrand')?.value||'';
   const items=_LB.filter(i=>{
     if(brand&&i.brand!==brand)return false;
-    if(q){const h=(i.brand+' '+i.title+' '+i.ref).toLowerCase();if(!h.includes(q.toLowerCase()))return false;}
+    if(q){const h=((i.brand||'')+' '+(i.title||i.name||'')+' '+(i.ref||'')).toLowerCase();if(!h.includes(q.toLowerCase()))return false;}
     return true;
   });
   const el=document.getElementById('lbList');
   if(!el)return;
+  const cnt=document.getElementById('lbCnt');if(cnt)cnt.textContent=items.length+' watches';
   if(!items.length){el.innerHTML='<div class="empty">No listings match.</div>';return;}
-  el.innerHTML=items.map(i=>`<div class="inv-card">
-    <div class="inv-info">
-      <div class="inv-title">${i.title||''}</div>
-      <div class="inv-sub">${i.brand||''} · Ref. ${i.ref||'—'} · ${i.condition||''} · ${i.boxPapers||''}</div>
-    </div>
-    <div class="inv-price">${i.price?'$'+Math.round(i.price).toLocaleString():'—'}</div>
-    <div class="inv-actions">
-      <button onclick="postItem('lb','${(i.id||'').replace(/'/g,'')}')" class="btn-post">Post</button>
-      ${i.url?`<a href="${i.url}" target="_blank" class="btn-view">View →</a>`:''}
-    </div>
-  </div>`).join('');
+  el.innerHTML=items.map(i=>invCard({...i, name:i.title||i.name, images:i.imageUrl?[i.imageUrl]:[], box:i.boxPapers&&i.boxPapers.includes('Box')?'Yes':'No', papers:i.boxPapers&&i.boxPapers.includes('Paper')?'Yes':'No'},'lb')).join('');
 }
 function filterInv(items,q,brand,price,box,inStock){
   return items.filter(i=>{
@@ -781,7 +772,7 @@ async function doLive(){
   try{const d=await fetch('/api/search?q='+encodeURIComponent(q)).then(r=>r.json());st.textContent='Done — '+d.count.toLocaleString()+' listings loaded.';}
   catch(e){st.textContent='Error: '+e.message;}finally{btn.disabled=false;}
 }
-const tabMap={feed:'view-feed',sales:'view-sales',inv:'view-inv',eci:'view-eci',ecj:'view-ecj',bump:'view-bump',chron:'view-chron',wtb:'view-wtb'};
+const tabMap={feed:'view-feed',sales:'view-sales',inv:'view-inv',eci:'view-eci',ecj:'view-ecj',lb:'view-lb',bump:'view-bump',chron:'view-chron',wtb:'view-wtb'};
 document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
   document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
   document.querySelectorAll('.view').forEach(x=>x.classList.remove('on'));
