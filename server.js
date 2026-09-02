@@ -1051,6 +1051,10 @@ app.post("/api/wtb/rematch", express.json(), async (req, res) => {
   }
 });
 
+app.get("/api/luxurybazaar-inventory", (req, res) => {
+  res.json(loadSafe("luxurybazaar-latest.json"));
+});
+
 app.get("/api/ecj-inventory", async (req, res) => {
   try {
     const axios = require("axios");

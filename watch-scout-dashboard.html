@@ -207,6 +207,7 @@ input,select,button{font-family:var(--sans);}
   <button class="tab" data-tab="inv">&#128230; Post Inventory</button>
   <button class="tab" data-tab="eci">&#128142; Post ECI</button>
   <button class="tab" data-tab="ecj">&#128142; Post ECJ Luxe</button>
+  <button class="tab" data-tab="lb">&#128142; Post LB</button>
   <button class="tab" data-tab="bump">&#128276; Bump Manager</button>
   <button class="tab" data-tab="chron">&#129302; Chronos AI</button>
   <button class="tab" data-tab="wtb">&#128203; Client WTB<span class="badge" id="wtbBadge">0</span></button>
@@ -316,6 +317,14 @@ input,select,button{font-family:var(--sans);}
   </div>
   <div class="inv-grid" id="ecjGrid"></div>
 </div>
+<div id="view-lb" class="view">
+  <div class="inv-bar">
+    <input placeholder="&#128269; Name, Ref, Brand&hellip;" id="lbSearch" oninput="renderLb()">
+    <select id="lbBrand" onchange="renderLb()"><option value="">All Brands</option></select>
+    <span class="inv-cnt" id="lbCnt"></span>
+  </div>
+  <div class="inv-grid" id="lbList"></div>
+</div>
 <div id="view-bump" class="view" style="padding:28px;color:var(--text-secondary);font-size:13px;">Bump Manager &mdash; post to Facebook Groups and track bump schedules. Coming soon.</div>
 <div id="view-wtb" class="view">
   <div style="padding:20px 24px;">
@@ -396,7 +405,7 @@ const BUYER_MATCHES = [];
 // BUYER_MATCHES_END
 const WL=['Hulk','Bruce Wayne','Batgirl','Pepsi GMT','Batman','Kermit','Smurf','Coke','Root Beer','Panda Daytona','Sprite'];
 const S={q:'',src:'',brand:'',color:'',pMin:0,pMax:0,age:0,sort:'new'};
-var _INV=[],_ECI=[],_ECJ=[],_waItem=null;
+var _INV=[],_ECI=[],_ECJ=[],_LB=[],_waItem=null;
 function $p(p){return p?('$'+Math.round(p).toLocaleString('en-US')):'—';}
 function ago(m){if(m==null)return'date n/a';if(m<60)return m+'m ago';if(m<1440)return Math.round(m/60)+'h ago';return Math.round(m/1440)+'d ago';}
 function nrm(s){return(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');}
@@ -558,6 +567,29 @@ function invCard(item,pfx){
     </div>
   </div>`;
 }
+function renderLb(){
+  const q=document.getElementById('lbSearch')?.value||'';
+  const brand=document.getElementById('lbBrand')?.value||'';
+  const items=_LB.filter(i=>{
+    if(brand&&i.brand!==brand)return false;
+    if(q){const h=(i.brand+' '+i.title+' '+i.ref).toLowerCase();if(!h.includes(q.toLowerCase()))return false;}
+    return true;
+  });
+  const el=document.getElementById('lbList');
+  if(!el)return;
+  if(!items.length){el.innerHTML='<div class="empty">No listings match.</div>';return;}
+  el.innerHTML=items.map(i=>`<div class="inv-card">
+    <div class="inv-info">
+      <div class="inv-title">${i.title||''}</div>
+      <div class="inv-sub">${i.brand||''} · Ref. ${i.ref||'—'} · ${i.condition||''} · ${i.boxPapers||''}</div>
+    </div>
+    <div class="inv-price">${i.price?'$'+Math.round(i.price).toLocaleString():'—'}</div>
+    <div class="inv-actions">
+      <button onclick="postItem('lb','${(i.id||'').replace(/'/g,'')}')" class="btn-post">Post</button>
+      ${i.url?`<a href="${i.url}" target="_blank" class="btn-view">View →</a>`:''}
+    </div>
+  </div>`).join('');
+}
 function filterInv(items,q,brand,price,box,inStock){
   return items.filter(i=>{
     if(inStock){const s=(i.stockStatus||'').toLowerCase();if(!(s==='in stock'||s.includes('instock')))return false;}
@@ -591,6 +623,10 @@ function renderEcj(){
   const g=document.getElementById('ecjGrid');
   g.innerHTML=items.length?items.map(i=>invCard(i,'ecj')).join(''):'<div class="empty" style="grid-column:1/-1">No items match.</div>';
 }
+async function loadLb(){try{const r=await fetch('/api/luxurybazaar-inventory');_LB=await r.json();}catch{_LB=[];}
+  const b=[...new Set(_LB.map(i=>i.brand).filter(Boolean))].sort();
+  const sel=document.getElementById('lbBrand');if(sel){sel.innerHTML='<option value="">All brands</option>'+b.map(b=>`<option>${b}</option>`).join('');}
+  renderLb();}
 async function loadInv(){try{const r=await fetch('/api/inventory');_INV=await r.json();}catch{_INV=[];}
   const b=[...new Set(_INV.map(i=>i.brand).filter(Boolean))].sort();
   document.getElementById('invBrand').innerHTML="<option value=''>All Brands</option>"+b.map(x=>`<option>${x}</option>`).join('');renderInv();}
@@ -753,6 +789,7 @@ document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
   if(t.dataset.tab==='inv'){if(!_INV.length)loadInv();else renderInv();}
   if(t.dataset.tab==='eci'){if(!_ECI.length)loadEci();else renderEci();}
   if(t.dataset.tab==='ecj'){if(!_ECJ.length)loadEcj();else renderEcj();}
+  if(t.dataset.tab==='lb'){if(!_LB.length)loadLb();else renderLb();}
   if(t.dataset.tab==='wtb')loadWtbRequests();
 }));
 // WTB Functions
