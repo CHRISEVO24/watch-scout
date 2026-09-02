@@ -415,14 +415,14 @@ function initCounts(){
   fetch('/api/counts').then(r=>r.json()).then(data=>{
     const c=data.counts||{};
     document.getElementById('totalN').textContent=(data.total||0).toLocaleString();
-    ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company','art:Artimeus','swe:SwissWatchExpo','wl:Watch Limit','wo5:Watches OFF 5TH','asw:Affordable Swiss Watches','etp:Exquisite Timepieces','ash:Ashford','br:Breitling','tud:Tudor','tag:TAG Heuer'].forEach(x=>{
+    ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company','art:Artimeus','swe:SwissWatchExpo','wl:Watch Limit','wo5:Watches OFF 5TH','asw:Affordable Swiss Watches','etp:Exquisite Timepieces','ash:Ashford','br:Breitling','tud:Tudor','tag:TAG Heuer','lb:Luxury Bazaar'].forEach(x=>{
       const[id,src]=x.split(':');const el=document.getElementById('c-'+id);if(el)el.textContent=c[src]||0;
     });
     if(data.brands){document.getElementById('brandSel').innerHTML="<option value=''>All brands</option>"+data.brands.map(b=>"<option value='"+b+"'>"+b+"</option>").join('');}
     if(data.colors){document.getElementById('colorSel').innerHTML="<option value=''>Any color</option>"+data.colors.map(c=>"<option value='"+c+"'>"+c+"</option>").join('');}
   }).catch(()=>{});
   const c={};LISTINGS.forEach(l=>{c[l.source]=(c[l.source]||0)+1;});
-  ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company','art:Artimeus','swe:SwissWatchExpo','wl:Watch Limit','wo5:Watches OFF 5TH','asw:Affordable Swiss Watches','etp:Exquisite Timepieces','ash:Ashford','br:Breitling','tud:Tudor','tag:TAG Heuer'].forEach(x=>{
+  ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company','art:Artimeus','swe:SwissWatchExpo','wl:Watch Limit','wo5:Watches OFF 5TH','asw:Affordable Swiss Watches','etp:Exquisite Timepieces','ash:Ashford','br:Breitling','tud:Tudor','tag:TAG Heuer','lb:Luxury Bazaar'].forEach(x=>{
     const[id,src]=x.split(':');document.getElementById('c-'+id).textContent=c[src]||0;
   });
   document.getElementById('totalN').textContent=LISTINGS.length.toLocaleString();
