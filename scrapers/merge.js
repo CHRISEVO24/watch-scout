@@ -43,7 +43,6 @@ function run() {
   const topperjewelers = loadSafe("topperjewelers-latest.json");
   const materialgood = loadSafe("materialgood-latest.json");
   const hqmilton = loadSafe("hqmilton-latest.json");
-  const craftandtailored = loadSafe("craftandtailored-latest.json");
   const analogshift = loadSafe("analogshift-latest.json");
   const timepiecetrading = loadSafe("timepiecetrading-latest.json");
   const grayandsons = loadSafe("grayandsons-latest.json");
@@ -54,7 +53,7 @@ function run() {
 
   fs.writeFileSync(OUT_FILE, JSON.stringify(combined, null, 2), "utf8");
   console.log(
-    `Merged ${watchrecon.length} WatchRecon + ${watchpatrol.length} WatchPatrol + ${chrono24.length} Chrono24 + ${bobswatches.length} Bob's Watches + ${europeanwatch.length} European Watch + ${fbgroups.length} FB Group + ${fbmarketplace.length} FB Marketplace + ${ebay.length} eBay + ${whatsapp.length} WhatsApp + ${bezel.length} Bezel + ${inventoryconnect.length} InventoryConnect + ${artimeus.length} Artimeus + ${swisswatchexpo.length} SwissWatchExpo + ${watchlimit.length} WatchLimit + ${the1916company.length} The1916Company + ${watchesoff5th.length} WatchesOFF5TH + ${affordableswiss.length} AffordableSwiss + ${exquisitetimepieces.length} ExquisiteTimepieces + ${ashford.length} Ashford + ${luxurybazaar.length} LuxuryBazaar + ${watchaffinity.length} WatchAffinity + ${iplaywatch.length} iPlayWatch + ${aiswatches.length} AISWatches + ${elementintime.length} ElementiNTime + ${wristaficionado.length} WristAficionado + ${collectors1946.length} Collectors1946 + ${grandcaliber.length} GrandCaliber + ${crmjewelers.length} CRMJewelers + ${providentjewelry.length} ProvidentJewelry + ${topperjewelers.length} TopperJewelers + ${materialgood.length} MaterialGood + ${hqmilton.length} HQMilton + ${craftandtailored.length} CraftAndTailored listings → data/combined.json (${combined.length} total)`
+    `Merged ${watchrecon.length} WatchRecon + ${watchpatrol.length} WatchPatrol + ${chrono24.length} Chrono24 + ${bobswatches.length} Bob's Watches + ${europeanwatch.length} European Watch + ${fbgroups.length} FB Group + ${fbmarketplace.length} FB Marketplace + ${ebay.length} eBay + ${whatsapp.length} WhatsApp + ${bezel.length} Bezel + ${inventoryconnect.length} InventoryConnect + ${artimeus.length} Artimeus + ${swisswatchexpo.length} SwissWatchExpo + ${watchlimit.length} WatchLimit + ${the1916company.length} The1916Company + ${watchesoff5th.length} WatchesOFF5TH + ${affordableswiss.length} AffordableSwiss + ${exquisitetimepieces.length} ExquisiteTimepieces + ${ashford.length} Ashford + ${luxurybazaar.length} LuxuryBazaar + ${watchaffinity.length} WatchAffinity + ${iplaywatch.length} iPlayWatch + ${aiswatches.length} AISWatches + ${elementintime.length} ElementiNTime + ${wristaficionado.length} WristAficionado + ${collectors1946.length} Collectors1946 + ${grandcaliber.length} GrandCaliber + ${crmjewelers.length} CRMJewelers + ${providentjewelry.length} ProvidentJewelry + ${topperjewelers.length} TopperJewelers + ${materialgood.length} MaterialGood + ${hqmilton.length} HQMilton listings → data/combined.json (${combined.length} total)`
   );
 }
 

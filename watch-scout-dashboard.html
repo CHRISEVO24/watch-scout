@@ -206,7 +206,6 @@ input,select,button{font-family:var(--sans);}
     <div class="src-row"><span class="src-dot" style="background:#6b7280"></span>Topper Jewelers<b id="c-topp">0</b></div>
     <div class="src-row"><span class="src-dot" style="background:#6b7280"></span>Material Good<b id="c-mate">0</b></div>
     <div class="src-row"><span class="src-dot" style="background:#6b7280"></span>HQ Milton<b id="c-hqmi">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#6b7280"></span>Craft + Tailored<b id="c-craf">0</b></div>
     <div class="src-row"><span class="src-dot" style="background:#84cc16"></span>Analog Shift<b id="c-anal">0</b></div>
     <div class="src-row"><span class="src-dot" style="background:#f59e0b"></span>Timepiece Trading<b id="c-time">0</b></div>
     <div class="src-row"><span class="src-dot" style="background:#dc2626"></span>Gray and Sons<b id="c-gray">0</b></div>
@@ -269,7 +268,6 @@ input,select,button{font-family:var(--sans);}
         <div class="chip" data-src="Topper Jewelers">Topper Jewelers</div>
         <div class="chip" data-src="Material Good">Material Good</div>
         <div class="chip" data-src="HQ Milton">HQ Milton</div>
-        <div class="chip" data-src="Craft + Tailored">Craft + Tailored</div>
         <div class="chip" data-src="Analog Shift">Analog Shift</div>
         <div class="chip" data-src="Timepiece Trading">Timepiece Trading</div>
         <div class="chip" data-src="Gray &amp; Sons">Gray &amp; Sons</div>
@@ -456,14 +454,14 @@ function initCounts(){
   fetch('/api/counts').then(r=>r.json()).then(data=>{
     const c=data.counts||{};
     document.getElementById('totalN').textContent=(data.total||0).toLocaleString();
-    ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company','art:Artimeus','swe:SwissWatchExpo','wl:Watch Limit','wo5:Watches OFF 5TH','asw:Affordable Swiss Watches','etp:Exquisite Timepieces','ash:Ashford','br:Breitling','tud:Tudor','tag:TAG Heuer','lb:Luxury Bazaar','wa2:Watch Affinity','ipw:iPlayWatch','aisw:AIS Watches','elem:Element iN Time','wris:Wrist Aficionado','coll:Collectors1946','gran:Grand Caliber','crmj:CRM Jewelers','prov:Provident Jewelry','topp:Topper Jewelers','mate:Material Good','hqmi:HQ Milton','craf:Craft + Tailored','anal:Analog Shift','time:Timepiece Trading','gray:Gray & Sons'].forEach(x=>{
+    ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company','art:Artimeus','swe:SwissWatchExpo','wl:Watch Limit','wo5:Watches OFF 5TH','asw:Affordable Swiss Watches','etp:Exquisite Timepieces','ash:Ashford','br:Breitling','tud:Tudor','tag:TAG Heuer','lb:Luxury Bazaar','wa2:Watch Affinity','ipw:iPlayWatch','aisw:AIS Watches','elem:Element iN Time','wris:Wrist Aficionado','coll:Collectors1946','gran:Grand Caliber','crmj:CRM Jewelers','prov:Provident Jewelry','topp:Topper Jewelers','mate:Material Good','hqmi:HQ Milton','anal:Analog Shift','time:Timepiece Trading','gray:Gray & Sons'].forEach(x=>{
       const[id,src]=x.split(':');const el=document.getElementById('c-'+id);if(el)el.textContent=c[src]||0;
     });
     if(data.brands){document.getElementById('brandSel').innerHTML="<option value=''>All brands</option>"+data.brands.map(b=>"<option value='"+b+"'>"+b+"</option>").join('');}
     if(data.colors){document.getElementById('colorSel').innerHTML="<option value=''>Any color</option>"+data.colors.map(c=>"<option value='"+c+"'>"+c+"</option>").join('');}
   }).catch(()=>{});
   const c={};LISTINGS.forEach(l=>{c[l.source]=(c[l.source]||0)+1;});
-  ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company','art:Artimeus','swe:SwissWatchExpo','wl:Watch Limit','wo5:Watches OFF 5TH','asw:Affordable Swiss Watches','etp:Exquisite Timepieces','ash:Ashford','br:Breitling','tud:Tudor','tag:TAG Heuer','lb:Luxury Bazaar','wa2:Watch Affinity','ipw:iPlayWatch','aisw:AIS Watches','elem:Element iN Time','wris:Wrist Aficionado','coll:Collectors1946','gran:Grand Caliber','crmj:CRM Jewelers','prov:Provident Jewelry','topp:Topper Jewelers','mate:Material Good','hqmi:HQ Milton','craf:Craft + Tailored','anal:Analog Shift','time:Timepiece Trading','gray:Gray & Sons'].forEach(x=>{
+  ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company','art:Artimeus','swe:SwissWatchExpo','wl:Watch Limit','wo5:Watches OFF 5TH','asw:Affordable Swiss Watches','etp:Exquisite Timepieces','ash:Ashford','br:Breitling','tud:Tudor','tag:TAG Heuer','lb:Luxury Bazaar','wa2:Watch Affinity','ipw:iPlayWatch','aisw:AIS Watches','elem:Element iN Time','wris:Wrist Aficionado','coll:Collectors1946','gran:Grand Caliber','crmj:CRM Jewelers','prov:Provident Jewelry','topp:Topper Jewelers','mate:Material Good','hqmi:HQ Milton','anal:Analog Shift','time:Timepiece Trading','gray:Gray & Sons'].forEach(x=>{
     const[id,src]=x.split(':');document.getElementById('c-'+id).textContent=c[src]||0;
   });
   document.getElementById('totalN').textContent=LISTINGS.length.toLocaleString();

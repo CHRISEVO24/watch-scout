@@ -72,7 +72,6 @@ function loadAllSources() {
   const topperjewelers = loadSafe("topperjewelers-latest.json");
   const materialgood = loadSafe("materialgood-latest.json");
   const hqmilton = loadSafe("hqmilton-latest.json");
-  const craftandtailored = loadSafe("craftandtailored-latest.json");
   const analogshift = loadSafe("analogshift-latest.json");
   const timepiecetrading = loadSafe("timepiecetrading-latest.json");
   const grayandsons = loadSafe("grayandsons-latest.json");
