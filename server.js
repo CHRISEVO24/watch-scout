@@ -75,12 +75,13 @@ function loadAllSources() {
   const craftandtailored = loadSafe("craftandtailored-latest.json");
   const analogshift = loadSafe("analogshift-latest.json");
   const timepiecetrading = loadSafe("timepiecetrading-latest.json");
+  const grayandsons = loadSafe("grayandsons-latest.json");
 
-  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel, ...inventoryconnect, ...artimeus, ...swisswatchexpo, ...watchlimit, ...the1916company, ...watchesoff5th, ...affordableswiss, ...exquisitetimepieces, ...ashford, ...luxurybazaar, ...watchaffinity, ...iplaywatch, ...aiswatches, ...elementintime, ...wristaficionado, ...collectors1946, ...grandcaliber, ...crmjewelers, ...providentjewelry, ...topperjewelers, ...materialgood, ...hqmilton, ...craftandtailored, ...analogshift, ...timepiecetrading].sort(
+  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel, ...inventoryconnect, ...artimeus, ...swisswatchexpo, ...watchlimit, ...the1916company, ...watchesoff5th, ...affordableswiss, ...exquisitetimepieces, ...ashford, ...luxurybazaar, ...watchaffinity, ...iplaywatch, ...aiswatches, ...elementintime, ...wristaficionado, ...collectors1946, ...grandcaliber, ...crmjewelers, ...providentjewelry, ...topperjewelers, ...materialgood, ...hqmilton, ...craftandtailored, ...analogshift, ...timepiecetrading, ...grayandsons].sort(
     (a, b) => (a.postedMinutesAgo ?? 99999) - (b.postedMinutesAgo ?? 99999)
   );
 
-  return { combined, watchrecon, watchpatrol, chrono24, bobswatches, europeanwatch, fbgroups, fbmarketplace, ebay, whatsapp, bezel, inventoryconnect, artimeus, swisswatchexpo, watchlimit, the1916company, watchesoff5th, affordableswiss, exquisitetimepieces, ashford, luxurybazaar, watchaffinity, iplaywatch, aiswatches, elementintime, wristaficionado, collectors1946, grandcaliber, crmjewelers, providentjewelry, topperjewelers, materialgood, hqmilton, craftandtailored, analogshift, timepiecetrading };
+  return { combined, watchrecon, watchpatrol, chrono24, bobswatches, europeanwatch, fbgroups, fbmarketplace, ebay, whatsapp, bezel, inventoryconnect, artimeus, swisswatchexpo, watchlimit, the1916company, watchesoff5th, affordableswiss, exquisitetimepieces, ashford, luxurybazaar, watchaffinity, iplaywatch, aiswatches, elementintime, wristaficionado, collectors1946, grandcaliber, crmjewelers, providentjewelry, topperjewelers, materialgood, hqmilton, craftandtailored, analogshift, timepiecetrading, grayandsons };
 }
 
 app.get("/api/counts", (req, res) => {
