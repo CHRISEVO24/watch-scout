@@ -316,24 +316,16 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
   const w = wtb.watch || {};
   const m = wtb.matches || { inventoryMatches: [], marketMatches: [], icMatches: [] };
 
-  // Verify Chrono24 URLs are still live before sending
-  const axios = require('axios');
-  async function verifyUrl(url) {
-    if (!url || !url.includes('chrono24.com')) return true;
-    try {
-      const r = await axios.get(url, { maxRedirects: 0, timeout: 5000, validateStatus: s => s < 400 });
-      return r.status < 300; // 3xx = redirect to generic page = sold
-    } catch(e) { return true; } // keep on error
-  }
-
-  // Filter out sold Chrono24 listings
-  const verifiedMkt = [];
-  for (const item of m.marketMatches) {
-    const ok = await verifyUrl(item.url);
-    if (ok) verifiedMkt.push(item);
-    else console.log('[WTB] Removed sold listing:', item.url?.slice(-30));
-  }
-  m.marketMatches = verifiedMkt;
+  // Filter out Chrono24 listings no longer in our scraped data (likely sold)
+  const c24Ids = new Set(
+    loadSafe('chrono24-latest.json').map(i => i.url).filter(Boolean)
+  );
+  m.marketMatches = m.marketMatches.filter(item => {
+    if (!item.url || !item.url.includes('chrono24.com')) return true;
+    const stillLive = c24Ids.has(item.url);
+    if (!stillLive) console.log('[WTB] Removed stale Chrono24 listing:', item.url?.slice(-30));
+    return stillLive;
+  });
 
   function fmtP(p) {
     if (!p) return "—";
@@ -770,24 +762,16 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
   const w = wtb.watch || {};
   const m = wtb.matches || { inventoryMatches: [], marketMatches: [], icMatches: [] };
 
-  // Verify Chrono24 URLs are still live before sending
-  const axios = require('axios');
-  async function verifyUrl(url) {
-    if (!url || !url.includes('chrono24.com')) return true;
-    try {
-      const r = await axios.get(url, { maxRedirects: 0, timeout: 5000, validateStatus: s => s < 400 });
-      return r.status < 300; // 3xx = redirect to generic page = sold
-    } catch(e) { return true; } // keep on error
-  }
-
-  // Filter out sold Chrono24 listings
-  const verifiedMkt = [];
-  for (const item of m.marketMatches) {
-    const ok = await verifyUrl(item.url);
-    if (ok) verifiedMkt.push(item);
-    else console.log('[WTB] Removed sold listing:', item.url?.slice(-30));
-  }
-  m.marketMatches = verifiedMkt;
+  // Filter out Chrono24 listings no longer in our scraped data (likely sold)
+  const c24Ids = new Set(
+    loadSafe('chrono24-latest.json').map(i => i.url).filter(Boolean)
+  );
+  m.marketMatches = m.marketMatches.filter(item => {
+    if (!item.url || !item.url.includes('chrono24.com')) return true;
+    const stillLive = c24Ids.has(item.url);
+    if (!stillLive) console.log('[WTB] Removed stale Chrono24 listing:', item.url?.slice(-30));
+    return stillLive;
+  });
 
   function fmtP(p) {
     if (!p) return "—";
