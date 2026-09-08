@@ -44,7 +44,7 @@ async function scrape() {
   while (true) {
     try {
       const { data } = await axios.post(API_URL, {
-        pageNo: page, pageSize, status: 11
+        pageNo: page, pageSize, status: 1
       }, { headers: HEADERS, timeout: 30000 });
 
       if (!data.sucFlag || !data.data?.length) break;
