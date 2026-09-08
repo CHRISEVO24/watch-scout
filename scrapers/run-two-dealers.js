@@ -19,7 +19,12 @@ async function scrapeShopify(name, baseUrl) {
           items.push({
             id: `${slug}-${p.id}`, source: name,
             sourceDetail: baseUrl.replace('https://www.','').replace('https://',''),
-            brand: p.vendor||null, model: null, ref: p.variants[0].sku||null,
+            brand: p.vendor||null, model: null, ref: (()=>{
+            const sku = p.variants[0].sku||'';
+            if(sku && sku.length > 3 && !/^[0-9]+$/.test(sku)) return sku;
+            const m = p.title.match(/(?:Ref\.?\s*)?\b([A-Z]{0,3}[0-9]{4,7}[A-Z0-9]{0,6})\b/i);
+            return m ? m[1] : null;
+          })(),
             title: p.title, price,
             url: `${baseUrl}/products/${p.handle}`,
             imageUrl: p.images?.[0]?.src||null, condition: "Pre-Owned",

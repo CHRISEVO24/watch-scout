@@ -1,15 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-27T21:51:18.464Z",
-    "query": "Cvstos",
-    "count": 5
-  },
-  {
-    "scrapedAt": "2026-08-27T21:51:27.687Z",
-    "query": "Dewitt",
-    "count": 5
-  },
-  {
     "scrapedAt": "2026-08-29T12:17:56.564Z",
     "query": "Franck Muller",
     "count": 40
@@ -98,5 +88,15 @@
     "scrapedAt": "2026-09-08T15:25:39.450Z",
     "query": "218399RBR",
     "count": 0
+  },
+  {
+    "scrapedAt": "2026-09-08T18:40:06.010Z",
+    "query": "TAG Heuer",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-08T18:40:15.149Z",
+    "query": "Tag Heuer",
+    "count": 40
   }
 ]

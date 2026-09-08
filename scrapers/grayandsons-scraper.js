@@ -5,14 +5,34 @@ const { chromium } = require("playwright");
 const DATA_DIR = path.join(__dirname, "..", "data");
 const OUT_FILE = path.join(DATA_DIR, "grayandsons-latest.json");
 
-async function scrapePage(page, pageNum) {
-  const url = pageNum === 1
-    ? "https://www.grayandsons.com/fine-watches/"
-    : `https://www.grayandsons.com/fine-watches/page-${pageNum}/`;
+const BRAND_URLS = [
+  "https://www.grayandsons.com/fine-watches/rolex/",
+  "https://www.grayandsons.com/fine-watches/cartier/",
+  "https://www.grayandsons.com/fine-watches/patek-philippe/",
+  "https://www.grayandsons.com/fine-watches/audemars-piguet/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/omega/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/breitling/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/jaeger-lecoultre/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/hublot/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/ulysse-nardin/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/richard-mille/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/breguet/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/girard-perregaux/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/corum-watches-for-sale/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/iwc/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/panerai/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/vacheron-constantin/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/a-lange-sohne/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/bvlgari/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/chopard/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/frank-muller/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/piaget/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/van-cleef-arpels/",
+  "https://www.grayandsons.com/fine-watches/other-watches-brands/",
+  "https://www.grayandsons.com/fine-watches/pocket-watches-for-sale/",
+];
 
-  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 });
-  await page.waitForTimeout(5000);
-
+async function extractItems(page) {
   return await page.evaluate(() => {
     const items = [];
     const seen = new Set();
@@ -20,7 +40,7 @@ async function scrapePage(page, pageNum) {
       if (seen.has(link.href)) return;
       seen.add(link.href);
       const card = link.closest('div,li,article') || link.parentElement;
-      const text = card?.innerText || link.innerText || '';
+      const text = card?.innerText || '';
       const lines = text.split('\n').map(l=>l.trim()).filter(l=>l && !['SHOP','GET QUOTE','SELL','NEW ARRIVAL','SOLD'].includes(l));
       const priceMatch = text.match(/\$([\d,]+)/);
       const price = priceMatch ? parseFloat(priceMatch[1].replace(/,/g,'')) : null;
@@ -32,42 +52,50 @@ async function scrapePage(page, pageNum) {
 }
 
 async function scrape() {
-  console.log("[Gray & Sons] Starting scrape (394 pages)...");
+  console.log("[Gray & Sons] Starting brand-by-brand scrape...");
   const browser = await chromium.launch({ headless: true });
-  const ctx = await browser.newContext({
-    userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-  });
+  const ctx = await browser.newContext({ userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36" });
   const page = await ctx.newPage();
+
   const allItems = [];
   const seen = new Set();
 
-  for (let pg = 1; pg <= 400; pg++) {
-    try {
-      const items = await scrapePage(page, pg);
-      if (!items.length) { console.log(`[Gray & Sons] Page ${pg} empty, stopping.`); break; }
-      items.forEach(item => {
-        if (seen.has(item.href)) return;
-        seen.add(item.href);
-        const idMatch = item.href.match(/\/(w\d+)/);
-        allItems.push({
-          id: `gs-${idMatch?.[1] || Math.random().toString(36).slice(2)}`,
-          source: "Gray & Sons",
-          sourceDetail: "grayandsons.com",
-          brand: null, model: null, ref: null,
-          title: item.title,
-          price: item.price,
-          url: item.href,
-          imageUrl: item.img || null,
-          condition: "Pre-Owned",
-          postedMinutesAgo: null,
-          scrapedAt: new Date().toISOString(),
+  for (const brandUrl of BRAND_URLS) {
+    let pg = 1;
+    const brandName = brandUrl.split('/').filter(Boolean).pop();
+    console.log(`[Gray & Sons] Scraping: ${brandName}`);
+
+    while (true) {
+      const url = pg === 1 ? brandUrl : brandUrl.replace(/\/$/, '') + `/page-${pg}/`;
+      try {
+        await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 });
+        await page.waitForTimeout(3000);
+        const items = await extractItems(page);
+        if (!items.length) break;
+
+        items.forEach(item => {
+          if (seen.has(item.href)) return;
+          seen.add(item.href);
+          const idMatch = item.href.match(/\/(w\d+)/);
+          allItems.push({
+            id: `gs-${idMatch?.[1] || Math.random().toString(36).slice(2)}`,
+            source: "Gray & Sons",
+            sourceDetail: "grayandsons.com",
+            brand: null, model: null, ref: null,
+            title: item.title, price: item.price,
+            url: item.href, imageUrl: item.img || null,
+            condition: "Pre-Owned", postedMinutesAgo: null,
+            scrapedAt: new Date().toISOString(),
+          });
         });
-      });
-      console.log(`[Gray & Sons] Page ${pg}: ${items.length} items (total: ${allItems.length})`);
-      await page.waitForTimeout(1000);
-    } catch(e) {
-      console.error(`[Gray & Sons] Page ${pg} error:`, e.message);
-      await page.waitForTimeout(3000);
+
+        console.log(`[Gray & Sons] ${brandName} page ${pg}: ${items.length} items (total: ${allItems.length})`);
+        pg++;
+        await page.waitForTimeout(1000);
+      } catch(e) {
+        console.error(`[Gray & Sons] Error:`, e.message);
+        break;
+      }
     }
   }
 
