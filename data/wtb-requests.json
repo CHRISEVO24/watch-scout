@@ -1,5 +1,763 @@
 [
   {
+    "id": "17888818656000",
+    "vercelId": "1788881736119",
+    "submittedAt": "2026-09-08T15:35:36.119Z",
+    "source": "public-form",
+    "status": "sent",
+    "client": {
+      "firstName": "Christopher",
+      "lastName": "Mancuso",
+      "email": "mangook@yahoo.com",
+      "phone": "5614415831"
+    },
+    "watch": {
+      "brand": "Audemars Piguet",
+      "model": "",
+      "ref": "26331st",
+      "budgetMax": "",
+      "condition": "",
+      "boxPapers": "",
+      "notes": ""
+    },
+    "matches": {
+      "wtbId": "17888818656000",
+      "matchedAt": "2026-09-08T15:37:46.182Z",
+      "inventoryMatches": [
+        {
+          "score": 60,
+          "store": "WPB Watch Co",
+          "name": "Audemars Piguet Royal Oak Chronograph Stainless Steel Black Dial 26331ST.OO.1220ST.02",
+          "ref": "26331ST.OO.1220ST.02",
+          "price": 44200,
+          "url": "https://wpbwatchco.com/product/audemars-piguet-royal-oak-chronograph-stainless-steel-black-dial-26331st-oo-1220st-02/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/03/12111846/Untitled-design-2026-03-12T111828.189.png"
+        }
+      ],
+      "marketMatches": [
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Audemars PIGUET ROYAL OAK CHRONOGRAPH BLUE DIAL 26331ST SERVICED 2026 FULL SET",
+          "ref": null,
+          "price": 49925,
+          "url": "https://www.watchrecon.com/detail.php?cid=7730966",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27408219&size=med-2x&ratio=1.33",
+          "seller": "takuya"
+        },
+        {
+          "score": 100,
+          "source": "WatchPatrol",
+          "title": "Audemars Piguet Royal Oak 26331ST",
+          "ref": "26331ST",
+          "price": 47000,
+          "url": "https://www.watchpatrol.net/listing/3679663/",
+          "imageUrl": "https://img.watchpatrol.net/xumMPCZxg6lNmVmyXiA93mq9NMBYoDi6qQx9LQEfwyc/rs:fill:600:600/plain/img/full/2d9db1f54f10a7aa52e4f5e268c3d7e8d945b5ae.jpg",
+          "seller": "Michael T"
+        },
+        {
+          "score": 100,
+          "source": "WatchPatrol",
+          "title": "2017 Audemars Piguet Royal Oak 26331ST Chrono Black Dial with Box and Papers",
+          "ref": "26331ST",
+          "price": 47850,
+          "url": "https://www.watchpatrol.net/listing/3718448/",
+          "imageUrl": "https://img.watchpatrol.net/HRcnFZk6i1yOXLyFutjQPt_yejo23fvn66jJHIJbTNQ/rs:fill:600:600/plain/img/full/ccab5f28b4d6faaca3fe962a17c296d691bc2498.jpg",
+          "seller": "Jacek"
+        },
+        {
+          "score": 100,
+          "source": "WatchPatrol",
+          "title": "Audemars Piguet Royal Oak Chronograph 41mm Black Dial AP 26331ST – Full Set - $43,000",
+          "ref": "26331ST",
+          "price": 43000,
+          "url": "https://www.watchpatrol.net/listing/3709999/",
+          "imageUrl": "https://img.watchpatrol.net/XJ_BI_5zo_a7g4wQT0fX-X6c-VOyeVNjovX6e7wsTzo/rs:fill:600:600/plain/img/full/3646e8289e233ef02461d4b8b144f488d7d4c03b.jpg",
+          "seller": "WatchesOfCharlotte"
+        },
+        {
+          "score": 100,
+          "source": "WatchPatrol",
+          "title": "Audemars PIGUET ROYAL OAK CHRONOGRAPH BLUE DIAL 26331ST SERVICED 2026 FULL SET",
+          "ref": "26331ST",
+          "price": 49925,
+          "url": "https://www.watchpatrol.net/listing/3687852/",
+          "imageUrl": "https://img.watchpatrol.net/9GC7eW_BvN5sCoWxDcuNa4jX0uIALyX7SmerRjRFWXk/rs:fill:600:600/plain/img/full/f343767f5f15c5324f03184beb85e2cbac1df36b.jpg",
+          "seller": "takuya"
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Audemars Piguet Mint Complete Set Royal Oak Chronograph Reverse Panda 41mm Black Dial 26331st",
+          "ref": "26331ST",
+          "price": 47995,
+          "url": "https://www.chrono24.com/audemarspiguet/audemars-piguet-mint-complete-set-royal-oak-chronograph-reverse-panda-41mm-black-dial-26331st--id47550614.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Royal Oak 26331st Stainless Blue Dial Mens Watch 41mm Sale",
+          "ref": "26331ST",
+          "price": 44995,
+          "url": "https://www.chrono24.com/audemarspiguet/royal-oak-26331st-stainless-blue-dial-mens-watch-41mm-sale--id47925234.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Royal Oak Chronograph 41mm 26331st Panda K Serial",
+          "ref": "26331ST",
+          "price": 46799,
+          "url": "https://www.chrono24.com/audemarspiguet/royal-oak-chronograph-41mm-26331st-panda-k-serial--id48066113.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Audemars Piguet Unworn Royal Oak Chronograph 26331st",
+          "ref": "26331ST",
+          "price": 52500,
+          "url": "https://www.chrono24.com/audemarspiguet/audemars-piguet-unworn-royal-oak-chronograph-26331st--id47698484.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Audemars Piguet Royal Oak Chronograph 26331st Blue Dial Automatic 2022 41 Mm",
+          "ref": "26331ST",
+          "price": 71722,
+          "url": "https://www.chrono24.com/audemarspiguet/audemars-piguet-royal-oak-chronograph-26331st-blue-dial-automatic-2022-41-mm--id48116146.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Audemars Piguet Royal Oak Chronograph 26331st Steel Blue Dial 41mm Like New 2022",
+          "ref": "26331ST",
+          "price": 75081,
+          "url": "https://www.chrono24.com/audemarspiguet/audemars-piguet-royal-oak-chronograph-26331st-steel-blue-dial-41mm-like-new-2022--id28833853.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "26331st Bracelet Stainless Steel Blue Automatic 41mm",
+          "ref": "26331ST",
+          "price": 44995,
+          "url": "https://www.chrono24.com/audemarspiguet/26331st-bracelet-stainless-steel-blue-automatic-41mm--id48229329.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "26331st Card Integrated Bracelet Stainless Steel Black Index 41mm",
+          "ref": "26331ST",
+          "price": 42995,
+          "url": "https://www.chrono24.com/audemarspiguet/26331st-card-integrated-bracelet-stainless-steel-black-index-41mm--id48229876.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "eBay",
+          "title": "Audemars Piguet 26331ST 2016 Black Dial Box & Papers",
+          "ref": "26331ST",
+          "price": 42365,
+          "url": "https://www.ebay.com/itm/377402206935?_skw=Audemars+Piguet+watch&hash=item57deecaad7:g:iX0AAeSwuKZqdlHY",
+          "imageUrl": "https://i.ebayimg.com/images/g/iX0AAeSwuKZqdlHY/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "eBay",
+          "title": "Audemars Piguet Royal Oak Chronograph 26331ST.OO.1220ST.01 | Full Set 41mm",
+          "ref": "26331ST",
+          "price": 48995,
+          "url": "https://www.ebay.com/itm/157896562948?_skw=26331ST&hash=item24c35e5904:g:SqkAAeSw7T5p~qz7",
+          "imageUrl": "https://i.ebayimg.com/images/g/SqkAAeSw7T5p~qz7/s-l225.jpg",
+          "seller": null
+        }
+      ],
+      "icMatches": []
+    }
+  },
+  {
+    "id": "17888810251490",
+    "vercelId": "1788880713623",
+    "submittedAt": "2026-09-08T15:18:33.623Z",
+    "source": "public-form",
+    "status": "sent",
+    "client": {
+      "firstName": "Freddy",
+      "lastName": "Chesney",
+      "email": "Freddy@centerlineinc.com",
+      "phone": "5617183714"
+    },
+    "watch": {
+      "brand": "Rolex",
+      "model": "Day date II",
+      "ref": "218399RBR",
+      "budgetMax": "100000",
+      "condition": "excellent",
+      "boxPapers": "",
+      "notes": ""
+    },
+    "matches": {
+      "wtbId": "17888810251490",
+      "matchedAt": "2026-09-08T15:23:45.907Z",
+      "inventoryMatches": [],
+      "marketMatches": [
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Day Date Ii 218399rbr 18k White Gold Diamond Baguette Bezel Diamond Pave Index Dial Presidential Bracelet 41 Mm",
+          "ref": "218399RBR",
+          "price": 122096,
+          "url": "https://www.chrono24.com/rolex/day-date-ii-218399rbr-18k-white-gold-diamond-baguette-bezel-diamond-pave-index-dial-presidential-bracelet-41-mm--id47568560.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 60,
+          "source": "Watch Limit",
+          "title": "Rolex Day-Date 218399",
+          "ref": "218399",
+          "price": 73950,
+          "url": "https://watchlimit.com/product/rolex-day-date-218399/",
+          "imageUrl": "https://watchlimit.com/wp-content/uploads/2025/07/s-l960-39-300x400.webp"
+        }
+      ],
+      "icMatches": []
+    },
+    "sentAt": "2026-09-08T15:27:38.965Z"
+  },
+  {
+    "id": "17887011289190",
+    "vercelId": "1788700139211",
+    "submittedAt": "2026-09-06T13:08:59.211Z",
+    "source": "public-form",
+    "status": "sent",
+    "client": {
+      "firstName": "Christopher",
+      "lastName": "Mancuso",
+      "email": "mangook@yahoo.com",
+      "phone": "5614415831"
+    },
+    "watch": {
+      "brand": "Patek",
+      "model": "",
+      "ref": "5227j",
+      "budgetMax": "",
+      "condition": "",
+      "boxPapers": "",
+      "notes": ""
+    },
+    "matches": {
+      "wtbId": "17887011289190",
+      "matchedAt": "2026-09-06T13:25:29.439Z",
+      "inventoryMatches": [],
+      "marketMatches": [
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Patek Philippe 5227j",
+          "ref": "5227J",
+          "price": 29000,
+          "url": "https://www.chrono24.com/patekphilippe/patek-philippe-5227j--id47545054.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Calatrava Hunter Case Yellow Gold Mens Watch 5227j 5227",
+          "ref": "5227J",
+          "price": 28980,
+          "url": "https://www.chrono24.com/patekphilippe/calatrava-hunter-case-yellow-gold-mens-watch-5227j-5227--id48071457.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Patek Philippe 5227j 001 Yellow Gold Calatrava New",
+          "ref": "5227J",
+          "price": 41110,
+          "url": "https://www.chrono24.com/patekphilippe/patek-philippe-5227j-001-yellow-gold-calatrava-new--id14940865.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 60,
+          "source": "Artimeus",
+          "title": "Patek Philippe Calatrava 39mm 5227J-001 – Ivory Dial",
+          "ref": "5227J-001",
+          "price": 31223,
+          "url": "https://artimeus.com/products/patek-philippe-calatrava-39mm-5227j-001-ivory-88752",
+          "imageUrl": "https://cdn.shopify.com/s/files/1/0934/9313/3675/files/88752.jpg?v=1786385608"
+        },
+        {
+          "score": 60,
+          "source": "Affordable Swiss Watches",
+          "title": "Patek Philippe Calatrava, 18k Yellow Gold, 39mm, Ref# 5227J-001",
+          "ref": "5227J-001",
+          "price": 46000,
+          "url": "https://www.affordableswisswatchesinc.com/products/patek-philippe-calatrava-18k-yellow-gold-39mm-ref-5227j-001",
+          "imageUrl": "https://cdn.shopify.com/s/files/1/0521/0043/2053/products/patek-philippe-calatrava-yellow-gold-5227j-001-with-ivory-lacquered-dial-luxury-swiss-688_720x_5b2725c2-0e1f-414e-be9b-38c63d9122d8.jpg?v=1662376306"
+        }
+      ],
+      "icMatches": []
+    }
+  },
+  {
+    "id": "17884415446790",
+    "vercelId": "1788436780812",
+    "submittedAt": "2026-09-03T11:59:40.812Z",
+    "source": "public-form",
+    "status": "sent",
+    "client": {
+      "firstName": "Matthew",
+      "lastName": "Levine",
+      "email": "matthewjlevine214@gmail.com",
+      "phone": "2142081238"
+    },
+    "watch": {
+      "brand": "Breguet",
+      "model": "Tradition",
+      "ref": "7097BR/G1/9WU",
+      "budgetMax": "25000",
+      "condition": "any",
+      "boxPapers": "",
+      "notes": ""
+    },
+    "matches": {
+      "wtbId": "17884415446790",
+      "matchedAt": "2026-09-03T13:39:59.514Z",
+      "inventoryMatches": [],
+      "marketMatches": [
+        {
+          "score": 100,
+          "source": "InventoryConnect Marketplace",
+          "title": "Breguet Tradition",
+          "ref": "7097BR/G1/9WU",
+          "price": 24750,
+          "url": "https://www.inventoryconnect.io/marketplace/cms5asoth00fikm0a1hh8h6ti?page=4&type=watch",
+          "imageUrl": "https://photos.twcinventory.com/watches/cms5asoth00fikm0a1hh8h6ti/1785791930987-KKP1kxgM.jpg",
+          "seller": "Bradford Watch Vault"
+        },
+        {
+          "score": 60,
+          "source": "Chrono24",
+          "title": "Breguet Breguet Tradition  7097br",
+          "ref": "7097BR",
+          "price": 28310,
+          "url": "https://www.chrono24.com/breguet/breguet-breguet-tradition--7097br--id47429281.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 60,
+          "source": "Chrono24",
+          "title": "Breguet Breguet Tradition  7097br",
+          "ref": "7097BR",
+          "price": 31588,
+          "url": "https://www.chrono24.com/breguet/breguet-breguet-tradition--7097br--id47443058.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 60,
+          "source": "eBay",
+          "title": "Breguet Tradition Silver Men's Watch - 7097BR/G1/9WU Fullset Mint Condition",
+          "ref": "7097BR",
+          "price": 24999,
+          "url": "https://www.ebay.com/itm/336708147937?_skw=Breguet+watch&hash=item4e655e9ae1:g:FG4AAeSwUKRqZSA-",
+          "imageUrl": "https://i.ebayimg.com/images/g/FG4AAeSwUKRqZSA-/s-l225.jpg",
+          "seller": null
+        }
+      ],
+      "icMatches": [
+        {
+          "score": 100,
+          "seller": "Bradford Watch Vault",
+          "name": "Breguet Tradition",
+          "ref": "7097BR/G1/9WU",
+          "price": 24750,
+          "url": "https://www.inventoryconnect.io/marketplace/cms5asoth00fikm0a1hh8h6ti?page=4&type=watch"
+        }
+      ]
+    },
+    "sentAt": "2026-09-03T13:40:03.966Z"
+  },
+  {
+    "id": "17884010948831",
+    "vercelId": "1788398605803",
+    "submittedAt": "2026-09-03T01:23:25.803Z",
+    "source": "public-form",
+    "status": "sent",
+    "client": {
+      "firstName": "Anthony ",
+      "lastName": "Rinaldi",
+      "email": "Arinaldi@wpbwatchco.com",
+      "phone": "561-779-2553"
+    },
+    "watch": {
+      "brand": "Rolex",
+      "model": "Submariner",
+      "ref": "124060",
+      "budgetMax": "12000",
+      "condition": "",
+      "boxPapers": "",
+      "notes": ""
+    },
+    "matches": {
+      "wtbId": "17884010948831",
+      "matchedAt": "2026-09-03T02:04:55.454Z",
+      "inventoryMatches": [
+        {
+          "score": 100,
+          "store": "WPB Watch Co",
+          "name": "Rolex Submariner Stainless Steel Black Dial 124060",
+          "ref": "124060",
+          "price": 14425,
+          "url": "https://wpbwatchco.com/product/rolex-submariner-stainless-steel-black-dial-124060-15/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/03/19143101/Untitled-design-2026-03-19T143043.132.png"
+        },
+        {
+          "score": 100,
+          "store": "WPB Watch Co",
+          "name": "Rolex Submariner (No Date) Stainless Steel Black Dial 124060",
+          "ref": "124060",
+          "price": 14950,
+          "url": "https://wpbwatchco.com/product/rolex-submariner-no-date-stainless-steel-black-dial-124060-6/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/05/07121335/Untitled-design-2026-05-07T121315.449.png"
+        },
+        {
+          "score": 100,
+          "store": "ECI Jewelers",
+          "name": "Rolex 124060 Submariner 41 mm Black Dial No Date Oyster Bracelet Box and Papers 2026",
+          "ref": "124060",
+          "price": 14900,
+          "url": "https://ecijewelers.com/products/rolex-124060-submariner-41-mm-black-dial-no-date-oyster-bracelet-box-and-papers-2026",
+          "image": "https://cdn.shopify.com/s/files/1/0282/1138/0302/files/1_4018638.jpg?v=1786385709"
+        }
+      ],
+      "marketMatches": [
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Submariner 124060 - Full kit from 2021",
+          "ref": null,
+          "price": null,
+          "url": "https://www.watchrecon.com/detail.php?cid=7847562",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28019020&size=med-2x&ratio=1.33",
+          "seller": "mr_robot10000101"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Submariner 41MM “No Date” - Ref 124060 (EXCELLENT 2021 COMPLETE SET W/ WARRANTY)",
+          "ref": null,
+          "price": 12400,
+          "url": "https://www.watchrecon.com/detail.php?cid=7857704",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28073168&size=med-2x&ratio=1.33",
+          "seller": "sjohn97"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Brand New Rolex No Date Submariner 124060",
+          "ref": null,
+          "price": 14200,
+          "url": "https://www.watchrecon.com/detail.php?cid=7862281",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28099462&size=med-2x&ratio=1.33",
+          "seller": "SolanaWatches"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Submariner (No Date) 124060 - 2022 Full Set, Like New Condition",
+          "ref": null,
+          "price": 11950,
+          "url": "https://www.watchrecon.com/detail.php?cid=7841527",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28010456&size=med-2x&ratio=1.33",
+          "seller": "nicholasnick"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex No Date Submariner 124060 $12,100",
+          "ref": null,
+          "price": 12100,
+          "url": "https://www.watchrecon.com/detail.php?cid=7799607",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28043952&size=med-2x&ratio=1.33",
+          "seller": "Studyingisnotfun"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Submariner No Date Ref. 124060 – Full Set – Excellent Condition",
+          "ref": null,
+          "price": 12450,
+          "url": "https://www.watchrecon.com/detail.php?cid=7822803",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27888442&size=med-2x&ratio=1.33",
+          "seller": "cari2763"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Submariner (No Date) 124060 - 2022 Full Set, LIKE NEW",
+          "ref": null,
+          "price": 12200,
+          "url": "https://www.watchrecon.com/detail.php?cid=7846852",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28015229&size=med-2x&ratio=1.33",
+          "seller": "Loan_Wolve"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex 124060 SUBMARINER NO DATE 41 NEW MODEL 2021 FULL SET",
+          "ref": null,
+          "price": 12995,
+          "url": "https://www.watchrecon.com/detail.php?cid=7740372",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28034576&size=med-2x&ratio=1.33",
+          "seller": "TAKUYA"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Submariner Ceramic No Date 124060 41MM 2022 Box & Paper",
+          "ref": null,
+          "price": 13975,
+          "url": "https://www.watchrecon.com/detail.php?cid=7723262",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27367846&size=med-2x&ratio=1.33",
+          "seller": "SohAIS"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Submariner Ref. 124060 No Date Complete Set",
+          "ref": null,
+          "price": 11800,
+          "url": "https://www.watchrecon.com/detail.php?cid=7840974",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27984815&size=med-2x&ratio=1.33",
+          "seller": "xyz44"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Submariner No-Date 124060 Complete Set",
+          "ref": null,
+          "price": 11300,
+          "url": "https://www.watchrecon.com/detail.php?cid=7784756",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27675281&size=med-2x&ratio=1.33",
+          "seller": "Greggray"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex 124060 Submariner Full Set.",
+          "ref": null,
+          "price": 13200,
+          "url": "https://www.watchrecon.com/detail.php?cid=7859085",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28080503&size=med-2x&ratio=1.33",
+          "seller": "goodfight10"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Submariner No-Date 124060 — 41mm, Steel — 2025 Full Set — $12,995 + shipping",
+          "ref": null,
+          "price": 12995,
+          "url": "https://www.watchrecon.com/detail.php?cid=7860913",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28091553&size=med-2x&ratio=1.33",
+          "seller": "MangTangORang"
+        },
+        {
+          "score": 100,
+          "source": "Artimeus",
+          "title": "Rolex Submariner No Date 41mm Steel 124060 – Black Dial",
+          "ref": "124060",
+          "price": 15295,
+          "url": "https://artimeus.com/products/rolex-submariner-no-date-41mm-steel-124060-black-61515",
+          "imageUrl": "https://cdn.shopify.com/s/files/1/0934/9313/3675/files/61515.jpg?v=1786384333"
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Rolex 124060",
+          "ref": "124060",
+          "price": 11049,
+          "url": "https://www.chrono24.com/rolex/rolex-124060--id47783331.htm",
+          "imageUrl": null
+        }
+      ],
+      "icMatches": [
+        {
+          "score": 60,
+          "seller": "Grailtown Luxury Timepieces",
+          "name": "ROLEX SUBMARINER No-Date 41 / Stainless Steel / Black / Cerachrom",
+          "ref": "124060-0001",
+          "price": 11800,
+          "url": "https://www.inventoryconnect.io/marketplace/cmskjjy5w000cl204jgoszl6z?page=2&type=watch"
+        },
+        {
+          "score": 60,
+          "seller": "WHR Watches",
+          "name": "Rolex Submariner No-Date 41 / Stainless Steel / Black / Cerachrom",
+          "ref": "124060-0001",
+          "price": 12525,
+          "url": "https://www.inventoryconnect.io/marketplace/cmraw53rh001ihu0akyvbixod?page=7&type=watch"
+        }
+      ]
+    },
+    "sentAt": "2026-09-03T02:06:40.802Z"
+  },
+  {
+    "id": "17884010942080",
+    "vercelId": "1788379121764",
+    "submittedAt": "2026-09-02T19:58:41.764Z",
+    "source": "public-form",
+    "status": "sent",
+    "client": {
+      "firstName": "Chris",
+      "lastName": "Mancuso",
+      "email": "mangook@yahoo.com",
+      "phone": "5614415831"
+    },
+    "watch": {
+      "brand": "Omega",
+      "model": "Omega Seamaster",
+      "ref": " 210.32.42.20.03.001",
+      "budgetMax": "",
+      "condition": "",
+      "boxPapers": "",
+      "notes": "Anthony’s WTB"
+    },
+    "matches": {
+      "wtbId": "17884010942080",
+      "matchedAt": "2026-09-03T02:04:54.883Z",
+      "inventoryMatches": [],
+      "marketMatches": [
+        {
+          "score": 100,
+          "source": "Bob's Watches",
+          "title": "Used Blue Dial Omega Seamaster Diver 300M Steel on Rubber Strap",
+          "ref": "210.32.42.20.03.001",
+          "price": 4795,
+          "url": "https://www.bobswatches.com/omega/used-blue-dial-omega-seamaster-diver-300m-steel-on-rubber-strap.html",
+          "imageUrl": "https://www.bobswatches.com/omega/images/zUsed-OMEGA-Seamaster-Diver-300M-210.32.42.20.03.001-SKU190844.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "Bob's Watches",
+          "title": "Pre-Owned Omega Seamaster Blue Dial Diver 300M Steel on Rubber Strap",
+          "ref": "210.32.42.20.03.001",
+          "price": 4795,
+          "url": "https://www.bobswatches.com/omega/pre-owned-omega-seamaster-blue-dial-diver-300m-steel-on-rubber-strap.html",
+          "imageUrl": "https://www.bobswatches.com/omega/images/zUsed-OMEGA-Seamaster-Diver-300M-210.32.42.20.03.001-SKU190845.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "Bob's Watches",
+          "title": "Pre-Owned Stainless Steel Omega Seamaster Diver 300M Blue Dial",
+          "ref": "210.32.42.20.03.001",
+          "price": 4995,
+          "url": "https://www.bobswatches.com/omega/pre-owned-stainless-steel-omega-seamaster-diver-300m-blue-dial.html",
+          "imageUrl": "https://www.bobswatches.com/omega/images/zUsed-OMEGA-Seamaster-Diver-300M-210.32.42.20.03.001-SKU192249.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "Bob's Watches",
+          "title": "Used Steel Blue Wave Dial Omega Seamaster Diver 300M",
+          "ref": "210.32.42.20.03.001",
+          "price": 4995,
+          "url": "https://www.bobswatches.com/omega/used-steel-blue-wave-dial-omega-seamaster-diver-300m.html",
+          "imageUrl": "https://www.bobswatches.com/omega/images/zUsed-OMEGA-Seamaster-Diver-300M-210.32.42.20.03.001-SKU192882.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "InventoryConnect Marketplace",
+          "title": "Omega Seamaster Pro 300M Blue Wave Rubber Master Co-Axial 42 Stainless Steel / Blue / Rubber",
+          "ref": "210.32.42.20.03.001",
+          "price": 4100,
+          "url": "https://www.inventoryconnect.io/marketplace/cmsf96egb0002i204nxo2ch47?page=2&type=watch",
+          "imageUrl": "https://photos.twcinventory.com/watches/cmsf96egb0002i204nxo2ch47/1785862156719-5C9pDn95.jpg",
+          "seller": "G2 Timepieces llc"
+        },
+        {
+          "score": 100,
+          "source": "InventoryConnect Marketplace",
+          "title": "Omega Seamaster Diver 300M Master Co-Axial 42 Stainless Steel / Blue / Rubber",
+          "ref": "210.32.42.20.03.001",
+          "price": 3800,
+          "url": "https://www.inventoryconnect.io/marketplace/cms93hk0w0002j00a196vuh2c?page=2&type=watch",
+          "imageUrl": "https://photos.twcinventory.com/watches/cms93hk0w0002j00a196vuh2c/1784581656713-zIwdSLRa.jpeg",
+          "seller": "Grailtown Luxury Timepieces"
+        },
+        {
+          "score": 100,
+          "source": "InventoryConnect Marketplace",
+          "title": "Omega Seamaster Diver 300M Master Co-Axial 42 Stainless Steel / Blue / Rubber",
+          "ref": "210.32.42.20.03.001",
+          "price": 3975,
+          "url": "https://www.inventoryconnect.io/marketplace/cmrz3m37f0055jt04d4kawtuq?page=6&type=watch",
+          "imageUrl": "https://photos.twcinventory.com/watches/cmrz3m37f0055jt04d4kawtuq/1785287539284-iTNfBwhb.jpg",
+          "seller": "Grailtown Luxury Timepieces"
+        },
+        {
+          "score": 100,
+          "source": "Exquisite Timepieces",
+          "title": "Omega Seamaster Diver 300M Co-Axial Master Chronometer on Rubber Strap",
+          "ref": "210.32.42.20.03.001",
+          "price": 6300,
+          "url": "https://www.exquisitetimepieces.com/products/omega-seamaster-diver-300-co-axial-master-chronometer-rubber",
+          "imageUrl": "https://cdn.shopify.com/s/files/1/0716/2783/3515/files/1031955714.jpg?v=1780778032"
+        }
+      ],
+      "icMatches": [
+        {
+          "score": 100,
+          "seller": "G2 Timepieces llc",
+          "name": "Omega Seamaster Pro 300M Blue Wave Rubber Master Co-Axial 42 Stainless Steel / Blue / Rubber",
+          "ref": "210.32.42.20.03.001",
+          "price": 4100,
+          "url": "https://www.inventoryconnect.io/marketplace/cmsf96egb0002i204nxo2ch47?page=2&type=watch"
+        },
+        {
+          "score": 100,
+          "seller": "G2 Timepieces llc",
+          "name": "Omega Seamaster Pro 300M Blue Wave Rubber Master Co-Axial 42 Stainless Steel / Blue / Rubber",
+          "ref": "210.32.42.20.03.001",
+          "price": 4100,
+          "url": "https://www.inventoryconnect.io/marketplace/cmsesinxp0006j50auldu4if3?page=2&type=watch"
+        },
+        {
+          "score": 100,
+          "seller": "Grailtown Luxury Timepieces",
+          "name": "Omega Seamaster Diver 300M Master Co-Axial 42 Stainless Steel / Blue / Rubber",
+          "ref": "210.32.42.20.03.001",
+          "price": 3800,
+          "url": "https://www.inventoryconnect.io/marketplace/cms93hk0w0002j00a196vuh2c?page=2&type=watch"
+        },
+        {
+          "score": 100,
+          "seller": "Grailtown Luxury Timepieces",
+          "name": "Omega Seamaster Diver 300M Master Co-Axial 42 Stainless Steel / Blue / Rubber",
+          "ref": "210.32.42.20.03.001",
+          "price": 3975,
+          "url": "https://www.inventoryconnect.io/marketplace/cmrz3m37f0055jt04d4kawtuq?page=6&type=watch"
+        },
+        {
+          "score": 100,
+          "seller": "Grailtown Luxury Timepieces",
+          "name": "Omega Seamaster Diver 300M",
+          "ref": "210.32.42.20.03.001",
+          "price": 3800,
+          "url": "https://www.inventoryconnect.io/marketplace/cmrmh2rlj001dl504d69skx7m?page=7&type=watch"
+        }
+      ]
+    }
+  },
+  {
     "id": "17882269559860",
     "vercelId": "1787971542975",
     "submittedAt": "2026-08-29T02:45:42.975Z",

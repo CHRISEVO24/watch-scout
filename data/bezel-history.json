@@ -1,35 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-23T04:33:14.913Z",
-    "brand": "tag-heuer",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-23T04:33:21.062Z",
-    "brand": "tag-heuer",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-23T19:26:45.588Z",
-    "brand": "ulysse-nardin",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-23T19:26:52.709Z",
-    "brand": "vacheron-constantin",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-23T21:07:44.504Z",
-    "brand": "a-lange-amp-sohne",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-23T21:07:51.039Z",
-    "brand": "anonimo",
-    "count": 12
-  },
-  {
     "scrapedAt": "2026-08-26T22:24:57.859Z",
     "brand": "breitling",
     "count": 12
@@ -97,6 +67,36 @@
   {
     "scrapedAt": "2026-09-01T12:43:21.597Z",
     "brand": "jaeger-lecoultre",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-03T13:25:15.811Z",
+    "brand": "omega",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-03T13:25:28.701Z",
+    "brand": "panerai",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-03T13:31:44.511Z",
+    "brand": "parmigiani",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-03T13:31:51.521Z",
+    "brand": "patek-philippe",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-06T13:32:54.888Z",
+    "brand": "rolex",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-06T13:33:01.252Z",
+    "brand": "seiko",
     "count": 12
   }
 ]
