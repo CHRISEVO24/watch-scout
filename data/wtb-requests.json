@@ -1,5 +1,301 @@
 [
   {
+    "id": "17889020206720",
+    "vercelId": "1788902009841",
+    "submittedAt": "2026-09-08T21:13:29.841Z",
+    "source": "public-form",
+    "status": "sent",
+    "client": {
+      "firstName": "Christopher",
+      "lastName": "Mancuso",
+      "email": "mangook@yahoo.com",
+      "phone": "5614415831"
+    },
+    "watch": {
+      "brand": "Rolex",
+      "model": "",
+      "ref": "126234",
+      "budgetMax": "",
+      "condition": "",
+      "boxPapers": "both",
+      "notes": "jubilee wimbledon"
+    },
+    "matches": {
+      "wtbId": "17889020206720",
+      "matchedAt": "2026-09-08T21:13:41.568Z",
+      "inventoryMatches": [
+        {
+          "score": 100,
+          "store": "WPB Watch Co",
+          "name": "Rolex Datejust 36 Stainless Steel/White Gold Pink Jubilee Diamond Dial 126234",
+          "ref": "126234",
+          "price": 10675,
+          "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-white-gold-pink-jubilee-diamond-dial-126234/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2025/11/22123212/73121.png"
+        },
+        {
+          "score": 100,
+          "store": "WPB Watch Co",
+          "name": "Rolex Datejust 36 Stainless Steel and White Gold Silver Dial 126234",
+          "ref": "126234",
+          "price": 14825,
+          "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-silver-dial-126234-2/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/04/23105048/Untitled-design-2026-04-20T162338.456.png"
+        },
+        {
+          "score": 100,
+          "store": "WPB Watch Co",
+          "name": "Rolex Datejust 36 Stainless Steel and White Gold Silver Dial 126234",
+          "ref": "126234",
+          "price": 12475,
+          "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-silver-dial-126234-4/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/06/09111516/55726.png"
+        },
+        {
+          "score": 100,
+          "store": "WPB Watch Co",
+          "name": "Rolex Datejust 36 Stainless Steel and White Gold Blue Roman Dial 126234",
+          "ref": "126234",
+          "price": 13900,
+          "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-blue-roman-dial-126234/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/06/25105617/53630.png"
+        },
+        {
+          "score": 100,
+          "store": "WPB Watch Co",
+          "name": "Rolex Datejust 36 Stainless Steel and White Gold Mint Green Dial 126234",
+          "ref": "126234",
+          "price": 17950,
+          "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-mint-green-dial-126234/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/07/22145723/72579.png"
+        },
+        {
+          "score": 100,
+          "store": "WPB Watch Co",
+          "name": "Rolex Datejust 36 Stainless Steel and White Gold Mint Green Dial 126234",
+          "ref": "126234",
+          "price": 14675,
+          "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-mint-green-dial-126234-2/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/07/22161110/91612.png"
+        },
+        {
+          "score": 100,
+          "store": "WPB Watch Co",
+          "name": "Rolex Datejust 36 Stainless Steel and White Gold Black Dial 126234",
+          "ref": "126234",
+          "price": 13475,
+          "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-black-dial-126234-2/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/08/05154954/86613.png"
+        },
+        {
+          "score": 100,
+          "store": "WPB Watch Co",
+          "name": "Rolex Datejust 36 Stainless Steel and White Gold Wimbledon Roman Dial 126234",
+          "ref": "126234",
+          "price": 15100,
+          "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-wimbledon-roman-dial-126234/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/08/05175827/87861.png"
+        },
+        {
+          "score": 100,
+          "store": "WPB Watch Co",
+          "name": "Rolex Datejust 36 Stainless Steel and White Gold Silver Dial 126234",
+          "ref": "126234",
+          "price": 9950,
+          "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-silver-dial-126234-5/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/08/05175859/41668.png"
+        },
+        {
+          "score": 100,
+          "store": "WPB Watch Co",
+          "name": "Rolex Datejust 36 Stainless Steel and White Gold Brown Roman VIIX Diamond Dial 126234",
+          "ref": "126234",
+          "price": 17650,
+          "url": "https://wpbwatchco.com/product/rolex-datejust-36-stainless-steel-and-white-gold-brown-roman-viix-diamond-dial-126234/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/08/10131854/69625.png"
+        }
+      ],
+      "marketMatches": [
+        {
+          "score": 100,
+          "source": "WatchPatrol",
+          "title": "Brand New Rolex Datejust 36 w/ Pink Roman Diamonds Dial, Fluted + Jubilee Ref. 126234",
+          "ref": "126234",
+          "price": 17300,
+          "url": "https://www.watchpatrol.net/listing/3663893/",
+          "imageUrl": "https://img.watchpatrol.net/E4eZ7HnoK4MkxIMXyCfb1VWHEOUqzsmb1U3OQ7cU6Lc/rs:fill:600:600/plain/img/full/c39dc0d93559c8ed9912295effbd833e2590127f.jpg",
+          "seller": "SolanaWatches"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Datejust 36 126234 - Black Dial - Fluted - Jubilee ( excellent / 2025 )",
+          "ref": null,
+          "price": 11450,
+          "url": "https://www.watchrecon.com/detail.php?cid=7690211",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27207292&size=med-2x&ratio=1.33",
+          "seller": "mdgrwl"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Brand New Rolex Datejust 36 w/ Pink Roman Diamonds Dial, Fluted + Jubilee Ref. 126234",
+          "ref": null,
+          "price": 17300,
+          "url": "https://www.watchrecon.com/detail.php?cid=7853459",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28049838&size=med-2x&ratio=1.33",
+          "seller": "SolanaWatches"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Datejust 36 Black Stick Dial Fluted Jubilee 126234 ( excellent / 2025 / box and papers )",
+          "ref": null,
+          "price": 11795,
+          "url": "https://www.watchrecon.com/detail.php?cid=7755218",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27993709&size=med-2x&ratio=1.33",
+          "seller": "mdgrwl"
+        },
+        {
+          "score": 100,
+          "source": "WatchPatrol",
+          "title": "2026 Unworn BNIB Rolex Datejust 36mm Blue on Jubilee - 126234 - Full Set",
+          "ref": "126234",
+          "price": 14350,
+          "url": "https://www.watchpatrol.net/listing/3634178/",
+          "imageUrl": "https://img.watchpatrol.net/eb3a6ZeoOxYNZvxkJ9zjp2VtjRTX0kxU8YQOaB-LHg0/rs:fill:600:600/plain/img/full/75eafd51e89b1f6d88493d52c7e383bc833cc2c0.jpg",
+          "seller": "Watchesthrowaway07"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Datejust 36-126234 Black Stick-Fluted-Jubilee",
+          "ref": null,
+          "price": null,
+          "url": "https://www.watchrecon.com/detail.php?cid=7850449",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28034295&size=med-2x&ratio=1.33",
+          "seller": "caocan8848"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Datejust 36 blue dial jubilee. Ref 126234. Full set.",
+          "ref": null,
+          "price": 13000,
+          "url": "https://www.watchrecon.com/detail.php?cid=7857024",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28069888&size=med-2x&ratio=1.33",
+          "seller": "MrSquidward21"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Datejust 36mm Ref. 126234 – Blue Dial | 2024 | Full Set | Active Warranty",
+          "ref": null,
+          "price": null,
+          "url": "https://www.watchrecon.com/detail.php?cid=7865057",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28114756&size=med-2x&ratio=1.33",
+          "seller": "No_Director3"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Datejust 36 Mint Green ref 126234 $12,650 + label",
+          "ref": null,
+          "price": 12650,
+          "url": "https://www.watchrecon.com/detail.php?cid=7862447",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28100416&size=med-2x&ratio=1.33",
+          "seller": "SillyGuy"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Datejust 126234 Black Diamond Dial",
+          "ref": null,
+          "price": 12850,
+          "url": "https://www.watchrecon.com/detail.php?cid=7852467",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28044498&size=med-2x&ratio=1.33",
+          "seller": "trevor-enocram"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "NIB Rolex 126234 DATEJUST 36 FLUTED BEZEL SILVER DIAMOND DIAL 2026 FULL SET",
+          "ref": null,
+          "price": 15875,
+          "url": "https://www.watchrecon.com/detail.php?cid=7865733",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28118474&size=med-2x&ratio=1.33",
+          "seller": "TAKUYA"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Datejust 36 Stick Dial Fluted Jubilee 126234. Box, Papers..",
+          "ref": null,
+          "price": 11250,
+          "url": "https://www.watchrecon.com/detail.php?cid=7842346",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27991324&size=med-2x&ratio=1.33",
+          "seller": "Modestsonal"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Datejust 36 126234 Green Palm Dial Oyster Bracelet Box & Papers",
+          "ref": null,
+          "price": 15999,
+          "url": "https://www.watchrecon.com/detail.php?cid=7852747",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28045904&size=med-2x&ratio=1.33",
+          "seller": "ValueYourWatch.com"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex 126234 DATEJUST 36 FLUTED BEZEL BLUE DIAL JUBILEE BAND 2025 FULL SET",
+          "ref": null,
+          "price": 13275,
+          "url": "https://www.watchrecon.com/detail.php?cid=7855290",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28081010&size=med-2x&ratio=1.33",
+          "seller": "takuya"
+        },
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Rolex Datejust 36 Stick Dial Fluted Jubilee 126234. Box, Papers..",
+          "ref": null,
+          "price": 10895,
+          "url": "https://www.watchrecon.com/detail.php?cid=7801149",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=28126727&size=med-2x&ratio=1.33",
+          "seller": "Watchex_Enterprises"
+        }
+      ],
+      "icMatches": [
+        {
+          "score": 100,
+          "seller": "Engines & Escapements",
+          "name": "Rolex Datejust 36",
+          "ref": "126234",
+          "price": 12500,
+          "url": "https://www.inventoryconnect.io/marketplace/cmr366uf000wjl404kjp3qsvr?page=7&type=watch"
+        },
+        {
+          "score": 60,
+          "seller": "The Watch Connect",
+          "name": "Rolex Datejust Stainless Steel / Fluted / Silver Roman-Diamonds / Oyster",
+          "ref": "126234-0030",
+          "price": 12500,
+          "url": "https://www.inventoryconnect.io/marketplace/cmrury06j0002ib04qrbg8xk6?page=6&type=watch"
+        },
+        {
+          "score": 60,
+          "seller": "Wesley Chapel Watch Boss",
+          "name": "Rolex Datejust 36 Stainless Steel - Fluted / Aubergine Roman Diamond / Jubilee",
+          "ref": "126234-0063",
+          "price": 15100,
+          "url": "https://www.inventoryconnect.io/marketplace/cmpbtwjd3000wlb047wgu3dlz?page=9&type=watch"
+        }
+      ]
+    }
+  },
+  {
     "id": "17888818656000",
     "vercelId": "1788881736119",
     "submittedAt": "2026-09-08T15:35:36.119Z",
@@ -22,7 +318,7 @@
     },
     "matches": {
       "wtbId": "17888818656000",
-      "matchedAt": "2026-09-08T19:25:50.721Z",
+      "matchedAt": "2026-09-08T19:28:30.188Z",
       "inventoryMatches": [
         {
           "score": 60,
@@ -180,7 +476,7 @@
       ],
       "icMatches": []
     },
-    "sentAt": "2026-09-08T19:25:59.408Z"
+    "sentAt": "2026-09-08T19:28:47.436Z"
   },
   {
     "id": "17888810251490",
