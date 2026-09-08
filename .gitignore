@@ -17,3 +17,10 @@ data/inventoryconnect-cookies.json
 .vercel
 gmail_auth.js
 data/combined.json
+data/chrono24-latest.json
+data/chrono24-verified.json
+data/chrono24-removed-nonUS.json
+data/exquisitetimepieces-latest.json
+data/ashford-latest.json
+data/iplaywatch-latest.json
+data/ebay-latest.json
