@@ -316,6 +316,25 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
   const w = wtb.watch || {};
   const m = wtb.matches || { inventoryMatches: [], marketMatches: [], icMatches: [] };
 
+  // Verify Chrono24 URLs are still live before sending
+  const axios = require('axios');
+  async function verifyUrl(url) {
+    if (!url || !url.includes('chrono24.com')) return true;
+    try {
+      const r = await axios.get(url, { maxRedirects: 0, timeout: 5000, validateStatus: s => s < 400 });
+      return r.status < 300; // 3xx = redirect to generic page = sold
+    } catch(e) { return true; } // keep on error
+  }
+
+  // Filter out sold Chrono24 listings
+  const verifiedMkt = [];
+  for (const item of m.marketMatches) {
+    const ok = await verifyUrl(item.url);
+    if (ok) verifiedMkt.push(item);
+    else console.log('[WTB] Removed sold listing:', item.url?.slice(-30));
+  }
+  m.marketMatches = verifiedMkt;
+
   function fmtP(p) {
     if (!p) return "—";
     const n = parseFloat(String(p).replace(/[^0-9.]/g, ""));
@@ -750,6 +769,25 @@ app.post("/api/wtb/send", express.json(), async (req, res) => {
   const c = wtb.client || {};
   const w = wtb.watch || {};
   const m = wtb.matches || { inventoryMatches: [], marketMatches: [], icMatches: [] };
+
+  // Verify Chrono24 URLs are still live before sending
+  const axios = require('axios');
+  async function verifyUrl(url) {
+    if (!url || !url.includes('chrono24.com')) return true;
+    try {
+      const r = await axios.get(url, { maxRedirects: 0, timeout: 5000, validateStatus: s => s < 400 });
+      return r.status < 300; // 3xx = redirect to generic page = sold
+    } catch(e) { return true; } // keep on error
+  }
+
+  // Filter out sold Chrono24 listings
+  const verifiedMkt = [];
+  for (const item of m.marketMatches) {
+    const ok = await verifyUrl(item.url);
+    if (ok) verifiedMkt.push(item);
+    else console.log('[WTB] Removed sold listing:', item.url?.slice(-30));
+  }
+  m.marketMatches = verifiedMkt;
 
   function fmtP(p) {
     if (!p) return "—";
