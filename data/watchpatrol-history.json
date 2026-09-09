@@ -1,15 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-29T12:17:56.564Z",
-    "query": "Franck Muller",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-08-29T12:18:05.876Z",
-    "query": "Girard Perregaux",
-    "count": 40
-  },
-  {
     "scrapedAt": "2026-08-31T12:31:02.733Z",
     "query": "Hamilton",
     "count": 40
@@ -98,5 +88,15 @@
     "scrapedAt": "2026-09-08T18:40:15.149Z",
     "query": "Tag Heuer",
     "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-09T16:14:01.242Z",
+    "query": "Tudor",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-09T16:14:10.282Z",
+    "query": "U-Boat",
+    "count": 18
   }
 ]
