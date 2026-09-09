@@ -32,7 +32,7 @@ async function scrape() {
   const cutoff = Date.now() - MAX_DAYS * 24 * 60 * 60 * 1000;
 
   while (true) {
-    const apiUrl = `/watchdrop/api/listings?limit=100&currency=USD&listingType=sale` + (cursor ? `&cursor=${cursor}` : '');
+    const apiUrl = `/watchdrop/api/listings?limit=100&currency=USD` + (cursor ? `&cursor=${cursor}` : '');
 
     try {
       const result = await page.evaluate(async (url) => {
