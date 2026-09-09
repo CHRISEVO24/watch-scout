@@ -57,15 +57,22 @@ async function scrape() {
   const ctx = await browser.newContext({ userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36" });
   const page = await ctx.newPage();
 
-  const allItems = [];
+  // Load existing items to avoid re-scraping
+  let allItems = [];
   const seen = new Set();
+  if (fs.existsSync(OUT_FILE)) {
+    allItems = JSON.parse(fs.readFileSync(OUT_FILE, 'utf8'));
+    allItems.forEach(i => seen.add(i.url));
+    console.log(`[Gray & Sons] Loaded ${allItems.length} existing items`);
+  }
 
   for (const brandUrl of BRAND_URLS) {
     let pg = 1;
     const brandName = brandUrl.split('/').filter(Boolean).pop();
     console.log(`[Gray & Sons] Scraping: ${brandName}`);
 
-    while (true) {
+    let maxPages = 100; // cap per brand to avoid rate limiting
+    while (pg <= maxPages) {
       const url = pg === 1 ? brandUrl : brandUrl.replace(/\/$/, '') + `/page-${pg}/`;
       try {
         await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 });
