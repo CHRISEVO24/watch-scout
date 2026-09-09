@@ -5,7 +5,7 @@ const { chromium } = require("playwright");
 const DATA_DIR = path.join(__dirname, "..", "data");
 const COOKIES_FILE = path.join(DATA_DIR, "inventoryconnect-cookies.json");
 const OUT_FILE = path.join(DATA_DIR, "watchdrop-latest.json");
-const MAX_DAYS = 7;
+const MAX_DAYS = 30;
 
 function convertCookies(raw) {
   return raw.map(c => ({
@@ -24,9 +24,10 @@ async function scrape() {
   await page.goto("https://www.inventoryconnect.io/watchdrop?f-cur=USD", { waitUntil: "domcontentloaded", timeout: 30000 });
   await page.waitForTimeout(2000);
   if (page.url().includes("login")) { console.error("Session expired."); await browser.close(); return; }
-  console.log(`[WatchDrop] Session valid. Getting USD sale listings from last ${MAX_DAYS} days...`);
+  console.log(`[WatchDrop] Session valid. Getting last ${MAX_DAYS} days USD listings...`);
 
   const allItems = [];
+  const seenIds = new Set();
   let cursor = null;
   let pg = 1;
   const cutoff = Date.now() - MAX_DAYS * 24 * 60 * 60 * 1000;
@@ -44,13 +45,16 @@ async function scrape() {
 
       if (!result || !result.items || !result.items.length) { console.log(`[WatchDrop] No more items.`); break; }
 
+      // Check for cursor loop - if all items already seen, stop
+      const newItems = result.items.filter(i => !seenIds.has(i.id));
+      if (newItems.length === 0) { console.log(`[WatchDrop] Cursor loop detected, stopping.`); break; }
+
       let stopPaging = false;
       for (const item of result.items) {
-        if (item.posted_at && new Date(item.posted_at).getTime() < cutoff) {
-          console.log(`[WatchDrop] Hit ${MAX_DAYS}-day cutoff at page ${pg}. Stopping.`);
-          stopPaging = true;
-          break;
-        }
+        if (seenIds.has(item.id)) continue;
+        seenIds.add(item.id);
+        if (item.listing_type === 'wtb' || item.listing_type === 'ntq') continue;
+        if (item.posted_at && new Date(item.posted_at).getTime() < cutoff) { stopPaging = true; break; }
         allItems.push({
           id: `wd-${item.id}`,
           source: "WatchDrop",
@@ -72,27 +76,24 @@ async function scrape() {
         });
       }
 
-      console.log(`[WatchDrop] Page ${pg}: ${result.items.length} items (total: ${allItems.length})`);
-      
-      // Save every 1000 items
+      console.log(`[WatchDrop] Page ${pg}: ${newItems.length} new items (total unique: ${allItems.length})`);
       if (allItems.length % 1000 < 100) fs.writeFileSync(OUT_FILE, JSON.stringify(allItems, null, 2));
-
       if (stopPaging || !result.nextCursor) break;
       cursor = result.nextCursor;
       pg++;
       await page.waitForTimeout(300);
 
     } catch(e) {
-      console.log('[WatchDrop] Error, refreshing session...');
+      console.log('[WatchDrop] Refreshing session...');
       await page.goto("https://www.inventoryconnect.io/watchdrop?f-cur=USD", { waitUntil: "domcontentloaded", timeout: 30000 });
       await page.waitForTimeout(3000);
-      if (page.url().includes("login")) { console.log("Session expired, saving progress."); break; }
+      if (page.url().includes("login")) { console.log("Session expired, saving."); break; }
     }
   }
 
   await browser.close();
   fs.writeFileSync(OUT_FILE, JSON.stringify(allItems, null, 2));
-  console.log(`[WatchDrop] Done: ${allItems.length} listings from last ${MAX_DAYS} days`);
+  console.log(`[WatchDrop] Done: ${allItems.length} unique listings`);
 }
 
 if (require.main === module) scrape().catch(console.error);

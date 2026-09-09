@@ -79,6 +79,50 @@ function scoreMatch(item, wtb) {
   return score;
 }
 
+async function searchWatchDrop(ref, brand) {
+  if (!ref) return [];
+  try {
+    const cookiesFile = path.join(DATA_DIR, "inventoryconnect-cookies.json");
+    if (!fs.existsSync(cookiesFile)) return [];
+    const { chromium } = require("playwright");
+    const rawCookies = JSON.parse(fs.readFileSync(cookiesFile, "utf8"));
+    const cookies = rawCookies.map(c => ({
+      name: c.name, value: c.value, domain: c.domain, path: c.path,
+      expires: c.session ? -1 : Math.floor(c.expirationDate),
+      httpOnly: c.httpOnly, secure: c.secure,
+      sameSite: c.sameSite === "unspecified" ? "Lax" : (c.sameSite?.charAt(0).toUpperCase() + c.sameSite?.slice(1)) || "Lax"
+    }));
+    const browser = await chromium.launch({ headless: true });
+    const ctx = await browser.newContext({ userAgent: "Mozilla/5.0" });
+    await ctx.addCookies(cookies);
+    const page = await ctx.newPage();
+    await page.goto("https://www.inventoryconnect.io/watchdrop", { waitUntil: "domcontentloaded", timeout: 15000 });
+    await page.waitForTimeout(1000);
+    const results = await page.evaluate(async (searchRef) => {
+      const r = await fetch("/watchdrop/api/listings?limit=20&currency=USD&reference=" + searchRef);
+      const d = JSON.parse(await r.text());
+      return d.items || [];
+    }, ref);
+    await browser.close();
+    return results
+      .filter(i => i.listing_type !== "wtb" && i.listing_type !== "ntq")
+      .map(i => ({
+        score: 80,
+        source: "WatchDrop",
+        title: [i.brand, i.model, i.reference_number].filter(Boolean).join(" "),
+        ref: i.reference_number || null,
+        price: i.price ? parseFloat(i.price) : null,
+        url: "https://www.inventoryconnect.io/watchdrop/" + i.id,
+        imageUrl: i.photo_url ? "https://www.inventoryconnect.io" + i.photo_url : null,
+        seller: i.sender || null,
+        postedMinutesAgo: i.posted_at ? Math.round((Date.now() - new Date(i.posted_at).getTime()) / 60000) : null,
+      }));
+  } catch(e) {
+    console.log("[WatchDrop] Live search error:", e.message);
+    return [];
+  }
+}
+
 async function matchWtb(wtb) {
   const wpb = loadSafe("inventory-latest.json").map(i => ({ ...i, _store: "WPB Watch Co" }));
   const eci = loadSafe("eci-inventory-latest.json").map(i => ({ ...i, _store: "ECI Jewelers" }));
@@ -110,7 +154,21 @@ async function matchWtb(wtb) {
     .filter(m => m.score >= 30).sort((a, b) => b.score - a.score).slice(0, 8)
     .map(m => ({ score: m.score, seller: m.item.seller, name: m.item.title || m.item.model, ref: m.item.ref, price: m.item.price, url: m.item.url }));
 
-  return { wtbId: wtb.id, matchedAt: new Date().toISOString(), inventoryMatches, marketMatches, icMatches };
+  // Add live WatchDrop results if ref is specified
+  let wdMatches = [];
+  if (wtb.ref) {
+    wdMatches = await searchWatchDrop(wtb.ref, wtb.brand);
+    console.log("[WTB] WatchDrop live:", wdMatches.length, "results for ref", wtb.ref);
+  }
+
+  // Merge WatchDrop into market matches (deduplicated)
+  const allMktUrls = new Set(marketMatches.map(m => m.url).filter(Boolean));
+  const newWd = wdMatches.filter(m => !allMktUrls.has(m.url));
+  const finalMarket = [...marketMatches, ...newWd]
+    .sort((a,b) => (a.postedMinutesAgo||99999) - (b.postedMinutesAgo||99999))
+    .slice(0, 20);
+
+  return { wtbId: wtb.id, matchedAt: new Date().toISOString(), inventoryMatches, marketMatches: finalMarket, icMatches };
 }
 
 module.exports = { matchWtb };
