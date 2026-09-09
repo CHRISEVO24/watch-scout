@@ -5,7 +5,7 @@ const { chromium } = require("playwright");
 const DATA_DIR = path.join(__dirname, "..", "data");
 const COOKIES_FILE = path.join(DATA_DIR, "inventoryconnect-cookies.json");
 const OUT_FILE = path.join(DATA_DIR, "watchdrop-latest.json");
-const MAX_DAYS = 30;
+const MAX_DAYS = 7;
 
 function convertCookies(raw) {
   return raw.map(c => ({
