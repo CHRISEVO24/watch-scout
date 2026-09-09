@@ -1,10 +1,5 @@
 [
   {
-    "scrapedAt": "2026-09-09T16:10:25.725Z",
-    "brand": "iwc",
-    "count": 117
-  },
-  {
     "scrapedAt": "2026-09-09T16:10:28.924Z",
     "brand": "jaeger-lecoultre",
     "count": 46
@@ -97,6 +92,11 @@
   {
     "scrapedAt": "2026-09-09T17:37:46.095Z",
     "brand": "5968g",
+    "count": 150
+  },
+  {
+    "scrapedAt": "2026-09-09T21:57:29.980Z",
+    "brand": "210.90.42.20.01.001",
     "count": 150
   }
 ]
