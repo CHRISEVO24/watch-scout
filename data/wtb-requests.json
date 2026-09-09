@@ -1,5 +1,372 @@
 [
   {
+    "id": "17889766340580",
+    "vercelId": "1788976590285",
+    "submittedAt": "2026-09-09T17:56:30.285Z",
+    "source": "public-form",
+    "status": "matched",
+    "client": {
+      "firstName": "Christopher",
+      "lastName": "Mancuso",
+      "email": "mangook@yahoo.com",
+      "phone": "5614415831"
+    },
+    "watch": {
+      "brand": "Patek Philippe",
+      "model": "",
+      "ref": "5968G",
+      "budgetMax": "",
+      "condition": "",
+      "boxPapers": "",
+      "notes": "Tiffany Dial"
+    },
+    "matches": {
+      "wtbId": "17889766340580",
+      "matchedAt": "2026-09-09T17:57:14.722Z",
+      "inventoryMatches": [
+        {
+          "score": 60,
+          "store": "WPB Watch Co",
+          "name": "Patek Philippe Aquanaut Chronograph White Gold Blue Arabic Dial 5968G-001",
+          "ref": "5968G-001",
+          "price": 158500,
+          "url": "https://wpbwatchco.com/product/patek-philippe-aquanaut-chronograph-white-gold-blue-arabic-dial-5968g-001/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/05/16123104/71343.png"
+        },
+        {
+          "score": 60,
+          "store": "WPB Watch Co",
+          "name": "Patek Philippe Aquanaut White Gold Green Arabic Dial 5968G-010",
+          "ref": "5968G-010",
+          "price": 142500,
+          "url": "https://wpbwatchco.com/product/patek-philippe-aquanaut-white-gold-green-arabic-dial-5968g-010/",
+          "image": "https://luxury-watch-listings.s3.amazonaws.com/wp-content/uploads/2026/06/30110610/87430.png"
+        }
+      ],
+      "marketMatches": [
+        {
+          "score": 100,
+          "source": "WatchRecon",
+          "title": "Patek PHILIPPE 5968G AQUANAUT CHRONOGRAPH WHITE GOLD BLUE DIAL 2021 FULL SET",
+          "ref": null,
+          "price": 125875,
+          "url": "https://www.watchrecon.com/detail.php?cid=7747877",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27490482&size=med-2x&ratio=1.33",
+          "seller": "TAKUYA"
+        },
+        {
+          "score": 100,
+          "source": "WatchPatrol",
+          "title": "Patek PHILIPPE 5968G AQUANAUT CHRONOGRAPH WHITE GOLD BLUE DIAL 2021 FULL SET",
+          "ref": null,
+          "price": 125875,
+          "url": "https://www.watchpatrol.net/listing/3660468/",
+          "imageUrl": "https://img.watchpatrol.net/GHD8T8zxLc4ZZf17zKSmkOpObCfgQAM_Tsg7gntg8Og/rs:fill:600:600/plain/img/full/852212c24af2ed7fab95487fbbfb75d2605d9244.jpg",
+          "seller": "takuya"
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Patek Philippe Aquanaut Khaki Green 5968g 010",
+          "ref": "5968G",
+          "price": 135000,
+          "url": "https://www.chrono24.com/patekphilippe/patek-philippe-aquanaut-khaki-green-5968g-010--id30799451.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Patek Philippe 5968g Blue Aquanaut",
+          "ref": "5968G",
+          "price": 150496,
+          "url": "https://www.chrono24.com/patekphilippe/patek-philippe-5968g-blue-aquanaut--id25646796.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Patek Philippe Aquanaut 5968g New 2023 Green",
+          "ref": "5968G",
+          "price": 151836,
+          "url": "https://www.chrono24.com/patekphilippe/patek-philippe-aquanaut-5968g-new-2023-green--id30011866.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Patek Philippe Aquanaut White Gold Blue Dial 5968g 001",
+          "ref": "5968G",
+          "price": 158000,
+          "url": "https://www.chrono24.com/patekphilippe/patek-philippe-aquanaut-white-gold-blue-dial-5968g-001--id30892515.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "5968g Tiffany White Gold Green Aquanaut",
+          "ref": "5968G",
+          "price": 262500,
+          "url": "https://www.chrono24.com/patekphilippe/5968g-tiffany-white-gold-green-aquanaut--id43515269.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "Chrono24",
+          "title": "Patek Philippe Aquanaut Ref 5968g 010  ",
+          "ref": "5968G",
+          "price": 128850,
+          "url": "https://www.chrono24.com/patekphilippe/patek-philippe-aquanaut-ref-5968g-010----id48219127.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 100,
+          "source": "eBay",
+          "title": "Patek Philippe 5968G-010 NEW 2026 Green Dial Box & Papers",
+          "ref": "5968G",
+          "price": 131975,
+          "url": "https://www.ebay.com/itm/377449602118?_skw=Patek+Philippe+watch&hash=item57e1bfdc46:g:WoMAAeSw4C1qj2It",
+          "imageUrl": "https://i.ebayimg.com/images/g/WoMAAeSw4C1qj2It/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "eBay",
+          "title": "Patek Philippe Aquanaut 5968G-001 White Gold Blue Dial (2026)",
+          "ref": "5968G",
+          "price": 164900,
+          "url": "https://www.ebay.com/itm/206465221504?_skw=5968g&hash=item3012494380:g:6c8AAeSwSwhqcgEx",
+          "imageUrl": "https://i.ebayimg.com/images/g/6c8AAeSwSwhqcgEx/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "eBay",
+          "title": "Patek Philippe Aquanaut Flyback Chronograph 5968G-001, Blue Dial - White Gold",
+          "ref": "5968G",
+          "price": 148995,
+          "url": "https://www.ebay.com/itm/187468163388?_skw=5968g&hash=item2ba5f9293c:g:cK4AAeSwwxZok3tu&amdata=enc%3AAQALAAAA4ACCtXRWQnOEpyOqnQQ8KGazjPIYiF3duVliaqmlneEnjXYMG5M7eRwmgu1afysgTRyQHItiaugmcviPobXWZFwbspUucVtornKz%2Fv9zHF4vcOLcVDwYibvnFH%2Fazw72mvjxtbMpHSL4dtSA%2B3Jx4MNZwJJcJUTFTw%2Fji9IYoJu--sEbxKcvlNqiHgCDgHLMu1dFIeC5rmIyl%2BjAlbO9c6Y4l%2FNp7vvfegsVywt35YXbym2aCPtaGkGrMF2NAx2QIjCWV4Nb8zcddxwwpcZfpQ0YHi6wuVk9MITULUNHeRY0",
+          "imageUrl": "https://i.ebayimg.com/images/g/cK4AAeSwwxZok3tu/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "eBay",
+          "title": "Patek Philippe Aquanaut Chronograph 5968G-010 White Gold Green Kaki Dial 42.2mm",
+          "ref": "5968G",
+          "price": 148995,
+          "url": "https://www.ebay.com/itm/188091387689?_skw=5968g&hash=item2bcb1ecf29:g:xhkAAeSw09dpncPJ&amdata=enc%3AAQALAAAA4ACCtXRWQnOEpyOqnQQ8KGaKmtDhv0QGrP08z%2BViiNpDjavsvq77bzKjJgfKXGept7ve1fasXujrQjhUoYEG7iAJmN6qImNyVzr44ybGrN0kdWy8V%2FMuTyQxS4%2B%2Bz3ntqKwcUGsU%2BM6dl%2BYLDv10lTpBP%2FS8vfAa%2FnY1n0TolG9UCvbgm15xNGHbbVs95PLhXK5x4T6nqf5C2B32fGxNoX1BiSctmuDe3IPhaIJjmj0kXMwSP2S3%2BqKitEQ8xI2g5Fn%2ByPBkjhmf4MmlxxkeUwmj9XW%2BtrTayDcYcpvGf46H",
+          "imageUrl": "https://i.ebayimg.com/images/g/xhkAAeSw09dpncPJ/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "eBay",
+          "title": "Patek Philippe Aquanaut 5968G-010 Chronograph White Gold Khaki Green Dial (2021)",
+          "ref": "5968G",
+          "price": 126990,
+          "url": "https://www.ebay.com/itm/206465224522?_skw=5968g&hash=item3012494f4a:g:zp4AAeSwstBqcgHq",
+          "imageUrl": "https://i.ebayimg.com/images/g/zp4AAeSwstBqcgHq/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "eBay",
+          "title": "Patek Philippe Aquanaut 42mm Green Dial Watch Ref# 5968G-010",
+          "ref": "5968G",
+          "price": 133000,
+          "url": "https://www.ebay.com/itm/327344428303?_skw=5968g&hash=item4c373f950f:g:dkcAAeSwjLlqnOzd",
+          "imageUrl": "https://i.ebayimg.com/images/g/dkcAAeSwjLlqnOzd/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 100,
+          "source": "eBay",
+          "title": "Patek Philippe Aquanaut 5968G-010 Chronograph White Gold Khaki Green Dial (2022)",
+          "ref": "5968G",
+          "price": 129990,
+          "url": "https://www.ebay.com/itm/206415871731?_skw=5968g&hash=item300f583ef3:g:f7MAAeSwENVqVyzi",
+          "imageUrl": "https://i.ebayimg.com/images/g/f7MAAeSwENVqVyzi/s-l225.jpg",
+          "seller": null
+        }
+      ],
+      "icMatches": []
+    }
+  },
+  {
+    "id": "17889756165640",
+    "vercelId": "1788975513945",
+    "submittedAt": "2026-09-09T17:38:33.945Z",
+    "source": "public-form",
+    "status": "closed",
+    "client": {
+      "firstName": "Christopher",
+      "lastName": "Mancuso",
+      "email": "mangook@yahoo.com",
+      "phone": "5614415831"
+    },
+    "watch": {
+      "brand": "Patek",
+      "model": "",
+      "ref": "5968g Tiffany",
+      "budgetMax": "",
+      "condition": "",
+      "boxPapers": "",
+      "notes": "Tiffany"
+    },
+    "matches": {
+      "wtbId": "17889756165640",
+      "matchedAt": "2026-09-09T17:40:17.286Z",
+      "inventoryMatches": [],
+      "marketMatches": [
+        {
+          "score": 60,
+          "source": "WatchRecon",
+          "title": "Patek PHILIPPE 5968G AQUANAUT CHRONOGRAPH WHITE GOLD BLUE DIAL 2021 FULL SET",
+          "ref": null,
+          "price": 125875,
+          "url": "https://www.watchrecon.com/detail.php?cid=7747877",
+          "imageUrl": "https://www.watchrecon.com/image.php?image_id=27490482&size=med-2x&ratio=1.33",
+          "seller": "TAKUYA"
+        },
+        {
+          "score": 60,
+          "source": "WatchPatrol",
+          "title": "Patek PHILIPPE 5968G AQUANAUT CHRONOGRAPH WHITE GOLD BLUE DIAL 2021 FULL SET",
+          "ref": null,
+          "price": 125875,
+          "url": "https://www.watchpatrol.net/listing/3660468/",
+          "imageUrl": "https://img.watchpatrol.net/GHD8T8zxLc4ZZf17zKSmkOpObCfgQAM_Tsg7gntg8Og/rs:fill:600:600/plain/img/full/852212c24af2ed7fab95487fbbfb75d2605d9244.jpg",
+          "seller": "takuya"
+        },
+        {
+          "score": 60,
+          "source": "Chrono24",
+          "title": "Patek Philippe Aquanaut Khaki Green 5968g 010",
+          "ref": "5968G",
+          "price": 135000,
+          "url": "https://www.chrono24.com/patekphilippe/patek-philippe-aquanaut-khaki-green-5968g-010--id30799451.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 60,
+          "source": "Chrono24",
+          "title": "Patek Philippe 5968g Blue Aquanaut",
+          "ref": "5968G",
+          "price": 150496,
+          "url": "https://www.chrono24.com/patekphilippe/patek-philippe-5968g-blue-aquanaut--id25646796.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 60,
+          "source": "Chrono24",
+          "title": "Patek Philippe Aquanaut 5968g New 2023 Green",
+          "ref": "5968G",
+          "price": 151836,
+          "url": "https://www.chrono24.com/patekphilippe/patek-philippe-aquanaut-5968g-new-2023-green--id30011866.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 60,
+          "source": "Chrono24",
+          "title": "Patek Philippe Aquanaut White Gold Blue Dial 5968g 001",
+          "ref": "5968G",
+          "price": 158000,
+          "url": "https://www.chrono24.com/patekphilippe/patek-philippe-aquanaut-white-gold-blue-dial-5968g-001--id30892515.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 60,
+          "source": "Chrono24",
+          "title": "5968g Tiffany White Gold Green Aquanaut",
+          "ref": "5968G",
+          "price": 262500,
+          "url": "https://www.chrono24.com/patekphilippe/5968g-tiffany-white-gold-green-aquanaut--id43515269.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 60,
+          "source": "Chrono24",
+          "title": "Patek Philippe Aquanaut Ref 5968g 010  ",
+          "ref": "5968G",
+          "price": 128850,
+          "url": "https://www.chrono24.com/patekphilippe/patek-philippe-aquanaut-ref-5968g-010----id48219127.htm",
+          "imageUrl": null
+        },
+        {
+          "score": 60,
+          "source": "eBay",
+          "title": "Patek Philippe 5968G-010 NEW 2026 Green Dial Box & Papers",
+          "ref": "5968G",
+          "price": 131975,
+          "url": "https://www.ebay.com/itm/377449602118?_skw=Patek+Philippe+watch&hash=item57e1bfdc46:g:WoMAAeSw4C1qj2It",
+          "imageUrl": "https://i.ebayimg.com/images/g/WoMAAeSw4C1qj2It/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 60,
+          "source": "eBay",
+          "title": "Patek Philippe Aquanaut 5968G-001 White Gold Blue Dial (2026)",
+          "ref": "5968G",
+          "price": 164900,
+          "url": "https://www.ebay.com/itm/206465221504?_skw=5968g&hash=item3012494380:g:6c8AAeSwSwhqcgEx",
+          "imageUrl": "https://i.ebayimg.com/images/g/6c8AAeSwSwhqcgEx/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 60,
+          "source": "eBay",
+          "title": "Patek Philippe Aquanaut Flyback Chronograph 5968G-001, Blue Dial - White Gold",
+          "ref": "5968G",
+          "price": 148995,
+          "url": "https://www.ebay.com/itm/187468163388?_skw=5968g&hash=item2ba5f9293c:g:cK4AAeSwwxZok3tu&amdata=enc%3AAQALAAAA4ACCtXRWQnOEpyOqnQQ8KGazjPIYiF3duVliaqmlneEnjXYMG5M7eRwmgu1afysgTRyQHItiaugmcviPobXWZFwbspUucVtornKz%2Fv9zHF4vcOLcVDwYibvnFH%2Fazw72mvjxtbMpHSL4dtSA%2B3Jx4MNZwJJcJUTFTw%2Fji9IYoJu--sEbxKcvlNqiHgCDgHLMu1dFIeC5rmIyl%2BjAlbO9c6Y4l%2FNp7vvfegsVywt35YXbym2aCPtaGkGrMF2NAx2QIjCWV4Nb8zcddxwwpcZfpQ0YHi6wuVk9MITULUNHeRY0",
+          "imageUrl": "https://i.ebayimg.com/images/g/cK4AAeSwwxZok3tu/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 60,
+          "source": "eBay",
+          "title": "Patek Philippe Aquanaut Chronograph 5968G-010 White Gold Green Kaki Dial 42.2mm",
+          "ref": "5968G",
+          "price": 148995,
+          "url": "https://www.ebay.com/itm/188091387689?_skw=5968g&hash=item2bcb1ecf29:g:xhkAAeSw09dpncPJ&amdata=enc%3AAQALAAAA4ACCtXRWQnOEpyOqnQQ8KGaKmtDhv0QGrP08z%2BViiNpDjavsvq77bzKjJgfKXGept7ve1fasXujrQjhUoYEG7iAJmN6qImNyVzr44ybGrN0kdWy8V%2FMuTyQxS4%2B%2Bz3ntqKwcUGsU%2BM6dl%2BYLDv10lTpBP%2FS8vfAa%2FnY1n0TolG9UCvbgm15xNGHbbVs95PLhXK5x4T6nqf5C2B32fGxNoX1BiSctmuDe3IPhaIJjmj0kXMwSP2S3%2BqKitEQ8xI2g5Fn%2ByPBkjhmf4MmlxxkeUwmj9XW%2BtrTayDcYcpvGf46H",
+          "imageUrl": "https://i.ebayimg.com/images/g/xhkAAeSw09dpncPJ/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 60,
+          "source": "eBay",
+          "title": "Patek Philippe Aquanaut 5968G-010 Chronograph White Gold Khaki Green Dial (2021)",
+          "ref": "5968G",
+          "price": 126990,
+          "url": "https://www.ebay.com/itm/206465224522?_skw=5968g&hash=item3012494f4a:g:zp4AAeSwstBqcgHq",
+          "imageUrl": "https://i.ebayimg.com/images/g/zp4AAeSwstBqcgHq/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 60,
+          "source": "eBay",
+          "title": "Patek Philippe Aquanaut 42mm Green Dial Watch Ref# 5968G-010",
+          "ref": "5968G",
+          "price": 133000,
+          "url": "https://www.ebay.com/itm/327344428303?_skw=5968g&hash=item4c373f950f:g:dkcAAeSwjLlqnOzd",
+          "imageUrl": "https://i.ebayimg.com/images/g/dkcAAeSwjLlqnOzd/s-l225.jpg",
+          "seller": null
+        },
+        {
+          "score": 60,
+          "source": "eBay",
+          "title": "Patek Philippe Aquanaut 5968G-010 Chronograph White Gold Khaki Green Dial (2022)",
+          "ref": "5968G",
+          "price": 129990,
+          "url": "https://www.ebay.com/itm/206415871731?_skw=5968g&hash=item300f583ef3:g:f7MAAeSwENVqVyzi",
+          "imageUrl": "https://i.ebayimg.com/images/g/f7MAAeSwENVqVyzi/s-l225.jpg",
+          "seller": null
+        }
+      ],
+      "icMatches": []
+    }
+  },
+  {
     "id": "17889020206720",
     "vercelId": "1788902009841",
     "submittedAt": "2026-09-08T21:13:29.841Z",

@@ -1,10 +1,5 @@
 [
   {
-    "scrapedAt": "2026-09-09T16:13:27.327Z",
-    "query": "Hublot watch",
-    "count": 131
-  },
-  {
     "scrapedAt": "2026-09-09T16:13:28.563Z",
     "query": "IWC watch",
     "count": 109
@@ -98,5 +93,10 @@
     "scrapedAt": "2026-09-09T16:13:51.413Z",
     "query": "Zenith watch",
     "count": 85
+  },
+  {
+    "scrapedAt": "2026-09-09T17:37:43.833Z",
+    "query": "5968g",
+    "count": 24
   }
 ]

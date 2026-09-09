@@ -1,10 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-31T12:31:02.733Z",
-    "query": "Hamilton",
-    "count": 40
-  },
-  {
     "scrapedAt": "2026-08-31T12:31:11.679Z",
     "query": "Hublot",
     "count": 40
@@ -98,5 +93,10 @@
     "scrapedAt": "2026-09-09T16:14:10.282Z",
     "query": "U-Boat",
     "count": 18
+  },
+  {
+    "scrapedAt": "2026-09-09T17:37:52.259Z",
+    "query": "5968g",
+    "count": 5
   }
 ]
