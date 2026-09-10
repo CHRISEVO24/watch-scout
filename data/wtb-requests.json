@@ -4,7 +4,7 @@
     "vercelId": "1788978943964",
     "submittedAt": "2026-09-09T18:35:43.964Z",
     "source": "public-form",
-    "status": "closed",
+    "status": "matched",
     "client": {
       "firstName": "Christopher",
       "lastName": "Mancuso",
@@ -22,31 +22,9 @@
     },
     "matches": {
       "wtbId": "17889790612640",
-      "matchedAt": "2026-09-09T19:42:13.236Z",
+      "matchedAt": "2026-09-10T01:30:05.713Z",
       "inventoryMatches": [],
       "marketMatches": [
-        {
-          "score": 80,
-          "source": "WatchDrop",
-          "title": "Rolex Sea-Dweller 116600",
-          "ref": "116600",
-          "price": 12500,
-          "url": "https://www.inventoryconnect.io/watchdrop/287840",
-          "imageUrl": "https://www.inventoryconnect.io/uploads/wa-capture/live/cmosy5yla0002kl07boo43ao5/4e2a11731c8409f08653a2660eab3cc229f80e639854562cb1a9d12bc5005369.jpg",
-          "seller": "Jonathan Shimunov",
-          "postedMinutesAgo": 8534
-        },
-        {
-          "score": 80,
-          "source": "WatchDrop",
-          "title": "Rolex Sea Dweller 116600",
-          "ref": "116600",
-          "price": 12500,
-          "url": "https://www.inventoryconnect.io/watchdrop/249912",
-          "imageUrl": "https://www.inventoryconnect.io/uploads/wa-capture/live/cmom113q80005l104un0umno4/806257a49ed142807a0bb63c6f2e7bd6b0d914f08f22a7c5f88165f56168d9b4.jpg",
-          "seller": "Jonathan Shimunov",
-          "postedMinutesAgo": 28225
-        },
         {
           "score": 80,
           "source": "WatchDrop",
@@ -56,7 +34,7 @@
           "url": "https://www.inventoryconnect.io/watchdrop/-784",
           "imageUrl": "https://www.inventoryconnect.io/uploads/wa-capture/live/chris-comps/c5/3c/c53cd7d64966a5b9e5c4be267c18228b2d3149f5fbb327598605de86a3dcbc1b.jpg",
           "seller": "Nw Timepieces",
-          "postedMinutesAgo": 43246
+          "postedMinutesAgo": 43594
         },
         {
           "score": 80,
@@ -67,7 +45,7 @@
           "url": "https://www.inventoryconnect.io/watchdrop/227272",
           "imageUrl": "https://www.inventoryconnect.io/uploads/wa-capture/live/cmom113q80005l104un0umno4/806257a49ed142807a0bb63c6f2e7bd6b0d914f08f22a7c5f88165f56168d9b4.jpg",
           "seller": "Jonathan Shimunov",
-          "postedMinutesAgo": 48505
+          "postedMinutesAgo": 48853
         },
         {
           "score": 80,
@@ -78,7 +56,7 @@
           "url": "https://www.inventoryconnect.io/watchdrop/230402",
           "imageUrl": "https://www.inventoryconnect.io/uploads/wa-capture/live/cmom113q80005l104un0umno4/5e75b28deb0d32c1bedf161ae38002f59a359a965f8ee19e20dcdb9dbfd7285a.jpg",
           "seller": "Maximo",
-          "postedMinutesAgo": 51956
+          "postedMinutesAgo": 52304
         },
         {
           "score": 80,
@@ -89,7 +67,7 @@
           "url": "https://www.inventoryconnect.io/watchdrop/230590",
           "imageUrl": "https://www.inventoryconnect.io/uploads/wa-capture/live/cmom113q80005l104un0umno4/f21187b34cf3c71ccfb6c27bcdb9da058a3bcf0caa658d810878cdb917ee7b29.jpg",
           "seller": "Maximo",
-          "postedMinutesAgo": 52299
+          "postedMinutesAgo": 52647
         },
         {
           "score": 80,
@@ -100,7 +78,7 @@
           "url": "https://www.inventoryconnect.io/watchdrop/230659",
           "imageUrl": "https://www.inventoryconnect.io/uploads/wa-capture/live/cmom113q80005l104un0umno4/b3dfe8b6689f683394470b0d3426d8e3da87d09dfb03810544227deca69a49b4.jpg",
           "seller": "Maximo",
-          "postedMinutesAgo": 53575
+          "postedMinutesAgo": 53923
         },
         {
           "score": 100,
@@ -171,6 +149,26 @@
           "url": "https://www.watchrecon.com/detail.php?cid=7858987",
           "imageUrl": "https://www.watchrecon.com/image.php?image_id=28079944&size=med-2x&ratio=1.33",
           "seller": "drster11mlt"
+        },
+        {
+          "score": 100,
+          "source": "WatchDrop",
+          "title": "Rolex Sea-Dweller 116600",
+          "ref": "116600",
+          "price": 12500,
+          "url": "https://www.inventoryconnect.io/watchdrop/287840",
+          "imageUrl": "https://www.inventoryconnect.io/uploads/wa-capture/live/cmosy5yla0002kl07boo43ao5/4e2a11731c8409f08653a2660eab3cc229f80e639854562cb1a9d12bc5005369.jpg",
+          "seller": "Jonathan Shimunov"
+        },
+        {
+          "score": 100,
+          "source": "WatchDrop",
+          "title": "Rolex Sea Dweller 116600",
+          "ref": "116600",
+          "price": 12500,
+          "url": "https://www.inventoryconnect.io/watchdrop/249912",
+          "imageUrl": "https://www.inventoryconnect.io/uploads/wa-capture/live/cmom113q80005l104un0umno4/806257a49ed142807a0bb63c6f2e7bd6b0d914f08f22a7c5f88165f56168d9b4.jpg",
+          "seller": "Jonathan Shimunov"
         },
         {
           "score": 100,

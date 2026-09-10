@@ -1,10 +1,5 @@
 [
   {
-    "scrapedAt": "2026-09-09T16:13:29.746Z",
-    "query": "Jaeger-LeCoultre watch",
-    "count": 125
-  },
-  {
     "scrapedAt": "2026-09-09T16:13:30.808Z",
     "query": "Jaquet-Droz watch",
     "count": 62
@@ -98,5 +93,10 @@
     "scrapedAt": "2026-09-09T21:57:27.747Z",
     "query": "210.90.42.20.01.001",
     "count": 52
+  },
+  {
+    "scrapedAt": "2026-09-10T11:38:05.726Z",
+    "query": "304.30.43.52.06.001",
+    "count": 5
   }
 ]
