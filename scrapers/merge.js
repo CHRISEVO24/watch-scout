@@ -51,8 +51,10 @@ function run() {
   const watchdrop = loadSafe("watchdrop-latest.json");
   const watchesinl = loadSafe("watchesinl-latest.json");
   const brandvillevault = loadSafe("brandvillevault-latest.json");
+  const watchpilot = loadSafe("watchpilot-latest.json");
+  const luxurytime = loadSafe("luxurytime-latest.json");
 
-  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel, ...inventoryconnect, ...artimeus, ...swisswatchexpo, ...watchlimit, ...the1916company, ...watchesoff5th, ...affordableswiss, ...exquisitetimepieces, ...ashford, ...luxurybazaar, ...watchaffinity, ...iplaywatch, ...aiswatches, ...elementintime, ...wristaficionado, ...collectors1946, ...grandcaliber, ...crmjewelers, ...providentjewelry, ...topperjewelers, ...materialgood, ...hqmilton, ...analogshift, ...timepiecetrading, ...grayandsons, ...mttimepieces, ...nywatchmarket, ...watchdrop, ...watchesinl, ...brandvillevault].sort(
+  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel, ...inventoryconnect, ...artimeus, ...swisswatchexpo, ...watchlimit, ...the1916company, ...watchesoff5th, ...affordableswiss, ...exquisitetimepieces, ...ashford, ...luxurybazaar, ...watchaffinity, ...iplaywatch, ...aiswatches, ...elementintime, ...wristaficionado, ...collectors1946, ...grandcaliber, ...crmjewelers, ...providentjewelry, ...topperjewelers, ...materialgood, ...hqmilton, ...analogshift, ...timepiecetrading, ...grayandsons, ...mttimepieces, ...nywatchmarket, ...watchdrop, ...watchesinl, ...brandvillevault, ...watchpilot, ...luxurytime].sort(
     (a, b) => (a.postedMinutesAgo ?? 99999) - (b.postedMinutesAgo ?? 99999)
   );
 
