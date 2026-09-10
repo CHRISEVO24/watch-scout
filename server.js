@@ -1157,6 +1157,23 @@ app.post("/api/ultron", express.json(), async (req, res) => {
   }
 });
 
+app.post('/api/save-watchcrunch', express.json({limit:'50mb'}), (req, res) => {
+  const existing = fs.existsSync('data/watchcrunch-latest.json') ? JSON.parse(fs.readFileSync('data/watchcrunch-latest.json')) : [];
+  const seen = new Set(existing.map(i=>i.url));
+  const newItems = req.body.filter(i => !seen.has(i.href)).map(i => ({
+    id: 'wc-' + Buffer.from(i.href).toString('base64').slice(0,12),
+    source: 'WatchCrunch', sourceDetail: 'watchcrunch.com',
+    brand: null, model: null, ref: i.ref || null,
+    title: i.title, price: i.price,
+    url: i.href, imageUrl: i.img || null,
+    condition: 'Pre-Owned', postedMinutesAgo: null,
+    scrapedAt: new Date().toISOString()
+  }));
+  const all = [...existing, ...newItems];
+  fs.writeFileSync('data/watchcrunch-latest.json', JSON.stringify(all, null, 2));
+  res.json({saved: newItems.length, total: all.length});
+});
+
 app.listen(PORT, () => {
   console.log(`Watch Scout server running.`);
   console.log(`Open: http://localhost:${PORT}/watch-scout-dashboard.html`);

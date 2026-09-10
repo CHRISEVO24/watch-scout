@@ -1,15 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-27T21:27:58.703Z",
-    "brand": "chopard",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-27T21:28:05.362Z",
-    "brand": "corum",
-    "count": 12
-  },
-  {
     "scrapedAt": "2026-08-27T21:54:34.414Z",
     "brand": "cvstos",
     "count": 3
@@ -97,6 +87,16 @@
   {
     "scrapedAt": "2026-09-09T16:17:23.724Z",
     "brand": "u-boat",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-10T15:04:52.970Z",
+    "brand": "ulysse-nardin",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-10T15:04:58.873Z",
+    "brand": "vacheron-constantin",
     "count": 12
   }
 ]

@@ -1,15 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-31T17:40:32.517Z",
-    "query": "5066A–010",
-    "count": 0
-  },
-  {
-    "scrapedAt": "2026-08-31T18:31:49.592Z",
-    "query": "Brequet",
-    "count": 8
-  },
-  {
     "scrapedAt": "2026-09-01T12:39:58.455Z",
     "query": "IWC",
     "count": 40
@@ -98,5 +88,15 @@
     "scrapedAt": "2026-09-10T11:38:14.981Z",
     "query": "304.30.43.52.06.001",
     "count": 2
+  },
+  {
+    "scrapedAt": "2026-09-10T15:01:36.402Z",
+    "query": "Ulysse Nardin",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-10T15:01:45.687Z",
+    "query": "Vacheron Constantin",
+    "count": 40
   }
 ]
