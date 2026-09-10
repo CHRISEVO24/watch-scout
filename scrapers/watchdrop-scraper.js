@@ -5,6 +5,13 @@ const { chromium } = require("playwright");
 const DATA_DIR = path.join(__dirname, "..", "data");
 const COOKIES_FILE = path.join(DATA_DIR, "inventoryconnect-cookies.json");
 const OUT_FILE = path.join(DATA_DIR, "watchdrop-latest.json");
+const MAX_DAYS = 30;
+
+const GROUPS = [
+  "BUY/SELL/TRADE",
+  "US 🇺🇸 Verified Dealers Only",
+  "timecapsulecollection ⏱⚙️"
+];
 
 function convertCookies(raw) {
   return raw.map(c => ({
@@ -15,84 +22,87 @@ function convertCookies(raw) {
   }));
 }
 
-async function scrape() {
+async function scrapeGroup(cookies, group, allItems, seenIds) {
+  const cutoff = Date.now() - MAX_DAYS * 24 * 60 * 60 * 1000;
   const browser = await chromium.launch({ headless: true });
   const ctx = await browser.newContext({ userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36" });
-  await ctx.addCookies(convertCookies(JSON.parse(fs.readFileSync(COOKIES_FILE, "utf8"))));
+  await ctx.addCookies(cookies);
   const page = await ctx.newPage();
-  await page.goto("https://www.inventoryconnect.io/watchdrop?f-cur=USD", { waitUntil: "domcontentloaded", timeout: 30000 });
+  let newInGroup = 0;
+  let hitCutoff = false;
+
+  page.on('response', async res => {
+    if (!res.url().includes('/watchdrop/api/listings')) return;
+    try {
+      const body = await res.text();
+      if (!body.startsWith('{')) return;
+      const data = JSON.parse(body);
+      (data.items || []).forEach(item => {
+        const id = `wd-${item.id}`;
+        if (seenIds.has(id)) return;
+        if (item.listing_type === 'wtb' || item.listing_type === 'ntq') return;
+        if (item.posted_at && new Date(item.posted_at).getTime() < cutoff) { hitCutoff = true; return; }
+        seenIds.add(id);
+        allItems.push({
+          id, source: "WatchDrop", sourceDetail: "inventoryconnect.io/watchdrop",
+          brand: item.brand || null, model: item.model || null,
+          ref: item.reference_number || null,
+          title: [item.brand, item.model, item.reference_number].filter(Boolean).join(" "),
+          price: item.price ? parseFloat(item.price) : null,
+          url: `https://www.inventoryconnect.io/watchdrop/${item.id}`,
+          imageUrl: item.photo_url ? `https://www.inventoryconnect.io${item.photo_url}` : null,
+          condition: item.condition || null, dialColor: item.dial_color || null,
+          seller: item.sender || null, groupName: item.group_name || null,
+          postedMinutesAgo: item.posted_at ? Math.round((Date.now() - new Date(item.posted_at).getTime()) / 60000) : null,
+          scrapedAt: new Date().toISOString(),
+        });
+        newInGroup++;
+      });
+    } catch(e) {}
+  });
+
+  const url = `https://www.inventoryconnect.io/watchdrop?f-cur=USD&f-group=${encodeURIComponent(group)}`;
+  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
   await page.waitForTimeout(3000);
-  if (page.url().includes("login")) { console.error("Session expired."); await browser.close(); return; }
-  console.log("[WatchDrop] Session valid. Looking for Load More button...");
 
-  const allItems = [];
-  const seenIds = new Set();
   let clicks = 0;
-  const MAX_CLICKS = 1000;
-
-  while (clicks < MAX_CLICKS) {
-    // Extract all current listing IDs via API intercept from DOM
-    const items = await page.evaluate(() => {
-      const results = [];
-      document.querySelectorAll('a[href*="/watchdrop/"]').forEach(a => {
-        const id = a.href.split('/watchdrop/')[1]?.split('?')[0];
-        if (!id || id.length < 3) return;
-        const card = a.closest('div,li,article') || a.parentElement;
-        const title = card?.querySelector('h2,h3,[class*="title"],[class*="name"]')?.textContent?.trim();
-        const price = card?.querySelector('[class*="price"]')?.textContent?.trim();
-        const img = card?.querySelector('img')?.src;
-        const ref = card?.querySelector('[class*="ref"],[class*="reference"]')?.textContent?.trim();
-        const brand = card?.querySelector('[class*="brand"]')?.textContent?.trim();
-        results.push({ id, href: a.href, title, price, img, ref, brand });
-      });
-      return results;
-    });
-
-    let newCount = 0;
-    items.forEach(item => {
-      if (seenIds.has(item.id)) return;
-      seenIds.add(item.id);
-      const priceNum = parseFloat((item.price||'').replace(/[^0-9.]/g,''))||null;
-      allItems.push({
-        id: `wd-${item.id}`,
-        source: "WatchDrop",
-        sourceDetail: "inventoryconnect.io/watchdrop",
-        brand: item.brand || null,
-        model: null,
-        ref: item.ref || null,
-        title: item.title || null,
-        price: priceNum,
-        url: item.href,
-        imageUrl: item.img || null,
-        condition: null,
-        postedMinutesAgo: null,
-        scrapedAt: new Date().toISOString(),
-      });
-      newCount++;
-    });
-
-    // Save progress every 500 items
-    if (allItems.length % 500 < newCount) {
+  while (clicks < 500 && !hitCutoff) {
+    const btn = await page.$('button:has-text("Load more")');
+    if (!btn) break;
+    await btn.click();
+    await page.waitForTimeout(800 + Math.floor(Math.random() * 400));
+    clicks++;
+    if (clicks % 20 === 0) {
+      console.log(`[WatchDrop][${group.slice(0,20)}] Click ${clicks}, ${newInGroup} new items`);
       fs.writeFileSync(OUT_FILE, JSON.stringify(allItems, null, 2));
     }
-
-    console.log(`[WatchDrop] Click ${clicks}: ${items.length} visible, ${newCount} new (total: ${allItems.length})`);
-
-    // Find and click Load More button
-    const loadMore = await page.$('button:has-text("Load more"), button:has-text("load more"), button:has-text("Show more"), [class*="load-more"], [class*="loadMore"]');
-    if (!loadMore) {
-      console.log('[WatchDrop] No Load More button found, done.');
-      break;
-    }
-    await loadMore.click();
-    await page.waitForTimeout(2000);
-    clicks++;
   }
 
   await browser.close();
-  fs.writeFileSync(OUT_FILE, JSON.stringify(allItems, null, 2));
-  console.log(`[WatchDrop] Done: ${allItems.length} unique listings`);
+  console.log(`[WatchDrop][${group.slice(0,20)}] Done: ${newInGroup} new items (${clicks} clicks)`);
+  return newInGroup;
 }
 
-if (require.main === module) scrape().catch(console.error);
-module.exports = { scrape };
+async function scrape() {
+  const cookies = convertCookies(JSON.parse(fs.readFileSync(COOKIES_FILE, 'utf8')));
+  const allItems = [];
+  const seenIds = new Set();
+
+  if (fs.existsSync(OUT_FILE)) {
+    const existing = JSON.parse(fs.readFileSync(OUT_FILE, 'utf8'));
+    existing.forEach(i => { seenIds.add(i.id); allItems.push(i); });
+    console.log(`[WatchDrop] Loaded ${allItems.length} existing items`);
+  }
+
+  for (const group of GROUPS) {
+    console.log(`\n[WatchDrop] Scraping group: ${group}`);
+    await scrapeGroup(cookies, group, allItems, seenIds);
+    fs.writeFileSync(OUT_FILE, JSON.stringify(allItems, null, 2));
+    console.log(`[WatchDrop] Total so far: ${allItems.length}`);
+    await new Promise(r => setTimeout(r, 3000));
+  }
+
+  console.log(`\n[WatchDrop] All groups done. Total: ${allItems.length} unique items`);
+}
+
+scrape().catch(console.error);
