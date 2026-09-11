@@ -106,6 +106,13 @@ app.get("/api/counts", (req, res) => {
 app.get("/api/filter", (req, res) => {
   const { q, src, brand, color, pMin, pMax, age, sort, limit } = req.query;
   const combined = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "combined.json"), "utf8"));
+  // Append own inventory (in-stock only) for dashboard search - does NOT affect WTB matching
+  const ownInv = [
+    ...loadSafe("eci-inventory-latest.json").filter(i=>i.inStock).map(i=>({...i,source:i.store||"ECI Jewelers",title:i.name,imageUrl:i.imageUrl||i.image})),
+    ...loadSafe("ecj-inventory-latest.json").filter(i=>i.inStock).map(i=>({...i,source:i.store||"ECJ Luxe",title:i.name,imageUrl:i.imageUrl||i.image})),
+    ...loadSafe("inventory-latest.json").filter(i=>i.inStock).map(i=>({...i,source:i.store||"WPB Watch Co",title:i.name,imageUrl:i.imageUrl||i.image})),
+  ];
+  combined.push(...ownInv);
   
   function nrm(s) { return (s||"").toLowerCase().replace(/[^a-z0-9]/g,""); }
   const qn = nrm(q);

@@ -1,15 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-29T12:21:13.899Z",
-    "brand": "franck-muller",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-08-29T12:21:23.409Z",
-    "brand": "girard-perregaux",
-    "count": 12
-  },
-  {
     "scrapedAt": "2026-08-31T12:34:21.020Z",
     "brand": "hamilton",
     "count": 3
@@ -97,6 +87,16 @@
   {
     "scrapedAt": "2026-09-11T13:34:40.193Z",
     "brand": "a-lange-amp-sohne",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-11T15:21:24.699Z",
+    "brand": "anonimo",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-11T15:21:36.591Z",
+    "brand": "audemars-piguet",
     "count": 12
   }
 ]

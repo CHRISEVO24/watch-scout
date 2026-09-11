@@ -1,15 +1,5 @@
 [
   {
-    "scrapedAt": "2026-09-04T13:48:51.172Z",
-    "query": "Richard Millie",
-    "count": 0
-  },
-  {
-    "scrapedAt": "2026-09-04T13:49:01.387Z",
-    "query": "Roger Dubuis",
-    "count": 40
-  },
-  {
     "scrapedAt": "2026-09-06T13:29:38.348Z",
     "query": "Rolex",
     "count": 40
@@ -97,6 +87,16 @@
   {
     "scrapedAt": "2026-09-11T13:31:27.368Z",
     "query": "A. Lange &amp; Sohne",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-11T15:18:08.945Z",
+    "query": "Anonimo",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-11T15:18:18.244Z",
+    "query": "Audemars Piguet",
     "count": 40
   }
 ]
