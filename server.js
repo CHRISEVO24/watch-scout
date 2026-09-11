@@ -98,7 +98,7 @@ app.get("/api/counts", (req, res) => {
   const combined = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "combined.json"), "utf8"));
   const ownInvC = [
     ...loadSafe("eci-inventory-latest.json").filter(i=>i.inStock).map(i=>({...i,source:i.store||"ECI Jewelers"})),
-    ...loadSafe("ecj-inventory-latest.json").filter(i=>i.inStock).map(i=>({...i,source:i.store||"ECJ Luxe"})),
+    ...loadSafe("ecj-inventory-latest.json").filter(i=>i.inStock).map(i=>({...i,source:"ECJ Luxe"})),
     ...loadSafe("inventory-latest.json").filter(i=>i.inStock).map(i=>({...i,source:i.store||"WPB Watch Co"})),
   ];
   combined.push(...ownInvC);
@@ -115,7 +115,7 @@ app.get("/api/filter", (req, res) => {
   // Append own inventory (in-stock only) for dashboard search - does NOT affect WTB matching
   const ownInv = [
     ...loadSafe("eci-inventory-latest.json").filter(i=>i.inStock).map(i=>({...i,source:i.store||"ECI Jewelers",title:i.name,imageUrl:i.imageUrl||i.image})),
-    ...loadSafe("ecj-inventory-latest.json").filter(i=>i.inStock).map(i=>({...i,source:i.store||"ECJ Luxe",title:i.name,imageUrl:i.imageUrl||i.image})),
+    ...loadSafe("ecj-inventory-latest.json").filter(i=>i.inStock).map(i=>({...i,source:"ECJ Luxe",title:i.name,imageUrl:i.imageUrl||i.image})),
     ...loadSafe("inventory-latest.json").filter(i=>i.inStock).map(i=>({...i,source:i.store||"WPB Watch Co",title:i.name,imageUrl:i.imageUrl||i.image})),
   ];
   combined.push(...ownInv);
