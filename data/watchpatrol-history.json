@@ -1,25 +1,5 @@
 [
   {
-    "scrapedAt": "2026-09-01T12:39:58.455Z",
-    "query": "IWC",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-09-01T12:40:07.651Z",
-    "query": "Jaeger-LeCoultre",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-09-03T13:28:22.421Z",
-    "query": "Parmigiani",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-09-03T13:28:31.714Z",
-    "query": "Patek Philippe",
-    "count": 40
-  },
-  {
     "scrapedAt": "2026-09-04T13:48:51.172Z",
     "query": "Richard Millie",
     "count": 0
@@ -97,6 +77,26 @@
   {
     "scrapedAt": "2026-09-10T15:01:45.687Z",
     "query": "Vacheron Constantin",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-10T18:08:57.034Z",
+    "query": "5066a",
+    "count": 2
+  },
+  {
+    "scrapedAt": "2026-09-10T21:32:36.413Z",
+    "query": "126755saru",
+    "count": 1
+  },
+  {
+    "scrapedAt": "2026-09-11T13:31:18.101Z",
+    "query": "Zenith",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-11T13:31:27.368Z",
+    "query": "A. Lange &amp; Sohne",
     "count": 40
   }
 ]
