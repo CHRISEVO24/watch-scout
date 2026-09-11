@@ -96,6 +96,12 @@ function loadAllSources() {
 
 app.get("/api/counts", (req, res) => {
   const combined = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "combined.json"), "utf8"));
+  const ownInvC = [
+    ...loadSafe("eci-inventory-latest.json").filter(i=>i.inStock).map(i=>({...i,source:i.store||"ECI Jewelers"})),
+    ...loadSafe("ecj-inventory-latest.json").filter(i=>i.inStock).map(i=>({...i,source:i.store||"ECJ Luxe"})),
+    ...loadSafe("inventory-latest.json").filter(i=>i.inStock).map(i=>({...i,source:i.store||"WPB Watch Co"})),
+  ];
+  combined.push(...ownInvC);
   const counts = {};
   combined.forEach(i => { counts[i.source] = (counts[i.source]||0)+1; });
   const brands = [...new Set(combined.map(i=>i.brand).filter(Boolean))].sort();
