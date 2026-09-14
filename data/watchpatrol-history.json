@@ -1,15 +1,5 @@
 [
   {
-    "scrapedAt": "2026-09-08T18:40:15.149Z",
-    "query": "Tag Heuer",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-09-09T16:14:01.242Z",
-    "query": "Tudor",
-    "count": 40
-  },
-  {
     "scrapedAt": "2026-09-09T16:14:10.282Z",
     "query": "U-Boat",
     "count": 18
@@ -97,6 +87,16 @@
   {
     "scrapedAt": "2026-09-14T12:17:59.070Z",
     "query": "Chopard",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-14T12:28:57.759Z",
+    "query": "Dewitt",
+    "count": 5
+  },
+  {
+    "scrapedAt": "2026-09-14T12:29:07.155Z",
+    "query": "Franck Muller",
     "count": 40
   }
 ]
