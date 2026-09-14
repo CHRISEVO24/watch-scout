@@ -26,7 +26,7 @@ input,select,button{font-family:var(--sans);}
 /* Run bar */
 .run-bar{display:flex;align-items:center;gap:12px;padding:11px 24px;border-bottom:1px solid var(--hairline);flex-wrap:wrap;}
 #runBtn{position:relative;overflow:hidden;background:var(--brass);color:#2e2005;border:none;padding:9px 20px;border-radius:8px;font-size:13px;font-weight:700;}
-#runBtn:disabled{opacity:.6;cursor:default;}
+#runBtn:disabled{opacity:.6;cursor:default;}#fullScoutBtn{position:relative;overflow:hidden;background:#a0a0a0;color:#1a1a1a;border:none;padding:9px 20px;border-radius:8px;font-size:13px;font-weight:700;cursor:pointer;}#fullScoutBtn:hover{background:#888;}#fullScoutBtn:disabled{opacity:.6;cursor:default;}
 #runProg{position:absolute;left:0;top:0;height:100%;background:rgba(0,0,0,.18);width:0%;transition:width .3s;}
 #runStatus{font-size:12px;color:var(--text-secondary);flex:1;}
 #syncLabel{font-size:11px;color:var(--text-muted);}
@@ -227,7 +227,8 @@ input,select,button{font-family:var(--sans);}
   <div class="total-ring"><div class="n" id="totalN">0</div><div class="l">Live<br>Leads</div></div>
 </div>
 <div class="run-bar">
-  <button id="runBtn" onclick="runScout()"><div id="runProg"></div>Run Scout - Refresh Everything</button>
+  <button id="runBtn" onclick="runScout()"><div id="runProg"></div>Quick Scout (10 min)</button>
+  <button id="fullScoutBtn" onclick="runScout('full')">Full Scout - Refresh Everything</button>
   <div><div id="runStatus">Ready</div><div id="syncLabel">FB Groups / WhatsApp last synced: check session</div></div>
 </div>
 <div class="tabs">
@@ -841,10 +842,10 @@ async function sendChron(){
   }catch(e){t.textContent='Error: '+e.message;}finally{btn.disabled=false;}
 }
 document.getElementById('chronInput').addEventListener('keydown',e=>{if(e.key==='Enter')sendChron();});
-async function runScout(){
+async function runScout(mode){
   const btn=document.getElementById('runBtn');const st=document.getElementById('runStatus');const prog=document.getElementById('runProg');
   btn.disabled=true;prog.style.width='0%';st.textContent='Starting...';
-  try{const es=new EventSource('/api/run-scout');
+  try{const url=mode==='full'?'/api/run-scout':'/api/run-scout-quick';const es=new EventSource(url);
     es.addEventListener('progress',e=>{const d=JSON.parse(e.data);prog.style.width=Math.round((d.step/d.total)*100)+'%';st.textContent='Step '+d.step+' of '+d.total+': '+d.name+'...';});
     es.addEventListener('done',e=>{es.close();const d=JSON.parse(e.data);prog.style.width='100%';st.textContent='Done — '+d.count.toLocaleString()+' listings, '+d.buyerMatches.length+' matches.';setTimeout(()=>{prog.style.width='0%';btn.disabled=false;initCounts();renderFeed();},2000);});
     es.onerror=()=>{es.close();st.textContent='Run failed. Check terminal.';btn.disabled=false;};

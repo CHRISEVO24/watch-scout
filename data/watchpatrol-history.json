@@ -1,35 +1,5 @@
 [
   {
-    "scrapedAt": "2026-09-06T13:29:38.348Z",
-    "query": "Rolex",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-09-06T13:29:47.701Z",
-    "query": "Seiko",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-09-08T14:45:09.741Z",
-    "query": "26331ST",
-    "count": 15
-  },
-  {
-    "scrapedAt": "2026-09-08T14:47:02.574Z",
-    "query": "26331ST",
-    "count": 15
-  },
-  {
-    "scrapedAt": "2026-09-08T15:25:39.450Z",
-    "query": "218399RBR",
-    "count": 0
-  },
-  {
-    "scrapedAt": "2026-09-08T18:40:06.010Z",
-    "query": "TAG Heuer",
-    "count": 40
-  },
-  {
     "scrapedAt": "2026-09-08T18:40:15.149Z",
     "query": "Tag Heuer",
     "count": 40
@@ -97,6 +67,36 @@
   {
     "scrapedAt": "2026-09-11T15:18:18.244Z",
     "query": "Audemars Piguet",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-12T12:15:43.608Z",
+    "query": "Breguet",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-12T12:15:52.929Z",
+    "query": "Breitling",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-14T12:00:48.463Z",
+    "query": "Bulgari",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-14T12:00:57.707Z",
+    "query": "Bvlgari",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-14T12:17:49.953Z",
+    "query": "Cartier",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-14T12:17:59.070Z",
+    "query": "Chopard",
     "count": 40
   }
 ]

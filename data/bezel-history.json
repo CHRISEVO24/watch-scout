@@ -1,35 +1,5 @@
 [
   {
-    "scrapedAt": "2026-08-31T12:34:21.020Z",
-    "brand": "hamilton",
-    "count": 3
-  },
-  {
-    "scrapedAt": "2026-08-31T12:34:29.674Z",
-    "brand": "hublot",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-09-01T12:43:14.898Z",
-    "brand": "iwc",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-09-01T12:43:21.597Z",
-    "brand": "jaeger-lecoultre",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-09-03T13:25:15.811Z",
-    "brand": "omega",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-09-03T13:25:28.701Z",
-    "brand": "panerai",
-    "count": 12
-  },
-  {
     "scrapedAt": "2026-09-03T13:31:44.511Z",
     "brand": "parmigiani",
     "count": 12
@@ -97,6 +67,36 @@
   {
     "scrapedAt": "2026-09-11T15:21:36.591Z",
     "brand": "audemars-piguet",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-12T12:19:00.925Z",
+    "brand": "breguet",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-12T12:19:07.556Z",
+    "brand": "breitling",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-14T12:04:05.194Z",
+    "brand": "bulgari",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-14T12:04:13.814Z",
+    "brand": "bvlgari",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-14T12:21:06.282Z",
+    "brand": "cartier",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-14T12:21:12.621Z",
+    "brand": "chopard",
     "count": 12
   }
 ]

@@ -178,6 +178,57 @@ app.get("/api/search", async (req, res) => {
   });
 });
 
+app.get("/api/run-scout-quick", async (req, res) => {
+  console.log("\n=== Quick Scout: fast refresh started ===");
+  res.writeHead(200, { "Content-Type": "text/event-stream", "Cache-Control": "no-cache", Connection: "keep-alive" });
+  const send = (event, data) => res.write(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`);
+
+  const allBrands = getInventoryBrands();
+  const quickSteps = [];
+
+  // Fast Shopify dealers - scrape all quickly
+  const shopifyScrapers = [
+    { name: 'MT Timepieces', script: 'mttimepieces-scraper.js' },
+    { name: 'Watches International', script: 'watchesinl-scraper.js' },
+    { name: 'Watch Pilot + Luxury Time', script: 'new-dealers-scraper.js' },
+    { name: 'YurWatches', script: 'yurwatches-scraper.js' },
+    { name: 'Analog Shift + Timepiece Trading', script: 'run-two-dealers.js' },
+    { name: 'Dealer Auto-Scraper', script: 'dealer-auto-scraper.js' },
+    { name: 'WYW ATL', script: 'wywatl-scraper.js' },
+    { name: 'Feldmar Watch', script: 'feldmar-scraper.js' },
+    { name: 'iPlayWatch', script: 'iplaywatch-scraper.js' },
+    { name: 'Watch Affinity', script: 'watchaffinity-scraper.js' },
+  ];
+  quickSteps.push(...shopifyScrapers.map(s => ({ ...s, args: [] })));
+
+  // Brand-based fast scrapers
+  for (const brand of allBrands) {
+    const slug = slugify(brand);
+    quickSteps.push({ name: `WatchRecon: ${brand}`, script: 'watchrecon-scraper.js', args: [`--brand=${slug}`, '--days=7'] });
+    quickSteps.push({ name: `eBay: ${brand}`, script: 'ebay-scraper.js', args: [`--query=${brand} watch`] });
+  }
+
+  quickSteps.push({ name: 'InventoryConnect', script: 'inventoryconnect-scraper.js', args: [] });
+
+  send("progress", { step: 0, total: quickSteps.length + 1, name: "Starting Quick Scout..." });
+
+  for (let i = 0; i < quickSteps.length; i++) {
+    const step = quickSteps[i];
+    send("progress", { step: i + 1, total: quickSteps.length + 1, name: step.name });
+    console.log(`Quick Scout: ${step.name}...`);
+    const result = await runScraper(step.script, step.args || []);
+    if (!result.ok) console.error(`Quick Scout: ${step.name} failed —`, result.error);
+  }
+
+  send("progress", { step: quickSteps.length + 1, total: quickSteps.length + 1, name: "Rebuilding..." });
+  const { combined } = loadAllSources();
+  fs.writeFileSync(path.join(DATA_DIR, "combined.json"), JSON.stringify(combined, null, 2), "utf8");
+  await runScraper("build-dashboard.js", []);
+  console.log("=== Quick Scout: complete ===\n");
+  send("done", { stepResults: {}, message: "Quick refresh complete" });
+  res.end();
+});
+
 app.get("/api/run-scout", async (req, res) => {
   console.log("\n=== Run Scout: full refresh started ===");
 
