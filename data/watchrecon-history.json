@@ -1,102 +1,102 @@
 [
   {
-    "scrapedAt": "2026-09-14T12:14:08.379Z",
+    "scrapedAt": "2026-09-14T12:23:11.971Z",
+    "brand": "dewitt",
+    "count": 0
+  },
+  {
+    "scrapedAt": "2026-09-14T12:23:15.419Z",
+    "brand": "franck-muller",
+    "count": 150
+  },
+  {
+    "scrapedAt": "2026-09-14T12:23:19.048Z",
+    "brand": "girard-perregaux",
+    "count": 150
+  },
+  {
+    "scrapedAt": "2026-09-14T12:23:22.325Z",
+    "brand": "hamilton",
+    "count": 92
+  },
+  {
+    "scrapedAt": "2026-09-14T12:23:25.519Z",
+    "brand": "hublot",
+    "count": 20
+  },
+  {
+    "scrapedAt": "2026-09-14T12:23:28.797Z",
     "brand": "iwc",
     "count": 116
   },
   {
-    "scrapedAt": "2026-09-14T12:14:11.800Z",
+    "scrapedAt": "2026-09-14T12:23:32.040Z",
     "brand": "jacob-amp-co",
     "count": 150
   },
   {
-    "scrapedAt": "2026-09-14T12:14:15.281Z",
+    "scrapedAt": "2026-09-14T12:23:35.688Z",
     "brand": "jaeger-lecoultre",
     "count": 68
   },
   {
-    "scrapedAt": "2026-09-14T12:14:18.514Z",
+    "scrapedAt": "2026-09-14T12:23:39.349Z",
     "brand": "jaquet-droz",
     "count": 150
   },
   {
-    "scrapedAt": "2026-09-14T12:14:21.755Z",
+    "scrapedAt": "2026-09-14T12:23:42.670Z",
     "brand": "longines",
     "count": 82
   },
   {
-    "scrapedAt": "2026-09-14T12:14:25.059Z",
+    "scrapedAt": "2026-09-14T12:23:45.946Z",
     "brand": "omega",
     "count": 150
   },
   {
-    "scrapedAt": "2026-09-14T12:14:28.356Z",
+    "scrapedAt": "2026-09-14T12:23:49.230Z",
     "brand": "panerai",
     "count": 79
   },
   {
-    "scrapedAt": "2026-09-14T12:14:31.725Z",
+    "scrapedAt": "2026-09-14T12:23:52.416Z",
     "brand": "parmigiani",
     "count": 5
   },
   {
-    "scrapedAt": "2026-09-14T12:14:35.306Z",
+    "scrapedAt": "2026-09-14T12:23:56.117Z",
     "brand": "patek-philippe",
     "count": 150
   },
   {
-    "scrapedAt": "2026-09-14T12:14:38.582Z",
+    "scrapedAt": "2026-09-14T12:23:59.364Z",
     "brand": "richard-millie",
     "count": 150
   },
   {
-    "scrapedAt": "2026-09-14T12:14:41.813Z",
+    "scrapedAt": "2026-09-14T12:24:02.689Z",
     "brand": "roger-dubuis",
     "count": 150
   },
   {
-    "scrapedAt": "2026-09-14T12:14:45.085Z",
+    "scrapedAt": "2026-09-14T12:24:05.925Z",
     "brand": "rolex",
     "count": 150
   },
   {
-    "scrapedAt": "2026-09-14T12:14:48.363Z",
+    "scrapedAt": "2026-09-14T12:24:09.162Z",
     "brand": "seiko",
     "count": 150
   },
   {
-    "scrapedAt": "2026-09-14T12:14:51.667Z",
+    "scrapedAt": "2026-09-14T12:24:12.475Z",
     "brand": "tag-heuer",
     "count": 150
   },
   {
-    "scrapedAt": "2026-09-14T12:14:55.037Z",
+    "scrapedAt": "2026-09-14T12:24:15.767Z",
     "brand": "tag-heuer",
     "count": 150
-  },
-  {
-    "scrapedAt": "2026-09-14T12:14:58.355Z",
-    "brand": "tudor",
-    "count": 150
-  },
-  {
-    "scrapedAt": "2026-09-14T12:14:58.819Z",
-    "brand": "u-boat",
-    "count": 0
-  },
-  {
-    "scrapedAt": "2026-09-14T12:15:02.043Z",
-    "brand": "ulysse-nardin",
-    "count": 150
-  },
-  {
-    "scrapedAt": "2026-09-14T12:15:05.282Z",
-    "brand": "vacheron-constantin",
-    "count": 150
-  },
-  {
-    "scrapedAt": "2026-09-14T12:15:08.546Z",
-    "brand": "zenith",
-    "count": 48
   }
 ]

@@ -282,6 +282,21 @@ app.get("/api/run-scout", async (req, res) => {
     slowSteps.push({ name: `Bezel: ${brand}`, script: "bezel-scraper.js", args: [`--brand=${slug}`] });
   }
   slowSteps.push({ name: "InventoryConnect Marketplace", script: "inventoryconnect-scraper.js", args: [] });
+  slowSteps.push({ name: "WatchDrop Marketplace", script: "watchdrop-scraper.js", args: [] });
+  slowSteps.push({ name: "Gray & Sons", script: "grayandsons-scraper.js", args: [] });
+  slowSteps.push({ name: "NY Watch Market", script: "nywatchmarket-scraper.js", args: [] });
+  slowSteps.push({ name: "Brandville Vault", script: "brandvillevault-scraper.js", args: [] });
+  slowSteps.push({ name: "Vance Luxury", script: "vanceluxury-scraper.js", args: [] });
+  slowSteps.push({ name: "iPlayWatch", script: "iplaywatch-scraper.js", args: [] });
+  slowSteps.push({ name: "Watch Affinity", script: "watchaffinity-scraper.js", args: [] });
+  slowSteps.push({ name: "MT Timepieces", script: "mttimepieces-scraper.js", args: [] });
+  slowSteps.push({ name: "Watches International", script: "watchesinl-scraper.js", args: [] });
+  slowSteps.push({ name: "Watch Pilot + Luxury Time", script: "new-dealers-scraper.js", args: [] });
+  slowSteps.push({ name: "YurWatches", script: "yurwatches-scraper.js", args: [] });
+  slowSteps.push({ name: "Feldmar Watch", script: "feldmar-scraper.js", args: [] });
+  slowSteps.push({ name: "WYW ATL", script: "wywatl-scraper.js", args: [] });
+  slowSteps.push({ name: "Analog Shift + Timepiece Trading", script: "run-two-dealers.js", args: [] });
+  slowSteps.push({ name: "Dealer Auto-Scraper", script: "dealer-auto-scraper.js", args: [] });
 
   const allSteps = [...fastSteps, ...slowSteps];
   const totalSteps = allSteps.length + 2;
