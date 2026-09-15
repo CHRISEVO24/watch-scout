@@ -15,7 +15,7 @@ function runScraper(scriptName, args) {
     execFile(
       "node",
       [path.join("scrapers", scriptName), ...args],
-      { cwd: __dirname, timeout: 90000 },
+      { cwd: __dirname, timeout: 600000, maxBuffer: 1024 * 1024 * 50 },
       (err, stdout, stderr) => {
         if (err) {
           console.error(`${scriptName} failed:`, stderr || err.message);

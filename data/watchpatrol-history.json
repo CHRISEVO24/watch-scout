@@ -1,25 +1,5 @@
 [
   {
-    "scrapedAt": "2026-09-09T16:14:10.282Z",
-    "query": "U-Boat",
-    "count": 18
-  },
-  {
-    "scrapedAt": "2026-09-09T17:37:52.259Z",
-    "query": "5968g",
-    "count": 5
-  },
-  {
-    "scrapedAt": "2026-09-09T21:57:36.380Z",
-    "query": "210.90.42.20.01.001",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-09-10T11:38:14.981Z",
-    "query": "304.30.43.52.06.001",
-    "count": 2
-  },
-  {
     "scrapedAt": "2026-09-10T15:01:36.402Z",
     "query": "Ulysse Nardin",
     "count": 40
@@ -97,6 +77,26 @@
   {
     "scrapedAt": "2026-09-14T12:29:07.155Z",
     "query": "Franck Muller",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-14T19:38:52.027Z",
+    "query": "Girard Perregaux",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-14T19:39:01.058Z",
+    "query": "Hamilton",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-15T12:17:42.797Z",
+    "query": "Hublot",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-15T12:17:52.749Z",
+    "query": "IWC",
     "count": 40
   }
 ]

@@ -1,102 +1,102 @@
 [
   {
-    "scrapedAt": "2026-09-14T12:28:24.935Z",
+    "scrapedAt": "2026-09-15T12:16:51.351Z",
     "query": "IWC watch",
-    "count": 108
+    "count": 105
   },
   {
-    "scrapedAt": "2026-09-14T12:28:25.930Z",
+    "scrapedAt": "2026-09-15T12:16:52.370Z",
     "query": "Jacob &amp; Co watch",
     "count": 0
   },
   {
-    "scrapedAt": "2026-09-14T12:28:27.125Z",
+    "scrapedAt": "2026-09-15T12:16:53.577Z",
     "query": "Jaeger-LeCoultre watch",
-    "count": 122
+    "count": 121
   },
   {
-    "scrapedAt": "2026-09-14T12:28:28.219Z",
+    "scrapedAt": "2026-09-15T12:16:54.703Z",
     "query": "Jaquet-Droz watch",
     "count": 56
   },
   {
-    "scrapedAt": "2026-09-14T12:28:29.455Z",
+    "scrapedAt": "2026-09-15T12:16:56.072Z",
     "query": "Longines watch",
-    "count": 127
-  },
-  {
-    "scrapedAt": "2026-09-14T12:28:30.860Z",
-    "query": "Omega watch",
-    "count": 73
-  },
-  {
-    "scrapedAt": "2026-09-14T12:28:31.942Z",
-    "query": "Panerai watch",
     "count": 133
   },
   {
-    "scrapedAt": "2026-09-14T12:28:33.232Z",
-    "query": "Parmigiani watch",
-    "count": 118
+    "scrapedAt": "2026-09-15T12:16:57.606Z",
+    "query": "Omega watch",
+    "count": 65
   },
   {
-    "scrapedAt": "2026-09-14T12:28:34.493Z",
-    "query": "Patek Philippe watch",
-    "count": 140
-  },
-  {
-    "scrapedAt": "2026-09-14T12:28:35.390Z",
-    "query": "Richard Millie watch",
-    "count": 3
-  },
-  {
-    "scrapedAt": "2026-09-14T12:28:36.690Z",
-    "query": "Roger Dubuis watch",
-    "count": 86
-  },
-  {
-    "scrapedAt": "2026-09-14T12:28:38.284Z",
-    "query": "Rolex watch",
+    "scrapedAt": "2026-09-15T12:16:58.893Z",
+    "query": "Panerai watch",
     "count": 134
   },
   {
-    "scrapedAt": "2026-09-14T12:28:39.797Z",
+    "scrapedAt": "2026-09-15T12:17:00.037Z",
+    "query": "Parmigiani watch",
+    "count": 121
+  },
+  {
+    "scrapedAt": "2026-09-15T12:17:09.942Z",
+    "query": "Patek Philippe watch",
+    "count": 135
+  },
+  {
+    "scrapedAt": "2026-09-15T12:17:12.059Z",
+    "query": "Richard Millie watch",
+    "count": 4
+  },
+  {
+    "scrapedAt": "2026-09-15T12:17:14.178Z",
+    "query": "Roger Dubuis watch",
+    "count": 90
+  },
+  {
+    "scrapedAt": "2026-09-15T12:17:15.846Z",
+    "query": "Rolex watch",
+    "count": 146
+  },
+  {
+    "scrapedAt": "2026-09-15T12:17:17.368Z",
     "query": "Seiko watch",
-    "count": 86
+    "count": 99
   },
   {
-    "scrapedAt": "2026-09-14T12:28:41.150Z",
+    "scrapedAt": "2026-09-15T12:17:19.013Z",
     "query": "TAG Heuer watch",
-    "count": 101
+    "count": 113
   },
   {
-    "scrapedAt": "2026-09-14T12:28:42.513Z",
+    "scrapedAt": "2026-09-15T12:17:20.372Z",
     "query": "Tag Heuer watch",
-    "count": 101
+    "count": 108
   },
   {
-    "scrapedAt": "2026-09-14T12:28:43.648Z",
+    "scrapedAt": "2026-09-15T12:17:21.752Z",
     "query": "Tudor watch",
-    "count": 116
+    "count": 112
   },
   {
-    "scrapedAt": "2026-09-14T12:28:44.705Z",
+    "scrapedAt": "2026-09-15T12:17:22.959Z",
     "query": "U-Boat watch",
-    "count": 93
+    "count": 87
   },
   {
-    "scrapedAt": "2026-09-14T12:28:45.844Z",
+    "scrapedAt": "2026-09-15T12:17:24.251Z",
     "query": "Ulysse Nardin watch",
-    "count": 116
+    "count": 115
   },
   {
-    "scrapedAt": "2026-09-14T12:28:46.908Z",
+    "scrapedAt": "2026-09-15T12:17:25.588Z",
     "query": "Vacheron Constantin watch",
-    "count": 139
+    "count": 141
   },
   {
-    "scrapedAt": "2026-09-14T12:28:47.996Z",
+    "scrapedAt": "2026-09-15T12:17:26.808Z",
     "query": "Zenith watch",
-    "count": 85
+    "count": 90
   }
 ]

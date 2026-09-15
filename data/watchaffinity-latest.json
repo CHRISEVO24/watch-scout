@@ -1,5 +1,100 @@
 [
   {
+    "id": "wa-9939be03-e4c3-4662-a9c4-82dfa92df26f",
+    "source": "Watch Affinity",
+    "sourceDetail": "watchaffinity.com",
+    "brand": "Rolex",
+    "model": null,
+    "ref": "326935",
+    "title": "Rolex Sky-Dweller",
+    "price": 44499,
+    "url": "https://www.watch-affinity.com/watch?id=w178943061083219lv",
+    "imageUrl": null,
+    "condition": "Mint",
+    "dialColor": "Rhodium",
+    "caseMaterial": "18K Everose Gold",
+    "boxPapers": "Box & Papers",
+    "stockStatus": "In Stock",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-15T12:28:32.131Z"
+  },
+  {
+    "id": "wa-74489f84-8ba7-478e-91d2-ad0261e7d38f",
+    "source": "Watch Affinity",
+    "sourceDetail": "watchaffinity.com",
+    "brand": "Rolex",
+    "model": null,
+    "ref": "228238-0067",
+    "title": "Rolex Day-Date 40 Yellow Gold Fluted Bezel Bright Black Dial 40mm",
+    "price": 54499,
+    "url": "https://www.watch-affinity.com/watch?id=w1789430479584zst0",
+    "imageUrl": null,
+    "condition": "Unworn",
+    "dialColor": "Black",
+    "caseMaterial": "Yellow Gold",
+    "boxPapers": "Box & Papers",
+    "stockStatus": "In Stock",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
+  },
+  {
+    "id": "wa-d09ce6eb-7b7a-441e-b5ad-beec826f7572",
+    "source": "Watch Affinity",
+    "sourceDetail": "watchaffinity.com",
+    "brand": "Rolex",
+    "model": null,
+    "ref": "18038",
+    "title": "Rolex Day-Date 36 Yellow Gold President",
+    "price": 18499,
+    "url": "https://www.watch-affinity.com/watch?id=w1789428431882exgc",
+    "imageUrl": null,
+    "condition": "Excellent",
+    "dialColor": "White Roman",
+    "caseMaterial": "Yellow Gold",
+    "boxPapers": "None",
+    "stockStatus": "In Stock",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
+  },
+  {
+    "id": "wa-1cde013b-ec34-4bc8-a45c-d1fda6407ce9",
+    "source": "Watch Affinity",
+    "sourceDetail": "watchaffinity.com",
+    "brand": "Omega",
+    "model": null,
+    "ref": "215.30.40.20.03.001",
+    "title": "Omega Seamaster Planet Ocean",
+    "price": 5849,
+    "url": "https://www.watch-affinity.com/watch?id=w1789410430412trv0",
+    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1789410430412trv0/0.jpeg",
+    "condition": "Mint",
+    "dialColor": "Blue",
+    "caseMaterial": "Stainless Steel",
+    "boxPapers": "Box & Papers",
+    "stockStatus": "In Stock",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
+  },
+  {
+    "id": "wa-1c459dcf-5705-41da-8499-84562aa9fcce",
+    "source": "Watch Affinity",
+    "sourceDetail": "watchaffinity.com",
+    "brand": "Breitling",
+    "model": null,
+    "ref": "A41370",
+    "title": "Breitling Navitimer Montbrillant Chronograph 38mm Stainless Steel",
+    "price": 4399,
+    "url": "https://www.watch-affinity.com/watch?id=w1789409744052vlqy",
+    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1789409744052vlqy/0.jpeg",
+    "condition": "Mint",
+    "dialColor": "Black",
+    "caseMaterial": "Stainless Steel",
+    "boxPapers": "Box & Papers",
+    "stockStatus": "In Stock",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
+  },
+  {
     "id": "wa-e072b414-86be-4a42-ad3c-1af4b3f98e27",
     "source": "Watch Affinity",
     "sourceDetail": "watchaffinity.com",
@@ -16,7 +111,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.335Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-216effbe-08a6-4f97-8221-2b69fa62816a",
@@ -35,7 +130,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-8e3eacaf-553e-4f66-9850-9284d15c4e56",
@@ -54,7 +149,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f4ae435d-4f74-4f74-8fe0-aad5705b0cc2",
@@ -73,7 +168,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-71285971-3da6-4c6d-b5a3-5c79a26a5ea4",
@@ -92,7 +187,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-932ad02b-9ded-4311-937f-41a802a4f26d",
@@ -101,17 +196,17 @@
     "brand": "Rolex",
     "model": null,
     "ref": "116519",
-    "title": "Rolex Cosmograph Daytona 40mm White Gold 116519",
+    "title": "Rolex Cosmograph Daytona 40mm White Gold Leather Strap \"Ghost\"",
     "price": 47499,
     "url": "https://www.watch-affinity.com/watch?id=w1789062839042bsvv",
     "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1789062839042bsvv/0.jpeg",
     "condition": "Excellent",
-    "dialColor": null,
+    "dialColor": "Grey (Ghost)",
     "caseMaterial": "White Gold",
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-0c1feb85-2af2-4cba-904a-f06d4455db12",
@@ -130,7 +225,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-1a1a5be3-1db1-422f-a3e4-ea68b1c3e56f",
@@ -149,7 +244,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-d7644d9c-0a2d-409d-ab7c-7dd63873660d",
@@ -168,7 +263,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6edb0ada-b10f-40a5-94d0-b0a350e5daa0",
@@ -187,7 +282,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f01d1697-0ede-4806-ab27-759e4ccdd7f9",
@@ -206,7 +301,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b727b3a9-2f31-40fa-9fcf-9904ff153547",
@@ -225,7 +320,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-83b12c92-b5e0-45f5-842d-a2bbee548889",
@@ -244,7 +339,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-16cebae5-67c3-4c34-a50a-eee74701ab8c",
@@ -263,7 +358,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-916a61f8-977c-4273-9a10-e8d17d5aea54",
@@ -282,7 +377,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-7faa69b6-0df1-49e3-9f47-39e1f1af08be",
@@ -301,7 +396,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-316f6922-db94-4374-be60-330c02c308a3",
@@ -320,7 +415,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-85b45371-32cb-4f86-a81a-9e59b6461fd6",
@@ -339,7 +434,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-d2527916-946b-4387-b48e-478fb01676f0",
@@ -358,7 +453,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-79690611-613f-4269-b48c-8068f43a48e0",
@@ -377,7 +472,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-39d11014-63ac-4d22-8bfe-515401104e6b",
@@ -396,7 +491,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-84137ed9-a32f-4ec3-ad46-0c8f504937d6",
@@ -415,7 +510,26 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
+  },
+  {
+    "id": "wa-87ec9646-5d1b-48e2-877e-5651b7a147ae",
+    "source": "Watch Affinity",
+    "sourceDetail": "watchaffinity.com",
+    "brand": "Rolex",
+    "model": null,
+    "ref": "116613LB",
+    "title": "Rolex Submariner Date",
+    "price": 14999,
+    "url": "https://www.watch-affinity.com/watch?id=w1788297973253zo6n",
+    "imageUrl": null,
+    "condition": "Excellent",
+    "dialColor": "Blue",
+    "caseMaterial": "Oystersteel and 18K Yellow Gold (Rolesor)",
+    "boxPapers": "Box & Papers",
+    "stockStatus": "In Stock",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-aa227ed1-8a23-46ed-b82a-df09ffb0d276",
@@ -434,7 +548,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-46e58caa-48e5-42b7-8e9a-80387846c3df",
@@ -453,7 +567,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-268afe42-dc38-434d-b745-8e9dc9c054cd",
@@ -472,7 +586,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-23fb1394-d700-47c0-b4f3-aee22aef0193",
@@ -491,7 +605,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-74965b23-91d4-4371-8c4e-0138bcc379dc",
@@ -510,7 +624,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-1a52e449-cba8-4a3b-b04c-ac155a4f910d",
@@ -529,7 +643,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-eb90867d-d8ec-4a25-9257-2d20ca5a2e56",
@@ -548,7 +662,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-57901e8a-840f-42b4-98b1-b9e727bf7429",
@@ -567,7 +681,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6ce4dc52-7313-4eb2-b3dc-dd29e028822e",
@@ -586,7 +700,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-c3494e93-4a56-46b3-8116-0d5ddb3e131e",
@@ -605,7 +719,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-2c81180e-9456-46fe-ac0d-8a88f86fa5c0",
@@ -624,7 +738,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f46e805f-371d-482a-86d0-bbd204492f9e",
@@ -643,7 +757,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-63f00c62-cc94-4153-a8a6-f9c73c9313a8",
@@ -662,7 +776,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-d13ed930-8d9b-4eb6-854a-3d953baa4658",
@@ -681,7 +795,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-3c0a621c-14e8-4fad-b4df-ecdd6ecc4180",
@@ -700,7 +814,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-23b36610-486f-4122-ac0d-03250b74a04d",
@@ -719,7 +833,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-eaa05f47-5328-448e-91a0-95ac22e88b1d",
@@ -738,7 +852,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-9748f351-efa0-4f4c-86fe-e6440b97ceec",
@@ -757,7 +871,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-af1164c2-ef51-4471-849e-40c1c1424e36",
@@ -776,7 +890,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-1e7d87d2-79dd-49d6-a7db-d00864c63a5a",
@@ -795,7 +909,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-7b83bfb4-7b7e-4010-a298-8b56d68901ec",
@@ -814,7 +928,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-d6feec4c-ff82-439b-89eb-065ad1986052",
@@ -833,7 +947,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-1ac68569-89b6-4406-9555-73d0dcc3706f",
@@ -852,7 +966,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-eb51f386-a357-4c3f-92af-3d3f67259238",
@@ -871,7 +985,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f0e803c2-4d12-4adc-8fff-5cb382fc91fa",
@@ -890,7 +1004,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-d06c59e3-995b-4781-bc77-d48c42a875f0",
@@ -909,64 +1023,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
-  },
-  {
-    "id": "wa-688c775f-0120-4ba2-9d89-9821f7dd7b97",
-    "source": "Watch Affinity",
-    "sourceDetail": "watchaffinity.com",
-    "brand": "IWC",
-    "model": null,
-    "ref": "IW500909",
-    "title": "IWC Big Pilot's Watch Edition 'Le Petit Prince' 18k Rose Gold Blue Dial 46.2mm Limited Edition of 250",
-    "price": 18999,
-    "url": "https://www.watch-affinity.com/watch?id=w1787345329394khly",
-    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1787345329394khly/0.jpeg",
-    "condition": "Excellent",
-    "dialColor": "Blue",
-    "caseMaterial": "Rose Gold",
-    "boxPapers": "Box & Papers",
-    "stockStatus": "In Stock",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
-  },
-  {
-    "id": "wa-f3a9f128-4527-4980-ab50-4ebf343b6629",
-    "source": "Watch Affinity",
-    "sourceDetail": "watchaffinity.com",
-    "brand": "Panerai",
-    "model": null,
-    "ref": "PAM00797",
-    "title": "Panerai Luminor 8 Days Power Reserve Titanium Brown Dial 44mm",
-    "price": 6499,
-    "url": "https://www.watch-affinity.com/watch?id=w1787256001072omuh",
-    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1787256001072omuh/0.jpeg",
-    "condition": "Very Good",
-    "dialColor": "Brown",
-    "caseMaterial": "Titanium",
-    "boxPapers": "Box & Papers",
-    "stockStatus": "In Stock",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
-  },
-  {
-    "id": "wa-749385b4-e98d-4229-9257-1a490a856677",
-    "source": "Watch Affinity",
-    "sourceDetail": "watchaffinity.com",
-    "brand": "Rolex",
-    "model": null,
-    "ref": "116528",
-    "title": "Rolex Cosmograph Daytona 18k Yellow Gold 40mm Oyster Bracelet",
-    "price": 41499,
-    "url": "https://www.watch-affinity.com/watch?id=w1787247698245j9en",
-    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1787247698245j9en/0.jpeg",
-    "condition": "Good",
-    "dialColor": "Black",
-    "caseMaterial": "Yellow Gold",
-    "boxPapers": "Box Only",
-    "stockStatus": "In Stock",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-4b0bb2b8-205a-4f61-8708-f508dd5eb297",
@@ -985,7 +1042,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-ebb179b3-01ac-4d86-b598-4dcf6c3d730f",
@@ -1004,7 +1061,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-499679d1-1566-4eee-85da-18b8bffb7f2b",
@@ -1023,26 +1080,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
-  },
-  {
-    "id": "wa-09a48569-8998-4c3b-a8e5-543a1eb8abe9",
-    "source": "Watch Affinity",
-    "sourceDetail": "watchaffinity.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "CCCP Soviet Russian Gruen Quartz",
-    "price": 200,
-    "url": "https://www.watch-affinity.com/watch?id=w1787170352388ztju",
-    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1787170352388ztju/0.jpeg",
-    "condition": "Good",
-    "dialColor": null,
-    "caseMaterial": null,
-    "boxPapers": "None",
-    "stockStatus": "In Stock",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b12f8516-3c1a-42bc-929f-f889f817c805",
@@ -1061,7 +1099,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-aa7ec853-ffff-4e63-a5ae-d687bfb3e29c",
@@ -1080,7 +1118,26 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
+  },
+  {
+    "id": "wa-09a48569-8998-4c3b-a8e5-543a1eb8abe9",
+    "source": "Watch Affinity",
+    "sourceDetail": "watchaffinity.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "CCCP Soviet Russian Gruen Quartz",
+    "price": 200,
+    "url": "https://www.watch-affinity.com/watch?id=w1787170352388ztju",
+    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1787170352388ztju/0.jpeg",
+    "condition": "Good",
+    "dialColor": null,
+    "caseMaterial": null,
+    "boxPapers": "None",
+    "stockStatus": "In Stock",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-9548f645-c35d-4ffd-b7dd-ba05d0bb66e2",
@@ -1099,26 +1156,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
-  },
-  {
-    "id": "wa-360f3813-c1ee-4099-8e6f-f0bcb24d55de",
-    "source": "Watch Affinity",
-    "sourceDetail": "watchaffinity.com",
-    "brand": "Omega",
-    "model": null,
-    "ref": "145.026",
-    "title": "Omega Flightmaster",
-    "price": 8000,
-    "url": "https://www.watch-affinity.com/watch?id=w17871703523863feo",
-    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w17871703523863feo/0.jpeg",
-    "condition": "Good",
-    "dialColor": null,
-    "caseMaterial": null,
-    "boxPapers": "Papers Only",
-    "stockStatus": "In Stock",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-da6917d8-fdec-4f68-8849-52f1259d4b2c",
@@ -1137,7 +1175,26 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
+  },
+  {
+    "id": "wa-360f3813-c1ee-4099-8e6f-f0bcb24d55de",
+    "source": "Watch Affinity",
+    "sourceDetail": "watchaffinity.com",
+    "brand": "Omega",
+    "model": null,
+    "ref": "145.026",
+    "title": "Omega Flightmaster",
+    "price": 8000,
+    "url": "https://www.watch-affinity.com/watch?id=w17871703523863feo",
+    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w17871703523863feo/0.jpeg",
+    "condition": "Good",
+    "dialColor": null,
+    "caseMaterial": null,
+    "boxPapers": "Papers Only",
+    "stockStatus": "In Stock",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-bd97a099-a6c1-48dd-9fec-43cf0750f6f0",
@@ -1156,7 +1213,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-053bd150-b883-4797-8f03-3aca403e8dd3",
@@ -1175,7 +1232,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-0641ee89-b3b4-4746-ac6c-e5b2e34f1273",
@@ -1194,7 +1251,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-209424df-a33c-4b8c-be54-20f90edc4500",
@@ -1213,26 +1270,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
-  },
-  {
-    "id": "wa-33443d9c-c32c-418b-bcfe-bf30d1b5cca1",
-    "source": "Watch Affinity",
-    "sourceDetail": "watchaffinity.com",
-    "brand": "Rolex",
-    "model": null,
-    "ref": "126610LN",
-    "title": "Rolex Submariner Date",
-    "price": 14999,
-    "url": "https://www.watch-affinity.com/watch?id=w1786985331071l4t9",
-    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1786985331071l4t9/0.jpeg",
-    "condition": "Unworn",
-    "dialColor": "Black",
-    "caseMaterial": "Oystersteel",
-    "boxPapers": "Box & Papers",
-    "stockStatus": "In Stock",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-66ca4a93-7324-47f1-910c-26c0f514c8bd",
@@ -1251,7 +1289,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f9993d24-3596-4a25-992c-762ba4cf67ee",
@@ -1270,7 +1308,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-4347d898-f783-4d25-947a-7b66469e1761",
@@ -1289,7 +1327,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-5b37d809-32b1-41d1-b4d4-7d6dea65bd7f",
@@ -1308,7 +1346,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-38f72e92-f17a-45e2-a52c-fcacbebe9950",
@@ -1327,7 +1365,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-8585e12c-0d42-468c-b68c-ba7f712b63f5",
@@ -1346,7 +1384,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-fff455ce-ce0c-49eb-a7a5-f374ddd50b32",
@@ -1365,7 +1403,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-85fb2c5c-df54-421c-967a-61a3d078bb12",
@@ -1384,7 +1422,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6ba17fe9-98dd-4d2d-bbb6-090da24c27e9",
@@ -1403,7 +1441,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-1d5f55d8-46bf-432a-80ba-e7f28327f4a5",
@@ -1422,7 +1460,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-e202ea74-c11f-4615-9b1a-0bfa512d214d",
@@ -1441,7 +1479,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-fba484ee-ede1-4352-9cc2-797243b5661b",
@@ -1460,7 +1498,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-1aa333e1-f847-4bdf-a34d-eb13193a7dcb",
@@ -1479,7 +1517,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-7797a110-d5b1-43f6-a4a5-03eed19dacc5",
@@ -1498,7 +1536,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-a2672152-6896-41b9-9c02-0d3943d2ee36",
@@ -1517,7 +1555,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-33b76f5f-1811-4a64-abcb-53fedc7471f2",
@@ -1536,7 +1574,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-241195a4-759b-4ca8-9e19-e83ae2849dd7",
@@ -1555,7 +1593,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-2ab4fcc8-9433-4ff1-83a5-e13a6e7b9b15",
@@ -1574,7 +1612,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-3aaf3dfb-e201-440e-ae92-b2c8faf1aa85",
@@ -1593,7 +1631,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-70c95a38-9548-4204-9c1a-dc23f47e90af",
@@ -1612,7 +1650,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-e3752d2c-2c03-40d6-839c-8a74cc78db41",
@@ -1631,7 +1669,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-bef9a655-5713-4558-8914-78768bf1e62b",
@@ -1650,7 +1688,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6a5163fb-33d3-4240-a7bf-8cd0a5f328f1",
@@ -1669,7 +1707,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-521e773f-b39e-46f4-a2d1-0a37b2979864",
@@ -1688,7 +1726,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-66596a63-231c-4c23-9ef6-d05b7a860897",
@@ -1707,7 +1745,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-50af4eb5-f37d-48b3-9061-a285268b3ad6",
@@ -1726,7 +1764,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-866731b2-73f4-42b4-9a67-5b6046b12a31",
@@ -1745,7 +1783,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-bbaac2c9-8096-4aa0-90ae-f88814ca0dcf",
@@ -1764,7 +1802,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-4d3c6255-7719-421b-a71a-048593123278",
@@ -1783,7 +1821,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-dec6b041-69cb-48de-a8e9-88644f07bcb4",
@@ -1802,7 +1840,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b3c62304-6f1b-40a2-915d-41f11539ea8c",
@@ -1821,26 +1859,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
-  },
-  {
-    "id": "wa-4046c9e9-f11e-4313-9aba-5245c2cc14d9",
-    "source": "Watch Affinity",
-    "sourceDetail": "watchaffinity.com",
-    "brand": "Rolex",
-    "model": null,
-    "ref": "126710BLNR-0002",
-    "title": "Rolex GMT-Master II 'Batgirl' Blue-Black Cerachrom Bezel Oystersteel 40mm Jubilee",
-    "price": 19499,
-    "url": "https://www.watch-affinity.com/watch?id=w1785260375648v0ar",
-    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1785260375648v0ar/0.jpeg",
-    "condition": "Excellent",
-    "dialColor": "Black",
-    "caseMaterial": "Oystersteel",
-    "boxPapers": "Box & Papers",
-    "stockStatus": "In Stock",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-d9e9e77e-9a38-4193-bf32-fd7841cbecc6",
@@ -1859,7 +1878,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-4eecc472-6864-4af0-a559-b66592bc7eec",
@@ -1878,7 +1897,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-420b5352-98d7-4a0a-a341-9beddc340e24",
@@ -1897,7 +1916,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-a2cd0c58-4f0a-458a-b4c1-fb03b47d1088",
@@ -1916,7 +1935,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-fde4be8a-1982-48aa-ad9d-c5f2a4de856f",
@@ -1935,7 +1954,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-8fbe73db-53d2-4107-954f-d885a667c220",
@@ -1954,7 +1973,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-a659dd35-55c8-4c3f-a5c5-eb6d686fdc88",
@@ -1973,7 +1992,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-cabe000a-5434-4367-b9f8-863a03f85cff",
@@ -1992,7 +2011,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-e47655d9-8b1b-48a9-be03-6c43fe8d9cf9",
@@ -2011,7 +2030,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b8c05340-565c-4cec-bdde-2aca889bba02",
@@ -2030,7 +2049,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-5a57efc7-7464-4672-bd80-b9b9dad47b64",
@@ -2049,7 +2068,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-a16d525d-1408-42f7-a843-a41f83c2fc5a",
@@ -2068,7 +2087,7 @@
     "boxPapers": "Papers Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-fd2cb88c-f926-4c51-8028-73aef40e7a02",
@@ -2087,7 +2106,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-8e79632f-b23d-479c-802c-158a664c7733",
@@ -2106,7 +2125,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-fa50cbaa-c584-4df4-84b9-46825008a3c4",
@@ -2125,7 +2144,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-c6db9c7c-9ff9-43a0-9a60-6bcdd4a9ca67",
@@ -2144,7 +2163,7 @@
     "boxPapers": "Papers Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-143c15ec-8727-408a-9bba-5e6e5583507d",
@@ -2163,7 +2182,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-0704a7ab-ab11-42cf-9963-e9adaafe366c",
@@ -2182,7 +2201,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6533036f-4170-46b8-9ff5-c4405ba1c9d9",
@@ -2201,7 +2220,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-4c124bc0-2c9b-43f0-80e8-7b94c5f1d6fe",
@@ -2220,7 +2239,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-dfd2c29f-276d-4605-b144-2d1be1576d2b",
@@ -2239,7 +2258,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-2917d32a-72a6-49ce-9169-4ac4d845c660",
@@ -2258,7 +2277,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-56e8700c-6d21-4442-8f59-75256799a766",
@@ -2277,7 +2296,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-68ef9441-430b-49be-95bc-0b2e86893b84",
@@ -2296,7 +2315,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-33475d7d-dc53-4a74-a30c-2a391b9cedbe",
@@ -2315,7 +2334,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-cda27fa6-672c-46c3-a84e-cece75d42e69",
@@ -2334,7 +2353,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-a8be14cc-dd6b-4a33-a539-f262df850714",
@@ -2353,7 +2372,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-525af33d-e174-4085-90d2-5967e45abf79",
@@ -2372,7 +2391,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-951575be-81f7-4203-b50a-840c2e672081",
@@ -2391,7 +2410,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-305a5f12-a681-4fff-9a62-084d101fd4a4",
@@ -2410,7 +2429,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-caebaf79-5d4e-496d-8771-bd7992afe1fa",
@@ -2429,7 +2448,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6aa05da8-9754-4d5c-b386-a90dba02ca3c",
@@ -2448,7 +2467,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-97a23e1b-0383-4064-980b-6d7d526cc43e",
@@ -2467,7 +2486,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-0cbec82f-3e6c-4420-9342-87ab44e9ac21",
@@ -2486,7 +2505,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-e19876ce-760d-4951-abe0-7a698c5c5fa5",
@@ -2505,7 +2524,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-c165359f-80a2-4f51-8ec2-7b8367f3a08b",
@@ -2524,7 +2543,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-e71ec3d5-93c6-44e0-a7eb-5f0b0ccf06b3",
@@ -2543,7 +2562,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-fd9effe2-ac6c-4e69-a637-73ea98eafc9d",
@@ -2562,7 +2581,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b5624585-ecba-49b9-81e6-14e0d267e0e4",
@@ -2581,7 +2600,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-7b1e0545-9298-4c5f-ba03-5c7b3f159b4a",
@@ -2600,7 +2619,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-85595157-e5bc-42c3-a077-bdbc80cb6a6a",
@@ -2619,7 +2638,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-5d2a59c8-a362-437b-82d5-6be334581ce4",
@@ -2638,26 +2657,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
-  },
-  {
-    "id": "wa-d1bc2134-f0c8-48c6-b56f-9bdfe2863b5a",
-    "source": "Watch Affinity",
-    "sourceDetail": "watchaffinity.com",
-    "brand": "Grand Seiko",
-    "model": null,
-    "ref": "Slgh009",
-    "title": "Grand Seiko Heritage Collection Hi-Beat 36000",
-    "price": 7000,
-    "url": "https://www.watch-affinity.com/watch?id=w1784854422268x1ii",
-    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1784854422268x1ii/0.jpeg",
-    "condition": "Unworn",
-    "dialColor": "Blue",
-    "caseMaterial": "Ever-Brilliant Steel",
-    "boxPapers": "Box & Papers",
-    "stockStatus": "In Stock",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-de8f6eef-85bc-4270-86ee-30f9295222e7",
@@ -2676,7 +2676,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-5435bdc2-6172-4c4e-bc45-732fc22ed11b",
@@ -2695,7 +2695,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-4f4fa8f8-57a4-42d2-9dc8-c96606ef73ed",
@@ -2714,7 +2714,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-930cc627-bb30-4e41-90d6-01c1606a4c39",
@@ -2733,7 +2733,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-8f7bacad-57a2-494d-aae5-4e4e304c66c6",
@@ -2752,7 +2752,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f4c7f2d9-00a7-440c-a28c-177e0f6f3967",
@@ -2771,7 +2771,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-e84f9657-961e-4029-bfb0-901d6e95ecbf",
@@ -2790,7 +2790,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-4a158708-554d-46a7-9eb5-3a299e8d81e8",
@@ -2809,7 +2809,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-5c5b9918-7d57-4db8-ab73-4f65decfb9f7",
@@ -2828,7 +2828,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-40b5ee79-bdce-42c4-9769-aeb0e4dd7a0f",
@@ -2847,7 +2847,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-449d13e9-4e80-4c55-9fd6-515f6d74fee5",
@@ -2866,7 +2866,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-dbe7a99c-1915-48f9-a1e2-b38fd79d4abe",
@@ -2885,7 +2885,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-9304783b-1da3-4b20-8f35-0eb52d037bad",
@@ -2904,7 +2904,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f5b4c401-23c5-4ee4-855e-5184024504f7",
@@ -2923,7 +2923,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-dc26df43-8b6e-40ce-9ab5-532440a1d4ae",
@@ -2942,7 +2942,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-e014f056-f0c9-4c2e-8276-3924e620f26c",
@@ -2961,7 +2961,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b1e0ab11-1f13-4bf9-b0ed-faa8870ff3f2",
@@ -2980,7 +2980,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-7b1d8c8f-756d-4b71-89bf-8e96b0ba2801",
@@ -2999,7 +2999,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-72e3abf4-f7cb-42e4-8a97-80a6173db9ee",
@@ -3018,7 +3018,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-3bff1246-9b7f-49a9-b41d-eaf8f61233ff",
@@ -3037,7 +3037,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6241bb81-af1c-4311-b7f6-1d2309b2c8ac",
@@ -3056,7 +3056,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-bc193f24-376f-4e3c-99cb-ac4bba56c89b",
@@ -3075,7 +3075,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-488c16c6-b4a7-4a9c-ad97-3d4c24e0dc77",
@@ -3094,7 +3094,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-92eef21b-9575-4c84-977b-4c59c1f177fe",
@@ -3113,7 +3113,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b3cad35f-0e03-4ee5-a00d-aff019ae9f6f",
@@ -3132,7 +3132,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-93e17869-91c3-4261-aad5-7b2807fffba7",
@@ -3151,7 +3151,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-782818db-0cbb-46ec-bdb3-f6518ddbb736",
@@ -3170,7 +3170,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-c2d8fa8b-8247-4a4f-b6ad-2ae179ec488b",
@@ -3189,7 +3189,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-21cd6d31-4fcf-4e78-924d-58ddfc56a544",
@@ -3208,7 +3208,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-9bfcb206-8ce3-47c3-949b-5c5585910e2b",
@@ -3227,7 +3227,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6a844bc7-6d6c-4b2d-a4a1-6c616c8d95c5",
@@ -3246,7 +3246,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-4eb06662-6057-44b9-91d4-811e16ee17ad",
@@ -3265,7 +3265,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-ff60decd-4601-44ed-b874-b7b8e4b2daaf",
@@ -3284,26 +3284,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
-  },
-  {
-    "id": "wa-90356c57-b805-4171-bc7e-0daba594a20c",
-    "source": "Watch Affinity",
-    "sourceDetail": "watchaffinity.com",
-    "brand": "Rolex",
-    "model": null,
-    "ref": "279171",
-    "title": "Rolex Lady-Datejust 28mm Everose Rolesor Fluted Bezel",
-    "price": 14489,
-    "url": "https://www.watch-affinity.com/watch?id=w17847604008840m3z",
-    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w17847604008840m3z/0.jpeg",
-    "condition": "Unworn",
-    "dialColor": "White Roman Numeral",
-    "caseMaterial": "Everose Rolesor (Oystersteel & Everose Gold)",
-    "boxPapers": "Box & Papers",
-    "stockStatus": "In Stock",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-2a26e121-9479-453c-8dec-1148aeabf000",
@@ -3322,7 +3303,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6257b1d5-284b-405e-a5a4-a49a27cf36a5",
@@ -3341,7 +3322,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-a3cb3d21-fa4b-4b56-bc5f-79110bdeb1bb",
@@ -3360,7 +3341,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-94ae52ce-257c-47d3-91ee-0ae72a85b878",
@@ -3379,7 +3360,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-09ce7326-a923-49cc-8ef7-d3b71527d9b0",
@@ -3398,7 +3379,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-aebbabb3-5c4e-4f66-b76c-283c134cecb7",
@@ -3417,7 +3398,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-dcef8838-7351-40ad-9053-0c62ca0e4218",
@@ -3436,7 +3417,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-a59ff211-0cc1-4846-b708-65424673a465",
@@ -3455,7 +3436,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-e4f6c291-0061-40ac-a9d3-df1d736a0788",
@@ -3474,7 +3455,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-125256c5-ba89-4132-9bf0-8299102126da",
@@ -3493,26 +3474,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
-  },
-  {
-    "id": "wa-b745cc7b-4bec-4f7b-85d0-c23a2c1a7a2f",
-    "source": "Watch Affinity",
-    "sourceDetail": "watchaffinity.com",
-    "brand": "Rolex",
-    "model": null,
-    "ref": "126334",
-    "title": "Rolex Datejust 41mm White dial Fluted/Jubilee",
-    "price": 14999,
-    "url": "https://www.watch-affinity.com/watch?id=w1784739318962jt9a",
-    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1784739318962jt9a/0.jpeg",
-    "condition": "Excellent",
-    "dialColor": "White Stick",
-    "caseMaterial": "Oystersteel with 18K White Gold Fluted Bezel",
-    "boxPapers": "Box & Papers",
-    "stockStatus": "In Stock",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-a0c9692e-7c19-413b-bab9-7febd8bacbf8",
@@ -3531,7 +3493,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-318220fc-e1b6-4779-b2e5-e92de8f25bcc",
@@ -3550,7 +3512,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f393a80d-6fdf-43f2-a154-ead7f54ce3dc",
@@ -3569,7 +3531,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-1a823775-d9f2-43e1-bcb3-118e85216a3e",
@@ -3588,7 +3550,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f0ca0df2-b601-4016-a1a3-bc2438d94c49",
@@ -3607,7 +3569,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-c7437fa3-8dad-43ae-80aa-56107bb18913",
@@ -3626,7 +3588,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-001ad13f-2889-476f-be8a-6d4585ed40ce",
@@ -3645,7 +3607,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-dcf6fc74-aa21-41eb-aaab-f44c93c11a9b",
@@ -3664,7 +3626,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-c2f40559-3ee1-4a05-a678-3425b98ed521",
@@ -3683,7 +3645,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6d9c81c6-cff0-4ae0-8efb-282258d6fc98",
@@ -3702,7 +3664,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-8ee5b91b-5446-48b0-913d-4f1b6544d1bd",
@@ -3721,7 +3683,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-9f468303-20a6-4cf4-9843-c242a013c2a4",
@@ -3740,7 +3702,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-0fc5166b-f72d-4619-bb88-6566cd4893a0",
@@ -3759,7 +3721,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-82242113-7558-40ac-9b45-de62687bbe58",
@@ -3778,7 +3740,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6513616c-18c3-47f2-b4a3-6411f51392a3",
@@ -3797,7 +3759,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-5fd57e2a-3357-474a-a6a2-2ae98e915b33",
@@ -3816,7 +3778,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-03acd578-21d3-4e54-b606-b35c53fe2a06",
@@ -3835,7 +3797,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-8a6b70fa-f6b1-4b7f-b353-b05cd91dc89d",
@@ -3854,7 +3816,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-748c202a-82a7-4997-914d-2dd07092ebaf",
@@ -3873,7 +3835,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-957b5129-6c9d-4c2f-83ee-f26a5b0cd17a",
@@ -3892,7 +3854,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-127573b5-0c4c-46d4-97bd-3653da012d65",
@@ -3911,7 +3873,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-c9a469bd-798d-4e96-a49d-798706835941",
@@ -3930,7 +3892,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-054bf2c3-e5c4-46ce-a360-1ba3a8eb9da5",
@@ -3949,7 +3911,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-eadbeaf7-452f-46b7-ae37-5a9bc49babf7",
@@ -3968,7 +3930,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-0f725a85-970b-43db-905a-7e2f82dbfbcc",
@@ -3987,7 +3949,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-95531d13-3903-4487-af7e-5abf91248ce2",
@@ -4006,7 +3968,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-5d619149-1081-4a13-8771-5e0e327f13c0",
@@ -4025,7 +3987,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-de3f1a23-f797-442f-ab5d-1aab7502c205",
@@ -4044,7 +4006,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-1438ac18-9fbe-46a9-a598-4c41f3aaaae5",
@@ -4063,7 +4025,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-5a0be9c9-4dc5-40f7-9d8d-25d607b990ce",
@@ -4082,7 +4044,7 @@
     "boxPapers": "Papers Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6013bf0a-231d-45c8-8212-a77704274d8f",
@@ -4101,7 +4063,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f58779f1-e0ef-4527-b85d-d055af18ac3d",
@@ -4120,7 +4082,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-ae895b64-b28d-434f-b7b9-cd279c47eb3b",
@@ -4139,7 +4101,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-8c6d34fe-b803-4903-a2fd-9d013bff9f6b",
@@ -4158,7 +4120,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b09a5c0c-aba9-4dcd-8ac1-259f042e4437",
@@ -4177,7 +4139,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-a845af13-8690-4e38-a13f-aafd2658bcf8",
@@ -4196,7 +4158,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-108fef75-f754-4821-8a1a-6e43031d18bc",
@@ -4215,7 +4177,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-376f62a4-6a3a-451b-926d-3650aaac40f3",
@@ -4234,7 +4196,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-03967847-37ff-4824-8ad3-f5bcf3afc4b0",
@@ -4253,7 +4215,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-d33efaa9-9b06-4fd4-b376-6ac8cbcb2205",
@@ -4272,7 +4234,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-e8b8830e-4444-4fe5-b51a-5a09b7d99f2e",
@@ -4291,7 +4253,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-01fb5f97-86f5-4081-9496-8acc68117d9f",
@@ -4310,7 +4272,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b950ae9d-2d9a-44df-a2af-9958c57deaf9",
@@ -4329,7 +4291,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-fbd20a7e-e059-45c4-b668-867ce9341c0b",
@@ -4348,7 +4310,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-9cc13aec-a8b7-408b-bec5-6107c31aa77d",
@@ -4367,7 +4329,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-d9a4a732-3a60-4c90-9775-120d761fd9c7",
@@ -4386,7 +4348,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-0f1a2f0f-195b-4034-9efe-96e2e063090f",
@@ -4405,7 +4367,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-a4df80a4-6c1e-43c3-bbfc-08f8d9a8011d",
@@ -4424,7 +4386,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-527c4a03-7841-40cc-af14-f00ce4561a46",
@@ -4443,7 +4405,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f1b70207-9b03-4672-9887-cb2764ad5fd5",
@@ -4462,7 +4424,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-a01d53bf-2033-4254-bc02-7693a2fc3e84",
@@ -4481,7 +4443,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-23d703c9-e0a9-4271-8cff-b2aeb79dd879",
@@ -4500,7 +4462,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-13694954-556e-4e6c-851d-d9c0ed5ccf6b",
@@ -4519,7 +4481,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-1584c698-76db-4658-9d94-b46bac81e966",
@@ -4538,7 +4500,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-28d61c87-b8ae-411d-b72c-72766eb25af2",
@@ -4557,7 +4519,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-343bb806-bf83-44ec-a6ec-b21835e64727",
@@ -4576,7 +4538,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-c8d943ac-423b-4fdb-9e37-39d008d79f70",
@@ -4595,7 +4557,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-36cf7699-ffaa-4df6-8578-6c931030f31f",
@@ -4614,7 +4576,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-a66e4dde-95db-4fe8-bebf-74cbfb14b1ac",
@@ -4633,7 +4595,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-ab3e9d15-45aa-4a4e-96f3-623912642439",
@@ -4652,7 +4614,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.343Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-8ee0b297-12cf-45c9-b168-80d04d0161de",
@@ -4671,7 +4633,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-baabc1b3-a941-4cd8-a7c6-a72c593809fa",
@@ -4690,7 +4652,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f2852dbb-502a-4c7b-b286-d5cbae24da8f",
@@ -4709,7 +4671,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-e680eabb-7890-4b1e-8837-268ea2820f88",
@@ -4728,7 +4690,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-75acc519-49e1-461f-aaf3-f5e2caa30a4d",
@@ -4747,7 +4709,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-8e89303b-8253-4b21-9e71-338d44989a0e",
@@ -4766,7 +4728,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-e70fe16f-e52e-41e3-9ed8-3b88220ac091",
@@ -4776,16 +4738,16 @@
     "model": null,
     "ref": "134300",
     "title": "Rolex Oyster Perpetual 41 Pink Dial",
-    "price": 12499,
+    "price": 13499,
     "url": "https://www.watch-affinity.com/watch?id=w17831006324865fef",
     "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w17831006324865fef/0.jpeg",
-    "condition": "Unworn",
+    "condition": "Mint / Unworn",
     "dialColor": "Pink",
     "caseMaterial": "Oystersteel",
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-2dedff49-4ab0-439c-beba-dc119bb5247e",
@@ -4794,17 +4756,17 @@
     "brand": "IWC",
     "model": null,
     "ref": "IW503703",
-    "title": "IWC Portugieser Perpetual Calendar 44 White Gold Horizon Blue Dial 44.4mm",
-    "price": 39789,
+    "title": "IWC Portugieser Perpetual Calendar 44 Horizon Blue Dial Blue Leather Strap Watch 44.4mm",
+    "price": 42000,
     "url": "https://www.watch-affinity.com/watch?id=w1783100397131qnp2",
     "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1783100397131qnp2/1.jpeg",
     "condition": "Excellent",
-    "dialColor": "Blue",
-    "caseMaterial": "White Gold",
+    "dialColor": null,
+    "caseMaterial": null,
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-e37bd437-a9ae-4759-9df0-f4ba31b355c0",
@@ -4813,17 +4775,17 @@
     "brand": "Rolex",
     "model": null,
     "ref": "126900",
-    "title": "Rolex Air-King Oystersteel Black Dial 40mm",
+    "title": "Rolex Air-King",
     "price": 8400,
     "url": "https://www.watch-affinity.com/watch?id=w1782847535036mak6",
     "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1782847535036mak6/0.jpeg",
     "condition": "Mint",
     "dialColor": "Black",
-    "caseMaterial": "Oystersteel",
+    "caseMaterial": null,
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-05a544dd-46e6-4bf7-97fb-fcb161537c9f",
@@ -4842,7 +4804,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6c276464-7a2a-463f-a678-05892a74ed3b",
@@ -4851,17 +4813,17 @@
     "brand": "Rolex",
     "model": null,
     "ref": "126333",
-    "title": "Rolex Datejust 41mm Champagne Diamond dial Fluted/ Jubilee",
-    "price": 19499,
+    "title": "Rolex Datejust 41mm Oystersteel/Yellow Gold Champagne Diamond Dial Jubilee Bracelet",
+    "price": 19500,
     "url": "https://www.watch-affinity.com/watch?id=w1782779496073irek",
     "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1782779496073irek/0.jpeg",
-    "condition": "Unworn",
-    "dialColor": "Champagne Diamond",
-    "caseMaterial": "Oystersteel and 18K Yellow Gold (Rolesor)",
+    "condition": "Mint / Unworn",
+    "dialColor": null,
+    "caseMaterial": null,
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f3c3b52f-3cc7-4c80-bf77-f07df3eed3d1",
@@ -4880,7 +4842,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-9034deb8-0f57-40b7-88be-c23571a4f80b",
@@ -4899,7 +4861,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b1d73ae0-d8e7-44d5-849e-ad1dfc7d0b66",
@@ -4918,7 +4880,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-8e531e76-7c29-4bbd-910c-6791ecc7aff2",
@@ -4937,7 +4899,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-0e8273d9-f456-4f9d-b59d-0f7aef5ac956",
@@ -4956,26 +4918,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
-  },
-  {
-    "id": "wa-f51d9245-7f4a-4e1c-a636-3bca5c93c294",
-    "source": "Watch Affinity",
-    "sourceDetail": "watchaffinity.com",
-    "brand": "Jaeger-LeCoultre",
-    "model": null,
-    "ref": "Q3442430",
-    "title": "Jaeger-LeCoultre Rendez-Vous Night & Day",
-    "price": 7999,
-    "url": "https://www.watch-affinity.com/watch?id=f51d9245-7f4a-4e1c-a636-3bca5c93c294",
-    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/jlc-004/8.jpeg",
-    "condition": "Mint",
-    "dialColor": null,
-    "caseMaterial": null,
-    "boxPapers": "Box & Papers",
-    "stockStatus": "In Stock",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-4c3769f2-7145-472f-9af2-fa121ade04e5",
@@ -4994,7 +4937,26 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
+  },
+  {
+    "id": "wa-f51d9245-7f4a-4e1c-a636-3bca5c93c294",
+    "source": "Watch Affinity",
+    "sourceDetail": "watchaffinity.com",
+    "brand": "Jaeger-LeCoultre",
+    "model": null,
+    "ref": "Q3442430",
+    "title": "Jaeger-LeCoultre Rendez-Vous Night & Day",
+    "price": 7999,
+    "url": "https://www.watch-affinity.com/watch?id=f51d9245-7f4a-4e1c-a636-3bca5c93c294",
+    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/jlc-004/8.jpeg",
+    "condition": "Mint",
+    "dialColor": null,
+    "caseMaterial": null,
+    "boxPapers": "Box & Papers",
+    "stockStatus": "In Stock",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-49701293-c07b-4849-a55c-013c34f5f509",
@@ -5013,7 +4975,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-efe50100-168f-42e2-bc7f-c2ce362f0171",
@@ -5023,7 +4985,7 @@
     "model": null,
     "ref": "210.62.44.51.01.001",
     "title": "Omega Seamaster",
-    "price": 26899,
+    "price": 29999,
     "url": "https://www.watch-affinity.com/watch?id=efe50100-168f-42e2-bc7f-c2ce362f0171",
     "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w17785286105442r82/0.jpeg",
     "condition": "Mint",
@@ -5032,7 +4994,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-cdabd1eb-6df8-4939-adf8-b0466cf26d88",
@@ -5051,7 +5013,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-4eaca4a2-32e3-4376-bd10-8a0c24acb8a1",
@@ -5060,17 +5022,17 @@
     "brand": "Rolex",
     "model": null,
     "ref": "126000",
-    "title": "Rolex Oyster Perpetual 36mm Pink",
-    "price": 12499,
+    "title": "Rolex Oyster Perpetual 36mm Oystersteel 126000 Pink Dial",
+    "price": 13500,
     "url": "https://www.watch-affinity.com/watch?id=4eaca4a2-32e3-4376-bd10-8a0c24acb8a1",
     "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1778608432480avr5/0.jpeg",
     "condition": "Unworn",
-    "dialColor": "Pink",
-    "caseMaterial": "Oystersteel",
+    "dialColor": null,
+    "caseMaterial": null,
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-cef6f3da-954e-41ed-9d7e-4b3f4d1d0c08",
@@ -5079,17 +5041,17 @@
     "brand": "Rolex",
     "model": null,
     "ref": "14000M",
-    "title": "Rolex Air-King 34mm Stainless Steel Silver Dominos Dial",
-    "price": 11999,
+    "title": "Rolex Air-King SS Gray Dial Dominos",
+    "price": 12000,
     "url": "https://www.watch-affinity.com/watch?id=cef6f3da-954e-41ed-9d7e-4b3f4d1d0c08",
     "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/cef6f3da-954e-41ed-9d7e-4b3f4d1d0c08/0.jpeg",
     "condition": "Good",
-    "dialColor": "Silver Domino",
-    "caseMaterial": "Stainless Steel",
+    "dialColor": null,
+    "caseMaterial": null,
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-331758cc-8fab-4a30-99e5-d3e05907431e",
@@ -5108,7 +5070,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-537f1457-92f3-4ec1-b5e3-115caacae715",
@@ -5127,7 +5089,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-d306167a-cd5c-4185-9c95-dca2aa285c19",
@@ -5146,7 +5108,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-a915086a-80e1-4486-bf5a-640e55c6f8d8",
@@ -5165,7 +5127,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b6a167d9-07b1-4997-b8ca-12a869204a8d",
@@ -5184,7 +5146,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-4d59e7ac-1f17-4f4f-b577-c92bd8d878be",
@@ -5203,7 +5165,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-9fcb017c-a3f1-41b0-98ec-5d338d03c8cb",
@@ -5222,26 +5184,26 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-4adf8729-989f-4ccc-8311-11cf519df6c5",
     "source": "Watch Affinity",
     "sourceDetail": "watchaffinity.com",
-    "brand": "Rolex",
+    "brand": "Rolex ",
     "model": null,
     "ref": "1675/8",
-    "title": "Rolex GMT-Master 18k Yellow Gold 40mm Vintage Nipple Dial Rootbeer",
-    "price": 27999,
+    "title": "Rolex  Gmt Master",
+    "price": null,
     "url": "https://www.watch-affinity.com/watch?id=4adf8729-989f-4ccc-8311-11cf519df6c5",
     "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1780005854116g65t/0.jpeg",
-    "condition": "Very Good",
-    "dialColor": "Black",
-    "caseMaterial": "Yellow Gold",
+    "condition": "Good",
+    "dialColor": "Matte Maroon ",
+    "caseMaterial": "Stainless Steel ",
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-dd0efa70-eeb1-4115-94e0-b3eee2c07610",
@@ -5260,7 +5222,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-70d7ae15-b53d-4483-a289-361f00e84170",
@@ -5279,7 +5241,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-12f0c3d3-29a6-426a-9d1f-23e0d764fa88",
@@ -5298,7 +5260,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b1897ff2-485b-4ccc-83ed-79ba4413fdf9",
@@ -5317,7 +5279,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-49bdab5e-a885-476d-98c4-196ae887237d",
@@ -5336,26 +5298,26 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b0736ef8-f3f7-4d55-9530-62b401918fba",
     "source": "Watch Affinity",
     "sourceDetail": "watchaffinity.com",
-    "brand": "Rolex",
+    "brand": "Rolex ",
     "model": null,
     "ref": "116621",
-    "title": "Rolex Yacht-Master 40 Everose Rolesor 40mm",
+    "title": "Rolex  Yachtmaster",
     "price": 15390,
     "url": "https://www.watch-affinity.com/watch?id=b0736ef8-f3f7-4d55-9530-62b401918fba",
     "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w1780533863540sft8/0.jpeg",
     "condition": "Mint",
     "dialColor": "Black",
-    "caseMaterial": "Everose Rolesor (Oystersteel & Everose Gold)",
+    "caseMaterial": "Steel, Everose Gold",
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-e866995f-cba4-4b1c-9b0a-58746d4e4135",
@@ -5374,7 +5336,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-199e8be1-1e03-4594-9d08-3d6a8db0b2c8",
@@ -5393,7 +5355,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6f8a8fae-7e88-411a-9bb3-02dee85884c7",
@@ -5412,7 +5374,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-72eb0b76-5623-4e3d-9753-f7bbf1e5a24b",
@@ -5431,7 +5393,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-ac171492-9498-4c9d-a466-8f577aa6fd85",
@@ -5450,26 +5412,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
-  },
-  {
-    "id": "wa-840a3be9-2841-4e7e-8930-9eb6bd401fab",
-    "source": "Watch Affinity",
-    "sourceDetail": "watchaffinity.com",
-    "brand": "Patek Philippe",
-    "model": null,
-    "ref": "5905R-010",
-    "title": "Patek Philippe Patek Phillipe Annual Calendar Flyback Chronograph",
-    "price": 80000,
-    "url": "https://www.watch-affinity.com/watch?id=840a3be9-2841-4e7e-8930-9eb6bd401fab",
-    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/w17810271414743juy/0.jpeg",
-    "condition": "Unworn",
-    "dialColor": null,
-    "caseMaterial": null,
-    "boxPapers": "Box & Papers",
-    "stockStatus": "In Stock",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-2ce1918d-1ef8-47cd-876a-b1e0ad0074b5",
@@ -5488,7 +5431,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-a725aa4d-c7df-4463-a654-e746762741de",
@@ -5507,7 +5450,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-92581ff2-20f0-488b-899b-327153b7f946",
@@ -5526,7 +5469,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-5b08424a-9a0f-40f8-8546-faa9502b196a",
@@ -5545,7 +5488,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-503ca212-757a-4687-a517-5b2454cdee67",
@@ -5564,7 +5507,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b6f7a53c-418e-4d0a-abfc-b0679972c45a",
@@ -5583,7 +5526,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-892bc11d-63dd-4290-8d03-c2f725a7e4b3",
@@ -5602,7 +5545,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-ef44c5df-f474-4dcb-b022-a29ac472f950",
@@ -5621,7 +5564,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-c753ce55-63be-401a-b130-1170e9ffd9ec",
@@ -5640,7 +5583,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f0fbfc42-6c5b-424d-a5d7-5d1ec9575dfe",
@@ -5659,7 +5602,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f1e792b1-c5c5-4681-9cfe-7ec7b437971f",
@@ -5678,7 +5621,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-36440886-22e3-41bd-9685-ccfe7a94d12a",
@@ -5697,7 +5640,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-2c525868-f613-48c6-b184-792c29808c8a",
@@ -5716,7 +5659,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-5e552b3d-d5c7-4664-bd9f-464075a99db6",
@@ -5735,7 +5678,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-84687bcf-0a7a-4b04-b800-2a1c305a8879",
@@ -5754,7 +5697,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-dc6a401b-7dc1-4f27-987b-69a3c73041ef",
@@ -5773,7 +5716,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-95a53619-1130-43dc-abee-3a46a40bcd0d",
@@ -5792,7 +5735,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b8e08f1c-064a-4e7c-8e36-19124205fc63",
@@ -5811,7 +5754,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6031a61d-c6fa-473b-8fc0-7cbc59bb43dd",
@@ -5830,26 +5773,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
-  },
-  {
-    "id": "wa-64674365-8166-4ce2-959f-6aea12ec58fd",
-    "source": "Watch Affinity",
-    "sourceDetail": "watchaffinity.com",
-    "brand": "Rolex",
-    "model": null,
-    "ref": "116900",
-    "title": "Rolex Air-King 40mm Oystersteel 116900",
-    "price": 8299,
-    "url": "https://www.watch-affinity.com/watch?id=64674365-8166-4ce2-959f-6aea12ec58fd",
-    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/64674365-8166-4ce2-959f-6aea12ec58fd/0.jpeg",
-    "condition": "Mint",
-    "dialColor": "Black",
-    "caseMaterial": null,
-    "boxPapers": "Box & Papers",
-    "stockStatus": "In Stock",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-c2bf267e-e4d5-4c9d-99b5-2fe857bf2459",
@@ -5868,7 +5792,26 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
+  },
+  {
+    "id": "wa-64674365-8166-4ce2-959f-6aea12ec58fd",
+    "source": "Watch Affinity",
+    "sourceDetail": "watchaffinity.com",
+    "brand": "Rolex",
+    "model": null,
+    "ref": "116900",
+    "title": "Rolex Air-King 40mm Oystersteel 116900",
+    "price": 8299,
+    "url": "https://www.watch-affinity.com/watch?id=64674365-8166-4ce2-959f-6aea12ec58fd",
+    "imageUrl": "https://aeasaemdtrrncugdwlte.supabase.co/storage/v1/object/public/watch-images/64674365-8166-4ce2-959f-6aea12ec58fd/0.jpeg",
+    "condition": "Mint",
+    "dialColor": "Black",
+    "caseMaterial": null,
+    "boxPapers": "Box & Papers",
+    "stockStatus": "In Stock",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-af8855a2-5b15-46c6-ac43-f347f894eb2c",
@@ -5887,7 +5830,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-9c7b0005-e816-486b-a6a1-98ba13044910",
@@ -5906,7 +5849,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-279063e9-1d7b-440f-8750-1664c77689ad",
@@ -5925,7 +5868,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f32944c3-c00e-46df-b460-4b32e018d18c",
@@ -5944,7 +5887,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-ec1d57d1-e6b4-4832-9a84-b4991ed070e6",
@@ -5963,7 +5906,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-14f83692-dc0d-45fe-bc68-133400c7083d",
@@ -5982,7 +5925,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-aa84e316-d651-40ce-9374-2b64c52d7a07",
@@ -6001,7 +5944,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-e3eeb521-a59c-4412-8ea3-55d7681d257a",
@@ -6020,7 +5963,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-1469a0bf-3b2f-4939-aa82-a299fd4f5316",
@@ -6039,7 +5982,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-0ed232fb-a312-4bfa-96b7-d390f7a99644",
@@ -6058,7 +6001,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-31620266-c74d-4778-91c6-8e96a11e0b8c",
@@ -6077,7 +6020,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-fd9eff03-c5dc-44af-a99d-9c25a93f1de8",
@@ -6096,7 +6039,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-ce979c44-9bf5-43e5-9690-51f9ffa267fb",
@@ -6115,7 +6058,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-d9c95547-7ff4-4688-bcca-e8fb82505fd1",
@@ -6134,7 +6077,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-9c4c80dd-c397-421d-8d41-832f3bb6f5f1",
@@ -6153,7 +6096,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-d7935c52-53ca-41a9-922e-001779cfaefc",
@@ -6172,7 +6115,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-91507444-3678-4c11-a719-6f46175db116",
@@ -6191,7 +6134,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-3eb55b2a-e50e-4d1f-9af9-e0c62cb133b1",
@@ -6210,7 +6153,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b265c1b6-8ff2-40f5-9d29-03adec402907",
@@ -6229,7 +6172,7 @@
     "boxPapers": "Box Only",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-a1aaebdb-8d40-42f5-9615-1a20a6ae8359",
@@ -6248,7 +6191,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-cf393bc3-6412-44a1-b281-a9fb158bb965",
@@ -6267,7 +6210,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-97ffc180-f91b-4fec-b27c-553fb4214cfb",
@@ -6286,7 +6229,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-efe0d10c-6c61-45d2-b59b-4af449daeb47",
@@ -6305,7 +6248,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-3ed1ab6b-3b58-40d5-808c-b45d66ca0e18",
@@ -6324,7 +6267,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-dd3e7d00-34d2-47b6-bf6b-887ea961d66f",
@@ -6343,7 +6286,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-d85c668b-49bc-403e-88d6-159f96739477",
@@ -6362,7 +6305,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-ba2ebe30-02ed-4aea-aa4e-b86418649b1a",
@@ -6381,7 +6324,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-7f9a03de-94da-4599-9a49-2ee45401300c",
@@ -6400,7 +6343,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-5deab9fc-954b-44c8-90ce-f068e480d8f5",
@@ -6419,7 +6362,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-c70144c9-ed6b-4921-9786-77405137050f",
@@ -6438,7 +6381,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-c3d58dce-b7ea-4c2b-901c-b9cb06e07dda",
@@ -6457,7 +6400,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-077e6f08-e4f2-40a3-8801-3f16ab62a309",
@@ -6476,7 +6419,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-ea4c7d5f-5c32-47e9-a471-115ee24ea016",
@@ -6495,7 +6438,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-3e297bee-63f6-4c01-9eb2-70dee6badf8d",
@@ -6514,7 +6457,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-5d594518-6b0f-49e7-8c98-b30116d55d3d",
@@ -6533,7 +6476,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6c8e74b6-52e9-47cd-a82b-b1e30160958d",
@@ -6552,7 +6495,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b71528ea-fddf-429b-a99f-5041a39b9576",
@@ -6571,7 +6514,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-dcf5c91c-ad1c-441e-b994-d0502ac62b4d",
@@ -6590,7 +6533,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-b7c454c7-4a33-4d0c-8f80-1a5dbce9fa36",
@@ -6609,7 +6552,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-5e0c00ee-e88e-4506-b12d-ef5c6c39679b",
@@ -6628,7 +6571,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-f4d43754-c5b2-41e8-8fde-ca8252e45cf7",
@@ -6647,7 +6590,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-3f122a30-36e1-4570-adb8-d29b7071d148",
@@ -6666,7 +6609,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-275f8d62-aea4-472f-8b97-a9dbfadb96c1",
@@ -6685,7 +6628,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6d19aec9-ea98-46e2-b08f-dad9437c58fa",
@@ -6704,7 +6647,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-3ac84bed-8b88-4aeb-8b15-743d9cc1744c",
@@ -6723,7 +6666,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-ea0421d1-1792-41d4-a6be-efc3e5868cb7",
@@ -6742,7 +6685,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6e446c2c-936c-4485-b2da-2189dff55985",
@@ -6761,7 +6704,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-9f447960-41f6-4b96-87ba-f0a7f6ebcd5f",
@@ -6780,7 +6723,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-0366c45f-197a-4d88-9327-442d5cf15cc5",
@@ -6799,7 +6742,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-85ae6379-7121-48a3-893d-d8dbd915faa4",
@@ -6818,7 +6761,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-dd8b6fc9-ca35-45de-a9da-04f3340c34e8",
@@ -6837,7 +6780,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-6dfac1f9-1755-4437-bc5e-aa7b2a7b34cc",
@@ -6856,7 +6799,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-efbff1f9-266a-40c4-862f-c44455fd685a",
@@ -6875,7 +6818,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-5b40e36b-1fd5-4980-af92-e94fd44854b2",
@@ -6894,7 +6837,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-3bc450ea-4c6e-47ef-9514-42ac7f6758d6",
@@ -6913,7 +6856,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-145b08b9-66b6-42b2-8ad8-0dfeb3e29551",
@@ -6932,7 +6875,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-d6fd20c1-7a9f-4cb1-b549-cbe445a46cb4",
@@ -6951,7 +6894,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-2dab3bac-bd12-4d8f-ba1f-63a8a69b8eb7",
@@ -6970,7 +6913,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-584bdb73-9cf9-4798-968a-88e11eb309cd",
@@ -6989,7 +6932,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-4e9be05c-162e-4e4c-864e-4a9a9e22ccba",
@@ -7008,7 +6951,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-880d52f4-9c12-4b6f-84fe-fcab7250d509",
@@ -7027,7 +6970,7 @@
     "boxPapers": "Box & Papers",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-fc8d2f5a-cfa8-44d5-b6d8-1df820f711fd",
@@ -7046,7 +6989,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-e8995128-eb7a-44d3-a805-8f4ee5502880",
@@ -7065,7 +7008,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-90a5c297-49cb-4201-afc0-540ad57ba6cf",
@@ -7084,7 +7027,7 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   },
   {
     "id": "wa-0f81a421-dcfe-44bf-bc70-9f1eb17712f4",
@@ -7103,6 +7046,6 @@
     "boxPapers": "None",
     "stockStatus": "In Stock",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-14T12:38:57.344Z"
+    "scrapedAt": "2026-09-15T12:28:32.139Z"
   }
 ]
