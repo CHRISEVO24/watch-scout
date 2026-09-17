@@ -299,6 +299,7 @@ app.get("/api/run-scout", async (req, res) => {
   slowSteps.push({ name: "WYW ATL", script: "wywatl-scraper.js", args: [] });
   slowSteps.push({ name: "Analog Shift + Timepiece Trading", script: "run-two-dealers.js", args: [] });
   slowSteps.push({ name: "Dealer Auto-Scraper", script: "dealer-auto-scraper.js", args: [] });
+  slowSteps.push({ name: "1MT Watches", script: "1mtwatches-scraper.js", args: [] });
 
   const allSteps = [...fastSteps, ...slowSteps];
   const totalSteps = allSteps.length + 2;
