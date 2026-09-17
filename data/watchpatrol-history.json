@@ -1,20 +1,5 @@
 [
   {
-    "scrapedAt": "2026-09-14T12:00:48.463Z",
-    "query": "Bulgari",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-09-14T12:00:57.707Z",
-    "query": "Bvlgari",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-09-14T12:17:49.953Z",
-    "query": "Cartier",
-    "count": 40
-  },
-  {
     "scrapedAt": "2026-09-14T12:17:59.070Z",
     "query": "Chopard",
     "count": 40
@@ -98,5 +83,20 @@
     "scrapedAt": "2026-09-16T12:30:31.775Z",
     "query": "Patek Philippe",
     "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-16T15:28:22.108Z",
+    "query": "Richard Millie",
+    "count": 0
+  },
+  {
+    "scrapedAt": "2026-09-16T15:28:31.129Z",
+    "query": "Roger Dubuis",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-17T11:47:39.771Z",
+    "query": "15400st",
+    "count": 21
   }
 ]

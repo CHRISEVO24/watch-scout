@@ -1,15 +1,5 @@
 [
   {
-    "scrapedAt": "2026-09-12T12:19:00.925Z",
-    "brand": "breguet",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-09-12T12:19:07.556Z",
-    "brand": "breitling",
-    "count": 12
-  },
-  {
     "scrapedAt": "2026-09-14T12:04:05.194Z",
     "brand": "bulgari",
     "count": 12
@@ -97,6 +87,16 @@
   {
     "scrapedAt": "2026-09-16T12:50:47.632Z",
     "brand": "patek-philippe",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-16T15:48:40.662Z",
+    "brand": "richard-millie",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-16T15:48:48.409Z",
+    "brand": "roger-dubuis",
     "count": 12
   }
 ]
