@@ -403,5 +403,20 @@
     "boxPapers": "both",
     "notes": "",
     "submittedAt": "2026-09-09T18:35:43.964Z"
+  },
+  {
+    "id": "1789756553492",
+    "firstName": "e",
+    "lastName": "e",
+    "email": "sample@email.tst",
+    "phone": "49701070",
+    "brand": "Breguet",
+    "model": "e",
+    "ref": "e",
+    "budgetMax": "1",
+    "condition": "any",
+    "boxPapers": "none",
+    "notes": "e",
+    "submittedAt": "2026-09-18T18:35:53.492Z"
   }
 ]
