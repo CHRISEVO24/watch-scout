@@ -99,7 +99,7 @@ async function scrape() {
   const allItems = [];
   const globalSeen = new Set();
 
-  // Load existing data and merge
+  // Load existing data - we'll replace per-brand as we scrape
   let existing = [];
   if (fs.existsSync(LATEST_FILE)) {
     existing = JSON.parse(fs.readFileSync(LATEST_FILE, "utf8"));
@@ -107,9 +107,23 @@ async function scrape() {
     console.log(`[Chrono24] Loaded ${existing.length} existing items, running missing brands only...`);
   }
 
+  const scrapedBrands = new Set();
 
   for (const brand of BRANDS) {
     let brandNew = 0;
+    // Only purge if this brand matches the query filter (or no filter = full run)
+    const queryArg = process.argv.find(a => a.startsWith('--query='))?.replace('--query=','')?.toLowerCase();
+    const brandMatches = !queryArg || brand.name.toLowerCase().includes(queryArg) || brand.slug.toLowerCase().includes(queryArg);
+    if (brandMatches) {
+      const beforeCount = existing.length;
+      existing = existing.filter(i => i.brand !== brand.name);
+      const removed = beforeCount - existing.length;
+      if (removed > 0) console.log(`[Chrono24] Purged ${removed} old ${brand.name} listings`);
+    } else {
+      // Skip brands that don't match query
+      continue;
+    }
+    scrapedBrands.add(brand.name);
     for (const [from, to] of PRICE_BANDS) {
       for (const sortorder of SORT_ORDERS) {
         const items = await scrapeTarget(page, brand.slug, from, to, sortorder);
@@ -149,8 +163,10 @@ async function scrape() {
 
   await browser.close();
   fs.mkdirSync(DATA_DIR, { recursive: true });
+  // Merge: keep existing unscraped brands + fresh scraped brands
   const merged = [...existing, ...allItems];
   fs.writeFileSync(LATEST_FILE, JSON.stringify(merged, null, 2));
+  console.log(`[Chrono24] Final: ${merged.length} total (${existing.length} kept + ${allItems.length} fresh)`);
   let history = fs.existsSync(HISTORY_FILE) ? JSON.parse(fs.readFileSync(HISTORY_FILE, "utf8")) : [];
   const existingIds = new Set(history.map(i => i.id));
   allItems.forEach(item => { if (!existingIds.has(item.id)) history.push(item); });

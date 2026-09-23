@@ -1,35 +1,5 @@
 [
   {
-    "scrapedAt": "2026-09-14T19:42:11.895Z",
-    "brand": "girard-perregaux",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-09-14T19:42:18.589Z",
-    "brand": "hamilton",
-    "count": 4
-  },
-  {
-    "scrapedAt": "2026-09-15T12:20:58.983Z",
-    "brand": "hublot",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-09-15T12:21:05.219Z",
-    "brand": "iwc",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-09-15T13:00:16.624Z",
-    "brand": "jacob-amp-co",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-09-15T13:00:27.775Z",
-    "brand": "jaeger-lecoultre",
-    "count": 12
-  },
-  {
     "scrapedAt": "2026-09-15T15:20:56.839Z",
     "brand": "jaquet-droz",
     "count": 12
@@ -97,6 +67,36 @@
   {
     "scrapedAt": "2026-09-22T12:32:29.514Z",
     "brand": "u-boat",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-23T15:00:54.305Z",
+    "brand": "ulysse-nardin",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-23T15:01:01.081Z",
+    "brand": "vacheron-constantin",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-23T17:17:26.863Z",
+    "brand": "zenith",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-23T17:17:31.993Z",
+    "brand": "a-lange-amp-sohne",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-23T17:53:25.813Z",
+    "brand": "anonimo",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-23T17:53:34.544Z",
+    "brand": "audemars-piguet",
     "count": 12
   }
 ]

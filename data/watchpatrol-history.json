@@ -1,35 +1,5 @@
 [
   {
-    "scrapedAt": "2026-09-15T12:17:52.749Z",
-    "query": "IWC",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-09-15T12:38:22.014Z",
-    "query": "Jacob &amp; Co",
-    "count": 23
-  },
-  {
-    "scrapedAt": "2026-09-15T12:38:31.112Z",
-    "query": "Jaeger-LeCoultre",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-09-15T14:57:36.684Z",
-    "query": "126281RBR",
-    "count": 7
-  },
-  {
-    "scrapedAt": "2026-09-15T15:00:29.562Z",
-    "query": "Jaquet-Droz",
-    "count": 11
-  },
-  {
-    "scrapedAt": "2026-09-15T15:00:38.877Z",
-    "query": "Longines",
-    "count": 40
-  },
-  {
     "scrapedAt": "2026-09-15T15:32:38.210Z",
     "query": "Omega",
     "count": 40
@@ -98,5 +68,35 @@
     "scrapedAt": "2026-09-22T12:12:10.468Z",
     "query": "U-Boat",
     "count": 18
+  },
+  {
+    "scrapedAt": "2026-09-23T14:40:37.089Z",
+    "query": "Ulysse Nardin",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-23T14:40:46.501Z",
+    "query": "Vacheron Constantin",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-23T16:57:00.052Z",
+    "query": "Zenith",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-23T16:57:09.074Z",
+    "query": "A. Lange &amp; Sohne",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-23T17:33:09.751Z",
+    "query": "Anonimo",
+    "count": 16
+  },
+  {
+    "scrapedAt": "2026-09-23T17:33:18.716Z",
+    "query": "Audemars Piguet",
+    "count": 40
   }
 ]

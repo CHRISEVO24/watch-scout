@@ -1,5 +1,549 @@
 [
   {
+    "id": "yur-455afa5e-742c-4d9b-9e15-098fc840f4f3",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "Datejust 36",
+    "ref": "116200",
+    "title": "Rolex Datejust 36 116200",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": {
+      "id": "c74353b2-ba1e-43c1-86bc-1a8604681faf",
+      "name": "stock_116200rrj.jpg",
+      "order": 1,
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/goyv250vpcduwktzro6pmm8qgpk0",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/goyv250vpcduwktzro6pmm8qgpk0",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/goyv250vpcduwktzro6pmm8qgpk0?variant=thumb",
+      "type": "image/jpeg",
+      "private": false
+    },
+    "condition": "Excellent",
+    "dialColor": "Rhodium",
+    "box": null,
+    "papers": "Card",
+    "year": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.760Z"
+  },
+  {
+    "id": "yur-1928f826-d6a7-4e2d-9e69-de7af5c3b7fb",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "Oyster Perpetual ",
+    "ref": "134300",
+    "title": "Rolex Oyster Perpetual  134300",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": null,
+    "condition": "Excellent",
+    "dialColor": "Lavender ",
+    "box": null,
+    "papers": "Card",
+    "year": "2026-08-30",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-3f37c833-9e49-4247-afcf-cd459b6c754b",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "Oyster Perpetual ",
+    "ref": "134300",
+    "title": "Rolex Oyster Perpetual  134300",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": null,
+    "condition": "Excellent",
+    "dialColor": "Lavender ",
+    "box": null,
+    "papers": "Card",
+    "year": "2026-06-27",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-241ca487-d3b0-47a0-9da1-b1b6d72cff05",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "GMT-Master II Bussdown",
+    "ref": "116710",
+    "title": "Rolex GMT-Master II Bussdown 116710",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": null,
+    "condition": "Excellent",
+    "dialColor": "AM Pave Wave",
+    "box": null,
+    "papers": "No",
+    "year": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-59388be5-6dac-4274-94d5-fd956a0045be",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Audemars Piguet",
+    "model": "Royal Oak Quartz Ladies",
+    "ref": "67651OR.ZZ.1261OR.01",
+    "title": "Audemars Piguet Royal Oak Quartz Ladies 67651OR.ZZ.1261OR.01",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": {
+      "id": "cf6da8cb-e964-40c4-aaaa-f7bea1f576d5",
+      "name": "stock_67651OR.ZZ.1261OR.01.png",
+      "order": 1,
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/wneue23kfe83xtxx4jckctm40yld",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/wneue23kfe83xtxx4jckctm40yld",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/wneue23kfe83xtxx4jckctm40yld?variant=thumb",
+      "type": "image/png",
+      "private": false
+    },
+    "condition": "Good",
+    "dialColor": "White",
+    "box": null,
+    "papers": "No",
+    "year": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-acce8e92-808e-4aed-aa1c-37a567101eed",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "Explorer II",
+    "ref": "16570",
+    "title": "Rolex Explorer II 16570",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": null,
+    "condition": "Very Good",
+    "dialColor": "White",
+    "box": null,
+    "papers": "No",
+    "year": "2001-12-31",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-fb380f2c-f0fd-49f5-9626-732441487738",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Audemars Piguet",
+    "model": "Royal Oak Chronograph \"50th Anniversary\"",
+    "ref": "26240ST.OO.1320ST.03",
+    "title": "Audemars Piguet Royal Oak Chronograph \"50th Anniversary\" 26240ST.OO.1320ST.03",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": {
+      "id": "8a6a8fa5-7266-4a6d-8f3c-fed44836d6d3",
+      "name": "stock_26240ST.OO.1320ST.03.jpg",
+      "order": 1,
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/roxizgd8lqta5uezc28desj99y07",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/roxizgd8lqta5uezc28desj99y07",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/roxizgd8lqta5uezc28desj99y07?variant=thumb",
+      "type": "image/jpeg",
+      "private": false
+    },
+    "condition": "Excellent",
+    "dialColor": "Silver",
+    "box": null,
+    "papers": "Card",
+    "year": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-671693a2-7cab-4a47-b4cd-1ccb9d2b50e2",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Audemars Piguet",
+    "model": "Royal Oak Chronograph",
+    "ref": "26240ST.OO.1320ST.07",
+    "title": "Audemars Piguet Royal Oak Chronograph 26240ST.OO.1320ST.07",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": {
+      "id": "d3f5669b-5bb4-4dfd-9169-1e17ecaf709f",
+      "name": "stock_26240ST.OO.1320ST.07.jpg",
+      "order": 1,
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/j0tpzb3imhncahhxkoknyayc5934",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/j0tpzb3imhncahhxkoknyayc5934",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/j0tpzb3imhncahhxkoknyayc5934?variant=thumb",
+      "type": "image/jpeg",
+      "private": false
+    },
+    "condition": "Excellent",
+    "dialColor": "Silver",
+    "box": null,
+    "papers": "Card",
+    "year": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-d9524378-5988-4121-9a92-229fdd9e4727",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Audemars Piguet",
+    "model": "Royal Oak Chronograph \"50th Anniversary\"",
+    "ref": "26240ST.OO.1320ST.03",
+    "title": "Audemars Piguet Royal Oak Chronograph \"50th Anniversary\" 26240ST.OO.1320ST.03",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": {
+      "id": "b100c92f-f981-43e1-8839-63226144ffa8",
+      "name": "stock_26240ST.OO.1320ST.03.jpg",
+      "order": 1,
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/bou34p5nkyjj97t239ttc4n56j3f",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/bou34p5nkyjj97t239ttc4n56j3f",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/bou34p5nkyjj97t239ttc4n56j3f?variant=thumb",
+      "type": "image/jpeg",
+      "private": false
+    },
+    "condition": "Excellent",
+    "dialColor": "Silver",
+    "box": null,
+    "papers": "Card",
+    "year": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-c47b476b-c726-4eb5-8096-0e818e50e4b2",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "SkyDweller",
+    "ref": "326933",
+    "title": "Rolex SkyDweller 326933",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": {
+      "id": "54a376f0-ef90-4a4e-8b81-80fa88136fac",
+      "name": "stock_326933wij.jpg",
+      "order": 1,
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/tuhht4tlz5kg734kqrkdopg4gi3x",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/tuhht4tlz5kg734kqrkdopg4gi3x",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/tuhht4tlz5kg734kqrkdopg4gi3x?variant=thumb",
+      "type": "image/jpeg",
+      "private": false
+    },
+    "condition": "Very Good",
+    "dialColor": "White",
+    "box": null,
+    "papers": "Card",
+    "year": "2021-11-09",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-b0daae2e-ebf7-4496-a248-848715309db8",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "Submariner Hulk",
+    "ref": "116610LV",
+    "title": "Rolex Submariner Hulk 116610LV",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": {
+      "id": "a9946303-8210-4101-acd0-bfb6664e209f",
+      "name": "stock_116610LV.jpg",
+      "order": 1,
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/adbnflgfi7o7cupgmne9b43qothj",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/adbnflgfi7o7cupgmne9b43qothj",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/adbnflgfi7o7cupgmne9b43qothj?variant=thumb",
+      "type": "image/jpeg",
+      "private": false
+    },
+    "condition": "Good",
+    "dialColor": "Green",
+    "box": null,
+    "papers": "Card",
+    "year": "2016-01-16",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-7a6b4327-8956-4676-bd67-1865febe504d",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "Submariner PVD",
+    "ref": "116610",
+    "title": "Rolex Submariner PVD 116610",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": null,
+    "condition": "Very Good",
+    "dialColor": "Black",
+    "box": null,
+    "papers": "No",
+    "year": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-78dda35b-b908-4df8-943a-32fee8e1fa5a",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "Yacht-Master II",
+    "ref": "116688",
+    "title": "Rolex Yacht-Master II 116688",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": {
+      "id": "68dc0486-7d11-4107-90be-cec732781daf",
+      "name": "stock_116688.jpg",
+      "order": 1,
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/d08zh86usa3k9368y8v0iodb03al",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/d08zh86usa3k9368y8v0iodb03al",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/d08zh86usa3k9368y8v0iodb03al?variant=thumb",
+      "type": "image/jpeg",
+      "private": false
+    },
+    "condition": "Very Good",
+    "dialColor": "White, Blue Hands",
+    "box": null,
+    "papers": "No",
+    "year": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-2cbaad11-5085-4e40-a174-c6527569b768",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "Yacht-Master II",
+    "ref": "116688",
+    "title": "Rolex Yacht-Master II 116688",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": {
+      "id": "1f0aacfa-57ea-44a8-a307-c5e5cd6f5374",
+      "name": "stock_116688.jpg",
+      "order": 1,
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/d9rmn9yah40tkct3xyesrsjb6m6b",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/d9rmn9yah40tkct3xyesrsjb6m6b",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/d9rmn9yah40tkct3xyesrsjb6m6b?variant=thumb",
+      "type": "image/jpeg",
+      "private": false
+    },
+    "condition": "Excellent",
+    "dialColor": "White, Blue Hands",
+    "box": null,
+    "papers": "No",
+    "year": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-8bf4f66f-f038-49e7-8de4-26d290ad2361",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "Day-Date 40",
+    "ref": "228235",
+    "title": "Rolex Day-Date 40 228235",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": {
+      "id": "7784b3e6-90d4-420e-806c-28002e0501fc",
+      "name": "stock_228235slobdrp.jpg",
+      "order": 1,
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/ip9hfc6adjm25lzv61b6nz7k24x2",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/ip9hfc6adjm25lzv61b6nz7k24x2",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/ip9hfc6adjm25lzv61b6nz7k24x2?variant=thumb",
+      "type": "image/jpeg",
+      "private": false
+    },
+    "condition": "Excellent",
+    "dialColor": "Slate Ombre Roman",
+    "box": null,
+    "papers": "Card",
+    "year": "2026-07-08",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-a63e0123-5dca-4f45-be2d-6d2499abfe19",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "Day-Date 40",
+    "ref": "228235",
+    "title": "Rolex Day-Date 40 228235",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": {
+      "id": "4a16770f-0fe5-42ed-8936-c9af786f4df1",
+      "name": "stock_228235slobdrp.jpg",
+      "order": 1,
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/ltwj36oejfwxu4iarm90creuzgmi",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/ltwj36oejfwxu4iarm90creuzgmi",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/ltwj36oejfwxu4iarm90creuzgmi?variant=thumb",
+      "type": "image/jpeg",
+      "private": false
+    },
+    "condition": "Very Good",
+    "dialColor": "Slate Ombre Roman",
+    "box": null,
+    "papers": "Card",
+    "year": "2025-12-15",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-f3d6b35a-5b1c-41d5-8717-193e789a52a8",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "Day-Date 40",
+    "ref": "228238",
+    "title": "Rolex Day-Date 40 228238",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": {
+      "id": "929d4d10-f6f2-4fbd-b64e-bd106d6a5cac",
+      "name": "stock_228238grrp.jpg",
+      "order": 1,
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/cqw0gzn2eykmkl5p8gots5ydl6yc",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/cqw0gzn2eykmkl5p8gots5ydl6yc",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/cqw0gzn2eykmkl5p8gots5ydl6yc?variant=thumb",
+      "type": "image/jpeg",
+      "private": false
+    },
+    "condition": "Very Good",
+    "dialColor": "Green Roman",
+    "box": null,
+    "papers": "Card",
+    "year": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-de2152b4-c376-4d40-b6cf-8280ce2697c3",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "Datejust 41",
+    "ref": "126334",
+    "title": "Rolex Datejust 41 126334",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": {
+      "id": "ad9f908d-18a1-48b3-a64b-42161f5e88d0",
+      "name": "stock_126334blij.jpg",
+      "order": 1,
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/axvwi83cvi5k3lbail0p1vm9mdog",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/axvwi83cvi5k3lbail0p1vm9mdog",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/axvwi83cvi5k3lbail0p1vm9mdog?variant=thumb",
+      "type": "image/jpeg",
+      "private": false
+    },
+    "condition": "Very Good",
+    "dialColor": "Blue Index",
+    "box": null,
+    "papers": "Card",
+    "year": "2025-02-14",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-99d8d643-55d5-4f97-865e-5b87de06e76a",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Richard Mille",
+    "model": "Rm67-01 WG",
+    "ref": "RM67-01",
+    "title": "Richard Mille Rm67-01 WG RM67-01",
+    "price": 245250,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": null,
+    "condition": "Very Good",
+    "dialColor": "Skeleton",
+    "box": true,
+    "papers": "Papers",
+    "year": "2022-02-03",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-98869466-1f6e-4e54-81d7-8a18958efbd3",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "Oyster Perpetual 41",
+    "ref": "124300",
+    "title": "Rolex Oyster Perpetual 41 124300",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": {
+      "id": "918b0d85-94c7-4ebc-8d48-0ec6501032de",
+      "name": "stock_124300bkio.jpg",
+      "order": 1,
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/50iwekwzrgpeezlhngrs2h8iq0ad",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/50iwekwzrgpeezlhngrs2h8iq0ad",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/50iwekwzrgpeezlhngrs2h8iq0ad?variant=thumb",
+      "type": "image/jpeg",
+      "private": false
+    },
+    "condition": null,
+    "dialColor": "Black Index",
+    "box": true,
+    "papers": "Card",
+    "year": "2023-06-28",
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-7079b1ae-a992-407e-9de0-cf56bad22927",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Tag Heuer",
+    "model": null,
+    "ref": "WBX2112",
+    "title": "Tag Heuer WBX2112",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": null,
+    "condition": null,
+    "dialColor": "Black",
+    "box": true,
+    "papers": "Card",
+    "year": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
+    "id": "yur-e855f56a-62d6-4c35-83b3-9bf1f16164a3",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Richard Mille",
+    "model": "Flyback Chronograph",
+    "ref": "RM11-03",
+    "title": "Richard Mille Flyback Chronograph RM11-03",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": null,
+    "condition": "Good",
+    "dialColor": "Skeleton",
+    "box": null,
+    "papers": "No",
+    "year": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
+  },
+  {
     "id": "yur-8bfcaf7b-89b4-4879-a58b-f98381665698",
     "source": "YurWatches",
     "sourceDetail": "yurwatches.elefta.store",
@@ -25,7 +569,7 @@
     "papers": "Card",
     "year": "2026-08-17",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.326Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-84b6632e-5c9f-4338-bea3-74117a99cd7b",
@@ -53,7 +597,7 @@
     "papers": "Card",
     "year": "2022-11-09",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.327Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-9d77d79f-9ad2-4562-bc4e-5af9356413c4",
@@ -75,13 +619,13 @@
       "type": "image/jpeg",
       "private": false
     },
-    "condition": "Pre-Owned",
+    "condition": "Very Good",
     "dialColor": "White",
     "box": null,
-    "papers": null,
+    "papers": "Card",
     "year": "2022-04-11",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-651e8ccd-e88c-4c42-ba49-919b841cc658",
@@ -109,7 +653,7 @@
     "papers": "Card",
     "year": "2023-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-78ce9d82-c101-4f82-96d2-130b419b302d",
@@ -137,7 +681,7 @@
     "papers": "Card",
     "year": "2026-08-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-93606807-1852-46a0-82d9-7d96d9f3b9a4",
@@ -165,7 +709,7 @@
     "papers": "Card",
     "year": "2026-05-25",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-c8611df2-2d00-4081-9cc6-5cdaf5e8661d",
@@ -193,7 +737,7 @@
     "papers": "Card",
     "year": "2024-06-25",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-e7bd96bd-62ce-44b2-897b-64971d75dc5e",
@@ -221,7 +765,7 @@
     "papers": "Papers",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-b223f3b7-3b2b-4f33-ba00-4be95aacce34",
@@ -249,7 +793,7 @@
     "papers": "Card",
     "year": "2020-10-12",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-ab0f0436-0d96-418f-859b-9bbbb3c46904",
@@ -277,7 +821,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-938f480c-5e7f-4036-9832-d2153c8198b0",
@@ -305,7 +849,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-0d18cabe-e2cf-4376-8331-59c7907c2e7e",
@@ -333,7 +877,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-16cd0de7-8757-4fbc-abda-5155b57e1292",
@@ -361,7 +905,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-b78f49a0-ad88-45c4-acd4-a71437e982f7",
@@ -389,7 +933,7 @@
     "papers": "Card",
     "year": "2024-04-19",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-d407b721-e3c8-46e3-8bee-f4f4d070ee8b",
@@ -408,7 +952,7 @@
     "papers": "Card (New Style Green)",
     "year": "2023-02-10",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-ca277fb7-c379-43e7-bdb4-7f3caf5cceee",
@@ -436,7 +980,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-971baeba-401f-438e-9388-10bda4d1127b",
@@ -464,7 +1008,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-8a7b84b2-7090-401b-8e6a-b1d80be6fd05",
@@ -492,7 +1036,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-cf72ce81-a7dd-46ba-aaee-d50dba1f4591",
@@ -520,35 +1064,7 @@
     "papers": "Card",
     "year": "2024-08-12",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
-  },
-  {
-    "id": "yur-e652f810-9b55-460c-a7f6-abf70302a634",
-    "source": "YurWatches",
-    "sourceDetail": "yurwatches.elefta.store",
-    "brand": "Audemars Piguet",
-    "model": "Royal Oak Chronograph",
-    "ref": "26240ST.OO.1320ST.07",
-    "title": "Audemars Piguet Royal Oak Chronograph 26240ST.OO.1320ST.07",
-    "price": null,
-    "url": "https://yurwatches.elefta.store/store/328b6e",
-    "imageUrl": {
-      "id": "3a1fbe2f-d458-4119-8f85-a109ba6eb1f9",
-      "name": "stock_26240ST.OO.1320ST.07.jpg",
-      "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/5xxjhzwwwpxszobhy87yvw234ol4",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/5xxjhzwwwpxszobhy87yvw234ol4",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/5xxjhzwwwpxszobhy87yvw234ol4?variant=thumb",
-      "type": "image/jpeg",
-      "private": false
-    },
-    "condition": "Good",
-    "dialColor": "Silver",
-    "box": null,
-    "papers": "Card",
-    "year": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-6fab2d1e-bf85-4b90-9cbf-989767b51d67",
@@ -576,7 +1092,7 @@
     "papers": "Card",
     "year": "2025-12-23",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-6c7daf93-0962-41de-a613-2f7de69adbd9",
@@ -604,7 +1120,7 @@
     "papers": "Card (Green Wood)",
     "year": "2026-08-20",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-d58f54bb-cf91-4a5a-9b8d-fb49f2d97c78",
@@ -632,7 +1148,7 @@
     "papers": "Card",
     "year": "2025-04-12",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-d4c0d760-ce1a-4170-a4ac-c6cd4ba9a8c0",
@@ -660,7 +1176,7 @@
     "papers": "Card",
     "year": "2026-01-24",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-401b835f-f20f-476d-8d0b-5b47ee66ed1e",
@@ -688,7 +1204,7 @@
     "papers": "Card",
     "year": "2023-11-16",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-8ca78d0d-4e14-4713-98de-a321c6193129",
@@ -716,7 +1232,7 @@
     "papers": "Card",
     "year": "2016-05-24",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-a4ef7159-bf9d-4dc4-961a-1f3f837a8b6c",
@@ -735,7 +1251,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-e2d6d412-78b4-4a8a-9b21-5467ffd9e740",
@@ -748,12 +1264,12 @@
     "price": null,
     "url": "https://yurwatches.elefta.store/store/328b6e",
     "imageUrl": {
-      "id": "1adaaa8e-d1c3-4f64-9466-9ea71d6b220d",
-      "name": "stock_116515pk.jpg",
+      "id": "98c67ac8-582d-4dbb-b62b-5be9b1abead3",
+      "name": "W0366656_01A.jpg",
       "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/qh77tmw7wm04119bz3npjfdja8so",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/qh77tmw7wm04119bz3npjfdja8so",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/qh77tmw7wm04119bz3npjfdja8so?variant=thumb",
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/jeutvay92tw5xo9q8jm2mrc89wqf",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/jeutvay92tw5xo9q8jm2mrc89wqf",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/jeutvay92tw5xo9q8jm2mrc89wqf?variant=thumb",
       "type": "image/jpeg",
       "private": false
     },
@@ -763,7 +1279,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-1188feee-230b-41e7-abc0-bbe5f7d30f77",
@@ -791,7 +1307,7 @@
     "papers": "Card",
     "year": "2019-03-07",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:54.761Z"
   },
   {
     "id": "yur-c48af75c-5d21-4786-955f-952bbc3b49fe",
@@ -819,7 +1335,7 @@
     "papers": "Card",
     "year": "2024-07-24",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-bfad5303-53ec-4b97-90df-885389becaef",
@@ -847,35 +1363,7 @@
     "papers": "Card",
     "year": "2024-03-02",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
-  },
-  {
-    "id": "yur-9dd59e96-c81d-4b2c-9a82-130f3e4be131",
-    "source": "YurWatches",
-    "sourceDetail": "yurwatches.elefta.store",
-    "brand": "Rolex",
-    "model": "Submariner Hulk",
-    "ref": "116610LV",
-    "title": "Rolex Submariner Hulk 116610LV",
-    "price": null,
-    "url": "https://yurwatches.elefta.store/store/328b6e",
-    "imageUrl": {
-      "id": "e71bb5ac-a0f3-48c2-9605-d4542036592f",
-      "name": "stock_116610LV.jpg",
-      "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/lxqqz9liq4l552nkdp5ngoo34o0a",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/lxqqz9liq4l552nkdp5ngoo34o0a",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/lxqqz9liq4l552nkdp5ngoo34o0a?variant=thumb",
-      "type": "image/jpeg",
-      "private": false
-    },
-    "condition": "Excellent",
-    "dialColor": "Green",
-    "box": null,
-    "papers": "Card",
-    "year": "2015-03-16",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-1eee0ded-d903-4e37-9339-e057bbf4e54c",
@@ -903,7 +1391,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-ab6c17b6-a84e-401e-a606-8dad025cbb32",
@@ -931,7 +1419,7 @@
     "papers": null,
     "year": "2024-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-af41b4aa-f96d-447c-aa8b-9d76aae762d9",
@@ -959,7 +1447,7 @@
     "papers": "Card (New Style Green)",
     "year": "2022-12-30",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-1d9480e3-9f23-4183-9c8f-2f52e929389c",
@@ -987,7 +1475,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-d91b45f6-dd97-4ac9-a1b1-a54a564f1c68",
@@ -1015,35 +1503,7 @@
     "papers": "Papers",
     "year": "2017-09-27",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
-  },
-  {
-    "id": "yur-d3c9febe-5daa-4d40-bafe-e8fa31f8090d",
-    "source": "YurWatches",
-    "sourceDetail": "yurwatches.elefta.store",
-    "brand": "Rolex",
-    "model": "Day-Date 40",
-    "ref": "228239",
-    "title": "Rolex Day-Date 40 228239",
-    "price": null,
-    "url": "https://yurwatches.elefta.store/store/328b6e",
-    "imageUrl": {
-      "id": "96d69173-06b3-46b9-9e18-4d278f425849",
-      "name": "stock_228239blobdrp.jpg",
-      "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/crfu0uts5qclojwzfy44qud6ddtl",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/crfu0uts5qclojwzfy44qud6ddtl",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/crfu0uts5qclojwzfy44qud6ddtl?variant=thumb",
-      "type": "image/jpeg",
-      "private": false
-    },
-    "condition": "Very Good",
-    "dialColor": "Blue Ombre Roman",
-    "box": null,
-    "papers": "Card",
-    "year": "2025-11-29",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-a20e7992-5cdd-4a7b-a1ab-c3a6c359c399",
@@ -1062,7 +1522,7 @@
     "papers": "Card",
     "year": "2026-05-27",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-25ef06fe-4001-4d9e-93c1-9fd261dfd343",
@@ -1081,35 +1541,7 @@
     "papers": "Papers",
     "year": "2018-02-07",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
-  },
-  {
-    "id": "yur-974b503c-adef-4f20-b030-74a49e1c5103",
-    "source": "YurWatches",
-    "sourceDetail": "yurwatches.elefta.store",
-    "brand": "Rolex",
-    "model": "Deepsea",
-    "ref": "136668lb",
-    "title": "Rolex Deepsea 136668lb",
-    "price": null,
-    "url": "https://yurwatches.elefta.store/store/328b6e",
-    "imageUrl": {
-      "id": "69553e86-8981-4dcd-92d5-055a65e820e9",
-      "name": "stock_136668lbbl.jpg",
-      "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/6v02i3qhuup35xzct8m3cqp2dw9v",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/6v02i3qhuup35xzct8m3cqp2dw9v",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/6v02i3qhuup35xzct8m3cqp2dw9v?variant=thumb",
-      "type": "image/jpeg",
-      "private": false
-    },
-    "condition": "Very Good",
-    "dialColor": "Blue",
-    "box": null,
-    "papers": "Card",
-    "year": "2024-12-28",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-b294c3d6-2cc2-44cc-8f02-f1ec5b2f0cc7",
@@ -1128,7 +1560,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-81b55bbe-bb89-41b1-a4bd-91292ec7eed8",
@@ -1147,7 +1579,7 @@
     "papers": "Card",
     "year": "2016-11-14",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-a73833b8-9584-4852-9598-c05bb6dd3ea6",
@@ -1175,7 +1607,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-ed5d3155-3ecc-4121-aaed-179ef7fb705d",
@@ -1203,7 +1635,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-e6953544-7b9c-477f-90fc-4626ace0eeee",
@@ -1231,35 +1663,7 @@
     "papers": "Card (New Style Green)",
     "year": "2021-08-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
-  },
-  {
-    "id": "yur-a523f9ee-ef0a-4b80-9ba1-d59dd71b905d",
-    "source": "YurWatches",
-    "sourceDetail": "yurwatches.elefta.store",
-    "brand": "Rolex",
-    "model": "Submariner No-Date",
-    "ref": "124060",
-    "title": "Rolex Submariner No-Date 124060",
-    "price": 12500,
-    "url": "https://yurwatches.elefta.store/store/328b6e",
-    "imageUrl": {
-      "id": "d3a9f06d-84f8-4f54-869d-afb4aadc4aae",
-      "name": "stock_124060.jpg",
-      "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/h5y9jm9gqvlz1pk86g8tq3job3vu",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/h5y9jm9gqvlz1pk86g8tq3job3vu",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/h5y9jm9gqvlz1pk86g8tq3job3vu?variant=thumb",
-      "type": "image/jpeg",
-      "private": false
-    },
-    "condition": "Like New",
-    "dialColor": "Black",
-    "box": null,
-    "papers": "Card (New Style Green)",
-    "year": "2024-01-27",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-1b45b5c1-75e2-476e-bf09-7bc0cfcff18a",
@@ -1287,7 +1691,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-27b83108-da28-4c84-b116-9a11738c9a6e",
@@ -1315,7 +1719,7 @@
     "papers": "Card",
     "year": "2014-05-27",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-566da03c-9142-4e5a-9bb2-aa746863bd92",
@@ -1343,7 +1747,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:45.328Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-a7f73a3a-3ddd-452a-97cc-6247259545b0",
@@ -1371,7 +1775,7 @@
     "papers": "Card",
     "year": "2022-07-21",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-4343a3ec-b1cd-4f85-a30e-be86f0d706e4",
@@ -1399,35 +1803,7 @@
     "papers": "Card",
     "year": "2015-11-13",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
-  },
-  {
-    "id": "yur-7e3ce0cc-efd0-4738-add9-4b8cb07cbc26",
-    "source": "YurWatches",
-    "sourceDetail": "yurwatches.elefta.store",
-    "brand": "Audemars Piguet",
-    "model": "Royal Oak Frosted Gold",
-    "ref": "15407BC.GG.1224BC.01",
-    "title": "Audemars Piguet Royal Oak Frosted Gold 15407BC.GG.1224BC.01",
-    "price": null,
-    "url": "https://yurwatches.elefta.store/store/328b6e",
-    "imageUrl": {
-      "id": "9f54f303-5cad-474d-902f-c39a3bb4af8b",
-      "name": "stock_15407BC.GG.1224BC.01.jpg",
-      "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/btfblorhtpxbit5rhmgdpqrmp7ga",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/btfblorhtpxbit5rhmgdpqrmp7ga",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/btfblorhtpxbit5rhmgdpqrmp7ga?variant=thumb",
-      "type": "image/jpeg",
-      "private": false
-    },
-    "condition": "Excellent",
-    "dialColor": "Skeleton",
-    "box": null,
-    "papers": "Card",
-    "year": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-d9aafbce-f1b5-4f83-ac42-110baed78df7",
@@ -1455,7 +1831,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-4fb01504-5b00-44f8-a284-f7a714260b9c",
@@ -1483,7 +1859,7 @@
     "papers": "Card",
     "year": "2021-10-28",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-21ddb2aa-bb42-4cc8-8033-2eb24a85f008",
@@ -1511,7 +1887,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-31e46969-1483-4e64-96c4-0d31403196d8",
@@ -1530,7 +1906,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-a3f1539a-4013-4797-86c3-7e70f47a670f",
@@ -1558,7 +1934,7 @@
     "papers": "Card",
     "year": "2019-11-06",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-9c32134c-d06b-4ca7-acfb-dc18b2c4af11",
@@ -1586,7 +1962,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-67fb8add-e2f1-4d4b-bcba-c4cbcd98dfed",
@@ -1605,7 +1981,7 @@
     "papers": "Card",
     "year": "2015-07-02",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-41dd21dc-aa74-4200-82ae-5f1dcabffd8b",
@@ -1633,7 +2009,7 @@
     "papers": "Card",
     "year": "2021-09-06",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-096da2e5-24df-4858-9e5a-17c12fe73cff",
@@ -1661,7 +2037,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-a179dcd9-cf03-4528-9a37-fa5bd4c40c6c",
@@ -1680,7 +2056,7 @@
     "papers": "Card",
     "year": "2026-07-17",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-284cc179-9f89-4ee7-90b0-1105cf84281b",
@@ -1708,7 +2084,7 @@
     "papers": "Card",
     "year": "2023-02-18",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-a27dcd2c-8737-4d95-939f-c862feaa07d5",
@@ -1736,7 +2112,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-3efb714b-ca75-4a4a-9ca9-8b752269191e",
@@ -1764,7 +2140,7 @@
     "papers": "Card",
     "year": "2024-10-17",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-a910480b-7511-4741-8f19-5fc3a12a1635",
@@ -1792,7 +2168,7 @@
     "papers": null,
     "year": "2025-10-04",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-6284f08a-fc19-4dbd-9aed-e1cf9c21414f",
@@ -1820,7 +2196,7 @@
     "papers": "Card",
     "year": "2024-06-19",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-728b558f-6bf8-4fbf-9042-73be77bd51cd",
@@ -1839,7 +2215,7 @@
     "papers": "Papers",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-f4ad612f-9bc5-4ac8-bcfa-fd77ed821661",
@@ -1867,7 +2243,7 @@
     "papers": "Card",
     "year": "2026-05-20",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-0ba9c1ec-324d-4d25-b863-99eef9d95462",
@@ -1880,12 +2256,12 @@
     "price": null,
     "url": "https://yurwatches.elefta.store/store/328b6e",
     "imageUrl": {
-      "id": "5e9fd49f-e91c-414a-8c02-d8230b7e7618",
-      "name": "stock_116710blnr.jpg",
+      "id": "b922cb49-189b-45ca-9a52-720a0ed216c4",
+      "name": "X21795Z5_01A.jpg",
       "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/4lmg6i7paimw08ic7b3mlnwo99eg",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/4lmg6i7paimw08ic7b3mlnwo99eg",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/4lmg6i7paimw08ic7b3mlnwo99eg?variant=thumb",
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/1l8wjjdxf7liapqschky6ix0ek3a",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/1l8wjjdxf7liapqschky6ix0ek3a",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/1l8wjjdxf7liapqschky6ix0ek3a?variant=thumb",
       "type": "image/jpeg",
       "private": false
     },
@@ -1895,7 +2271,7 @@
     "papers": "Card",
     "year": "2020-10-22",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-d3d355fe-6add-4dfc-a87c-1924f5aaf18e",
@@ -1923,7 +2299,7 @@
     "papers": "No",
     "year": "1978-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-095fb61c-e75c-47af-8a9c-94aa30d2cb6d",
@@ -1951,7 +2327,7 @@
     "papers": "Card",
     "year": "2025-06-04",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-4d3edaf5-212b-44b6-ae1f-4f6c47b104a0",
@@ -1979,7 +2355,7 @@
     "papers": "Papers",
     "year": "2017-03-22",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-c90276ed-5b2e-413b-a86f-d5a216415382",
@@ -2007,7 +2383,7 @@
     "papers": "Card",
     "year": "2015-03-11",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-bd8e5f0b-7805-4104-b73d-16fdaa21c2a5",
@@ -2035,7 +2411,7 @@
     "papers": "Card",
     "year": "2023-08-18",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-29ea2acc-a87f-4ffe-9d94-7447f10b6d4c",
@@ -2048,12 +2424,12 @@
     "price": null,
     "url": "https://yurwatches.elefta.store/store/328b6e",
     "imageUrl": {
-      "id": "eaf4faa3-c202-4e74-8c90-c16d494ae669",
-      "name": "J66T2421_1A.jpg",
+      "id": "b7a85170-c5a5-4aac-b95a-f64405047d63",
+      "name": "J66T2421_01A.jpg",
       "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/fwj159rmrp467xvpxd3rtigi5e5r",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/fwj159rmrp467xvpxd3rtigi5e5r",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/fwj159rmrp467xvpxd3rtigi5e5r?variant=thumb",
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/bsb7kyyx9babp7drta9pzgdan01r",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/bsb7kyyx9babp7drta9pzgdan01r",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/bsb7kyyx9babp7drta9pzgdan01r?variant=thumb",
       "type": "image/jpeg",
       "private": false
     },
@@ -2063,7 +2439,7 @@
     "papers": "Card",
     "year": "2026-05-26",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-55d2ffd9-5f8c-4dc7-b445-b178d8800610",
@@ -2091,7 +2467,7 @@
     "papers": "Card",
     "year": "2015-08-16",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-1500f2f8-be74-450b-994d-4da0e81f57fe",
@@ -2110,7 +2486,7 @@
     "papers": "Papers",
     "year": "2022-07-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-e24d15c7-27a4-4cdf-8dce-3dbedc75dac7",
@@ -2129,7 +2505,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-8a05dc96-b95b-4977-beca-063ab9683dad",
@@ -2148,7 +2524,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-b88bb763-2a6e-4283-830f-23e7334851fd",
@@ -2167,7 +2543,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-affe1b52-a73a-4dc0-b6a8-392311a02848",
@@ -2195,7 +2571,7 @@
     "papers": "Card",
     "year": "2019-07-10",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-c377e09b-e02d-4e5c-a528-6965f5d1f3b7",
@@ -2214,35 +2590,7 @@
     "papers": "Card",
     "year": "2026-08-18",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
-  },
-  {
-    "id": "yur-df20b9df-2912-4467-9cec-b2a3eaeff8ab",
-    "source": "YurWatches",
-    "sourceDetail": "yurwatches.elefta.store",
-    "brand": "Rolex",
-    "model": "Daytona",
-    "ref": "126500LN",
-    "title": "Rolex Daytona 126500LN",
-    "price": null,
-    "url": "https://yurwatches.elefta.store/store/328b6e",
-    "imageUrl": {
-      "id": "44aff143-c061-4a99-9740-eaf347c5e362",
-      "name": "C7L42271_1A.jpg",
-      "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/mnizn2ue2ahdkvnw1raxthfqu4wl",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/mnizn2ue2ahdkvnw1raxthfqu4wl",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/mnizn2ue2ahdkvnw1raxthfqu4wl?variant=thumb",
-      "type": "image/jpeg",
-      "private": false
-    },
-    "condition": "Excellent",
-    "dialColor": "Black Index",
-    "box": null,
-    "papers": "Card",
-    "year": "2025-03-18",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:56.354Z"
   },
   {
     "id": "yur-4840759e-7c4e-41d4-aca7-53ad7520ec47",
@@ -2270,7 +2618,7 @@
     "papers": "Service Card",
     "year": "2018-07-19",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-1784a4bf-9d6a-479f-ac02-4be486f1b437",
@@ -2298,7 +2646,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-c1d6e799-71ec-43cf-a730-2cf80418623d",
@@ -2317,7 +2665,7 @@
     "papers": "Papers",
     "year": "2026-07-21",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-758ae8ad-8aec-41d7-9f6b-3cf98410e299",
@@ -2345,7 +2693,7 @@
     "papers": "Papers",
     "year": "2024-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-6fead648-1f4a-4feb-b60b-4ffece9d3443",
@@ -2373,7 +2721,7 @@
     "papers": null,
     "year": "2025-09-04",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-9d2c8ee9-79c0-402b-afaa-b6d8989ca303",
@@ -2392,7 +2740,7 @@
     "papers": "Papers",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-9f80a018-b174-4eab-a87e-7855bcfac8cb",
@@ -2420,7 +2768,7 @@
     "papers": "Card",
     "year": "2020-09-11",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-2c331019-c50e-4940-8047-f7ddddfb1a23",
@@ -2448,7 +2796,7 @@
     "papers": "Papers",
     "year": "2019-10-14",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-4472a2d8-7709-4991-b381-31ac2911517a",
@@ -2476,7 +2824,7 @@
     "papers": "Card",
     "year": "2024-05-28",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-6125623b-d126-4cef-b3a8-84f2308ef841",
@@ -2495,7 +2843,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-88bd5e65-af09-481d-b566-0f87b6c0f858",
@@ -2514,7 +2862,7 @@
     "papers": "Papers",
     "year": "2016-04-20",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-111b44c1-54f8-461a-80ea-6caa34dc904f",
@@ -2542,7 +2890,7 @@
     "papers": "Card",
     "year": "2026-01-01",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-91b24463-5b80-41b0-884e-d9c9ceff3655",
@@ -2561,7 +2909,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-89a64b7a-d35a-4ba5-9fe6-859818bc229b",
@@ -2589,7 +2937,7 @@
     "papers": "Card",
     "year": "2024-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-b3d723a7-26a7-4452-9802-3a4a5882b8dd",
@@ -2617,7 +2965,35 @@
     "papers": "No",
     "year": "2005-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:46.566Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
+  },
+  {
+    "id": "yur-77a3c891-f7ce-404d-a0b9-96eab787542e",
+    "source": "YurWatches",
+    "sourceDetail": "yurwatches.elefta.store",
+    "brand": "Rolex",
+    "model": "SkyDweller",
+    "ref": "326934",
+    "title": "Rolex SkyDweller 326934",
+    "price": null,
+    "url": "https://yurwatches.elefta.store/store/328b6e",
+    "imageUrl": {
+      "id": "e8249e0e-0624-49c8-9eb6-e53448e05f0c",
+      "name": "E5f04882_1A.jpg",
+      "order": 1,
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/rj80nmyu62s8q1sia98ixplsge6j",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/rj80nmyu62s8q1sia98ixplsge6j",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/rj80nmyu62s8q1sia98ixplsge6j?variant=thumb",
+      "type": "image/jpeg",
+      "private": false
+    },
+    "condition": "Good",
+    "dialColor": "Blue",
+    "box": null,
+    "papers": "No",
+    "year": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-910c90d1-141b-4778-815b-9cf9d1f89cdd",
@@ -2645,7 +3021,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-de8c93de-b29e-4a88-8879-689f0e4d3d24",
@@ -2673,7 +3049,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-28704d10-0353-4d5d-8f7b-3d20a1ea5dba",
@@ -2701,7 +3077,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-44e1a49f-76df-4d50-a185-366c3c3727d8",
@@ -2729,7 +3105,7 @@
     "papers": "Card",
     "year": "2021-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-4bbeedd9-1ee1-4e5e-a129-a8ad0b2c1628",
@@ -2757,7 +3133,7 @@
     "papers": "Card",
     "year": "2021-11-17",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-59488d2e-d3f6-445a-8115-318681b031fd",
@@ -2785,7 +3161,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-3ec29dba-4528-439d-8e29-f9bb780e64fb",
@@ -2813,7 +3189,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-b6498cc8-146b-4328-b751-72b6a9d6af21",
@@ -2841,7 +3217,7 @@
     "papers": "Card",
     "year": "2026-05-18",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-a831087e-0c44-49e9-b3f1-f134f4ef676b",
@@ -2869,7 +3245,7 @@
     "papers": "Certified Pre Owned Card",
     "year": "2026-03-13",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-2e5372ee-51a8-423f-a12a-476f357b1b52",
@@ -2897,7 +3273,7 @@
     "papers": "Card",
     "year": "2026-08-19",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-71701445-81c3-4c94-9273-5ab3f0c4a1b5",
@@ -2925,7 +3301,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-225bdbc6-5120-436e-ac03-c4e3ebd40b4a",
@@ -2953,7 +3329,7 @@
     "papers": "Card",
     "year": "2013-10-05",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-d0db029a-ed12-4f62-80dc-1d8f059372d3",
@@ -2981,7 +3357,7 @@
     "papers": "Card",
     "year": "2023-06-07",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-f30509d1-b49f-4d19-94bb-5538ad01c922",
@@ -3009,7 +3385,7 @@
     "papers": "Card",
     "year": "2018-03-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-1126a7d8-0523-4c78-8b63-db237437caae",
@@ -3037,7 +3413,7 @@
     "papers": "Card",
     "year": "2026-06-11",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-a8e853bb-3719-47a1-9779-0c1f060787f1",
@@ -3065,7 +3441,7 @@
     "papers": "Card",
     "year": "2026-08-13",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-7dbcd567-7b33-4a30-a5c4-0bd45088a752",
@@ -3084,7 +3460,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-6adb5975-b919-48db-adba-e33e5741a62f",
@@ -3112,7 +3488,7 @@
     "papers": "Papers",
     "year": "2008-04-01",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-f9a637bc-44af-42c6-8a59-c0e94280067e",
@@ -3140,7 +3516,7 @@
     "papers": "Card",
     "year": "2018-12-14",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-8685360d-ef05-4565-840a-35c3e805dba6",
@@ -3168,7 +3544,7 @@
     "papers": "Card",
     "year": "2018-12-21",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-31bb2362-bad2-42a1-91c4-c061f8dd0a70",
@@ -3196,7 +3572,7 @@
     "papers": "Card",
     "year": "2021-11-09",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-03e323d4-8c45-4b25-b171-50109c348b05",
@@ -3224,7 +3600,7 @@
     "papers": "Card",
     "year": "2013-09-07",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-077d290a-6318-49b6-950d-dcdb9c118800",
@@ -3252,7 +3628,7 @@
     "papers": "Card",
     "year": "2012-10-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-29c0b933-137f-4054-9d4f-9f2d3c8a23a5",
@@ -3280,35 +3656,7 @@
     "papers": "Card (New Style Green)",
     "year": "2022-07-09",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
-  },
-  {
-    "id": "yur-c8824f63-1c5a-40fd-86b0-4f5df66d42e8",
-    "source": "YurWatches",
-    "sourceDetail": "yurwatches.elefta.store",
-    "brand": "Rolex",
-    "model": "Oyster Perpetual 36",
-    "ref": "126000",
-    "title": "Rolex Oyster Perpetual 36 126000",
-    "price": 15750,
-    "url": "https://yurwatches.elefta.store/store/328b6e",
-    "imageUrl": {
-      "id": "fb0af6b5-c5db-4365-a45e-bd87901f1a12",
-      "name": "P6z79088_1A.jpg",
-      "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/evd3hdkjlrqs1p2ognqvk8t2czvm",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/evd3hdkjlrqs1p2ognqvk8t2czvm",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/evd3hdkjlrqs1p2ognqvk8t2czvm?variant=thumb",
-      "type": "image/jpeg",
-      "private": false
-    },
-    "condition": "Excellent",
-    "dialColor": "Turquoise Blue Index",
-    "box": null,
-    "papers": "Card",
-    "year": "2026-08-11",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-dae2b502-e832-4d5e-85a4-39b82b29b249",
@@ -3336,7 +3684,7 @@
     "papers": "Card",
     "year": "2026-08-11",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-ca320aad-f9ad-4de2-a1ce-446e1f9b16d8",
@@ -3364,7 +3712,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-043d1358-c561-4929-9ce5-486ac4f1a32e",
@@ -3392,7 +3740,7 @@
     "papers": "Card",
     "year": "2016-12-20",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-a211250b-9dfe-4b9c-8287-f76b6b25c6c0",
@@ -3420,7 +3768,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-b9d12a9e-afba-49c8-a1a3-4693b158bd4b",
@@ -3448,7 +3796,7 @@
     "papers": "Card",
     "year": "2026-04-10",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-fcbf6c16-9658-429e-a98b-736916b0331d",
@@ -3476,7 +3824,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-dccedd17-4d27-4be8-94d7-1fb3ff8cd09b",
@@ -3504,7 +3852,7 @@
     "papers": "Card",
     "year": "2019-07-22",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-c5e79ff5-1c72-4355-ba85-51633489e1c2",
@@ -3532,7 +3880,7 @@
     "papers": "Card",
     "year": "2022-10-11",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-df2facb1-a660-4a1c-9f6c-5eb555cf6fbe",
@@ -3560,7 +3908,7 @@
     "papers": "Card",
     "year": "2020-01-07",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-48822bfe-6d3b-4c57-8ec0-45b2b4b243e0",
@@ -3588,7 +3936,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:57.789Z"
   },
   {
     "id": "yur-8300d7ab-675b-4a73-84a9-37989ec58b17",
@@ -3616,7 +3964,7 @@
     "papers": "No",
     "year": "1965-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-fc6b773d-cfab-4dfd-8f30-e88cb4b6a221",
@@ -3644,7 +3992,7 @@
     "papers": "Papers",
     "year": "1974-12-30",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-9daa2e6f-24a5-46c6-81d3-814d5b4aa512",
@@ -3672,7 +4020,7 @@
     "papers": "No",
     "year": "1965-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-1da6f637-f955-4113-8b03-c4a1b00f842c",
@@ -3700,7 +4048,7 @@
     "papers": "Papers",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-8a33be51-b9a3-475b-86a6-f50386d8d513",
@@ -3719,7 +4067,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-41924038-6155-4a02-8394-c3c9a5905362",
@@ -3747,7 +4095,7 @@
     "papers": "Card",
     "year": "2022-02-13",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-06d39b0b-0c29-4db2-bd15-2808840fa072",
@@ -3775,7 +4123,7 @@
     "papers": null,
     "year": "2025-02-27",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-fa6c233d-7477-4df2-8a03-de99683be3f7",
@@ -3803,7 +4151,7 @@
     "papers": "Card",
     "year": "2023-05-03",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-695725a3-3a3a-421f-a094-a2001298ea7a",
@@ -3831,7 +4179,7 @@
     "papers": "Card",
     "year": "2025-08-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-6117b1f0-2c02-4693-9569-9c7fd8f59511",
@@ -3859,7 +4207,7 @@
     "papers": "Card",
     "year": "2026-07-22",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-72e8beb3-a35f-482f-8b48-cda6c0267653",
@@ -3887,7 +4235,7 @@
     "papers": "Card",
     "year": "2026-04-11",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-f9ed353f-3fa7-4954-b914-6d120f2345d9",
@@ -3915,35 +4263,7 @@
     "papers": "Card",
     "year": "2026-07-04",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
-  },
-  {
-    "id": "yur-62ba1677-3ccb-413e-a49b-6cd3656c5153",
-    "source": "YurWatches",
-    "sourceDetail": "yurwatches.elefta.store",
-    "brand": "Rolex",
-    "model": "Submariner",
-    "ref": "116610LN",
-    "title": "Rolex Submariner 116610LN",
-    "price": null,
-    "url": "https://yurwatches.elefta.store/store/328b6e",
-    "imageUrl": {
-      "id": "0da9a023-1116-49f1-b071-87cc11e2a845",
-      "name": "2T1K1035_1A.jpg",
-      "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/7weu1rsy1dct64h37j20zodil2sm",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/7weu1rsy1dct64h37j20zodil2sm",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/7weu1rsy1dct64h37j20zodil2sm?variant=thumb",
-      "type": "image/jpeg",
-      "private": false
-    },
-    "condition": "Good",
-    "dialColor": "Black",
-    "box": null,
-    "papers": "Card",
-    "year": "2013-12-31",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-4c3c8d50-6364-4f55-b6ef-77b6e9992ec9",
@@ -3971,7 +4291,7 @@
     "papers": "Card",
     "year": "2022-04-05",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-7f3dc2b5-891e-4d9d-a8a6-c3c0d3dbef2d",
@@ -3990,7 +4310,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:47.792Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-2d65da41-34e4-4b3c-8117-0ee67575021a",
@@ -4018,7 +4338,7 @@
     "papers": "Card",
     "year": "2024-08-28",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-c5ff4303-aa85-4e2e-bee8-3548503e7b7e",
@@ -4046,7 +4366,7 @@
     "papers": "Card",
     "year": "2024-01-12",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-c27df6f6-d776-4f63-81d9-a0208d353535",
@@ -4074,7 +4394,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-b82e73e3-8562-42ee-9985-0299c6865007",
@@ -4102,7 +4422,7 @@
     "papers": "Card",
     "year": "2015-05-25",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-d43d585e-df4a-4f80-93ab-a6a5af40db01",
@@ -4130,7 +4450,7 @@
     "papers": "Card",
     "year": "2018-02-04",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-68f88733-fd55-497e-8503-ee49c843a8ac",
@@ -4158,7 +4478,7 @@
     "papers": "Card (New Style Green)",
     "year": "2022-02-11",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-a7b8bb2d-9ae8-4419-9880-6f5a695a00c6",
@@ -4186,7 +4506,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-d00cc9f4-1342-4ef5-bbf3-35bae989f742",
@@ -4214,7 +4534,7 @@
     "papers": "Card",
     "year": "2026-04-03",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-ac3adbbf-b420-467d-ac07-b26725b692aa",
@@ -4236,13 +4556,13 @@
       "type": "image/jpeg",
       "private": false
     },
-    "condition": null,
+    "condition": "Good",
     "dialColor": "Blue",
     "box": null,
     "papers": "Card",
     "year": "2023-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-9f042c38-1d9f-4d5f-8c37-c83a4845d438",
@@ -4264,13 +4584,13 @@
       "type": "image/jpeg",
       "private": false
     },
-    "condition": null,
+    "condition": "Good",
     "dialColor": "Silver",
     "box": null,
     "papers": "Papers",
     "year": "2015-07-26",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-3985fdf6-f30b-4089-b73b-303968554359",
@@ -4298,7 +4618,7 @@
     "papers": null,
     "year": "2024-09-18",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-3fe0fed4-a33b-4585-81d4-aef5461386b3",
@@ -4326,7 +4646,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-73f5a19f-00f2-4d35-9e4f-3b4faee226ca",
@@ -4354,7 +4674,7 @@
     "papers": "Card (New Style Green)",
     "year": "2023-02-15",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-dd231477-0ce7-4d8f-8d40-93ecb94192d7",
@@ -4382,7 +4702,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-8928d573-a039-4db4-9813-07f0a4d99775",
@@ -4410,7 +4730,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-ea3c50e3-6d00-4d00-8ea9-1b9c6641b0c2",
@@ -4438,7 +4758,7 @@
     "papers": "Card (New Style White)",
     "year": "2017-01-01",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-054ac650-e60f-41a5-b300-09bc5653ed60",
@@ -4466,7 +4786,7 @@
     "papers": "Card",
     "year": "2022-09-14",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-0e5caf05-5533-4612-93dd-44318b5b4b04",
@@ -4494,7 +4814,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-42296bae-7320-4a0f-8915-10162d46a9b6",
@@ -4522,7 +4842,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-5d1ce33e-a0ce-4c5e-9a74-83e06740514e",
@@ -4550,7 +4870,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-80095dc6-a3a2-4689-bb39-967919ce7458",
@@ -4578,7 +4898,7 @@
     "papers": "Papers",
     "year": "2024-06-21",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-34bef3d0-8bae-46fd-b593-27e003449b9a",
@@ -4606,7 +4926,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-e1e4d944-b98c-48e7-acb2-4add36848b9f",
@@ -4625,7 +4945,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-5556ca82-1c5d-4d9e-9063-18341119ec5b",
@@ -4653,7 +4973,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-1e91164a-4a0b-462a-b744-cb5cc88d601a",
@@ -4681,7 +5001,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-977998fe-5354-49db-9a20-aa6d599f603a",
@@ -4693,23 +5013,14 @@
     "title": "Rolex GMT-Master II \"Sprite\" 126720VTNR",
     "price": null,
     "url": "https://yurwatches.elefta.store/store/328b6e",
-    "imageUrl": {
-      "id": "26cdd67f-20a6-40ed-8a40-32358d854ff3",
-      "name": "MD945397_1A.jpg",
-      "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/jpf3ikehv771j83ip7vt0eokp1sx",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/jpf3ikehv771j83ip7vt0eokp1sx",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/jpf3ikehv771j83ip7vt0eokp1sx?variant=thumb",
-      "type": "image/jpeg",
-      "private": false
-    },
+    "imageUrl": null,
     "condition": "Good",
     "dialColor": "Black",
     "box": null,
     "papers": "Card",
     "year": "2024-06-28",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-dc54172e-a987-44fa-a4dc-02e765986614",
@@ -4737,7 +5048,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-3cc61b0e-a19d-469d-bc17-e6875ad01a87",
@@ -4765,7 +5076,7 @@
     "papers": "No",
     "year": "2008-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-fe42b711-f665-4090-b29b-0605ba23d477",
@@ -4793,7 +5104,7 @@
     "papers": "No",
     "year": "2003-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-76416c45-ffde-4e88-aac8-8cef25011fad",
@@ -4821,7 +5132,7 @@
     "papers": "No",
     "year": "2005-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-0dfd8883-f2a3-471a-b9d0-16dcb655ed69",
@@ -4849,7 +5160,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-e2792cad-a993-40e3-a814-8e6dbdd88295",
@@ -4877,7 +5188,7 @@
     "papers": "No",
     "year": "2008-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-f008d62e-0bfb-4896-9073-10ba7d0cce39",
@@ -4905,7 +5216,7 @@
     "papers": "No",
     "year": "2003-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-5a68a462-ed86-4078-b49a-cbf90c9215cf",
@@ -4933,7 +5244,7 @@
     "papers": "No",
     "year": "2008-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-ec692159-ebc8-4cd0-be9f-618f31b8f116",
@@ -4961,7 +5272,7 @@
     "papers": "No",
     "year": "2008-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-b005e146-79b2-4795-9147-17fc4c26ea88",
@@ -4989,7 +5300,7 @@
     "papers": "No",
     "year": "2003-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:24:59.046Z"
   },
   {
     "id": "yur-3baff9a9-c5d2-42a3-bd63-0d7a5dc430bc",
@@ -5017,7 +5328,7 @@
     "papers": "No",
     "year": "2007-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:25:00.180Z"
   },
   {
     "id": "yur-bd5da921-93dd-4f6c-a0ae-9591a4638e3f",
@@ -5045,7 +5356,7 @@
     "papers": "No",
     "year": "2006-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:25:00.180Z"
   },
   {
     "id": "yur-9c93a982-f58e-4215-8427-f8b3e2c8914b",
@@ -5073,7 +5384,7 @@
     "papers": "No",
     "year": "2007-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:25:00.180Z"
   },
   {
     "id": "yur-34dbdaf2-ddfb-46ba-bdd6-4b23350a663b",
@@ -5101,7 +5412,7 @@
     "papers": "No",
     "year": "2006-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:25:00.180Z"
   },
   {
     "id": "yur-7d1c9692-23b8-406a-aa73-69f33a1568a7",
@@ -5129,7 +5440,7 @@
     "papers": "Card",
     "year": "2026-07-06",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:25:00.180Z"
   },
   {
     "id": "yur-125e7a48-b107-4db8-872e-c18e03656a8c",
@@ -5157,7 +5468,7 @@
     "papers": "Card",
     "year": "2025-02-28",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:25:00.180Z"
   },
   {
     "id": "yur-b89c1012-dc9c-4a89-ae16-e95bbd8bcdcc",
@@ -5185,7 +5496,7 @@
     "papers": "Papers",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:25:00.180Z"
   },
   {
     "id": "yur-61f00311-5a52-453b-9f29-f3e12cdd939d",
@@ -5213,7 +5524,7 @@
     "papers": "Card (New Style Green)",
     "year": "2020-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:25:00.180Z"
   },
   {
     "id": "yur-297efb2a-359c-408d-b04e-8c1ba26f61d0",
@@ -5241,7 +5552,7 @@
     "papers": "Card (Old Green)",
     "year": "2014-10-10",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:25:00.180Z"
   },
   {
     "id": "yur-be563c1d-2b68-4249-bc49-4424ecc17c9d",
@@ -5269,7 +5580,7 @@
     "papers": null,
     "year": "2025-09-06",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:25:00.180Z"
   },
   {
     "id": "yur-6c702a4c-2ac3-4ae1-a71b-7f04056641e4",
@@ -5297,7 +5608,7 @@
     "papers": "Card",
     "year": "2021-06-02",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-b88ee31b-4755-430d-bf64-222d23f99553",
@@ -5325,7 +5636,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-c08b07f0-0205-46dd-b6b4-46e9eed66dfa",
@@ -5353,7 +5664,7 @@
     "papers": "Papers",
     "year": "1992-01-20",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-7e8e25d1-ad26-4577-9cc0-b8c86ef4ce57",
@@ -5381,7 +5692,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:48.960Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-bd7cc1bc-73c5-47d4-8f67-93a267c4822d",
@@ -5400,7 +5711,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-08049991-ceae-4859-8d52-fa22f494f50f",
@@ -5428,7 +5739,7 @@
     "papers": "Card",
     "year": "2021-02-02",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-c61d5ab8-33d6-42c1-b011-de042ad9a417",
@@ -5456,7 +5767,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-7008ffe5-75b0-4cd5-bc36-5f32cf9e3677",
@@ -5475,7 +5786,7 @@
     "papers": "Papers",
     "year": "1989-07-17",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-74d80e5a-c78c-4324-913d-ed869c6471a9",
@@ -5503,7 +5814,7 @@
     "papers": "Card",
     "year": "2018-07-05",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-efeaa70b-616b-4445-a46c-8dc4c8c0bbf6",
@@ -5531,7 +5842,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-bb3d34ef-ccb5-42af-a43c-ca1c524e99c2",
@@ -5559,7 +5870,7 @@
     "papers": "Card",
     "year": "2024-04-28",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-dd6c41a8-1cc9-45ec-bc0d-22349cf8c9ba",
@@ -5578,7 +5889,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-1a934153-bbca-4300-ab6e-7ae134f9aa84",
@@ -5606,7 +5917,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-08733e1c-0d50-4471-b9da-43eb4ce2a6b1",
@@ -5625,7 +5936,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-4dcd2dee-2ba3-4854-a1ac-54f4e5b99cdb",
@@ -5644,7 +5955,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-241a646c-f2ac-41e5-9bd9-84b61f28cd02",
@@ -5672,7 +5983,7 @@
     "papers": "Card",
     "year": "2025-08-09",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-48ce43a4-6b2d-4e27-9b66-6c515fceccfa",
@@ -5691,7 +6002,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-8ee4a668-efaf-4844-a3eb-1a68adda3756",
@@ -5710,7 +6021,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-1a5fbf59-5f2f-47f3-9406-f2f89606be0c",
@@ -5738,7 +6049,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-49351360-26aa-455e-a90d-c7965956fd03",
@@ -5766,7 +6077,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-a00a6237-74ec-44c2-b855-948c3191574a",
@@ -5785,7 +6096,7 @@
     "papers": "Card",
     "year": "2015-05-22",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-ee775cb6-a989-4e46-9f2d-30aa4baf511c",
@@ -5804,7 +6115,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-3e11a13d-12dc-455c-b767-abcfdf14ba19",
@@ -5832,7 +6143,7 @@
     "papers": "Card",
     "year": "2022-09-16",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-c4c81dc1-dff6-4d32-b022-76fb628d5d39",
@@ -5860,7 +6171,7 @@
     "papers": "Card",
     "year": "2020-11-30",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-92fc5838-8ef1-419b-bb4e-88876832341b",
@@ -5888,7 +6199,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-a7cd5b9c-861d-4026-92a9-2dbd4a4d7e57",
@@ -5916,7 +6227,7 @@
     "papers": "Papers",
     "year": "2006-12-16",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-f394166c-0313-4f03-83fe-d2c561ef2d21",
@@ -5935,7 +6246,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-87e6cbe7-0ef5-4b57-923d-852f2d047d3f",
@@ -5954,7 +6265,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-8b235b12-1a4d-488d-8071-2d65d8be23b0",
@@ -5973,7 +6284,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-f41820f5-c059-4744-93db-1ce57ba298b8",
@@ -5992,7 +6303,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-a006ace5-26c7-4f70-a134-856a88145162",
@@ -6020,7 +6331,7 @@
     "papers": "Certified Pre Owned Card",
     "year": "2024-08-10",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-20a96a23-a592-4017-a1c2-906579db3cff",
@@ -6048,7 +6359,7 @@
     "papers": "Card",
     "year": "2025-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-5eb2eefe-6aea-49a6-af20-6c9543560629",
@@ -6076,7 +6387,7 @@
     "papers": "Card",
     "year": "2025-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-16cd8417-f56f-4f20-b2fe-eef75ce10b91",
@@ -6104,7 +6415,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-8f4951f5-60ac-4b7d-a436-e3345a69cfb5",
@@ -6132,7 +6443,7 @@
     "papers": "Card",
     "year": "2022-11-14",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-e94a2a97-436d-435d-9c2a-010f35b8bdcd",
@@ -6160,7 +6471,7 @@
     "papers": "Papers",
     "year": "2017-01-16",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-86d9adc3-6d85-471e-8ee2-ae91b441315e",
@@ -6188,7 +6499,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-8399c4e0-4f72-4600-a99e-308a0343e612",
@@ -6216,7 +6527,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-b21caf61-4dcc-43c7-8252-57cbb1a6ee3f",
@@ -6244,7 +6555,7 @@
     "papers": "Card",
     "year": "2026-02-11",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-69806377-65a2-477c-a1e9-d7f160834b78",
@@ -6272,7 +6583,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:00.181Z"
   },
   {
     "id": "yur-37b440d1-572e-44e8-bafb-eb7157c74c4a",
@@ -6300,7 +6611,7 @@
     "papers": "No",
     "year": "2013-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-f5927ec9-1dda-417d-8c32-8d5a19dd6d78",
@@ -6328,7 +6639,7 @@
     "papers": "No",
     "year": "2020-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-7cd1310c-dd82-4d44-b6aa-86978f791366",
@@ -6356,7 +6667,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-993eb2a0-eea0-46ad-963a-a94c060ce5d6",
@@ -6384,7 +6695,7 @@
     "papers": "Card",
     "year": "2021-01-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-f6cebe60-523a-4c9a-a57e-0f84d3f1ef96",
@@ -6412,7 +6723,7 @@
     "papers": "Archives",
     "year": "2026-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-a63818db-e3bc-4b40-887b-db7320a8f460",
@@ -6431,7 +6742,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-d4cc9aaa-7410-4851-a660-366af2f73f4f",
@@ -6459,7 +6770,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-2940aff3-b5f5-4893-9e6a-d856b8b51a45",
@@ -6487,7 +6798,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-3a2e21fa-d32d-4b39-b6d8-3b2e39b641c0",
@@ -6515,7 +6826,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-00f8e532-bff3-4d6f-847a-512a25a65643",
@@ -6543,7 +6854,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-11713fe3-3f5d-4e53-be87-5db1a845a3ed",
@@ -6571,7 +6882,7 @@
     "papers": "Papers",
     "year": "2024-10-28",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-73b5b40b-4994-4ebc-af9d-9c21246de15b",
@@ -6599,7 +6910,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-f185df8d-cbe4-487e-8103-227d9e48e898",
@@ -6627,7 +6938,7 @@
     "papers": "Card",
     "year": "2024-09-26",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-4753ce65-5f83-4131-8da4-833f0700f2ea",
@@ -6655,7 +6966,7 @@
     "papers": "Card",
     "year": "2010-11-28",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:50.028Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-52d91e72-000f-4107-9396-af2505cc3d10",
@@ -6683,7 +6994,7 @@
     "papers": "Card",
     "year": "2023-11-01",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-f1001436-75e8-4f33-b838-e2b9fc325d36",
@@ -6711,7 +7022,7 @@
     "papers": "Card",
     "year": "2010-05-21",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-df5f9f3b-a923-4606-99fc-63dacdc4ffb0",
@@ -6739,7 +7050,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-08aed070-a8d1-4ceb-a08e-22eefa3180df",
@@ -6767,7 +7078,7 @@
     "papers": "Card",
     "year": "2012-03-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-799bf3fd-7bf7-4317-abb4-710649c498f5",
@@ -6795,7 +7106,7 @@
     "papers": "Card",
     "year": "2026-06-18",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-a4a6b37a-0ea0-4a06-b379-cba93f7220d7",
@@ -6823,7 +7134,7 @@
     "papers": "Card",
     "year": "2020-12-12",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-4c2ff2ea-513b-4e6f-8a59-ff63834533fa",
@@ -6851,7 +7162,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-8abb9d6b-b24c-4032-accb-abece1543bea",
@@ -6879,7 +7190,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-ecb300cf-dc0f-473a-9f3d-ec89d0f4989c",
@@ -6907,7 +7218,7 @@
     "papers": "Card (New Style Green)",
     "year": "2022-05-09",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-482718bd-1518-460c-b4ee-eca95d01c7ad",
@@ -6926,7 +7237,7 @@
     "papers": "Papers",
     "year": "2018-12-07",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-0151d8e9-2cd3-4201-8a9f-210633ae174e",
@@ -6954,7 +7265,7 @@
     "papers": "Card",
     "year": "2021-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-0647cb1d-8c18-4d5d-86e1-e0f7808551bc",
@@ -6982,7 +7293,7 @@
     "papers": "Card",
     "year": "2022-07-07",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-6070b333-e881-4f2c-9047-732fe85a23c5",
@@ -7010,7 +7321,7 @@
     "papers": "Card",
     "year": "2021-04-13",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-1e9513aa-da31-4365-a756-e668b6d0e646",
@@ -7038,7 +7349,7 @@
     "papers": "Card",
     "year": "2025-09-19",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-99c44186-b80a-4bb0-8c4e-2e2f5adff1e1",
@@ -7066,7 +7377,7 @@
     "papers": "Card",
     "year": "2017-08-13",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-74fc1280-ff6c-45e2-b00f-6e548772113c",
@@ -7094,7 +7405,7 @@
     "papers": null,
     "year": "2026-04-13",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-8c3c73ad-28c3-44ba-ac56-7fbceba6b437",
@@ -7122,7 +7433,7 @@
     "papers": "Card (New Style Green)",
     "year": "2022-03-24",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-159410df-acc3-46cb-bf23-f565125bac43",
@@ -7150,7 +7461,7 @@
     "papers": "Card",
     "year": "2018-12-20",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-f2aa5714-b785-4636-963d-9584bae45ad4",
@@ -7178,7 +7489,7 @@
     "papers": "Card",
     "year": "2025-11-07",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-52951b61-ecee-452a-9ae3-6b7f6fa7313d",
@@ -7206,7 +7517,7 @@
     "papers": null,
     "year": "2019-02-02",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-d2e3c1e5-0e03-44ad-9690-4f6a2d49521d",
@@ -7234,7 +7545,7 @@
     "papers": "No",
     "year": "1991-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-9613ab74-d59e-414b-a61c-fc4b69dd404f",
@@ -7262,7 +7573,7 @@
     "papers": "No",
     "year": "2015-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-8a0033e0-32c4-4f4e-9854-968be2bc272f",
@@ -7290,7 +7601,7 @@
     "papers": "No",
     "year": "2018-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-e2257615-2469-409a-97b0-532ea6f2a470",
@@ -7318,7 +7629,7 @@
     "papers": "No",
     "year": "2019-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-75379232-df19-4ebf-88b3-30ce706a494f",
@@ -7346,7 +7657,7 @@
     "papers": "Card (New Style Green)",
     "year": "2024-06-14",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-1416fc84-b372-41f6-b4af-7823acb58dfa",
@@ -7374,7 +7685,7 @@
     "papers": "Card",
     "year": "2020-02-23",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-941f7fc1-b0e3-4535-b19c-c7b37203a203",
@@ -7402,7 +7713,7 @@
     "papers": "Card",
     "year": "2016-03-16",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-d625db61-61f4-4b62-9ef5-2e78cfdd67c3",
@@ -7430,7 +7741,7 @@
     "papers": "Card",
     "year": "2021-04-10",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-d21b406a-a967-4e1a-a90b-f5ded09c1af0",
@@ -7449,7 +7760,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-d6d8c3cc-3e35-4a3d-941e-548fb36d6b58",
@@ -7468,35 +7779,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
-  },
-  {
-    "id": "yur-7e599e1e-8abb-4c99-9a55-02ca42544c88",
-    "source": "YurWatches",
-    "sourceDetail": "yurwatches.elefta.store",
-    "brand": "Rolex",
-    "model": "GMT-Master II Pepsi",
-    "ref": "126719BLRO",
-    "title": "Rolex GMT-Master II Pepsi 126719BLRO",
-    "price": 46250,
-    "url": "https://yurwatches.elefta.store/store/328b6e",
-    "imageUrl": {
-      "id": "8b29ae2c-dfcc-4da8-90f3-10af4111ae7b",
-      "name": "947D1363_1.jpeg",
-      "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/91izyrl8vryrv8kscdfaebsa4xec",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/91izyrl8vryrv8kscdfaebsa4xec",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/91izyrl8vryrv8kscdfaebsa4xec?variant=thumb",
-      "type": "image/jpeg",
-      "private": false
-    },
-    "condition": "Very Good",
-    "dialColor": "Blue",
-    "box": null,
-    "papers": "Card",
-    "year": "2020-09-02",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-5e85a4dc-8442-4d11-a291-40597ceef9a3",
@@ -7524,7 +7807,7 @@
     "papers": "Card",
     "year": "2023-02-08",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-56eaee16-1c67-46a6-9d33-57c90f774a54",
@@ -7552,7 +7835,7 @@
     "papers": "Card",
     "year": "2024-07-20",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-5fcf0192-342c-4106-af75-83dbbedf5b62",
@@ -7580,7 +7863,7 @@
     "papers": "Card",
     "year": "2024-01-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-920fd342-8cdd-4ece-a192-43a397038992",
@@ -7608,7 +7891,7 @@
     "papers": "Card (New Style White)",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-9995a709-4b42-437e-a8d8-bb9a4fc678e2",
@@ -7636,7 +7919,7 @@
     "papers": "Card",
     "year": "2017-01-19",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-e080d78c-a96d-4694-80ac-5803f7974d62",
@@ -7664,7 +7947,7 @@
     "papers": "Card",
     "year": "2019-07-02",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:01.756Z"
   },
   {
     "id": "yur-fcffc9ac-db68-4602-a928-c71d60069fec",
@@ -7692,7 +7975,7 @@
     "papers": "Card",
     "year": "2017-12-16",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-38e8f484-a48a-4921-abd6-0154d3bf1a36",
@@ -7720,7 +8003,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-8ef658a2-1fff-4269-9a8f-affb53c8fdb1",
@@ -7748,7 +8031,7 @@
     "papers": "Card",
     "year": "2023-04-15",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-a423d8e2-7e57-4f45-b7c7-6f452974f0f3",
@@ -7776,7 +8059,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-7f05607f-7527-47ca-b37d-40f7b6670801",
@@ -7804,7 +8087,7 @@
     "papers": "Card (New Style Green)",
     "year": "2024-12-19",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-131daafd-67d0-4c9b-847c-80ff629d18e9",
@@ -7832,7 +8115,7 @@
     "papers": "Card",
     "year": "2026-01-27",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-fafdc132-6b51-4122-bba7-3fee76848a90",
@@ -7860,7 +8143,7 @@
     "papers": "Card (New Style Green)",
     "year": "2025-07-08",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-b48ea484-6b6e-4256-a254-c1edbb65d69f",
@@ -7888,7 +8171,7 @@
     "papers": "No",
     "year": "2013-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-e220aeea-1663-457d-84ae-9c4fff59b1e7",
@@ -7916,7 +8199,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-b86103b7-d430-4c96-a0ae-2321eca31726",
@@ -7944,7 +8227,7 @@
     "papers": "No",
     "year": "1978-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-f9796380-7a87-4d0b-8781-8fcdf6559a33",
@@ -7972,7 +8255,7 @@
     "papers": "Card",
     "year": "2021-01-27",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-722a042b-ee6b-4616-b3b3-e9ba90bf0bcb",
@@ -8000,7 +8283,7 @@
     "papers": "Card (New Style White)",
     "year": "2017-12-15",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-39abc434-c737-43b3-8d3d-17e1a6edd5cb",
@@ -8019,7 +8302,7 @@
     "papers": "Card",
     "year": "2026-05-23",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:51.478Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-c273f545-f134-4a33-be1a-41a911ce344e",
@@ -8035,9 +8318,9 @@
       "id": "cd1806fa-af8a-436c-9ff8-43881271cfaa",
       "name": "stock_T070.405.16.411.00.jpg",
       "order": 1,
-      "service_url": "https://elefta-watches-production-api.s3.us-west-1.amazonaws.com/lpudf9b6ulp2ttp1avjaso220rxf?response-content-disposition=attachment%3B%20filename%3D%22stock_T070.405.16.411.00.jpg%22%3B%20filename%2A%3DUTF-8%27%27stock_T070.405.16.411.00.jpg&response-content-type=application%2Foctet-stream&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZRIN55HHGZGLZ6AN%2F20260922%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260922T130252Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e97fad8c6616263e1b3f1f1a0dfa15767432e7dea3d133b5c00e5b209df5161e",
-      "url": "https://elefta-watches-production-api.s3.us-west-1.amazonaws.com/lpudf9b6ulp2ttp1avjaso220rxf?response-content-disposition=attachment%3B%20filename%3D%22stock_T070.405.16.411.00.jpg%22%3B%20filename%2A%3DUTF-8%27%27stock_T070.405.16.411.00.jpg&response-content-type=application%2Foctet-stream&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZRIN55HHGZGLZ6AN%2F20260922%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260922T130252Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e97fad8c6616263e1b3f1f1a0dfa15767432e7dea3d133b5c00e5b209df5161e",
-      "thumb_url": "https://elefta-watches-production-api.s3.us-west-1.amazonaws.com/lpudf9b6ulp2ttp1avjaso220rxf?response-content-disposition=attachment%3B%20filename%3D%22stock_T070.405.16.411.00.jpg%22%3B%20filename%2A%3DUTF-8%27%27stock_T070.405.16.411.00.jpg&response-content-type=application%2Foctet-stream&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZRIN55HHGZGLZ6AN%2F20260922%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260922T130252Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e97fad8c6616263e1b3f1f1a0dfa15767432e7dea3d133b5c00e5b209df5161e",
+      "service_url": "https://elefta-watches-production-api.s3.us-west-1.amazonaws.com/lpudf9b6ulp2ttp1avjaso220rxf?response-content-disposition=attachment%3B%20filename%3D%22stock_T070.405.16.411.00.jpg%22%3B%20filename%2A%3DUTF-8%27%27stock_T070.405.16.411.00.jpg&response-content-type=application%2Foctet-stream&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZRIN55HHGZGLZ6AN%2F20260923%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260923T182502Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5681cbcb2f739daf0f68fdc92e5acac006aaac5995873535114521e74280a2e8",
+      "url": "https://elefta-watches-production-api.s3.us-west-1.amazonaws.com/lpudf9b6ulp2ttp1avjaso220rxf?response-content-disposition=attachment%3B%20filename%3D%22stock_T070.405.16.411.00.jpg%22%3B%20filename%2A%3DUTF-8%27%27stock_T070.405.16.411.00.jpg&response-content-type=application%2Foctet-stream&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZRIN55HHGZGLZ6AN%2F20260923%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260923T182502Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5681cbcb2f739daf0f68fdc92e5acac006aaac5995873535114521e74280a2e8",
+      "thumb_url": "https://elefta-watches-production-api.s3.us-west-1.amazonaws.com/lpudf9b6ulp2ttp1avjaso220rxf?response-content-disposition=attachment%3B%20filename%3D%22stock_T070.405.16.411.00.jpg%22%3B%20filename%2A%3DUTF-8%27%27stock_T070.405.16.411.00.jpg&response-content-type=application%2Foctet-stream&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZRIN55HHGZGLZ6AN%2F20260923%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260923T182502Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5681cbcb2f739daf0f68fdc92e5acac006aaac5995873535114521e74280a2e8",
       "type": "application/xml",
       "private": false
     },
@@ -8047,7 +8330,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-7bcceabd-7b6a-4b5e-abb1-ed1c67735cd9",
@@ -8075,7 +8358,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-211e9f81-1140-4f92-a1fa-722fa894976f",
@@ -8103,7 +8386,7 @@
     "papers": "Card (New Style Green)",
     "year": "2022-04-20",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-0ebf65b8-6f53-4eb5-a9e0-3eae50133032",
@@ -8131,7 +8414,7 @@
     "papers": "Card",
     "year": "2021-01-22",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-48d6fca7-ff17-46f3-b096-3fdc4fe4add2",
@@ -8159,7 +8442,7 @@
     "papers": "Card",
     "year": "2016-01-18",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-24fae4fe-7c19-4cc8-b47f-0b33f800a27c",
@@ -8187,7 +8470,7 @@
     "papers": "No",
     "year": "2013-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-3e55fbc8-32a6-4a28-93e8-65a84d7b0759",
@@ -8215,7 +8498,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-c1409c85-ee8d-401c-99cc-0522136830ea",
@@ -8243,7 +8526,7 @@
     "papers": "Card (New Style Green)",
     "year": "2022-09-20",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-ff3a391d-74f0-4d24-b500-047978992a1b",
@@ -8271,7 +8554,7 @@
     "papers": "No",
     "year": "2017-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-10def0ca-59b2-42d7-9889-2a087860d544",
@@ -8299,7 +8582,7 @@
     "papers": "No",
     "year": "2002-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-12e0e278-be9b-4118-9932-ab618e4f937d",
@@ -8327,7 +8610,7 @@
     "papers": "Card",
     "year": "2017-12-12",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-3d14a7d1-b62b-4cbe-b7a7-d9e342fdb904",
@@ -8355,7 +8638,7 @@
     "papers": "Card",
     "year": "2018-07-21",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.429Z"
   },
   {
     "id": "yur-6360cb57-1eb1-4e69-8ffb-b233b2ab7c4a",
@@ -8383,7 +8666,7 @@
     "papers": "Card",
     "year": "2021-11-30",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-b45fc10f-3666-4b30-9809-e96c3b593acc",
@@ -8411,7 +8694,7 @@
     "papers": "Card",
     "year": "2019-11-16",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-b6d16024-b22f-4367-8898-af8004be12a7",
@@ -8439,7 +8722,7 @@
     "papers": "Card",
     "year": "2019-12-21",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-6e1159be-02ff-4057-96d3-f77eddd87211",
@@ -8458,7 +8741,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-8ac6dc39-d184-42e8-b3ae-45793aa52f14",
@@ -8477,7 +8760,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-a407de40-f9e9-4462-abbd-458530049da6",
@@ -8505,7 +8788,7 @@
     "papers": "Papers",
     "year": "2006-11-30",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-3601d079-9218-48db-a5c8-334fdff882c8",
@@ -8533,7 +8816,7 @@
     "papers": "Card (New Style White)",
     "year": "2015-09-08",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-68aa9f11-8513-4ac2-b69c-2961274783d9",
@@ -8552,7 +8835,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-8f51afd3-381f-4b0a-b7ca-708208aa2f0d",
@@ -8571,7 +8854,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-b4a26498-af40-4f3f-8bb3-edf036caaa32",
@@ -8599,7 +8882,7 @@
     "papers": "Card (New Style Green)",
     "year": "2021-06-03",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.802Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-1732950e-cabd-4bd1-a3cf-5d623132007b",
@@ -8627,7 +8910,7 @@
     "papers": "No",
     "year": "2005-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-b96be186-b373-4df5-8e5d-5e443b72f496",
@@ -8655,7 +8938,7 @@
     "papers": "Card",
     "year": "2023-08-28",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-e8849738-ff27-414b-aafd-c4e9cc1d156e",
@@ -8674,7 +8957,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-216ed04e-6c80-46d8-b935-de1decf069c4",
@@ -8693,7 +8976,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-c14d99f1-7b64-4629-bb1d-1c307ce14de0",
@@ -8721,7 +9004,7 @@
     "papers": "Card",
     "year": "2024-06-28",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-8a2bae7d-c7a8-4b9b-a5f7-08bab7e74d9e",
@@ -8749,7 +9032,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-7cfb7dd1-d4ec-446b-b0c3-162709eafe56",
@@ -8768,7 +9051,7 @@
     "papers": "Papers",
     "year": "2006-12-23",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-26c8d8b9-598d-442e-8c4c-7516b0850ed5",
@@ -8787,7 +9070,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-28ba516c-b42f-46b2-ba00-c24a692cec23",
@@ -8815,7 +9098,7 @@
     "papers": "Card",
     "year": "2018-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-fea9dcb4-5b48-42ac-98fb-c077db074b92",
@@ -8843,7 +9126,7 @@
     "papers": "Papers",
     "year": "2005-11-28",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-bf12ed04-29c2-48da-97da-5098b89f0708",
@@ -8871,7 +9154,7 @@
     "papers": "Card",
     "year": "2023-11-24",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-9071b234-9826-4cf4-89db-e12fe694f935",
@@ -8899,7 +9182,7 @@
     "papers": "Card",
     "year": "2024-12-21",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-d3507577-8c28-4b95-9db9-fdeecb464a03",
@@ -8927,7 +9210,7 @@
     "papers": "Card",
     "year": "2022-03-29",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-b61936b5-e531-4301-853e-193454afc22e",
@@ -8955,7 +9238,7 @@
     "papers": "Card",
     "year": "2015-01-05",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-c95c0a66-95a0-4e00-b368-fd140265ff98",
@@ -8983,7 +9266,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:03.430Z"
   },
   {
     "id": "yur-02332d04-5456-48e7-b924-c564473a549b",
@@ -9011,7 +9294,7 @@
     "papers": "Card",
     "year": "2014-11-16",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-70ae6cf1-aaf7-4971-891c-f8b38057e535",
@@ -9039,7 +9322,7 @@
     "papers": "No",
     "year": "2013-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-afb7f7f2-fb92-48d5-94b2-6fad4544be9c",
@@ -9058,7 +9341,7 @@
     "papers": "No",
     "year": "2020-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-fd26d645-6897-4b1a-ba39-1e7ccd4cd2d1",
@@ -9077,7 +9360,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-07508a9e-ce8e-474a-b0a0-a2d23094c941",
@@ -9090,12 +9373,12 @@
     "price": null,
     "url": "https://yurwatches.elefta.store/store/328b6e",
     "imageUrl": {
-      "id": "2cb03937-7843-4e66-be32-e96ae4e47674",
-      "name": "T201H448_1.jpeg",
+      "id": "ef792d88-4159-4e22-9c1d-37166e01111d",
+      "name": "T201H448_01A.jpg",
       "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/33ft6imyaryjvcv0mtvfajp5y594",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/33ft6imyaryjvcv0mtvfajp5y594",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/33ft6imyaryjvcv0mtvfajp5y594?variant=thumb",
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/81078qq2kql1la1hnshxtdpr7hyj",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/81078qq2kql1la1hnshxtdpr7hyj",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/81078qq2kql1la1hnshxtdpr7hyj?variant=thumb",
       "type": "image/jpeg",
       "private": false
     },
@@ -9105,7 +9388,7 @@
     "papers": "Card",
     "year": "2025-04-23",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-7df6ffc5-681e-4dba-8269-c9ea07535b16",
@@ -9133,7 +9416,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-8bfb21f2-bfd2-4a02-b500-ca5b39ec02f4",
@@ -9161,7 +9444,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-fac41b5f-2e39-4102-9b78-b30e068be21e",
@@ -9189,7 +9472,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-80f8373a-682e-4daf-a97e-c4b98ef4ca6b",
@@ -9217,7 +9500,7 @@
     "papers": "No",
     "year": "1990-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-c964ea27-7742-4e61-87a1-beba734a7c4a",
@@ -9245,7 +9528,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-ddbc55fb-05fa-416b-98bc-e255a10d580d",
@@ -9273,7 +9556,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-82014b2f-73ed-44ea-8d63-b9216b0d969d",
@@ -9301,7 +9584,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-50060563-a65e-476f-b2e1-8a2588ef16db",
@@ -9329,35 +9612,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:52.803Z"
-  },
-  {
-    "id": "yur-a6d92152-5176-44f7-8aba-0b1d9c95dd65",
-    "source": "YurWatches",
-    "sourceDetail": "yurwatches.elefta.store",
-    "brand": "Rolex",
-    "model": "GMT-Master II Pepsi",
-    "ref": "126710BLRO",
-    "title": "Rolex GMT-Master II Pepsi 126710BLRO",
-    "price": null,
-    "url": "https://yurwatches.elefta.store/store/328b6e",
-    "imageUrl": {
-      "id": "9f2e553d-abe2-4204-adb1-02b134519ba8",
-      "name": "6H9312K2_1.jpeg",
-      "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/dp5qu8y4y6vm1j4cgt6j44ppexi5",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/dp5qu8y4y6vm1j4cgt6j44ppexi5",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/dp5qu8y4y6vm1j4cgt6j44ppexi5?variant=thumb",
-      "type": "image/jpeg",
-      "private": false
-    },
-    "condition": "Very Good",
-    "dialColor": "Black",
-    "box": null,
-    "papers": "Card",
-    "year": "2021-06-26",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-47f7ddb5-e87f-40e6-8502-cdb3a280aa12",
@@ -9385,7 +9640,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-f61058d9-1fe3-49e0-87b9-b681781ade18",
@@ -9413,7 +9668,7 @@
     "papers": "Card",
     "year": "2023-01-05",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-b587f60c-c18f-43bb-ae43-333eeb6af5fb",
@@ -9441,7 +9696,7 @@
     "papers": "Card (Old Green)",
     "year": "2008-05-07",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-1c17d3e9-0629-493e-9f9f-55c1913df46d",
@@ -9469,7 +9724,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-225452fb-659c-4599-90e7-9490b63d5120",
@@ -9497,7 +9752,7 @@
     "papers": "Card",
     "year": "2024-07-25",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-461e4e4b-66c6-4b64-8868-5af7fbc4f6e9",
@@ -9525,7 +9780,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-3a7ae7fd-caa7-40cc-87a5-24cd2c8797b4",
@@ -9544,7 +9799,7 @@
     "papers": "Card",
     "year": "2014-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-b084b4c3-6e44-4f18-9d3d-f04198eee3b8",
@@ -9563,7 +9818,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-0f13ad80-6a09-4f79-b5f0-57f864ef271c",
@@ -9591,7 +9846,7 @@
     "papers": "Card",
     "year": "2019-11-11",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-14045c2b-baf3-4e9d-a5bb-20236d861086",
@@ -9619,7 +9874,7 @@
     "papers": "No",
     "year": "2000-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-fc7154e0-5ae8-4b95-9305-e4b118094b92",
@@ -9647,7 +9902,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-e64abaf2-ead7-49e5-b6b9-d1b620ff555d",
@@ -9660,12 +9915,12 @@
     "price": null,
     "url": "https://yurwatches.elefta.store/store/328b6e",
     "imageUrl": {
-      "id": "d9fde9b2-9709-46ac-920b-80e43db80a9e",
-      "name": "stock_25940SK.OO.D002CA.02.jpg",
+      "id": "6c003d73-2ac1-44a7-9d46-0603dd7d6d33",
+      "name": "F84803_01A.jpg",
       "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/rdqjuwbgmalkdj2b1dsq8fmrm4rq",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/rdqjuwbgmalkdj2b1dsq8fmrm4rq",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/rdqjuwbgmalkdj2b1dsq8fmrm4rq?variant=thumb",
+      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/gu8lopmprg7qnc78u93qxyooz381",
+      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/gu8lopmprg7qnc78u93qxyooz381",
+      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/gu8lopmprg7qnc78u93qxyooz381?variant=thumb",
       "type": "image/jpeg",
       "private": false
     },
@@ -9675,7 +9930,7 @@
     "papers": "Papers",
     "year": "2009-12-24",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-420e0755-b27b-4681-b071-0627ba351152",
@@ -9703,7 +9958,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-d990cf00-14e7-4f7b-ac2f-cee8fdb00e6b",
@@ -9731,7 +9986,7 @@
     "papers": "Card",
     "year": "2022-06-12",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-47811743-cafd-49fb-b9a2-86818cf0a5d2",
@@ -9759,7 +10014,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-27f1afa1-d44b-400d-a6f7-cb27b96cc31c",
@@ -9778,7 +10033,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-fe85e8d4-b929-4e50-939c-a6547bf33cfd",
@@ -9806,7 +10061,7 @@
     "papers": "Card",
     "year": "2026-03-04",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-3b53b764-5a1e-4326-bd45-9be01c91c680",
@@ -9825,7 +10080,7 @@
     "papers": "Papers",
     "year": "2026-02-27",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-84cbbbc0-5e97-430f-b988-3f646e9880e2",
@@ -9853,7 +10108,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-c4046f7a-2164-451e-9eea-09be2f39985e",
@@ -9881,7 +10136,7 @@
     "papers": "Card",
     "year": "2024-09-08",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-2322d9a0-27df-4a86-b7ec-1d31946ce86b",
@@ -9909,7 +10164,7 @@
     "papers": "Card",
     "year": "2014-02-10",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-138d95ff-82e4-449d-b5d5-048647a9e256",
@@ -9937,7 +10192,7 @@
     "papers": "Card",
     "year": "2021-03-20",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-591d54b8-7a8a-4d63-a726-d845c759a777",
@@ -9965,7 +10220,7 @@
     "papers": "Card",
     "year": "2024-06-17",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-77108e83-5e86-43d2-be7a-3980f03e0e08",
@@ -9993,7 +10248,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-b0cea946-1e28-42bd-88c7-8741948e43d0",
@@ -10021,7 +10276,7 @@
     "papers": "Card",
     "year": "2020-07-01",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-ab2d9df0-ba25-4329-8447-b2eab48444bb",
@@ -10049,7 +10304,7 @@
     "papers": "Card",
     "year": "2019-06-24",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-96c87b1a-a3d3-4f0f-b676-055e5107e3e0",
@@ -10077,7 +10332,7 @@
     "papers": "Card",
     "year": "2016-07-09",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-e3b96262-cdb4-478a-a4f5-4092711cb6f9",
@@ -10096,7 +10351,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-80fcc3d7-d1fc-4f5f-b59d-afdcf63e87d1",
@@ -10115,7 +10370,7 @@
     "papers": "Certified Pre Owned Card",
     "year": "2026-01-21",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-d10292aa-3b27-4b12-825e-0c6c784fa58c",
@@ -10143,7 +10398,7 @@
     "papers": "Card",
     "year": "2025-07-05",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-844e511a-c9cf-49b6-bf33-0c65abb1cc18",
@@ -10171,7 +10426,7 @@
     "papers": "Card",
     "year": "2026-02-28",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-d505808d-f713-4b3d-a001-99f335f8592b",
@@ -10199,7 +10454,7 @@
     "papers": "Papers",
     "year": "1979-06-22",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-4cdebdf4-564d-41e7-b486-11928561c02e",
@@ -10227,7 +10482,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-f6e1d525-5398-4552-ace5-3f0499e06082",
@@ -10255,7 +10510,7 @@
     "papers": "No",
     "year": "1988-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-7f649c42-703d-405a-a5d7-e6b1e65d51d3",
@@ -10283,7 +10538,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-482a4dbd-33ea-4719-b5d5-435d3229d88b",
@@ -10311,7 +10566,7 @@
     "papers": "Card",
     "year": "2019-12-26",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-94b2d0e8-a7c0-4362-bbba-4f303834d4f5",
@@ -10339,7 +10594,7 @@
     "papers": "Card",
     "year": "2024-08-24",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:04.849Z"
   },
   {
     "id": "yur-d92cc2da-9dce-4466-946d-99b2730de120",
@@ -10367,7 +10622,7 @@
     "papers": "No",
     "year": "1971-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-22a81d30-645a-494e-b1a4-91b5c252f233",
@@ -10395,7 +10650,7 @@
     "papers": "Papers",
     "year": "2007-01-22",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-60a2a946-751f-4d39-a27d-6d959bc0aa12",
@@ -10423,7 +10678,7 @@
     "papers": "Card",
     "year": "2025-12-21",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-865df250-a31a-4b3d-8cec-9faddd83d70e",
@@ -10451,7 +10706,7 @@
     "papers": "Card",
     "year": "2026-01-04",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-7d0ad470-5981-4901-b7b8-9418944d2935",
@@ -10470,7 +10725,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-8049a4d4-68c3-4d91-8d8e-299689514020",
@@ -10498,7 +10753,7 @@
     "papers": "Card",
     "year": "2021-09-29",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-8b446eab-0d11-4d06-8b51-bdf965f1dbd3",
@@ -10526,7 +10781,7 @@
     "papers": "Card",
     "year": "2024-12-15",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-b262a2db-5267-4192-bd1d-a4f67a02bfc9",
@@ -10554,7 +10809,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-78352f32-5e9d-4759-9d6d-bf39b69f66b5",
@@ -10582,7 +10837,7 @@
     "papers": "Papers",
     "year": "2012-10-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-4260ddb3-0280-42eb-b059-87dddd494a10",
@@ -10610,7 +10865,7 @@
     "papers": "Card",
     "year": "2014-08-15",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-2e6e939b-4f00-4780-9346-41e62805cd91",
@@ -10638,7 +10893,7 @@
     "papers": "No",
     "year": "1983-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-0e52185c-bc55-43e9-b275-e0193d0075e8",
@@ -10666,7 +10921,7 @@
     "papers": "Card",
     "year": "2023-05-16",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:54.147Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-f8d03652-3bfe-4584-97f5-3544fba948b3",
@@ -10694,7 +10949,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-e7fd65d4-6c1f-4728-ae89-667458a3c582",
@@ -10722,7 +10977,7 @@
     "papers": "No",
     "year": "1999-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-6f5e47ad-be32-4744-883d-49892f06edb9",
@@ -10750,7 +11005,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-5016ca80-e1a5-4d00-b735-1d6df715e702",
@@ -10769,7 +11024,7 @@
     "papers": "No",
     "year": "2010-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-5b201c8b-8a7d-43b2-9d96-0ffe53f90cdd",
@@ -10797,7 +11052,7 @@
     "papers": "Card",
     "year": "2021-10-29",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-6933238e-6129-41b7-9d62-c56f42e86046",
@@ -10825,7 +11080,7 @@
     "papers": "Card",
     "year": "2020-03-09",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-23232c5a-feb5-4538-bae8-a3d925379fb9",
@@ -10853,7 +11108,7 @@
     "papers": "Card",
     "year": "2022-04-15",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-a364a64d-4df2-4a59-947b-f3808a244212",
@@ -10881,7 +11136,7 @@
     "papers": "Card",
     "year": "2024-09-30",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-fa2dcf61-25ce-43ef-bf8f-7874fd1eabfa",
@@ -10900,7 +11155,7 @@
     "papers": "Papers",
     "year": "2021-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-e17f491c-d9be-400c-918f-68d9974d550d",
@@ -10928,7 +11183,7 @@
     "papers": "Card",
     "year": "2024-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-d432647a-5357-4ffa-9b8b-79c41af21120",
@@ -10956,7 +11211,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-9b9b4f40-6b7f-4abc-ad3e-9581fcdf2e4d",
@@ -10984,7 +11239,7 @@
     "papers": "No",
     "year": "1978-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-7fd8ca1e-bbf5-4b82-a867-203da734951e",
@@ -11012,7 +11267,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-689bbaeb-05ee-4ea0-b2ae-309c56c455e3",
@@ -11040,7 +11295,7 @@
     "papers": "Card",
     "year": "2020-11-29",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-b09a1f71-8bc0-4cc4-8144-0d4889159a93",
@@ -11068,7 +11323,7 @@
     "papers": "Card",
     "year": "2015-11-26",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-1cf15991-6360-4733-b23a-6e770857f5b2",
@@ -11096,7 +11351,7 @@
     "papers": null,
     "year": "1995-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-4b464bdf-b10e-4ff2-83c2-de6b0171cc73",
@@ -11124,7 +11379,7 @@
     "papers": "Card",
     "year": "2025-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-715188e3-bdb6-45b8-be50-0236633cc934",
@@ -11152,7 +11407,7 @@
     "papers": "Card",
     "year": "2025-12-09",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-2658fe52-eef2-4732-815d-57fac35335a9",
@@ -11180,7 +11435,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-2b62e203-f400-49ab-bdc7-0339c755298b",
@@ -11208,7 +11463,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-0665d5a8-e2c5-4c2d-aca7-758b09228994",
@@ -11236,7 +11491,7 @@
     "papers": "No",
     "year": "1995-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-4998972c-b69e-42b7-838f-bf43e8ff1e9f",
@@ -11264,7 +11519,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-84e31f95-2e66-4a96-b8c5-b74bbf2402d3",
@@ -11292,7 +11547,7 @@
     "papers": "Card",
     "year": "2021-02-08",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-e9fb363f-832d-48f8-b05c-e80a24771121",
@@ -11320,7 +11575,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-ea74ac44-6983-4709-91a4-888506d43d4d",
@@ -11348,7 +11603,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-a78eeec8-9d5d-4b31-8d65-520e8c2509af",
@@ -11376,7 +11631,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-ceb63b09-a7ac-4912-acb9-7f0ada432137",
@@ -11404,35 +11659,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
-  },
-  {
-    "id": "yur-c43711e3-23d9-441e-b255-6f3345b45b2b",
-    "source": "YurWatches",
-    "sourceDetail": "yurwatches.elefta.store",
-    "brand": "Rolex",
-    "model": "Datejust 41",
-    "ref": "126300",
-    "title": "Rolex Datejust 41 126300",
-    "price": 10750,
-    "url": "https://yurwatches.elefta.store/store/328b6e",
-    "imageUrl": {
-      "id": "8d44cada-b8ae-4423-adc6-47be58083990",
-      "name": "770W28H6_1.jpeg",
-      "order": 1,
-      "service_url": "https://d1iz2ekeg1nr2d.cloudfront.net/87xdiw04t5jkrs8s1yp0si80wl3g",
-      "url": "https://d1iz2ekeg1nr2d.cloudfront.net/87xdiw04t5jkrs8s1yp0si80wl3g",
-      "thumb_url": "https://d1iz2ekeg1nr2d.cloudfront.net/87xdiw04t5jkrs8s1yp0si80wl3g?variant=thumb",
-      "type": "image/jpeg",
-      "private": false
-    },
-    "condition": "Very Good",
-    "dialColor": "Bright Blue Fluted Motif Index",
-    "box": null,
-    "papers": null,
-    "year": "2021-01-15",
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-2ff6d940-dedb-406b-a155-d83824e3ad1f",
@@ -11460,7 +11687,7 @@
     "papers": "Card",
     "year": "2021-06-07",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-48eb89ca-410c-4aed-b5b5-73c216e338f8",
@@ -11488,7 +11715,7 @@
     "papers": "Card",
     "year": "2025-05-02",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-7aa99fc9-8c23-4cf0-b504-36dd36df6717",
@@ -11516,7 +11743,7 @@
     "papers": "Card",
     "year": "2021-03-03",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-48e55da6-99af-4572-bd61-255e0e8cfcdd",
@@ -11544,7 +11771,7 @@
     "papers": "Card",
     "year": "2008-02-17",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-1643d79a-2b8c-43f2-81a5-05f26c7a545f",
@@ -11572,7 +11799,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-db175512-042f-4f78-a620-7c055e738459",
@@ -11600,7 +11827,7 @@
     "papers": "Card",
     "year": "2019-07-06",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-6083932a-e24b-400e-bfb5-92f989044df4",
@@ -11628,7 +11855,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-93525ac0-4e10-425e-990f-6d95112ec92d",
@@ -11656,7 +11883,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-6a2d18db-5a22-4c71-9373-7a6dda569a21",
@@ -11684,7 +11911,7 @@
     "papers": "Card",
     "year": "2023-11-08",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-f58ca471-8213-45a2-92b1-c0b11414ba2a",
@@ -11712,7 +11939,7 @@
     "papers": null,
     "year": "2008-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-6094e235-bcde-4d1e-8c56-cdf2af5931a3",
@@ -11740,7 +11967,7 @@
     "papers": "Card",
     "year": "2018-11-30",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:06.255Z"
   },
   {
     "id": "yur-d217679f-44a6-4ea1-a746-341db05e4f05",
@@ -11768,7 +11995,7 @@
     "papers": "Papers",
     "year": "2021-06-10",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-0e9080cf-3be2-4735-b3d7-160d64f54cd7",
@@ -11796,7 +12023,7 @@
     "papers": null,
     "year": "2010-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-6302632c-c699-447d-8a0b-b4b81c5589a2",
@@ -11824,7 +12051,7 @@
     "papers": "Card",
     "year": "2017-06-13",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-be1737a0-f227-4ffd-bbde-38480cc707d1",
@@ -11852,7 +12079,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-0b1eb3bd-3143-4298-a8ac-e7aa27740d87",
@@ -11880,7 +12107,7 @@
     "papers": "Papers",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-6e5477f0-9bcb-470e-9075-7a396a00c023",
@@ -11908,7 +12135,7 @@
     "papers": "Card",
     "year": "2021-03-19",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-007b53ab-faf0-4e69-a9c5-d3145c3c808c",
@@ -11936,7 +12163,7 @@
     "papers": "Card",
     "year": "2025-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-c90d4542-7cc0-4e2c-9868-246dac5ca498",
@@ -11964,7 +12191,7 @@
     "papers": "Card",
     "year": "2022-04-06",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-ca817248-5cfe-4581-8c7a-7efecd88d82e",
@@ -11992,7 +12219,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-12aaf702-51a4-4c43-b133-3c1a3005977f",
@@ -12020,7 +12247,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-3b7c4d10-32fc-47d5-87fb-54705aa2a5e8",
@@ -12048,7 +12275,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:55.748Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-c7c6225c-69c0-48f6-a3f9-84cef72b4a07",
@@ -12076,7 +12303,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-13c8bb4e-c5ef-4f74-a584-1f74bbc67985",
@@ -12104,7 +12331,7 @@
     "papers": "Card",
     "year": "2025-10-08",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-d2d1326b-d852-4a79-b9fe-834dc847274b",
@@ -12132,7 +12359,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-1807f7a4-b141-43d9-a447-4e9ff6f2a2a2",
@@ -12160,7 +12387,7 @@
     "papers": "Card",
     "year": "2017-01-17",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-54ccf196-2341-4e1f-8a79-ab1f54537bc3",
@@ -12188,7 +12415,7 @@
     "papers": "Card",
     "year": "2023-11-03",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-3a45b752-4027-4fe8-8cec-58eeeea9bdea",
@@ -12216,7 +12443,7 @@
     "papers": "Card",
     "year": "2018-08-28",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-78f7dacb-5510-4504-896f-325be09caefe",
@@ -12244,7 +12471,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-60e23ad2-5b7c-4acb-99e1-f4bcbc24654d",
@@ -12272,7 +12499,7 @@
     "papers": "Papers",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-a42a9dc0-5058-445b-ae16-8e6b1e270b87",
@@ -12300,7 +12527,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-b624dd5f-c221-465b-bc9c-6e70e329bb37",
@@ -12328,7 +12555,7 @@
     "papers": null,
     "year": "2013-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-9564c453-c128-40cd-8e0d-1e4740005637",
@@ -12356,7 +12583,7 @@
     "papers": "No",
     "year": "1959-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-f904184c-aa5c-47f1-9086-6b5098b0e13f",
@@ -12384,7 +12611,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-25419805-5747-43e5-90cc-6054308d7b54",
@@ -12412,7 +12639,7 @@
     "papers": null,
     "year": "2023-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-36687cba-7918-4bab-bc69-c9ddf6b83918",
@@ -12440,7 +12667,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-8a681a5b-0e12-4ea1-90ea-2ac4a717a366",
@@ -12459,7 +12686,7 @@
     "papers": "Papers",
     "year": "2012-01-03",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-0e2ab5df-a849-456e-a943-e7ea5193b05d",
@@ -12487,7 +12714,7 @@
     "papers": "Card",
     "year": "2016-07-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-15784da6-57b5-4842-98ec-e491e955c497",
@@ -12515,7 +12742,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-a5d86895-9ffc-4713-8988-cbb13c26e1e2",
@@ -12543,7 +12770,7 @@
     "papers": "No",
     "year": "2009-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-388af27f-92b9-4fcc-9a82-6ff853e8a978",
@@ -12571,7 +12798,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-882f110b-34df-4990-9b38-4d66561caaa4",
@@ -12599,7 +12826,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-6c7ace70-95bd-4225-81bf-d66ab56c5607",
@@ -12627,7 +12854,7 @@
     "papers": "No",
     "year": "1996-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-a49dce2a-5694-4692-ac1e-6dad4d8387bb",
@@ -12655,7 +12882,7 @@
     "papers": "Card",
     "year": "2027-07-27",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-3d0f0e05-cbc2-4ab1-92fa-980bdcb86f94",
@@ -12683,7 +12910,7 @@
     "papers": "No",
     "year": "1995-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-c640f53d-8e77-4d8a-b137-e3e3fef200ae",
@@ -12711,7 +12938,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-e47b0d6a-3830-494c-91c9-980eb5898a11",
@@ -12739,7 +12966,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-0f258a57-2f73-47d7-87ae-78bccc8f6d0e",
@@ -12767,7 +12994,7 @@
     "papers": "Papers",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-bb07fdc1-2ed6-4659-95f7-fcf9085a4775",
@@ -12795,7 +13022,7 @@
     "papers": "Card",
     "year": "2025-05-14",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.319Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-48ded31b-8f77-4427-b539-55e8d76b0bcf",
@@ -12823,7 +13050,7 @@
     "papers": "Papers",
     "year": "2004-01-10",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-3c0045ce-e84d-4c02-a5d4-b68f7db76771",
@@ -12851,7 +13078,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-2b509803-4f7d-4ce3-9869-9ea59d8cd1c4",
@@ -12879,7 +13106,7 @@
     "papers": "Card",
     "year": "2020-11-25",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-5759cef5-0aad-4048-9cca-f9e6b22a5a2a",
@@ -12907,7 +13134,7 @@
     "papers": "Card",
     "year": "2020-09-12",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-3559c1d8-f691-4f46-99ef-56539480eae0",
@@ -12935,7 +13162,7 @@
     "papers": "Card",
     "year": "2020-09-12",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-624d5441-6df0-46b8-af28-408447f5cd00",
@@ -12963,7 +13190,7 @@
     "papers": "Card",
     "year": "2021-01-09",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-7ef6e2be-6a12-447e-bccf-c500d5dc4227",
@@ -12991,7 +13218,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-f5573fa1-a465-493a-b4e5-282340b17d6c",
@@ -13019,7 +13246,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-2001540d-1675-4b38-a6b3-d42346eec142",
@@ -13047,7 +13274,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-b96d8d48-8ef8-446c-b79a-c80019f7d9f8",
@@ -13075,7 +13302,7 @@
     "papers": "Card",
     "year": "2021-01-09",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-0d6d60d9-a451-4cfd-a546-b0513f708709",
@@ -13103,7 +13330,7 @@
     "papers": "Card",
     "year": "2016-05-04",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-acadfc69-f5b7-4936-9111-280cda3b1618",
@@ -13131,7 +13358,7 @@
     "papers": "Papers",
     "year": "2018-01-28",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:07.969Z"
   },
   {
     "id": "yur-29db42ec-a4ae-488e-bd15-384b22c3dc7a",
@@ -13159,7 +13386,7 @@
     "papers": "Card",
     "year": "2021-10-17",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-be99d3e7-3cd6-4076-9422-d2778887f9cd",
@@ -13187,7 +13414,7 @@
     "papers": "Card",
     "year": "2022-03-01",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-42baa1f0-6210-49f4-97d1-44cdba3642e5",
@@ -13215,7 +13442,7 @@
     "papers": "Card",
     "year": "2021-06-11",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-ea90bfca-c41b-45a8-bd82-d091340a62bd",
@@ -13243,7 +13470,7 @@
     "papers": "Card",
     "year": "2024-06-01",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-2587325d-6b0e-4b54-b85f-a1dd090d8f11",
@@ -13271,7 +13498,7 @@
     "papers": "Card",
     "year": "2024-01-06",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-3f6319c5-6824-4351-84de-dc4b3fc72eeb",
@@ -13299,7 +13526,7 @@
     "papers": "Card",
     "year": "2024-06-01",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-866cc3cf-a572-403b-954b-f5688ab61b29",
@@ -13327,7 +13554,7 @@
     "papers": "Card",
     "year": "2022-06-18",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-706399a8-16c6-42e3-93b8-3816dbd569d4",
@@ -13355,7 +13582,7 @@
     "papers": "Card",
     "year": "2022-07-17",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-6217cc45-9df4-4aa6-bcbc-bea24d7cfd7b",
@@ -13383,7 +13610,7 @@
     "papers": "Card",
     "year": "2020-09-12",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-1b7298ed-3681-49d7-ae3d-9832aa29fd53",
@@ -13411,7 +13638,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-2ed01bea-108b-427c-b3ef-78881a8706bb",
@@ -13439,7 +13666,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:57.320Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-eb85f88c-6df3-4a95-9ffc-31ed32d1558a",
@@ -13467,7 +13694,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-6d574c08-b39f-4c30-9e38-cf8490f76066",
@@ -13495,7 +13722,7 @@
     "papers": "Papers",
     "year": "2022-04-14",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-2e16ebe1-75cd-4063-b4e4-e00e3aa476e0",
@@ -13523,7 +13750,7 @@
     "papers": "Card",
     "year": "2009-01-04",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-bfad9e95-81a7-4fee-b8da-7af07892e00c",
@@ -13551,7 +13778,7 @@
     "papers": null,
     "year": "2020-06-22",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-0a5ca5ee-75d9-4561-91c4-1ed46fde4db0",
@@ -13579,7 +13806,7 @@
     "papers": "No",
     "year": "2009-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-7b299990-ad6b-488b-baf7-a1688e6e541f",
@@ -13607,7 +13834,7 @@
     "papers": "Card",
     "year": "2021-11-03",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-de32d982-7995-4e2e-9afe-327dff0b409c",
@@ -13635,7 +13862,7 @@
     "papers": null,
     "year": "2025-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-d81219ba-a713-4d20-9e91-0ccbc46e379d",
@@ -13663,7 +13890,7 @@
     "papers": "Card",
     "year": "2024-02-07",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-f0f5b4d9-2edf-4d32-b60e-c9eaf3f43308",
@@ -13691,7 +13918,7 @@
     "papers": "No",
     "year": "2005-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-5e2f6c62-a115-4441-ad32-f1d678ba8e8c",
@@ -13719,7 +13946,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-2622d6d0-4e82-4197-83d0-e5bcea949df5",
@@ -13747,7 +13974,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-76ed2f55-39cf-4b4e-b394-029fd90cfe49",
@@ -13775,7 +14002,7 @@
     "papers": "Papers",
     "year": "2011-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-d379d4af-cdec-454e-a53f-a77e6c5fb602",
@@ -13803,7 +14030,7 @@
     "papers": "Card",
     "year": "2021-10-09",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-6883a6f7-4bf2-4d05-bcb3-a1017bd50e0d",
@@ -13831,7 +14058,7 @@
     "papers": "Card",
     "year": "2020-12-08",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-c98ebe18-1225-45e5-b0e1-0d106fc54e78",
@@ -13859,7 +14086,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-2ad5f8b3-fa49-4be6-86b1-164663f0dc84",
@@ -13887,7 +14114,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-593d49bb-d581-4bfd-a8d2-57139e0e158a",
@@ -13915,7 +14142,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-bf908db3-4d73-432c-b395-4a3243ba1aa9",
@@ -13943,7 +14170,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-83e52cc8-10e2-41d4-8120-a5ec0cc93f50",
@@ -13971,7 +14198,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-71fb2a45-3924-4fdb-a3ac-f7fd62624544",
@@ -13999,7 +14226,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-4eb3709f-e558-40a4-b66d-1962a06e7bc8",
@@ -14027,7 +14254,7 @@
     "papers": "Card",
     "year": "2019-09-27",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-5dfbef96-09ee-4012-a4dd-21686afca19f",
@@ -14055,7 +14282,7 @@
     "papers": "Card",
     "year": "2022-01-06",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-8ff58b20-93be-47a3-92fe-05fa7f8003ed",
@@ -14083,7 +14310,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-e856c3dc-31aa-4a12-a5be-f7aa67487a6a",
@@ -14111,7 +14338,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-d088b99b-a998-4a17-aa49-419d6ba307a8",
@@ -14139,7 +14366,7 @@
     "papers": "Papers",
     "year": "2007-10-26",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-5a616fe9-01fb-4a72-b8c5-87d0267ac801",
@@ -14167,7 +14394,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-68096704-eaa2-423d-868e-cdfc02d83cb8",
@@ -14195,7 +14422,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-adec4234-a1f5-43f2-9a25-7b026234c30c",
@@ -14223,7 +14450,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-dcafb906-13fd-4194-a1ae-ccf048f2ba58",
@@ -14251,7 +14478,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-75a8e954-d652-4bd4-a9a7-61fa15da03ea",
@@ -14270,7 +14497,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-17103548-4b53-411d-8aad-d37c05f7da9a",
@@ -14298,7 +14525,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-a6232abb-0cbb-445d-89fa-89554c659070",
@@ -14326,7 +14553,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-e311e9b0-402b-4c8f-9740-09504e4f8aec",
@@ -14354,7 +14581,7 @@
     "papers": "No",
     "year": "1937-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-a975e043-6c46-47b7-a33b-1e02f728c97a",
@@ -14382,7 +14609,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-2ffcdbd0-c45d-4c61-9595-32075651e350",
@@ -14410,7 +14637,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-0f4d5e07-709e-41bd-964b-b15c00a4ecb4",
@@ -14438,7 +14665,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-6f31a61f-da91-476f-9834-fd2108178156",
@@ -14457,7 +14684,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-608acf56-722b-48d4-8faf-f052508b5776",
@@ -14485,7 +14712,7 @@
     "papers": "Card",
     "year": "2010-09-10",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-da11ddf3-1b51-41a0-8770-abefce2dcc90",
@@ -14513,7 +14740,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:09.459Z"
   },
   {
     "id": "yur-5db28e86-c94b-4734-a446-01b4fe10afca",
@@ -14532,7 +14759,7 @@
     "papers": "Card",
     "year": "2014-02-12",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-2f301e62-4cc1-49ac-bd52-607c1710b516",
@@ -14551,7 +14778,7 @@
     "papers": "Card",
     "year": "2024-02-28",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-5b7f16ed-4e01-4811-9c15-3bf6103598d9",
@@ -14579,7 +14806,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-701a6909-a0ad-45d5-aaca-debabd8d9976",
@@ -14607,7 +14834,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-c600e8c8-06a3-4ab6-a57b-f3f0287a5ebc",
@@ -14635,7 +14862,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-e78e75ed-96ac-4f25-accb-bd757759cd3f",
@@ -14663,7 +14890,7 @@
     "papers": "No",
     "year": "2010-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-3060f535-6522-4e8e-8242-479a02cba28e",
@@ -14691,7 +14918,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-8e92dd06-f9d4-4376-8278-39e8884cbd01",
@@ -14719,7 +14946,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-6f87811b-b48b-48d8-b5cc-dea9f7977f4a",
@@ -14747,7 +14974,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-1af26fa4-1494-4f5c-9352-0cdfe9ed0344",
@@ -14766,7 +14993,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-78a84a16-1dad-42ec-8032-7611b59fb326",
@@ -14794,7 +15021,7 @@
     "papers": "Card",
     "year": "2019-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:02:58.935Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-11256667-eefd-4f07-9683-d197109d0df3",
@@ -14822,7 +15049,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-e0339927-e2ab-4d07-af7e-1647b2e2c2f2",
@@ -14850,7 +15077,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-7630a981-b3c8-4b24-a0af-bcdb5547ba67",
@@ -14878,7 +15105,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-50c341ab-43d1-47d1-9cb6-3f050407ea81",
@@ -14906,7 +15133,7 @@
     "papers": "No",
     "year": "2008-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-56c5fdb2-f744-4637-81fa-7292b7851e1c",
@@ -14934,7 +15161,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-5de7b50c-fa2a-494c-9dda-c5b955da9fe4",
@@ -14962,7 +15189,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-3e9a8e2e-4d7b-44e0-a6b4-f41af1026ffd",
@@ -14981,7 +15208,7 @@
     "papers": "Card",
     "year": "2016-09-14",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-2cac3bc1-8342-44e1-8dc5-4685e003648c",
@@ -15009,7 +15236,7 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-ba9091ab-f351-4db7-a2ee-d78564d92abc",
@@ -15037,7 +15264,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-c061e9af-7ebe-4f24-8248-f7f022c071e4",
@@ -15065,7 +15292,7 @@
     "papers": "Card",
     "year": "2022-02-14",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-59661afb-f1c5-4c8d-a434-b69063694f34",
@@ -15093,7 +15320,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-7c1cbd5b-187a-44be-b179-75f8fb86b4d1",
@@ -15121,7 +15348,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-610e3e4f-fe37-45b3-b056-5b6e068bc9cc",
@@ -15149,7 +15376,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-29ddaaa4-9055-4cf5-9ef9-472753894921",
@@ -15177,7 +15404,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-7ac83be5-41a2-4540-983f-b9caaa9d9d31",
@@ -15205,7 +15432,7 @@
     "papers": "Card",
     "year": "2022-10-25",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-184a5c85-2c87-44b8-8464-c9675867e757",
@@ -15233,7 +15460,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-3ce5aab2-436e-47a9-89b6-826e8aba8872",
@@ -15261,7 +15488,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-36c57409-afc6-48c8-b4b0-9ae95f9f0b54",
@@ -15289,7 +15516,7 @@
     "papers": "Card",
     "year": "2019-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-d9d4fc36-e724-4560-be5c-2803c793f242",
@@ -15317,7 +15544,7 @@
     "papers": "Papers",
     "year": "2017-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-bd3a3cf7-a319-491e-87a7-67813e049e9a",
@@ -15345,7 +15572,7 @@
     "papers": "No",
     "year": "2010-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-6e709498-c6bb-48f1-9784-ac4b3c885e44",
@@ -15373,7 +15600,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-6cb1ad8f-773b-4b9c-a983-48cd6db09aef",
@@ -15401,7 +15628,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-5e8c033e-0f8a-4dbc-bab5-ac290df8851e",
@@ -15429,7 +15656,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-96cd100c-9916-42ae-8bdf-818595e1ad2f",
@@ -15448,7 +15675,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-7274957d-49f8-444b-8df7-bc1163dd4c90",
@@ -15467,7 +15694,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-4f82d17b-30f3-4f75-a304-71a5a774a204",
@@ -15495,7 +15722,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-b37e8c41-ceb0-416a-b4d0-58867189e3e6",
@@ -15523,7 +15750,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-2264ba7b-f50f-4182-9a53-e41171686a7e",
@@ -15551,7 +15778,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-c9195fd1-a703-4013-bee1-2602de9175ef",
@@ -15579,7 +15806,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-5a0ebb13-c3c7-4a84-8983-e74569592d68",
@@ -15607,7 +15834,7 @@
     "papers": "Card",
     "year": "2022-03-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-bc749c9c-0f40-4740-9746-9b4efc958322",
@@ -15626,7 +15853,7 @@
     "papers": "Card",
     "year": "2020-10-15",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-fa43fcab-1b64-4a04-931e-d0975dc6f84e",
@@ -15645,7 +15872,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-e11224d9-bbbd-4f26-aa0c-9c3fb351b0de",
@@ -15664,7 +15891,7 @@
     "papers": "No",
     "year": "1978-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-63d48f8a-9847-4b7e-a41e-f39f5fe35a95",
@@ -15683,7 +15910,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-ea35d951-7213-41f9-802f-155f11040c8e",
@@ -15702,7 +15929,7 @@
     "papers": "Card",
     "year": "2016-08-04",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-cd6bd3ca-b8b1-40cf-af61-f508eb373d08",
@@ -15721,7 +15948,7 @@
     "papers": "No",
     "year": "2008-12-31",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-f551bef8-f5ec-4e24-b21a-57e30761c85d",
@@ -15740,7 +15967,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-c5ee75ad-30dd-4a37-9ca8-562b621dbdd6",
@@ -15768,7 +15995,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-4ea82495-031b-4bc1-ad55-0fda5260eaad",
@@ -15796,7 +16023,7 @@
     "papers": "Card",
     "year": "2020-06-27",
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:11.036Z"
   },
   {
     "id": "yur-e0e3e90c-ffc0-4a84-bb0d-48ee73c9a3ad",
@@ -15824,7 +16051,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:12.362Z"
   },
   {
     "id": "yur-2e3dcc48-511a-4bbf-a963-2b80290fc4f7",
@@ -15852,7 +16079,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:12.362Z"
   },
   {
     "id": "yur-50fa5991-a193-4cec-871b-27efeecc4825",
@@ -15871,7 +16098,7 @@
     "papers": "No",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:12.362Z"
   },
   {
     "id": "yur-188ee8ff-a050-4a24-86c8-8e95f9ef2b41",
@@ -15899,7 +16126,7 @@
     "papers": null,
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:12.362Z"
   },
   {
     "id": "yur-f62719e9-3076-4691-9985-8cc71d21617b",
@@ -15918,6 +16145,6 @@
     "papers": "Card",
     "year": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-22T13:03:00.043Z"
+    "scrapedAt": "2026-09-23T18:25:12.362Z"
   }
 ]
