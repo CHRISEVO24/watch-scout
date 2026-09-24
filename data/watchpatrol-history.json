@@ -1,25 +1,5 @@
 [
   {
-    "scrapedAt": "2026-09-15T15:32:38.210Z",
-    "query": "Omega",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-09-15T15:32:47.202Z",
-    "query": "Panerai",
-    "count": 40
-  },
-  {
-    "scrapedAt": "2026-09-15T19:31:39.120Z",
-    "query": "126623",
-    "count": 0
-  },
-  {
-    "scrapedAt": "2026-09-16T12:30:22.713Z",
-    "query": "Parmigiani",
-    "count": 40
-  },
-  {
     "scrapedAt": "2026-09-16T12:30:31.775Z",
     "query": "Patek Philippe",
     "count": 40
@@ -97,6 +77,26 @@
   {
     "scrapedAt": "2026-09-23T17:33:18.716Z",
     "query": "Audemars Piguet",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-23T19:29:15.234Z",
+    "query": "Breguet",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-23T19:29:25.163Z",
+    "query": "Breitling",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-23T23:30:01.986Z",
+    "query": "Bulgari",
+    "count": 40
+  },
+  {
+    "scrapedAt": "2026-09-23T23:30:11.200Z",
+    "query": "Bvlgari",
     "count": 40
   }
 ]

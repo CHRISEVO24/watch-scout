@@ -16,7 +16,7 @@ const BRANDS = [
   { name: "Richard Mille", slug: "richardmille" },
   { name: "F.P. Journe", slug: "fpjourne" },
   { name: "MB&F", slug: "mbf" },
-  { name: "H. Moser & Cie", slug: "hmoser" },
+  { name: "H. Moser & Cie", slug: "hmosercie" },
   { name: "Omega", slug: "omega" },
   { name: "Cartier", slug: "cartier" },
   { name: "Jaeger-LeCoultre", slug: "jaegerlecoultre" },
@@ -30,19 +30,21 @@ const BRANDS = [
   { name: "Breitling", slug: "breitling" },
   { name: "Tudor", slug: "tudor" },
   { name: "TAG Heuer", slug: "tagheuer" },
-  { name: "Panerai", slug: "panerai" },
 ];
 
 const PRICE_BANDS = [
-  [500,1000],[1000,2000],[2000,3000],[3000,4000],[4000,5000],
-  [5000,6000],[6000,7000],[7000,8000],[8000,9000],[9000,10000],
-  [10000,12500],[12500,15000],[15000,17500],[17500,20000],
-  [20000,25000],[25000,30000],[30000,40000],[40000,50000],
-  [50000,75000],[75000,100000],[100000,150000],[150000,250000],[250000,999999]
+  [500,1000],
+  [1000,1500],[1500,2000],[2000,2500],[2500,3000],
+  [3000,3500],[3500,4000],[4000,4500],[4500,5000],
+  [5000,5500],[5500,6000],[6000,6500],[6500,7000],
+  [7000,7500],[7500,8000],[8000,8500],[8500,9000],
+  [9000,9500],[9500,10000],[10000,11000],[11000,12000],
+  [12000,13000],[13000,14000],[14000,15000],[15000,17500],
+  [17500,20000],[20000,25000],[25000,30000],[30000,40000],
+  [40000,50000],[50000,75000],[75000,100000],
+  [100000,150000],[150000,250000],[250000,999999]
 ];
 
-// Multiple sort orders to get different sets of 120 when a band is full
-// 1=price asc, 2=price desc, 3=newest, 5=popularity, 6=oldest
 const SORT_ORDERS = [1, 2, 3, 5];
 
 function extractRefFromTitle(title) {
@@ -75,7 +77,6 @@ async function scrapeTarget(page, slug, from, to, sortorder) {
           i.src && i.src.includes('chrono24') && !i.src.includes('svg')
         )?.src || null;
         const idMatch = link.href.match(/--id(\d+)/);
-        // Filter non-US sellers by checking card text
         const cardText = card.textContent || '';
         const nonUS = /(Hong Kong|Japan|Germany|China|Switzerland|Netherlands|France|Italy|Spain|Austria|Belgium|Australia|Singapore|Korea|Taiwan)/i.test(cardText);
         if (nonUS) return;
@@ -87,52 +88,48 @@ async function scrapeTarget(page, slug, from, to, sortorder) {
 }
 
 async function scrape() {
+  const queryArg = process.argv.find(a => a.startsWith('--query='))?.replace('--query=','')?.toLowerCase();
+
   const totalCombos = BRANDS.length * PRICE_BANDS.length * SORT_ORDERS.length;
-  console.log(`[Chrono24] ${totalCombos} combos: ${BRANDS.length} brands × ${PRICE_BANDS.length} bands × ${SORT_ORDERS.length} sort orders`);
-  const browser = await chromium.launch({ headless: true });
+  console.log(`[Chrono24] ${totalCombos} combos: ${BRANDS.length} brands x ${PRICE_BANDS.length} bands x ${SORT_ORDERS.length} sort orders`);
+
+  const browser = await chromium.launch({
+    channel: 'chrome',
+    headless: true,
+    args: ['--disable-blink-features=AutomationControlled']
+  });
   const context = await browser.newContext({
-    userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
     viewport: { width: 1280, height: 900 },
-    locale: "en-US",
+    locale: 'en-US',
+    extraHTTPHeaders: { 'Accept-Language': 'en-US,en;q=0.9' }
+  });
+  await context.addInitScript(() => {
+    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
   });
   const page = await context.newPage();
-  const allItems = [];
-  const globalSeen = new Set();
 
-  // Load existing data - we'll replace per-brand as we scrape
   let existing = [];
   if (fs.existsSync(LATEST_FILE)) {
     existing = JSON.parse(fs.readFileSync(LATEST_FILE, "utf8"));
-    existing.forEach(item => globalSeen.add(item.url));
-    console.log(`[Chrono24] Loaded ${existing.length} existing items, running missing brands only...`);
+    console.log(`[Chrono24] Loaded ${existing.length} existing items`);
   }
 
-  const scrapedBrands = new Set();
-
   for (const brand of BRANDS) {
-    let brandNew = 0;
-    // Only purge if this brand matches the query filter (or no filter = full run)
-    const queryArg = process.argv.find(a => a.startsWith('--query='))?.replace('--query=','')?.toLowerCase();
     const brandMatches = !queryArg || brand.name.toLowerCase().includes(queryArg) || brand.slug.toLowerCase().includes(queryArg);
-    if (brandMatches) {
-      const beforeCount = existing.length;
-      existing = existing.filter(i => i.brand !== brand.name);
-      const removed = beforeCount - existing.length;
-      if (removed > 0) console.log(`[Chrono24] Purged ${removed} old ${brand.name} listings`);
-    } else {
-      // Skip brands that don't match query
-      continue;
-    }
-    scrapedBrands.add(brand.name);
+    if (!brandMatches) continue;
+
+    const brandSeen = new Set();
+    const freshItems = [];
+
     for (const [from, to] of PRICE_BANDS) {
       for (const sortorder of SORT_ORDERS) {
         const items = await scrapeTarget(page, brand.slug, from, to, sortorder);
-        let newThisRun = 0;
         items.forEach(item => {
-          if (!globalSeen.has(item.href)) {
-            globalSeen.add(item.href);
+          if (!brandSeen.has(item.href)) {
+            brandSeen.add(item.href);
             const title = titleFromUrl(item.href);
-            allItems.push({
+            freshItems.push({
               id: `c24-${item.id}`,
               source: "Chrono24",
               sourceDetail: "chrono24.com",
@@ -148,31 +145,40 @@ async function scrape() {
               postedMinutesAgo: null,
               scrapedAt: new Date().toISOString(),
             });
-            brandNew++;
-            newThisRun++;
           }
         });
-        // Skip remaining sort orders if this band returned < 60 items (no more data)
         if (items.length < 60) break;
         await page.waitForTimeout(500);
       }
       await page.waitForTimeout(400);
     }
-    console.log(`[Chrono24] ${brand.name}: ${brandNew} new (total: ${allItems.length})`);
+
+    if (freshItems.length > 0) {
+      const beforeCount = existing.filter(i => i.brand === brand.name).length;
+      existing = existing.filter(i => i.brand !== brand.name);
+      existing.push(...freshItems);
+      console.log(`[Chrono24] ${brand.name}: replaced ${beforeCount} old -> ${freshItems.length} fresh (total: ${existing.length})`);
+      fs.mkdirSync(DATA_DIR, { recursive: true });
+      fs.writeFileSync(LATEST_FILE, JSON.stringify(existing, null, 2));
+    } else {
+      console.log(`[Chrono24] ${brand.name}: 0 results - keeping existing ${existing.filter(i => i.brand === brand.name).length} listings`);
+    }
   }
 
   await browser.close();
-  fs.mkdirSync(DATA_DIR, { recursive: true });
-  // Merge: keep existing unscraped brands + fresh scraped brands
-  const merged = [...existing, ...allItems];
-  fs.writeFileSync(LATEST_FILE, JSON.stringify(merged, null, 2));
-  console.log(`[Chrono24] Final: ${merged.length} total (${existing.length} kept + ${allItems.length} fresh)`);
+
   let history = fs.existsSync(HISTORY_FILE) ? JSON.parse(fs.readFileSync(HISTORY_FILE, "utf8")) : [];
   const existingIds = new Set(history.map(i => i.id));
-  allItems.forEach(item => { if (!existingIds.has(item.id)) history.push(item); });
+  let historyAdded = 0;
+  existing.forEach(item => {
+    if (!existingIds.has(item.id)) {
+      history.push(item);
+      historyAdded++;
+    }
+  });
   fs.writeFileSync(HISTORY_FILE, JSON.stringify(history.slice(-100000), null, 2));
-  console.log(`[Chrono24] Done. ${allItems.length} US luxury listings.`);
-  return allItems;
+  console.log(`[Chrono24] Done. ${existing.length} total listings. +${historyAdded} added to history.`);
+  return existing;
 }
 
 if (require.main === module) scrape().catch(console.error);

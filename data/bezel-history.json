@@ -1,25 +1,5 @@
 [
   {
-    "scrapedAt": "2026-09-15T15:20:56.839Z",
-    "brand": "jaquet-droz",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-09-15T15:21:02.206Z",
-    "brand": "longines",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-09-15T15:52:54.228Z",
-    "brand": "omega",
-    "count": 12
-  },
-  {
-    "scrapedAt": "2026-09-15T15:52:59.812Z",
-    "brand": "panerai",
-    "count": 12
-  },
-  {
     "scrapedAt": "2026-09-16T12:50:38.310Z",
     "brand": "parmigiani",
     "count": 12
@@ -97,6 +77,26 @@
   {
     "scrapedAt": "2026-09-23T17:53:34.544Z",
     "brand": "audemars-piguet",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-23T19:30:50.923Z",
+    "brand": "breguet",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-23T19:30:57.613Z",
+    "brand": "breitling",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-23T23:30:21.993Z",
+    "brand": "bulgari",
+    "count": 12
+  },
+  {
+    "scrapedAt": "2026-09-23T23:30:31.004Z",
+    "brand": "bvlgari",
     "count": 12
   }
 ]

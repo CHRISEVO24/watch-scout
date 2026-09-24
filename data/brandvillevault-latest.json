@@ -13,7 +13,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.658Z"
+    "scrapedAt": "2026-09-23T23:49:46.522Z"
   },
   {
     "id": "bvv-e0b48b18",
@@ -29,7 +29,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-be370a77",
@@ -45,7 +45,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-6ed23bab",
@@ -61,7 +61,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-d1c10637",
@@ -77,23 +77,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
-  },
-  {
-    "id": "bvv-d32f3c80",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/rolex-126710blro--d32f3c80-bbb6-4f7f-8152-7486abc95fe6",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/d32f3c80-bbb6-4f7f-8152-7486abc95fe6/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-e7c95f48",
@@ -109,7 +93,23 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
+  },
+  {
+    "id": "bvv-d32f3c80",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/rolex-126710blro--d32f3c80-bbb6-4f7f-8152-7486abc95fe6",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/d32f3c80-bbb6-4f7f-8152-7486abc95fe6/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-0d8bf0ad",
@@ -125,23 +125,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
-  },
-  {
-    "id": "bvv-65d2e201",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/omega-310-32-42-50-02-001--65d2e201-3484-4670-a4f5-44119a052ba7",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/65d2e201-3484-4670-a4f5-44119a052ba7/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-f8eff1d0",
@@ -157,7 +141,23 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
+  },
+  {
+    "id": "bvv-65d2e201",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/omega-310-32-42-50-02-001--65d2e201-3484-4670-a4f5-44119a052ba7",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/65d2e201-3484-4670-a4f5-44119a052ba7/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-485bd043",
@@ -173,39 +173,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
-  },
-  {
-    "id": "bvv-ff9e430c",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "READY TO SHIP",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/audemars-piguet-26470st-oo-a027ca-01--ff9e430c-7845-41f6-8f37-c9390acf3158",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/ff9e430c-7845-41f6-8f37-c9390acf3158/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
-  },
-  {
-    "id": "bvv-b33767f4",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "READY TO SHIP",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/cartier-w2020009--b33767f4-6ded-40f6-9fb3-2b487811d8e9",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/b33767f4-6ded-40f6-9fb3-2b487811d8e9/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-6b2b84c7",
@@ -221,7 +189,39 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
+  },
+  {
+    "id": "bvv-ff9e430c",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "READY TO SHIP",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/audemars-piguet-26470st-oo-a027ca-01--ff9e430c-7845-41f6-8f37-c9390acf3158",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/ff9e430c-7845-41f6-8f37-c9390acf3158/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
+  },
+  {
+    "id": "bvv-b33767f4",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "READY TO SHIP",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/cartier-w2020009--b33767f4-6ded-40f6-9fb3-2b487811d8e9",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/b33767f4-6ded-40f6-9fb3-2b487811d8e9/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-a2e70473",
@@ -237,7 +237,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-f96dded6",
@@ -253,7 +253,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-3773b2b8",
@@ -269,7 +269,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-e92e3d78",
@@ -285,7 +285,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-2df1b5e3",
@@ -301,7 +301,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-2f62b26b",
@@ -317,7 +317,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-9d30ce74",
@@ -333,39 +333,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
-  },
-  {
-    "id": "bvv-fd6f8466",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "› READY TO SHIP",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/rolex-69173--fd6f8466-dab1-44c1-82ac-a3aaeee3f4f6",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/fd6f8466-dab1-44c1-82ac-a3aaeee3f4f6/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
-  },
-  {
-    "id": "bvv-0a2de51f",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/rolex-69173--0a2de51f-ecba-4299-8d4f-69f7e7c1d7b6",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/0a2de51f-ecba-4299-8d4f-69f7e7c1d7b6/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-cf017180",
@@ -381,23 +349,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
-  },
-  {
-    "id": "bvv-5230ea81",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "› READY TO SHIP",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/rolex-69173--5230ea81-9071-43b4-af93-57d1c48e06e2",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/5230ea81-9071-43b4-af93-57d1c48e06e2/1789462223504_1.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-ed79f246",
@@ -413,7 +365,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-57181ce8",
@@ -429,7 +381,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-5b60c3af",
@@ -445,39 +397,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
-  },
-  {
-    "id": "bvv-8a7c5dfa",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "› READY TO SHIP",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/rolex-69173g--8a7c5dfa-9290-4805-9f55-e4ab7f6f541a",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/8a7c5dfa-9290-4805-9f55-e4ab7f6f541a/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
-  },
-  {
-    "id": "bvv-4ccf8613",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "› READY TO SHIP",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/rolex-69173--4ccf8613-a168-4dfe-ac83-923e9acc4567",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/4ccf8613-a168-4dfe-ac83-923e9acc4567/1789629658441_1.jpeg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-5cadea9e",
@@ -493,7 +413,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-744d764f",
@@ -509,7 +429,23 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
+  },
+  {
+    "id": "bvv-fd6f8466",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "› READY TO SHIP",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/rolex-69173--fd6f8466-dab1-44c1-82ac-a3aaeee3f4f6",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/fd6f8466-dab1-44c1-82ac-a3aaeee3f4f6/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-92b49837",
@@ -525,7 +461,71 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
+  },
+  {
+    "id": "bvv-0a2de51f",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/rolex-69173--0a2de51f-ecba-4299-8d4f-69f7e7c1d7b6",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/0a2de51f-ecba-4299-8d4f-69f7e7c1d7b6/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
+  },
+  {
+    "id": "bvv-4ccf8613",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "› READY TO SHIP",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/rolex-69173--4ccf8613-a168-4dfe-ac83-923e9acc4567",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/4ccf8613-a168-4dfe-ac83-923e9acc4567/1789629658441_1.jpeg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
+  },
+  {
+    "id": "bvv-8a7c5dfa",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "› READY TO SHIP",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/rolex-69173g--8a7c5dfa-9290-4805-9f55-e4ab7f6f541a",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/8a7c5dfa-9290-4805-9f55-e4ab7f6f541a/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
+  },
+  {
+    "id": "bvv-5230ea81",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "› READY TO SHIP",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/rolex-69173--5230ea81-9071-43b4-af93-57d1c48e06e2",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/5230ea81-9071-43b4-af93-57d1c48e06e2/1789462223504_1.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-679b4de7",
@@ -541,39 +541,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
-  },
-  {
-    "id": "bvv-c4db40f3",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/omega-231-90-39-21-04-001--c4db40f3-8248-4071-9a80-96133f92df2e",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/c4db40f3-8248-4071-9a80-96133f92df2e/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
-  },
-  {
-    "id": "bvv-80a0fffc",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/iwc-iw388305-2025--80a0fffc-12f5-432c-a09d-550377150696",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/80a0fffc-12f5-432c-a09d-550377150696/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-e67636e1",
@@ -589,7 +557,39 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
+  },
+  {
+    "id": "bvv-c4db40f3",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/omega-231-90-39-21-04-001--c4db40f3-8248-4071-9a80-96133f92df2e",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/c4db40f3-8248-4071-9a80-96133f92df2e/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
+  },
+  {
+    "id": "bvv-80a0fffc",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/iwc-iw388305-2025--80a0fffc-12f5-432c-a09d-550377150696",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/80a0fffc-12f5-432c-a09d-550377150696/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-61c98fef",
@@ -605,23 +605,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
-  },
-  {
-    "id": "bvv-64e9601d",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/hublot-322-pm-100-rx--64e9601d-49b2-4369-8173-921585bb0b7a",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/64e9601d-49b2-4369-8173-921585bb0b7a/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-b7d9a5bf",
@@ -637,39 +621,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:12.659Z"
-  },
-  {
-    "id": "bvv-77e308be",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/patek-philippe-5396r-014--77e308be-82a3-4751-b1db-c0c669c5a443",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/77e308be-82a3-4751-b1db-c0c669c5a443/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
-  },
-  {
-    "id": "bvv-c3b169db",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/cartier-w6920034--c3b169db-4e8b-4c8b-93be-8218b3275a8b",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/c3b169db-4e8b-4c8b-93be-8218b3275a8b/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-22e59886",
@@ -685,55 +637,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
-  },
-  {
-    "id": "bvv-4616cb8d",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/cartier-w1501756--4616cb8d-eb74-42f2-bd56-801c81b11aea",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/4616cb8d-eb74-42f2-bd56-801c81b11aea/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
-  },
-  {
-    "id": "bvv-7535d1fd",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/cartier-w62017v3-extra-straps--7535d1fd-0f9b-4c60-a39b-f84b12f3e28c",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/7535d1fd-0f9b-4c60-a39b-f84b12f3e28c/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
-  },
-  {
-    "id": "bvv-b849b89a",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/iwc-iw328221--b849b89a-0260-478d-a176-4ff8d9b744ef",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/b849b89a-0260-478d-a176-4ff8d9b744ef/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:46.524Z"
   },
   {
     "id": "bvv-dba3a18a",
@@ -749,10 +653,10 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
-    "id": "bvv-92432380",
+    "id": "bvv-b849b89a",
     "source": "Brandville Vault",
     "sourceDetail": "brandvillevault.com",
     "brand": null,
@@ -760,12 +664,12 @@
     "ref": null,
     "title": "›",
     "price": null,
-    "url": "https://www.brandvillevault.com/catalog/cartier-w2bb0010--92432380-e333-40f1-b1e9-b1e4257a5abb",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/92432380-e333-40f1-b1e9-b1e4257a5abb/zoho_0.jpg",
+    "url": "https://www.brandvillevault.com/catalog/iwc-iw328221--b849b89a-0260-478d-a176-4ff8d9b744ef",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/b849b89a-0260-478d-a176-4ff8d9b744ef/zoho_0.jpg",
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-9ecf2860",
@@ -781,7 +685,103 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-c3b169db",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/cartier-w6920034--c3b169db-4e8b-4c8b-93be-8218b3275a8b",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/c3b169db-4e8b-4c8b-93be-8218b3275a8b/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-7535d1fd",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/cartier-w62017v3-extra-straps--7535d1fd-0f9b-4c60-a39b-f84b12f3e28c",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/7535d1fd-0f9b-4c60-a39b-f84b12f3e28c/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-64e9601d",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/hublot-322-pm-100-rx--64e9601d-49b2-4369-8173-921585bb0b7a",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/64e9601d-49b2-4369-8173-921585bb0b7a/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-92432380",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/cartier-w2bb0010--92432380-e333-40f1-b1e9-b1e4257a5abb",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/92432380-e333-40f1-b1e9-b1e4257a5abb/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-77e308be",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/patek-philippe-5396r-014--77e308be-82a3-4751-b1db-c0c669c5a443",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/77e308be-82a3-4751-b1db-c0c669c5a443/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-4616cb8d",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/cartier-w1501756--4616cb8d-eb74-42f2-bd56-801c81b11aea",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/4616cb8d-eb74-42f2-bd56-801c81b11aea/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-c9b2a814",
@@ -797,7 +797,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-35858e71",
@@ -813,7 +813,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-f552e925",
@@ -829,23 +829,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
-  },
-  {
-    "id": "bvv-281c51db",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/jaeger-lecoultre-q147842a--281c51db-3d8b-4c9e-9cae-b79d0ceb55e3",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/281c51db-3d8b-4c9e-9cae-b79d0ceb55e3/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-ad09a9d4",
@@ -861,39 +845,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
-  },
-  {
-    "id": "bvv-31c3dccb",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "› READY TO SHIP",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/omega-215-32-46-51-09-001--31c3dccb-d9c0-4106-a43f-97e5eb0019f5",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/31c3dccb-d9c0-4106-a43f-97e5eb0019f5/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
-  },
-  {
-    "id": "bvv-795102f6",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "› READY TO SHIP",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/breitling-x82310--795102f6-71b9-4e69-b218-d1174f4388ff",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/795102f6-71b9-4e69-b218-d1174f4388ff/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-87712dc5",
@@ -909,23 +861,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
-  },
-  {
-    "id": "bvv-02860946",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "› READY TO SHIP",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/omega-215-32-43-21-04-001--02860946-badd-4a48-b933-41d27a0fba73",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/02860946-badd-4a48-b933-41d27a0fba73/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-e1643227",
@@ -941,7 +877,55 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-795102f6",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "› READY TO SHIP",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/breitling-x82310--795102f6-71b9-4e69-b218-d1174f4388ff",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/795102f6-71b9-4e69-b218-d1174f4388ff/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-02860946",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "› READY TO SHIP",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/omega-215-32-43-21-04-001--02860946-badd-4a48-b933-41d27a0fba73",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/02860946-badd-4a48-b933-41d27a0fba73/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-31c3dccb",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "› READY TO SHIP",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/omega-215-32-46-51-09-001--31c3dccb-d9c0-4106-a43f-97e5eb0019f5",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/31c3dccb-d9c0-4106-a43f-97e5eb0019f5/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-b7f90740",
@@ -957,7 +941,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-470e3d4d",
@@ -973,7 +957,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-4ead05ad",
@@ -989,39 +973,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
-  },
-  {
-    "id": "bvv-d46fd6eb",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/patek-philippe-5227j-001-extra-strap-missing-pillow--d46fd6eb-06d8-48fe-9152-c5ea300b9c6c",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/d46fd6eb-06d8-48fe-9152-c5ea300b9c6c/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
-  },
-  {
-    "id": "bvv-2dc00c5c",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/patek-philippe-5235-50r-001-2020--2dc00c5c-be78-4190-ba8f-6fa8d97e1b1a",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/2dc00c5c-be78-4190-ba8f-6fa8d97e1b1a/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-fd0c8e74",
@@ -1037,7 +989,23 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-2dc00c5c",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/patek-philippe-5235-50r-001-2020--2dc00c5c-be78-4190-ba8f-6fa8d97e1b1a",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/2dc00c5c-be78-4190-ba8f-6fa8d97e1b1a/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-230767f5",
@@ -1053,23 +1021,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
-  },
-  {
-    "id": "bvv-410ba642",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/breitling-a17329171c1a1--410ba642-c4fa-4309-89c3-41b554a202bc",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/410ba642-c4fa-4309-89c3-41b554a202bc/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-bd10d3a6",
@@ -1085,10 +1037,10 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
-    "id": "bvv-b850c4eb",
+    "id": "bvv-410ba642",
     "source": "Brandville Vault",
     "sourceDetail": "brandvillevault.com",
     "brand": null,
@@ -1096,15 +1048,15 @@
     "ref": null,
     "title": "›",
     "price": null,
-    "url": "https://www.brandvillevault.com/catalog/rolex-15210-black--b850c4eb-1999-4e6b-b7ea-f8c25799f7c9",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/b850c4eb-1999-4e6b-b7ea-f8c25799f7c9/zoho_0.jpg",
+    "url": "https://www.brandvillevault.com/catalog/breitling-a17329171c1a1--410ba642-c4fa-4309-89c3-41b554a202bc",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/410ba642-c4fa-4309-89c3-41b554a202bc/zoho_0.jpg",
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
-    "id": "bvv-fbfe9eb9",
+    "id": "bvv-d46fd6eb",
     "source": "Brandville Vault",
     "sourceDetail": "brandvillevault.com",
     "brand": null,
@@ -1112,12 +1064,12 @@
     "ref": null,
     "title": "›",
     "price": null,
-    "url": "https://www.brandvillevault.com/catalog/rolex-16233--fbfe9eb9-a149-44b9-9dbb-19920fd1c688",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/fbfe9eb9-a149-44b9-9dbb-19920fd1c688/zoho_0.jpg",
+    "url": "https://www.brandvillevault.com/catalog/patek-philippe-5227j-001-extra-strap-missing-pillow--d46fd6eb-06d8-48fe-9152-c5ea300b9c6c",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/d46fd6eb-06d8-48fe-9152-c5ea300b9c6c/zoho_0.jpg",
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-c7b1cc62",
@@ -1133,7 +1085,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-e3903a68",
@@ -1149,7 +1101,39 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-fbfe9eb9",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/rolex-16233--fbfe9eb9-a149-44b9-9dbb-19920fd1c688",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/fbfe9eb9-a149-44b9-9dbb-19920fd1c688/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-b850c4eb",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/rolex-15210-black--b850c4eb-1999-4e6b-b7ea-f8c25799f7c9",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/b850c4eb-1999-4e6b-b7ea-f8c25799f7c9/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-bc2cf1f3",
@@ -1165,7 +1149,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-d1c9767a",
@@ -1181,7 +1165,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-5241b1f8",
@@ -1197,23 +1181,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
-  },
-  {
-    "id": "bvv-bef30721",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/rolex-69173--bef30721-14f1-4bd5-9414-b7cc80cdcb31",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/bef30721-14f1-4bd5-9414-b7cc80cdcb31/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-b0421811",
@@ -1229,10 +1197,10 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
-    "id": "bvv-b3af6577",
+    "id": "bvv-bef30721",
     "source": "Brandville Vault",
     "sourceDetail": "brandvillevault.com",
     "brand": null,
@@ -1240,60 +1208,12 @@
     "ref": null,
     "title": "›",
     "price": null,
-    "url": "https://www.brandvillevault.com/catalog/rolex-116234-silver-dial-jubilee-2009--b3af6577-7e1e-4060-8e5e-68a53ee20629",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/b3af6577-7e1e-4060-8e5e-68a53ee20629/zoho_0.jpg",
+    "url": "https://www.brandvillevault.com/catalog/rolex-69173--bef30721-14f1-4bd5-9414-b7cc80cdcb31",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/bef30721-14f1-4bd5-9414-b7cc80cdcb31/zoho_0.jpg",
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
-  },
-  {
-    "id": "bvv-4731c1c0",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/breitling-b13357--4731c1c0-c33a-449f-a4b9-6bad0cf83751",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/4731c1c0-c33a-449f-a4b9-6bad0cf83751/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
-  },
-  {
-    "id": "bvv-9bb55db7",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/rolex-116234-black-roman-jubilee-2010--9bb55db7-174e-4c2f-b102-b8082ac68d78",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/9bb55db7-174e-4c2f-b102-b8082ac68d78/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:15.695Z"
-  },
-  {
-    "id": "bvv-aed7e30a",
-    "source": "Brandville Vault",
-    "sourceDetail": "brandvillevault.com",
-    "brand": null,
-    "model": null,
-    "ref": null,
-    "title": "›",
-    "price": null,
-    "url": "https://www.brandvillevault.com/catalog/cartier-w62016v3--aed7e30a-31b1-415c-955b-e0e1913076f9",
-    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/aed7e30a-31b1-415c-955b-e0e1913076f9/zoho_0.jpg",
-    "condition": "Pre-Owned",
-    "boxPapers": null,
-    "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.255Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
   },
   {
     "id": "bvv-a0928f22",
@@ -1309,7 +1229,71 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-aed7e30a",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/cartier-w62016v3--aed7e30a-31b1-415c-955b-e0e1913076f9",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/aed7e30a-31b1-415c-955b-e0e1913076f9/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-9bb55db7",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/rolex-116234-black-roman-jubilee-2010--9bb55db7-174e-4c2f-b102-b8082ac68d78",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/9bb55db7-174e-4c2f-b102-b8082ac68d78/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-4731c1c0",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/breitling-b13357--4731c1c0-c33a-449f-a4b9-6bad0cf83751",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/4731c1c0-c33a-449f-a4b9-6bad0cf83751/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:49.569Z"
+  },
+  {
+    "id": "bvv-b3af6577",
+    "source": "Brandville Vault",
+    "sourceDetail": "brandvillevault.com",
+    "brand": null,
+    "model": null,
+    "ref": null,
+    "title": "›",
+    "price": null,
+    "url": "https://www.brandvillevault.com/catalog/rolex-116234-silver-dial-jubilee-2009--b3af6577-7e1e-4060-8e5e-68a53ee20629",
+    "imageUrl": "https://tulqgebsvpxgwocptnmy.supabase.co/storage/v1/object/public/watch-images/b3af6577-7e1e-4060-8e5e-68a53ee20629/zoho_0.jpg",
+    "condition": "Pre-Owned",
+    "boxPapers": null,
+    "postedMinutesAgo": null,
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-eac4c6c1",
@@ -1325,7 +1309,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-edd416e0",
@@ -1341,7 +1325,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-c0e15ce5",
@@ -1357,7 +1341,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-26f599e8",
@@ -1373,7 +1357,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-7e800a04",
@@ -1389,7 +1373,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-231d1588",
@@ -1405,7 +1389,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-6807fc94",
@@ -1421,7 +1405,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-812b346d",
@@ -1437,7 +1421,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-9b25d5b5",
@@ -1453,7 +1437,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-77c8c9ca",
@@ -1469,7 +1453,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-0dcdcaef",
@@ -1485,7 +1469,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-5e6ead3d",
@@ -1501,7 +1485,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-8e44496c",
@@ -1517,7 +1501,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-09e1386c",
@@ -1533,7 +1517,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-8be5f66a",
@@ -1549,7 +1533,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-570b7523",
@@ -1565,7 +1549,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-48185ce9",
@@ -1581,7 +1565,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-72bdcf7c",
@@ -1597,7 +1581,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-6c8f63ca",
@@ -1613,7 +1597,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-8959c5c3",
@@ -1629,7 +1613,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-650ab810",
@@ -1645,7 +1629,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-ae409d6b",
@@ -1661,7 +1645,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-e99e95ac",
@@ -1677,7 +1661,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-119988ef",
@@ -1693,7 +1677,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-10e998cc",
@@ -1709,7 +1693,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-e0061684",
@@ -1725,7 +1709,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-7de539e0",
@@ -1741,7 +1725,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-74cc0d59",
@@ -1757,7 +1741,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-daec1406",
@@ -1773,7 +1757,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-e9df4036",
@@ -1789,7 +1773,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-ad93bbc4",
@@ -1805,7 +1789,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-3ccf6111",
@@ -1821,7 +1805,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-4b52a1c7",
@@ -1837,7 +1821,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-b397507c",
@@ -1853,7 +1837,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-5a697035",
@@ -1869,7 +1853,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-0244992f",
@@ -1885,7 +1869,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-7479fcc5",
@@ -1901,7 +1885,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-8ede83e5",
@@ -1917,7 +1901,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:20.256Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-50a690c2",
@@ -1933,7 +1917,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:54.139Z"
   },
   {
     "id": "bvv-ff665a70",
@@ -1949,7 +1933,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-19becdd8",
@@ -1965,7 +1949,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-ffa123f8",
@@ -1981,7 +1965,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-5d366e7d",
@@ -1997,7 +1981,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-b0610c14",
@@ -2013,7 +1997,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-764127af",
@@ -2029,7 +2013,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-61fe6e24",
@@ -2045,7 +2029,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-c10eba07",
@@ -2061,7 +2045,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-e9137845",
@@ -2077,7 +2061,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-cd54c143",
@@ -2093,7 +2077,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-4d473fe2",
@@ -2109,7 +2093,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-b333b013",
@@ -2125,7 +2109,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-4eb35d83",
@@ -2141,7 +2125,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-aa56e4b4",
@@ -2157,7 +2141,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-1a99b6cc",
@@ -2173,7 +2157,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-ec0b5a83",
@@ -2189,7 +2173,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-6283d680",
@@ -2205,7 +2189,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-965e0d17",
@@ -2221,7 +2205,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-ee742e04",
@@ -2237,7 +2221,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-1b911a12",
@@ -2253,7 +2237,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-54824bb0",
@@ -2269,7 +2253,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-8df5db2b",
@@ -2285,7 +2269,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-5476f5a3",
@@ -2301,7 +2285,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-69ca64c7",
@@ -2317,7 +2301,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-a85b6f11",
@@ -2333,7 +2317,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-d7ca56d2",
@@ -2349,7 +2333,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-4b69a8f0",
@@ -2365,7 +2349,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-dd1a3f4e",
@@ -2381,7 +2365,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-f67ac1ac",
@@ -2397,7 +2381,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-32622b61",
@@ -2413,7 +2397,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-ba7850d8",
@@ -2429,7 +2413,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-fe69bbf8",
@@ -2445,7 +2429,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-ce6c99fc",
@@ -2461,7 +2445,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-7f5742bb",
@@ -2477,7 +2461,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-4fc542ce",
@@ -2493,7 +2477,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-a85db8d1",
@@ -2509,7 +2493,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-ddb57864",
@@ -2525,7 +2509,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-4e870740",
@@ -2541,7 +2525,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-71a79015",
@@ -2557,7 +2541,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:23.314Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-a57991d3",
@@ -2573,7 +2557,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:49:57.208Z"
   },
   {
     "id": "bvv-63e9128b",
@@ -2589,7 +2573,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-93083e65",
@@ -2605,7 +2589,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-910c9a6a",
@@ -2621,7 +2605,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-0133122a",
@@ -2637,7 +2621,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-5c856498",
@@ -2653,7 +2637,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-e321c1e0",
@@ -2669,7 +2653,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-861d0ca5",
@@ -2685,7 +2669,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-4cc35338",
@@ -2701,7 +2685,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-82088cc2",
@@ -2717,7 +2701,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-d47e81c2",
@@ -2733,7 +2717,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-d7b8edc5",
@@ -2749,7 +2733,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-7234f7e2",
@@ -2765,7 +2749,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-506d7e5b",
@@ -2781,7 +2765,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-3b8c3050",
@@ -2797,7 +2781,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-6bd57f6a",
@@ -2813,7 +2797,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-083e4d75",
@@ -2829,7 +2813,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-5064710e",
@@ -2845,7 +2829,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-c1514bc5",
@@ -2861,7 +2845,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-712f947f",
@@ -2877,7 +2861,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-6ed991da",
@@ -2893,7 +2877,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-e1aac5f2",
@@ -2909,7 +2893,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-deb21253",
@@ -2925,7 +2909,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-781a5c61",
@@ -2941,7 +2925,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-7adc7f34",
@@ -2957,7 +2941,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.298Z"
   },
   {
     "id": "bvv-9edd7ed4",
@@ -2973,7 +2957,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-f3743b21",
@@ -2989,7 +2973,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-d7592e78",
@@ -3005,7 +2989,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-9e9aa0a0",
@@ -3021,7 +3005,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-1b5a0a46",
@@ -3037,7 +3021,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-583ca786",
@@ -3053,7 +3037,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-98e7ec28",
@@ -3069,7 +3053,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-c3492385",
@@ -3085,7 +3069,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-1b61bbdb",
@@ -3101,7 +3085,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-e3af7dce",
@@ -3117,7 +3101,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-8f6d9162",
@@ -3133,7 +3117,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-b198e98b",
@@ -3149,7 +3133,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-69fde8dc",
@@ -3165,7 +3149,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-00e4ae05",
@@ -3181,7 +3165,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-f3380068",
@@ -3197,7 +3181,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:26.387Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-5f37655b",
@@ -3213,7 +3197,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:00.299Z"
   },
   {
     "id": "bvv-576f3b22",
@@ -3229,7 +3213,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-f6cdf3c8",
@@ -3245,7 +3229,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-96304e7d",
@@ -3261,7 +3245,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-3d1ee563",
@@ -3277,7 +3261,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-18a2ae80",
@@ -3293,7 +3277,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-c71fb73f",
@@ -3309,7 +3293,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-4ab729e0",
@@ -3325,7 +3309,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-bbec9a1a",
@@ -3341,7 +3325,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-5fabc341",
@@ -3357,7 +3341,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-6668636c",
@@ -3373,7 +3357,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-66ed64a0",
@@ -3389,7 +3373,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-34cc68ef",
@@ -3405,7 +3389,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-28eef677",
@@ -3421,7 +3405,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-cafe0bc4",
@@ -3437,7 +3421,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-f06d09c3",
@@ -3453,7 +3437,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-53f0467f",
@@ -3469,7 +3453,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-c8aa7262",
@@ -3485,7 +3469,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-7af780e8",
@@ -3501,7 +3485,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-6c22973d",
@@ -3517,7 +3501,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-cc2bc7dd",
@@ -3533,7 +3517,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-ef835ab6",
@@ -3549,7 +3533,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-36e69ad0",
@@ -3565,7 +3549,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-10d6f1b0",
@@ -3581,7 +3565,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-25b06316",
@@ -3597,7 +3581,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-15449693",
@@ -3613,7 +3597,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-bb81a777",
@@ -3629,7 +3613,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-31f80e87",
@@ -3645,7 +3629,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-10f9defb",
@@ -3661,7 +3645,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-fa364276",
@@ -3677,7 +3661,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-c656b628",
@@ -3693,7 +3677,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-750755b7",
@@ -3709,7 +3693,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-03450a33",
@@ -3725,7 +3709,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-842eaacf",
@@ -3741,7 +3725,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-8f1c5ff6",
@@ -3757,7 +3741,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-8ff33d3a",
@@ -3773,7 +3757,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-d2f4e4cc",
@@ -3789,7 +3773,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-30c2f848",
@@ -3805,7 +3789,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-96e34708",
@@ -3821,7 +3805,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-f29c614a",
@@ -3837,7 +3821,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:29.499Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-b55f6ed1",
@@ -3853,7 +3837,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:03.397Z"
   },
   {
     "id": "bvv-01141aa8",
@@ -3869,7 +3853,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-bf7a2cc6",
@@ -3885,7 +3869,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-bf069d75",
@@ -3901,7 +3885,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-18e7e842",
@@ -3917,7 +3901,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-4782ee31",
@@ -3933,7 +3917,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-cbdfc596",
@@ -3949,7 +3933,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-fc9b02dd",
@@ -3965,7 +3949,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-943e3913",
@@ -3981,7 +3965,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-bda094bd",
@@ -3997,7 +3981,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-052e4f9c",
@@ -4013,7 +3997,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-47e8bb03",
@@ -4029,7 +4013,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-ce38b1ca",
@@ -4045,7 +4029,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-2b7e10a3",
@@ -4061,7 +4045,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-b9137fb5",
@@ -4077,7 +4061,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-232cc6a2",
@@ -4093,7 +4077,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-0f2e2c66",
@@ -4109,7 +4093,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-ae80f1e0",
@@ -4125,7 +4109,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-7510a094",
@@ -4141,7 +4125,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-27a2ee86",
@@ -4157,7 +4141,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-91f71c67",
@@ -4173,7 +4157,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-1f7ea373",
@@ -4189,7 +4173,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-306a4121",
@@ -4205,7 +4189,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-14fbeff3",
@@ -4221,7 +4205,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-33831833",
@@ -4237,7 +4221,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-ef1ed3e2",
@@ -4253,7 +4237,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-f8d82274",
@@ -4269,7 +4253,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-ce78dfc0",
@@ -4285,7 +4269,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-6527d65d",
@@ -4301,7 +4285,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-63e7418a",
@@ -4317,7 +4301,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-9e3a5113",
@@ -4333,7 +4317,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-3784f03a",
@@ -4349,7 +4333,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-e013fa7e",
@@ -4365,7 +4349,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-f1b3ef68",
@@ -4381,7 +4365,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-14bdf3b5",
@@ -4397,7 +4381,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-c119bd88",
@@ -4413,7 +4397,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-6b1dc66e",
@@ -4429,7 +4413,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-183872e2",
@@ -4445,7 +4429,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-6ae681b9",
@@ -4461,7 +4445,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-34e54bd2",
@@ -4477,7 +4461,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:32.595Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-e311f1c0",
@@ -4493,7 +4477,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:06.493Z"
   },
   {
     "id": "bvv-aee1e9ae",
@@ -4509,7 +4493,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-187686d3",
@@ -4525,7 +4509,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-26ae6811",
@@ -4541,7 +4525,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-b9b45338",
@@ -4557,7 +4541,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-6b261a59",
@@ -4573,7 +4557,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-6992a9dc",
@@ -4589,7 +4573,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-59b6d634",
@@ -4605,7 +4589,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-8fa31d90",
@@ -4621,7 +4605,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-44206f29",
@@ -4637,7 +4621,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-0a4b4a73",
@@ -4653,7 +4637,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-a883958c",
@@ -4669,7 +4653,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-e2b8d11f",
@@ -4685,7 +4669,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-4a0206c5",
@@ -4701,7 +4685,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-655283e6",
@@ -4717,7 +4701,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-77994cca",
@@ -4733,7 +4717,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-ec618b1b",
@@ -4749,7 +4733,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-fbe86b27",
@@ -4765,7 +4749,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-96f2f3a6",
@@ -4781,7 +4765,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-d500e092",
@@ -4797,7 +4781,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-af1ed7a1",
@@ -4813,7 +4797,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-bbfd6c17",
@@ -4829,7 +4813,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-439fc1fc",
@@ -4845,7 +4829,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-a8e27cd3",
@@ -4861,7 +4845,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-1ad4ea7d",
@@ -4877,7 +4861,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-144764d3",
@@ -4893,7 +4877,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-a2d0b5c6",
@@ -4909,7 +4893,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-040e7189",
@@ -4925,7 +4909,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-74c6cf02",
@@ -4941,7 +4925,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-5b8c68b4",
@@ -4957,7 +4941,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-77cb77e9",
@@ -4973,7 +4957,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-739eaf66",
@@ -4989,7 +4973,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-19610109",
@@ -5005,7 +4989,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-98050851",
@@ -5021,7 +5005,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-4eebb1e6",
@@ -5037,7 +5021,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-b40746c2",
@@ -5053,7 +5037,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-94231998",
@@ -5069,7 +5053,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-3d3b7cf9",
@@ -5085,7 +5069,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-13c4241d",
@@ -5101,7 +5085,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-902f8db1",
@@ -5117,7 +5101,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:35.695Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-8c86f416",
@@ -5133,7 +5117,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:09.637Z"
   },
   {
     "id": "bvv-0370e2ac",
@@ -5149,7 +5133,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-c065db91",
@@ -5165,7 +5149,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-6a1c6029",
@@ -5181,7 +5165,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-12b358a6",
@@ -5197,7 +5181,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-7cd6fed9",
@@ -5213,7 +5197,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-eedf5aa4",
@@ -5229,7 +5213,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-ce9e9744",
@@ -5245,7 +5229,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-ae9a75c2",
@@ -5261,7 +5245,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-19e7ab2f",
@@ -5277,7 +5261,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-33da535f",
@@ -5293,7 +5277,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-fcd94750",
@@ -5309,7 +5293,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-e10660dc",
@@ -5325,7 +5309,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-a17ee9f2",
@@ -5341,7 +5325,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-d5c7f6c1",
@@ -5357,7 +5341,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-b2f148eb",
@@ -5373,7 +5357,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-c8310d77",
@@ -5389,7 +5373,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-ef0b0a98",
@@ -5405,7 +5389,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-53465053",
@@ -5421,7 +5405,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-9596aebb",
@@ -5437,7 +5421,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-a18a7f11",
@@ -5453,7 +5437,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-91863c7e",
@@ -5469,7 +5453,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-f52e2a07",
@@ -5485,7 +5469,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-2480c6c8",
@@ -5501,7 +5485,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-b0ccc194",
@@ -5517,7 +5501,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-c359b6d0",
@@ -5533,7 +5517,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-52499b53",
@@ -5549,7 +5533,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-d333296f",
@@ -5565,7 +5549,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-8153267b",
@@ -5581,7 +5565,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-c495586e",
@@ -5597,7 +5581,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-9f7ea957",
@@ -5613,7 +5597,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-90632c2d",
@@ -5629,7 +5613,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-c11c0b7f",
@@ -5645,7 +5629,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-acdf192a",
@@ -5661,7 +5645,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-43fc2606",
@@ -5677,7 +5661,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-3538cb3a",
@@ -5693,7 +5677,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-e4661424",
@@ -5709,7 +5693,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-4ecff42a",
@@ -5725,7 +5709,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-ab9eebed",
@@ -5741,7 +5725,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-3982333a",
@@ -5757,7 +5741,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:38.812Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-8c825a2c",
@@ -5773,7 +5757,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:12.794Z"
   },
   {
     "id": "bvv-8ad1499d",
@@ -5789,7 +5773,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-4ead49ec",
@@ -5805,7 +5789,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-50b20fb5",
@@ -5821,7 +5805,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-ade20c40",
@@ -5837,7 +5821,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-43040e52",
@@ -5853,7 +5837,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-e3c43e11",
@@ -5869,7 +5853,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-fb1ffea9",
@@ -5885,7 +5869,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-3a083641",
@@ -5901,7 +5885,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-b522ba80",
@@ -5917,7 +5901,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-0f9bb4cb",
@@ -5933,7 +5917,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-09eca8d4",
@@ -5949,7 +5933,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-7b7c41b9",
@@ -5965,7 +5949,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-079d9a5c",
@@ -5981,7 +5965,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-19f62baa",
@@ -5997,7 +5981,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-04e0c3eb",
@@ -6013,7 +5997,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-f7f50c5b",
@@ -6029,7 +6013,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-b82ac410",
@@ -6045,7 +6029,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-87758df1",
@@ -6061,7 +6045,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-30f4e581",
@@ -6077,7 +6061,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-253fd406",
@@ -6093,7 +6077,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-dab63349",
@@ -6109,7 +6093,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-24ae2a1d",
@@ -6125,7 +6109,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-eee839e6",
@@ -6141,7 +6125,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-d112f3c6",
@@ -6157,7 +6141,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-95586078",
@@ -6173,7 +6157,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-c5944459",
@@ -6189,7 +6173,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-9e73e70c",
@@ -6205,7 +6189,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-c668014e",
@@ -6221,7 +6205,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-30140806",
@@ -6237,7 +6221,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-caade7ec",
@@ -6253,7 +6237,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-79a9a558",
@@ -6269,7 +6253,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-c9aa31fe",
@@ -6285,7 +6269,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-4911899a",
@@ -6301,7 +6285,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-1cb7c002",
@@ -6317,7 +6301,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-32b219ab",
@@ -6333,7 +6317,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-8321a1be",
@@ -6349,7 +6333,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-f5701484",
@@ -6365,7 +6349,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-c396c88d",
@@ -6381,7 +6365,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-a567df92",
@@ -6397,7 +6381,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:41.946Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-1eedce7e",
@@ -6413,7 +6397,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:15.967Z"
   },
   {
     "id": "bvv-6a79aa0b",
@@ -6429,7 +6413,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-d0b5a0ab",
@@ -6445,7 +6429,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-0f7560f3",
@@ -6461,7 +6445,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-b9abb669",
@@ -6477,7 +6461,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-bf092446",
@@ -6493,7 +6477,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-861408d7",
@@ -6509,7 +6493,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-1249b9ea",
@@ -6525,7 +6509,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-09c1188c",
@@ -6541,7 +6525,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-d6c81e4f",
@@ -6557,7 +6541,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-f7a4207f",
@@ -6573,7 +6557,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-bd787916",
@@ -6589,7 +6573,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-e84fb1fd",
@@ -6605,7 +6589,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-9b980188",
@@ -6621,7 +6605,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-e6707388",
@@ -6637,7 +6621,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-ef2f0ccb",
@@ -6653,7 +6637,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-2b836bad",
@@ -6669,7 +6653,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-ba4a1923",
@@ -6685,7 +6669,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-82f00a85",
@@ -6701,7 +6685,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-51ba3665",
@@ -6717,7 +6701,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-e6893862",
@@ -6733,7 +6717,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-eae53e2f",
@@ -6749,7 +6733,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-474031ec",
@@ -6765,7 +6749,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-625f452a",
@@ -6781,7 +6765,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-a4eea5c2",
@@ -6797,7 +6781,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-ab5496c8",
@@ -6813,7 +6797,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-00bf2665",
@@ -6829,7 +6813,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-e0b42737",
@@ -6845,7 +6829,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-893e89bd",
@@ -6861,7 +6845,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-8f66e860",
@@ -6877,7 +6861,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-a8af1b95",
@@ -6893,7 +6877,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-21247aa1",
@@ -6909,7 +6893,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-d110ee96",
@@ -6925,7 +6909,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-79d0d5fd",
@@ -6941,7 +6925,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-8afef9ad",
@@ -6957,7 +6941,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-00000fae",
@@ -6973,7 +6957,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-6dcdde68",
@@ -6989,7 +6973,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-776b4d4d",
@@ -7005,7 +6989,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-f7cebe30",
@@ -7021,7 +7005,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-e8127a5d",
@@ -7037,7 +7021,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:45.139Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-f87554d8",
@@ -7053,7 +7037,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.368Z"
+    "scrapedAt": "2026-09-23T23:50:19.155Z"
   },
   {
     "id": "bvv-e478d4d7",
@@ -7069,7 +7053,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.368Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-4d00b0a8",
@@ -7085,7 +7069,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.368Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-f9e5c600",
@@ -7101,7 +7085,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.368Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-6cb672b6",
@@ -7117,7 +7101,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.368Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-37063080",
@@ -7133,7 +7117,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.368Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-acadfdb1",
@@ -7149,7 +7133,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.368Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-17fd512b",
@@ -7165,7 +7149,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.368Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-d7d81a7f",
@@ -7181,7 +7165,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.368Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-70091323",
@@ -7197,7 +7181,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-073b5c8c",
@@ -7213,7 +7197,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-73fee11c",
@@ -7229,7 +7213,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-88a64509",
@@ -7245,7 +7229,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-d40484bc",
@@ -7261,7 +7245,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-e8847fe8",
@@ -7277,7 +7261,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-3d141f47",
@@ -7293,7 +7277,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-403154a1",
@@ -7309,7 +7293,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-7a15fa53",
@@ -7325,7 +7309,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-388de9d5",
@@ -7341,7 +7325,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-1d5a009e",
@@ -7357,7 +7341,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-4aea27be",
@@ -7373,7 +7357,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-fb05d5de",
@@ -7389,7 +7373,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-bc8927e2",
@@ -7405,7 +7389,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-e878a47d",
@@ -7421,7 +7405,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-3ca9caa7",
@@ -7437,7 +7421,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-941cade9",
@@ -7453,7 +7437,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-fc6ad455",
@@ -7469,7 +7453,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-0a0d0d03",
@@ -7485,7 +7469,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-413d56be",
@@ -7501,7 +7485,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-626d5d33",
@@ -7517,7 +7501,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-9250e177",
@@ -7533,7 +7517,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-b3acdd94",
@@ -7549,7 +7533,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-7bb3b271",
@@ -7565,7 +7549,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-d8dc8b51",
@@ -7581,7 +7565,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-c209a609",
@@ -7597,7 +7581,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-364d2196",
@@ -7613,7 +7597,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-4d4f3c62",
@@ -7629,7 +7613,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-23942878",
@@ -7645,7 +7629,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-d8c0c8fb",
@@ -7661,7 +7645,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-01e9b30c",
@@ -7677,7 +7661,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:48.369Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-94299aac",
@@ -7693,7 +7677,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:22.364Z"
   },
   {
     "id": "bvv-c7ad606f",
@@ -7709,7 +7693,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-decee6bf",
@@ -7725,7 +7709,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-aa07a36a",
@@ -7741,7 +7725,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-a4b8e88a",
@@ -7757,7 +7741,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-5bda9013",
@@ -7773,7 +7757,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-5e4afd78",
@@ -7789,7 +7773,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-23890283",
@@ -7805,7 +7789,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-96784bdb",
@@ -7821,7 +7805,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-262d9fe4",
@@ -7837,7 +7821,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-588fc23f",
@@ -7853,7 +7837,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-f338439a",
@@ -7869,7 +7853,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-1e0d2bff",
@@ -7885,7 +7869,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-dabe8ff9",
@@ -7901,7 +7885,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-4107663b",
@@ -7917,7 +7901,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-d99fa26b",
@@ -7933,7 +7917,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-75f30e7b",
@@ -7949,7 +7933,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-0bfadd4d",
@@ -7965,7 +7949,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-39d503f9",
@@ -7981,7 +7965,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-af39a64b",
@@ -7997,7 +7981,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-c479b325",
@@ -8013,7 +7997,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-68cc7cfa",
@@ -8029,7 +8013,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-650b4b79",
@@ -8045,7 +8029,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-9ad0b41d",
@@ -8061,7 +8045,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-8db57af3",
@@ -8077,7 +8061,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-b48b17c7",
@@ -8093,7 +8077,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-72386869",
@@ -8109,7 +8093,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-1bf979ad",
@@ -8125,7 +8109,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-755ccada",
@@ -8141,7 +8125,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-66481397",
@@ -8157,7 +8141,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-394f220f",
@@ -8173,7 +8157,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-a92ceae0",
@@ -8189,7 +8173,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-261fcd9a",
@@ -8205,7 +8189,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-f4cb561c",
@@ -8221,7 +8205,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-33014520",
@@ -8237,7 +8221,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-609fd663",
@@ -8253,7 +8237,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-db111e2a",
@@ -8269,7 +8253,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-6c14989b",
@@ -8285,7 +8269,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-bb082c12",
@@ -8301,7 +8285,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-11ef117c",
@@ -8317,7 +8301,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:51.615Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-5eafc047",
@@ -8333,7 +8317,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:25.587Z"
   },
   {
     "id": "bvv-386860e0",
@@ -8349,7 +8333,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-70d16dc7",
@@ -8365,7 +8349,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-0c92ceeb",
@@ -8381,7 +8365,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-31833b22",
@@ -8397,7 +8381,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-bc4b1dde",
@@ -8413,7 +8397,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-b37b0204",
@@ -8429,7 +8413,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-1ebf80e0",
@@ -8445,7 +8429,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-90107b80",
@@ -8461,7 +8445,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-f3d581e9",
@@ -8477,7 +8461,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-197daaeb",
@@ -8493,7 +8477,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-66d55f1c",
@@ -8509,7 +8493,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-62c90210",
@@ -8525,7 +8509,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-356a085e",
@@ -8541,7 +8525,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-8b886f2c",
@@ -8557,7 +8541,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-6963c141",
@@ -8573,7 +8557,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-19dfcded",
@@ -8589,7 +8573,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-ba325ea7",
@@ -8605,7 +8589,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-f700b503",
@@ -8621,7 +8605,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-3350786c",
@@ -8637,7 +8621,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-392726f6",
@@ -8653,7 +8637,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-c80d8bf1",
@@ -8669,7 +8653,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-035a4bac",
@@ -8685,7 +8669,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-5ced6266",
@@ -8701,7 +8685,7 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   },
   {
     "id": "bvv-eab2236e",
@@ -8717,6 +8701,6 @@
     "condition": "Pre-Owned",
     "boxPapers": null,
     "postedMinutesAgo": null,
-    "scrapedAt": "2026-09-23T18:15:54.849Z"
+    "scrapedAt": "2026-09-23T23:50:28.825Z"
   }
 ]
