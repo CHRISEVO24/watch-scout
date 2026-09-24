@@ -2,1104 +2,556 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Watch Scout — WPB Watch Co</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0f1117;--panel:#1c1f24;--panel-2:#232628;--hairline:#2c2f36;--hairline-soft:#3a3f4a;--text:#e8e6e1;--text-muted:#6b6864;--text-secondary:#9a9691;--brass:#c9a05b;--brass-soft:rgba(201,160,91,.15);--brass-text:#c9a05b;--blue:#4a9eff;--green:#4ade80;--red:#f87171;--mono:'SF Mono',ui-monospace,monospace;--sans:-apple-system,sans-serif;--radius:10px;}
-*{box-sizing:border-box;margin:0;padding:0;}
-body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:14px;line-height:1.5;}
-a{color:inherit;text-decoration:none;}
-input,select,button{font-family:var(--sans);}
-/* Header */
-.hdr{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;border-bottom:1px solid var(--hairline);gap:16px;flex-wrap:wrap;}
-.hdr-left{display:flex;align-items:center;gap:12px;}
-.logo{width:40px;height:40px;background:var(--panel);border:1px solid var(--hairline);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;}
-.site-title{font-size:19px;font-weight:700;letter-spacing:-.3px;}
-.site-sub{font-size:11.5px;color:var(--text-secondary);}
-.src-grid{display:grid;grid-template-columns:repeat(6,auto);gap:5px 16px;flex:1;justify-content:center;}
-.src-row{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text-secondary);white-space:nowrap;}
-.src-dot{width:6px;height:6px;border-radius:50%;}
-.src-row b{color:var(--text);font-weight:600;min-width:28px;text-align:right;}
-.total-ring{width:78px;height:78px;border-radius:50%;border:2px solid var(--hairline);display:flex;flex-direction:column;align-items:center;justify-content:center;flex-shrink:0;}
-.total-ring .n{font-size:18px;font-weight:700;color:var(--brass);line-height:1;}
-.total-ring .l{font-size:8px;text-transform:uppercase;letter-spacing:.5px;color:var(--text-muted);margin-top:2px;text-align:center;}
-/* Run bar */
-.run-bar{display:flex;align-items:center;gap:12px;padding:11px 24px;border-bottom:1px solid var(--hairline);flex-wrap:wrap;}
-#runBtn{position:relative;overflow:hidden;background:var(--brass);color:#2e2005;border:none;padding:9px 20px;border-radius:8px;font-size:13px;font-weight:700;}
-#runBtn:disabled{opacity:.6;cursor:default;}#fullScoutBtn{position:relative;overflow:hidden;background:#a0a0a0;color:#1a1a1a;border:none;padding:9px 20px;border-radius:8px;font-size:13px;font-weight:700;cursor:pointer;}#fullScoutBtn:hover{background:#888;}#fullScoutBtn:disabled{opacity:.6;cursor:default;}
-#runProg{position:absolute;left:0;top:0;height:100%;background:rgba(0,0,0,.18);width:0%;transition:width .3s;}
-#runStatus{font-size:12px;color:var(--text-secondary);flex:1;}
-#syncLabel{font-size:11px;color:var(--text-muted);}
-/* Tabs */
-.tabs{display:flex;padding:0 24px;border-bottom:1px solid var(--hairline);overflow-x:auto;}
-.tab{background:none;border:none;color:var(--text-secondary);font-size:13px;font-weight:500;padding:12px 15px;border-bottom:2px solid transparent;white-space:nowrap;cursor:pointer;}
-.tab:hover{color:var(--text);}
-.tab.on{color:var(--brass-text);border-bottom-color:var(--brass);}
-.badge{display:inline-block;background:var(--brass-soft);color:var(--brass-text);font-size:11px;font-weight:700;padding:1px 7px;border-radius:10px;margin-left:5px;}
-.view{display:none;}
-.view.on{display:block;}
-/* Feed layout */
-.feed-wrap{display:grid;grid-template-columns:264px 1fr 288px;height:calc(100vh - 172px);}
-.col-l,.col-r{padding:16px;overflow-y:auto;border-right:1px solid var(--hairline);}
-.col-r{border-right:none;border-left:1px solid var(--hairline);}
-.col-m{padding:16px;overflow-y:auto;}
-/* Filters */
-.fl{font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--text-muted);margin:13px 0 5px;}
-.fl:first-child{margin-top:0;}
-.fi{width:100%;background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:7px 10px;border-radius:7px;font-size:13px;}
-.fi::placeholder{color:var(--text-muted);}
-.chips{display:flex;flex-wrap:wrap;gap:4px;}
-.chip{background:var(--panel-2);border:1px solid var(--hairline);color:var(--text-secondary);font-size:11px;padding:3px 8px;border-radius:4px;cursor:pointer;}
-.chip.on,.chip:hover{background:var(--brass-soft);border-color:var(--brass);color:var(--brass-text);}
-.price-row{display:flex;gap:5px;}
-.price-row .fi{flex:1;}
-.sort-row{display:flex;gap:4px;}
-.sb{flex:1;background:var(--panel-2);border:1px solid var(--hairline);color:var(--text-secondary);font-size:11px;padding:5px 6px;border-radius:4px;text-align:center;cursor:pointer;}
-.sb.on,.sb:hover{background:var(--brass-soft);border-color:var(--brass);color:var(--brass-text);}
-#liveBtn{width:100%;background:var(--blue);color:#fff;border:none;padding:8px;border-radius:7px;font-size:12px;font-weight:600;margin-top:8px;cursor:pointer;}
-#liveStatus{font-size:11px;color:var(--text-muted);margin-top:4px;min-height:14px;}
-/* Cards */
-.res-hdr{margin-bottom:10px;}
-.res-count{font-size:13px;color:var(--text-secondary);}
-.card{display:grid;grid-template-columns:68px 1fr auto;gap:11px;align-items:start;background:var(--panel);border:1px solid var(--hairline);border-radius:var(--radius);padding:12px 14px;margin-bottom:8px;transition:border-color .12s;}
-.card:hover{border-color:var(--hairline-soft);}
-.card.hot{border-color:rgba(201,160,91,.3);background:linear-gradient(180deg,rgba(201,160,91,.04),var(--panel) 40%);}
-.thumb{width:68px;height:68px;border-radius:7px;background:var(--panel-2);border:1px solid var(--hairline);overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:22px;color:var(--text-muted);flex-shrink:0;}
-.thumb img{width:100%;height:100%;object-fit:cover;display:block;}
-.card-top{display:flex;align-items:center;gap:6px;margin-bottom:4px;flex-wrap:wrap;}
-.sp{font-size:9.5px;text-transform:uppercase;letter-spacing:.5px;padding:2px 6px;border-radius:3px;font-weight:700;}
-.new-tag{font-size:9.5px;font-weight:700;text-transform:uppercase;background:var(--green);color:#0a2e18;padding:2px 5px;border-radius:3px;}
-.nick-tag{font-size:9.5px;font-weight:600;background:var(--brass-soft);color:var(--brass-text);padding:2px 6px;border-radius:3px;border:1px solid rgba(201,160,91,.3);}
-.tago{font-size:11px;color:var(--text-muted);}
-.ct{font-size:13px;font-weight:600;margin-bottom:3px;line-height:1.3;}
-.cm{font-size:11.5px;color:var(--text-secondary);}
-.cp{text-align:right;flex-shrink:0;}
-.cp .amt{font-size:16px;font-weight:700;color:var(--brass);font-family:var(--mono);}
-.cp .sn{font-size:11px;color:var(--text-muted);}
-.cp a{display:inline-block;margin-top:5px;font-size:11.5px;color:var(--blue);border:1px solid var(--hairline);padding:3px 8px;border-radius:4px;}
-.empty{text-align:center;color:var(--text-muted);padding:36px 0;font-size:13px;}
-/* Source pill colors */
-.p-watchrecon{background:#4a9eff;color:#0c1d2e;}
-.p-watchpatrol{background:#c9a05b;color:#3a2e15;}
-.p-chrono24{background:#7c3aed;color:#ede9fe;}
-.p-bobswatches{background:#e11d48;color:#ffe4e6;}
-.p-europeanwatchco{background:#0891b2;color:#cffafe;}
-.p-fbgroups,.p-fbmarketplace{background:#1877F2;color:#fff;}
-.p-ebay{background:#e53e00;color:#fff;}
-.p-whatsapp{background:#25D366;color:#062910;}
-.p-bezel{background:#7c5cff;color:#1c1030;}
-.p-inventoryconnectmarketplace{background:#38bdf8;color:#0a2733;}
-.p-the1916company{background:#b45309;color:#fef3c7;}
-/* Hot leads */
-.hl-title{font-size:12.5px;font-weight:600;margin-bottom:10px;}
-.wl-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-bottom:14px;}
-.wl-tag{font-size:11px;color:var(--text-secondary);background:var(--panel-2);border:1px solid var(--hairline);padding:4px 7px;border-radius:4px;text-align:center;cursor:pointer;}
-.wl-tag:hover{border-color:var(--brass);color:var(--brass-text);}
-.hl-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 14px;}
-.hl-item{font-size:12px;margin-bottom:7px;line-height:1.4;}
-.hl-item .hn{font-weight:600;}
-.hl-item .hp{font-size:11px;color:var(--text-muted);}
-.hl-item a{color:var(--blue);}
-/* Sales Opps */
-.so-wrap{padding:20px 24px;}
-.so-title{font-size:15px;font-weight:600;margin-bottom:5px;}
-.so-sub{font-size:12.5px;color:var(--text-secondary);margin-bottom:16px;}
-.match{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;background:var(--panel-2);border:1px solid var(--hairline);border-radius:var(--radius);padding:13px 15px;margin-bottom:9px;}
-.match.exact{border-color:rgba(201,160,91,.3);}
-.mbadge{font-size:10px;text-transform:uppercase;letter-spacing:.5px;padding:2px 6px;border-radius:3px;font-weight:700;display:inline-block;margin-bottom:4px;}
-.mbadge.ref{background:var(--brass-soft);color:var(--brass-text);}
-.mbadge.ref_family{background:var(--panel);color:var(--text-muted);border:1px solid var(--hairline);}
-.mbuyer{font-size:13px;font-weight:500;margin-bottom:2px;}
-.mitem{font-size:13px;color:var(--brass-text);}
-.mmeta{font-size:11.5px;color:var(--text-muted);margin-top:3px;}
-.mpw{text-align:right;}
-.mpl{font-size:10px;text-transform:uppercase;letter-spacing:.4px;color:var(--text-muted);margin-bottom:2px;}
-.mpa{font-size:17px;font-weight:700;font-family:var(--mono);}
-.mlink{display:inline-block;font-size:11.5px;color:var(--blue);border:1px solid var(--hairline);padding:3px 8px;border-radius:4px;margin-top:5px;margin-left:4px;}
-/* Inventory tabs */
-.inv-bar{display:flex;gap:7px;flex-wrap:wrap;align-items:center;padding:16px 24px 0;}
-.inv-bar input,.inv-bar select{background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:7px 10px;border-radius:7px;font-size:13px;}
-.inv-bar input{width:200px;}
-.inv-cnt{font-size:12px;color:var(--text-muted);margin-left:auto;}
-.inv-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(248px,1fr));gap:12px;padding:14px 24px 24px;}
-.inv-card{background:var(--panel);border:1px solid var(--hairline);border-radius:var(--radius);overflow:hidden;}
-.inv-card img{width:100%;height:165px;object-fit:cover;display:block;background:var(--panel-2);}
-.inv-body{padding:11px;}
-.inv-brand{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--brass);margin-bottom:3px;}
-.inv-name{font-size:13px;font-weight:600;line-height:1.3;margin-bottom:4px;}
-.inv-ref{font-size:11.5px;color:var(--text-secondary);margin-bottom:7px;}
-.inv-price{font-size:15px;font-weight:700;color:var(--brass);font-family:var(--mono);margin-bottom:7px;}
-.inv-bp{display:flex;gap:4px;margin-bottom:8px;}
-.bp{font-size:10px;font-weight:700;padding:2px 6px;border-radius:3px;}
-.bp.y{background:rgba(74,222,128,.15);color:#4ade80;}
-.bp.n{background:var(--panel-2);color:var(--text-muted);}
-.inv-actions{display:flex;flex-wrap:wrap;gap:5px;}
-.inv-actions a,.inv-actions button{padding:5px 10px;border-radius:5px;font-size:11.5px;font-weight:600;text-decoration:none;border:none;cursor:pointer;}
-.btn-view{background:var(--panel-2);border:1px solid var(--hairline)!important;color:var(--text);}
-.btn-wa{background:#25D366;color:#fff;}
-.btn-fb{background:#1877F2;color:#fff;}
-.btn-msg{background:#0084FF;color:#fff;}
-/* WhatsApp modal */
-.modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:1000;align-items:center;justify-content:center;}
-.modal-bg.open{display:flex;}
-.modal{background:var(--panel);border:1px solid var(--hairline);border-radius:var(--radius);padding:20px;width:480px;max-width:95vw;max-height:90vh;overflow-y:auto;}
-.modal h3{font-size:14px;font-weight:600;margin-bottom:12px;}
-.modal textarea{width:100%;background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:10px;border-radius:7px;font-size:13px;min-height:110px;resize:vertical;margin-bottom:10px;}
-.grp-list{display:flex;flex-direction:column;gap:5px;margin-bottom:12px;max-height:160px;overflow-y:auto;}
-.grp-row{display:flex;align-items:center;gap:8px;font-size:13px;}
-.grp-dot{width:8px;height:8px;border-radius:50%;background:#555;}
-.grp-dot.on{background:var(--green);}
-.modal-btns{display:flex;gap:8px;}
-.modal-btns button{flex:1;padding:9px;border-radius:7px;font-size:13px;font-weight:600;border:none;cursor:pointer;}
-.btn-send-wa{background:#25D366;color:#fff;}
-.btn-cancel-modal{background:var(--panel-2);color:var(--text);border:1px solid var(--hairline)!important;}
-#waResult{margin-top:10px;font-size:12px;padding:8px 10px;border-radius:5px;background:var(--panel-2);display:none;}
-#waStatus{font-size:12px;color:var(--text-secondary);margin-bottom:10px;padding:8px 10px;background:var(--panel-2);border-radius:5px;}
-/* Chronos AI */
-.chron-wrap{max-width:800px;margin:22px auto;padding:0 24px;}
-.chron-title{font-size:14px;font-weight:600;margin-bottom:4px;}
-.chron-sub{font-size:12.5px;color:var(--text-secondary);margin-bottom:16px;}
-#chronMsgs{display:flex;flex-direction:column;gap:11px;margin-bottom:14px;max-height:480px;overflow-y:auto;}
-.bu{align-self:flex-end;max-width:80%;background:var(--brass-soft);color:var(--text);padding:10px 13px;border-radius:9px;font-size:14px;white-space:pre-wrap;line-height:1.5;}
-.ba{align-self:flex-start;max-width:80%;background:var(--panel-2);color:var(--text);padding:10px 13px;border-radius:9px;font-size:14px;white-space:pre-wrap;line-height:1.5;}
-.chron-row{display:flex;gap:7px;}
-#chronInput{flex:1;background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:11px 13px;border-radius:8px;font-size:14px;}
-#chronSend{background:var(--brass);border:none;color:#2e2005;padding:11px 20px;border-radius:8px;font-weight:600;cursor:pointer;}
+  :root{
+    --bg: #15171a;
+    --panel: #1c1f23;
+    --panel-2: #20242a;
+    --hairline: #2b2f35;
+    --hairline-soft: #25282d;
+    --text-primary: #edeef0;
+    --text-secondary: #9aa0a8;
+    --text-muted: #686e76;
+    --brass: #c9a05b;
+    --brass-soft: #4a3f2a;
+    --brass-text: #e2bd80;
+    --emerald: #3fa66e;
+    --emerald-soft: #1f3329;
+    --rose: #c75450;
+    --rose-soft: #3a2424;
+    --blue: #5b8fc7;
+    --radius: 10px;
+    --serif: 'Fraunces', Georgia, serif;
+    --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --mono: 'IBM Plex Mono', monospace;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text-primary);
+    font-family:var(--sans);
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:var(--brass-soft);color:var(--brass-text);}
+
+  .shell{max-width:1320px;margin:0 auto;padding:28px 32px 80px;}
+
+  /* ---------- header ---------- */
+  header{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    gap:32px;
+    padding-bottom:24px;
+    margin-bottom:24px;
+    border-bottom:1px solid var(--hairline);
+  }
+  .brand{display:flex; align-items:center; gap:16px;}
+  .brand-mark{
+    width:46px;height:46px;border-radius:50%;
+    border:1px solid var(--hairline);
+    display:flex;align-items:center;justify-content:center;
+    position:relative;flex-shrink:0;
+  }
+  .brand-mark svg{width:28px;height:28px;}
+  .brand h1{
+    font-family:var(--serif);
+    font-weight:500;
+    font-size:24px;
+    margin:0 0 2px;
+    letter-spacing:0.2px;
+  }
+  .brand p{margin:0;font-size:12.5px;color:var(--text-secondary);letter-spacing:0.3px;}
+
+  .bezel-wrap{display:flex;align-items:center;gap:22px;}
+  .bezel{position:relative;width:96px;height:96px;flex-shrink:0;}
+  .bezel svg{width:100%;height:100%;}
+  .bezel-count{
+    position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+    text-align:center;
+  }
+  .bezel-count .num{font-family:var(--mono);font-size:20px;font-weight:600;color:var(--text-primary);line-height:1;}
+  .bezel-count .lbl{font-size:9px;color:var(--text-muted);letter-spacing:0.6px;text-transform:uppercase;margin-top:2px;}
+
+  .source-legend{display:flex;flex-direction:column;gap:7px;}
+  .source-legend .row{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--text-secondary);}
+  .source-legend .dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;}
+  .source-legend .row b{color:var(--text-primary);font-weight:500;margin-left:auto;font-family:var(--mono);}
+
+  /* ---------- layout ---------- */
+  .grid{display:grid;grid-template-columns:240px 1fr 280px;gap:24px;align-items:start;}
+
+  @media (max-width: 1080px){
+    .grid{grid-template-columns:1fr;}
+  }
+
+  /* ---------- filters ---------- */
+  .panel{
+    background:var(--panel);
+    border:1px solid var(--hairline);
+    border-radius:var(--radius);
+    padding:18px;
+  }
+  .panel-title{
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.8px;
+    color:var(--text-muted);
+    margin:0 0 14px;
+    font-weight:600;
+  }
+  .field{margin-bottom:18px;}
+  .field label{display:block;font-size:12.5px;color:var(--text-secondary);margin-bottom:7px;}
+  .field input[type="text"], .field select{
+    width:100%;
+    background:var(--bg);
+    border:1px solid var(--hairline);
+    color:var(--text-primary);
+    border-radius:7px;
+    padding:9px 10px;
+    font-size:13.5px;
+    font-family:var(--sans);
+  }
+  .field input[type="text"]:focus, .field select:focus{outline:none;border-color:var(--brass);}
+  .chip-group{display:flex;flex-wrap:wrap;gap:6px;}
+  .chip{
+    padding:6px 11px;
+    border-radius:20px;
+    border:1px solid var(--hairline);
+    font-size:12px;
+    color:var(--text-secondary);
+    cursor:pointer;
+    user-select:none;
+    background:transparent;
+  }
+  .chip:hover{border-color:var(--hairline-soft);color:var(--text-primary);}
+  .chip.active{background:var(--brass-soft);border-color:var(--brass);color:var(--brass-text);}
+  .range-row{display:flex;gap:8px;}
+  .range-row input{width:50%;}
+
+  /* ---------- feed ---------- */
+  .feed-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;}
+  .feed-header .count{font-size:13px;color:var(--text-secondary);}
+  .feed-header .count b{color:var(--text-primary);font-family:var(--mono);}
+  .sort-row{display:flex;gap:6px;}
+
+  .card{
+    background:var(--panel);
+    border:1px solid var(--hairline);
+    border-radius:var(--radius);
+    padding:16px 18px;
+    margin-bottom:10px;
+    display:grid;
+    grid-template-columns:1fr auto;
+    gap:14px;
+    align-items:start;
+    transition:border-color .15s;
+  }
+  .card:hover{border-color:var(--hairline-soft);}
+  .card.hot{border-color:var(--brass-soft);background:linear-gradient(180deg, rgba(201,160,91,0.06), var(--panel) 40%);}
+
+  .card-top{display:flex;align-items:center;gap:9px;margin-bottom:6px;flex-wrap:wrap;}
+  .src-pill{
+    font-size:10px;text-transform:uppercase;letter-spacing:0.5px;
+    padding:3px 8px;border-radius:5px;font-weight:600;
+  }
+  .src-watchrecon{background:var(--blue);color:#0c1d2e;}
+  .src-watchpatrol{background:var(--brass);color:#3a2e15;}
+  .src-fbgroup{background:#4267B2;color:#fff;}
+  .src-fbmarket{background:#5b7fa6;color:#0c1d2e;}
+  .time-ago{font-size:11.5px;color:var(--text-muted);}
+  .new-badge{
+    font-size:10px;text-transform:uppercase;letter-spacing:0.4px;
+    color:var(--emerald);background:var(--emerald-soft);
+    padding:3px 7px;border-radius:5px;font-weight:600;
+  }
+  .nickname-badge{
+    font-size:10.5px;color:var(--brass-text);background:var(--brass-soft);
+    padding:3px 8px;border-radius:5px;font-weight:500;
+  }
+
+  .card-title{font-size:14.5px;font-weight:500;margin:0 0 4px;line-height:1.4;}
+  .card-meta{font-size:12.5px;color:var(--text-secondary);display:flex;gap:14px;flex-wrap:wrap;}
+  .card-meta span{display:inline-flex;align-items:center;gap:5px;}
+
+  .card-price{text-align:right;}
+  .card-price .amt{font-family:var(--mono);font-size:19px;font-weight:600;color:var(--text-primary);}
+  .card-price .src-name{font-size:11px;color:var(--text-muted);margin-top:4px;}
+  .card-price a{
+    display:inline-block;margin-top:9px;font-size:11.5px;color:var(--brass-text);
+    text-decoration:none;border:1px solid var(--brass-soft);padding:5px 10px;border-radius:6px;
+  }
+  .card-price a:hover{background:var(--brass-soft);}
+
+  .empty{padding:40px 0;text-align:center;color:var(--text-muted);font-size:13.5px;}
+
+  /* ---------- hot leads rail ---------- */
+  .rail-title{display:flex;align-items:center;gap:8px;margin-bottom:14px;}
+  .rail-title .panel-title{margin:0;}
+  .watchlist-tag{
+    display:inline-block;font-size:11.5px;color:var(--text-secondary);
+    background:var(--bg);border:1px solid var(--hairline);
+    padding:5px 9px;border-radius:6px;margin:0 6px 6px 0;
+  }
+  .hot-item{
+    padding:11px 0;
+    border-bottom:1px solid var(--hairline-soft);
+  }
+  .hot-item:last-child{border-bottom:none;}
+  .hot-item .hi-title{font-size:13px;font-weight:500;margin-bottom:3px;}
+  .hot-item .hi-meta{font-size:11.5px;color:var(--text-muted);display:flex;justify-content:space-between;}
+  .hot-item .hi-price{font-family:var(--mono);color:var(--brass-text);}
+
+  .footer-note{
+    margin-top:32px;padding-top:18px;border-top:1px solid var(--hairline);
+    font-size:11.5px;color:var(--text-muted);line-height:1.6;
+  }
+  .footer-note code{background:var(--panel-2);padding:1px 5px;border-radius:4px;color:var(--text-secondary);}
 </style>
 </head>
 <body>
-<div class="hdr">
-  <div class="hdr-left">
-    <div class="logo">&#x231a;</div>
-    <div><div class="site-title">Watch Scout</div><div class="site-sub">WPB Watch Co &middot; market intelligence</div></div>
-  </div>
-  <div class="src-grid">
-    <div class="src-row"><span class="src-dot" style="background:#4a9eff"></span>WatchRecon<b id="c-wr">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#c9a05b"></span>WatchPatrol<b id="c-wp">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#7c3aed"></span>Chrono24<b id="c-c24">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#e11d48"></span>Bob's Watches<b id="c-bw">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#0891b2"></span>European Watch<b id="c-ew">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#1877F2"></span>FB Groups<b id="c-fbg">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#1877F2"></span>FB Marketplace<b id="c-fbm">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#e53e00"></span>eBay<b id="c-eb">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#25D366"></span>WhatsApp<b id="c-wa">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#7c5cff"></span>Bezel<b id="c-bz">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#38bdf8"></span>InventoryConnect<b id="c-ic">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#b45309"></span>The 1916 Co<b id="c-19">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#16a34a"></span>Artimeus<b id="c-art">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#0f766e"></span>SwissWatchExpo<b id="c-swe">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#92400e"></span>WatchLimit<b id="c-wl">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#be185d"></span>Watches OFF 5TH<b id="c-wo5">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#065f46"></span>Affordable Swiss<b id="c-asw">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#7e22ce"></span>Exquisite<b id="c-etp">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#0369a1"></span>Ashford<b id="c-ash">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#b8860b"></span>Luxury Bazaar<b id="c-lb">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#6366f1"></span>Watch Affinity<b id="c-wa2">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#0ea5e9"></span>iPlayWatch<b id="c-ipw">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#6b7280"></span>AIS Watches<b id="c-aisw">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#6b7280"></span>Element iN Time<b id="c-elem">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#6b7280"></span>Wrist Aficionado<b id="c-wris">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#6b7280"></span>Collectors1946<b id="c-coll">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#6b7280"></span>Grand Caliber<b id="c-gran">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#6b7280"></span>CRM Jewelers<b id="c-crmj">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#6b7280"></span>Provident Jewelry<b id="c-prov">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#6b7280"></span>Topper Jewelers<b id="c-topp">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#6b7280"></span>Material Good<b id="c-mate">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#6b7280"></span>HQ Milton<b id="c-hqmi">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#84cc16"></span>Analog Shift<b id="c-anal">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#f59e0b"></span>Timepiece Trading<b id="c-time">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#dc2626"></span>Gray and Sons<b id="c-gray">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#7c3aed"></span>MT Timepieces<b id="c-mtti">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#0891b2"></span>NY Watch Market<b id="c-nywm">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#16a34a"></span>WatchDrop<b id="c-wdro">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#9333ea"></span>Watches Intl<b id="c-winl">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#e11d48"></span>Brandville Vault<b id="c-bvvt">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#0284c7"></span>Watch Pilot<b id="c-wplt">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#d97706"></span>Luxury Time<b id="c-luxt">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#059669"></span>YurWatches<b id="c-yurw">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#7c3aed"></span>Vance Luxury<b id="c-vanc">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#b45309"></span>Feldmar Watch<b id="c-feld">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#0f766e"></span>WYW ATL<b id="c-wywa">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#0e7490"></span>Essential Watches<b id="c-ewbh">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#be185d"></span>1MT Watches<b id="c-1mtw">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#1d4ed8"></span>Birmingham Luxury<b id="c-blww">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#2563eb"></span>ECI Jewelers<b id="c-ecii">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#7c3aed"></span>ECJ Luxe<b id="c-ecjj">0</b></div>
-    <div class="src-row"><span class="src-dot" style="background:#dc2626"></span>WPB Watch Co<b id="c-wpbw">0</b></div>
-  </div>
-  <div class="total-ring"><div class="n" id="totalN">0</div><div class="l">Live<br>Leads</div></div>
-</div>
-<div class="run-bar">
-  <button id="runBtn" onclick="runScout()"><div id="runProg"></div>Quick Scout (10 min)</button>
-  <button id="fullScoutBtn" onclick="runScout('full')">Full Scout - Refresh Everything</button>
-  <div><div id="runStatus">Ready</div><div id="syncLabel">FB Groups / WhatsApp last synced: check session</div></div>
-</div>
-<div class="tabs">
-  <button class="tab on" data-tab="feed">Live Feed</button>
-  <button class="tab" data-tab="sales">Sales Opportunities<span class="badge" id="salesBadge">0</span></button>
-  <button class="tab" data-tab="inv">&#128230; Post Inventory</button>
-  <button class="tab" data-tab="eci">&#128142; Post ECI</button>
-  <button class="tab" data-tab="ecj">&#128142; Post ECJ Luxe</button>
-  <button class="tab" data-tab="lb">&#128142; Post LB</button>
-  <button class="tab" data-tab="wa2">&#128142; Post WA</button>
-  <button class="tab" data-tab="bump">&#128276; Bump Manager</button>
-  <button class="tab" data-tab="chron">&#129302; Chronos AI</button>
-  <button class="tab" data-tab="wtb">&#128203; Client WTB<span class="badge" id="wtbBadge">0</span></button>
-</div>
-<div id="view-feed" class="view on">
-  <div class="feed-wrap">
-    <div class="col-l">
-      <div class="fl">Search</div>
-      <input class="fi" id="srch" placeholder="Brand, model, ref, nickname&hellip;" oninput="S.q=this.value;renderFeed()">
-      <div class="fl">Source</div>
-      <div class="chips" id="srcChips">
-        <div class="chip on" data-src="">All</div>
-        <div class="chip" data-src="WatchRecon">WatchRecon</div>
-        <div class="chip" data-src="WatchPatrol">WatchPatrol</div>
-        <div class="chip" data-src="Chrono24">Chrono24</div>
-        <div class="chip" data-src="Bob's Watches">Bob's</div>
-        <div class="chip" data-src="European Watch Co">European</div>
-        <div class="chip" data-src="FB Groups">FB Groups</div>
-        <div class="chip" data-src="FB Marketplace">FB Market</div>
-        <div class="chip" data-src="eBay">eBay</div>
-        <div class="chip" data-src="WhatsApp">WhatsApp</div>
-        <div class="chip" data-src="Bezel">Bezel</div>
-        <div class="chip" data-src="InventoryConnect Marketplace">IC Mkt</div>
-        <div class="chip" data-src="The 1916 Company">1916 Co</div>
-        <div class="chip" data-src="Artimeus">Artimeus</div>
-        <div class="chip" data-src="SwissWatchExpo">SWE</div>
-        <div class="chip" data-src="Watch Limit">WatchLimit</div>
-        <div class="chip" data-src="Watches OFF 5TH">OFF 5TH</div>
-        <div class="chip" data-src="Affordable Swiss Watches">Affordable Swiss</div>
-        <div class="chip" data-src="Exquisite Timepieces">Exquisite</div>
-        <div class="chip" data-src="Ashford">Ashford</div>
-        <div class="chip" data-src="Luxury Bazaar">Luxury Bazaar</div>
-        <div class="chip" data-src="Watch Affinity">Watch Affinity</div>
-        <div class="chip" data-src="iPlayWatch">iPlayWatch</div>
-        <div class="chip" data-src="AIS Watches">AIS Watches</div>
-        <div class="chip" data-src="Element iN Time">Element iN Time</div>
-        <div class="chip" data-src="Wrist Aficionado">Wrist Aficionado</div>
-        <div class="chip" data-src="Collectors1946">Collectors1946</div>
-        <div class="chip" data-src="Grand Caliber">Grand Caliber</div>
-        <div class="chip" data-src="CRM Jewelers">CRM Jewelers</div>
-        <div class="chip" data-src="Provident Jewelry">Provident Jewelry</div>
-        <div class="chip" data-src="Topper Jewelers">Topper Jewelers</div>
-        <div class="chip" data-src="Material Good">Material Good</div>
-        <div class="chip" data-src="HQ Milton">HQ Milton</div>
-        <div class="chip" data-src="Analog Shift">Analog Shift</div>
-        <div class="chip" data-src="Timepiece Trading">Timepiece Trading</div>
-        <div class="chip" data-src="Gray &amp; Sons">Gray &amp; Sons</div>
-        <div class="chip" data-src="MT Timepieces">MT Timepieces</div>
-        <div class="chip" data-src="NY Watch Market">NY Watch Market</div>
-        <div class="chip" data-src="WatchDrop">WatchDrop</div>
-        <div class="chip" data-src="Watches International">Watches Intl</div>
-        <div class="chip" data-src="Brandville Vault">Brandville Vault</div>
-        <div class="chip" data-src="Watch Pilot">Watch Pilot</div>
-        <div class="chip" data-src="Luxury Time">Luxury Time</div>
-        <div class="chip" data-src="YurWatches">YurWatches</div>
-        <div class="chip" data-src="Vance Luxury Group">Vance Luxury</div>
-        <div class="chip" data-src="Feldmar Watch">Feldmar Watch</div>
-        <div class="chip" data-src="WYW ATL">WYW ATL</div>
-        <div class="chip" data-src="Essential Watches">Essential Watches</div>
-        <div class="chip" data-src="1MT Watches">1MT Watches</div>
-        <div class="chip" data-src="Birmingham Luxury Watches">Birmingham Luxury</div>
-        <div class="chip" data-src="ECI Jewelers">ECI Jewelers</div>
-        <div class="chip" data-src="ECJ Luxe">ECJ Luxe</div>
-        <div class="chip" data-src="WPB Watch Co">WPB Watch Co</div>
+<div class="shell">
+
+  <header>
+    <div class="brand">
+      <div class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#c9a05b" stroke-width="1.4">
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M12 7v5l3.2 1.9" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 2.4v1.6M12 20v1.6M2.4 12h1.6M20 12h1.6" stroke-linecap="round"/>
+        </svg>
       </div>
-      <div class="fl">Brand</div>
-      <select class="fi" id="brandSel" onchange="S.brand=this.value;renderFeed()"><option value="">All brands</option></select>
-      <div class="fl">Dial Color</div>
-      <select class="fi" id="colorSel" onchange="S.color=this.value;renderFeed()"><option value="">Any color</option></select>
-      <div class="fl">Price Range</div>
-      <div class="price-row">
-        <input class="fi" id="pMin" type="number" placeholder="Min" oninput="S.pMin=+this.value||0;renderFeed()">
-        <input class="fi" id="pMax" type="number" placeholder="Max" oninput="S.pMax=+this.value||0;renderFeed()">
-      </div>
-      <div class="fl">Listing Age</div>
-      <div class="chips" id="ageChips">
-        <div class="chip on" data-age="">Any</div>
-        <div class="chip" data-age="60">1h</div>
-        <div class="chip" data-age="1440">24h</div>
-        <div class="chip" data-age="10080">7d</div>
-        <div class="chip" data-age="43200">30d</div>
-      </div>
-      <div class="fl">Sort</div>
-      <div class="sort-row">
-        <div class="sb on" data-sort="new">Newest</div>
-        <div class="sb" data-sort="asc">Price &uarr;</div>
-        <div class="sb" data-sort="desc">Price &darr;</div>
-      </div>
-      <button id="liveBtn" onclick="doLive()">Pull live data for this search</button>
-      <div id="liveStatus"></div>
-    </div>
-    <div class="col-m">
-      <div class="res-hdr"><span class="res-count"><span id="feedCount">0</span> listings matching filters</span></div>
-      <div id="feedList"></div>
-    </div>
-    <div class="col-r">
-      <div class="hl-title">HOT LEADS &mdash; YOUR WATCHLIST</div>
-      <div class="wl-grid" id="wlTags"></div>
-      <div class="hl-grid" id="hlGrid"></div>
-    </div>
-  </div>
-</div>
-<div id="view-sales" class="view">
-  <div class="so-wrap">
-    <div class="so-title">Sales Opportunities &mdash; buyers wanting watches you have in stock</div>
-    <div class="so-sub">From WTB/NTQ/ISO posts in Facebook Groups, WhatsApp, and InventoryConnect, matched against your WPB Watch Co + ECI Jewelers inventory. <span style="color:var(--brass-text)">Exact ref match</span> = precise hit.</div>
-    <div id="soList"></div>
-  </div>
-</div>
-<div id="view-inv" class="view">
-  <div class="inv-bar">
-    <input placeholder="&#128269; Name, Ref, SKU&hellip;" id="invQ" oninput="renderInv()">
-    <select id="invBrand" onchange="renderInv()"><option value="">All Brands</option></select>
-    <select id="invPrice" onchange="renderInv()"><option value="">All Prices</option><option value="0-10000">Under $10k</option><option value="10000-25000">$10k&ndash;$25k</option><option value="25000-50000">$25k&ndash;$50k</option><option value="50000-999999">$50k+</option></select>
-    <select id="invBox" onchange="renderInv()"><option value="">Box &amp; Papers: Any</option><option value="both">Box &amp; Papers</option><option value="box">Box Only</option><option value="none">Neither</option></select>
-    <label style="font-size:13px;color:var(--text-secondary);display:flex;align-items:center;gap:5px;"><input type="checkbox" id="invStock" checked onchange="renderInv()"> In stock only</label>
-    <span class="inv-cnt" id="invCnt"></span>
-  </div>
-  <div class="inv-grid" id="invGrid"></div>
-</div>
-<div id="view-eci" class="view">
-  <div class="inv-bar">
-    <input placeholder="&#128269; Name, Ref, SKU&hellip;" id="eciQ" oninput="renderEci()">
-    <select id="eciBrand" onchange="renderEci()"><option value="">All Brands</option></select>
-    <select id="eciPrice" onchange="renderEci()"><option value="">All Prices</option><option value="0-10000">Under $10k</option><option value="10000-25000">$10k&ndash;$25k</option><option value="25000-50000">$25k&ndash;$50k</option><option value="50000-999999">$50k+</option></select>
-    <select id="eciBox" onchange="renderEci()"><option value="">Box &amp; Papers: Any</option><option value="both">Box &amp; Papers</option><option value="box">Box Only</option></select>
-    <label style="font-size:13px;color:var(--text-secondary);display:flex;align-items:center;gap:5px;"><input type="checkbox" id="eciStock" checked onchange="renderEci()"> In stock only</label>
-    <span class="inv-cnt" id="eciCnt"></span>
-  </div>
-  <div class="inv-grid" id="eciGrid"></div>
-</div>
-<div id="view-ecj" class="view">
-  <div class="inv-bar">
-    <input placeholder="&#128269; Name, Ref, SKU&hellip;" id="ecjQ" oninput="renderEcj()">
-    <select id="ecjBrand" onchange="renderEcj()"><option value="">All Brands</option></select>
-    <select id="ecjPrice" onchange="renderEcj()"><option value="">All Prices</option><option value="0-10000">Under $10k</option><option value="10000-25000">$10k&ndash;$25k</option><option value="25000-50000">$25k&ndash;$50k</option><option value="50000-999999">$50k+</option></select>
-    <label style="font-size:13px;color:var(--text-secondary);display:flex;align-items:center;gap:5px;"><input type="checkbox" id="ecjStock" checked onchange="renderEcj()"> In stock only</label>
-    <span class="inv-cnt" id="ecjCnt"></span>
-  </div>
-  <div class="inv-grid" id="ecjGrid"></div>
-</div>
-<div id="view-wa2" class="view">
-  <div class="inv-bar">
-    <input placeholder="&#128269; Name, Ref, Brand&hellip;" id="wa2Search" oninput="renderWa2()">
-    <select id="wa2Brand" onchange="renderWa2()"><option value="">All Brands</option></select>
-    <span class="inv-cnt" id="wa2Cnt"></span>
-  </div>
-  <div class="inv-grid" id="wa2List"></div>
-</div>
-<div id="view-lb" class="view">
-  <div class="inv-bar">
-    <input placeholder="&#128269; Name, Ref, Brand&hellip;" id="lbSearch" oninput="renderLb()">
-    <select id="lbBrand" onchange="renderLb()"><option value="">All Brands</option></select>
-    <span class="inv-cnt" id="lbCnt"></span>
-  </div>
-  <div class="inv-grid" id="lbList"></div>
-</div>
-<div id="view-bump" class="view" style="padding:28px;color:var(--text-secondary);font-size:13px;">Bump Manager &mdash; post to Facebook Groups and track bump schedules. Coming soon.</div>
-<div id="view-wtb" class="view">
-  <div style="padding:20px 24px;">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:12px;">
       <div>
-        <div style="font-size:15px;font-weight:600;margin-bottom:4px;">&#128203; Client WTB Requests</div>
-        <div style="font-size:12.5px;color:var(--text-secondary);">Track client watch requests and auto-matched results from your inventory + market sources.</div>
+        <h1>Watch Scout</h1>
+        <p>WPB Watch Co &middot; market intelligence feed</p>
       </div>
-      <button onclick="showWtbForm()" style="background:var(--brass);color:#2e2005;border:none;padding:9px 18px;border-radius:8px;font-size:13px;font-weight:700;cursor:pointer;">+ New Request</button>
-      <button onclick="syncVercel()" id="syncBtn" style="background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:9px 18px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;">&#x21bb; Sync Form Submissions</button>
     </div>
 
-    <!-- Manual entry form -->
-    <div id="wtbFormPanel" style="display:none;background:var(--panel-2);border:1px solid var(--hairline);border-radius:var(--radius);padding:20px;margin-bottom:20px;">
-      <div style="font-size:14px;font-weight:600;margin-bottom:14px;">New Client WTB Request</div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px;">
-        <div><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">First Name *</label><input id="wtbFirst" class="fi" placeholder="Chris"></div>
-        <div><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Last Name *</label><input id="wtbLast" class="fi" placeholder="Smith"></div>
-        <div><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Email *</label><input id="wtbEmail" class="fi" type="email" placeholder="client@email.com"></div>
-        <div><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Phone</label><input id="wtbPhone" class="fi" placeholder="(561) 555-0100"></div>
-        <div><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Brand *</label><select id="wtbBrand" class="fi" onchange="document.getElementById('wtbBrandOther').style.display=this.value==='Other'?'block':'none'"><option value="">Select Brand</option><option value="A. Lange & Söhne">A. Lange & Söhne</option><option value="Audemars Piguet">Audemars Piguet</option><option value="Bell & Ross">Bell & Ross</option><option value="Blancpain">Blancpain</option><option value="Breguet">Breguet</option><option value="Breitling">Breitling</option><option value="Bvlgari">Bvlgari</option><option value="Cartier">Cartier</option><option value="Chopard">Chopard</option><option value="Citizen">Citizen</option><option value="De Bethune">De Bethune</option><option value="Doxa">Doxa</option><option value="F.P. Journe">F.P. Journe</option><option value="Girard-Perregaux">Girard-Perregaux</option><option value="Glashutte Original">Glashutte Original</option><option value="Grand Seiko">Grand Seiko</option><option value="Greubel Forsey">Greubel Forsey</option><option value="H. Moser & Cie">H. Moser & Cie</option><option value="Hamilton">Hamilton</option><option value="Hublot">Hublot</option><option value="IWC Schaffhausen">IWC Schaffhausen</option><option value="Jaeger-LeCoultre">Jaeger-LeCoultre</option><option value="Longines">Longines</option><option value="MB&F">MB&F</option><option value="Mido">Mido</option><option value="Nomos">Nomos</option><option value="Omega">Omega</option><option value="Oris">Oris</option><option value="Panerai">Panerai</option><option value="Patek Philippe">Patek Philippe</option><option value="Rado">Rado</option><option value="Richard Mille">Richard Mille</option><option value="Roger Dubuis">Roger Dubuis</option><option value="Rolex">Rolex</option><option value="Seiko">Seiko</option><option value="Sinn">Sinn</option><option value="TAG Heuer">TAG Heuer</option><option value="Tudor">Tudor</option><option value="Ulysse Nardin">Ulysse Nardin</option><option value="Urwerk">Urwerk</option><option value="Vacheron Constantin">Vacheron Constantin</option><option value="Zenith">Zenith</option><option value="Other">Other</option></select><input id="wtbBrandOther" class="fi" placeholder="Enter brand name" style="display:none;margin-top:4px;"></div>
-        <div><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Model</label><input id="wtbModel" class="fi" placeholder="Submariner, Nautilus..."></div>
-        <div><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Reference Number</label><input id="wtbRef" class="fi" placeholder="116610LN"></div>
-        <div><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Max Budget</label><input id="wtbBudget" class="fi" type="number" placeholder="25000"></div>
+    <div class="bezel-wrap">
+      <div class="source-legend">
+        <div class="row"><span class="dot" style="background:#5b8fc7"></span>WatchRecon<b id="cnt-watchrecon">0</b></div>
+        <div class="row"><span class="dot" style="background:#c9a05b"></span>WatchPatrol<b id="cnt-watchpatrol">0</b></div>
+        <div class="row"><span class="dot" style="background:#4267B2"></span>FB Groups<b id="cnt-fbgroup">0</b></div>
+        <div class="row"><span class="dot" style="background:#7693b8"></span>FB Marketplace<b id="cnt-fbmarket">0</b></div>
       </div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px;">
-        <div><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Dial Color</label>
-          <select id="wtbDial" class="fi"><option value="">Any color</option><option value="black">Black</option><option value="white">White</option><option value="blue">Blue</option><option value="green">Green</option><option value="silver">Silver</option><option value="grey">Grey</option><option value="champagne">Champagne</option><option value="brown">Brown</option><option value="meteorite">Meteorite</option><option value="mother of pearl">Mother of Pearl</option><option value="chocolate">Chocolate</option><option value="sundust">Sundust</option><option value="salmon">Salmon</option><option value="pink">Pink</option><option value="burgundy">Burgundy</option><option value="wine">Wine</option><option value="navy">Navy</option><option value="teal">Teal</option><option value="purple">Purple</option><option value="gold">Gold</option><option value="yellow gold">Yellow Gold</option><option value="rose gold">Rose Gold</option><option value="olive">Olive</option><option value="slate">Slate</option><option value="cream">Cream</option><option value="ivory">Ivory</option><option value="orange">Orange</option><option value="red">Red</option><option value="turquoise">Turquoise</option><option value="panda">Panda</option><option value="Other">Other</option></select><input id="wtbBrandOther" class="fi" placeholder="Enter brand name" style="display:none;margin-top:4px;">
-        </div>
-        <div><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Box &amp; Papers</label>
-          <select id="wtbBoxPapers" class="fi"><option value="">No preference</option><option value="both">Box &amp; Papers</option><option value="papers">Papers only</option><option value="none">Not required</option></select>
+      <div class="bezel">
+        <svg viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="46" fill="none" stroke="#2b2f35" stroke-width="1"/>
+          <g id="bezel-ticks" stroke="#3a3f46" stroke-width="2"></g>
+          <circle cx="50" cy="50" r="34" fill="#1c1f23" stroke="#2b2f35" stroke-width="1"/>
+        </svg>
+        <div class="bezel-count">
+          <div class="num" id="bezel-total">0</div>
+          <div class="lbl">live leads</div>
         </div>
       </div>
-      <div style="margin-bottom:10px;"><label style="font-size:11px;color:var(--text-secondary);display:block;margin-bottom:4px;">Additional Details</label><textarea id="wtbNotes" class="fi" style="min-height:60px;resize:vertical;" placeholder="Year range, condition preferences..."></textarea></div>
-      <div style="display:flex;gap:8px;">
-        <button onclick="submitWtb()" style="background:var(--brass);color:#2e2005;border:none;padding:9px 20px;border-radius:7px;font-size:13px;font-weight:700;cursor:pointer;">Submit &amp; Match</button>
-        <button onclick="document.getElementById('wtbFormPanel').style.display='none'" style="background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:9px 16px;border-radius:7px;font-size:13px;cursor:pointer;">Cancel</button>
+    </div>
+  </header>
+
+  <div class="grid">
+
+    <!-- FILTERS -->
+    <div class="panel">
+      <p class="panel-title">Search</p>
+      <div class="field">
+        <label>Brand, model, ref, or nickname</label>
+        <input type="text" id="searchInput" placeholder="e.g. Hulk, 116610LV, Daytona" />
       </div>
-      <div id="wtbSubmitStatus" style="margin-top:10px;font-size:12px;min-height:16px;"></div>
+
+      <p class="panel-title">Source</p>
+      <div class="field">
+        <div class="chip-group" id="sourceChips">
+          <div class="chip active" data-source="all">All</div>
+          <div class="chip" data-source="WatchRecon">WatchRecon</div>
+          <div class="chip" data-source="WatchPatrol">WatchPatrol</div>
+          <div class="chip" data-source="FB Group">FB Groups</div>
+          <div class="chip" data-source="FB Marketplace">FB Marketplace</div>
+        </div>
+      </div>
+
+      <p class="panel-title">Brand</p>
+      <div class="field">
+        <select id="brandSelect">
+          <option value="all">All brands</option>
+        </select>
+      </div>
+
+      <p class="panel-title">Price range</p>
+      <div class="field">
+        <div class="range-row">
+          <input type="text" id="priceMin" placeholder="Min" />
+          <input type="text" id="priceMax" placeholder="Max" />
+        </div>
+      </div>
+
+      <p class="panel-title">Listing age</p>
+      <div class="field" style="margin-bottom:0;">
+        <div class="chip-group" id="ageChips">
+          <div class="chip" data-age="60">1 hr</div>
+          <div class="chip" data-age="1440">24 hr</div>
+          <div class="chip active" data-age="0">All</div>
+        </div>
+      </div>
     </div>
 
-    <!-- Requests list -->
-    <div id="wtbList"></div>
+    <!-- FEED -->
+    <div>
+      <div class="feed-header">
+        <div class="count"><b id="feedCount">0</b> listings matching filters</div>
+        <div class="sort-row">
+          <div class="chip active" data-sort="recent">Newest</div>
+          <div class="chip" data-sort="price-asc">Price ↑</div>
+          <div class="chip" data-sort="price-desc">Price ↓</div>
+        </div>
+      </div>
+      <div id="feed"></div>
+    </div>
+
+    <!-- HOT LEADS -->
+    <div class="panel">
+      <div class="rail-title">
+        <p class="panel-title">Hot leads — your watchlist</p>
+      </div>
+      <div id="watchlistTags" style="margin-bottom:14px;"></div>
+      <div id="hotLeads"></div>
+    </div>
+
   </div>
+
+  <div class="footer-note">
+    Sample data shown — wire up <code>scrapers/watchpatrol-api.js</code>, <code>scrapers/watchrecon-scraper.js</code>
+    and <code>scrapers/apify-fb-groups.js</code> to replace the <code>LISTINGS</code> array below with live JSON.
+    See <code>README.md</code> for setup.
+  </div>
+
 </div>
 
-<div id="view-chron" class="view">
-  <div class="chron-wrap">
-    <div class="chron-title">&#129302; Chronos AI &mdash; your floor assistant</div>
-    <div class="chron-sub">Ask about pricing, what you have in stock, or what's moving on the market right now. Grounded in your real inventory and live Watch Scout data.</div>
-    <div id="chronMsgs"></div>
-    <div class="chron-row">
-      <input id="chronInput" placeholder="What's 116710 trading at? What Daytonas do I have?">
-      <button id="chronSend" onclick="sendChron()">Ask</button>
-    </div>
-  </div>
-</div>
-<div class="modal-bg" id="waModal">
-  <div class="modal">
-    <h3>&#128241; Send via WhatsApp</h3>
-    <div id="waStatus">Checking status...</div>
-    <div id="waImgStatus" style="display:none;font-size:12px;padding:5px 8px;border-radius:5px;background:var(--panel-2);margin-bottom:8px;"></div>
-    <textarea id="waMsgBox" placeholder="Message..."></textarea>
-    <div class="grp-list" id="waGroups"></div>
-    <div class="modal-btns">
-      <button class="btn-send-wa" onclick="sendWaMsg()">Send to Selected Groups</button>
-      <button class="btn-cancel-modal" onclick="closeWa()">Cancel</button>
-    </div>
-    <div id="waResult"></div>
-  </div>
-</div>
 <script>
-// LISTINGS_START
-const LISTINGS = [];
-// LISTINGS_END
-// BUYER_MATCHES_START
-const BUYER_MATCHES = [];
-// BUYER_MATCHES_END
-const WL=['Hulk','Bruce Wayne','Batgirl','Pepsi GMT','Batman','Kermit','Smurf','Coke','Root Beer','Panda Daytona','Sprite'];
-const S={q:'',src:'',brand:'',color:'',pMin:0,pMax:0,age:0,sort:'new'};
-var _INV=[],_ECI=[],_ECJ=[],_LB=[],_WA2=[],_waItem=null;
-function $p(p){return p?('$'+Math.round(p).toLocaleString('en-US')):'—';}
-function ago(m){if(m==null)return'date n/a';if(m<60)return m+'m ago';if(m<1440)return Math.round(m/60)+'h ago';return Math.round(m/1440)+'d ago';}
-function nrm(s){return(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');}
-function prc(s){const n=parseFloat(String(s||'0').replace(/[^0-9.]/g,''));return isNaN(n)?0:n;}
-function sc(s){const m={'WatchRecon':'p-watchrecon','WatchPatrol':'p-watchpatrol','Chrono24':'p-chrono24',"Bob's Watches":'p-bobswatches','European Watch Co':'p-europeanwatchco','FB Groups':'p-fbgroups','FB Marketplace':'p-fbmarketplace','eBay':'p-ebay','WhatsApp':'p-whatsapp','Bezel':'p-bezel','InventoryConnect Marketplace':'p-inventoryconnectmarketplace','The 1916 Company':'p-the1916company','Artimeus':'p-artimeus','SwissWatchExpo':'p-swisswatchexpo','Watch Limit':'p-watchlimit','Watches OFF 5TH':'p-watchesoff5th','Affordable Swiss Watches':'p-affordableswisswatches','Exquisite Timepieces':'p-exquisitetimepieces','Ashford':'p-ashford'};return m[s]||'p-watchrecon';}
-function initCounts(){
-  fetch('/api/counts').then(r=>r.json()).then(data=>{
-    const c=data.counts||{};
-    document.getElementById('totalN').textContent=(data.total||0).toLocaleString();
-    ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company','art:Artimeus','swe:SwissWatchExpo','wl:Watch Limit','wo5:Watches OFF 5TH','asw:Affordable Swiss Watches','etp:Exquisite Timepieces','ash:Ashford','br:Breitling','tud:Tudor','tag:TAG Heuer','lb:Luxury Bazaar','wa2:Watch Affinity','ipw:iPlayWatch','aisw:AIS Watches','elem:Element iN Time','wris:Wrist Aficionado','coll:Collectors1946','gran:Grand Caliber','crmj:CRM Jewelers','prov:Provident Jewelry','topp:Topper Jewelers','mate:Material Good','hqmi:HQ Milton','anal:Analog Shift','time:Timepiece Trading','gray:Gray & Sons','mtti:MT Timepieces','nywm:NY Watch Market','wdro:WatchDrop','winl:Watches International','bvvt:Brandville Vault','wplt:Watch Pilot','luxt:Luxury Time','yurw:YurWatches','vanc:Vance Luxury Group','feld:Feldmar Watch','wywa:WYW ATL','ewbh:Essential Watches','1mtw:1MT Watches','blww:Birmingham Luxury Watches','ecii:ECI Jewelers','ecjj:ECJ Luxe','wpbw:WPB Watch Co'].forEach(x=>{
-      const[id,src]=x.split(':');const el=document.getElementById('c-'+id);if(el)el.textContent=c[src]||0;
-    });
-    if(data.brands){document.getElementById('brandSel').innerHTML="<option value=''>All brands</option>"+data.brands.map(b=>"<option value='"+b+"'>"+b+"</option>").join('');}
-    if(data.colors){document.getElementById('colorSel').innerHTML="<option value=''>Any color</option>"+data.colors.map(c=>"<option value='"+c+"'>"+c+"</option>").join('');}
-  }).catch(()=>{});
-  const c={};LISTINGS.forEach(l=>{c[l.source]=(c[l.source]||0)+1;});
-  ['wr:WatchRecon','wp:WatchPatrol','c24:Chrono24',"bw:Bob's Watches",'ew:European Watch Co','fbg:FB Groups','fbm:FB Marketplace','eb:eBay','wa:WhatsApp','bz:Bezel','ic:InventoryConnect Marketplace','19:The 1916 Company','art:Artimeus','swe:SwissWatchExpo','wl:Watch Limit','wo5:Watches OFF 5TH','asw:Affordable Swiss Watches','etp:Exquisite Timepieces','ash:Ashford','br:Breitling','tud:Tudor','tag:TAG Heuer','lb:Luxury Bazaar','wa2:Watch Affinity','ipw:iPlayWatch','aisw:AIS Watches','elem:Element iN Time','wris:Wrist Aficionado','coll:Collectors1946','gran:Grand Caliber','crmj:CRM Jewelers','prov:Provident Jewelry','topp:Topper Jewelers','mate:Material Good','hqmi:HQ Milton','anal:Analog Shift','time:Timepiece Trading','gray:Gray & Sons','mtti:MT Timepieces','nywm:NY Watch Market','wdro:WatchDrop','winl:Watches International','bvvt:Brandville Vault','wplt:Watch Pilot','luxt:Luxury Time','yurw:YurWatches','vanc:Vance Luxury Group','feld:Feldmar Watch','wywa:WYW ATL','ewbh:Essential Watches','1mtw:1MT Watches','blww:Birmingham Luxury Watches','ecii:ECI Jewelers','ecjj:ECJ Luxe','wpbw:WPB Watch Co'].forEach(x=>{
-    const[id,src]=x.split(':');document.getElementById('c-'+id).textContent=c[src]||0;
-  });
-  document.getElementById('totalN').textContent=LISTINGS.length.toLocaleString();
-  document.getElementById('salesBadge').textContent=BUYER_MATCHES.length;
-  const brands=[...new Set(LISTINGS.map(l=>l.brand).filter(Boolean))].sort();
-  document.getElementById('brandSel').innerHTML="<option value=''>All brands</option>"+brands.map(b=>`<option value="${b}">${b}</option>`).join('');
-  const colors=[...new Set(LISTINGS.map(l=>l.dialColor).filter(Boolean))].sort();
-  document.getElementById('colorSel').innerHTML="<option value=''>Any color</option>"+colors.map(c=>`<option value="${c}">${c}</option>`).join('');
-}
-function renderFeed(){
-  // Build query params from state
-  const params = new URLSearchParams();
-  if(S.q) params.set('q', S.q);
-  if(S.src) params.set('src', S.src);
-  if(S.brand) params.set('brand', S.brand);
-  if(S.color) params.set('color', S.color);
-  if(S.pMin) params.set('pMin', S.pMin);
-  if(S.pMax) params.set('pMax', S.pMax);
-  if(S.age) params.set('age', S.age);
-  if(S.sort) params.set('sort', S.sort);
-  params.set('limit', 1000);
+const NICKNAME_WATCHLIST = [
+  "Hulk", "Bruce Wayne", "Batgirl", "Pepsi GMT", "Batman", "Kermit",
+  "Smurf", "Coke", "Root Beer", "Panda Daytona", "Sprite"
+];
 
-  fetch('/api/filter?' + params.toString())
-    .then(r => r.json())
-    .then(data => {
-      const items = data.listings || [];
-      const total = data.count || items.length; const shown = items.length; document.getElementById('feedCount').textContent = shown < total ? shown.toLocaleString() + ' of ' + total.toLocaleString() : total.toLocaleString();
-      renderFeedItems(items);
-    })
-    .catch(() => {
-      // Fallback to local filter
-      const q=nrm(S.q);
-      let items=LISTINGS.filter(i=>{
-        if(S.src&&i.source!==S.src)return false;
-        if(S.brand&&i.brand!==S.brand)return false;
-        if(S.color&&i.dialColor!==S.color)return false;
-        if(S.pMin&&(i.price||0)<S.pMin)return false;
-        if(S.pMax&&(i.price||0)>S.pMax)return false;
-        if(S.age&&(i.postedMinutesAgo==null||i.postedMinutesAgo>S.age))return false;
-        if(q){const h=nrm([i.brand,i.model,i.ref,i.title,i.nickname].join(' '));if(!h.includes(q))return false;}
-        return true;
-      });
-      // count already set by caller
-      renderFeedItems(items);
-    });
-  return;
+const LISTINGS = [
+  {id:"wr-7815079", brand:"Rolex", model:"Datejust", ref:"69173", nickname:null, price:4995, source:"WatchRecon", sourceDetail:"r/Watchexchange", seller:"idahowatchdude", postedMinutesAgo:8, condition:"Excellent", isNew:true, url:"https://www.watchrecon.com/detail.php?cid=7815079"},
+  {id:"wr-7815060", brand:"Omega", model:"Speedmaster Professional", ref:"145.022-69ST", nickname:null, price:4000, source:"WatchRecon", sourceDetail:"r/Watchexchange", seller:"Edwins283", postedMinutesAgo:46, condition:"Good", isNew:true, url:"https://www.watchrecon.com/detail.php?cid=7815060"},
+  {id:"wr-7815063", brand:"Tudor", model:"Pelagos Titanium", ref:"25500TN", nickname:null, price:2850, source:"WatchRecon", sourceDetail:"r/Watchexchange", seller:"Pristine_Courage_535", postedMinutesAgo:47, condition:"Full set", isNew:false, url:"https://www.watchrecon.com/detail.php?cid=7815063"},
+  {id:"wr-7815057", brand:"Rolex", model:"Explorer", ref:"124270", nickname:null, price:8350, source:"WatchRecon", sourceDetail:"r/Watchexchange", seller:"Spacecitytimepieces", postedMinutesAgo:59, condition:"Full set, 2022", isNew:true, url:"https://www.watchrecon.com/detail.php?cid=7815057"},
+  {id:"wr-7796146", brand:"Audemars Piguet", model:"Code 11.59", ref:null, nickname:null, price:17175, source:"WatchRecon", sourceDetail:"r/Watchexchange", seller:"slopekind", postedMinutesAgo:99, condition:"Mint", isNew:false, url:"https://www.watchrecon.com/detail.php?cid=7796146"},
+  {id:"wr-7815032", brand:"Cartier", model:"Santos de Cartier Large", ref:null, nickname:null, price:7200, source:"WatchRecon", sourceDetail:"r/Watchexchange", seller:"Philip_mspt", postedMinutesAgo:120, condition:"Box and papers", isNew:true, url:"https://www.watchrecon.com/detail.php?cid=7815032"},
+  {id:"fbg-2201", brand:"Rolex", model:"GMT-Master II", ref:"126710BLRO", nickname:"Pepsi GMT", price:16800, source:"FB Group", sourceDetail:"Rolex Passion Market", seller:"M. Alvarez", postedMinutesAgo:35, condition:"Full set, 2023", isNew:true, url:"#"},
+  {id:"fbg-2202", brand:"Rolex", model:"Submariner Date", ref:"116610LV", nickname:"Hulk", price:15950, source:"FB Group", sourceDetail:"Rolex Forums Marketplace", seller:"T. Okafor", postedMinutesAgo:140, condition:"Discontinued, mint", isNew:false, url:"#"},
+  {id:"fbg-2203", brand:"Rolex", model:"Sky-Dweller", ref:"326934", nickname:"Batgirl", price:13200, source:"FB Group", sourceDetail:"South Florida Watch Trading", seller:"D. Ruiz", postedMinutesAgo:190, condition:"Like new", isNew:false, url:"#"},
+  {id:"fbg-2204", brand:"Patek Philippe", model:"Nautilus", ref:"5711/1A", nickname:null, price:142000, source:"FB Group", sourceDetail:"Rolex Passion Market", seller:"J. Lindqvist", postedMinutesAgo:260, condition:"Full set", isNew:false, url:"#"},
+  {id:"fbm-3301", brand:"Rolex", model:"Daytona", ref:"116500LN", nickname:"Panda Daytona", price:34500, source:"FB Marketplace", sourceDetail:"Marketplace — West Palm Beach", seller:"Local seller", postedMinutesAgo:22, condition:"Unworn", isNew:true, url:"#"},
+  {id:"fbm-3302", brand:"Richard Mille", model:"RM 11-03", ref:null, nickname:null, price:198000, source:"FB Marketplace", sourceDetail:"Marketplace — Miami", seller:"Local seller", postedMinutesAgo:310, condition:"Excellent", isNew:false, url:"#"},
+  {id:"fbm-3303", brand:"Tudor", model:"Black Bay GMT", ref:"79830RB", nickname:"Root Beer", price:3650, source:"FB Marketplace", sourceDetail:"Marketplace — Fort Lauderdale", seller:"Local seller", postedMinutesAgo:75, condition:"Good", isNew:true, url:"#"},
+  {id:"wr-7815078", brand:"Seiko", model:"Grand Seiko Sōkō Frost", ref:"SBGA471", nickname:null, price:3850, source:"WatchRecon", sourceDetail:"r/Watchexchange", seller:"milogtc", postedMinutesAgo:16, condition:"40mm", isNew:true, url:"https://www.watchrecon.com/detail.php?cid=7815078"},
+  {id:"wr-7815037", brand:"Omega", model:"Planet Ocean 600M", ref:"217.32.42.21.01.001", nickname:null, price:7450, source:"WatchRecon", sourceDetail:"r/Watchexchange", seller:"mdgrwl", postedMinutesAgo:130, condition:"New, box and papers", isNew:false, url:"https://www.watchrecon.com/detail.php?cid=7815037"},
+  {id:"fbg-2205", brand:"Audemars Piguet", model:"Royal Oak", ref:"15500ST", nickname:null, price:48500, source:"FB Group", sourceDetail:"AP Collectors Exchange", seller:"R. Mensah", postedMinutesAgo:410, condition:"Full set", isNew:false, url:"#"},
+  {id:"wp-9001", brand:"Rolex", model:"Daytona", ref:"126500LN", nickname:"Panda Daytona", price:33800, source:"WatchPatrol", sourceDetail:"Aggregated · 22 sources", seller:"verified_dealer_22", postedMinutesAgo:18, condition:"Unworn", isNew:true, url:"https://www.watchpatrol.net/"},
+  {id:"wp-9002", brand:"Patek Philippe", model:"Aquanaut", ref:"5167A", nickname:null, price:58200, source:"WatchPatrol", sourceDetail:"Aggregated · 22 sources", seller:"timepiece_collective", postedMinutesAgo:95, condition:"Full set", isNew:true, url:"https://www.watchpatrol.net/"},
+  {id:"wp-9003", brand:"Rolex", model:"Submariner Date", ref:"126610LV", nickname:"Kermit", price:14950, source:"WatchPatrol", sourceDetail:"Aggregated · 22 sources", seller:"swiss_traders_fl", postedMinutesAgo:205, condition:"Mint", isNew:false, url:"https://www.watchpatrol.net/"}
+];
+
+function timeAgoLabel(mins){
+  if(mins < 60) return mins + "m ago";
+  const h = Math.floor(mins/60);
+  if(h < 24) return h + "h ago";
+  return Math.floor(h/24) + "d ago";
 }
-function renderFeedItems(items){
-  // count already set by caller
-  const el=document.getElementById('feedList');
-  if(!items.length){el.innerHTML='<div class="empty">No listings match.</div>';return;}
-  el.innerHTML=items.slice(0,200).map(i=>{
-    const hot=WL.some(n=>new RegExp('\\b'+n+'\\b','i').test(i.title||''));
-    const img=i.imageUrl?`<div class="thumb"><img src="${i.imageUrl}" loading="lazy" onerror="this.parentElement.innerHTML='&#x231a;'"></div>`:'<div class="thumb">&#x231a;</div>';
-    return `<div class="card${hot?' hot':''}">
-      ${img}
-      <div>
-        <div class="card-top">
-          <span class="sp ${sc(i.source)}">${i.source}</span>
-          ${i.isNew?'<span class="new-tag">New</span>':''}
-          ${i.nickname?`<span class="nick-tag">${i.nickname}</span>`:''}
-          <span class="tago">${ago(i.postedMinutesAgo)}</span>
-        </div>
-        <div class="ct">${i.brand||''}${i.model?' '+i.model:''}${i.ref?' · Ref. '+i.ref:''}</div>
-        <div class="cm">${[i.dialColor?i.dialColor+' dial':null,i.condition,i.seller,i.sourceDetail].filter(Boolean).join(' · ')}</div>
-      </div>
-      <div class="cp">
-        <div class="amt">${$p(i.price)}</div>
-        <div class="sn">${i.source}</div>
-        ${i.url?`<a href="${i.url}" target="_blank" rel="noopener">View listing</a>`:''}
-      </div>
-    </div>`;
-  }).join('');
+function srcClass(s){
+  if(s==="WatchRecon") return "src-watchrecon";
+  if(s==="WatchPatrol") return "src-watchpatrol";
+  if(s==="FB Group") return "src-fbgroup";
+  return "src-fbmarket";
 }
-document.querySelectorAll('#srcChips .chip').forEach(c=>c.addEventListener('click',()=>{document.querySelectorAll('#srcChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');S.src=c.dataset.src;renderFeed();}));
-document.querySelectorAll('#ageChips .chip').forEach(c=>c.addEventListener('click',()=>{document.querySelectorAll('#ageChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');S.age=+c.dataset.age||0;renderFeed();}));
-document.querySelectorAll('.sb').forEach(c=>c.addEventListener('click',()=>{document.querySelectorAll('.sb').forEach(x=>x.classList.remove('on'));c.classList.add('on');S.sort=c.dataset.sort;renderFeed();}));
-function renderHotLeads(){
-  document.getElementById('wlTags').innerHTML=WL.map(n=>`<span class="wl-tag" onclick="qNick('${n.replace(/'/g,"\\'")}')">${n}</span>`).join('');
-  const hits=LISTINGS.filter(i=>i.brand==='Rolex'&&WL.some(n=>new RegExp('\\b'+n.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i').test(i.title||''))).slice(0,12);
-  document.getElementById('hlGrid').innerHTML=hits.map(i=>{
-    const label=WL.find(n=>new RegExp('\\b'+n+'\\b','i').test(i.title||''))||'';
-    return `<div class="hl-item"><div class="hn">${label}${i.ref?' · '+i.ref:''}</div><div class="hp">${i.source} · ${$p(i.price)}</div>${i.url?`<a href="${i.url}" target="_blank">View →</a>`:''}</div>`;
-  }).join('');
+function fmtPrice(p){
+  return p ? "$" + p.toLocaleString("en-US") : "—";
 }
-function qNick(n){document.getElementById('srch').value=n;S.q=n;document.querySelector('.tab[data-tab="feed"]').click();renderFeed();}
-function renderSales(){
-  document.getElementById('salesBadge').textContent=BUYER_MATCHES.length;
-  const el=document.getElementById('soList');
-  if(!BUYER_MATCHES.length){el.innerHTML='<div class="empty">No matches yet. Run a WTB search then node scrapers/match-buyer-leads.js</div>';return;}
-  el.innerHTML=BUYER_MATCHES.slice().sort((a,b)=>a.matchType==='ref'?-1:b.matchType==='ref'?1:0).map(m=>`
-    <div class="match${m.matchType==='ref'?' exact':''}">
-      <div>
-        <span class="mbadge ${m.matchType}">${m.matchType==='ref'?'Exact ref match':'Similar reference'}</span>
-        <div class="mbuyer">${m.lead.buyerName||'Unknown'} <span style="color:var(--text-muted)">wants</span> "${m.lead.title}"</div>
-        <div class="mitem">→ You have: ${m.inventoryItem.name}${m.inventoryItem.ref?' (Ref. '+m.inventoryItem.ref+')':''}</div>
-        <div class="mmeta">${m.lead.source} · ${m.lead.sourceDetail||''} · ${m.inventoryItem.store||''}</div>
-      </div>
-      <div class="mpw">
-        <div class="mpl">Your price</div>
-        <div class="mpa">${$p(m.inventoryItem.price)}</div>
-        ${m.inventoryItem.url?`<a class="mlink" href="${m.inventoryItem.url}" target="_blank">View item</a>`:''}
-        ${m.lead.buyerName?`<a class="mlink" href="https://www.facebook.com/search/top/?q=${encodeURIComponent(m.lead.buyerName)}" target="_blank">Find buyer</a>`:''}
-      </div>
-    </div>`).join('');
+function isHot(item){
+  if(item.nickname && NICKNAME_WATCHLIST.includes(item.nickname)) return true;
+  return NICKNAME_WATCHLIST.some(n => (item.model||"").toLowerCase().includes(n.toLowerCase()));
 }
-function buildMsg(item){
-  const rawPrice=item.price||'';
-  const rawPriceStr=String(rawPrice);
-  const p=rawPriceStr.startsWith('$')?rawPriceStr:rawPriceStr?('$'+prc(rawPriceStr).toLocaleString()):'Contact for price';
-  const name=item.name||item.title||'';
-  const ref=item.referenceNumber||item.ref||'';
-  let yr=null;
-  if(item.year&&item.year!=='Unknown'){
-    const m=String(item.year).match(/\d{4}/);
-    if(m)yr=m[0];
+
+const state = {search:"", source:"all", brand:"all", age:0, sort:"recent", priceMin:null, priceMax:null};
+
+function populateBrands(){
+  const sel = document.getElementById("brandSelect");
+  const brands = [...new Set(LISTINGS.map(l=>l.brand))].sort();
+  brands.forEach(b=>{
+    const opt = document.createElement("option");
+    opt.value = b; opt.textContent = b;
+    sel.appendChild(opt);
+  });
+}
+
+function renderBezel(){
+  const ticks = document.getElementById("bezel-ticks");
+  ticks.innerHTML = "";
+  for(let i=0;i<60;i++){
+    const ang = (i/60)*2*Math.PI;
+    const r1 = i%5===0 ? 38 : 41;
+    const x1 = 50+r1*Math.sin(ang), y1 = 50-r1*Math.cos(ang);
+    const x2 = 50+44*Math.sin(ang), y2 = 50-44*Math.cos(ang);
+    const line = document.createElementNS("http://www.w3.org/2000/svg","line");
+    line.setAttribute("x1",x1);line.setAttribute("y1",y1);
+    line.setAttribute("x2",x2);line.setAttribute("y2",y2);
+    line.setAttribute("stroke-width", i%5===0 ? 2 : 1);
+    ticks.appendChild(line);
   }
-  return [name,'',p+' + Label',ref?'Ref: '+ref:null,yr?'Year: '+yr:null,'','Wire first / DM for Availability','Cross Posted','','For purchases made in Florida Sales Tax will need to be collected or a reseller\'s certificate must be provided.','','WPB Watch Co | West Palm Beach, FL'].filter(l=>l!==null).join('\n');
 }
-function invCard(item,pfx){
-  const p=prc(item.price);const pd=p?('$'+p.toLocaleString()):'--';
-  const ref=item.referenceNumber||item.ref||null;
-  const img=(item.images&&item.images[0])||item.image||item.imageUrl||null;
-  const hB=item.box==='Yes';const hP=item.papers&&item.papers!=='No'&&item.papers!=='';
-  const msg=buildMsg(item);
-  const wa='https://api.whatsapp.com/send?text='+encodeURIComponent(msg);
 
-  const safeId=String(item.id).replace(/[^a-zA-Z0-9_-]/g,'_');
-  return `<div class="inv-card" data-iid="${safeId}" data-pfx="${pfx}">
-    ${img?`<img src="${img}" loading="lazy" onerror="this.style.display='none'">`:''}
-    <div class="inv-body">
-      <div class="inv-brand">${item.brand||''}</div>
-      <div class="inv-name">${item.name||''}</div>
-      <div class="inv-ref">${ref?'Ref: '+ref:''}</div>
-      <div class="inv-price">${pd}</div>
-      <div class="inv-bp"><span class="bp ${hB?'y':'n'}">BOX ${hB?'✓':'✗'}</span><span class="bp ${hP?'y':'n'}">PAPERS ${hP?'✓':'✗'}</span></div>
-      <div class="inv-actions">
-        ${item.url?`<a class="btn-view" href="${item.url}" target="_blank">🔗 View</a>`:''}
-        <button class="btn-wa" onclick="invAction(this,'wa')">📱 WhatsApp</button>
-        <button class="btn-fb" onclick="invAction(this,'fb')">📌 Facebook</button>
-        <button class="btn-msg" onclick="invAction(this,'msg')">💬 Messenger</button>
-      </div>
-    </div>
-  </div>`;
+function applyFilters(){
+  let items = LISTINGS.slice();
+  if(state.search.trim()){
+    const q = state.search.trim().toLowerCase();
+    items = items.filter(i =>
+      (i.brand||"").toLowerCase().includes(q) ||
+      (i.model||"").toLowerCase().includes(q) ||
+      (i.ref||"").toLowerCase().includes(q) ||
+      (i.nickname||"").toLowerCase().includes(q)
+    );
+  }
+  if(state.source !== "all") items = items.filter(i=>i.source===state.source);
+  if(state.brand !== "all") items = items.filter(i=>i.brand===state.brand);
+  if(state.age && state.age > 0) items = items.filter(i=>i.postedMinutesAgo <= state.age);
+  if(state.priceMin) items = items.filter(i=> i.price && i.price >= state.priceMin);
+  if(state.priceMax) items = items.filter(i=> i.price && i.price <= state.priceMax);
+
+  if(state.sort==="recent") items.sort((a,b)=>a.postedMinutesAgo-b.postedMinutesAgo);
+  if(state.sort==="price-asc") items.sort((a,b)=>(a.price||0)-(b.price||0));
+  if(state.sort==="price-desc") items.sort((a,b)=>(b.price||0)-(a.price||0));
+
+  return items;
 }
-function renderLb(){
-  const q=document.getElementById('lbSearch')?.value||'';
-  const brand=document.getElementById('lbBrand')?.value||'';
-  const items=_LB.filter(i=>{
-    if(brand&&i.brand!==brand)return false;
-    if(q){const h=((i.brand||'')+' '+(i.title||i.name||'')+' '+(i.ref||'')).toLowerCase();if(!h.includes(q.toLowerCase()))return false;}
-    return true;
-  });
-  const el=document.getElementById('lbList');
-  if(!el)return;
-  const cnt=document.getElementById('lbCnt');if(cnt)cnt.textContent=items.length+' watches';
-  if(!items.length){el.innerHTML='<div class="empty">No listings match.</div>';return;}
-  el.innerHTML=items.map(i=>invCard({...i, name:i.title||i.name, price:i.price?String(i.price):null, images:i.imageUrl?[i.imageUrl]:[], box:i.boxPapers&&i.boxPapers.includes('Box')?'Yes':'No', papers:i.boxPapers&&i.boxPapers.includes('Paper')?'Yes':'No'},'lb')).join('');
-}
-function filterInv(items,q,brand,price,box,inStock){
-  return items.filter(i=>{
-    if(inStock){const s=(i.stockStatus||'').toLowerCase();if(!(s==='in stock'||s.includes('instock')))return false;}
-    if(brand&&(i.brand||'').toLowerCase()!==brand.toLowerCase())return false;
-    if(price){const[mn,mx]=price.split('-').map(Number);const p=prc(i.price);if(p<mn||p>mx)return false;}
-    if(box==='both'&&!(i.box==='Yes'&&i.papers&&i.papers!=='No'))return false;
-    if(box==='box'&&i.box!=='Yes')return false;
-    if(box==='none'&&(i.box==='Yes'||(i.papers&&i.papers!=='No')))return false;
-    if(q){const h=[i.name,i.referenceNumber,i.ref,i.productCode,i.brand].filter(Boolean).join(' ').toLowerCase();if(!h.includes(q))return false;}
-    return true;
-  });
-}
-function renderInv(){
-  const q=(document.getElementById('invQ').value||'').toLowerCase();
-  const items=filterInv(_INV,q,document.getElementById('invBrand').value,document.getElementById('invPrice').value,document.getElementById('invBox').value,document.getElementById('invStock').checked);
-  document.getElementById('invCnt').textContent=items.length+' items';
-  const g=document.getElementById('invGrid');
-  g.innerHTML=items.length?items.map(i=>invCard(i,'inv')).join(''):'<div class="empty" style="grid-column:1/-1">No items match.</div>';
-}
-function renderEci(){
-  const q=(document.getElementById('eciQ').value||'').toLowerCase();
-  const items=filterInv(_ECI,q,document.getElementById('eciBrand').value,document.getElementById('eciPrice').value,document.getElementById('eciBox').value,document.getElementById('eciStock').checked);
-  document.getElementById('eciCnt').textContent=items.length+' items';
-  const g=document.getElementById('eciGrid');
-  g.innerHTML=items.length?items.map(i=>invCard(i,'eci')).join(''):'<div class="empty" style="grid-column:1/-1">No items match.</div>';
-}
-function renderEcj(){
-  const q=(document.getElementById('ecjQ').value||'').toLowerCase();
-  const items=filterInv(_ECJ,q,document.getElementById('ecjBrand').value,document.getElementById('ecjPrice').value,null,document.getElementById('ecjStock').checked);
-  document.getElementById('ecjCnt').textContent=items.length+' items';
-  const g=document.getElementById('ecjGrid');
-  g.innerHTML=items.length?items.map(i=>invCard(i,'ecj')).join(''):'<div class="empty" style="grid-column:1/-1">No items match.</div>';
-}
-async function loadWa2(){try{const r=await fetch('/api/watchaffinity-inventory');_WA2=await r.json();}catch{_WA2=[];}
-  const b=[...new Set(_WA2.map(i=>i.brand).filter(Boolean))].sort();
-  const sel=document.getElementById('wa2Brand');if(sel){sel.innerHTML='<option value="">All brands</option>'+b.map(b=>`<option>${b}</option>`).join('');}
-  renderWa2();}
-function renderWa2(){
-  const q=document.getElementById('wa2Search')?.value||'';
-  const brand=document.getElementById('wa2Brand')?.value||'';
-  const items=_WA2.filter(i=>{
-    if(brand&&i.brand!==brand)return false;
-    if(q){const h=((i.brand||'')+' '+(i.title||i.name||'')+' '+(i.ref||'')).toLowerCase();if(!h.includes(q.toLowerCase()))return false;}
-    return true;
-  });
-  const el=document.getElementById('wa2List');
-  if(!el)return;
-  const cnt=document.getElementById('wa2Cnt');if(cnt)cnt.textContent=items.length+' watches';
-  if(!items.length){el.innerHTML='<div class="empty">No listings match.</div>';return;}
-  el.innerHTML=items.map(i=>invCard({...i, name:i.title||i.name, price:i.price?String(i.price):null, images:i.imageUrl?[i.imageUrl]:[], box:i.boxPapers&&i.boxPapers.includes('Box')?'Yes':'No', papers:i.boxPapers&&i.boxPapers.includes('Paper')?'Yes':'No'},'wa2')).join('');}
-async function loadLb(){try{const r=await fetch('/api/luxurybazaar-inventory');_LB=await r.json();}catch{_LB=[];}
-  const b=[...new Set(_LB.map(i=>i.brand).filter(Boolean))].sort();
-  const sel=document.getElementById('lbBrand');if(sel){sel.innerHTML='<option value="">All brands</option>'+b.map(b=>`<option>${b}</option>`).join('');}
-  renderLb();}
-async function loadInv(){try{const r=await fetch('/api/inventory');_INV=await r.json();}catch{_INV=[];}
-  const b=[...new Set(_INV.map(i=>i.brand).filter(Boolean))].sort();
-  document.getElementById('invBrand').innerHTML="<option value=''>All Brands</option>"+b.map(x=>`<option>${x}</option>`).join('');renderInv();}
-async function loadEci(){try{const r=await fetch('/api/eci-inventory');_ECI=await r.json();}catch{_ECI=[];}
-  const b=[...new Set(_ECI.map(i=>i.brand).filter(Boolean))].sort();
-  document.getElementById('eciBrand').innerHTML="<option value=''>All Brands</option>"+b.map(x=>`<option>${x}</option>`).join('');renderEci();}
-async function loadEcj(){try{const r=await fetch('/api/ecj-inventory');_ECJ=await r.json();}catch{_ECJ=[];}
-  const b=[...new Set(_ECJ.map(i=>i.brand).filter(Boolean))].sort();
-  document.getElementById('ecjBrand').innerHTML="<option value=''>All Brands</option>"+b.map(x=>`<option>${x}</option>`).join('');renderEcj();}
-function invAction(btn,action){
-  const card=btn.closest('[data-iid]');
-  const safeId=card.dataset.iid;
-  const pfx=card.dataset.pfx;
-  const arr=pfx==='inv'?_INV:pfx==='eci'?_ECI:pfx==='lb'?_LB:pfx==='wa2'?_WA2:_ECJ;
-  // Match by sanitized ID
-  const item=arr.find(i=>String(i.id).replace(/[^a-zA-Z0-9_-]/g,'_')===safeId);
-  if(!item){console.error('Item not found',safeId);return;}
-  if(action==='wa')openWa(item,pfx);
-  else if(action==='fb')openFb(item,pfx);
-  else if(action==='msg')openMsg(item,pfx);
-}
-function openWa(item,pfx){
-  _waItem=item;
-  if(!_waItem)return;
-  document.getElementById('waModal').classList.add('open');
-  document.getElementById('waResult').style.display='none';
-  document.getElementById('waMsgBox').value=buildMsg(_waItem);
-  waStatus();
-  // Pre-fetch image for WhatsApp attachment
-  const imgUrl=(_waItem.images&&_waItem.images[0])||_waItem.image||_waItem.imageUrl||null;
-  const imgSt=document.getElementById('waImgStatus');
-  if(imgUrl&&imgSt){
-    imgSt.style.display='block';imgSt.style.color='var(--text-muted)';imgSt.textContent='Fetching image...';
-    fetch('/api/fetch-product-image?url='+encodeURIComponent(imgUrl))
-      .then(r=>r.json())
-      .then(d=>{
-        if(d.ok){_waItem.imagePath=d.imagePath;imgSt.style.color='var(--green)';imgSt.textContent='\u2713 Image ready for attachment';}
-        else{imgSt.style.color='var(--text-muted)';imgSt.textContent='No image (text only)';}
-      }).catch(()=>{imgSt.style.color='var(--text-muted)';imgSt.textContent='No image (text only)';});
-  } else if(imgSt){imgSt.style.display='none';}
-}
-async function waStatus(){
-  const st=document.getElementById('waStatus');
-  try{const d=await fetch('/api/wa/status').then(r=>r.json());
-    const connected=d.status==='ready'||d.status==='open';
-    st.innerHTML=connected
-      ?'<span style="color:var(--green)">&#9679; Connected</span>'
-      :'<span style="color:var(--red)">&#9679; Disconnected</span> &nbsp;<button onclick="connectWa()" style="background:var(--blue);color:#fff;border:none;padding:4px 10px;border-radius:5px;font-size:12px;cursor:pointer;">Connect &amp; Scan QR</button>';
-    const g=document.getElementById('waGroups');
-    // Default all groups UNCHECKED - user selects which ones to post to
-    g.innerHTML=(d.groups||[]).filter(gr=>gr.name).map(gr=>`<div class="grp-row"><span class="grp-dot ${connected?'on':''}"></span><input type="checkbox" id="g${gr.id}" value="${gr.id}"><label for="g${gr.id}" style="flex:1">${gr.name}</label></div>`).join('');
-  }catch(e){st.textContent='WhatsApp: '+e.message;}
-}
-async function connectWa(){
-  await fetch('/api/wa/connect');
-  let attempts=0;
-  const poll=setInterval(async()=>{
-    attempts++;
-    const d=await fetch('/api/wa/qr').then(r=>r.json());
-    if(d.qr){
-      document.getElementById('waStatus').innerHTML='<div style="font-size:11px;color:var(--text-muted)">Scan this QR in WhatsApp &rarr; Linked Devices:</div><img src="'+d.qr+'" style="width:200px;height:200px;margin-top:8px;border-radius:8px;">';
-    }
-    if(d.status==='ready'||attempts>20){clearInterval(poll);waStatus();}
-  },2000);
-}
-async function sendWaMsg(){
-  const msg=document.getElementById('waMsgBox').value;
-  const groupIds=[...document.querySelectorAll('#waGroups input:checked')].map(c=>c.value);
-  if(!groupIds.length){alert('Select at least one group.');return;}
-  const res=document.getElementById('waResult');
-  res.style.display='block';res.textContent='Sending to '+groupIds.length+' group(s)...';
-  try{
-    const body={message:msg,groupIds,imagePath:_waItem&&_waItem.imagePath||null};
-    const d=await fetch('/api/wa/send',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}).then(r=>r.json());
-    res.style.color=d.ok?'var(--green)':'var(--red)';
-    res.textContent=d.ok?'\u2713 Sent to '+groupIds.length+' group(s)':'Error: '+(d.error||'unknown');
-  }catch(e){res.textContent='Error: '+e.message;}
-}
-function closeWa(){document.getElementById('waModal').classList.remove('open');}
-async function openFb(item,pfx){
-  if(!item)return;
-  const msg=buildMsg(item);
-  // Fetch FB groups
-  let groups=[];
-  try{const d=await fetch('/api/fb/groups').then(r=>r.json());groups=d.groups||[];}catch(e){}
-  if(!groups.length){
-    // Fallback: copy to clipboard
-    const el=document.createElement('textarea');
-    el.value=msg;document.body.appendChild(el);el.select();document.execCommand('copy');document.body.removeChild(el);
-    alert('No Facebook groups configured.\nPost text copied to clipboard instead.');
+
+function renderFeed(){
+  const items = applyFilters();
+  document.getElementById("feedCount").textContent = items.length;
+  const feed = document.getElementById("feed");
+  feed.innerHTML = "";
+
+  if(items.length === 0){
+    feed.innerHTML = '<div class="empty">No listings match these filters.</div>';
     return;
   }
-  // Pre-fetch image
-  let imagePath=null;
-  const imgUrl=(item.images&&item.images[0])||item.image||item.imageUrl||null;
-  if(imgUrl){
-    try{const d=await fetch('/api/fetch-product-image?url='+encodeURIComponent(imgUrl)).then(r=>r.json());if(d.ok)imagePath=d.imagePath;}
-    catch(e){console.warn('FB image fetch failed:',e.message);}
-  }
-  // Start posting via Playwright broadcaster
-  const body={itemId:String(item.id),itemName:item.name,itemUrl:item.url||null,message:msg,imagePath,groups};
-  const d=await fetch('/api/fb/start-posting',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}).then(r=>r.json());
-  if(d.ok){
-    alert('\u2713 Facebook posting started to '+groups.length+' group(s).'+(imagePath?' Image attached.':'')+'\n\nCheck your terminal for progress.');
-  } else {
-    alert('Facebook posting error: '+(d.error||'unknown'));
-  }
-}
-async function openMsg(item,pfx){
-  if(!item)return;
-  const msg=buildMsg(item);
-  let imagePath=null;
-  // Pre-fetch image to local disk so Messenger poster can attach it
-  const imgUrl=(item.images&&item.images[0])||item.image||item.imageUrl||null;
-  if(imgUrl){
-    try{
-      const d=await fetch('/api/fetch-product-image?url='+encodeURIComponent(imgUrl)).then(r=>r.json());
-      if(d.ok)imagePath=d.imagePath;
-    }catch(e){console.warn('Messenger image fetch failed:',e.message);}
-  }
-  fetch('/api/messenger/groups').then(r=>r.json()).then(d=>{
-    const threads=d.groups||[];
-    if(!threads.length){alert('No Messenger threads configured.');return;}
-    fetch('/api/messenger/start-posting',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({itemId:item.id,itemName:item.name,message:msg,imagePath,threads:threads.map(t=>({...t,status:'pending'}))})});
-    alert('\u2713 Messenger posting started to '+threads.length+' thread(s)'+(imagePath?' with image':'')+'.');
-  }).catch(e=>alert('Messenger error: '+e.message));
-}
-function addBubble(role,text){const wrap=document.getElementById('chronMsgs');const d=document.createElement('div');d.className=role==='user'?'bu':'ba';d.textContent=text;wrap.appendChild(d);wrap.scrollTop=wrap.scrollHeight;return d;}
-async function sendChron(){
-  const inp=document.getElementById('chronInput');const q=inp.value.trim();if(!q)return;
-  const btn=document.getElementById('chronSend');
-  addBubble('user',q);inp.value='';btn.disabled=true;
-  const t=addBubble('ai','Thinking...');
-  try{const r=await fetch('/api/ultron',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q})});
-    const d=await r.json();t.textContent=d.ok?d.answer:'Error: '+(d.error||'unknown');
-  }catch(e){t.textContent='Error: '+e.message;}finally{btn.disabled=false;}
-}
-document.getElementById('chronInput').addEventListener('keydown',e=>{if(e.key==='Enter')sendChron();});
-async function runScout(mode){
-  const btn=document.getElementById('runBtn');const st=document.getElementById('runStatus');const prog=document.getElementById('runProg');
-  btn.disabled=true;prog.style.width='0%';st.textContent='Starting...';
-  try{const url=mode==='full'?'/api/run-scout':'/api/run-scout-quick';const es=new EventSource(url);
-    es.addEventListener('progress',e=>{const d=JSON.parse(e.data);prog.style.width=Math.round((d.step/d.total)*100)+'%';st.textContent='Step '+d.step+' of '+d.total+': '+d.name+'...';});
-    es.addEventListener('done',e=>{es.close();const d=JSON.parse(e.data);prog.style.width='100%';st.textContent='Done — '+d.count.toLocaleString()+' listings, '+d.buyerMatches.length+' matches.';setTimeout(()=>{prog.style.width='0%';btn.disabled=false;initCounts();renderFeed();},2000);});
-    es.onerror=()=>{es.close();st.textContent='Run failed. Check terminal.';btn.disabled=false;};
-  }catch(e){st.textContent='Error: '+e.message;btn.disabled=false;}
-}
-async function doLive(){
-  const q=document.getElementById('srch').value.trim();if(!q)return;
-  const btn=document.getElementById('liveBtn');const st=document.getElementById('liveStatus');
-  btn.disabled=true;st.textContent='Searching...';
-  try{const d=await fetch('/api/search?q='+encodeURIComponent(q)).then(r=>r.json());st.textContent='Done — '+d.count.toLocaleString()+' listings loaded.';}
-  catch(e){st.textContent='Error: '+e.message;}finally{btn.disabled=false;}
-}
-const tabMap={feed:'view-feed',sales:'view-sales',inv:'view-inv',eci:'view-eci',ecj:'view-ecj',lb:'view-lb',wa2:'view-wa2',bump:'view-bump',chron:'view-chron',wtb:'view-wtb'};
-document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
-  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
-  document.querySelectorAll('.view').forEach(x=>x.classList.remove('on'));
-  t.classList.add('on');document.getElementById(tabMap[t.dataset.tab]).classList.add('on');
-  if(t.dataset.tab==='inv'){if(!_INV.length)loadInv();else renderInv();}
-  if(t.dataset.tab==='eci'){if(!_ECI.length)loadEci();else renderEci();}
-  if(t.dataset.tab==='ecj'){if(!_ECJ.length)loadEcj();else renderEcj();}
-  if(t.dataset.tab==='lb'){if(!_LB.length)loadLb();else renderLb();}
-  if(t.dataset.tab==='wa2'){if(!_WA2.length)loadWa2();else renderWa2();}
-  if(t.dataset.tab==='wtb')loadWtbRequests();
-}));
-// WTB Functions
-function showWtbForm(){document.getElementById('wtbFormPanel').style.display='block';document.getElementById('wtbFirst').focus();}
 
-document.getElementById('wtbBrand').addEventListener('change', function(){
-  const other = document.getElementById('wtbBrandOther');
-  other.style.display = this.value === 'Other' ? 'block' : 'none';
+  items.forEach(item=>{
+    const hot = isHot(item);
+    const card = document.createElement("div");
+    card.className = "card" + (hot ? " hot" : "");
+    card.innerHTML = `
+      <div>
+        <div class="card-top">
+          <span class="src-pill ${srcClass(item.source)}">${item.source}</span>
+          ${item.isNew ? '<span class="new-badge">New</span>' : ''}
+          ${item.nickname ? `<span class="nickname-badge">${item.nickname}</span>` : ''}
+          <span class="time-ago">${timeAgoLabel(item.postedMinutesAgo)}</span>
+        </div>
+        <p class="card-title">${item.brand} ${item.model}${item.ref ? ' · Ref. ' + item.ref : ''}</p>
+        <div class="card-meta">
+          <span>${item.condition || ""}</span>
+          <span>${item.seller || ""}</span>
+          <span>${item.sourceDetail || ""}</span>
+        </div>
+      </div>
+      <div class="card-price">
+        <div class="amt">${fmtPrice(item.price)}</div>
+        <div class="src-name">${item.source}</div>
+        <a href="${item.url}" target="_blank" rel="noopener">View listing</a>
+      </div>
+    `;
+    feed.appendChild(card);
+  });
+}
+
+function renderHotLeads(){
+  const tagWrap = document.getElementById("watchlistTags");
+  tagWrap.innerHTML = NICKNAME_WATCHLIST.map(n=>`<span class="watchlist-tag">${n}</span>`).join("");
+
+  const hot = LISTINGS.filter(isHot).sort((a,b)=>a.postedMinutesAgo-b.postedMinutesAgo);
+  const wrap = document.getElementById("hotLeads");
+  wrap.innerHTML = "";
+  if(hot.length===0){
+    wrap.innerHTML = '<div class="empty" style="padding:20px 0;">No watchlist matches right now.</div>';
+    return;
+  }
+  hot.forEach(item=>{
+    const div = document.createElement("div");
+    div.className = "hot-item";
+    div.innerHTML = `
+      <div class="hi-title">${item.brand} ${item.model}</div>
+      <div class="hi-meta"><span>${item.source} · ${timeAgoLabel(item.postedMinutesAgo)}</span><span class="hi-price">${fmtPrice(item.price)}</span></div>
+    `;
+    wrap.appendChild(div);
+  });
+}
+
+function renderCounts(){
+  const wr = LISTINGS.filter(i=>i.source==="WatchRecon").length;
+  const wp = LISTINGS.filter(i=>i.source==="WatchPatrol").length;
+  const fbg = LISTINGS.filter(i=>i.source==="FB Group").length;
+  const fbm = LISTINGS.filter(i=>i.source==="FB Marketplace").length;
+  document.getElementById("cnt-watchrecon").textContent = wr;
+  document.getElementById("cnt-watchpatrol").textContent = wp;
+  document.getElementById("cnt-fbgroup").textContent = fbg;
+  document.getElementById("cnt-fbmarket").textContent = fbm;
+  document.getElementById("bezel-total").textContent = LISTINGS.length;
+}
+
+document.getElementById("searchInput").addEventListener("input", e=>{
+  state.search = e.target.value;
+  renderFeed();
 });
-async function submitWtb(){
-  const st=document.getElementById('wtbSubmitStatus');
-  const brand=document.getElementById('wtbBrand').value.trim();
-  const email=document.getElementById('wtbEmail').value.trim();
-  if(!brand||!email){st.style.color='var(--red)';st.textContent='Brand and email are required.';return;}
-  st.style.color='var(--text-secondary)';st.textContent='Matching against inventory and market sources...';
-  const body={
-    firstName:document.getElementById('wtbFirst').value,
-    lastName:document.getElementById('wtbLast').value,
-    email,phone:document.getElementById('wtbPhone').value,
-    brand,model:document.getElementById('wtbModel').value,
-    ref:document.getElementById('wtbRef').value,
-    budgetMax:document.getElementById('wtbBudget').value||null,
-    notes:document.getElementById('wtbNotes').value,
-    dialColor:document.getElementById('wtbDial').value||null,
-    boxPapers:document.getElementById('wtbBoxPapers').value||null,
-    source:'manual'
-  };
-  try{
-    const d=await fetch('/api/wtb/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}).then(r=>r.json());
-    if(d.ok){
-      st.style.color='var(--green)';st.textContent='\u2713 Request submitted — '+d.matchCount+' matches found.';
-      ['wtbFirst','wtbLast','wtbEmail','wtbPhone','wtbBrand','wtbModel','wtbRef','wtbBudget','wtbNotes'].forEach(id=>document.getElementById(id).value='');
-      setTimeout(()=>{document.getElementById('wtbFormPanel').style.display='none';loadWtbRequests();},1500);
-    } else {st.style.color='var(--red)';st.textContent='Error: '+(d.error||'unknown');}
-  }catch(e){st.style.color='var(--red)';st.textContent='Error: '+e.message;}
-}
+document.getElementById("brandSelect").addEventListener("change", e=>{
+  state.brand = e.target.value;
+  renderFeed();
+});
+document.getElementById("priceMin").addEventListener("input", e=>{
+  state.priceMin = e.target.value ? Number(e.target.value) : null;
+  renderFeed();
+});
+document.getElementById("priceMax").addEventListener("input", e=>{
+  state.priceMax = e.target.value ? Number(e.target.value) : null;
+  renderFeed();
+});
+document.querySelectorAll("#sourceChips .chip").forEach(chip=>{
+  chip.addEventListener("click", ()=>{
+    document.querySelectorAll("#sourceChips .chip").forEach(c=>c.classList.remove("active"));
+    chip.classList.add("active");
+    state.source = chip.dataset.source;
+    renderFeed();
+  });
+});
+document.querySelectorAll("#ageChips .chip").forEach(chip=>{
+  chip.addEventListener("click", ()=>{
+    document.querySelectorAll("#ageChips .chip").forEach(c=>c.classList.remove("active"));
+    chip.classList.add("active");
+    state.age = Number(chip.dataset.age);
+    renderFeed();
+  });
+});
+document.querySelectorAll(".sort-row .chip").forEach(chip=>{
+  chip.addEventListener("click", ()=>{
+    document.querySelectorAll(".sort-row .chip").forEach(c=>c.classList.remove("active"));
+    chip.classList.add("active");
+    state.sort = chip.dataset.sort;
+    renderFeed();
+  });
+});
 
-async function syncVercel(){
-  const btn=document.getElementById('syncBtn');
-  btn.textContent='Syncing...';btn.disabled=true;
-  try{
-    const d=await fetch('/api/wtb/sync-vercel',{method:'POST'}).then(r=>r.json());
-    if(d.ok){
-      btn.textContent='\u2713 '+d.added+' new request(s) synced';
-      if(d.added>0)loadWtbRequests();
-    } else {
-      btn.textContent='Sync failed';
-    }
-  }catch(e){btn.textContent='Error: '+e.message;}
-  setTimeout(()=>{btn.textContent='\u21bb Sync Form Submissions';btn.disabled=false;},3000);
-}
-async function loadWtbRequests(){
-  try{
-    const d=await fetch('/api/wtb/requests').then(r=>r.json());
-    const requests=d.requests||[];
-    document.getElementById('wtbBadge').textContent=requests.filter(r=>r.status==='matched'||r.status==='new').length||'';
-    renderWtbList(requests);
-  }catch(e){document.getElementById('wtbList').innerHTML='<div class="empty">Error loading requests: '+e.message+'</div>';}
-}
-
-function fmtPrice(p){if(!p)return '—';const n=parseFloat(String(p).replace(/[^0-9.]/g,''));return isNaN(n)?String(p):'$'+Math.round(n).toLocaleString();}
-
-function renderWtbList(requests){
-  const el=document.getElementById('wtbList');
-  if(!requests.length){el.innerHTML='<div class="empty">No WTB requests yet. Click "+ New Request" or share the public form with clients.</div>';return;}
-  const statusColor={new:'var(--blue)',matched:'var(--green)','match-failed':'var(--red)',sent:'var(--text-muted)',closed:'var(--text-muted)'};
-  el.innerHTML=requests.map((r,idx)=>{
-    const m=r.matches||{};
-    const invMatches=m.inventoryMatches||[];
-    const mktMatches=m.marketMatches||[];
-    const icMatches=m.icMatches||[];
-    const totalMatches=invMatches.length+mktMatches.length+icMatches.length;
-    const w=r.watch||{};
-    const c=r.client||{};
-    const cardId='wtb-card-'+idx;
-    return `<div style="background:var(--panel);border:1px solid var(--hairline);border-radius:var(--radius);margin-bottom:10px;overflow:hidden;">
-      <!-- Collapsed header - always visible -->
-      <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 16px;cursor:pointer;gap:12px;" onclick="toggleWtb('${cardId}')">
-        <div style="flex:1;min-width:0;">
-          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
-            <span style="font-size:13px;font-weight:600;">${c.firstName||''} ${c.lastName||''}</span>
-            <span style="font-size:10px;font-weight:700;text-transform:uppercase;padding:2px 7px;border-radius:3px;background:${statusColor[r.status]||'var(--panel-2)'};color:#fff;">${r.status}</span>
-            <span style="font-size:11px;color:var(--text-muted);">${new Date(r.submittedAt).toLocaleDateString()}</span>
-          </div>
-          <div style="font-size:12.5px;color:var(--brass);margin-top:2px;">${w.brand||''} ${w.model||''} ${w.ref?'· Ref. '+w.ref:''} ${w.dialColor?'· '+w.dialColor+' dial':''}</div>
-          <div style="font-size:11.5px;color:var(--text-secondary);">${c.email}${c.phone?' · '+c.phone:''} ${w.budgetMax?'· Budget: $'+Number(w.budgetMax).toLocaleString():''}</div>
-        </div>
-        <div style="display:flex;align-items:center;gap:8px;flex-shrink:0;">
-          <span style="font-size:12px;color:${totalMatches>0?'var(--green)':'var(--text-muted)'};">${totalMatches} match${totalMatches!==1?'es':''}</span>
-          <span style="font-size:16px;color:var(--text-muted);" id="${cardId}-arrow">▸</span>
-        </div>
-      </div>
-      <!-- Expandable body -->
-      <div id="${cardId}" style="display:none;border-top:1px solid var(--hairline);padding:14px 16px;">
-        <!-- Action buttons -->
-        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px;">
-          <button onclick="rematchWtb('${r.id}')" style="background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:6px 12px;border-radius:6px;font-size:12px;cursor:pointer;">&#x21bb; Re-match</button>
-          <button onclick="sendToClient('${r.id}')" style="background:var(--green);color:#0a2e18;border:none;padding:6px 12px;border-radius:6px;font-size:12px;cursor:pointer;font-weight:600;">&#x2709; Send to Client</button>
-          <button onclick="markWtbSent('${r.id}')" style="background:var(--panel-2);border:1px solid var(--hairline);color:var(--text);padding:6px 12px;border-radius:6px;font-size:12px;cursor:pointer;">Mark Sent</button>
-          <button onclick="markWtbClosed('${r.id}')" style="background:var(--panel-2);border:1px solid var(--hairline);color:var(--text-muted);padding:6px 12px;border-radius:6px;font-size:12px;cursor:pointer;">Close</button>
-        </div>
-
-        ${totalMatches>0?`
-        <!-- YOUR INVENTORY -->
-        ${invMatches.length?`<div style="margin-bottom:14px;">
-          <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--green);margin-bottom:8px;">&#9679; YOUR INVENTORY (${invMatches.length})</div>
-          ${invMatches.map((m,mi)=>`<div style="display:flex;align-items:center;gap:10px;background:rgba(74,222,128,.05);border:1px solid rgba(74,222,128,.2);border-radius:6px;padding:8px 10px;margin-bottom:5px;"><input type="checkbox" checked data-match-type="inv" data-match-idx="${mi}" style="flex-shrink:0;width:16px;height:16px;cursor:pointer;" title="Uncheck to exclude from email">
-            ${(m.image||m.imageUrl)?`<img src="${m.image||m.imageUrl}" style="width:56px;height:56px;object-fit:cover;border-radius:5px;flex-shrink:0;" onerror="this.style.display='none'">`:''}
-            <div style="flex:1;min-width:0;">
-              <div style="font-size:12.5px;font-weight:600;">${m.name||''}</div>
-              <div style="font-size:11px;color:var(--text-secondary);">${m.store||''}${m.ref?' · Ref. '+m.ref:''}</div>
-            </div>
-            <div style="text-align:right;flex-shrink:0;">
-              <div style="font-size:14px;font-weight:700;color:var(--brass);">${fmtPrice(m.price)}</div>
-              ${m.url?`<a href="${m.url}" target="_blank" style="font-size:11px;color:var(--blue);">View →</a>`:''}
-            </div>
-          </div>`).join('')}
-        </div>`:''}
-
-        <!-- IC DEALERS -->
-        ${icMatches.length?`<div style="margin-bottom:14px;">
-          <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#38bdf8;margin-bottom:8px;">&#9679; IC DEALERS (${icMatches.length})</div>
-          ${icMatches.map((m,mi)=>`<div style="display:flex;align-items:center;gap:10px;background:rgba(56,189,248,.05);border:1px solid rgba(56,189,248,.2);border-radius:6px;padding:8px 10px;margin-bottom:5px;"><input type="checkbox" checked data-match-type="ic" data-match-idx="${mi}" style="flex-shrink:0;width:16px;height:16px;cursor:pointer;" title="Uncheck to exclude from email">
-            ${(m.imageUrl||m.image)?`<img src="${m.imageUrl||m.image}" style="width:56px;height:56px;object-fit:cover;border-radius:5px;flex-shrink:0;" onerror="this.style.display='none'">`:''}
-            <div style="flex:1;min-width:0;">
-              <div style="font-size:12.5px;font-weight:600;">${m.name||''}</div>
-              <div style="font-size:11px;color:var(--text-secondary);">${m.seller||'Dealer'}${m.ref?' · Ref. '+m.ref:''}</div>
-              ${m.condition?`<div style="font-size:11px;color:var(--text-muted);">${m.condition.slice(0,60)}</div>`:''}
-            </div>
-            <div style="text-align:right;flex-shrink:0;">
-              <div style="font-size:14px;font-weight:700;color:var(--brass);">${fmtPrice(m.price)}</div>
-              ${m.icUrl||m.url?`<a href="${m.icUrl||m.url}" target="_blank" style="font-size:11px;color:var(--blue);">View on IC →</a>`:''}
-            </div>
-          </div>`).join('')}
-        </div>`:''}
-
-        <!-- MARKET -->
-        ${mktMatches.length?`<div>
-          <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--text-muted);margin-bottom:8px;">&#9679; MARKET (${mktMatches.length})</div>
-          ${mktMatches.map((m,mi)=>`<div style="display:flex;align-items:center;gap:10px;background:var(--panel-2);border:1px solid var(--hairline);border-radius:6px;padding:8px 10px;margin-bottom:5px;"><input type="checkbox" checked data-match-type="mkt" data-match-idx="${mi}" style="flex-shrink:0;width:16px;height:16px;cursor:pointer;" title="Uncheck to exclude from email">
-            ${m.imageUrl?`<img src="${m.imageUrl}" style="width:56px;height:56px;object-fit:cover;border-radius:5px;flex-shrink:0;" onerror="this.style.display='none'">`:'<div style="width:56px;height:56px;background:var(--panel);border-radius:5px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--text-muted);">&#x231a;</div>'}
-            <div style="flex:1;min-width:0;">
-              <div style="font-size:12.5px;font-weight:600;">${m.title||m.name||''}</div>
-              <div style="font-size:11px;color:var(--text-secondary);">${m.source||''}${m.ref?' · Ref. '+m.ref:''}${m.seller?' · '+m.seller:''}</div>
-            </div>
-            <div style="text-align:right;flex-shrink:0;">
-              <div style="font-size:14px;font-weight:700;color:var(--brass);">${fmtPrice(m.price)}</div>
-              ${m.url?`<a href="${m.url}" target="_blank" style="font-size:11px;color:var(--blue);">View →</a>`:''}
-
-            </div>
-          </div>`).join('')}
-        </div>`:''}
-        `:`<div style="font-size:12px;color:var(--text-muted);padding:8px 0;">No matches yet — click Re-match to search with latest data.</div>`}
-      </div>
-    </div>`;
-  }).join('');
-}
-
-function toggleWtb(id){
-  const el=document.getElementById(id);
-  const arrow=document.getElementById(id+'-arrow');
-  if(!el)return;
-  const open=el.style.display==='none';
-  el.style.display=open?'block':'none';
-  if(arrow)arrow.textContent=open?'▾':'▸';
-}
-
-async function markWtbClosed(id){
-  await fetch('/api/wtb/update',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id,status:'closed'})});
-  loadWtbRequests();
-}
-
-
-async function sendToClient(id){
-  const btn=event.target;
-  const origText=btn.textContent;
-  btn.disabled=true;btn.textContent='Generating...';
-  // Collect which items to exclude (unchecked checkboxes in this card)
-  let cardEl = btn.parentElement;
-  while(cardEl && !(cardEl.id && cardEl.id.startsWith('wtb-card-'))) cardEl = cardEl.parentElement;
-  console.log('[WTB] cardEl:', cardEl && cardEl.id, 'cbs:', cardEl && cardEl.querySelectorAll('input[data-match-type]').length);
-  if(!cardEl) cardEl = btn.parentElement.parentElement;
-  const excludeInv=[], excludeIc=[], excludeMkt=[];
-  if(cardEl){
-    cardEl.querySelectorAll('input[type="checkbox"][data-match-type]').forEach(cb=>{
-      if(!cb.checked){
-        const idx=parseInt(cb.dataset.matchIdx);
-        if(cb.dataset.matchType==='inv')excludeInv.push(idx);
-        else if(cb.dataset.matchType==='ic')excludeIc.push(idx);
-        else if(cb.dataset.matchType==='mkt')excludeMkt.push(idx);
-      }
-    });
-  }
-  try{
-    console.log('[WTB] excluding inv:', excludeInv, 'ic:', excludeIc, 'mkt:', excludeMkt);
-    const d=await fetch('/api/wtb/send',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id,excludeInv,excludeIc,excludeMkt})}).then(r=>r.json());
-    if(!d.ok){alert('Error: '+(d.error||'unknown'));btn.disabled=false;btn.textContent=origText;return;}
-    btn.textContent='Creating draft...';
-    let pdfAttachment=null;
-    if(d.pdfPath){
-      try{const pr=await fetch('/api/wtb/pdf?path='+encodeURIComponent(d.pdfPath)).then(r=>r.json());if(pr.ok)pdfAttachment=pr.base64;}
-      catch(e){console.warn('PDF attach failed:',e.message);}
-    }
-    const dr=await fetch('/api/wtb/draft',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({to:d.clientEmail,subject:d.subject,htmlBody:d.htmlBody,pdfBase64:pdfAttachment,totalMatches:d.totalMatches})}).then(r=>r.json());
-    if(dr.ok){
-      btn.style.background='var(--brass)';btn.textContent='\u2713 Ready';btn.disabled=false;
-      if(dr.gmailComposeUrl)window.open(dr.gmailComposeUrl,'_blank');
-      alert('\u2713 '+d.totalMatches+' matches compiled for '+d.clientEmail+'\n\nGmail compose opened. You can also ask Claude to create the draft directly.');
-    } else {
-      btn.disabled=false;btn.textContent=origText;
-      alert('Error: '+(dr.error||'unknown'));
-    }
-  }catch(e){btn.disabled=false;btn.textContent=origText;alert('Error: '+e.message);}
-}
-async function rematchWtb(id){
-  const d=await fetch('/api/wtb/rematch',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id})}).then(r=>r.json());
-  if(d.ok)loadWtbRequests();
-  else alert('Re-match failed: '+(d.error||'unknown'));
-}
-
-async function markWtbSent(id){
-  await fetch('/api/wtb/update',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id,status:'sent'})});
-  loadWtbRequests();
-}
-
-initCounts();renderFeed();renderHotLeads();renderSales();
+populateBrands();
+renderBezel();
+renderCounts();
+renderFeed();
+renderHotLeads();
 </script>
 </body>
 </html>
