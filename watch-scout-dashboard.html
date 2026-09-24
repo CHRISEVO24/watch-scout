@@ -533,6 +533,7 @@ const BUYER_MATCHES = [];
 const WL=['Hulk','Bruce Wayne','Batgirl','Pepsi GMT','Batman','Kermit','Smurf','Coke','Root Beer','Panda Daytona','Sprite'];
 const S={q:'',src:'',brand:'',color:'',pMin:0,pMax:0,age:0,sort:'new'};
 var _INV=[],_ECI=[],_ECJ=[],_LB=[],_WA2=[],_waItem=null;
+var _DEALS=[],_dealsLoaded=false,dealsFilter={minScore:1,brand:"",sort:"score"};
 function $p(p){return p?('$'+Math.round(p).toLocaleString('en-US')):'—';}
 function ago(m){if(m==null)return'date n/a';if(m<60)return m+'m ago';if(m<1440)return Math.round(m/60)+'h ago';return Math.round(m/1440)+'d ago';}
 function nrm(s){return(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');}
@@ -1156,9 +1157,6 @@ async function markWtbSent(id){
 initCounts();renderFeed();renderHotLeads();renderSales();
 
 // ─── Deals Tab ───────────────────────────────────────────────────────────────
-let _DEALS = [];
-let dealsFilter = { minScore: 1, brand: '', sort: 'score' };
-let _dealsLoaded = false;
 
 document.querySelectorAll('#dealMinChips .chip').forEach(c => {
   c.addEventListener('click', () => {
