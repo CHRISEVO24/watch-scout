@@ -141,7 +141,7 @@ function run() {
     const items = loadSafe(file);
     if (items.length) {
       sourceCount++;
-      allListings.push(...items);
+      for (const item of items) allListings.push(item);
     }
   }
 
