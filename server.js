@@ -1258,6 +1258,147 @@ app.post('/api/save-watchcrunch', express.json({limit:'50mb'}), (req, res) => {
   res.json({saved: newItems.length, total: all.length});
 });
 
+// ─── Deal Scoring API ────────────────────────────────────────────────────────
+
+const { run: runComputeDeals, normaliseRef } = require("./scrapers/compute-deals");
+const { run: runComputeHistory } = require("./scrapers/compute-history");
+
+/**
+ * POST /api/compute-deals
+ * Recomputes deal scores + history indexes. Safe to call after a scrape.
+ */
+app.post("/api/compute-deals", async (req, res) => {
+  try {
+    const t0 = Date.now();
+    const deals   = runComputeDeals();
+    const history = runComputeHistory();
+    res.json({
+      ok: true,
+      scoredListings:  deals.stats.scoredListings,
+      uniqueRefs:      deals.stats.uniqueRefs,
+      historyIds:      Object.keys(history.idIndex).length,
+      historyRefs:     Object.keys(history.refIndex).length,
+      elapsed:         Date.now() - t0,
+    });
+  } catch (err) {
+    console.error("[deals] compute error:", err.message);
+    res.status(500).json({ ok: false, error: err.message });
+  }
+});
+
+/**
+ * GET /api/deals
+ * Returns scored listings with optional query params:
+ *   minScore  (default 1)   – minimum deal score
+ *   brand     – filter by brand (case-insensitive)
+ *   src       – filter by source name
+ *   limit     (default 200)
+ *   sort      – "score" (default) | "discount" | "price"
+ */
+app.get("/api/deals", (req, res) => {
+  const DEALS_FILE = path.join(DATA_DIR, "deals-scored.json");
+  if (!fs.existsSync(DEALS_FILE)) {
+    return res.status(404).json({ ok: false, error: "deals-scored.json not found — run /api/compute-deals first" });
+  }
+
+  let listings;
+  try {
+    listings = JSON.parse(fs.readFileSync(DEALS_FILE, "utf8"));
+  } catch (err) {
+    return res.status(500).json({ ok: false, error: "Failed to read deals-scored.json" });
+  }
+
+  const minScore = parseInt(req.query.minScore ?? "1", 10);
+  const limit    = parseInt(req.query.limit    ?? "200", 10);
+  const brand    = (req.query.brand ?? "").toLowerCase().trim();
+  const src      = (req.query.src  ?? "").toLowerCase().trim();
+  const sort     = req.query.sort ?? "score";
+
+  let results = listings.filter(l => {
+    if (!l.dealScore || l.dealScore < minScore) return false;
+    if (brand && !(l.brand ?? "").toLowerCase().includes(brand)) return false;
+    if (src   && !(l.source ?? "").toLowerCase().includes(src))  return false;
+    return true;
+  });
+
+  if (sort === "discount")      results.sort((a, b) => (b.discountPct - a.discountPct));
+  else if (sort === "price")    results.sort((a, b) => (a.price - b.price));
+  else                          results.sort((a, b) => (b.dealScore - a.dealScore) || (b.discountPct - a.discountPct));
+
+  res.json({
+    ok:     true,
+    total:  results.length,
+    items:  results.slice(0, limit),
+  });
+});
+
+/**
+ * GET /api/deals-stats
+ * Returns the lightweight stats file (medians per ref, top deals).
+ */
+app.get("/api/deals-stats", (req, res) => {
+  const STATS_FILE = path.join(DATA_DIR, "deals-stats.json");
+  if (!fs.existsSync(STATS_FILE)) {
+    return res.status(404).json({ ok: false, error: "deals-stats.json not found" });
+  }
+  try {
+    res.json(JSON.parse(fs.readFileSync(STATS_FILE, "utf8")));
+  } catch (err) {
+    res.status(500).json({ ok: false, error: err.message });
+  }
+});
+
+/**
+ * GET /api/history/:id
+ * Returns sparkline for a single listing id (c24-XXXXXXXX).
+ * Falls back to ref-based index if id not found.
+ */
+app.get("/api/history/:id", (req, res) => {
+  const ID_INDEX_FILE  = path.join(DATA_DIR, "history-index.json");
+  const REF_INDEX_FILE = path.join(DATA_DIR, "history-ref-index.json");
+  const { id } = req.params;
+
+  // Try id index first
+  if (fs.existsSync(ID_INDEX_FILE)) {
+    try {
+      const idx = JSON.parse(fs.readFileSync(ID_INDEX_FILE, "utf8"));
+      if (idx[id]) return res.json({ ok: true, source: "id", ...idx[id] });
+    } catch { /* fall through */ }
+  }
+
+  // Try ref index as fallback (pass ?ref=126610LN)
+  const ref = normaliseRef(req.query.ref ?? "");
+  if (ref && fs.existsSync(REF_INDEX_FILE)) {
+    try {
+      const idx = JSON.parse(fs.readFileSync(REF_INDEX_FILE, "utf8"));
+      if (idx[ref]) return res.json({ ok: true, source: "ref", ...idx[ref] });
+    } catch { /* fall through */ }
+  }
+
+  res.status(404).json({ ok: false, error: "No history found for this id/ref" });
+});
+
+/**
+ * GET /api/history-by-ref/:ref
+ * Returns ref-level sparkline (aggregated across all c24 listings for that ref).
+ */
+app.get("/api/history-by-ref/:ref", (req, res) => {
+  const REF_INDEX_FILE = path.join(DATA_DIR, "history-ref-index.json");
+  const ref = normaliseRef(req.params.ref ?? "");
+  if (!ref) return res.status(400).json({ ok: false, error: "ref required" });
+
+  if (!fs.existsSync(REF_INDEX_FILE)) {
+    return res.status(404).json({ ok: false, error: "history-ref-index.json not found" });
+  }
+  try {
+    const idx = JSON.parse(fs.readFileSync(REF_INDEX_FILE, "utf8"));
+    if (idx[ref]) return res.json({ ok: true, ...idx[ref] });
+    res.status(404).json({ ok: false, error: `No history for ref ${ref}` });
+  } catch (err) {
+    res.status(500).json({ ok: false, error: err.message });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Watch Scout server running.`);
   console.log(`Open: http://localhost:${PORT}/watch-scout-dashboard.html`);
