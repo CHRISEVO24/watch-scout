@@ -4,7 +4,9 @@ const path = require("path");
 
 const DATA_DIR = path.join(__dirname, "..", "data");
 const LATEST_FILE = path.join(DATA_DIR, "inventoryconnect-latest.json");
-const COOKIES_FILE = path.join(DATA_DIR, "inventoryconnect-cookies.json");
+
+const IC_EMAIL    = "chrisevo24@gmail.com";
+const IC_PASSWORD = "Samantha24!";
 
 const args = process.argv.slice(2).reduce((acc, arg) => {
   const eqIndex = arg.indexOf("=");
@@ -18,20 +20,6 @@ const args = process.argv.slice(2).reduce((acc, arg) => {
 
 const MAX_PAGES = Number(args.maxPages || 9);
 
-function convertCookiesForPlaywright(rawCookies) {
-  const sameSiteMap = { lax: "Lax", strict: "Strict", no_restriction: "None" };
-  return rawCookies.map((c) => ({
-    name: c.name,
-    value: c.value,
-    domain: c.domain,
-    path: c.path || "/",
-    expires: c.session ? -1 : Math.floor(c.expirationDate),
-    httpOnly: !!c.httpOnly,
-    secure: !!c.secure,
-    sameSite: sameSiteMap[c.sameSite] || "Lax",
-  }));
-}
-
 function parsePrice(text) {
   if (!text) return null;
   const isUSD = /^\$/.test(text.trim());
@@ -40,32 +28,45 @@ function parsePrice(text) {
   return { amount, isUSD };
 }
 
-async function run() {
-  if (!fs.existsSync(COOKIES_FILE)) {
-    console.error(`No cookie file found at ${COOKIES_FILE}. Export cookies via Cookie-Editor first.`);
-    process.exit(1);
-  }
-  const rawCookies = JSON.parse(fs.readFileSync(COOKIES_FILE, "utf8"));
-  const cookies = convertCookiesForPlaywright(rawCookies);
+async function login(page) {
+  console.log("Navigating to login page...");
+  await page.goto("https://www.inventoryconnect.io/login", { waitUntil: "domcontentloaded", timeout: 30000 });
+  await page.waitForTimeout(1500);
 
+  // Fill email
+  await page.fill('input[type="email"], input[name="email"], input[placeholder*="email" i]', IC_EMAIL);
+  await page.waitForTimeout(500);
+
+  // Fill password
+  await page.fill('input[type="password"], input[name="password"]', IC_PASSWORD);
+  await page.waitForTimeout(500);
+
+  // Submit
+  await page.click('button[type="submit"], button:has-text("Sign in"), button:has-text("Log in"), button:has-text("Login")');
+  await page.waitForTimeout(3000);
+
+  // Verify we're logged in
+  const url = page.url();
+  const bodyText = await page.evaluate(() => document.body.innerText);
+  const loggedIn = !url.includes("/login") && !bodyText.includes("Sign in") && !bodyText.includes("Invalid credentials");
+  if (!loggedIn) {
+    throw new Error("Login failed — check credentials or the login page may have changed.");
+  }
+  console.log("Logged in successfully.");
+}
+
+async function run() {
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
     userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
   });
-  await context.addCookies(cookies);
   const page = await context.newPage();
 
-  console.log("Logging in via saved session and navigating to InventoryConnect Marketplace...");
+  await login(page);
+
+  console.log("Navigating to InventoryConnect Marketplace...");
   await page.goto("https://www.inventoryconnect.io/marketplace", { waitUntil: "domcontentloaded", timeout: 30000 });
   await page.waitForTimeout(2500);
-
-  const isLoggedIn = await page.evaluate(() => !document.body.innerText.includes("Sign in") && !document.body.innerText.includes("Log in"));
-  if (!isLoggedIn) {
-    console.error("Session appears expired (landed on login page). Re-export cookies via Cookie-Editor and try again.");
-    await browser.close();
-    process.exit(1);
-  }
-  console.log("Session valid, logged in successfully.");
 
   const allListings = [];
   let pageNum = 1;
@@ -84,10 +85,7 @@ async function run() {
         if (imageUrl && imageUrl.includes("/_next/image")) {
           const match = imageUrl.match(/url=([^&]+)/);
           if (match) {
-            try {
-              imageUrl = decodeURIComponent(match[1]);
-            } catch {
-            }
+            try { imageUrl = decodeURIComponent(match[1]); } catch {}
           }
         }
         return {
@@ -108,10 +106,7 @@ async function run() {
 
     const nextButton = page.getByText("Next", { exact: false }).first();
     const hasNext = await nextButton.isVisible().catch(() => false);
-    if (!hasNext) {
-      console.log("No more pages.");
-      break;
-    }
+    if (!hasNext) { console.log("No more pages."); break; }
     await nextButton.click();
     pageNum++;
   }
@@ -131,7 +126,7 @@ async function run() {
     .filter((p) => p.id && p.model)
     .map((p) => {
       const price = parsePrice(p.priceText);
-      const refMatch = p.detailLine ? p.detailLine.match(/Ref\.\s*([^\s\u00b7]+)/) : null;
+      const refMatch = p.detailLine ? p.detailLine.match(/Ref\.\s*([^\s·]+)/) : null;
       return {
         id: `ic-${p.id}`,
         source: "InventoryConnect Marketplace",
@@ -160,11 +155,9 @@ async function run() {
     const refLine = lines[1] || "";
     const budgetLine = lines[2] || "";
     const buyerName = lines[3] || null;
-
-    const refMatch = refLine.match(/Ref\.\s*([^\s\u00b7]+)/);
+    const refMatch = refLine.match(/Ref\.\s*([^\s·]+)/);
     const budgetMatch = budgetLine.replace(/,/g, "").match(/\$(\d+)/);
     const brandMatch = titleLine.match(/^(\S+)/);
-
     return {
       id: `ic-wtb-live-${i}-${refMatch ? refMatch[1] : Date.now()}`,
       source: "InventoryConnect Marketplace",
@@ -191,11 +184,7 @@ async function run() {
   if (args.reset) {
     console.log("--reset flag set: discarding previously saved data.");
   } else if (fs.existsSync(LATEST_FILE)) {
-    try {
-      existing = JSON.parse(fs.readFileSync(LATEST_FILE, "utf8"));
-    } catch {
-      existing = [];
-    }
+    try { existing = JSON.parse(fs.readFileSync(LATEST_FILE, "utf8")); } catch { existing = []; }
   }
   const merged = new Map(existing.map((item) => [item.id, item]));
   for (const item of allNewListings) merged.set(item.id, item);

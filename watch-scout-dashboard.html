@@ -415,8 +415,8 @@ input,select,button{font-family:var(--sans);}
         <div class="chip" data-min="10">10%+</div>
         <div class="chip" data-min="20">20%+</div>
       </div>
-      <div class="fl">Brand</div>
-      <input class="fi" id="dealsBrandFi" placeholder="Rolex, Omega…" oninput="dealsFilter.brand=this.value;renderDeals()">
+      <div class="fl">Search</div>
+      <input class="fi" id="dealsSearchFi" placeholder="Brand, ref, title, source…" oninput="dealsFilter.q=this.value.toLowerCase().trim();loadDeals()">
       <div class="fl">Sort</div>
       <div class="sort-row">
         <button class="sb on" data-dsort="score" onclick="dealsSortClick(this)">Score</button>
@@ -429,7 +429,7 @@ input,select,button{font-family:var(--sans);}
       <div class="fl" style="margin-top:16px;">How Scoring Works</div>
       <div style="font-size:11.5px;color:var(--text-secondary);line-height:1.6;">
         Score = <span style="color:var(--brass-text);font-family:var(--mono);font-size:11px;">(1 - price/median) × 100</span><br>
-        Median is computed per reference across all 49 sources.<br>
+        Median is computed per reference across all 52 sources.<br>
         Minimum 3 price points required.<br>
         <span style="color:var(--green);">Green ≥ 60</span> · <span style="color:var(--brass-text);">Gold 30–59</span> · Grey 1–29
       </div>
@@ -533,7 +533,7 @@ const BUYER_MATCHES = [];
 const WL=['Hulk','Bruce Wayne','Batgirl','Pepsi GMT','Batman','Kermit','Smurf','Coke','Root Beer','Panda Daytona','Sprite'];
 const S={q:'',src:'',brand:'',color:'',pMin:0,pMax:0,age:0,sort:'new'};
 var _INV=[],_ECI=[],_ECJ=[],_LB=[],_WA2=[],_waItem=null;
-var _DEALS=[],_dealsLoaded=false,dealsFilter={minScore:1,brand:"",sort:"score"};
+var _DEALS=[],_dealsLoaded=false,_dealsTotal=0,dealsFilter={minScore:1,q:"",sort:"score"};
 function $p(p){return p?('$'+Math.round(p).toLocaleString('en-US')):'—';}
 function ago(m){if(m==null)return'date n/a';if(m<60)return m+'m ago';if(m<1440)return Math.round(m/60)+'h ago';return Math.round(m/1440)+'d ago';}
 function nrm(s){return(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');}
@@ -1163,7 +1163,7 @@ document.querySelectorAll('#dealMinChips .chip').forEach(c => {
     document.querySelectorAll('#dealMinChips .chip').forEach(x => x.classList.remove('on'));
     c.classList.add('on');
     dealsFilter.minScore = parseInt(c.dataset.min, 10);
-    renderDeals();
+    loadDeals();
   });
 });
 
@@ -1171,20 +1171,22 @@ function dealsSortClick(el) {
   document.querySelectorAll('[data-dsort]').forEach(x => x.classList.remove('on'));
   el.classList.add('on');
   dealsFilter.sort = el.dataset.dsort;
-  renderDeals();
+  loadDeals();
 }
 
 async function loadDeals() {
   const st = document.getElementById('dealsCount');
   st.textContent = 'Loading deals…';
   try {
-    const params = new URLSearchParams({ limit: 500, sort: dealsFilter.sort });
+    const params = new URLSearchParams({ limit: 1000, sort: dealsFilter.sort, minScore: dealsFilter.minScore });
+    if (dealsFilter.q) params.set('q', dealsFilter.q);
     const d = await fetch('/api/deals?' + params).then(r => r.json());
     if (!d.ok) {
       st.textContent = 'No deals data — click Recompute Scores first.';
       _DEALS = [];
     } else {
       _DEALS = d.items;
+      _dealsTotal = d.total;
       _dealsLoaded = true;
     }
   } catch (e) {
@@ -1199,11 +1201,7 @@ function renderDeals() {
   const ct   = document.getElementById('dealsCount');
   const badge = document.getElementById('dealsBadge');
 
-  let items = _DEALS.filter(l => {
-    if (l.dealScore < dealsFilter.minScore) return false;
-    if (dealsFilter.brand && !(l.brand || '').toLowerCase().includes(dealsFilter.brand.toLowerCase())) return false;
-    return true;
-  });
+  let items = _DEALS;
 
   if (dealsFilter.sort === 'discount') items.sort((a, b) => (b.discountPct - a.discountPct));
   else if (dealsFilter.sort === 'price') items.sort((a, b) => (a.price - b.price));

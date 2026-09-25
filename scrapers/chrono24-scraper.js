@@ -30,6 +30,18 @@ const BRANDS = [
   { name: "Breitling", slug: "breitling" },
   { name: "Tudor", slug: "tudor" },
   { name: "TAG Heuer", slug: "tagheuer" },
+  { name: "Chopard", slug: "chopard" },
+  { name: "Bulgari", slug: "bulgari" },
+  { name: "Piaget", slug: "piaget" },
+  { name: "Franck Muller", slug: "franckmuller" },
+  { name: "Roger Dubuis", slug: "rogerdubuis" },
+  { name: "Ulysse Nardin", slug: "ulyssenardin" },
+  { name: "Glashutte Original", slug: "glashuetteoriginal" },
+  { name: "Nomos", slug: "nomos" },
+  { name: "Frederique Constant", slug: "frederiqueconstant" },
+  { name: "Montblanc", slug: "montblanc" },
+  { name: "Parmigiani", slug: "parmigianifleurier" },
+  { name: "Laurent Ferrier", slug: "laurentferrier" },
 ];
 
 const PRICE_BANDS = [
