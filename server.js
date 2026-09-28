@@ -89,12 +89,14 @@ function loadAllSources() {
   const essentialwatches = loadSafe("essentialwatches-latest.json");
   const mtwatches = loadSafe("1mtwatches-latest.json");
   const blw = loadSafe("blw-latest.json");
+  const crafttailored = loadSafe("crafttailored-latest.json");
+  const mywatchllc = loadSafe("mywatchllc-latest.json");
 
-  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel, ...inventoryconnect, ...artimeus, ...swisswatchexpo, ...watchlimit, ...the1916company, ...watchesoff5th, ...affordableswiss, ...exquisitetimepieces, ...ashford, ...luxurybazaar, ...watchaffinity, ...iplaywatch, ...aiswatches, ...elementintime, ...wristaficionado, ...collectors1946, ...grandcaliber, ...crmjewelers, ...providentjewelry, ...topperjewelers, ...materialgood, ...hqmilton, ...analogshift, ...timepiecetrading, ...grayandsons, ...mttimepieces, ...nywatchmarket, ...watchdrop, ...watchesinl, ...brandvillevault, ...watchpilot, ...luxurytime, ...yurwatches, ...vanceluxury, ...feldmar, ...wywatl, ...essentialwatches, ...mtwatches, ...blw].sort(
+  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel, ...inventoryconnect, ...artimeus, ...swisswatchexpo, ...watchlimit, ...the1916company, ...watchesoff5th, ...affordableswiss, ...exquisitetimepieces, ...ashford, ...luxurybazaar, ...watchaffinity, ...iplaywatch, ...aiswatches, ...elementintime, ...wristaficionado, ...collectors1946, ...grandcaliber, ...crmjewelers, ...providentjewelry, ...topperjewelers, ...materialgood, ...hqmilton, ...analogshift, ...timepiecetrading, ...grayandsons, ...mttimepieces, ...nywatchmarket, ...watchdrop, ...watchesinl, ...brandvillevault, ...watchpilot, ...luxurytime, ...yurwatches, ...vanceluxury, ...feldmar, ...wywatl, ...essentialwatches, ...mtwatches, ...blw, ...crafttailored, ...mywatchllc].sort(
     (a, b) => (a.postedMinutesAgo ?? 99999) - (b.postedMinutesAgo ?? 99999)
   );
 
-  return { combined, watchrecon, watchpatrol, chrono24, bobswatches, europeanwatch, fbgroups, fbmarketplace, ebay, whatsapp, bezel, inventoryconnect, artimeus, swisswatchexpo, watchlimit, the1916company, watchesoff5th, affordableswiss, exquisitetimepieces, ashford, luxurybazaar, watchaffinity, iplaywatch, aiswatches, elementintime, wristaficionado, collectors1946, grandcaliber, crmjewelers, providentjewelry, topperjewelers, materialgood, hqmilton, analogshift, timepiecetrading, grayandsons, mttimepieces, nywatchmarket, watchdrop, watchesinl, brandvillevault, watchpilot, luxurytime, yurwatches, vanceluxury, feldmar, wywatl, essentialwatches, mtwatches, blw };
+  return { combined, watchrecon, watchpatrol, chrono24, bobswatches, europeanwatch, fbgroups, fbmarketplace, ebay, whatsapp, bezel, inventoryconnect, artimeus, swisswatchexpo, watchlimit, the1916company, watchesoff5th, affordableswiss, exquisitetimepieces, ashford, luxurybazaar, watchaffinity, iplaywatch, aiswatches, elementintime, wristaficionado, collectors1946, grandcaliber, crmjewelers, providentjewelry, topperjewelers, materialgood, hqmilton, analogshift, timepiecetrading, grayandsons, mttimepieces, nywatchmarket, watchdrop, watchesinl, brandvillevault, watchpilot, luxurytime, yurwatches, vanceluxury, feldmar, wywatl, essentialwatches, mtwatches, blw, crafttailored, mywatchllc };
 }
 
 app.get("/api/counts", (req, res) => {
@@ -108,7 +110,13 @@ app.get("/api/counts", (req, res) => {
   const counts = {};
   combined.forEach(i => { counts[i.source] = (counts[i.source]||0)+1; });
   const brands = [...new Set(combined.map(i=>i.brand).filter(Boolean))].sort();
-  const colors = [...new Set(combined.map(i=>i.dialColor).filter(Boolean))].sort();
+  const _badColorRx = /[%${}()[\]<>"'\\]|null|label|lbl|dial_color|specifics|box_papers|not stated|unknown|undef|missing/i;
+  const colors = [...new Set(
+    combined
+      .map(i => i.dialColor)
+      .filter(c => c && typeof c === "string" && c.trim().length >= 2 && c.trim().length <= 40 && !_badColorRx.test(c))
+      .map(c => c.trim().charAt(0).toUpperCase() + c.trim().slice(1).toLowerCase())
+  )].sort();
   res.json({ total: combined.length, counts, brands, colors });
 });
 
@@ -1313,11 +1321,16 @@ app.get("/api/deals", (req, res) => {
   const brand    = (req.query.brand ?? "").toLowerCase().trim();
   const src      = (req.query.src  ?? "").toLowerCase().trim();
   const sort     = req.query.sort ?? "score";
+  const q        = (req.query.q   ?? "").toLowerCase().trim();
 
   let results = listings.filter(l => {
     if (!l.dealScore || l.dealScore < minScore) return false;
     if (brand && !(l.brand ?? "").toLowerCase().includes(brand)) return false;
     if (src   && !(l.source ?? "").toLowerCase().includes(src))  return false;
+    if (q) {
+      const hay = ((l.brand||'') + ' ' + (l.ref||'') + ' ' + (l.model||'') + ' ' + (l.title||'') + ' ' + (l.source||'')).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
     return true;
   });
 
