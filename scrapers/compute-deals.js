@@ -50,6 +50,17 @@ function normaliseRef(ref) {
 }
 
 /**
+ * Try to extract a watch reference number from a listing title.
+ * Looks for patterns like 116610, 126710BLNR, 5711/1A, etc.
+ */
+function refFromTitle(title) {
+  if (!title || typeof title !== "string") return null;
+  // Match common ref patterns: 5-7 digits optionally followed by letters/slashes
+  const m = title.match(/\b(\d{4,6}[A-Z0-9\/\-]{0,8})\b/i);
+  return m ? normaliseRef(m[1]) : null;
+}
+
+/**
  * Label a deal score numerically.
  * 0       → no deal
  * 1–29    → slight deal
@@ -153,9 +164,9 @@ function run() {
 
   for (const listing of allListings) {
     const price = typeof listing.price === "number" ? listing.price : null;
-    const ref   = normaliseRef(listing.ref || listing.reference || listing.model);
+    const ref   = normaliseRef(listing.ref || listing.reference || listing.model) || refFromTitle(listing.title);
 
-    if (price === null || price <= 0 || !ref) continue;
+    if (price === null || price < 500 || !ref) continue;
 
     if (!refPrices.has(ref)) refPrices.set(ref, []);
     refPrices.get(ref).push(price);
@@ -183,9 +194,9 @@ function run() {
 
   const enriched = allListings.map(listing => {
     const price  = typeof listing.price === "number" ? listing.price : null;
-    const ref    = normaliseRef(listing.ref || listing.reference || listing.model);
+    const ref    = normaliseRef(listing.ref || listing.reference || listing.model) || refFromTitle(listing.title);
 
-    if (price === null || price <= 0 || !ref) return listing;
+    if (price === null || price < 500 || !ref) return listing;
 
     const med     = refMedian.get(ref);
     const samples = refSamples.get(ref) || 0;
@@ -194,6 +205,9 @@ function run() {
 
     const discountPct = ((med - price) / med) * 100;   // positive = below median (deal)
     const discountAmt = med - price;
+
+    // Skip listings priced below 40% of median — likely junk/parts/deposits
+    if (price < med * 0.40) return listing;
 
     // Only flag as deal if priced below median
     const rawScore = Math.round(discountPct);

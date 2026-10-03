@@ -91,12 +91,13 @@ function loadAllSources() {
   const blw = loadSafe("blw-latest.json");
   const crafttailored = loadSafe("crafttailored-latest.json");
   const mywatchllc = loadSafe("mywatchllc-latest.json");
+  const merwatch = loadSafe("merwatch-latest.json");
 
-  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel, ...inventoryconnect, ...artimeus, ...swisswatchexpo, ...watchlimit, ...the1916company, ...watchesoff5th, ...affordableswiss, ...exquisitetimepieces, ...ashford, ...luxurybazaar, ...watchaffinity, ...iplaywatch, ...aiswatches, ...elementintime, ...wristaficionado, ...collectors1946, ...grandcaliber, ...crmjewelers, ...providentjewelry, ...topperjewelers, ...materialgood, ...hqmilton, ...analogshift, ...timepiecetrading, ...grayandsons, ...mttimepieces, ...nywatchmarket, ...watchdrop, ...watchesinl, ...brandvillevault, ...watchpilot, ...luxurytime, ...yurwatches, ...vanceluxury, ...feldmar, ...wywatl, ...essentialwatches, ...mtwatches, ...blw, ...crafttailored, ...mywatchllc].sort(
+  const combined = [...watchrecon, ...watchpatrol, ...chrono24, ...bobswatches, ...europeanwatch, ...fbgroups, ...fbmarketplace, ...ebay, ...whatsapp, ...bezel, ...inventoryconnect, ...artimeus, ...swisswatchexpo, ...watchlimit, ...the1916company, ...watchesoff5th, ...affordableswiss, ...exquisitetimepieces, ...ashford, ...luxurybazaar, ...watchaffinity, ...iplaywatch, ...aiswatches, ...elementintime, ...wristaficionado, ...collectors1946, ...grandcaliber, ...crmjewelers, ...providentjewelry, ...topperjewelers, ...materialgood, ...hqmilton, ...analogshift, ...timepiecetrading, ...grayandsons, ...mttimepieces, ...nywatchmarket, ...watchdrop, ...watchesinl, ...brandvillevault, ...watchpilot, ...luxurytime, ...yurwatches, ...vanceluxury, ...feldmar, ...wywatl, ...essentialwatches, ...mtwatches, ...blw, ...crafttailored, ...mywatchllc, ...merwatch].sort(
     (a, b) => (a.postedMinutesAgo ?? 99999) - (b.postedMinutesAgo ?? 99999)
   );
 
-  return { combined, watchrecon, watchpatrol, chrono24, bobswatches, europeanwatch, fbgroups, fbmarketplace, ebay, whatsapp, bezel, inventoryconnect, artimeus, swisswatchexpo, watchlimit, the1916company, watchesoff5th, affordableswiss, exquisitetimepieces, ashford, luxurybazaar, watchaffinity, iplaywatch, aiswatches, elementintime, wristaficionado, collectors1946, grandcaliber, crmjewelers, providentjewelry, topperjewelers, materialgood, hqmilton, analogshift, timepiecetrading, grayandsons, mttimepieces, nywatchmarket, watchdrop, watchesinl, brandvillevault, watchpilot, luxurytime, yurwatches, vanceluxury, feldmar, wywatl, essentialwatches, mtwatches, blw, crafttailored, mywatchllc };
+  return { combined, watchrecon, watchpatrol, chrono24, bobswatches, europeanwatch, fbgroups, fbmarketplace, ebay, whatsapp, bezel, inventoryconnect, artimeus, swisswatchexpo, watchlimit, the1916company, watchesoff5th, affordableswiss, exquisitetimepieces, ashford, luxurybazaar, watchaffinity, iplaywatch, aiswatches, elementintime, wristaficionado, collectors1946, grandcaliber, crmjewelers, providentjewelry, topperjewelers, materialgood, hqmilton, analogshift, timepiecetrading, grayandsons, mttimepieces, nywatchmarket, watchdrop, watchesinl, brandvillevault, watchpilot, luxurytime, yurwatches, vanceluxury, feldmar, wywatl, essentialwatches, mtwatches, blw, crafttailored, mywatchllc, merwatch };
 }
 
 app.get("/api/counts", (req, res) => {
@@ -110,13 +111,7 @@ app.get("/api/counts", (req, res) => {
   const counts = {};
   combined.forEach(i => { counts[i.source] = (counts[i.source]||0)+1; });
   const brands = [...new Set(combined.map(i=>i.brand).filter(Boolean))].sort();
-  const _badColorRx = /[%${}()[\]<>"'\\]|null|label|lbl|dial_color|specifics|box_papers|not stated|unknown|undef|missing/i;
-  const colors = [...new Set(
-    combined
-      .map(i => i.dialColor)
-      .filter(c => c && typeof c === "string" && c.trim().length >= 2 && c.trim().length <= 40 && !_badColorRx.test(c))
-      .map(c => c.trim().charAt(0).toUpperCase() + c.trim().slice(1).toLowerCase())
-  )].sort();
+  const colors = [...new Set(combined.map(i=>i.dialColor).filter(Boolean))].sort();
   res.json({ total: combined.length, counts, brands, colors });
 });
 
@@ -137,7 +132,7 @@ app.get("/api/filter", (req, res) => {
   let items = combined.filter(i => {
     if(src && i.source !== src) return false;
     if(brand && (i.brand||"").toLowerCase() !== brand.toLowerCase()) return false;
-    if(color && i.dialColor !== color) return false;
+    if(color && (!i.dialColor || !i.dialColor.toLowerCase().includes(color.toLowerCase()))) return false;
     if(pMin && (i.price||0) < parseFloat(pMin)) return false;
     if(pMax && (i.price||0) > parseFloat(pMax)) return false;
     if(age && (i.postedMinutesAgo==null || i.postedMinutesAgo > parseInt(age))) return false;
@@ -189,6 +184,27 @@ app.get("/api/search", async (req, res) => {
   });
 });
 
+
+// ── Auto-sync to VPS after each Scout run ──────────────────────────────────
+const { execSync } = require("child_process");
+const VPS_HOST = "root@167.71.29.4";
+const VPS_DATA = "/opt/watch-scout/data/";
+
+function syncToVPS() {
+  try {
+    console.log("[sync] Pushing data files to VPS...");
+    execSync(
+      `rsync -az --timeout=30 "${DATA_DIR}/" ${VPS_HOST}:${VPS_DATA}`,
+      { stdio: "pipe", timeout: 120000 }
+    );
+    console.log("[sync] VPS data sync complete.");
+    execSync(`ssh ${VPS_HOST} "pm2 restart watch-scout"`, { stdio: "pipe", timeout: 30000 });
+    console.log("[sync] VPS pm2 restarted.");
+  } catch (err) {
+    console.warn("[sync] VPS sync failed (non-fatal):", err.message);
+  }
+}
+// ───────────────────────────────────────────────────────────────────────────
 app.get("/api/run-scout-quick", async (req, res) => {
   console.log("\n=== Quick Scout: fast refresh started ===");
   res.writeHead(200, { "Content-Type": "text/event-stream", "Cache-Control": "no-cache", Connection: "keep-alive" });
@@ -238,6 +254,8 @@ app.get("/api/run-scout-quick", async (req, res) => {
   console.log("=== Quick Scout: complete ===\n");
   send("done", { stepResults: {}, message: "Quick refresh complete" });
   res.end();
+  // Push updated data files to VPS in background
+  setImmediate(() => syncToVPS());
 });
 
 app.get("/api/run-scout", async (req, res) => {
@@ -283,7 +301,7 @@ app.get("/api/run-scout", async (req, res) => {
   for (const brand of watchpatrolBrands) {
     slowSteps.push({ name: `WatchPatrol: ${brand}`, script: "watchpatrol-scraper.js", args: [`--query=${brand}`] });
   }
-  const chrono24Brands = getRotationBrands("chrono24", allBrands, 2);
+  const chrono24Brands = getRotationBrands("chrono24", allBrands, allBrands.length);
   for (const brand of chrono24Brands) {
     slowSteps.push({ name: `Chrono24: ${brand}`, script: "chrono24-scraper.js", args: [`--query=${brand}`] });
   }
@@ -352,6 +370,8 @@ app.get("/api/run-scout", async (req, res) => {
     lastLiveSync,
   });
   res.end();
+  // Push updated data files to VPS in background
+  setImmediate(() => syncToVPS());
 });
 
 const { askUltron } = require("./scrapers/ultron-chat");
@@ -1407,6 +1427,223 @@ app.get("/api/history-by-ref/:ref", (req, res) => {
     const idx = JSON.parse(fs.readFileSync(REF_INDEX_FILE, "utf8"));
     if (idx[ref]) return res.json({ ok: true, ...idx[ref] });
     res.status(404).json({ ok: false, error: `No history for ref ${ref}` });
+  } catch (err) {
+    res.status(500).json({ ok: false, error: err.message });
+  }
+});
+
+
+/**
+ * GET /api/market-stats/:ref
+ * Returns live market stats for a ref across all combined sources.
+ */
+app.get("/api/market-stats/:ref", (req, res) => {
+  const ref = (req.params.ref || "").toUpperCase().replace(/[^A-Z0-9-]/g, "");
+  if (!ref) return res.status(400).json({ ok: false, error: "ref required" });
+
+  try {
+    const combined = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "combined.json"), "utf8"));
+    const norm = s => (s || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+    const nRef = norm(ref);
+    const matches = combined.filter(l => {
+      if (!l.price || l.price < 500 || l.price > 2000000) return false;
+      const lRef = norm(l.ref);
+      if (!lRef || lRef.length < 4) return false;
+      // Exact match only — no substring matching to avoid cross-ref pollution
+      return lRef === nRef;
+    });
+
+    if (!matches.length) return res.json({ ok: false, ref, count: 0 });
+
+    const allPrices = matches.map(l => l.price).sort((a, b) => a - b);
+
+    // IQR-based outlier removal — keeps the typical market range
+    // Only apply if we have enough data points (5+)
+    let cleanPrices = allPrices;
+    if (allPrices.length >= 5) {
+      const q1 = allPrices[Math.floor(allPrices.length * 0.25)];
+      const q3 = allPrices[Math.floor(allPrices.length * 0.75)];
+      const iqr = q3 - q1;
+      const lowerFence = q1 - 3.0 * iqr;
+      const upperFence = q3 + 3.0 * iqr;
+      cleanPrices = allPrices.filter(p => p >= lowerFence && p <= upperFence);
+      if (cleanPrices.length === 0) cleanPrices = allPrices; // fallback
+    }
+
+    const prices = cleanPrices;
+    const outlierCount = allPrices.length - prices.length;
+
+    const avg = Math.round(prices.reduce((s, p) => s + p, 0) / prices.length);
+    const median = prices.length % 2 === 0
+      ? Math.round((prices[prices.length/2-1] + prices[prices.length/2]) / 2)
+      : prices[Math.floor(prices.length/2)];
+    const low = prices[0];
+    const high = prices[prices.length - 1];
+
+    // Per-source breakdown (use clean prices per source too)
+    const bySrc = {};
+    matches.forEach(l => {
+      if (!bySrc[l.source]) bySrc[l.source] = { count: 0, prices: [], rawCount: 0 };
+      bySrc[l.source].rawCount++;
+    });
+    // Rebuild with outlier-filtered prices per source
+    const cleanMatches = matches.filter(l => prices.includes(l.price));
+    // Note: prices.includes is ok here since prices array is small
+    // More robust: filter matches whose price is within the global fence
+    const q1g = allPrices.length >= 5 ? allPrices[Math.floor(allPrices.length * 0.25)] : 0;
+    const q3g = allPrices.length >= 5 ? allPrices[Math.floor(allPrices.length * 0.75)] : Infinity;
+    const iqrG = q3g - q1g;
+    const lFence = q1g - 3.0 * iqrG;
+    const uFence = q3g + 3.0 * iqrG;
+    const bySrc2 = {};
+    matches.forEach(l => {
+      const inRange = allPrices.length < 5 || (l.price >= lFence && l.price <= uFence);
+      if (!bySrc2[l.source]) bySrc2[l.source] = { count: 0, prices: [], rawCount: 0 };
+      bySrc2[l.source].rawCount++;
+      if (inRange) {
+        bySrc2[l.source].count++;
+        bySrc2[l.source].prices.push(l.price);
+      }
+    });
+    const sources = Object.entries(bySrc2)
+      .filter(([, d]) => d.count > 0)
+      .map(([src, d]) => ({
+        source: src,
+        count: d.count,
+        rawCount: d.rawCount,
+        avg: Math.round(d.prices.reduce((s,p)=>s+p,0)/d.prices.length),
+        low: Math.min(...d.prices),
+      }))
+      .sort((a, b) => a.avg - b.avg)
+      .slice(0, 15);
+
+    // Price buckets for mini histogram (8 buckets) — based on clean prices
+    const buckets = 8;
+    const bucketSize = (high - low) / buckets || 1;
+    const hist = Array(buckets).fill(0);
+    prices.forEach(p => {
+      const b = Math.min(Math.floor((p - low) / bucketSize), buckets - 1);
+      hist[b]++;
+    });
+
+    res.json({ ok: true, ref, count: prices.length, rawCount: allPrices.length, outlierCount, avg, median, low, high, sources, hist, bucketSize, histMin: low });
+  } catch (err) {
+    res.status(500).json({ ok: false, error: err.message });
+  }
+});
+
+/**
+ * GET /api/price-trend/:ref
+ * Builds a price-over-time trend from all history files for a given ref.
+ */
+app.get("/api/price-trend/:ref", (req, res) => {
+  const ref = (req.params.ref || "").toUpperCase().replace(/[^A-Z0-9-]/g, "");
+  if (!ref) return res.status(400).json({ ok: false, error: "ref required" });
+
+  try {
+    const norm = s => (s || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+    const nRef = norm(ref);
+
+    // Collect all listings matching this ref across all history files + combined
+    const byDate = {}; // { "2026-09-25": [prices] }
+
+    const histFiles = fs.readdirSync(DATA_DIR).filter(f => f.endsWith("-history.json"));
+    // Also include combined.json as latest snapshot
+    const allFiles = [...histFiles, "combined.json"];
+
+    allFiles.forEach(fname => {
+      try {
+        const data = JSON.parse(fs.readFileSync(path.join(DATA_DIR, fname), "utf8"));
+        if (!Array.isArray(data)) return;
+        data.forEach(l => {
+          if (!l.price || l.price < 500 || l.price > 2000000) return;
+          if (norm(l.ref) !== nRef) return;
+          const dateStr = (l.scrapedAt || "").slice(0, 10); // YYYY-MM-DD
+          if (!dateStr || dateStr.length < 10) return;
+          if (!byDate[dateStr]) byDate[dateStr] = [];
+          byDate[dateStr].push(l.price);
+        });
+      } catch { /* skip bad files */ }
+    });
+
+    const dates = Object.keys(byDate).sort();
+    if (dates.length < 2) return res.json({ ok: false, ref, reason: "insufficient data" });
+
+    // IQR outlier removal per day
+    const points = dates.map(date => {
+      let prices = byDate[date].slice().sort((a, b) => a - b);
+      if (prices.length >= 4) {
+        const q1 = prices[Math.floor(prices.length * 0.25)];
+        const q3 = prices[Math.floor(prices.length * 0.75)];
+        const iqr = q3 - q1;
+        prices = prices.filter(p => p >= q1 - 3 * iqr && p <= q3 + 3 * iqr);
+      }
+      const avg = Math.round(prices.reduce((s, p) => s + p, 0) / prices.length);
+      return { date, avg, count: prices.length };
+    });
+
+    const allAvgs = points.map(p => p.avg);
+    const first = allAvgs[0], last = allAvgs[allAvgs.length - 1];
+    const pctChange = first > 0 ? Math.round((last - first) / first * 100 * 10) / 10 : 0;
+    const direction = pctChange < -3 ? "down" : pctChange > 3 ? "up" : "flat";
+
+    res.json({ ok: true, ref, points, pctChange, direction });
+  } catch (err) {
+    res.status(500).json({ ok: false, error: err.message });
+  }
+});
+
+
+/**
+ * GET /api/listings/:ref
+ * Returns all individual listings for a ref (for the breakdown drill-down).
+ */
+app.get("/api/listings/:ref", (req, res) => {
+  const ref = (req.params.ref || "").toUpperCase().replace(/[^A-Z0-9-]/g, "");
+  if (!ref) return res.status(400).json({ ok: false, error: "ref required" });
+  const source = (req.query.source || "").toLowerCase();
+
+  try {
+    const combined = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "combined.json"), "utf8"));
+    const norm = s => (s || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+    const nRef = norm(ref);
+
+    let matches = combined.filter(l => {
+      if (!l.price || l.price < 500 || l.price > 2000000) return false;
+      const lRef = norm(l.ref);
+      if (!lRef || lRef.length < 4) return false;
+      return lRef === nRef;
+    });
+
+    // Outlier fence same as market-stats
+    if (matches.length >= 5) {
+      const prices = matches.map(l => l.price).sort((a,b) => a-b);
+      const q1 = prices[Math.floor(prices.length * 0.25)];
+      const q3 = prices[Math.floor(prices.length * 0.75)];
+      const iqr = q3 - q1;
+      const lo = q1 - 3 * iqr, hi = q3 + 3 * iqr;
+      matches = matches.filter(l => l.price >= lo && l.price <= hi);
+    }
+
+    if (source) {
+      matches = matches.filter(l => (l.source || "").toLowerCase() === source);
+    }
+
+    // Sort by price ascending
+    matches.sort((a, b) => a.price - b.price);
+
+    const listings = matches.map(l => ({
+      id: l.id,
+      title: l.title,
+      source: l.source,
+      price: l.price,
+      url: l.url,
+      imageUrl: l.imageUrl,
+      condition: l.condition,
+      seller: l.seller || l.sourceDetail || "",
+    }));
+
+    res.json({ ok: true, ref, count: listings.length, listings });
   } catch (err) {
     res.status(500).json({ ok: false, error: err.message });
   }

@@ -6,6 +6,38 @@ const DATA_DIR = path.join(__dirname, "..", "data");
 const OUT_FILE = path.join(DATA_DIR, "brandvillevault-latest.json");
 const AUTH_FILE = path.join(DATA_DIR, "brandvillevault-auth.json");
 
+const https = require("https");
+
+const SUPABASE_URL = "https://tulqgebsvpxgwocptnmy.supabase.co";
+
+async function refreshToken(auth) {
+  return new Promise((resolve, reject) => {
+    // We need the anon key — extract it from the JWT header hint or use a known value
+    // Try to refresh via Supabase token endpoint
+    const body = JSON.stringify({ refresh_token: auth.refresh_token });
+    const url = new URL(`${SUPABASE_URL}/auth/v1/token?grant_type=refresh_token`);
+    const req = https.request({
+      hostname: url.hostname,
+      path: url.pathname + url.search,
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Content-Length": Buffer.byteLength(body),
+        "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR1bHFnZWJzdnB4Z3dvY3B0bm15Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ2MjYzOTEsImV4cCI6MjA5MDIwMjM5MX0.H12dPM59cIxlvpR7jbuDjpX11qNdohvi-nhiMxNheJA",
+      }
+    }, res => {
+      let data = "";
+      res.on("data", c => data += c);
+      res.on("end", () => {
+        try { resolve(JSON.parse(data)); } catch(e) { reject(e); }
+      });
+    });
+    req.on("error", reject);
+    req.write(body);
+    req.end();
+  });
+}
+
 async function scrape() {
   console.log("[BrandvilleVault] Starting...");
   const browser = await chromium.launch({ headless: true });
@@ -14,7 +46,23 @@ async function scrape() {
 
   // Set auth token in localStorage before navigating
   if (fs.existsSync(AUTH_FILE)) {
-    const auth = JSON.parse(fs.readFileSync(AUTH_FILE, 'utf8'));
+    let auth = JSON.parse(fs.readFileSync(AUTH_FILE, 'utf8'));
+    // Auto-refresh if token is expired or expiring within 5 minutes
+    if (auth.expires_at && (auth.expires_at - Date.now()/1000) < 300) {
+      console.log("[BrandvilleVault] Token expired/expiring — refreshing...");
+      try {
+        const refreshed = await refreshToken(auth);
+        if (refreshed.access_token) {
+          auth = { ...auth, ...refreshed };
+          fs.writeFileSync(AUTH_FILE, JSON.stringify(auth, null, 2));
+          console.log("[BrandvilleVault] Token refreshed successfully");
+        } else {
+          console.warn("[BrandvilleVault] Refresh failed:", JSON.stringify(refreshed).slice(0, 200));
+        }
+      } catch(e) {
+        console.warn("[BrandvilleVault] Refresh error:", e.message);
+      }
+    }
     await page.addInitScript((authData) => {
       localStorage.setItem('bv-auth-token', JSON.stringify(authData));
       localStorage.setItem('bv_currency', 'USD');

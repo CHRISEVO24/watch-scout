@@ -56,7 +56,7 @@ function run() {
   const sample = [];
   html = replaceBetweenMarkers(html, "LISTINGS_START", "LISTINGS_END", "LISTINGS", sample);
   // Sanitize buyer matches to remove bad characters
-  html = replaceBetweenMarkers(html, "BUYER_MATCHES_START", "BUYER_MATCHES_END", "BUYER_MATCHES", []);
+  html = replaceBetweenMarkers(html, "BUYER_MATCHES_START", "BUYER_MATCHES_END", "BUYER_MATCHES", buyerMatches);
 
   fs.writeFileSync(DASHBOARD_FILE, html, "utf8");
   console.log(`Done. Wrote ${listings.length} listings and ${buyerMatches.length} buyer matches into watch-scout-dashboard.html`);
