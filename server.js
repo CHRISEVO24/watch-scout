@@ -1668,9 +1668,20 @@ app.get("/api/wa/connect", (req, res) => {
   res.json({ ok: true, status: wa.getStatus() });
 });
 
-app.get("/api/wa/qr", (req, res) => {
+app.get("/api/wa/qr", async (req, res) => {
   const qr = wa.getQR();
-  if (qr) return res.json({ qr });
+  if (qr) {
+    try {
+      const QRCode = require("qrcode");
+      const dataUrl = await QRCode.toDataURL(qr, { width: 300, margin: 2, errorCorrectionLevel: "L" });
+      if (dataUrl && dataUrl.startsWith("data:image")) {
+        return res.json({ qr: dataUrl });
+      }
+      throw new Error("QRCode did not produce a data URL");
+    } catch (e) {
+      return res.json({ qr });
+    }
+  }
   res.json({ qr: null, status: wa.getStatus() });
 });
 
