@@ -55,6 +55,8 @@ const SOURCES = [
   { file: "essentialwatches-latest.json", label: "Essential Watches" },
   { file: "1mtwatches-latest.json",       label: "1MT Watches" },
   { file: "blw-latest.json",              label: "Birmingham Luxury Watches" },
+  { file: "mywatchllc-latest.json",        label: "My Watch LLC" },
+  { file: "merwatch-latest.json",           label: "Meridian Timepieces" },
 ];
 
 function run() {
