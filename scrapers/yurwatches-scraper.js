@@ -5,6 +5,7 @@ const axios = require("axios");
 const DATA_DIR = path.join(__dirname, "..", "data");
 const OUT_FILE = path.join(DATA_DIR, "yurwatches-latest.json");
 const API_BASE = "https://elefta-api-prod-5a14dea1fe41.herokuapp.com/v1/store/328b6e/yurwatches";
+const STORE_PASSWORD = "Yurwatches123";
 const HEADERS = { "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36" };
 
 async function scrape() {
@@ -14,7 +15,7 @@ async function scrape() {
 
   while (true) {
     try {
-      const { data } = await axios.get(`${API_BASE}?page=${page}`, { headers: HEADERS, timeout: 30000 });
+      const { data } = await axios.get(`${API_BASE}?page=${page}&password=${STORE_PASSWORD}`, { headers: HEADERS, timeout: 30000 });
       const watches = data.watches || [];
       if (!watches.length) break;
 
